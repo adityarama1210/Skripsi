@@ -1,0 +1,2564 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  30 JAN 2017 09:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**skripsi.tex
+(./skripsi.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabtex.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aconfig.sty
+LaTeX2e detected 
+BABEL detected
+\a@moduledate=\count88
+\a@maindate=\count89
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabaux.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/acmd.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/afonts.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/afonts2.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/ascan.sty
+(ArabTeX) scanner for code `arabtex' installed.
+(ArabTeX) input encoding set to ArabTeX standard conventions.)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aparse.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/awrite.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/xarbsymb.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabskel.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/xarbskel.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aboxes.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabtoks.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabchrs.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aligs.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aoutput.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/abidir.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/atrans.sty
+(ArabTeX) ZDMG transliteration.)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/alatex.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/afoot.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/abjad.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/apatch.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/alists.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/asect.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/atabg.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/alocal.sty
+(ArabTeX) 3.11 local stub, 26.02.2006))
+Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
+(ArabTeX) ... now be patient ... )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/utf8.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/utfcode.sty
+Package: utfcode 2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+\u@lb=\count119
+\u@lq=\count120
+)
+Package: utf8 2000/06/13  3.10 UTF-8 input encoding 
+
+(ArabTeX) scanner for code UTF-8 installed.)
+(ArabTeX) input encoding set to UTF-8 conventions
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks34
+\ex@=\dimen125
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen126
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count121
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count122
+\leftroot@=\count123
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count124
+\DOTSCASE@=\count125
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen127
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count126
+\c@MaxMatrixCols=\count127
+\dotsspace@=\muskip10
+\c@parentequation=\count128
+\dspbrk@lvl=\count129
+\tag@help=\toks35
+\row@=\count130
+\column@=\count131
+\maxfields@=\count132
+\andhelp@=\toks36
+\eqnshift@=\dimen128
+\alignsep@=\dimen129
+\tagshift@=\dimen130
+\tagwidth@=\dimen131
+\totwidth@=\dimen132
+\lineht@=\dimen133
+\@envbody=\toks37
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks38
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks39
+\labelindent=\skip48
+\enit@outerparindent=\dimen134
+\enit@toks=\toks40
+\enit@inbox=\box43
+\enitdp@description=\count133
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count134
+)
+(./uithesis.sty (./tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./multirow.sty
+\bigstrutjot=\dimen135
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks41
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count135
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count136
+\Gm@cntv=\count137
+\c@Gm@tempcnt=\count138
+\Gm@bindingoffset=\dimen138
+\Gm@wd@mp=\dimen139
+\Gm@odd@mp=\dimen140
+\Gm@even@mp=\dimen141
+\Gm@layoutwidth=\dimen142
+\Gm@layoutheight=\dimen143
+\Gm@layouthoffset=\dimen144
+\Gm@layoutvoffset=\dimen145
+\Gm@dimlist=\toks42
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: Fixing ArabTeX on input line 50.
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen146
+\captionmargin@=\dimen147
+\captionwidth=\dimen148
+\caption@tempdima=\dimen149
+\caption@indent=\dimen150
+\caption@parindent=\dimen151
+\caption@hangindent=\dimen152
+)
+\c@ContinuedFloat=\count139
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfloat/subfloat.sty
+Package: subfloat 2003/08/21 version 2.14
+
+Package `subfloat', Version 2.14 of 2003/08/21.
+
+Package subfloat Warning: Numbers of floats not counted:
+(subfloat)                If you use one of the counters subfloatfiguremax or
+(subfloat)                subfloattablemax you will get strange error messages
+(subfloat)                containing \c@subfloatfiguremax or
+(subfloat)                \c@subfloattablemax:
+(subfloat)                Please switch on countmax or remove the code using
+(subfloat)                the counter then..
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pslatex/pslatex.sty
+Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count140
+\calc@Bcount=\count141
+\calc@Adimen=\dimen153
+\calc@Bdimen=\dimen154
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count142
+\calc@Cskip=\skip53
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen155
+\AM@pageheight=\dimen156
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box44
+\AM@global@opts=\toks43
+\AM@toc@title=\toks44
+\c@AM@survey=\count143
+\AM@templatesizebox=\box45
+)
+(./fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip54
+\mylen=\skip55
+\myhi=\skip56
+\px=\skip57
+\py=\skip58
+\pyy=\skip59
+\pxx=\skip60
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen157
+\extrarowheight=\dimen158
+\NC@list=\toks45
+\extratabsurround=\skip61
+\backup@length=\skip62
+)
+\everycr=\toks46
+\minrowclearance=\skip63
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count144
+\float@exts=\toks47
+\float@box=\box46
+\@float@everytoks=\toks48
+\@floatcapt=\box47
+) (./fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip64
+\f@ncyO@elh=\skip65
+\f@ncyO@erh=\skip66
+\f@ncyO@olh=\skip67
+\f@ncyO@orh=\skip68
+\f@ncyO@elf=\skip69
+\f@ncyO@erf=\skip70
+\f@ncyO@olf=\skip71
+\f@ncyO@orf=\skip72
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count145
+\lst@gtempboxa=\box48
+\lst@token=\toks49
+\lst@length=\count146
+\lst@currlwidth=\dimen159
+\lst@column=\count147
+\lst@pos=\count148
+\lst@lostspace=\dimen160
+\lst@width=\dimen161
+\lst@newlines=\count149
+\lst@lineno=\count150
+\lst@maxwidth=\dimen162
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count151
+\lst@skipnumbers=\count152
+\lst@framebox=\box49
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count153
+\FV@InFile=\read1
+\FV@TabBox=\box50
+\c@FancyVerbLine=\count154
+\FV@StepNumber=\count155
+\FV@OutFile=\write5
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip73
+\LTright=\skip74
+\LTpre=\skip75
+\LTpost=\skip76
+\LTchunksize=\count156
+\LTcapwidth=\dimen163
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@cols=\count157
+\LT@rows=\count158
+\c@LT@tables=\count159
+\c@LT@chunks=\count160
+\LT@p@ftn=\toks50
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package atveryend Info: \a@enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen164
+\Hy@linkcounter=\count161
+\Hy@pagecounter=\count162
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count163
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count164
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen165
+\Fld@menulength=\count165
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count166
+\c@Item=\count167
+\c@Hfootnote=\count168
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count169
+\c@bookmark@seq@number=\count170
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip77
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 445.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 445.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 445.
+
+)
+(./laporan_setting.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-bahasa/bahasai.ldf
+Language: bahasa 2008/03/15 v1.0l Bahasa Indonesia support from the babel syste
+m
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count171
+\U@D=\dimen168
+)))
+(./hype.indonesia.tex) (./istilah.tex) (./skripsi.aux (./sampul.aux)
+(./judul_dalam.aux) (./orisinal.aux) (./pengesahan_sidang.aux) (./pengantar.aux
+) (./persetujuan_publikasi.aux) (./abstrak.aux) (./abstract.aux) (./bab1.aux)
+(./bab2.aux) (./bab3.aux) (./bab4.aux) (./bab5.aux) (./bab6.aux))
+\openout1 = `skripsi.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 48
+.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count172
+\scratchdimen=\dimen169
+\scratchbox=\box55
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen170
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks52
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=674.33032pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-11.91173pt
+* \headheight=0.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box56
+\c@lstlisting=\count178
+Package hyperref Info: Link coloring OFF on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count179
+)
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
+
+(./skripsi.out) (./skripsi.out)
+\@outlinefile=\write6
+\openout6 = `skripsi.out'.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/apatch.sty
+\a@lines=\count180
+\a@Lwidth=\dimen171
+\a@displaywidth=\dimen172
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/alocal.sty
+(ArabTeX) 3.11 local stub, 26.02.2006)
+(ArabTeX) version 3.11s (02.07.2006): second phase of patching)
+\openout2 = `sampul.aux'.
+
+ (./sampul.tex
+<pics/makara.png, id=289, 154.86429pt x 154.34807pt>
+File: pics/makara.png Graphic file (type png)
+ <use pics/makara.png>
+Package pdftex.def Info: pics/makara.png used on input line 15.
+(pdftex.def)             Requested size: 71.13188pt x 70.89497pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+
+[1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pics/
+makara.png>])
+\openout2 = `judul_dalam.aux'.
+
+ (./judul_dalam.tex
+File: pics/makara.png Graphic file (type png)
+ <use pics/makara.png>
+Package pdftex.def Info: pics/makara.png used on input line 13.
+(pdftex.def)             Requested size: 71.13188pt x 70.89497pt.
+ [1
+
+
+])
+\openout2 = `orisinal.aux'.
+
+ (./orisinal.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 18
+.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 18
+.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 18
+.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+ [2
+
+
+
+])
+\openout2 = `pengesahan_sidang.aux'.
+
+
+(./pengesahan_sidang.tex
+Overfull \hbox (14.74275pt too wide) in paragraph at lines 14--22
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
+
+Overfull \hbox (10.04211pt too wide) in paragraph at lines 36--44
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--44
+
+ []
+
+[3
+
+
+
+])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 82.
+
+\openout2 = `pengantar.aux'.
+
+(./pengantar.tex) [4
+
+
+
+]
+\openout2 = `persetujuan_publikasi.aux'.
+
+ (./persetujuan_publikasi.tex
+Underfull \hbox (badness 1354) in paragraph at lines 31--37
+\T1/ptm/m/n/12 beserta perangkat yang ada (jika diperlukan). Dengan Hak Bebas R
+oyalti
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 31--37
+\T1/ptm/m/n/12 Noneksklusif ini Universitas Indonesia berhak menyimpan, menga-l
+ih-me-di-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
+
+ []
+
+[5
+
+
+
+])
+\openout2 = `abstrak.aux'.
+
+ (./abstrak.tex
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]|\T1/ptm/m/n/12 Pengembangan Korpus Textual Entailment Bahasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
+
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 27--29
+\T1/ptm/m/it/12 Textual Entailment\T1/ptm/m/n/12 , Co-training, Wikipedia \T1/p
+tm/m/it/12 revision history\T1/ptm/m/n/12 , korpus, Bahasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+[6
+
+
+
+])
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+[7
+
+
+
+]) (./skripsi.toc [8
+
+
+])
+\tf@toc=\write7
+\openout7 = `skripsi.toc'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 101.
+[9] (./skripsi.lof)
+\tf@lof=\write8
+\openout8 = `skripsi.lof'.
+
+ [10
+
+
+] (./skripsi.lot)
+\tf@lot=\write9
+\openout9 = `skripsi.lot'.
+
+ [11
+
+
+] (./skripsi.lol)
+\tf@lol=\write10
+\openout10 = `skripsi.lol'.
+
+ [12
+
+
+]
+\openout2 = `bab1.aux'.
+
+ (./bab1.tex
+Bab 1.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 29--30
+[]\T1/ptm/m/n/12 Tidak semua kandidat jawaban merupakan jawaban yang tepat untu
+k
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 
+      [1
+
+
+
+]
+Underfull \hbox (badness 1389) in paragraph at lines 33--34
+\T1/ptm/m/n/12 et al.[] ([]2015[]) menge-luarkan korpus \T1/ptm/m/it/12 Textual
+ Entailment \T1/ptm/m/n/12 Bahasa Inggris yang
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 37--38
+\T1/ptm/m/n/12 dan revisi untuk menambahkan informasi (cenderung mengarahkan ke
+ label
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+Underfull \hbox (badness 1454) in paragraph at lines 53--54
+\T1/ptm/m/n/12 Bahasa Indonesia dengan menggunakan metode Co-training, sehingga
+ dapat
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 55--56
+[]\T1/ptm/m/n/12 Sebagai penelitian pionir untuk perma-salahan \T1/ptm/m/it/12 
+Textual Entailment \T1/ptm/m/n/12 Bahasa
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 59--60
+\T1/ptm/m/n/12 Penelitian ini berfokus pada pembuatan korpus \T1/ptm/m/it/12 Te
+xtual Entailment \T1/ptm/m/n/12 Bahasa
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Underfull \hbox (badness 1062) in paragraph at lines 76--78
+\T1/ptm/m/n/12 Hasil eksperimen dianalisis lebih dalam pada tahapan ini. Kemudi
+an
+ []
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 87.
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4])
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+\openout2 = `bab2.aux'.
+
+ (./bab2.tex
+Bab 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 28--29
+\T1/ptm/m/it/12 Entailment Extraction\T1/ptm/m/n/12 , \T1/ptm/m/it/12 Textual E
+ntailment Generation\T1/ptm/m/n/12 . \T1/ptm/m/it/12 Textual Entailment
+ []
+
+[6
+
+
+
+]
+Underfull \hbox (badness 1009) in paragraph at lines 45--46
+[]|\T1/ptm/m/n/12 H: Fakultas Ilmu Komputer berada di
+ []
+
+
+Overfull \vbox (17.99449pt too high) detected at line 49
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 57--57
+[]|\T1/ptm/m/n/12 H: Presiden kulit hitam pertama AS
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 59--60
+[]|\T1/ptm/m/n/12 T: Adik menghabiskan kue tersebut
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 60--60
+[]|\T1/ptm/m/n/12 H: Adik menghabiskan kue tersebut
+ []
+
+
+Overfull \hbox (9.14719pt too wide) in paragraph at lines 40--71
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 35--71
+[]\T1/ptm/m/n/12 Tabel []2.1[] menunjukkan contoh pada masing-masing tingkatan.
+ Variasi
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+Underfull \hbox (badness 1629) in paragraph at lines 94--95
+\T1/ptm/m/n/12 korpus \T1/ptm/m/it/12 Textual Entailment \T1/ptm/m/n/12 bahasa 
+Inggris. Namun, korpus tersebut hanya
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 96--97
+[]\T1/ptm/m/n/12 Perkembangan \T1/ptm/m/it/12 Textual Entailment \T1/ptm/m/n/12
+ bahasa Inggris terus berlanjut hingga
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+
+Underfull \hbox (badness 1953) in paragraph at lines 105--106
+\T1/ptm/m/n/12 oleh siapa pun dari seluruh penjuru dunia ([]Denoyer dan Gallina
+ri[], []2006[]).
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 105--106
+\T1/ptm/m/n/12 Sejak kemunculan pertama Wikipedia tahun 2001, Wikipedia mempero
+leh
+ []
+
+<pics/wikidumps.png, id=701, 520.94624pt x 351.56343pt>
+File: pics/wikidumps.png Graphic file (type png)
+
+<use pics/wikidumps.png>
+Package pdftex.def Info: pics/wikidumps.png used on input line 112.
+(pdftex.def)             Requested size: 398.3386pt x 268.82176pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11] <pics/wiki-xml.png, id=716, 592.46344pt x 387.69844pt>
+File: pics/wiki-xml.png Graphic file (type png)
+
+<use pics/wiki-xml.png>
+Package pdftex.def Info: pics/wiki-xml.png used on input line 124.
+(pdftex.def)             Requested size: 398.3386pt x 260.67354pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./pics/wikidumps.png>]
+Underfull \hbox (badness 1163) in paragraph at lines 132--134
+\T1/ptm/m/n/12 di dalam tanda '[[' dan ']]'. Apabila ada opsi lain untuk mengat
+ur
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./pics/wiki-xml.png>]
+<pics/XMLWikipediaRevisionHistory.png, id=731, 458.46281pt x 367.3725pt>
+File: pics/XMLWikipediaRevisionHistory.png Graphic file (type png)
+
+<use pics/XMLWikipediaRevisionHistory.png>
+Package pdftex.def Info: pics/XMLWikipediaRevisionHistory.png used on input lin
+e 145.
+(pdftex.def)             Requested size: 398.3386pt x 319.20787pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <./pics/XMLWikipediaRevisionHistory.png>]
+Underfull \hbox (badness 1127) in paragraph at lines 153--154
+[]\T1/ptm/m/n/12 Selain memiliki kelebihan, Wikipedia \T1/ptm/m/it/12 revision 
+history \T1/ptm/m/n/12 memiliki beberapa
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 153--154
+\T1/ptm/m/n/12 kekurangan, yaitu tidak bisa terhindar dari kesalahan pengejaan 
+dan kasus
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 156--157
+\T1/ptm/m/n/12 Wikipedia merupakan salah satu sumber data yang sering digunakan
+ dalam
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 156--157
+\T1/ptm/m/n/12 seperti penelitian yang dilakukan []Zanzotto dan Penna-cchiotti[
+] ([]2010[]) untuk
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+Underfull \hbox (badness 1320) in paragraph at lines 165--166
+[]\T1/ptm/m/n/12 Ada beberapa jenis pembe-lajaran dalam \T1/ptm/m/it/12 supervi
+sed learning \T1/ptm/m/n/12 berdasarkan
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+Underfull \hbox (badness 1024) in paragraph at lines 169--170
+\T1/ptm/m/n/12 Sebagian besar model \T1/ptm/m/it/12 semi-supervised learning \T
+1/ptm/m/n/12 menggunakan metode \T1/ptm/m/it/12 boots-
+ []
+
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 170.
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
+Underfull \hbox (badness 1320) in paragraph at lines 224--225
+[]\T1/ptm/m/n/12 Percobaan []Zanzotto dan Penna-cchiotti[] ([]2010[]) menggunak
+an sumber data
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 236--237
+\T1/ptm/m/n/12 N-gram merupakan salah satu \T1/ptm/m/it/12 language model \T1/p
+tm/m/n/12 yang menggunakan teknik
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+Underfull \hbox (badness 1466) in paragraph at lines 253--253
+[]|\T1/ptm/m/n/12 Fasilkom UI berada, UI berada di, berada
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+Underfull \hbox (badness 4899) in paragraph at lines 279--281
+\T1/ptm/m/n/12 Naive Bayes memiliki beberapa variasi klasifikasi, salah satunya
+ adalah
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21] <pics/rnn-snli.png, id=913, 325.96782pt x 253.69781pt>
+File: pics/rnn-snli.png Graphic file (type png)
+
+<use pics/rnn-snli.png>
+Package pdftex.def Info: pics/rnn-snli.png used on input line 297.
+(pdftex.def)             Requested size: 239.00558pt x 186.0224pt.
+
+Underfull \hbox (badness 2884) in paragraph at lines 301--302
+[]\T1/ptm/m/n/12 Ada beberapa variasi percobaan yang []Bowman et al.[] ([]2015[
+]) lakukan,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./pics/rnn-snli.png>] <pics/cv.png, id=943, 389.20406pt x 170.88844pt>
+File: pics/cv.png Graphic file (type png)
+
+<use pics/cv.png>
+Package pdftex.def Info: pics/cv.png used on input line 321.
+(pdftex.def)             Requested size: 278.83578pt x 122.43202pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+Underfull \hbox (badness 3364) in paragraph at lines 332--333
+\T1/ptm/m/n/12 tingkat persetujuan antar anotator. Tingkat persetujuan tersebut
+ dihitung
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <./pics/cv.png>])
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+\openout2 = `bab3.aux'.
+
+ (./bab3.tex
+Bab 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
+<pics/arsitektur_sistem.png, id=989, 737.75626pt x 447.6725pt>
+File: pics/arsitektur_sistem.png Graphic file (type png)
+
+<use pics/arsitektur_sistem.png>
+Package pdftex.def Info: pics/arsitektur_sistem.png used on input line 13.
+(pdftex.def)             Requested size: 398.3386pt x 241.71222pt.
+ [26
+
+
+
+ <./pics/arsitektur_sistem.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27] <pics/isi-korpus.png, id=1011, 286.06876pt x 184.43906pt>
+File: pics/isi-korpus.png Graphic file (type png)
+
+<use pics/isi-korpus.png>
+Package pdftex.def Info: pics/isi-korpus.png used on input line 35.
+(pdftex.def)             Requested size: 266.88612pt x 172.07251pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <./pics/isi-korpus.png>]
+<pics/revisi_induk.png, id=1020, 451.6875pt x 243.91125pt>
+File: pics/revisi_induk.png Graphic file (type png)
+
+<use pics/revisi_induk.png>
+Package pdftex.def Info: pics/revisi_induk.png used on input line 55.
+(pdftex.def)             Requested size: 338.59023pt x 182.84738pt.
+
+<pics/hasil-pemasangan.png, id=1023, 410.2828pt x 286.82156pt>
+File: pics/hasil-pemasangan.png Graphic file (type png)
+
+<use pics/hasil-pemasangan.png>
+Package pdftex.def Info: pics/hasil-pemasangan.png used on input line 63.
+(pdftex.def)             Requested size: 338.59023pt x 236.70071pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29 <./pics/revisi_induk.png>]
+<pics/par_align.png, id=1033, 686.565pt x 394.47375pt>
+File: pics/par_align.png Graphic file (type png)
+
+<use pics/par_align.png>
+Package pdftex.def Info: pics/par_align.png used on input line 73.
+(pdftex.def)             Requested size: 338.59023pt x 194.5398pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 <./pics/hasil-pemasangan.png>]
+<pics/contoh-penyesuaian-par.png, id=1042, 496.10344pt x 398.99063pt>
+File: pics/contoh-penyesuaian-par.png Graphic file (type png)
+
+<use pics/contoh-penyesuaian-par.png>
+Package pdftex.def Info: pics/contoh-penyesuaian-par.png used on input line 80.
+
+(pdftex.def)             Requested size: 338.59023pt x 272.31458pt.
+
+Underfull \hbox (badness 1661) in paragraph at lines 77--83
+[]\T1/ptm/m/n/12 Sepasang paragraf yang sesuai tidak selalu memiliki teks yang 
+sama
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 84--86
+\T1/ptm/m/n/12 Selain dapat menye-suaikan berdasarkan konteks pembicaraan, pros
+es
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 84--86
+\T1/ptm/m/n/12 penyesuaian paragraf dapat mengi-den-ti-fi-kasikan penambahan ma
+upun
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31 <./pics/par_align.png> <./pics/contoh-penyesuaian-par.png>]
+<pics/sen_align.png, id=1050, 425.33907pt x 169.38281pt>
+File: pics/sen_align.png Graphic file (type png)
+
+<use pics/sen_align.png>
+Package pdftex.def Info: pics/sen_align.png used on input line 91.
+(pdftex.def)             Requested size: 338.59023pt x 134.84477pt.
+
+<pics/contoh-penyesuaian-kal.png, id=1051, 639.13782pt x 387.69844pt>
+File: pics/contoh-penyesuaian-kal.png Graphic file (type png)
+
+<use pics/contoh-penyesuaian-kal.png>
+Package pdftex.def Info: pics/contoh-penyesuaian-kal.png used on input line 98.
+
+(pdftex.def)             Requested size: 338.59023pt x 205.39044pt.
+
+Underfull \hbox (badness 1867) in paragraph at lines 95--101
+\T1/ptm/m/n/12 penambahan kalimat pada paragraf di teks revisi terjadi jika kal
+imat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32 <./pics/sen_align.png>]
+Underfull \hbox (badness 5245) in paragraph at lines 104--108
+\T1/ptm/m/n/12 Pemasangan kalimat dilakukan dengan menggunakan kalimat akibat
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 104--108
+\T1/ptm/m/n/12 penambahan dan pengurangan yang sudah teriden-tifikasi di proses
+
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 104--108
+\T1/ptm/m/n/12 Tujuan dari penge-lompokan adalah untuk lebih mengecilkan kontek
+s
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33 <./pics/contoh-penyesuaian-kal.png>]
+Underfull \hbox (badness 1584) in paragraph at lines 110--111
+[]\T1/ptm/m/n/12 Apabila kalimat yang ditambah berjumlah lebih banyak daripada
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 110--111
+\T1/ptm/m/n/12 kalimat yang dihapus, kalimat penambahan di posisi setelah
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 110--111
+\T1/ptm/m/n/12 ini dilakukan dengan asumsi bahwa kalimat tersebut merupakan
+ []
+
+<pics/sen_pair.png, id=1068, 356.83313pt x 116.68594pt>
+File: pics/sen_pair.png Graphic file (type png)
+
+<use pics/sen_pair.png>
+Package pdftex.def Info: pics/sen_pair.png used on input line 115.
+(pdftex.def)             Requested size: 298.75394pt x 97.69858pt.
+
+<pics/contoh-pemasangan-kal.png, id=1070, 532.99126pt x 395.22656pt>
+File: pics/contoh-pemasangan-kal.png Graphic file (type png)
+
+<use pics/contoh-pemasangan-kal.png>
+Package pdftex.def Info: pics/contoh-pemasangan-kal.png used on input line 122.
+
+(pdftex.def)             Requested size: 338.59023pt x 251.08066pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34 <./pics/sen_pair.png>]
+<pics/T-H-pair.png, id=1078, 467.49657pt x 270.25969pt>
+File: pics/T-H-pair.png Graphic file (type png)
+
+<use pics/T-H-pair.png>
+Package pdftex.def Info: pics/T-H-pair.png used on input line 132.
+(pdftex.def)             Requested size: 338.59023pt x 195.74974pt.
+
+Underfull \hbox (badness 3514) in paragraph at lines 129--135
+[]\T1/ptm/m/n/12 Pada akhir proses pembentukan kandidat T dan H, komentar penul
+is
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35 <./pics/contoh-pemasangan-kal.png>]
+<pics/hasil-anotasi-manual.png, id=1087, 454.69875pt x 284.56313pt>
+File: pics/hasil-anotasi-manual.png Graphic file (type png)
+
+<use pics/hasil-anotasi-manual.png>
+Package pdftex.def Info: pics/hasil-anotasi-manual.png used on input line 144.
+(pdftex.def)             Requested size: 338.59023pt x 211.90208pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./pics/T-H-pair.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37 <./pics/hasil-anotasi-manual.png>]
+Underfull \hbox (badness 1292) in paragraph at lines 154--155
+\T1/ptm/m/n/12 persetujuan secara keseluruhan dan individu. Perhitungan persetu
+juan
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 155--156
+[]\T1/ptm/m/n/12 Melakukan penyaringan anotator dan pelaksanaan anotasi pada da
+ta
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38]
+Underfull \hbox (badness 1137) in paragraph at lines 173--174
+[]\T1/ptm/m/n/12 Saat ini, metode \T1/ptm/m/it/12 deep learning \T1/ptm/m/n/12 
+sedang populer dalam penelitian dengan
+ []
+
+<pics/arsitektur_rnn.png, id=1121, 614.295pt x 353.32pt>
+File: pics/arsitektur_rnn.png Graphic file (type png)
+
+<use pics/arsitektur_rnn.png>
+Package pdftex.def Info: pics/arsitektur_rnn.png used on input line 178.
+(pdftex.def)             Requested size: 338.59023pt x 194.74712pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39 <./pics/arsitektur_rnn.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40] <pics/fitur_tambahan.png, id=1143, 766.36313pt x 144.54pt>
+File: pics/fitur_tambahan.png Graphic file (type png)
+
+<use pics/fitur_tambahan.png>
+Package pdftex.def Info: pics/fitur_tambahan.png used on input line 204.
+(pdftex.def)             Requested size: 358.50229pt x 67.6162pt.
+
+Underfull \hbox (badness 1199) in paragraph at lines 201--207
+\T1/ptm/m/n/12 kata tidak bersesuaian di T dan H adalah: ([dia], [beliau]), ([m
+engambil],
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 214--215
+[]\T1/ptm/m/n/12 Pasangan kelompok kata tidak bersesuaian yang berpasangan deng
+an
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 215--216
+[]\T1/ptm/m/n/12 Pasangan kelompok kata tidak bersesuaian yang berpasangan deng
+an
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41 <./pics/fitur_tambahan.png>])
+Underfull \hbox (badness 1577) in paragraph at lines 228--120
+\T1/ptm/m/n/12 kandidat \T1/ptm/m/it/12 classifier \T1/ptm/m/n/12 yang akan dig
+unakan, yaitu Neural Network (Multilayer
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
+\openout2 = `bab4.aux'.
+
+ (./bab4.tex
+Bab 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 10--11
+\T1/ptm/m/n/12 Hal pertama yang harus dilakukan terhadap berkas XML Wikipedia a
+dalah
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 10--11
+\T1/ptm/m/n/12 dilakukan dengan bantuan \T1/ptm/m/it/12 tools \T1/ptm/m/n/12 Wi
+kipedia Extractor[][][] yang berupa program
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 10--11
+\T1/ptm/m/n/12 berbahasa Python untuk mengekstrak dan membersihkan dokumen XML
+ []
+
+<pics/wiki-XML-2.png, id=1167, 642.90187pt x 432.11438pt>
+File: pics/wiki-XML-2.png Graphic file (type png)
+
+<use pics/wiki-XML-2.png>
+Package pdftex.def Info: pics/wiki-XML-2.png used on input line 20.
+(pdftex.def)             Requested size: 398.3386pt x 267.7433pt.
+
+<pics/hasil-ekstraksi.png, id=1171, 507.39563pt x 270.25969pt>
+File: pics/hasil-ekstraksi.png Graphic file (type png)
+
+<use pics/hasil-ekstraksi.png>
+Package pdftex.def Info: pics/hasil-ekstraksi.png used on input line 27.
+(pdftex.def)             Requested size: 398.3386pt x 212.17905pt.
+
+Underfull \hbox (badness 1178) in paragraph at lines 24--30
+\T1/ptm/m/n/12 semua artikel Wikipedia. Sedangkan, gambar []4.2[] menunjukkan h
+asil yang
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 24--30
+\T1/ptm/m/n/12 dikeluarkan program Wikipedia Extractor setelah melakukan ekstra
+ksi pada
+ []
+
+[43
+
+
+
+ <./pics/wiki-XML-2.png>]
+Underfull \hbox (badness 1472) in paragraph at lines 33--34
+[]\T1/ptm/m/it/12 Tools \T1/ptm/m/n/12 Wikipedia Extractor hanya menerima struk
+tur XML semua artikel
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+LaTeX Font Info:    Font shape `T1/pcr/bx/it' in size <10> not available
+(Font)              Font shape `T1/pcr/b/it' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/pcr/b/it' in size <10> not available
+(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 36.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44 <./pics/hasil-ekstraksi.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46] <pics/sen-split.png, id=1238, 439.6425pt x 188.95593pt>
+File: pics/sen-split.png Graphic file (type png)
+
+<use pics/sen-split.png>
+Package pdftex.def Info: pics/sen-split.png used on input line 101.
+(pdftex.def)             Requested size: 398.3386pt x 171.20917pt.
+
+Underfull \hbox (badness 2343) in paragraph at lines 109--110
+\T1/ptm/m/n/12 Word2Vec[][][] yang tersedia untuk bahasa Python. Seperti yang d
+isebutkan
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 109--110
+\T1/ptm/m/n/12 pada bagian []2.5.2[], salah satu cara menga-pli-kasikan \T1/ptm
+/m/it/12 word embedding \T1/ptm/m/n/12 adalah
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 109--110
+\T1/ptm/m/n/12 bahasa Python yang dapat digunakan untuk mengim-ple-men-tasikan 
+prosedur
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47 <./pics/sen-split.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49]
+Underfull \hbox (badness 1248) in paragraph at lines 186--187
+[]\T1/ptm/m/n/12 Perbedaan antara dua kalimat hanya berupa keterangan tambahan
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 208--211
+\T1/ptm/m/n/12 Kelompok kalimat penambahan di teks induk dan kelompok kalimat
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 211--212
+[]\T1/ptm/m/n/12 Apabila jumlah kalimat yang dikurangi lebih banyak, kalimat
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 212--213
+[]\T1/ptm/m/n/12 Apabila jumlah kalimat yang ditambahkan lebih banyak, kalimat
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
+Underfull \hbox (badness 2529) in paragraph at lines 213--214
+[]\T1/ptm/m/n/12 Selebihnya, kalimat yang dikurangi dipasangkan dengan kalimat
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 234--235
+\T1/ptm/m/n/12 Proses pemasangan belum berakhir, pasangan kalimat tersebut perl
+u
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 234--235
+\T1/ptm/m/n/12 mana yang menjadi H. Untuk menentukan hal tersebut kami hanya
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 234--235
+\T1/ptm/m/n/12 sebagai pertimbangan. Kalimat yang lebih panjang akan menjadi T,
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54]
+Underfull \hbox (badness 1533) in paragraph at lines 339--340
+\T1/ptm/m/n/12 Co-training akan berjalan dalam beberapa iterasi hingga mencapai
+ \T1/ptm/m/it/12 stopping
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55])
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56]
+\openout2 = `bab5.aux'.
+
+ (./bab5.tex
+Bab 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\T1/ptm/m/n/12 Tangga
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T1/ptm/m/n/12 idwiki-20160901-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T1/ptm/m/n/12 pages-articles-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T1/ptm/m/it/12 Articles, templates,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T1/ptm/m/n/12 dan \T1/ptm/m/it/12 primary meta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T1/ptm/m/n/12 2016-09-02
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\T1/ptm/m/n/12 381.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\T1/ptm/m/n/12 idwiki-20160901-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\T1/ptm/m/n/12 pages-meta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\T1/ptm/m/n/12 All pages with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\T1/ptm/m/n/12 complete page edit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\T1/ptm/m/n/12 2016-09-07
+ []
+
+
+Overfull \hbox (11.18488pt too wide) in paragraph at lines 15--28
+ [][] 
+ []
+
+[57
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60]
+Underfull \hbox (badness 1132) in paragraph at lines 138--139
+\T1/ptm/m/n/12 Setelah melakukan langkah-langkah tersebut, bibit yang diperoleh
+ berkurang
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61]
+Underfull \hbox (badness 3679) in paragraph at lines 170--170
+\T1/ptm/m/n/12 perubahan teks, menggunakan mesin wikipedia,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62]
+Underfull \hbox (badness 1077) in paragraph at lines 179--193
+\T1/ptm/m/n/12 Kombinasi fitur terbaik hasil dari tahap pemilihan fitur menggun
+akan \T1/ptm/m/it/12 select
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 179--193
+\T1/ptm/m/it/12 attribute \T1/ptm/m/n/12 pada Weka digunakan sebagai fitur untu
+k percobaan \T1/ptm/m/it/12 k-fold cross
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63] <pics/hasil-cotrain.png, id=1527, 478.78876pt x 355.3275pt>
+File: pics/hasil-cotrain.png Graphic file (type png)
+
+<use pics/hasil-cotrain.png>
+Package pdftex.def Info: pics/hasil-cotrain.png used on input line 216.
+(pdftex.def)             Requested size: 398.3386pt x 295.62115pt.
+
+Underfull \hbox (badness 1354) in paragraph at lines 213--219
+\T1/ptm/m/n/12 Hasil tiap iterasi dari percobaan Co-training disimpan untuk die
+valuasi dan
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64] <pics/grafik-jumlah.png, id=1533, 684.30656pt x 426.84468pt>
+File: pics/grafik-jumlah.png Graphic file (type png)
+
+<use pics/grafik-jumlah.png>
+Package pdftex.def Info: pics/grafik-jumlah.png used on input line 224.
+(pdftex.def)             Requested size: 398.3386pt x 248.4754pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[65 <./pics/hasil-cotrain.png>]
+Overfull \hbox (1.71642pt too wide) in paragraph at lines 238--238
+[]|\T1/ptm/m/n/12 Label
+ []
+
+
+Overfull \hbox (1.71642pt too wide) in paragraph at lines 238--238
+[]|\T1/ptm/m/n/12 Label
+ []
+
+
+Overfull \hbox (3.36935pt too wide) in paragraph at lines 238--238
+[]|\T1/ptm/m/n/12 Jumlah| 
+ []
+
+
+Overfull \hbox (1.85631pt too wide) in paragraph at lines 238--238
+[]|\T1/ptm/m/n/12 Sampel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
+\T1/ptm/m/n/12 E
+ []
+
+
+Overfull \hbox (1.85631pt too wide) in paragraph at lines 238--238
+[]|\T1/ptm/m/n/12 Sampel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
+\T1/ptm/m/n/12 NE
+ []
+
+
+Overfull \hbox (3.84837pt too wide) in paragraph at lines 238--238
+[]|\T1/ptm/m/n/12 Akurasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
+\T1/ptm/m/n/12 Label
+ []
+
+
+Overfull \hbox (3.84837pt too wide) in paragraph at lines 238--238
+[]|\T1/ptm/m/n/12 Akurasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
+\T1/ptm/m/n/12 Label
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
+[]|\T1/ptm/m/n/12 Rata-rata
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66 <./pics/grafik-jumlah.png>]
+<pics/grafik-akurasi.png, id=1547, 622.57594pt x 353.06906pt>
+File: pics/grafik-akurasi.png Graphic file (type png)
+
+<use pics/grafik-akurasi.png>
+Package pdftex.def Info: pics/grafik-akurasi.png used on input line 262.
+(pdftex.def)             Requested size: 398.3386pt x 225.90416pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[67] <pics/kasus-1-1.png, id=1552, 410.2828pt x 190.46156pt>
+File: pics/kasus-1-1.png Graphic file (type png)
+
+<use pics/kasus-1-1.png>
+Package pdftex.def Info: pics/kasus-1-1.png used on input line 278.
+(pdftex.def)             Requested size: 338.59023pt x 157.1792pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68 <./pics/grafik-akurasi.png>]
+Underfull \hbox (badness 1629) in paragraph at lines 282--283
+\T1/ptm/m/n/12 Gambar di atas menunjukkan contoh data yang mengalami kesalahan
+ []
+
+<pics/kasus-1-2.png, id=1559, 419.31656pt x 271.76532pt>
+File: pics/kasus-1-2.png Graphic file (type png)
+
+<use pics/kasus-1-2.png>
+Package pdftex.def Info: pics/kasus-1-2.png used on input line 286.
+(pdftex.def)             Requested size: 338.59023pt x 219.44447pt.
+
+<pics/kasus-2.png, id=1560, 404.26031pt x 190.46156pt>
+File: pics/kasus-2.png Graphic file (type png)
+ <use pics/kasus-2.png>
+Package pdftex.def Info: pics/kasus-2.png used on input line 294.
+(pdftex.def)             Requested size: 338.59023pt x 159.5245pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69 <./pics/kasus-1-1.png> <./pics/kasus-1-2.png>]
+<pics/bagus-1.png, id=1569, 417.81094pt x 301.125pt>
+File: pics/bagus-1.png Graphic file (type png)
+ <use pics/bagus-1.png>
+Package pdftex.def Info: pics/bagus-1.png used on input line 305.
+(pdftex.def)             Requested size: 338.59023pt x 244.04315pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70 <./pics/kasus-2.png>])
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71 <./pics/bagus-1.png>]
+\openout2 = `bab6.aux'.
+
+ (./bab6.tex
+Bab 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 10--11
+\T1/ptm/m/n/12 metode \T1/ptm/m/it/12 semi-supervised learning\T1/ptm/m/n/12 . 
+Metode Co-training pernah dicoba untuk
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 12--13
+[]\T1/ptm/m/n/12 Penelitian ini berusaha mencoba menggunakan metode Co-training
+ untuk
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 14--15
+[]\T1/ptm/m/n/12 Masukan untuk proses Co-training berupa data pasangan T dan H 
+serta
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 14--15
+\T1/ptm/m/n/12 komentar penulis yang sebagian kecil telah dilabeli (bibit Co-tr
+aining) dan
+ []
+
+[72
+
+
+
+]
+Underfull \hbox (badness 3417) in paragraph at lines 30--31
+[]\T1/ptm/m/n/12 Amati lebih dalam mengenai fitur-fitur yang berpotensi memberi
+kan
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73]
+Underfull \hbox (badness 1077) in paragraph at lines 32--33
+\T1/ptm/m/n/12 Wikipedia Revision History lebih cocok digunakan untuk RTE tingk
+at
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74] (./skripsi.bbl [75
+
+
+]
+Underfull \hbox (badness 1648) in paragraph at lines 115--121
+\T1/ptm/m/n/12 J. (2009).  A novel conne-ctionist system for uncon-strained han
+dwriting
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77]
+Underfull \hbox (badness 1975) in paragraph at lines 247--251
+\T1/ptm/m/n/12 P. (2015).  Reasoning about entailment with neural attention.  \
+T1/ptm/m/it/12 CoRR\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 260--265
+\T1/ptm/m/n/12 extraction.  In \T1/ptm/m/it/12 Proceedings of the second inter-
+national workshop on
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 260--265
+\T1/ptm/m/it/12 Paraphrasing-Volume 16\T1/ptm/m/n/12 , pages 65--71. Associatio
+n for Compu-tational
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78]
+Underfull \hbox (badness 2088) in paragraph at lines 288--294
+\T1/ptm/m/n/12 pages 1442--1451, San Diego, California. Association for Compu-t
+ational
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[79]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+ (./skripsi.aux (./sampul.aux) (./judul_dalam.aux) (./orisinal.aux)
+(./pengesahan_sidang.aux) (./pengantar.aux) (./persetujuan_publikasi.aux)
+(./abstrak.aux) (./abstract.aux) (./bab1.aux) (./bab2.aux) (./bab3.aux)
+(./bab4.aux) (./bab5.aux) (./bab6.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+
+
+ *File List*
+  report.cls    2014/09/29 v1.4h Standard LaTeX document class
+  size12.clo    2014/09/29 v1.4h Standard LaTeX file (size option)
+ arabtex.sty    2003/08/22  3.11 ArabTeX main module
+ arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
+    acmd.sty    2003/08/20  3.11 Arabic command processing 
+  afonts.sty    1995/11/16  3.04 define Naskh font 
+ afonts2.sty    1998/10/19  3.10 define Naskh fonts for LaTeX2e
+   ascan.sty    2003/08/22  3.11 standard ZDMG input encoding 
+  aparse.sty    2003/05/26  3.11 get syllables 
+  awrite.sty    2003/06/05  3.11 build output word 
+xarbsymb.sty    1998/07/15  3.07 symbolic output encoding 
+arabskel.sty    2000/06/04  3.10 character skeleton definitions 
+xarbskel.sty    1999/07/17  3.09 character skeleton definitions 
+  aboxes.sty    2003/05/28  3.11 build output boxes
+arabtoks.sty    1999/07/17  3.09 ArabTeX CS token definitions 
+arabchrs.sty    1998/07/11  3.07 letter token definitions 
+   aligs.sty    2003/05/26  3.11 compute ligatures
+ aoutput.sty    2000/06/04  3.10 build output lines
+  abidir.sty    2003/08/22  3.11 bidirectional linebreaking
+  atrans.sty    2003/06/14  3.11 generate the transliteration 
+  alatex.sty    2003/05/04  3.11 ArabTeX extensions for LaTeX 
+   afoot.sty    2003/05/12  3.11 ArabTeX footnotes
+   abjad.sty    2003/04/26  3.11 abjad numerals 
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  alists.sty    2003/04/26  3.11 inverted list macros
+   asect.sty    2003/04/26  3.11 section macros for Arabic
+   atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+    utf8.sty    2000/06/13  3.10 UTF-8 input encoding 
+ utfcode.sty    2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+ amsmath.sty    2016/03/10 v2.15b AMS math features
+ amstext.sty    2000/06/29 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2016/03/08 v2.02 operator names
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+enumitem.sty    2011/09/28 v3.5.2 Customized lists
+  natbib.sty    2010/09/13 8.31b (PWD, AO)
+uithesis.sty    
+tocbibind.sty    2010/10/13 v1.5k extra ToC listings
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+multirow.sty    
+graphicx.sty    2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+graphics.sty    2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/01/02 v1.10 sample graphics configuration
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+setspace.sty    2011/12/19 v6.7a set line spacing
+geometry.sty    2010/09/12 v5.6 Page Geometry
+   ifpdf.sty    2016/05/14 v3.1 Provides the ifpdf switch
+  ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+ caption.sty    2016/02/21 v3.3-144 Customizing captions (AR)
+caption3.sty    2016/02/04 v1.7-139 caption3 kernel (AR)
+subfloat.sty    2003/08/21 version 2.14
+ pslatex.sty    1996/07/24 v1.2 pslatex emulation (DPC)
+pdfpages.sty    2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+  ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+    calc.sty    2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+ eso-pic.sty    2015/07/21 v2.0g eso-pic (RN)
+atbegshi.sty    2016/05/16 v1.17 At begin shipout hook (HO)
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+pppdftex.def    2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+fncychap.sty    2007/07/30 v1.34 LaTeX package (Revised chapters)
+colortbl.sty    2012/02/13 v1.0a Color table columns (DPC)
+   array.sty    2014/10/28 v2.4c Tabular extension package (FMi)
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+ fontenc.sty
+   t1enc.def    2005/09/27 v1.99g Standard LaTeX file
+fancyhdr.sty    
+listings.sty    2015/06/04 1.6 (Carsten Heinz)
+ lstmisc.sty    2015/06/04 1.6 (Carsten Heinz)
+listings.cfg    2015/06/04 1.6 listings configuration
+lstlang1.sty    2015/06/04 1.6 listings language file
+ lstmisc.sty    2015/06/04 1.6 (Carsten Heinz)
+fancyvrb.sty    2008/02/07
+  hhline.sty    2014/10/28 v2.03 Table rule package (DPC)
+pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+  lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
+longtable.sty    2014/10/28 v4.11 Multi-page Table package (DPC)
+hyperref.sty    2016/05/05 v6.83n Hypertext links for LaTeX
+hobsub-hyperref.sty    2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2016/05/16 v1.14 Construct package bundles (HO)
+ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
+ intcalc.sty    2016/05/16 v1.2 Expandable calculations with integers (HO)
+etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
+kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
+pdftexcmds.sty    2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2016/05/16 v1.4 Expandable calculations on big integers (HO)
+  bitset.sty    2016/05/16 v1.2 Handle bit-vector datatype (HO)
+uniquecounter.sty    2016/05/16 v1.3 Provide unlimited unique counter (HO)
+letltxmacro.sty    2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2016/05/16 v1.3 Wrapper for package hooks (HO)
+xcolor-patch.sty    2016/05/16 xcolor patch
+atveryend.sty    2016/05/16 v1.9 Hooks at the very end of document (HO)
+refcount.sty    2016/05/16 v3.5 Data extraction from label references (HO)
+ hycolor.sty    2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+ auxhook.sty    2016/05/16 v1.4 Hooks for auxiliary files (HO)
+kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
+  pd1enc.def    2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+ hpdftex.def    2016/05/05 v6.83n Hyperref driver for pdfTeX
+rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+laporan_setting.tex
+   babel.sty    2016/04/23 3.9r The Babel package
+ bahasai.ldf
+    hype.indonesia
+ istilah.tex
+omspzccm.fd    2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+supp-pdf.mkii
+epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
+  grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ltcaption.sty    2013/06/09 v1.4-94 longtable captions (AR)
+ nameref.sty    2012/10/27 v2.43 Cross-referencing by name of section
+gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
+ skripsi.out
+ skripsi.out
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  sampul.tex
+pics/makara.png
+judul_dalam.tex
+pics/makara.png
+orisinal.tex
+ot1ptmcm.fd    2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+omlptmcm.fd    2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+omxpsycm.fd    2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+pengesahan_sidang.tex
+pengantar.tex
+persetujuan_publikasi.tex
+ abstrak.tex
+abstract.tex
+    bab1.tex
+    bab2.tex
+pics/wikidumps.png
+pics/wiki-xml.png
+pics/XMLWikipediaRevisionHistory.png
+pics/rnn-snli.png
+ pics/cv.png
+    bab3.tex
+pics/arsitektur_sistem.png
+pics/isi-korpus.png
+pics/revisi_induk.png
+pics/hasil-pemasangan.png
+pics/par_align.png
+pics/contoh-penyesuaian-par.png
+pics/sen_align.png
+pics/contoh-penyesuaian-kal.png
+pics/sen_pair.png
+pics/contoh-pemasangan-kal.png
+pics/T-H-pair.png
+pics/hasil-anotasi-manual.png
+pics/arsitektur_rnn.png
+pics/fitur_tambahan.png
+    bab4.tex
+pics/wiki-XML-2.png
+pics/hasil-ekstraksi.png
+lstlang1.sty    2015/06/04 1.6 listings language file
+pics/sen-split.png
+    bab5.tex
+pics/hasil-cotrain.png
+pics/grafik-jumlah.png
+pics/grafik-akurasi.png
+pics/kasus-1-1.png
+pics/kasus-1-2.png
+pics/kasus-2.png
+pics/bagus-1.png
+    bab6.tex
+ skripsi.bbl
+ ***********
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package rerunfilecheck Info: File `skripsi.out' has not changed.
+(rerunfilecheck)             Checksum: 2889B6E3D27512102427790A38806DB6;4897.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
+ ) 
+Here is how much of TeX's memory you used:
+ 16502 strings out of 493014
+ 229117 string characters out of 6133352
+ 497440 words of memory out of 5000000
+ 18826 multiletter control sequences out of 15000+600000
+ 64500 words of font info for 111 fonts, out of 8000000 for 9000
+ 1266 hyphenation exceptions out of 8191
+ 44i,13n,51p,1374b,1973s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/courier/ucrbo8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
+mr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+
+Output written on skripsi.pdf (92 pages, 939520 bytes).
+PDF statistics:
+ 1789 PDF objects out of 2073 (max. 8388607)
+ 1599 compressed objects within 16 object streams
+ 603 named destinations out of 1000 (max. 500000)
+ 719 words of extra memory for PDF output out of 10000 (max. 10000000)
+

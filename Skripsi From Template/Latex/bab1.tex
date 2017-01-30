@@ -1,0 +1,105 @@
+%!TEX root = skripsi.tex
+%-----------------------------------------------------------------------------%
+\chapter{\babSatu}
+%-----------------------------------------------------------------------------%
+Bab ini membahas mengenai latar belakang penelitian, perumusan masalah, tujuan dan manfaat penelitian, ruang lingkup penelitian, metodologi penelitian, serta sistematika penulisan.
+
+%-----------------------------------------------------------------------------%
+\section{Latar Belakang}
+%-----------------------------------------------------------------------------%	
+
+Hubungan \textit{textual entailment} antara dua buah teks menunjukkan bahwa makna salah satu teks dapat diturunkan dari teks lainnya. Fenomena \textit{textual entailment} terjadi karena suatu makna dapat disampaikan ke dalam teks bahasa manusia dengan beragam cara. Fenomena tersebut lumrah terjadi pada penelitian bidang NLP. Sebagai contoh, sebuah sistem tanya jawab (\textit{QA system}) diberikan pertanyaan berikut: "Di mana kampus UI berada?". Pertanyaan dalam bahasa manusia itu akan diubah oleh \textit{QA system} menjadi \textit{query} "Kampus UI berada di ...". Sistem mencari dokumen berdasarkan \textit{query} dan memperoleh teks paragraf berikut.
+
+(P1) : "Universitas Indonesia, biasa disingkat sebagai UI, adalah sebuah
+
+perguruan tinggi di Indonesia. Kampus utamanya terletak di bagian Utara dari
+
+Depok, Jawa Barat tepat di perbatasan antara Depok dengan wilayah Jakarta
+
+Selatan." 
+
+\noindent Potongan teks tersebut mengandung beberapa informasi lokasi. Potongan informasi lokasi yang terdeteksi kemudian dimasukkan ke dalam \textit{query}, sehingga diperoleh beberapa kandidat jawaban berikut.
+
+(K1) : "Kampus UI berada di Depok."
+
+(K2) : "Kampus UI berada di Jawa Barat."
+
+(K3) : "Kampus UI berada di Jakarta Selatan."
+
+Tidak semua kandidat jawaban merupakan jawaban yang tepat untuk pertanyaan. Jawaban yang tepat adalah kandidat jawaban yang di-\textit{entail} oleh P1. Dari contoh di atas, K1 dan K2 yang dapat digunakan untuk menjawab pertanyaan karena makna K1 dan K2 tersirat dalam teks P1.  Sedangkan, K3 bukan merupakan jawaban karena maknanya tidak dapat disimpulkan dari teks P1.
+
+NLP \textit{task} untuk mengetahui bahwa terdapat keterkaitan makna antara P1 dengan kalimat K1 dan K2 disebut \textit{Textual Entailment}. Selain bermanfaat untuk \textit{QA system}, \textit{Textual Entailment} juga dapat diaplikasikan pada \textit{Information Extraction}, \textit{Machine Translation}, dan \textit{Summarization}. Oleh karena itu, penelitian \textit{Textual Entailment} penting untuk dikembangkan.
+
+Pada era \textit{data-driven}, mendeteksi hubungan \textit{textual entailment} dapat dilakukan dengan menggunakan korpus. \cite{dagan2005} merupakan salah satu pelopor pengembangan korpus \textit{Textual Entailment} untuk bahasa Inggris. Penelitian \textit{Textual Entailment} bahasa Inggris terus berkembang, hingga pada tahun 2015, \cite{snli:emnlp2015} mengeluarkan korpus \textit{Textual Entailment} Bahasa Inggris yang berisikan 570.000 pasangan teks. Kemajuan penelitian \textit{Textual Entailment} bahasa Inggris memotivasi dilakukannya penelitian \textit{Textual Entailment} untuk bahasa lain, seperti Italia, Spanyol, Jerman, bahkan bahasa Jepang. 
+
+Sebuah korpus \textit{Textual Entailment} berisikan data pasangan teks yang sudah memiliki nilai atau label \textit{entailment}. Pemberian label \textit{entailment} pada calon data korpus bisa dilakukan secara manual, namun cara tersebut mahal dan tidak efisien. Metode \textit{semi-supervised learning} memberikan alternatif untuk menghindari kemanualan tersebut. Co-training adalah salah satu jenis metode \textit{semi-supervised learning} yang pernah dicoba dalam penelitian memperbesar ukuran korpus \textit{Textual Entailment} bahasa Inggris \citep{zanzottoRTEexpand}. Korpus tersebut diperbesar menggunakan data dari Wikipedia \textit{revision history}. 
+
+Penelitian \textit{Textual Entailment} Bahasa Indonesia untuk saat ini masih sangat minim. Pembuatan korpus \textit{Textual Entailment} merupakan langkah awal yang baik untuk memulai pengembangan \textit{Textual Entailment} Bahasa Indonesia. Terdapat beragam cara yang dapat dipilih untuk mengembangkan korpus \textit{Textual Entailment}, salah satunya adalah menggunakan data Wikipedia \textit{revision history}. Wikipedia \textit{revision history} memiliki beberapa kelebihan, salah satunya dapat menghasilkan data korpus yang seimbang karena dua kriteria revisi berikut: revisi atas informasi yang salah (cenderung memberikan data korpus dengan label bukan \textit{entailment}) dan revisi untuk menambahkan informasi (cenderung mengarahkan ke label \textit{entailment}). Selain itu, revisi Wikipedia ditulis dengan bahasa yang alami karena artikel pada Wikipedia ditulis secara kolaboratif. 
+
+Kelebihan dan ketersediaan dari data Wikipedia \textit{revision history} dalam Bahasa Indonesia mendorong dilakukannya penelitian ini. Penelitian ini akan mencoba menerapkan cara yang sama dengan penelitian \cite{zanzottoRTEexpand}, yaitu menggunakan metode Co-training, untuk mengetahui apakah data Wikipedia \textit{revision history} dapat digunakan untuk membangun korpus \textit{Textual Entailment} Bahasa Indonesia yang baik.
+
+%-----------------------------------------------------------------------------%
+\section{Perumusan Masalah}
+%-----------------------------------------------------------------------------%
+Berdasarkan latar belakang yang telah dipaparkan di atas, terdapat beberapa pertanyaan yang menjadi rumusan masalah penelitian ini, yaitu:
+\begin{enumerate}
+	\item Bagaimana cara menerapkan Co-training dalam membangun korpus \textit{Textual Entailment} untuk Bahasa Indonesia?
+	\item Seberapa baik penggunaan Wikipedia \textit{revision history} sebagai sumber data pembuatan korpus \textit{Textual Entailment}?
+\end{enumerate}
+
+%-----------------------------------------------------------------------------%
+\section{Tujuan dan Manfaat Penelitian}
+%-----------------------------------------------------------------------------%
+Tujuan penelitian ini adalah menghasilkan sebuah korpus \textit{Textual Entailment} Bahasa Indonesia dengan menggunakan metode Co-training, sehingga dapat menghasilkan korpus dengan ukuran besar secara otomatis. Diharapkan korpus yang dihasilkan dapat bermanfaat untuk penelitian \textit{Textual Entailment} Bahasa Indonesia yang akan datang.
+
+Sebagai penelitian pionir untuk permasalahan \textit{Textual Entailment} Bahasa Indonesia, manfaat penelitian ini bukan hanya memberikan keluaran berupa korpus. Penelitian ini akan memberikan motivasi agar \textit{Textual Entailment} Bahasa Indonesia terus dikembangkan ke depannya, seperti yang dilakukan untuk bahasa Inggris.
+
+%-----------------------------------------------------------------------------%
+\section{Ruang Lingkup Penelitian}
+Penelitian ini berfokus pada pembuatan korpus \textit{Textual Entailment} Bahasa Indonesia, sehingga teks yang dikenali dengan baik dalam penelitian ini adalah teks berbahasa Indonesia. Korpus dikembangkan menggunakan metode \textit{semi-supervised learning}, yaitu Co-training. Sumber data untuk pembuatan korpus adalah Wikipedia \textit{revision history} berbahasa Indonesia.
+
+Fenomena \textit{Textual Entailment} memiliki beberapa tingkatan, yaitu leksikal, sintaktik, leksikal-sintaktik, \textit{discourse}, dan \textit{reasoning}. Wikipedia \textit{revision history} mungkin tidak akan menangkap semua fenomena \textit{Textual Entailment} tersebut. Sehingga, cakupan fenomena \textit{Textual Entailment} yang terdapat pada hasil korpus penelitian ini terbatas pada tingkatan tertentu.
+
+%-----------------------------------------------------------------------------%
+\section{Metodologi Penelitian}
+%-----------------------------------------------------------------------------%
+Ada lima tahapan yang dilakukan pada penelitian ini. Penjelasan dari tiap tahapan adalah sebagai berikut.
+\begin{enumerate}
+	\item Studi Literatur \\
+	Pada tahap ini, literatur-literatur yang berkaitan dengan penelitian \textit{Textual Entailment} dipelajari terlebih dahulu agar \textit{state of the art} dari penelitian ini menjadi lebih jelas.
+	\item Perumusan Masalah \\
+	Setelah mempelajari berbagai literatur, masalah yang akan diselesaikan dari penelitian ini dirumuskan agar hasil yang diharapkan di akhir penelitian lebih tergambar jelas. 
+	\item Perancangan Pengembangan Korpus\\
+	Proses-proses yang akan dilakukan dalam penelitian pengembangan korpus \textit{Textual Entailment} terlebih dahulu dirancang, seperti pengumpulan dan pengolahan data Wikipedia \textit{revision history}, hingga percobaan Co-training.
+	\item Implementasi  \\
+	Tahap ini adalah inti dari penelitian. Implementasi dilakukan untuk mencari tahu jawaban atas rumusan masalah. 
+	\item Analisis dan Kesimpulan \\
+	Hasil eksperimen dianalisis lebih dalam pada tahapan ini. Kemudian disimpulkan sebagai jawaban dari rumusan masalah.
+\end{enumerate}
+
+
+%-----------------------------------------------------------------------------%
+\section{Sistematika Penulisan}
+%-----------------------------------------------------------------------------%
+Sistematika penulisan yang ada dalam laporan penelitian ini sebagai berikut:
+\begin{itemize}
+	
+	\item Bab 1 \babSatu \\
+	Pada bab ini, dijelaskan mengenai latar belakang yang menjadi dasar dari penulisan. Selain itu, bab ini juga menjelaskan mengenai perumusan masalah, tujuan penelitian, tahapan penelitian, ruang lingkup penelitian, metodologi penelitian, serta sistematika penulisan dari penelitian ilmiah ini.
+	
+	\item Bab 2 \babDua \\
+	Pada bab ini, dijelaskan mengenai teori-teori yang relevan berdasarkan hasil studi literatur yang telah dilakukan. Studi literatur ini menjelaskan tentang \textit{Textual Entailment}, Wikipedia \textit{revision history}, algoritme Co-training dan hal-hal mendasar lainnya yang dibutuhkan dalam penelitian.
+	
+	\item Bab 3 \babTiga \\
+	Rancangan pengembangan korpus \textit{Textual Entailment} Bahasa Indonesia akan dibahas pada bab ini. Salah satu pembahasan dalam bab ini adalah bagaimana cara mengubah Wikipedia \textit{revision history} menjadi data kandidat isi korpus \textit{Textual Entailment} dan bagaimana menerapkan Co-training pada permasalahan tersebut.
+	
+	\item Bab 4 \babEmpat \\
+	Bab ini menjelaskan mengenai implementasi penelitian, mulai dari tahap pengolahan data Wikipedia \textit{revision history} hingga percobaan Co-training.
+	
+	\item Bab 5 \babLima \\
+	Pada bab ini, dijelaskan mengenai hasil penelitian beserta evaluasi dan analisis dari hasil tersebut. 
+	
+	\item Bab 6 \babEnam \\
+	Kesimpulan penelitian dan saran terkait penelitian dijelaskan pada bab ini. Kesimpulan akan memberikan jawaban atas pertanyaan dari rumusan masalah penelitian. Saran diberikan agar penelitian selanjutnya dapat memperbaiki kekurangan-kekurangan dalam penelitian ini.
+	
+\end{itemize}

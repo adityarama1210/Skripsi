@@ -1,0 +1,25 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: skripsi.aux
+A level-1 auxiliary file: sampul.aux
+A level-1 auxiliary file: judul_dalam.aux
+A level-1 auxiliary file: orisinal.aux
+A level-1 auxiliary file: pengesahan_sidang.aux
+A level-1 auxiliary file: pengantar.aux
+A level-1 auxiliary file: persetujuan_publikasi.aux
+A level-1 auxiliary file: abstrak.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: bab1.aux
+A level-1 auxiliary file: bab2.aux
+A level-1 auxiliary file: bab3.aux
+A level-1 auxiliary file: bab4.aux
+A level-1 auxiliary file: bab5.aux
+A level-1 auxiliary file: bab6.aux
+The style file: apalikerd.bst
+Database file #1: skripsi.bib
+Name 3 in "Bowman, Samuel R. and Angeli, Gabor and Potts, Christopher, and Manning, Christopher D." has a comma at the end for entry snli:emnlp2015
+while executing---line 1020 of file apalikerd.bst
+Name 3 in "Bowman, Samuel R. and Angeli, Gabor and Potts, Christopher, and Manning, Christopher D." has a comma at the end for entry snli:emnlp2015
+while executing---line 1095 of file apalikerd.bst
+Warning--empty journal in Hammerton:2003:CONLL
+Warning--empty journal in 6973520
+Warning--empty journal in 7065828
+(There were 2 error messages)

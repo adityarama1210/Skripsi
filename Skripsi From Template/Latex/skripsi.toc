@@ -1,0 +1,72 @@
+\select@language {bahasa}
+\contentsline {chapter}{HALAMAN JUDUL}{i}{section*.2}
+\contentsline {chapter}{LEMBAR PERNYATAAN ORISINALITAS}{ii}{section*.4}
+\contentsline {chapter}{LEMBAR PENGESAHAN}{iii}{section*.6}
+\contentsline {chapter}{\uppercase {Kata Pengantar}}{iv}{section*.8}
+\contentsline {chapter}{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}{v}{section*.10}
+\contentsline {chapter}{ABSTRAK}{vi}{section*.12}
+\contentsline {chapter}{Daftar Isi}{viii}{chapter*.15}
+\contentsline {chapter}{Daftar Gambar}{x}{chapter*.16}
+\contentsline {chapter}{Daftar Tabel}{xi}{chapter*.17}
+\contentsline {chapter}{Daftar Kode}{xii}{chapter*.18}
+\contentsline {chapter}{\numberline {1}\uppercase {Pendahuluan}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Perumusan Masalah}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Tujuan dan Manfaat Penelitian}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Ruang Lingkup Penelitian}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Metodologi Penelitian}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}Sistematika Penulisan}{4}{section.1.6}
+\contentsline {chapter}{\numberline {2}\uppercase {Tinjauan Pustaka}}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Textual Entailment}{6}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Tingkatan Textual Entailment}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Pemanfaatan Textual Entailment}{9}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Korpus}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Kriteria dan Tahap Pembuatan Korpus}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Korpus Textual Entailment}{10}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Wikipedia}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Wikipedia Offline}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Wiki Markup Language}{12}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Wikipedia Revision History}{14}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Pemanfaatan Wikipedia}{16}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Semi-supervised Learning}{16}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Co-training}{17}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Co-training dalam Textual Entailment}{18}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Language Model}{19}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}N-gram}{19}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Word Embedding}{20}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Naive Bayes}{21}{section.2.6}
+\contentsline {section}{\numberline {2.7}Recurrent Neural Network}{22}{section.2.7}
+\contentsline {section}{\numberline {2.8}Evaluasi}{23}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Cross Validation}{23}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Kappa}{24}{subsection.2.8.2}
+\contentsline {chapter}{\numberline {3}\uppercase {Rancangan Pengembangan Korpus}}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}Rancangan Pengembangan Korpus}{26}{section.3.1}
+\contentsline {section}{\numberline {3.2}Pembentukan Kandidat T dan H}{28}{section.3.2}
+\contentsline {section}{\numberline {3.3}Anotasi Manual}{36}{section.3.3}
+\contentsline {section}{\numberline {3.4}Co-training}{38}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Penentuan Classifier Pertama}{38}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Penentuan Classifier Kedua}{42}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}\uppercase {Implementasi}}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Ekstraksi Teks}{43}{section.4.1}
+\contentsline {section}{\numberline {4.2}Pemisahan kalimat}{45}{section.4.2}
+\contentsline {section}{\numberline {4.3}Pemodelan Word Embedding}{47}{section.4.3}
+\contentsline {section}{\numberline {4.4}Pembentukan T dan H}{48}{section.4.4}
+\contentsline {section}{\numberline {4.5}Ekstraksi Fitur}{52}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Ekstraksi Fitur View Pertama}{52}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Ekstraksi Fitur View Kedua}{55}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Co-training}{55}{section.4.6}
+\contentsline {chapter}{\numberline {5}\uppercase {Evaluasi dan Analisis Hasil}}{57}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pengumpulan Data}{57}{section.5.1}
+\contentsline {section}{\numberline {5.2}Hasil Pengolahan Data}{57}{section.5.2}
+\contentsline {section}{\numberline {5.3}Hasil Anotasi Manual}{59}{section.5.3}
+\contentsline {section}{\numberline {5.4}Pengujian Arsitektur RNN}{61}{section.5.4}
+\contentsline {section}{\numberline {5.5}Pemilihan Fitur View Kedua}{62}{section.5.5}
+\contentsline {section}{\numberline {5.6}Pengujian Classifier View Kedua}{63}{section.5.6}
+\contentsline {section}{\numberline {5.7}Co-training}{63}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Hasil Co-training}{64}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Evaluasi Co-training}{66}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Analisis Co-training}{68}{subsection.5.7.3}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{72}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{72}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{73}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{75}{chapter*.61}
