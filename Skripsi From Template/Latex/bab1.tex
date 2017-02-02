@@ -8,9 +8,19 @@ Bab ini membahas mengenai latar belakang penelitian, perumusan masalah, tujuan d
 \section{Latar Belakang}
 %-----------------------------------------------------------------------------%	
 
-Hubungan \textit{textual entailment} antara dua buah teks menunjukkan bahwa makna salah satu teks dapat diturunkan dari teks lainnya. Fenomena \textit{textual entailment} terjadi karena suatu makna dapat disampaikan ke dalam teks bahasa manusia dengan beragam cara. Fenomena tersebut lumrah terjadi pada penelitian bidang NLP. Sebagai contoh, sebuah sistem tanya jawab (\textit{QA system}) diberikan pertanyaan berikut: "Di mana kampus UI berada?". Pertanyaan dalam bahasa manusia itu akan diubah oleh \textit{QA system} menjadi \textit{query} "Kampus UI berada di ...". Sistem mencari dokumen berdasarkan \textit{query} dan memperoleh teks paragraf berikut.
+\textit{Task word sense disambiguation} merupakan pekerjaan yang mempunyai tujuan utama untuk mengenali \textit{sense}(makna) yang tepat dari sebuah kata. Sebagai manusia, pekerjaan ini termasuk relatif mudah karena kita dapat secara mengenal \textit{sense} dari sebuah kata berdasarkan makna dari konteks yang ada di sekelilingnya. Komputer pada dasarnya hanya dapat mengenali kata sebagai sebuah representasi data, sehingga perlu adanya \textit{modeling} agar komputer dapat mengenal dan membedakan makna antara satu kata dengan kata lainya. Sebuah contoh sederhana dari penentuan makna yang tepat dari sebuah kata dapat dilihat pada kalimat berikut.
 
-(P1) : "Universitas Indonesia, biasa disingkat sebagai UI, adalah sebuah
+(S1) : Setiap orang \textbf{bisa} melakukan tindak kriminal.
+
+(S2) : Racun dari \textbf{bisa} ular itu sudah menyebar di tubuhnya.
+
+(S3) : Ibu sangat pandai dalam menggunakan \textbf{pisau} untuk memotong sayuran.
+
+(S4) : Pelaku pembegalan menggunakan \textbf{pisau} untuk membunuh.
+
+Kata yang memiliki makna ganda (polisemi) pada kalimat satu dan kalimat dua adalah "bisa". kata "bisa" pada kedua kalimat tersebut memiliki makna yang berbeda, dimana kata "bisa" dalam kalimat satu menunjukan "kemampuan seseorang untuk melakukan sesuatu", dan kata "bisa" kalimat dua merujuk pada makna "racun yang berasal dari gigitan ular". Pada contoh permasalahan kalimat satu dan dua, penyelesaian relatif cukup mudah jika dilakukan dengan pendekatan \textit{POS Tagging}. Penggunaan bantuan \textit{task POS Tagging} tersebut dapat langsung membedakan bahwa "bisa" pada kalimat satu adalah kata kerja, sementara "bisa" kalimat kedua adalah objek. Namun demikian, diperlukan pendekatan selain \textit{POS Tag} pada kasus kata "pisau" dalam kalimat ketiga dan keempat. Pada kedua kalimat tersebut, "pisau" yang dirujuk merupakan benda yang sama yaitu objek berupa pisau, namun terdapat perbedaan pada makna pisau tersebut digunakan. Pada kalimat ketiga, pisau digunakan sebagai alat (\textit{tool}) sementara kalimat keempat menggunakan pisau sebagai senjata (\textit{weapon}).
+
+Pengartian makna untuk sebuah kata sendiri merupakan masalah yang kompleks dan tidak mudah. Sebagai manusia, terdapat berbagai macam cara ataupun sudut pandang untuk merepresentasikan kata dari makna sebuah kalimat/paragraf. Sebagai contoh pisau pada bahasan sebelumnya, kita dapat membedakan makna pisau berdasarkan kegunaannya, manfaatnya, dampaknya, dan lain-lain.
 
 perguruan tinggi di Indonesia. Kampus utamanya terletak di bagian Utara dari
 
