@@ -128,7 +128,7 @@ for key in arr_of_pages.keys():
 	f3.write("##TITLE##"+page.title+"\n")
 	for meaning in page.meanings:
 		f3.write(meaning)
-		if "(film" in meaning or "(lagu" in meaning or "(novel" in meaning or "(album" in meaning:
+		if "(film" in meaning or "(lagu" in meaning or "(musik" in meaning or "(novel" in meaning or "(album" in meaning:
 				f3.write("||ENTITY")
 		else:
 			if meaning in all_pages:

@@ -1045,7 +1045,7 @@ Garut (kota)||UNKNOWN
 Garut (tumbuhan)||SENSE
 ###############
 ##TITLE##Abydos
-Abydos (musik)||UNKNOWN
+Abydos (musik)||ENTITY
 Abydos (album)||ENTITY
 Abydos (Stargate)||UNKNOWN
 Abydos (thema)||UNKNOWN
@@ -1070,8 +1070,8 @@ Paris (film 2008)||ENTITY
 Paris (serial TV)||UNKNOWN
 Paris (serial TV Britania)||UNKNOWN
 Paris (band)||UNKNOWN
-Paris (musikal 1928)||UNKNOWN
-Paris (musikal 2003)||UNKNOWN
+Paris (musikal 1928)||ENTITY
+Paris (musikal 2003)||ENTITY
 Paris (penari rap)||UNKNOWN
 Paris (album La Oreja de Van Gogh)||ENTITY
 Paris (album Malcolm McLaren)||ENTITY
@@ -1463,7 +1463,7 @@ Dunia Lain (saluran TV)||CHECKTAG
 Dunia Lain merupakan saluran televisi televisi berlangganan|berlangganan di Indonesia yang khusus menyiarkan acara-acara yang berhubungan dengan misteri dan dimiliki oleh TransVisionProgram Acara.- "Dua Dunia"- "Dunia Lain"- "Ghost Game"- "Ghost Hunter"- "Horror"- "Indigo"- "Jejak-Jejak Misterius"- "Jurit Malam"- "(Masih) Dunia Lain|Masih Dunia Lain"- "Mister i Tukul"- "Oh Ternyata"- "Paranoid (Acara realitas)|Paranoid"- "Petualangan Misteri Si Ki Joko Bodo"- "Realigi"- "Scary Job"- "Scary Stories"- "Zona Angker"Kategori:Saluran televisi berlangganan IndonesiaKategori:TelkomVision
 ###############
 ##TITLE##Les Misérables
-Les Misérables (musikal)||UNKNOWN
+Les Misérables (musikal)||ENTITY
 Les Misérables (film 2012)||ENTITY
 Les Misérables (film 1909)||ENTITY
 Les Misérables (film 1917)||ENTITY
@@ -3283,7 +3283,7 @@ Trimurti||CHECKTAG
 Trimurti adalah tiga kekuatan Brahman (Sang Hyang Widhi) (sebutan Tuhan dalam Hindu|agama Hindu) dalam menciptakan, memelihara, melebur alam beserta isinya.Trimurti terdiri dari 3 yaitu:- Dewa Brahma- Dewa Wisnu- Dewa SiwaApabila simbol dari ketiga dewa tesebut digabungkan, maka akan menjadi AUM yang dibaca "OM" (  ) yang merupakan simbol suci agama Hindu.Pranala luar.- http://www.thailex.info/THAILEX/THAILEXENG/lexicon/Trimurti.htm Dewa Phra Trimurti  di Thailand
 ###############
 ##TITLE##Parang
-Parang (musik)||UNKNOWN
+Parang (musik)||ENTITY
 ###############
 ##TITLE##Indonesia
 Indonesia||SENSE
@@ -3500,7 +3500,7 @@ Lira (Encantadia)||UNKNOWN
 Lira (penyanyi)||UNKNOWN
 Lira (alat musik)||CHECKTAG
 Lira adalah alat musik dawai yang terkenal pada masa Antikuitas Klasik di Yunani dan masa-masa setelahnyaReferensi.- Andersson, Otto- Bachmann, Werner- Jenkins, J- Kinsky, George- Sachs, Curt- Sachs, Curt
-Lira (musik)||UNKNOWN
+Lira (musik)||ENTITY
 Lira (instrumen)||UNKNOWN
 Lira (mollusc)||UNKNOWN
 Lira (ISS)||UNKNOWN
@@ -3612,7 +3612,7 @@ Bunga (sinetron)||CHECKTAG
 Bunga adalah sinetron remaja yang ditayangkan oleh SCTV.Bunga adalah sebuah Sinetron yang ditayangkan SCTVPemeran.- Laudya Cynthia Bella sebagai Bunga- Mike Lewis sebagai Ronald- Tamara Bleszynski sebagai Intan- Shireen Sungkar sebagai Dewi- Egi John sebagai John- Galih Ginanjar sebagai NikoSesuatu hari ketika Bunga sedang gembira bahwa dia lulus peperiksaan, dia berjumpa dengan seorang lelaki kaya dan belagu yang bernama Ronaldmelempar batu ke mobil RonaldBunga terlalu marah hingga dia memarahinyaLalu dewi memberitahu ke Bunga bahwa dia adalah mantan kekasih RonaldHari esoknya Niko menembak Dewi dengan perasaan cinta dan Dewi setuju untuk berpacaran dengan NikoKategori:Sinetron IndonesiaKategori:Sinetron MD EntertainmentKategori:Sinetron SCTVKategori:SCTV
 ###############
 ##TITLE##Pop
-Pop (musik)||UNKNOWN
+Pop (musik)||ENTITY
 Pop (album)||ENTITY
 ###############
 ##TITLE##Casino Royale
