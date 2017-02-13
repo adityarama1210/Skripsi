@@ -70,9 +70,27 @@ for line in f:
 		record = False
 		page = None
 	if record and "<doc" not in line:
-		if "- " in line and (line[0] == "-"):
+		if "- " in line and (line[0] == "-") and page.title in line:
 			page.meanings.append(list_cleaner(line))
 
 f.close()
+
+f2 = open('all_pages_one_paragraph.txt','r')
+all_pages = {}
+key = None
+for line in f2:
+	line = line.rstrip("\n\r")
+	if "==========" in line:
+		state = 1
+	else:
+		if state == 1:
+			key = line
+			state = 2
+		elif state == 2:
+			state = 0
+			all_pages[key] = line 
+			key = None
+f2.close()
+
 
 embed()
