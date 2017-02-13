@@ -85,7 +85,7 @@ for line in f:
 	if record and "<doc" not in line:
 		if "- " in line and (line[0] == "-") and page.title in line:
 			meaning = get_disambiguation_list(page.title, list_cleaner(line))
-			if (page.title + " (") in meaning:
+			if (page.title + " (") in meaning or meaning == page.title:
 				page.meanings.append(meaning)
 
 deleted_keys = []
@@ -100,7 +100,8 @@ for key in deleted_keys:
 
 f.close()
 
-f2 = open('all_pages_one_paragraph.txt','r')
+# f2 = open('all_pages_one_paragraph.txt','r')
+f2 = open('/Users/macbook/Documents/Data_Skripsi/Wikipedia/Idwiki/output/all_pages_full_page.txt','r')
 all_pages = {}
 key = None
 for line in f2:
