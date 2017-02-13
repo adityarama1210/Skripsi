@@ -53,6 +53,19 @@ def list_cleaner(li):
 	m = re.match(r"- (.*)", li)
 	return m.group(1)
 
+def get_disambiguation_list(title, line):
+	m = re.findall("\[\[(.*)("+ title +")(.*)\]\]", line)
+	if(m):
+		first_match = m[0]
+		str_result = ''
+		for i in first_match:
+			str_result += i
+		str_result = str_result.split(']]')[0]
+		# handling |
+		return str_result.split('|')[0]
+	return line
+
+
 page = None
 f = open('disambiguation_pages.txt','r')
 record = False
@@ -71,7 +84,19 @@ for line in f:
 		page = None
 	if record and "<doc" not in line:
 		if "- " in line and (line[0] == "-") and page.title in line:
-			page.meanings.append(list_cleaner(line))
+			meaning = get_disambiguation_list(page.title, list_cleaner(line))
+			if (page.title + " (") in meaning:
+				page.meanings.append(meaning)
+
+deleted_keys = []
+
+for key in arr_of_pages.keys():
+	if len(arr_of_pages[key].meanings) == 0:
+		deleted_keys.append(key)
+
+for key in deleted_keys:
+	del arr_of_pages[key]
+
 
 f.close()
 
@@ -90,6 +115,9 @@ for line in f2:
 			state = 0
 			all_pages[key] = line 
 			key = None
+
+
+
 f2.close()
 
 
