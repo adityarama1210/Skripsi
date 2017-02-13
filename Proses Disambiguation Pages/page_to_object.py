@@ -122,4 +122,28 @@ for line in f2:
 f2.close()
 
 
-embed()
+f3 = open('title-meaning-description.txt','w')
+for key in arr_of_pages.keys():
+	page = arr_of_pages[key]
+	f3.write("##TITLE##"+page.title+"\n")
+	for meaning in page.meanings:
+		f3.write(meaning)
+		if "(film" in meaning or "(lagu" in meaning or "(novel" in meaning or "(album" in meaning:
+				f3.write("||ENTITY")
+		else:
+			if meaning in all_pages:
+				# if the description is exist in wikipedia page
+				if meaning.lower() in all_pages[meaning] or page.title.lower() in all_pages[meaning]:
+					f3.write("||SENSE")
+				else:
+					f3.write("||CHECKTAG\n")
+					f3.write(all_pages[meaning]+"")
+			else:
+				# check with tagger (soon)
+				f3.write("||UNKNOWN")
+		f3.write("\n")
+	f3.write("###############\n")
+
+f3.close()
+
+#embed()
