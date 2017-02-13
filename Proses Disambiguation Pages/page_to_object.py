@@ -133,11 +133,12 @@ for key in arr_of_pages.keys():
 		else:
 			if meaning in all_pages:
 				# if the description is exist in wikipedia page
-				if meaning.lower() in all_pages[meaning] or page.title.lower() in all_pages[meaning]:
+				if " "+meaning.lower()+" " in all_pages[meaning] or " "+page.title.lower()+" " in all_pages[meaning]:
 					f3.write("||SENSE")
 				else:
-					f3.write("||CHECKTAG\n")
-					f3.write(all_pages[meaning]+"")
+					#f3.write("||CHECKTAG\n")
+					#f3.write(all_pages[meaning].split('.')[0]+"")
+					f3.write("||ENTITY")
 			else:
 				# check with tagger (soon)
 				f3.write("||UNKNOWN")
