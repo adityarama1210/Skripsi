@@ -14,55 +14,29 @@ Bab ini membahas mengenai latar belakang penelitian, perumusan masalah, tujuan d
 
 (S2) : Racun dari \textbf{bisa} ular itu sudah menyebar di tubuhnya.
 
-(S3) : Ibu sangat pandai dalam menggunakan \textbf{pisau} untuk memotong sayuran.
+(S3) : Ani sangat senang memakan \textbf{cokelat} pemberian Budi.
 
-(S4) : Pelaku pembegalan menggunakan \textbf{pisau} untuk membunuh.
+(S4) : Budi mempunyai sofa \textbf{cokelat} yang sangat mahal
 
-Kata yang memiliki makna ganda (polisemi) pada kalimat satu dan kalimat dua adalah "bisa". kata "bisa" pada kedua kalimat tersebut memiliki makna yang berbeda, dimana kata "bisa" dalam kalimat satu menunjukan "kemampuan seseorang untuk melakukan sesuatu", dan kata "bisa" kalimat dua merujuk pada makna "racun yang berasal dari gigitan ular". Pada contoh permasalahan kalimat satu dan dua, penyelesaian relatif cukup mudah jika dilakukan dengan pendekatan \textit{POS Tagging}. Penggunaan bantuan \textit{task POS Tagging} tersebut dapat langsung membedakan bahwa "bisa" pada kalimat satu adalah kata kerja, sementara "bisa" kalimat kedua adalah objek. Namun demikian, diperlukan pendekatan selain \textit{POS Tag} pada kasus kata "pisau" dalam kalimat ketiga dan keempat. Pada kedua kalimat tersebut, "pisau" yang dirujuk merupakan benda yang sama yaitu objek berupa pisau, namun terdapat perbedaan pada makna pisau tersebut digunakan. Pada kalimat ketiga, pisau digunakan sebagai alat (\textit{tool}) sementara kalimat keempat menggunakan pisau sebagai senjata (\textit{weapon}).
+Kata yang memiliki makna ganda (polisemi) pada kalimat satu dan kalimat dua adalah "bisa". kata "bisa" pada kedua kalimat tersebut memiliki makna yang berbeda, dimana kata "bisa" dalam kalimat satu menunjukan "kemampuan seseorang untuk melakukan sesuatu", dan kata "bisa" kalimat dua merujuk pada makna "racun yang berasal dari gigitan ular". Pada contoh permasalahan kalimat satu dan dua, penyelesaian relatif cukup mudah jika dilakukan dengan pendekatan \textit{POS Tagging}. Penggunaan bantuan \textit{task POS Tagging} tersebut dapat langsung membedakan bahwa "bisa" pada kalimat satu adalah kata kerja, sementara "bisa" kalimat kedua adalah objek. Kalimat ketiga dan keempat memberikan contoh lain dari makna yang berbeda pada kata yang sama berdasarkan konteks yang berbeda. Cokelat pada kalimat pertama bermakna makanan manis olahan dari hasil pohon cokelat sementara cokelat kalimat keempat merupakan warna. Kedua kata 'cokelat' tersebut sama-sama mempunyai \textit{POS Tag} berupa \textit{noun}, namun demikian makna yang terkandungnya berbeda.
 
 Pengartian makna untuk sebuah kata sendiri merupakan masalah yang kompleks dan tidak mudah. Sebagai manusia, terdapat berbagai macam cara ataupun sudut pandang untuk merepresentasikan kata dari makna sebuah kalimat/paragraf. Sebagai contoh pisau pada bahasan sebelumnya, kita dapat membedakan makna pisau berdasarkan kegunaannya, manfaatnya, dampaknya, dan lain-lain.
 
-perguruan tinggi di Indonesia. Kampus utamanya terletak di bagian Utara dari
-
-Depok, Jawa Barat tepat di perbatasan antara Depok dengan wilayah Jakarta
-
-Selatan." 
-
-\noindent Potongan teks tersebut mengandung beberapa informasi lokasi. Potongan informasi lokasi yang terdeteksi kemudian dimasukkan ke dalam \textit{query}, sehingga diperoleh beberapa kandidat jawaban berikut.
-
-(K1) : "Kampus UI berada di Depok."
-
-(K2) : "Kampus UI berada di Jawa Barat."
-
-(K3) : "Kampus UI berada di Jakarta Selatan."
-
-Tidak semua kandidat jawaban merupakan jawaban yang tepat untuk pertanyaan. Jawaban yang tepat adalah kandidat jawaban yang di-\textit{entail} oleh P1. Dari contoh di atas, K1 dan K2 yang dapat digunakan untuk menjawab pertanyaan karena makna K1 dan K2 tersirat dalam teks P1.  Sedangkan, K3 bukan merupakan jawaban karena maknanya tidak dapat disimpulkan dari teks P1.
-
-NLP \textit{task} untuk mengetahui bahwa terdapat keterkaitan makna antara P1 dengan kalimat K1 dan K2 disebut \textit{Textual Entailment}. Selain bermanfaat untuk \textit{QA system}, \textit{Textual Entailment} juga dapat diaplikasikan pada \textit{Information Extraction}, \textit{Machine Translation}, dan \textit{Summarization}. Oleh karena itu, penelitian \textit{Textual Entailment} penting untuk dikembangkan.
-
-Pada era \textit{data-driven}, mendeteksi hubungan \textit{textual entailment} dapat dilakukan dengan menggunakan korpus. \cite{dagan2005} merupakan salah satu pelopor pengembangan korpus \textit{Textual Entailment} untuk bahasa Inggris. Penelitian \textit{Textual Entailment} bahasa Inggris terus berkembang, hingga pada tahun 2015, \cite{snli:emnlp2015} mengeluarkan korpus \textit{Textual Entailment} Bahasa Inggris yang berisikan 570.000 pasangan teks. Kemajuan penelitian \textit{Textual Entailment} bahasa Inggris memotivasi dilakukannya penelitian \textit{Textual Entailment} untuk bahasa lain, seperti Italia, Spanyol, Jerman, bahkan bahasa Jepang. 
-
-Sebuah korpus \textit{Textual Entailment} berisikan data pasangan teks yang sudah memiliki nilai atau label \textit{entailment}. Pemberian label \textit{entailment} pada calon data korpus bisa dilakukan secara manual, namun cara tersebut mahal dan tidak efisien. Metode \textit{semi-supervised learning} memberikan alternatif untuk menghindari kemanualan tersebut. Co-training adalah salah satu jenis metode \textit{semi-supervised learning} yang pernah dicoba dalam penelitian memperbesar ukuran korpus \textit{Textual Entailment} bahasa Inggris \citep{zanzottoRTEexpand}. Korpus tersebut diperbesar menggunakan data dari Wikipedia \textit{revision history}. 
-
-Penelitian \textit{Textual Entailment} Bahasa Indonesia untuk saat ini masih sangat minim. Pembuatan korpus \textit{Textual Entailment} merupakan langkah awal yang baik untuk memulai pengembangan \textit{Textual Entailment} Bahasa Indonesia. Terdapat beragam cara yang dapat dipilih untuk mengembangkan korpus \textit{Textual Entailment}, salah satunya adalah menggunakan data Wikipedia \textit{revision history}. Wikipedia \textit{revision history} memiliki beberapa kelebihan, salah satunya dapat menghasilkan data korpus yang seimbang karena dua kriteria revisi berikut: revisi atas informasi yang salah (cenderung memberikan data korpus dengan label bukan \textit{entailment}) dan revisi untuk menambahkan informasi (cenderung mengarahkan ke label \textit{entailment}). Selain itu, revisi Wikipedia ditulis dengan bahasa yang alami karena artikel pada Wikipedia ditulis secara kolaboratif. 
-
-Kelebihan dan ketersediaan dari data Wikipedia \textit{revision history} dalam Bahasa Indonesia mendorong dilakukannya penelitian ini. Penelitian ini akan mencoba menerapkan cara yang sama dengan penelitian \cite{zanzottoRTEexpand}, yaitu menggunakan metode Co-training, untuk mengetahui apakah data Wikipedia \textit{revision history} dapat digunakan untuk membangun korpus \textit{Textual Entailment} Bahasa Indonesia yang baik.
+Penggunaan dari \textit{word sense disambiguation} ini dapat bermanfaat untuk \textit{sub task} pada \textit{machine translation}, dimana satu buah kata dapat diterjemahkan menjadi beberapa kemungkinan kata yang berbeda berdasarkan makna yang dikandungnya. Mengacu pada contoh kalimat pertama, kata \textbf{bisa} dapat diterjemahkan menjadi\textit{can} atau \textit{could}. Berbeda dengan kalimat kedua yang mana kata \textbf{bisa} diterjemahkan menjadi \textit{venom}. Mengetahui makna kata (\textit{sense}) yang tepat dapat mempermudah proses penerjemahan otomatis untuk \textit{unit} kata.
 
 %-----------------------------------------------------------------------------%
 \section{Perumusan Masalah}
 %-----------------------------------------------------------------------------%
-Berdasarkan latar belakang yang telah dipaparkan di atas, terdapat beberapa pertanyaan yang menjadi rumusan masalah penelitian ini, yaitu:
+Beberapa pertanyaan yang menjadi rumusan masalah dalam penelitian ini yaitu:
 \begin{enumerate}
-	\item Bagaimana cara menerapkan Co-training dalam membangun korpus \textit{Textual Entailment} untuk Bahasa Indonesia?
-	\item Seberapa baik penggunaan Wikipedia \textit{revision history} sebagai sumber data pembuatan korpus \textit{Textual Entailment}?
+	\item Bagaimana cara menerapkan pemindahan makna (\textit{sense transfer}) dari korpus paralel bahasa Inggris - Indonesia?
+	\item Seberapa baik performa \textit{WSD} yang dibangun untuk bahasa Indonesia tersebut?
 \end{enumerate}
 
 %-----------------------------------------------------------------------------%
 \section{Tujuan dan Manfaat Penelitian}
 %-----------------------------------------------------------------------------%
-Tujuan penelitian ini adalah menghasilkan sebuah korpus \textit{Textual Entailment} Bahasa Indonesia dengan menggunakan metode Co-training, sehingga dapat menghasilkan korpus dengan ukuran besar secara otomatis. Diharapkan korpus yang dihasilkan dapat bermanfaat untuk penelitian \textit{Textual Entailment} Bahasa Indonesia yang akan datang.
-
-Sebagai penelitian pionir untuk permasalahan \textit{Textual Entailment} Bahasa Indonesia, manfaat penelitian ini bukan hanya memberikan keluaran berupa korpus. Penelitian ini akan memberikan motivasi agar \textit{Textual Entailment} Bahasa Indonesia terus dikembangkan ke depannya, seperti yang dilakukan untuk bahasa Inggris.
+Tujuan dari penelitian yang dilakukan adalah mencari fitur yang optimal untuk \textit{wsd system} bahasa Indonesia dan memberikan tambahan \textit{sense} kata-kata dalam bahasa Indonesia yang dapat dipindahkan dari \textit{sense} kata bahasa Inggris.
 
 %-----------------------------------------------------------------------------%
 \section{Ruang Lingkup Penelitian}
