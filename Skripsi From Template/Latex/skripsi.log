@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  13 MAR 2017 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  13 MAR 2017 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,12 +978,6 @@ l.24
 Underfull \hbox (badness 1701) in paragraph at lines 33--34
 []\T1/ptm/m/n/12 Seberapa baik performa \T1/ptm/m/it/12 WSD \T1/ptm/m/n/12 yang
  dibangun untuk bahasa Indonesia
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 43--44
-\T1/ptm/m/n/12 Penelitian ini berfokus pada pembuatan korpus \T1/ptm/m/it/12 Te
-xtual Entailment \T1/ptm/m/n/12 Bahasa
  []
 
 
@@ -2526,7 +2520,7 @@ ts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on skripsi.pdf (91 pages, 936846 bytes).
+Output written on skripsi.pdf (91 pages, 936525 bytes).
 PDF statistics:
  1776 PDF objects out of 2073 (max. 8388607)
  1587 compressed objects within 16 object streams

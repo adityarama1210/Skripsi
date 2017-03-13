@@ -40,9 +40,9 @@ Tujuan dari penelitian yang dilakukan adalah mencari fitur yang optimal untuk \t
 
 %-----------------------------------------------------------------------------%
 \section{Ruang Lingkup Penelitian}
-Penelitian ini berfokus pada pembuatan korpus \textit{Textual Entailment} Bahasa Indonesia, sehingga teks yang dikenali dengan baik dalam penelitian ini adalah teks berbahasa Indonesia. Korpus dikembangkan menggunakan metode \textit{semi-supervised learning}, yaitu Co-training. Sumber data untuk pembuatan korpus adalah Wikipedia \textit{revision history} berbahasa Indonesia.
+Penelitian berfokus pada pemindahan \textit{sense} dari korpus paralel berbahasa Inggris ke Indonesia, dan melakukan \textit{WSD task} pada hasil pemindahan makna kata tersebut.
 
-Fenomena \textit{Textual Entailment} memiliki beberapa tingkatan, yaitu leksikal, sintaktik, leksikal-sintaktik, \textit{discourse}, dan \textit{reasoning}. Wikipedia \textit{revision history} mungkin tidak akan menangkap semua fenomena \textit{Textual Entailment} tersebut. Sehingga, cakupan fenomena \textit{Textual Entailment} yang terdapat pada hasil korpus penelitian ini terbatas pada tingkatan tertentu.
+\textit{Word sense disambiguation} yang dilakukan pada penelitian ini hanya pada tingkatan \textit{coarse-grained} saja, yang mana ini berarti \textit{sense} yang terkait pada kata-kata tidak akan dalam (\textit{shallow}).
 
 %-----------------------------------------------------------------------------%
 \section{Metodologi Penelitian}
@@ -50,9 +50,9 @@ Fenomena \textit{Textual Entailment} memiliki beberapa tingkatan, yaitu leksikal
 Ada lima tahapan yang dilakukan pada penelitian ini. Penjelasan dari tiap tahapan adalah sebagai berikut.
 \begin{enumerate}
 	\item Studi Literatur \\
-	Pada tahap ini, literatur-literatur yang berkaitan dengan penelitian \textit{Textual Entailment} dipelajari terlebih dahulu agar \textit{state of the art} dari penelitian ini menjadi lebih jelas.
+	Tahap ini berfokus pada pencarian informasi mengenai \textit{WSD system} baik secara umum maupun teknik yang digunakan, dan juga \textit{task} lain yang berkaitan dengan \textit{WSD} seperti \textit{WSI}.
 	\item Perumusan Masalah \\
-	Setelah mempelajari berbagai literatur, masalah yang akan diselesaikan dari penelitian ini dirumuskan agar hasil yang diharapkan di akhir penelitian lebih tergambar jelas. 
+	Masalah-masalah yang ada dalam penelitian nantinya dianalisis penyelesaiannya pada tahap ini.
 	\item Perancangan Pengembangan Korpus\\
 	Proses-proses yang akan dilakukan dalam penelitian pengembangan korpus \textit{Textual Entailment} terlebih dahulu dirancang, seperti pengumpulan dan pengolahan data Wikipedia \textit{revision history}, hingga percobaan Co-training.
 	\item Implementasi  \\
