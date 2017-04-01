@@ -20,7 +20,7 @@ Bab ini membahas mengenai latar belakang penelitian, perumusan masalah, tujuan d
 
 Kata yang memiliki makna ganda (polisemi) pada kalimat satu dan kalimat dua adalah "bisa". kata "bisa" pada kedua kalimat tersebut memiliki makna yang berbeda, dimana kata "bisa" dalam kalimat satu menunjukan "kemampuan seseorang untuk melakukan sesuatu", dan kata "bisa" kalimat dua merujuk pada makna "racun yang berasal dari gigitan ular". Pada contoh permasalahan kalimat satu dan dua, penyelesaian relatif cukup mudah jika dilakukan dengan pendekatan \textit{POS Tagging}. Penggunaan bantuan \textit{task POS Tagging} tersebut dapat langsung membedakan bahwa "bisa" pada kalimat satu adalah kata kerja, sementara "bisa" kalimat kedua adalah objek. Kalimat ketiga dan keempat memberikan contoh lain dari makna yang berbeda pada kata yang sama berdasarkan konteks yang berbeda. Cokelat pada kalimat pertama bermakna makanan manis olahan dari hasil pohon cokelat sementara cokelat kalimat keempat merupakan warna. Kedua kata 'cokelat' tersebut sama-sama mempunyai \textit{POS Tag} berupa \textit{noun}, namun demikian makna yang terkandungnya berbeda.
 
-Pengartian makna untuk sebuah kata sendiri merupakan masalah yang kompleks dan tidak mudah. Sebagai manusia, terdapat berbagai macam cara ataupun sudut pandang untuk merepresentasikan kata dari makna sebuah kalimat/paragraf. Sebagai contoh pisau pada bahasan sebelumnya, kita dapat membedakan makna pisau berdasarkan kegunaannya, manfaatnya, dampaknya, dan lain-lain.
+Pada umumnya, permasalahan ini bisa dikategorikan sebagai permasalahan klasifikasi. Diberikan sebuah \textit{resource}(seperti Wordnet) yang di dalamnya terdapat kata-kata beserta kumpulan maknanya masing-masing, makna kata mana yang paling tepat untuk suatu kata "x". Namun demikian, \textit{resource} yang dibutuhkan sebagai panduan makna kata tersebut harus memadai jika ingin digunakan untuk \textit{task} klasifikasi. Wordnet yang dimiliki untuk bahasa Indonesia masih tergolong kurang memadai karena jumlah \textit{synset} yang sedikit. Berdasarkan permasalahan tersebut, beberapa makna kata tambahan akan dipindahkan dari korpus yang memiliki \textit{resource} yang lebih mapan yaitu korpus bahasa Inggris dengan cara \textit{cross language sense transfering}.
 
 Penggunaan dari \textit{word sense disambiguation} ini dapat bermanfaat untuk \textit{sub task} pada \textit{machine translation}, dimana satu buah kata dapat diterjemahkan menjadi beberapa kemungkinan kata yang berbeda berdasarkan makna yang dikandungnya. Mengacu pada contoh kalimat pertama, kata \textbf{bisa} dapat diterjemahkan menjadi\textit{can} atau \textit{could}. Berbeda dengan kalimat kedua yang mana kata \textbf{bisa} diterjemahkan menjadi \textit{venom}. Mengetahui makna kata (\textit{sense}) yang tepat dapat mempermudah proses penerjemahan otomatis untuk \textit{unit} kata.
 
@@ -36,7 +36,7 @@ Beberapa pertanyaan yang menjadi rumusan masalah dalam penelitian ini yaitu:
 %-----------------------------------------------------------------------------%
 \section{Tujuan dan Manfaat Penelitian}
 %-----------------------------------------------------------------------------%
-Tujuan dari penelitian yang dilakukan adalah memberikan tambahan inventaris berupa \textit{sense} dari kata-kata bahasa Indonesia dan menghitung performa \textit{wsd system} bahasa Indonesia yang dibuat.
+Tujuan dari penelitian yang dilakukan adalah memberikan tambahan inventaris berupa \textit{sense} dari kata-kata bahasa Indonesia untuk wordnet Bahasa Indonesia dan menghitung seberapa baik performa \textit{wsd system} bahasa Indonesia yang dibuat.
 
 %-----------------------------------------------------------------------------%
 \section{Ruang Lingkup Penelitian}
@@ -54,7 +54,7 @@ Ada lima tahapan yang dilakukan pada penelitian ini. Penjelasan dari tiap tahapa
 	\item Perumusan Masalah \\
 	Masalah-masalah yang ada dalam penelitian nantinya dianalisis penyelesaiannya pada tahap ini.
 	\item Pemindahan Sense Korpus English ke Indonesia\\
-	Proses yang melibatkan \textit{sense tagging} pada korpus bahasa inggris, \textit{word alignment} kedua buah korpus, dan pemindahan \textit{sense}.
+	Proses yang melibatkan \textit{sense tagging} pada korpus bahasa inggris, \textit{word alignment} korpus Indonesia-English, dan pemindahan \textit{sense}.
 	\item Implementasi Sistem WSD  \\
 	Tahap ini akan membahas perihal implementasi dari sistem WSD yang dibangun untuk disambiguasi pada korpus Indonesia dengan kata-kata yang ditentukan.
 	\item Analisis dan Kesimpulan \\
