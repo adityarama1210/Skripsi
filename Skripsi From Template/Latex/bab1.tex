@@ -36,13 +36,13 @@ Beberapa pertanyaan yang menjadi rumusan masalah dalam penelitian ini yaitu:
 %-----------------------------------------------------------------------------%
 \section{Tujuan dan Manfaat Penelitian}
 %-----------------------------------------------------------------------------%
-Tujuan dari penelitian yang dilakukan adalah mencari fitur yang optimal untuk \textit{wsd system} bahasa Indonesia dan memberikan tambahan \textit{sense} kata-kata dalam bahasa Indonesia yang dapat dipindahkan dari \textit{sense} kata bahasa Inggris.
+Tujuan dari penelitian yang dilakukan adalah memberikan tambahan inventaris berupa \textit{sense} dari kata-kata bahasa Indonesia dan menghitung performa \textit{wsd system} bahasa Indonesia yang dibuat.
 
 %-----------------------------------------------------------------------------%
 \section{Ruang Lingkup Penelitian}
 Penelitian berfokus pada pemindahan \textit{sense} dari korpus paralel berbahasa Inggris ke Indonesia, dan melakukan \textit{WSD task} pada hasil pemindahan makna kata tersebut.
 
-\textit{Word sense disambiguation} yang dilakukan pada penelitian ini hanya pada tingkatan \textit{coarse-grained} saja, yang mana ini berarti \textit{sense} yang terkait pada kata-kata tidak akan dalam (\textit{shallow}).
+\textit{Word sense disambiguation} yang dilakukan pada penelitian ini hanya pada tingkatan \textit{coarse-grained} \textit{wsd}.
 
 %-----------------------------------------------------------------------------%
 \section{Metodologi Penelitian}
@@ -50,15 +50,15 @@ Penelitian berfokus pada pemindahan \textit{sense} dari korpus paralel berbahasa
 Ada lima tahapan yang dilakukan pada penelitian ini. Penjelasan dari tiap tahapan adalah sebagai berikut.
 \begin{enumerate}
 	\item Studi Literatur \\
-	Tahap ini berfokus pada pencarian informasi mengenai \textit{WSD system} baik secara umum maupun teknik yang digunakan, dan juga \textit{task} lain yang berkaitan dengan \textit{WSD} seperti \textit{WSI}.
+	Tahap ini berfokus pada pencarian informasi mengenai \textit{WSD system} baik secara umum maupun teknik yang digunakan, dan juga \textit{task} lain yang berkaitan dengan \textit{WSD} seperti \textit{word sense induction} (\textit{WSI}).
 	\item Perumusan Masalah \\
 	Masalah-masalah yang ada dalam penelitian nantinya dianalisis penyelesaiannya pada tahap ini.
-	\item Perancangan Pengembangan Korpus\\
-	Proses-proses yang akan dilakukan dalam penelitian pengembangan korpus \textit{Textual Entailment} terlebih dahulu dirancang, seperti pengumpulan dan pengolahan data Wikipedia \textit{revision history}, hingga percobaan Co-training.
-	\item Implementasi  \\
-	Tahap ini adalah inti dari penelitian. Implementasi dilakukan untuk mencari tahu jawaban atas rumusan masalah. 
+	\item Pemindahan Sense Korpus English ke Indonesia\\
+	Proses yang melibatkan \textit{sense tagging} pada korpus bahasa inggris, \textit{word alignment} kedua buah korpus, dan pemindahan \textit{sense}.
+	\item Implementasi Sistem WSD  \\
+	Tahap ini akan membahas perihal implementasi dari sistem WSD yang dibangun untuk disambiguasi pada korpus Indonesia dengan kata-kata yang ditentukan.
 	\item Analisis dan Kesimpulan \\
-	Hasil eksperimen dianalisis lebih dalam pada tahapan ini. Kemudian disimpulkan sebagai jawaban dari rumusan masalah.
+	Hasil eksperimen dianalisis untuk melihat seberapa baik sistem wsd yang telah dibangun.
 \end{enumerate}
 
 
@@ -75,7 +75,7 @@ Sistematika penulisan yang ada dalam laporan penelitian ini sebagai berikut:
 	Pada bab ini, dijelaskan mengenai teori-teori yang relevan berdasarkan hasil studi literatur yang telah dilakukan. Studi literatur ini menjelaskan tentang \textit{Textual Entailment}, Wikipedia \textit{revision history}, algoritme Co-training dan hal-hal mendasar lainnya yang dibutuhkan dalam penelitian.
 	
 	\item Bab 3 \babTiga \\
-	Rancangan pengembangan korpus \textit{Textual Entailment} Bahasa Indonesia akan dibahas pada bab ini. Salah satu pembahasan dalam bab ini adalah bagaimana cara mengubah Wikipedia \textit{revision history} menjadi data kandidat isi korpus \textit{Textual Entailment} dan bagaimana menerapkan Co-training pada permasalahan tersebut.
+	Bab ini akan membahas perihal pelaksanaan dari proses \textit{tagging sense} pada korpus English dan \textit{word alignment} pada kedua korpus (Indonesia - English) beserta evaluasinya.
 	
 	\item Bab 4 \babEmpat \\
 	Bab ini menjelaskan mengenai implementasi penelitian, mulai dari tahap pengolahan data Wikipedia \textit{revision history} hingga percobaan Co-training.
@@ -84,6 +84,6 @@ Sistematika penulisan yang ada dalam laporan penelitian ini sebagai berikut:
 	Pada bab ini, dijelaskan mengenai hasil penelitian beserta evaluasi dan analisis dari hasil tersebut. 
 	
 	\item Bab 6 \babEnam \\
-	Kesimpulan penelitian dan saran terkait penelitian dijelaskan pada bab ini. Kesimpulan akan memberikan jawaban atas pertanyaan dari rumusan masalah penelitian. Saran diberikan agar penelitian selanjutnya dapat memperbaiki kekurangan-kekurangan dalam penelitian ini.
+	Kesimpulan dan saran dari hasil dan pelaksanaan penelitian akan dijelaskan pada bab ini.
 	
 \end{itemize}
