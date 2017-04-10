@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  1 APR 2017 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  10 APR 2017 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -836,13 +836,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 \openout2 = `pengantar.aux'.
 
-(./pengantar.tex
-Underfull \hbox (badness 1142) in paragraph at lines 6--7
-\T1/ptm/m/n/12 Alhamdulillahirobbil alamin, puji dan syukur penulis ucapkan kep
-ada Allah
- []
-
-) [4
+(./pengantar.tex) [4
 
 
 
@@ -989,6 +983,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [2]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 71.
+
+Underfull \hbox (badness 1831) in paragraph at lines 71--73
+\T1/ptm/m/n/12 tujuan penelitian, tahapan penelitian, ruang lingkup, metodologi
+, dan
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -2191,11 +2190,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
 Here is how much of TeX's memory you used:
  16190 strings out of 493014
  224088 string characters out of 6133352
- 494974 words of memory out of 5000000
+ 494975 words of memory out of 5000000
  18645 multiletter control sequences out of 15000+600000
  59235 words of font info for 98 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
- 44i,12n,51p,1097b,1973s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,51p,1076b,1973s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -2207,7 +2206,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (71 pages, 748689 bytes).
+Output written on skripsi.pdf (71 pages, 748399 bytes).
 PDF statistics:
  1277 PDF objects out of 1440 (max. 8388607)
  1132 compressed objects within 12 object streams

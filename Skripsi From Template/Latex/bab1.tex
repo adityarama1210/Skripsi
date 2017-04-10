@@ -18,11 +18,11 @@ Bab ini membahas mengenai latar belakang penelitian, perumusan masalah, tujuan d
 
 (S4) : Budi mempunyai sofa \textbf{cokelat} yang sangat mahal
 
-Kata yang memiliki makna ganda (polisemi) pada kalimat satu dan kalimat dua adalah "bisa". kata "bisa" pada kedua kalimat tersebut memiliki makna yang berbeda, dimana kata "bisa" dalam kalimat satu menunjukan "kemampuan seseorang untuk melakukan sesuatu", dan kata "bisa" kalimat dua merujuk pada makna "racun yang berasal dari gigitan ular". Pada contoh permasalahan kalimat satu dan dua, penyelesaian relatif cukup mudah jika dilakukan dengan pendekatan \textit{POS Tagging}. Penggunaan bantuan \textit{task POS Tagging} tersebut dapat langsung membedakan bahwa "bisa" pada kalimat satu adalah kata kerja, sementara "bisa" kalimat kedua adalah objek. Kalimat ketiga dan keempat memberikan contoh lain dari makna yang berbeda pada kata yang sama berdasarkan konteks yang berbeda. Cokelat pada kalimat pertama bermakna makanan manis olahan dari hasil pohon cokelat sementara cokelat kalimat keempat merupakan warna. Kedua kata 'cokelat' tersebut sama-sama mempunyai \textit{POS Tag} berupa \textit{noun}, namun demikian makna yang terkandungnya berbeda.
+Kata yang memiliki makna ganda (polisemi) pada kalimat satu dan kalimat dua adalah "bisa". kata "bisa" pada kedua kalimat tersebut memiliki makna yang berbeda, dimana kata "bisa" dalam kalimat satu menunjukan "kemampuan seseorang untuk melakukan sesuatu", dan kata "bisa" kalimat dua merujuk pada makna "racun yang berasal dari gigitan ular". Pada contoh permasalahan kalimat satu dan dua, penyelesaian relatif cukup mudah jika dilakukan dengan pendekatan \textit{POS Tagging}. Penggunaan bantuan \textit{task POS Tagging} tersebut dapat langsung membedakan bahwa "bisa" pada kalimat satu adalah kata kerja, sementara "bisa" kalimat kedua adalah objek. Kalimat ketiga dan keempat memberikan contoh lain dari makna yang berbeda pada kata yang sama berdasarkan konteks yang berbeda. Cokelat pada kalimat pertama bermakna makanan manis olahan dari hasil pohon cokelat sementara cokelat kalimat keempat merupakan keterangan warna dari objek sofa.
 
-Pada umumnya, permasalahan ini bisa dikategorikan sebagai permasalahan klasifikasi. Diberikan sebuah \textit{resource}(seperti Wordnet) yang di dalamnya terdapat kata-kata beserta kumpulan maknanya masing-masing, makna kata mana yang paling tepat untuk suatu kata "x". Namun demikian, \textit{resource} yang dibutuhkan sebagai panduan makna kata tersebut harus memadai jika ingin digunakan untuk \textit{task} klasifikasi. Wordnet yang dimiliki untuk bahasa Indonesia masih tergolong kurang memadai karena jumlah \textit{synset} yang sedikit. Berdasarkan permasalahan tersebut, beberapa makna kata tambahan akan dipindahkan dari korpus yang memiliki \textit{resource} yang lebih mapan yaitu korpus bahasa Inggris dengan cara \textit{cross language sense transfering}.
+Pada umumnya, permasalahan ini dapat dikategorikan sebagai permasalahan klasifikasi. Diberikan sebuah \textit{resource}(seperti Wordnet) yang di dalamnya terdapat kata-kata beserta kumpulan maknanya masing-masing, makna kata mana yang paling tepat untuk suatu kata "x". Namun demikian, \textit{resource} yang dibutuhkan sebagai panduan makna kata tersebut harus memadai jika ingin digunakan untuk \textit{task} klasifikasi. Wordnet yang dimiliki untuk bahasa Indonesia masih tergolong kurang memadai karena jumlah \textit{synset} yang sedikit. Berdasarkan permasalahan tersebut, beberapa makna kata tambahan akan dipindahkan dari korpus yang memiliki \textit{resource} yang lebih mapan yaitu korpus bahasa Inggris dengan cara \textit{cross language sense transfering}.
 
-Penggunaan dari \textit{word sense disambiguation} ini dapat bermanfaat untuk \textit{sub task} pada \textit{machine translation}, dimana satu buah kata dapat diterjemahkan menjadi beberapa kemungkinan kata yang berbeda berdasarkan makna yang dikandungnya. Mengacu pada contoh kalimat pertama, kata \textbf{bisa} dapat diterjemahkan menjadi\textit{can} atau \textit{could}. Berbeda dengan kalimat kedua yang mana kata \textbf{bisa} diterjemahkan menjadi \textit{venom}. Mengetahui makna kata (\textit{sense}) yang tepat dapat mempermudah proses penerjemahan otomatis untuk \textit{unit} kata.
+Penggunaan dari \textit{word sense disambiguation} ini dapat bermanfaat untuk \textit{sub task} pada \textit{machine translation}, dimana satu buah kata dapat diterjemahkan menjadi beberapa kemungkinan kata yang berbeda berdasarkan makna yang dikandungnya. Mengacu pada contoh kalimat pertama, kata \textbf{bisa} dapat diterjemahkan menjadi \textit{can} atau \textit{could}. Berbeda dengan kalimat kedua yang mana kata \textbf{bisa} diterjemahkan menjadi \textit{venom}. Mengetahui makna kata (\textit{sense}) yang tepat dapat mempermudah proses penerjemahan otomatis untuk sebuah kata.
 
 %-----------------------------------------------------------------------------%
 \section{Perumusan Masalah}
@@ -69,16 +69,16 @@ Sistematika penulisan yang ada dalam laporan penelitian ini sebagai berikut:
 \begin{itemize}
 	
 	\item Bab 1 \babSatu \\
-	Pada bab ini, dijelaskan mengenai latar belakang yang menjadi dasar dari penulisan. Selain itu, bab ini juga menjelaskan mengenai perumusan masalah, tujuan penelitian, tahapan penelitian, ruang lingkup penelitian, metodologi penelitian, serta sistematika penulisan dari penelitian ilmiah ini.
+	Bab ini akan menjelaskan mengenai latar belakang, perumusan masalah, tujuan penelitian, tahapan penelitian, ruang lingkup, metodologi, dan sistematika penulisan dari penelitian ini.
 	
 	\item Bab 2 \babDua \\
-	Pada bab ini, dijelaskan mengenai teori-teori yang relevan berdasarkan hasil studi literatur yang telah dilakukan. Studi literatur ini menjelaskan tentang \textit{Textual Entailment}, Wikipedia \textit{revision history}, algoritme Co-training dan hal-hal mendasar lainnya yang dibutuhkan dalam penelitian.
+	Bab ini akan menjelaskan mengenai konsep dan teori yang relevan dari hasil studi literatur yang telah dilakukan. Teori-teori yang dijelaskan meliputi \textit{Word sense disambiguation}, \textit{Word sense induction}, dan beberapa hal lain yang dibutuhkan pada penelitian.
 	
 	\item Bab 3 \babTiga \\
 	Bab ini akan membahas perihal pelaksanaan dari proses \textit{tagging sense} pada korpus English dan \textit{word alignment} pada kedua korpus (Indonesia - English) beserta evaluasinya.
 	
 	\item Bab 4 \babEmpat \\
-	Bab ini menjelaskan mengenai implementasi penelitian, mulai dari tahap pengolahan data Wikipedia \textit{revision history} hingga percobaan Co-training.
+	Pada bab ini akan dijelaskan mengenai implementasi dari sistem WSD yang dibangun untuk melakukan disambiguasi pada kata-kata yang telah ditentukan.
 	
 	\item Bab 5 \babLima \\
 	Pada bab ini, dijelaskan mengenai hasil penelitian beserta evaluasi dan analisis dari hasil tersebut. 
