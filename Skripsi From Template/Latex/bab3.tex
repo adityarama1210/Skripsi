@@ -2,42 +2,27 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babTiga}
 %-----------------------------------------------------------------------------%
-Pada bab ini, dijelaskan mengenai rancangan dan tahap-tahap pengembangan korpus \textit{Textual Entailment} Bahasa Indonesia. 
+Pada bab ini akan dijelaskan mengenai pelaksanaan \textit{word alignment} beserta peningkatan dan evaluasinya. Selain \textit{word alignment}, bab ini juga akan menjelaskan mengenai \textit{tagging} korpus English.
 
 %-----------------------------------------------------------------------------%
-\section{Rancangan Pengembangan Korpus}
+\section{Penjajaran Kata Korpus Paralel}
 %-----------------------------------------------------------------------------%
-Pengembangan korpus \textit{Textual Entailment} dalam penelitian ini mengikuti arsitektur yang dapat dilihat pada gambar \ref{fig:arsitektur_sistem}.
-\begin{figure}
-  \centering
-  \includegraphics[width=1\linewidth]{pics/arsitektur_sistem}
-  \caption{Rancangan Arsitektur Pengembangan Korpus \textit{Textual Entailment}}
-  \label{fig:arsitektur_sistem}
-\end{figure}
-\noindent Seperti yang terlihat pada gambar \ref{fig:arsitektur_sistem}, sumber utama data untuk penelitian ini adalah data Wikipedia Bahasa Indonesia yang dapat dilihat di situs Wikimedia\footnote{dumps.wikimedia.org/idwiki/}. Wikipedia \textit{dumps} adalah bentuk statis dari Wikipedia yang dibuat oleh Wikimedia. Ada dua jenis data yang digunakan untuk penelitian ini, yaitu XML seluruh artikel Wikipedia dan XML Wikipedia \textit{revision history}. Berkas XML Wikipedia seluruh artikel digunakan untuk membuat model \textit{word embedding} yang akan digunakan sebagai salah satu ekstraksi fitur pada penelitian ini. Sedangkan, data Wikipedia \textit{revision hisotry} adalah data utama dalam pengembangan korpus \textit{Textual Entailment} menggunakan metode Co-training. 
-
-Secara garis besar, tahap dalam pengembangan korpus terbagi menjadi 3 bagian, yaitu pemodelan \textit{word embedding}, pembentukan kandidat pasangan T dan H, serta proses Co-training. Pemodelan \textit{word embedding} adalah proses membuat model \textit{word embedding} menggunakan data artikel Wikipedia. Model ini akan digunakan untuk mengekstraksi fitur utama dari data sebelum diproses dalam Co-training. Pembentukan kandidat pasangan T dan H adalah proses mengubah dan mengekstrak data Wikipedia \textit{revision history} menjadi data yang hanya menyimpan informasi T dan H, serta komentar penulis. Sedangkan, Co-training adalah proses inti dari penelitian ini, yaitu pengolahan data tidak berlabel menjadi data berlabel yang digunakan sebagai penyusun isi korpus \textit{Textual Entailment} Bahasa Indonesia. 
-
-Berikut adalah penjelasan singkat mengenai tahapan pada gambar \ref{fig:arsitektur_sistem}.
+Penjajaran kata pada korpus berbahasa Inggris dan Indonesia menggunakan \textit{tools word alignment} bernama Giza++. \textit{Tool} ini merupakan salah satu \textit{word alignment tools} pada \textit{statistical machine translation} (SMT) yang dapat digunakan untuk memasangkan kata-kata pada dua buah korpus atau lebih. Terdapat beberapa \textit{word alignment tools} lain seperti Berkeley \textit{aligner}, anymalign, dan lain-lain. Proses penyelarasan yang dilakukan dengan Giza++ meliputi tahap-tahap berikut:
 \begin{enumerate}
-  \item Data Wikipedia yang akan digunakan pada penelitian diunduh dari situs Wikimedia \textit{dumps} Bahasa Indonesia.
-  \item Data Wikipedia diekstrak, yaitu teks dibersihkan dari format Wiki \textit{markup language} dan bagian dari berkas XML yang diambil hanya yang mengandung informasi-informasi yang dibutuhkan, seperti \textit{tag text, revision, id}, dan \textit{comment}.
-  \item Data artikel Wikipedia tanpa format \textit{markup} diolah menjadi model \textit{word embedding}. Proses pengolahan terdiri dari dua langkah, yaitu memenggal artikel menjadi kalimat dan melatih model \textit{word2vec} dengan kalimat-kalimat untuk membentuk model \textit{word embedding}.
-  \item Data Wikipedia \textit{revision history} yang bersih diolah menjadi pasangan T dan H. Ada banyak proses yang dilakukan pada tahap ini, proses tersebut dijelaskan pada bagian \ref{sec:pembentukanTdanH}.
-  \item Data kandidat pasangan T dan H dikelompokkan menjadi dua, data berlabel dan data tidak berlabel. Untuk mendapatkan data berlabel perlu dilakukan anotasi manual. 
-  \item Data berlabel dan tidak berlabel diekstrak fitur-fiturnya, salah satu ekstraksi fitur akan berbentuk \textit{word embedding}. Untuk mengubah data menjadi fitur \textit{word embedding}, digunakan model \textit{word embedding} yang sebelumnya sudah dibuat.
-  \item Data berlabel dan tidak berlabel yang sudah diekstrak ke dalam bentuk vektor fitur kemudian dimasukkan ke dalam proses Co-training. Di proses tersebut, data tidak berlabel akan diberi label secara otomatis. Semua data berlabel yang terbentuk setelah Co-training berhenti disesuaikan formatnya agar menjadi korpus \textit{Textual Entailment} Bahasa Indonesia.
+	\item Mempersiapkan kedua buah \textit{file} yaitu korpus bahasa asal dan korpus bahasa tujuan. Kedua \textit{file} ini berpasangan dalam setiap barisnya. Baris pertama dalam \textit{file} pertama berpasangan dengan baris pertama pada \textit{file} kedua sampai akhir baris pada kedua \textit{file}.
+	\item Menghasilkan \textit{file} perbendaharaan kata dari kedua bahasa dan \textit{list} indeks perbendaharaan kata pada tiap kalimat yang sudah diselaraskan
+	\item Menghasilkan \textit{cooccurence file} dari kosa kata dan pasangan kalimat tersebut
+	\item Proses \textit{alignment} yang menghasilkan beberapa macam \textit{output file} 
 \end{enumerate}
 
-Keluaran yang diharapkan dari penelitian ini adalah korpus \textit{Textual Entailment} dengan format seperti pada gambar \ref{fig:isi-korpus}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.67\linewidth]{pics/isi-korpus}
-	\caption{Contoh isi korpus \textit{Textual Entailment} yang diharapkan}
-	\label{fig:isi-korpus}
-\end{figure}
-\noindent Korpus \textit{Textual Entailment} berisikan pasangan-pasangan T dan H beserta nilai \textit{entailment}-nya. Pada penelitian ini, masing-masing T dan H berbentuk sebuah kalimat. Kalimat T disimpan dalam \textit{tag T}; sedangkan, kalimat H disimpan dalam \textit{tag H}. Nilai \textit{entailment} yang diharapkan adalah salah satu dari tiga jenis label E, U, dan C. Nilai tersebut tersimpan dalam \textit{tag V}. Label E merepresentasikan T \textit{entail} H, label C merepresentasikan hubungan T dan H yang kontradiksi, dan label U untuk T dan H yang tidak berhubungan.
+Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kalimat dengan kata-kata yang sudah diselaraskan dengan translasinya dalam bahasa tujuan. Hasil ini merupakan \textit{best viterbi alignment} menurut Giza++. Pasangan kalimat dengan kata-kata yang sudah diselaraskan mempunyai bentuk seperti contoh berikut:
 
+\begin{itemize}
+	\item Dia pergi ke Bandung malam ini
+	\item NULL (\{ \}) She (\{ 1 \}) will (\{ \}) go (\{ 2 \}) to (\{ 3 \}) Bandung (\{ 4 \}) tonight (\{ 5 6 \})
+\end{itemize}
+
+Setiap kata pada bahasa tujuan akan memiliki angka hasil penyelarasan yang berkorespondensi pada indeks huruf ke-n pada kata di kalimat bahasa tujuan. Pada contoh tersebut "She" dipasangkan dengan kata pertama yaitu "Dia", kata "will" tidak mempunyai pasangan pada kalimat asal, kata "tonight" dipasangkan dengan kata "malam ini". Bila terdapat kata yang dipasangkan pada token khusus (NULL), dapat diartikan bahwa Giza++ menilai bahwa kata tersebut tidak mempunyai pasangan.
 
 %-----------------------------------------------------------------------------%
 \section{Pembentukan Kandidat T dan H} \label{sec:pembentukanTdanH}

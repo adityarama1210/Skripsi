@@ -2,30 +2,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Rancangan Arsitektur Pengembangan Korpus \textit {Textual Entailment}\relax }}{7}{figure.caption.19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Contoh isi korpus \textit {Textual Entailment} yang diharapkan\relax }}{9}{figure.caption.20}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Salah satu artikel Wikipedia beserta daftar revisinya\relax }}{10}{figure.caption.21}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Contoh hasil pemasangan teks induk dan revisi\relax }}{11}{figure.caption.22}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Ilustrasi Penyesuaian Paragraf\relax }}{12}{figure.caption.23}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Contoh Penyesuaian Paragraf\relax }}{12}{figure.caption.24}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Ilustrasi Penyesuaian Kalimat\relax }}{13}{figure.caption.25}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Contoh Penyesuaian Kalimat\relax }}{14}{figure.caption.26}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Ilustrasi Pemasangan Kalimat\relax }}{15}{figure.caption.27}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Contoh Pemasangan Kalimat\relax }}{16}{figure.caption.28}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Contoh hasil pasangan T dan H\relax }}{17}{figure.caption.29}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Contoh hasil anotasi manual\relax }}{18}{figure.caption.30}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Dua arsitektur RNN yang akan dicoba\relax }}{20}{figure.caption.31}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Contoh penyesuaian kata antara 2 kalimat\relax }}{22}{figure.caption.32}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Salah satu artikel Wikipedia beserta daftar revisinya\relax }}{9}{figure.caption.19}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Contoh hasil pemasangan teks induk dan revisi\relax }}{10}{figure.caption.20}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustrasi Penyesuaian Paragraf\relax }}{10}{figure.caption.21}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Contoh Penyesuaian Paragraf\relax }}{11}{figure.caption.22}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Ilustrasi Penyesuaian Kalimat\relax }}{12}{figure.caption.23}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Contoh Penyesuaian Kalimat\relax }}{12}{figure.caption.24}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Ilustrasi Pemasangan Kalimat\relax }}{14}{figure.caption.25}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Contoh Pemasangan Kalimat\relax }}{14}{figure.caption.26}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Contoh hasil pasangan T dan H\relax }}{15}{figure.caption.27}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Contoh hasil anotasi manual\relax }}{16}{figure.caption.28}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Dua arsitektur RNN yang akan dicoba\relax }}{19}{figure.caption.29}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Contoh penyesuaian kata antara 2 kalimat\relax }}{20}{figure.caption.30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Potongan artikel pada berkas XML Wikipedia\relax }}{24}{figure.caption.33}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Hasil Ekstraksi pada XML seluruh artikel Wikipedia\relax }}{25}{figure.caption.34}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Contoh hasil proses pemisahan kalimat\relax }}{28}{figure.caption.35}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Potongan artikel pada berkas XML Wikipedia\relax }}{22}{figure.caption.31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Hasil Ekstraksi pada XML seluruh artikel Wikipedia\relax }}{23}{figure.caption.32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Contoh hasil proses pemisahan kalimat\relax }}{26}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Contoh hasil Co-training pada salah satu iterasi\relax }}{46}{figure.caption.44}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Jumlah data yang diperoleh pada tiap iterasi\relax }}{47}{figure.caption.45}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Akurasi pada setiap kelompok iterasi\relax }}{49}{figure.caption.47}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Contoh kesalahan pelabelan\relax }}{50}{figure.caption.48}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Contoh kesalahan pelabelan\relax }}{50}{figure.caption.49}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Contoh kesalahan pelabelan\relax }}{51}{figure.caption.50}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Contoh pelabelan berhasil\relax }}{52}{figure.caption.51}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Contoh hasil Co-training pada salah satu iterasi\relax }}{44}{figure.caption.42}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Jumlah data yang diperoleh pada tiap iterasi\relax }}{45}{figure.caption.43}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Akurasi pada setiap kelompok iterasi\relax }}{47}{figure.caption.45}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Contoh kesalahan pelabelan\relax }}{48}{figure.caption.46}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Contoh kesalahan pelabelan\relax }}{48}{figure.caption.47}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Contoh kesalahan pelabelan\relax }}{49}{figure.caption.48}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Contoh pelabelan berhasil\relax }}{50}{figure.caption.49}
 \addvspace {10\p@ }
