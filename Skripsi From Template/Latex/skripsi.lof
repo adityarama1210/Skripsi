@@ -2,18 +2,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Dua arsitektur RNN yang akan dicoba\relax }}{11}{figure.caption.19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Contoh penyesuaian kata antara 2 kalimat\relax }}{13}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Potongan artikel pada berkas XML Wikipedia\relax }}{15}{figure.caption.21}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Hasil Ekstraksi pada XML seluruh artikel Wikipedia\relax }}{16}{figure.caption.22}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Contoh hasil proses pemisahan kalimat\relax }}{19}{figure.caption.23}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Potongan artikel pada berkas XML Wikipedia\relax }}{12}{figure.caption.19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Hasil Ekstraksi pada XML seluruh artikel Wikipedia\relax }}{13}{figure.caption.20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Contoh hasil proses pemisahan kalimat\relax }}{16}{figure.caption.21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Contoh hasil Co-training pada salah satu iterasi\relax }}{37}{figure.caption.32}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Jumlah data yang diperoleh pada tiap iterasi\relax }}{38}{figure.caption.33}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Akurasi pada setiap kelompok iterasi\relax }}{40}{figure.caption.35}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Contoh kesalahan pelabelan\relax }}{41}{figure.caption.36}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Contoh kesalahan pelabelan\relax }}{41}{figure.caption.37}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Contoh kesalahan pelabelan\relax }}{42}{figure.caption.38}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Contoh pelabelan berhasil\relax }}{43}{figure.caption.39}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Contoh hasil Co-training pada salah satu iterasi\relax }}{34}{figure.caption.30}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Jumlah data yang diperoleh pada tiap iterasi\relax }}{35}{figure.caption.31}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Akurasi pada setiap kelompok iterasi\relax }}{37}{figure.caption.33}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Contoh kesalahan pelabelan\relax }}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Contoh kesalahan pelabelan\relax }}{38}{figure.caption.35}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Contoh kesalahan pelabelan\relax }}{39}{figure.caption.36}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Contoh pelabelan berhasil\relax }}{40}{figure.caption.37}
 \addvspace {10\p@ }

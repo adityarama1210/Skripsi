@@ -21,23 +21,23 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Pendekatan Clustering}{section.2.2}% 21
 \BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Pendekatan Cross Language}{section.2.2}% 22
 \BOOKMARK [1][-]{section.2.3}{2.3 Evaluasi}{chapter.2}% 23
-\BOOKMARK [0][-]{chapter.3}{3 Pemindahan Sense Korpus Paralel}{}% 24
-\BOOKMARK [1][-]{section.3.1}{3.1 Penjajaran Kata Korpus Paralel}{chapter.3}% 25
+\BOOKMARK [0][-]{chapter.3}{3 Rancangan Penelitian}{}% 24
+\BOOKMARK [1][-]{section.3.1}{3.1 Penyelarasan Kata pada Korpus Paralel}{chapter.3}% 25
 \BOOKMARK [1][-]{section.3.2}{3.2 Evaluasi Word Alignment}{chapter.3}% 26
 \BOOKMARK [1][-]{section.3.3}{3.3 Peningkatan Kualitas Hasil Alignment}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.4}{3.4 Co-training}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Penentuan Classifier Pertama}{section.3.4}% 29
-\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Penentuan Classifier Kedua}{section.3.4}% 30
-\BOOKMARK [0][-]{chapter.4}{4 Implementasi Sistem WSD}{}% 31
-\BOOKMARK [1][-]{section.4.1}{4.1 Ekstraksi Teks}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.2}{4.2 Pemisahan kalimat}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.3}{4.3 Pemodelan Word Embedding}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.4}{4.4 Pembentukan T dan H}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.5}{4.5 Ekstraksi Fitur}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Ekstraksi Fitur View Pertama}{section.4.5}% 37
-\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Ekstraksi Fitur View Kedua}{section.4.5}% 38
-\BOOKMARK [1][-]{section.4.6}{4.6 Co-training}{chapter.4}% 39
-\BOOKMARK [0][-]{chapter.5}{5 Evaluasi dan Analisis Hasil}{}% 40
+\BOOKMARK [1][-]{section.3.4}{3.4 Pemindahan Makna Kata}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.5}{3.5 Sistem WSD}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{4 Implementasi}{}% 30
+\BOOKMARK [1][-]{section.4.1}{4.1 Peningkatan Kualitas Alignment}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{4.2 Ekstraksi Teks}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.3}{4.3 Pemisahan kalimat}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.4}{4.4 Pemodelan Word Embedding}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.5}{4.5 Pembentukan T dan H}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.6}{4.6 Ekstraksi Fitur}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Ekstraksi Fitur View Pertama}{section.4.6}% 37
+\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Ekstraksi Fitur View Kedua}{section.4.6}% 38
+\BOOKMARK [1][-]{section.4.7}{4.7 Co-training}{chapter.4}% 39
+\BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 40
 \BOOKMARK [1][-]{section.5.1}{5.1 Pengumpulan Data}{chapter.5}% 41
 \BOOKMARK [1][-]{section.5.2}{5.2 Hasil Pengolahan Data}{chapter.5}% 42
 \BOOKMARK [1][-]{section.5.3}{5.3 Hasil Anotasi Manual}{chapter.5}% 43
@@ -51,4 +51,4 @@
 \BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 51
 \BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 52
 \BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 53
-\BOOKMARK [0][-]{chapter*.40}{Daftar Referensi}{}% 54
+\BOOKMARK [0][-]{chapter*.38}{Daftar Referensi}{}% 54
