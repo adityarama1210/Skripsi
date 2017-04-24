@@ -8,22 +8,13 @@ Bab ini membahas mengenai latar belakang penelitian, perumusan masalah, tujuan d
 \section{Latar Belakang}
 %-----------------------------------------------------------------------------%	
 
-\textit{Task word sense disambiguation} merupakan pekerjaan yang mempunyai tujuan utama untuk mengenali \textit{sense}(makna) yang tepat dari sebuah kata. Sebagai manusia, pekerjaan ini termasuk relatif mudah karena kita dapat secara mengenal \textit{sense} dari sebuah kata berdasarkan makna dari konteks yang ada di sekelilingnya. Komputer pada dasarnya hanya dapat mengenali kata sebagai sebuah representasi data, sehingga perlu adanya \textit{modeling} agar komputer dapat mengenal dan membedakan makna antara satu kata dengan kata lainya. Sebuah contoh sederhana dari penentuan makna yang tepat dari sebuah kata dapat dilihat pada kalimat berikut.
+\textit{Word Sense Disambiguation} (WSD) merupakan salah satu tugas untuk menentukan makna terbaik dari sebuah kata. Sebuah kata sendiri dapat memiliki beberapa makna dan bergantung pada konteks dimana kata tersebut muncul. Pendekatan \textit{machine learning} baik itu \textit{supervised}, \textit{semi-supervised}, ataupun \textit{unsupervised} dapat dilakukan untuk menyelesaikan permasalahan ambiguasi kata tersebut.
 
-(S1) : Setiap orang \textbf{bisa} melakukan tindak kriminal.
+Pendekatan \textit{supervised} yang digunakan untuk membangun sistem WSD membutuhkan data \textit{training} dan \textit{resource} yang tidak sedikit. Kebutuhan akan data dan \textit{resource} yang besar tersebut merupakan kendala dari bahasa-bahasa tertentu. Bahasa Inggris sebagai salah satu bahasa internasional mempunyai data dan \textit{resource} yang cukup banyak untuk membangun sistem dengan \textit{supervised learning}. Namun demikian, bahasa Indonesia sendiri termasuk dalam \textit{under resource language} dimana sumber daya yang dapat dimanfaatkan untuk sistem WSD masih terbatas. Wordnet yang pada umumnya dipakai sebagai \textit{resource} utama yang memiliki informasi dari makna kata masih terbatas pada bahasa Indonesia.
 
-(S2) : Racun dari \textbf{bisa} ular itu sudah menyebar di tubuhnya.
+Membangun Wordnet untuk memenuhi kebutuhannya sebagai inventaris makna kata merupakan penelitian tersendiri yang membutuhkan waktu dan dana yang relatif tidak sedikit. Metode lain dibutuhkan untuk membangun \textit{supervised WSD system} yang akan meminimalisir permasalahan \textit{resource} yang belum memadai. Salah satu metode yang akan dicoba pada penelitian ini adalah pendekatan \textit{cross language}.
 
-(S3) : Ani sangat senang memakan \textbf{cokelat} pemberian Budi.
-
-(S4) : Budi mempunyai sofa \textbf{cokelat} yang sangat mahal
-
-Kata yang memiliki makna ganda (polisemi) pada kalimat satu dan kalimat dua adalah "bisa". kata "bisa" pada kedua kalimat tersebut memiliki makna yang berbeda, dimana kata "bisa" dalam kalimat satu menunjukan "kemampuan seseorang untuk melakukan sesuatu", dan kata "bisa" kalimat dua merujuk pada makna "racun yang berasal dari gigitan ular". Pada contoh permasalahan kalimat satu dan dua, penyelesaian relatif cukup mudah jika dilakukan dengan pendekatan \textit{POS Tagging}. Penggunaan bantuan \textit{task POS Tagging} tersebut dapat langsung membedakan bahwa "bisa" pada kalimat satu adalah kata kerja, sementara "bisa" kalimat kedua adalah objek. Kalimat ketiga dan keempat memberikan contoh lain dari makna yang berbeda pada kata yang sama berdasarkan konteks yang berbeda. Cokelat pada kalimat pertama bermakna makanan manis olahan dari hasil pohon cokelat sementara cokelat kalimat keempat merupakan keterangan warna dari objek sofa.
-
-Pada umumnya, permasalahan ini dapat dikategorikan sebagai permasalahan klasifikasi. Diberikan sebuah \textit{resource}(seperti Wordnet) yang di dalamnya terdapat kata-kata beserta kumpulan maknanya masing-masing, makna kata mana yang paling tepat untuk suatu kata "x". Namun demikian, \textit{resource} yang dibutuhkan sebagai panduan makna kata tersebut harus memadai jika ingin digunakan untuk \textit{task} klasifikasi. Wordnet yang dimiliki untuk bahasa Indonesia masih tergolong kurang memadai karena jumlah \textit{synset} yang sedikit. Berdasarkan permasalahan tersebut, beberapa makna kata tambahan akan dipindahkan dari korpus yang memiliki \textit{resource} yang lebih mapan yaitu korpus bahasa Inggris dengan cara \textit{cross language sense transfering}.
-
-Penggunaan dari \textit{word sense disambiguation} ini dapat bermanfaat untuk \textit{sub task} pada \textit{machine translation}, dimana satu buah kata dapat diterjemahkan menjadi beberapa kemungkinan kata yang berbeda berdasarkan makna yang dikandungnya. Mengacu pada contoh kalimat pertama, kata \textbf{bisa} dapat diterjemahkan menjadi \textit{can} atau \textit{could}. Berbeda dengan kalimat kedua yang mana kata \textbf{bisa} diterjemahkan menjadi \textit{venom}. Mengetahui makna kata (\textit{sense}) yang tepat dapat mempermudah proses penerjemahan otomatis untuk sebuah kata.
-
+Pendekatan \textit{cross language} dengan bahasa Inggris sebagai pasangan diharapkan dapat memperkaya \textit{resource} yang masih kurang pada bahasa Indonesia. 
 %-----------------------------------------------------------------------------%
 \section{Perumusan Masalah}
 %-----------------------------------------------------------------------------%
@@ -53,12 +44,12 @@ Ada lima tahapan yang dilakukan pada penelitian ini. Penjelasan dari tiap tahapa
 	Tahap ini berfokus pada pencarian informasi mengenai \textit{WSD system} baik secara umum maupun teknik yang digunakan, dan juga \textit{task} lain yang berkaitan dengan \textit{WSD} seperti \textit{word sense induction} (\textit{WSI}).
 	\item Perumusan Masalah \\
 	Masalah-masalah yang ada dalam penelitian nantinya dianalisis penyelesaiannya pada tahap ini.
-	\item Pemindahan Sense Korpus English ke Indonesia\\
-	Proses yang melibatkan \textit{sense tagging} pada korpus bahasa inggris, \textit{word alignment} korpus Indonesia-English, dan pemindahan \textit{sense}.
-	\item Implementasi Sistem WSD  \\
-	Tahap ini akan membahas perihal implementasi dari sistem WSD yang dibangun untuk disambiguasi pada korpus Indonesia dengan kata-kata yang ditentukan.
+	\item Rancangan Penelitian\\
+	Proses yang melibatkan seluruh penelitian untuk menyelesaikan permasalahan yang ada.
+	\item Implementasi\\
+	Tahap ini merupakan implementasi dari rancangan yang sudah dibuat untuk memecahkan permasalahan yang ada.
 	\item Analisis dan Kesimpulan \\
-	Hasil eksperimen dianalisis untuk melihat seberapa baik sistem wsd yang telah dibangun.
+	Hasil percobaan dianalisis untuk mendapatkan gambaran seberapa baik performa dari sistem yang dibuat.
 \end{enumerate}
 
 

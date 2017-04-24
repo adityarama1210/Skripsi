@@ -11,6 +11,25 @@ Bab ini membahas mengenai studi literatur yang digunakan selama penelitian. Stud
 
 Penentuan makna kata yang tepat oleh sistem WSD ditentukan berdasarkan konteks dari kata tersebut berada. Walaupun satu kata dapat memiliki beberapa makna, terdapat kecil kemungkinan bahwa kata yang sama digunakan dalam satu \textit{discourse} untuk menyatakan makna yang berbeda sebagaimana "one sense per discourse" \citep{gale1992one}
 
+\subsection{WSD Bahasa Inggris}
+Salah satu sistem WSD untuk bahasa inggris yang ada adalah "It Makes Sense" (IMS) yang dibuat oleh Zhi Zhong dan Hwee Tou Ng \citep{zhong2010makes}. Sistem  dibangun menggunakan pendekatan \textit{supervised learning} yang dapat digunakan untuk semua kata bahasa Inggris. Pada dasarnya, \textit{classifier} yang dipilih untuk \textit{task} ini adalah \textit{support vector machine} (SVM) dengan fitur dari berbagai \textit{knowledge} yang ada. Arsitektur yang dibangun pada IMS dapat dilihat pada gambar berikut:
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/Arsitektur-IMS}
+	\caption{Arsitektur IMS}
+	\label{fig:Arsitektur-IMS}
+\end{figure}
+
+Pengujian seberapa baik performa IMS dalam melakukan  WSD \textit{task} mendapatkan hasil:
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/Performa-IMS}
+	\caption{Performa IMS \citep{zhong2010makes}}
+	\label{fig:Performa-IMS}
+\end{figure}
+
 %-----------------------------------------------------------------------------%
 \section{Word Sense Induction}
 %-----------------------------------------------------------------------------%	
@@ -68,6 +87,7 @@ Berangkat dari bahasa asal yaitu Indonesia, kata "rumah sakit" dipasangkan kepad
 Pada proses evaluasi ini, pemisah kata yang umum digunakan untuk tokenisasi adalah karakter spasi. setiap token dari hasil tokenisasi tersebut kemudian dianggap sebagai satu unit kata. Kata ini akan diindeks dengan angka untuk mempermudah proses \textit{alignment} dan komputasi evaluasi. Contoh tokenisasi dan pemberian indeks pada kalimat "Aku ingin membeli mainan" adalah:
 
 K3(id) : Aku ingin membeli mainan
+
 K3(indeks) : 1 2 3 4
 
 \subsection{Pengukuran Evaluasi}

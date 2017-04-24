@@ -11,13 +11,14 @@
 \contentsline {chapter}{Daftar Kode}{xii}{chapter*.18}
 \contentsline {chapter}{\numberline {1}\uppercase {Pendahuluan}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Perumusan Masalah}{2}{section.1.2}
+\contentsline {section}{\numberline {1.2}Perumusan Masalah}{1}{section.1.2}
 \contentsline {section}{\numberline {1.3}Tujuan dan Manfaat Penelitian}{2}{section.1.3}
 \contentsline {section}{\numberline {1.4}Ruang Lingkup Penelitian}{2}{section.1.4}
-\contentsline {section}{\numberline {1.5}Metodologi Penelitian}{3}{section.1.5}
+\contentsline {section}{\numberline {1.5}Metodologi Penelitian}{2}{section.1.5}
 \contentsline {section}{\numberline {1.6}Sistematika Penulisan}{3}{section.1.6}
-\contentsline {chapter}{\numberline {2}\uppercase {Tinjauan Pustaka}}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Word Sense Disambiguation}{5}{section.2.1}
+\contentsline {chapter}{\numberline {2}\uppercase {Tinjauan Pustaka}}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Word Sense Disambiguation}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}WSD Bahasa Inggris}{4}{subsection.2.1.1}
 \contentsline {section}{\numberline {2.2}Word Sense Induction}{5}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Pendekatan \textit {Clustering}}{5}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Pendekatan \textit {Cross Language}}{6}{subsection.2.2.2}
@@ -33,14 +34,16 @@
 \contentsline {section}{\numberline {3.5}Sistem WSD}{11}{section.3.5}
 \contentsline {chapter}{\numberline {4}\uppercase {Implementasi}}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1}Peningkatan Kualitas \textit {Alignment}}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}Ekstraksi Teks}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Pemisahan kalimat}{15}{section.4.3}
-\contentsline {section}{\numberline {4.4}Pemodelan Word Embedding}{17}{section.4.4}
-\contentsline {section}{\numberline {4.5}Pembentukan T dan H}{18}{section.4.5}
-\contentsline {section}{\numberline {4.6}Ekstraksi Fitur}{21}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Ekstraksi Fitur View Pertama}{22}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Ekstraksi Fitur View Kedua}{25}{subsection.4.6.2}
-\contentsline {section}{\numberline {4.7}Co-training}{25}{section.4.7}
+\contentsline {section}{\numberline {4.2}Sistem WSD}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Pemilihan Fitur dan \textit {Classifier}}{13}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Ekstraksi Teks}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Pemisahan kalimat}{15}{section.4.4}
+\contentsline {section}{\numberline {4.5}Pemodelan Word Embedding}{18}{section.4.5}
+\contentsline {section}{\numberline {4.6}Pembentukan T dan H}{18}{section.4.6}
+\contentsline {section}{\numberline {4.7}Ekstraksi Fitur}{22}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Ekstraksi Fitur View Pertama}{22}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Ekstraksi Fitur View Kedua}{25}{subsection.4.7.2}
+\contentsline {section}{\numberline {4.8}Co-training}{25}{section.4.8}
 \contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Pengumpulan Data}{27}{section.5.1}
 \contentsline {section}{\numberline {5.2}Hasil Pengolahan Data}{27}{section.5.2}
@@ -55,4 +58,4 @@
 \contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{42}{chapter.6}
 \contentsline {section}{\numberline {6.1}Kesimpulan}{42}{section.6.1}
 \contentsline {section}{\numberline {6.2}Saran}{43}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{45}{chapter*.39}
+\contentsline {chapter}{Daftar Referensi}{45}{chapter*.41}

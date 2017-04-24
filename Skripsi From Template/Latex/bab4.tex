@@ -29,6 +29,23 @@ if en_word not in final_dictionary[indo_word]:
 final_dictionary[indo_word][en_word] = dict_en[word_en][word_id]
 \end{lstlisting}
 
+%-----------------------------------------------------------------------------%
+\section{Sistem WSD}
+Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. Pada sistem ini terdapat dua buah bagian utama yaitu pemilihan fitur serta \textit{classifier} dan evaluasi hasil \textit{classifier}.
+
+\subsection{Pemilihan Fitur dan \textit{Classifier}}
+Terdapat n buah fitur pada penelitian ini yang terdiri dari:
+
+\begin{enumerate}
+	\item Fitur \textit{bag of words} yang merupakan kata samping kanan dan kiri dengan \textit{window} sebanyak dua buah kata
+	\item Fitur \textit{POS tagging}
+	\item Vektor dari hasil \textit{word embedding}
+\end{enumerate}
+
+\textit{Classifier} yang digunakan pada penelitian ini adalah SVM dengan \textit{library} Python yaitu Scikit dengan parameter \textit{default} berupa kernel linear dan C=1.
+
+\subsection{Evaluasi Sistem}
+Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan rata-rata akurasi dari hasil klasifikasi yang dilakukan \textit{classifier}. \textit{Crossvalidation} dilakukan dengan interasi sebanyak tiga buah.
 
 %-----------------------------------------------------------------------------%
 \section{Ekstraksi Teks}

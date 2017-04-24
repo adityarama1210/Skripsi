@@ -31,4 +31,11 @@ Nasiruddin, M. (2013).
   disambiguation for under-resourced languages.
 \newblock {\em arXiv preprint arXiv:1310.1425}.
 
+\bibitem[Zhong dan Ng, 2010]{zhong2010makes}
+Zhong, Z. dan Ng, H.~T. (2010).
+\newblock It makes sense: A wide-coverage word sense disambiguation system for
+  free text.
+\newblock In {\em Proceedings of the ACL 2010 System Demonstrations}, pages
+  78--83. Association for Computational Linguistics.
+
 \end{thebibliography}
