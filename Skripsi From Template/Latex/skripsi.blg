@@ -17,52 +17,44 @@ A level-1 auxiliary file: bab5.aux
 A level-1 auxiliary file: bab6.aux
 The style file: apalikerd.bst
 Database file #1: skripsi.bib
-Name 3 in "Bowman, Samuel R. and Angeli, Gabor and Potts, Christopher, and Manning, Christopher D." has a comma at the end for entry snli:emnlp2015
-while executing---line 1020 of file apalikerd.bst
-Name 3 in "Bowman, Samuel R. and Angeli, Gabor and Potts, Christopher, and Manning, Christopher D." has a comma at the end for entry snli:emnlp2015
-while executing---line 1095 of file apalikerd.bst
-Warning--empty journal in Hammerton:2003:CONLL
-Warning--empty journal in 6973520
-Warning--empty journal in 7065828
-You've used 34 entries,
+You've used 5 entries,
             1935 wiz_defined-function locations,
-            713 strings with 10703 characters,
-and the built_in function-call counts, 14855 in all, are:
-= -- 1501
-> -- 541
-< -- 37
-+ -- 192
-- -- 178
-* -- 1153
-:= -- 2434
-add.period$ -- 110
-call.type$ -- 34
-change.case$ -- 252
-chr.to.int$ -- 34
-cite$ -- 37
-duplicate$ -- 644
-empty$ -- 1065
-format.name$ -- 238
-if$ -- 3060
+            518 strings with 4831 characters,
+and the built_in function-call counts, 2080 in all, are:
+= -- 217
+> -- 52
+< -- 7
++ -- 22
+- -- 16
+* -- 146
+:= -- 341
+add.period$ -- 18
+call.type$ -- 5
+change.case$ -- 33
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 96
+empty$ -- 160
+format.name$ -- 23
+if$ -- 432
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 40
-newline$ -- 174
-num.names$ -- 102
-pop$ -- 265
+missing$ -- 5
+newline$ -- 29
+num.names$ -- 15
+pop$ -- 32
 preamble$ -- 1
-purify$ -- 258
+purify$ -- 33
 quote$ -- 0
-skip$ -- 518
+skip$ -- 77
 stack$ -- 0
-substring$ -- 1033
-swap$ -- 162
-text.length$ -- 18
+substring$ -- 161
+swap$ -- 24
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 192
-warning$ -- 3
-while$ -- 125
+type$ -- 30
+warning$ -- 0
+while$ -- 21
 width$ -- 0
-write$ -- 453
-(There were 2 error messages)
+write$ -- 70

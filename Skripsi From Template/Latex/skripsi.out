@@ -20,35 +20,37 @@
 \BOOKMARK [1][-]{section.2.2}{2.2 Word Sense Induction}{chapter.2}% 20
 \BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Pendekatan Clustering}{section.2.2}% 21
 \BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Pendekatan Cross Language}{section.2.2}% 22
-\BOOKMARK [1][-]{section.2.3}{2.3 Evaluasi}{chapter.2}% 23
-\BOOKMARK [0][-]{chapter.3}{3 Rancangan Penelitian}{}% 24
-\BOOKMARK [1][-]{section.3.1}{3.1 Penyelarasan Kata pada Korpus Paralel}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.2}{3.2 Evaluasi Word Alignment}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.3}{3.3 Peningkatan Kualitas Hasil Alignment}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.4}{3.4 Pemindahan Makna Kata}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.5}{3.5 Sistem WSD}{chapter.3}% 29
-\BOOKMARK [0][-]{chapter.4}{4 Implementasi}{}% 30
-\BOOKMARK [1][-]{section.4.1}{4.1 Peningkatan Kualitas Alignment}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.2}{4.2 Ekstraksi Teks}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.3}{4.3 Pemisahan kalimat}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.4}{4.4 Pemodelan Word Embedding}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.5}{4.5 Pembentukan T dan H}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.6}{4.6 Ekstraksi Fitur}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Ekstraksi Fitur View Pertama}{section.4.6}% 37
-\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Ekstraksi Fitur View Kedua}{section.4.6}% 38
-\BOOKMARK [1][-]{section.4.7}{4.7 Co-training}{chapter.4}% 39
-\BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 40
-\BOOKMARK [1][-]{section.5.1}{5.1 Pengumpulan Data}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.2}{5.2 Hasil Pengolahan Data}{chapter.5}% 42
-\BOOKMARK [1][-]{section.5.3}{5.3 Hasil Anotasi Manual}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.4}{5.4 Pengujian Arsitektur RNN}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.5}{5.5 Pemilihan Fitur View Kedua}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.6}{5.6 Pengujian Classifier View Kedua}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.7}{5.7 Co-training}{chapter.5}% 47
-\BOOKMARK [2][-]{subsection.5.7.1}{5.7.1 Hasil Co-training}{section.5.7}% 48
-\BOOKMARK [2][-]{subsection.5.7.2}{5.7.2 Evaluasi Co-training}{section.5.7}% 49
-\BOOKMARK [2][-]{subsection.5.7.3}{5.7.3 Analisis Co-training}{section.5.7}% 50
-\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 51
-\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 52
-\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 53
-\BOOKMARK [0][-]{chapter*.38}{Daftar Referensi}{}% 54
+\BOOKMARK [1][-]{section.2.3}{2.3 Evaluasi Word Alignment}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Tokenisasi}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Pengukuran Evaluasi}{section.2.3}% 25
+\BOOKMARK [0][-]{chapter.3}{3 Rancangan Penelitian}{}% 26
+\BOOKMARK [1][-]{section.3.1}{3.1 Penyelarasan Kata pada Korpus Paralel}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.2}{3.2 Evaluasi Word Alignment}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.3}{3.3 Peningkatan Kualitas Hasil Alignment}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.4}{3.4 Pemindahan Makna Kata}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.5}{3.5 Sistem WSD}{chapter.3}% 31
+\BOOKMARK [0][-]{chapter.4}{4 Implementasi}{}% 32
+\BOOKMARK [1][-]{section.4.1}{4.1 Peningkatan Kualitas Alignment}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{4.2 Ekstraksi Teks}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.3}{4.3 Pemisahan kalimat}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.4}{4.4 Pemodelan Word Embedding}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.5}{4.5 Pembentukan T dan H}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.6}{4.6 Ekstraksi Fitur}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Ekstraksi Fitur View Pertama}{section.4.6}% 39
+\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Ekstraksi Fitur View Kedua}{section.4.6}% 40
+\BOOKMARK [1][-]{section.4.7}{4.7 Co-training}{chapter.4}% 41
+\BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 42
+\BOOKMARK [1][-]{section.5.1}{5.1 Pengumpulan Data}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.2}{5.2 Hasil Pengolahan Data}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.3}{5.3 Hasil Anotasi Manual}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.4}{5.4 Pengujian Arsitektur RNN}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.5}{5.5 Pemilihan Fitur View Kedua}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.6}{5.6 Pengujian Classifier View Kedua}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.7}{5.7 Co-training}{chapter.5}% 49
+\BOOKMARK [2][-]{subsection.5.7.1}{5.7.1 Hasil Co-training}{section.5.7}% 50
+\BOOKMARK [2][-]{subsection.5.7.2}{5.7.2 Evaluasi Co-training}{section.5.7}% 51
+\BOOKMARK [2][-]{subsection.5.7.3}{5.7.3 Analisis Co-training}{section.5.7}% 52
+\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 53
+\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 55
+\BOOKMARK [0][-]{chapter*.39}{Daftar Referensi}{}% 56

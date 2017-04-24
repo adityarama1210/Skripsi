@@ -1,17 +1,18 @@
 \select@language {bahasa}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Pengukuran Word Alignment\relax }}{7}{figure.caption.19}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Potongan artikel pada berkas XML Wikipedia\relax }}{12}{figure.caption.19}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Hasil Ekstraksi pada XML seluruh artikel Wikipedia\relax }}{13}{figure.caption.20}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Contoh hasil proses pemisahan kalimat\relax }}{16}{figure.caption.21}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Potongan artikel pada berkas XML Wikipedia\relax }}{13}{figure.caption.20}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Hasil Ekstraksi pada XML seluruh artikel Wikipedia\relax }}{14}{figure.caption.21}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Contoh hasil proses pemisahan kalimat\relax }}{17}{figure.caption.22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Contoh hasil Co-training pada salah satu iterasi\relax }}{34}{figure.caption.30}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Jumlah data yang diperoleh pada tiap iterasi\relax }}{35}{figure.caption.31}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Akurasi pada setiap kelompok iterasi\relax }}{37}{figure.caption.33}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Contoh kesalahan pelabelan\relax }}{38}{figure.caption.34}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Contoh kesalahan pelabelan\relax }}{38}{figure.caption.35}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Contoh kesalahan pelabelan\relax }}{39}{figure.caption.36}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Contoh pelabelan berhasil\relax }}{40}{figure.caption.37}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Contoh hasil Co-training pada salah satu iterasi\relax }}{35}{figure.caption.31}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Jumlah data yang diperoleh pada tiap iterasi\relax }}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Akurasi pada setiap kelompok iterasi\relax }}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Contoh kesalahan pelabelan\relax }}{39}{figure.caption.35}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Contoh kesalahan pelabelan\relax }}{39}{figure.caption.36}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Contoh kesalahan pelabelan\relax }}{40}{figure.caption.37}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Contoh pelabelan berhasil\relax }}{41}{figure.caption.38}
 \addvspace {10\p@ }

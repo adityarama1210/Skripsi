@@ -38,5 +38,42 @@ Penentuan makna kata yang tepat oleh sistem WSD ditentukan berdasarkan konteks d
 	Berdasarkan kedua pasangan kalimat tersebut, kata \textbf{halaman} dalam bahasa Indonesia dapat diterjemahkan menjadi dua buah kata dalam bahasa Inggris, yaitu \textit{page} ataupun \textit{yard}. Hal ini menunjukan bahwa terjemahan dari suatu kata bergantung pada makna yang dikandung kata tersebut.
 
 %-----------------------------------------------------------------------------%
-\section{Evaluasi}
-%-----------------------------------------------------------------------------%
+\section{Evaluasi \textit{Word Alignment}}
+Tugas dari \textit{word alignment} adalah menemukan korespondensi antara kata dan frasa pada teks paralel 
+\citep{mihalcea2003evaluation}. Evaluasi ini akan membandingkan antara hasil \textit{alignment} dari sebuah tool \textit{word alignment} dengan hasil \textit{alignment} manusia sebagai \textit{gold standard}. Kasus yang dapat terjadi pada proses \textit{alignment} ini adalah ketika terdapat kata yang tidak memiliki pasangan. Contoh dari kasus tersebut dapat dilihat pada pasangan kaimat berikut:
+
+
+K1(en) : \textit{He would do it regardless what people say}
+
+K1(id) : Dia akan melakukannya segalanya
+
+
+Bila melihat bahasa Indonesia sebagai sumber bahasa, maka kata "segalanya" pada kalimat tersebut tidak memiliki pasangan. Pada kasus seperti contoh diatas, kata yang tidak memiliki pasangan akan dipasangkan dengan \textit{token} NULL.
+
+
+Selain kata yang tidak memiliki pasangan, terdapat juga kasus dimana pasangan adalah berupa frasa. Hal ini dapat dilihat pada contoh berikut:
+
+
+K2(en) : The victim must be taken to the hospital
+
+K2(id) : Korban tersebut harus di bawa ke rumah sakit
+
+
+Berangkat dari bahasa asal yaitu Indonesia, kata "rumah sakit" dipasangkan kepada kata "hospital". Hal ini dapat berlaku berkebalikan jika bahasa asal yang digunakan adalah bahasa Inggris seperti kata "untuknya" berpasangan dengan kata "for him".
+
+\subsection{Tokenisasi}
+Pada proses evaluasi ini, pemisah kata yang umum digunakan untuk tokenisasi adalah karakter spasi. setiap token dari hasil tokenisasi tersebut kemudian dianggap sebagai satu unit kata. Kata ini akan diindeks dengan angka untuk mempermudah proses \textit{alignment} dan komputasi evaluasi. Contoh tokenisasi dan pemberian indeks pada kalimat "Aku ingin membeli mainan" adalah:
+
+K3(id) : Aku ingin membeli mainan
+K3(indeks) : 1 2 3 4
+
+\subsection{Pengukuran Evaluasi}
+Terdapat empat buah pengukuran berbeda, yaitu \textit{precision}, \textit{recall}, \textit{f-measure}, dan \textit{alignment error rate (AER)}. Diberikan hasil \textit{alignment} dari program berupa A, dan \textit{gold standard alignment} dari \textit{evaluator} (manusia) sebagai G, masing-masing mengandung dua buah \textit{set} yaitu \textit{probable alignment} dan \textit{sure alignment}. Pengukuran evaluasi dapat dilakukan dengan cara berikut:
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/Pengukuran-Word-Alignment}
+	\caption{Pengukuran Word Alignment}
+	\label{fig:Pengukuran-Word-Alignment}
+\end{figure}
+%------------------------------------------- ----------------------------------%

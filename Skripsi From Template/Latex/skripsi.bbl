@@ -1,102 +1,15 @@
 \begin{thebibliography}{}
 
-\bibitem[Blitzer dan Zhu, 2008]{blitzer2008semi}
-Blitzer, J. dan Zhu, X.~J. (2008).
-\newblock Semi-supervised learning for natural language processing.
-\newblock In {\em Proceedings of the 46th Annual Meeting of the Association for
-  Computational Linguistics on Human Language Technologies: Tutorial
-  Abstracts}, pages 3--3. Association for Computational Linguistics.
-
-\bibitem[Blum dan Mitchell, 1998]{blummitchell}
-Blum, A. dan Mitchell, T. (1998).
-\newblock Combining labeled and unlabeled data with co-training.
-\newblock In {\em Proceedings of the 11th Annual Conference on Computational
-  Learning Theory}, pages 92--100, Madison, WI.
-
-\bibitem[Bowman et~al., 2015]{snli:emnlp2015}
-Bowman, S.~R., Angeli, G., Potts, C., dan Manning, C.~D. (2015).
-\newblock A large annotated corpus for learning natural language inference.
-\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
-  Natural Language Processing (EMNLP)}. Association for Computational
-  Linguistics.
-
-\bibitem[Chapelle et~al., 2006]{chapelle2006semi}
-Chapelle, O., Sch\"olkopf, B., Zien, A., et~al. (2006).
-\newblock {\em Semi-supervised learning}, volume~2.
-\newblock MIT press Cambridge.
-
-\bibitem[Cohen, 1960]{Cohen1960}
-Cohen, J. (1960).
-\newblock A coefficient of agreement for nominal scales.
-\newblock {\em Educational and psychological measurement}, 20(1):37--46.
-
-\bibitem[Collins dan Singer, 1999]{Collins99unsupervisedmodels}
-Collins, M. dan Singer, Y. (1999).
-\newblock Unsupervised models for named entity classification.
-\newblock In {\em In Proceedings of the Joint SIGDAT Conference on Empirical
-  Methods in Natural Language Processing and Very Large Corpora}, pages
-  100--110.
-
 \bibitem[Denkowski, 2009]{denkowski2009survey}
 Denkowski, M. (2009).
 \newblock A survey of techniques for unsupervised word sense induction.
 \newblock {\em Language \& Statistics II Literature Review}, pages 1--18.
-
-\bibitem[Denoyer dan Gallinari, 2006]{wikipediaxml:2005}
-Denoyer, L. dan Gallinari, P. (2006).
-\newblock The wikipedia xml corpus.
-\newblock {\em SIGIR Forum}, 40(1):64--69.
-
-\bibitem[Fleiss, 1971]{fleiss1971measuring}
-Fleiss, J.~L. (1971).
-\newblock Measuring nominal scale agreement among many raters.
-\newblock {\em Psychological bulletin}, 76(5):378.
 
 \bibitem[Gale et~al., 1992]{gale1992one}
 Gale, W.~A., Church, K.~W., dan Yarowsky, D. (1992).
 \newblock One sense per discourse.
 \newblock In {\em Proceedings of the workshop on Speech and Natural Language},
   pages 233--237. Association for Computational Linguistics.
-
-\bibitem[Graves et~al., 2009]{Graves:2009:NCS:1525650.1525782}
-Graves, A., Liwicki, M., Fern\'andez, S., Bertolami, R., Bunke, H., dan
-  Schmidhuber, J. (2009).
-\newblock A novel connectionist system for unconstrained handwriting
-  recognition.
-\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
-  31(5):855--68.
-
-\bibitem[Graves et~al., 2013]{6638947}
-Graves, A., Mohamed, A.-R., dan Hinton, G. (2013).
-\newblock Speech recognition with deep recurrent neural networks.
-\newblock In {\em Acoustics, Speech and Signal Processing (ICASSP), 2013 IEEE
-  International Conference on}, pages 6645--6649.
-
-\bibitem[Hammerton, 2003]{Hammerton:2003:CONLL}
-Hammerton, J. (2003).
-\newblock Named entity recognition with long short-term memory.
-\newblock pages 172--175.
-
-\bibitem[Hochreiter dan Schmidhuber, 1997]{Hochreiter:1997:LSM:1246443.1246450}
-Hochreiter, S. dan Schmidhuber, J. (1997).
-\newblock Long short-term memory.
-\newblock {\em Neural Comput.}, 9(8):1735--1780.
-
-\bibitem[Jones dan Galliers, 1995]{Jones:1996:ENL:547445}
-Jones, K. dan Galliers, J. (1995).
-\newblock {\em Evaluating natural language processing systems: An analysis and
-  review}, volume 1083 of {\em Volumer24, Number 2}.
-\newblock Springer Verlag.
-
-\bibitem[Jurafsky dan Martin, 2014]{jurafsky2014speech}
-Jurafsky, D. dan Martin, J.~H. (2014).
-\newblock {\em Speech and language processing}.
-\newblock Pearson.
-
-\bibitem[Landis dan Koch, 1977]{landis1977measurement}
-Landis, J. dan Koch, G. (1977).
-\newblock The measurement of observer agreement for categorical data.
-\newblock {\em Biometrics}, pages 159--174.
 
 \bibitem[Levenshtein, 1966]{Levenshtein_SPD66}
 Levenshtein, V.~I. (1966).
@@ -105,101 +18,17 @@ Levenshtein, V.~I. (1966).
 \newblock {\em Soviet Physics Doklady}, 10(8):707--710.
 \newblock Doklady Akademii Nauk SSSR, V163 No4 845-848 1965.
 
-\bibitem[Liu et~al., 2016]{rnn-3}
-Liu, Y., Sun, C., Lin, L., dan Wang, X. (2016).
-\newblock Learning natural language inference using bidirectional {LSTM} model
-  and inner-attention.
-\newblock {\em CoRR}, abs/1605.09090.
-
-\bibitem[Luthfi et~al., 2014]{6973520}
-Luthfi, A., Distiawan, B., dan Manurung, R. (2014).
-\newblock Building an indonesian named entity recognizer using wikipedia and
-  dbpedia.
-\newblock pages 19--22.
-
-\bibitem[Manning et~al., 2008]{Manning:2008:IIR:1394399}
-Manning, C.~D., Raghavan, P., dan Sch\"{u}tze, H. (2008).
-\newblock {\em Introduction to Information Retrieval}.
-\newblock Cambridge University Press, New York, NY, USA.
-
-\bibitem[Medelyan et~al., 2009]{Medelyan:2009:MMW:1618876.1619040}
-Medelyan, O., Milne, D., Legg, C., dan Witten, I.~H. (2009).
-\newblock Mining meaning from wikipedia.
-\newblock {\em Int. J. Hum.-Comput. Stud.}, 67(9):716--754.
-
-\bibitem[Mikolov et~al., 2013]{DBLP:journals/corr/abs-1301-3781}
-Mikolov, T., Chen, K., Corrado, G., dan Dean, J. (2013).
-\newblock Efficient estimation of word representations in vector space.
-\newblock {\em CoRR}, abs/1301.3781.
-
-\bibitem[Mohri et~al., 2012]{mohri2012foundations}
-Mohri, M., Rostamizadeh, A., dan Talwalkar, A. (2012).
-\newblock {\em Foundations of machine learning}.
-\newblock MIT press.
+\bibitem[Mihalcea dan Pedersen, 2003]{mihalcea2003evaluation}
+Mihalcea, R. dan Pedersen, T. (2003).
+\newblock An evaluation exercise for word alignment.
+\newblock In {\em Proceedings of the HLT-NAACL 2003 Workshop on Building and
+  using parallel texts: data driven machine translation and beyond-Volume 3},
+  pages 1--10. Association for Computational Linguistics.
 
 \bibitem[Nasiruddin, 2013]{nasiruddin2013state}
 Nasiruddin, M. (2013).
 \newblock A state of the art of word sense induction: A way towards word sense
   disambiguation for under-resourced languages.
 \newblock {\em arXiv preprint arXiv:1310.1425}.
-
-\bibitem[Olson dan Delen, 2008]{olson2008advanced}
-Olson, D.~L. dan Delen, D. (2008).
-\newblock {\em Advanced data mining techniques}.
-\newblock Springer Science \& Business Media.
-
-\bibitem[Paterson dan Danc\'{\i}k, 1994]{Paterson:1994:LCS:645723.666723}
-Paterson, M. dan Danc\'{\i}k, V. (1994).
-\newblock Longest common subsequences.
-\newblock In {\em Proceedings of the 19th International Symposium on
-  Mathematical Foundations of Computer Science 1994}, MFCS '94, pages 127--142,
-  London, UK, UK. Springer-Verlag.
-
-\bibitem[Pennington et~al., 2014]{pennington2014glove}
-Pennington, J., Socher, R., dan Manning, C.~D. (2014).
-\newblock Glove: Global vectors for word representation.
-\newblock In {\em EMNLP}, volume~14, pages 1532--43.
-
-\bibitem[Rockt{\"{a}}schel et~al., 2015]{rnn-1}
-Rockt{\"{a}}schel, T., Grefenstette, E., Hermann, K.~M., Kocisk{\'{y}}, T., dan
-  Blunsom, P. (2015).
-\newblock Reasoning about entailment with neural attention.
-\newblock {\em CoRR}, abs/1509.06664.
-
-\bibitem[Sidorov et~al., 2014]{Sidorov:2014:SNM:2538034.2538087}
-Sidorov, G., Velasquez, F., Stamatatos, E., Gelbukh, A., dan
-  Chanona-Hern\'{a}ndez, L. (2014).
-\newblock Syntactic n-grams as machine learning features for natural language
-  processing.
-\newblock {\em Expert Syst. Appl.}, 41(3):853--860.
-
-\bibitem[Trisedya dan Inastra, 2014]{7065828}
-Trisedya, B.~D. dan Inastra, D. (2014).
-\newblock Creating indonesian-javanese parallel corpora using wikipedia
-  articles.
-\newblock pages 239--245.
-
-\bibitem[Turian et~al., 2010]{Turian:2010:WRS:1858681.1858721}
-Turian, J., Ratinov, L., dan Bengio, Y. (2010).
-\newblock Word representations: A simple and general method for semi-supervised
-  learning.
-\newblock In {\em Proceedings of the 48th Annual Meeting of the Association for
-  Computational Linguistics}, ACL '10, pages 384--394, Stroudsburg, PA, USA.
-  Association for Computational Linguistics.
-
-\bibitem[Wang dan Jiang, 2016]{rnn-2}
-Wang, S. dan Jiang, J. (2016).
-\newblock Learning natural language inference with lstm.
-\newblock In {\em Proceedings of the 2016 Conference of the North American
-  Chapter of the Association for Computational Linguistics: Human Language
-  Technologies}, pages 1442--1451, San Diego, California. Association for
-  Computational Linguistics.
-
-\bibitem[Zanzotto dan Pennacchiotti, 2010]{zanzottoRTEexpand}
-Zanzotto, F.~M. dan Pennacchiotti, M. (2010).
-\newblock Expanding textual entailment corpora fromwikipedia using co-training.
-\newblock In {\em Proceedings of the {2nd} Workshop on {The People's Web Meets
-  NLP: Collaboratively Constructed Semantic Resources}}, pages 28--36, Beijing,
-  China. Coling 2010 Organizing Committee.
 
 \end{thebibliography}
