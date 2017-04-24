@@ -39,6 +39,8 @@ Penentuan makna kata yang tepat oleh sistem WSD ditentukan berdasarkan konteks d
 
 %-----------------------------------------------------------------------------%
 \section{Evaluasi \textit{Word Alignment}}
+
+\subsection{\textit{Word Alignment}}
 Tugas dari \textit{word alignment} adalah menemukan korespondensi antara kata dan frasa pada teks paralel 
 \citep{mihalcea2003evaluation}. Evaluasi ini akan membandingkan antara hasil \textit{alignment} dari sebuah tool \textit{word alignment} dengan hasil \textit{alignment} manusia sebagai \textit{gold standard}. Kasus yang dapat terjadi pada proses \textit{alignment} ini adalah ketika terdapat kata yang tidak memiliki pasangan. Contoh dari kasus tersebut dapat dilihat pada pasangan kaimat berikut:
 
@@ -62,6 +64,7 @@ K2(id) : Korban tersebut harus di bawa ke rumah sakit
 Berangkat dari bahasa asal yaitu Indonesia, kata "rumah sakit" dipasangkan kepada kata "hospital". Hal ini dapat berlaku berkebalikan jika bahasa asal yang digunakan adalah bahasa Inggris seperti kata "untuknya" berpasangan dengan kata "for him".
 
 \subsection{Tokenisasi}
+
 Pada proses evaluasi ini, pemisah kata yang umum digunakan untuk tokenisasi adalah karakter spasi. setiap token dari hasil tokenisasi tersebut kemudian dianggap sebagai satu unit kata. Kata ini akan diindeks dengan angka untuk mempermudah proses \textit{alignment} dan komputasi evaluasi. Contoh tokenisasi dan pemberian indeks pada kalimat "Aku ingin membeli mainan" adalah:
 
 K3(id) : Aku ingin membeli mainan

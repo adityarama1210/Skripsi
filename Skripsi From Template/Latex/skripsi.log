@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  24 APR 2017 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  24 APR 2017 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1038,7 +1038,7 @@ File: adit_pics/Pengukuran-Word-Alignment.png Graphic file (type png)
 
 <use adit_pics/Pengukuran-Word-Alignment.png>
 Package pdftex.def Info: adit_pics/Pengukuran-Word-Alignment.png used on input 
-line 75.
+line 78.
 (pdftex.def)             Requested size: 398.3386pt x 204.55795pt.
 )
 
@@ -1149,14 +1149,14 @@ Underfull \hbox (badness 5316) in paragraph at lines 36--37
 
 
 
-] <pics/wiki-XML-2.png, id=535, 642.90187pt x 432.11438pt>
+] <pics/wiki-XML-2.png, id=536, 642.90187pt x 432.11438pt>
 File: pics/wiki-XML-2.png Graphic file (type png)
 
 <use pics/wiki-XML-2.png>
 Package pdftex.def Info: pics/wiki-XML-2.png used on input line 46.
 (pdftex.def)             Requested size: 398.3386pt x 267.7433pt.
 
-<pics/hasil-ekstraksi.png, id=539, 507.39563pt x 270.25969pt>
+<pics/hasil-ekstraksi.png, id=540, 507.39563pt x 270.25969pt>
 File: pics/hasil-ekstraksi.png Graphic file (type png)
 
 <use pics/hasil-ekstraksi.png>
@@ -1210,7 +1210,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16] <pics/sen-split.png, id=610, 439.6425pt x 188.95593pt>
+[16] <pics/sen-split.png, id=611, 439.6425pt x 188.95593pt>
 File: pics/sen-split.png Graphic file (type png)
 
 <use pics/sen-split.png>
@@ -1485,7 +1485,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33] <pics/hasil-cotrain.png, id=889, 478.78876pt x 355.3275pt>
+[33] <pics/hasil-cotrain.png, id=890, 478.78876pt x 355.3275pt>
 File: pics/hasil-cotrain.png Graphic file (type png)
 
 <use pics/hasil-cotrain.png>
@@ -1503,7 +1503,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34] <pics/grafik-jumlah.png, id=895, 684.30656pt x 426.84468pt>
+[34] <pics/grafik-jumlah.png, id=896, 684.30656pt x 426.84468pt>
 File: pics/grafik-jumlah.png Graphic file (type png)
 
 <use pics/grafik-jumlah.png>
@@ -1583,7 +1583,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [36 <./pics/grafik-jumlah.png>]
-<pics/grafik-akurasi.png, id=909, 622.57594pt x 353.06906pt>
+<pics/grafik-akurasi.png, id=910, 622.57594pt x 353.06906pt>
 File: pics/grafik-akurasi.png Graphic file (type png)
 
 <use pics/grafik-akurasi.png>
@@ -1596,7 +1596,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37] <pics/kasus-1-1.png, id=914, 410.2828pt x 190.46156pt>
+[37] <pics/kasus-1-1.png, id=915, 410.2828pt x 190.46156pt>
 File: pics/kasus-1-1.png Graphic file (type png)
 
 <use pics/kasus-1-1.png>
@@ -1614,13 +1614,13 @@ Underfull \hbox (badness 1629) in paragraph at lines 282--283
 \T1/ptm/m/n/12 Gambar di atas menunjukkan contoh data yang mengalami kesalahan
  []
 
-<pics/kasus-1-2.png, id=921, 419.31656pt x 271.76532pt>
+<pics/kasus-1-2.png, id=922, 419.31656pt x 271.76532pt>
 File: pics/kasus-1-2.png Graphic file (type png)
 
 <use pics/kasus-1-2.png>
 Package pdftex.def Info: pics/kasus-1-2.png used on input line 286.
 (pdftex.def)             Requested size: 338.59023pt x 219.44447pt.
- <pics/kasus-2.png, id=922, 404.26031pt x 190.46156pt>
+ <pics/kasus-2.png, id=923, 404.26031pt x 190.46156pt>
 File: pics/kasus-2.png Graphic file (type png)
 
 <use pics/kasus-2.png>
@@ -1634,7 +1634,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39 <./pics/kasus-1-1.png> <./pics/kasus-1-2.png>]
-<pics/bagus-1.png, id=931, 417.81094pt x 301.125pt>
+<pics/bagus-1.png, id=932, 417.81094pt x 301.125pt>
 File: pics/bagus-1.png Graphic file (type png)
  <use pics/bagus-1.png>
 Package pdftex.def Info: pics/bagus-1.png used on input line 305.
@@ -1893,16 +1893,22 @@ pics/bagus-1.png
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: C800DFA235D379A1A35E455AF13DB0EA;3766.
+
+Package rerunfilecheck Warning: File `skripsi.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `skripsi.out':
+(rerunfilecheck)             Before: C800DFA235D379A1A35E455AF13DB0EA;3766
+(rerunfilecheck)             After:  5C53B34623FB21ACDB0FC50E81ABCCDE;3840.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15981 strings out of 493014
- 219075 string characters out of 6133352
+ 15982 strings out of 493014
+ 219091 string characters out of 6133352
  479963 words of memory out of 5000000
  18504 multiletter control sequences out of 15000+600000
  61344 words of font info for 98 fonts, out of 8000000 for 9000
@@ -1917,10 +1923,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (58 pages, 461539 bytes).
+Output written on skripsi.pdf (58 pages, 461566 bytes).
 PDF statistics:
- 1094 PDF objects out of 1200 (max. 8388607)
- 992 compressed objects within 10 object streams
- 435 named destinations out of 1000 (max. 500000)
+ 1095 PDF objects out of 1200 (max. 8388607)
+ 993 compressed objects within 10 object streams
+ 436 named destinations out of 1000 (max. 500000)
  509 words of extra memory for PDF output out of 10000 (max. 10000000)
 
