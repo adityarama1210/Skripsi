@@ -35,26 +35,19 @@
 \BOOKMARK [1][-]{section.4.1}{4.1 Peningkatan Kualitas Alignment}{chapter.4}% 35
 \BOOKMARK [1][-]{section.4.2}{4.2 Sistem WSD}{chapter.4}% 36
 \BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Pemilihan Fitur dan Classifier}{section.4.2}% 37
-\BOOKMARK [1][-]{section.4.3}{4.3 Ekstraksi Teks}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.4}{4.4 Pemisahan kalimat}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.5}{4.5 Pemodelan Word Embedding}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.6}{4.6 Pembentukan T dan H}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.7}{4.7 Ekstraksi Fitur}{chapter.4}% 42
-\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Ekstraksi Fitur View Pertama}{section.4.7}% 43
-\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Ekstraksi Fitur View Kedua}{section.4.7}% 44
-\BOOKMARK [1][-]{section.4.8}{4.8 Co-training}{chapter.4}% 45
-\BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 46
-\BOOKMARK [1][-]{section.5.1}{5.1 Pengumpulan Data}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.2}{5.2 Hasil Pengolahan Data}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.3}{5.3 Hasil Anotasi Manual}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.4}{5.4 Pengujian Arsitektur RNN}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.5}{5.5 Pemilihan Fitur View Kedua}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.6}{5.6 Pengujian Classifier View Kedua}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.7}{5.7 Co-training}{chapter.5}% 53
-\BOOKMARK [2][-]{subsection.5.7.1}{5.7.1 Hasil Co-training}{section.5.7}% 54
-\BOOKMARK [2][-]{subsection.5.7.2}{5.7.2 Evaluasi Co-training}{section.5.7}% 55
-\BOOKMARK [2][-]{subsection.5.7.3}{5.7.3 Analisis Co-training}{section.5.7}% 56
-\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 57
-\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 58
-\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 59
-\BOOKMARK [0][-]{chapter*.41}{Daftar Referensi}{}% 60
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Evaluasi Sistem}{section.4.2}% 38
+\BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 39
+\BOOKMARK [1][-]{section.5.1}{5.1 Pengumpulan Data}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.2}{5.2 Hasil Pengolahan Data}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.3}{5.3 Hasil Anotasi Manual}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.4}{5.4 Pengujian Arsitektur RNN}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.5}{5.5 Pemilihan Fitur View Kedua}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.6}{5.6 Pengujian Classifier View Kedua}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.7}{5.7 Co-training}{chapter.5}% 46
+\BOOKMARK [2][-]{subsection.5.7.1}{5.7.1 Hasil Co-training}{section.5.7}% 47
+\BOOKMARK [2][-]{subsection.5.7.2}{5.7.2 Evaluasi Co-training}{section.5.7}% 48
+\BOOKMARK [2][-]{subsection.5.7.3}{5.7.3 Analisis Co-training}{section.5.7}% 49
+\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 50
+\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 52
+\BOOKMARK [0][-]{chapter*.38}{Daftar Referensi}{}% 53

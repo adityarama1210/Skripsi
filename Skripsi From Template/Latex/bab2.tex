@@ -12,7 +12,7 @@ Bab ini membahas mengenai studi literatur yang digunakan selama penelitian. Stud
 Penentuan makna kata yang tepat oleh sistem WSD ditentukan berdasarkan konteks dari kata tersebut berada. Walaupun satu kata dapat memiliki beberapa makna, terdapat kecil kemungkinan bahwa kata yang sama digunakan dalam satu \textit{discourse} untuk menyatakan makna yang berbeda sebagaimana "one sense per discourse" \citep{gale1992one}
 
 \subsection{WSD Bahasa Inggris}
-Salah satu sistem WSD untuk bahasa inggris yang ada adalah "It Makes Sense" (IMS) yang dibuat oleh Zhi Zhong dan Hwee Tou Ng \citep{zhong2010makes}. Sistem  dibangun menggunakan pendekatan \textit{supervised learning} yang dapat digunakan untuk semua kata bahasa Inggris. Pada dasarnya, \textit{classifier} yang dipilih untuk \textit{task} ini adalah \textit{support vector machine} (SVM) dengan fitur dari berbagai \textit{knowledge} yang ada. Arsitektur yang dibangun pada IMS dapat dilihat pada gambar berikut:
+Salah satu sistem WSD untuk bahasa inggris yang ada adalah "It Makes Sense" (IMS) yang dibuat oleh Zhi Zhong dan Hwee Tou Ng \citep{zhong2010makes}. Sistem  dibangun menggunakan pendekatan \textit{supervised learning} yang dapat digunakan untuk semua kata bahasa Inggris. Pada dasarnya, \textit{classifier} yang dipilih untuk \textit{task} ini adalah \textit{support vector machine} (SVM). Arsitektur yang dibangun pada IMS dapat dilihat pada gambar berikut:
 
 \begin{figure}
 	\centering
@@ -20,6 +20,22 @@ Salah satu sistem WSD untuk bahasa inggris yang ada adalah "It Makes Sense" (IMS
 	\caption{Arsitektur IMS}
 	\label{fig:Arsitektur-IMS}
 \end{figure}
+
+Proses \textit{pre-processing} pada IMS dilakukan dengan empat tahapan:
+\begin{enumerate}
+	\item Mendeteksi batasan kalimat dengan \textit{sentence splitter}
+	\item Tokenisasi dengan \textit{tokenizer}
+	\item POS Tagging untuk semua token
+	\item Mengubah token menjadi lemma dengan \textit{lemmatizer}
+\end{enumerate}
+
+Ekstraksi fitur dilakukan dengan mengombinasikan:
+
+\begin{enumerate}
+	\item POS Tag dari tiga buah kata di kiri dan kanan \textit{target word}, serta kata itu sendiri. 
+	\item Kata-kata sekitar pada konteks kalimat ataupun kalimat tetangganya. Kata-kata yang terkandung di dalam \textit{stopwords} dan memiliki simbol atau angka dibuang dari kalimat tersebut. Kata-kata yang tersisa tersebut kemudian diubah menjadi bentuk kata dasarnya dalam huruf kecil.
+	\item \textit{Local Collocation} dengan 11 buah \textit{collocation} baik itu sebelum \textit{target word} maupun setelahnya. 
+\end{enumerate}
 
 Pengujian seberapa baik performa IMS dalam melakukan  WSD \textit{task} mendapatkan hasil:
 
@@ -91,7 +107,7 @@ K3(id) : Aku ingin membeli mainan
 K3(indeks) : 1 2 3 4
 
 \subsection{Pengukuran Evaluasi}
-Terdapat empat buah pengukuran berbeda, yaitu \textit{precision}, \textit{recall}, \textit{f-measure}, dan \textit{alignment error rate (AER)}. Diberikan hasil \textit{alignment} dari program berupa A, dan \textit{gold standard alignment} dari \textit{evaluator} (manusia) sebagai G, masing-masing mengandung dua buah \textit{set} yaitu \textit{probable alignment} dan \textit{sure alignment}. Pengukuran evaluasi dapat dilakukan dengan cara berikut:
+Terdapat empat buah pengukuran berbeda, yaitu \textit{precision}, \textit{recall}, \textit{f-measure}, dan \textit{alignment error rate (AER)} \citep{mihalcea2003evaluation}. Diberikan hasil \textit{alignment} dari program berupa A, dan \textit{gold standard alignment} dari \textit{evaluator} (manusia) sebagai G, masing-masing mengandung dua buah \textit{set} yaitu \textit{probable alignment} dan \textit{sure alignment}. Pengukuran evaluasi dapat dilakukan dengan cara berikut:
 
 \begin{figure}
 	\centering

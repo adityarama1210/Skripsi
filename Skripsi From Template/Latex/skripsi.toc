@@ -19,43 +19,36 @@
 \contentsline {chapter}{\numberline {2}\uppercase {Tinjauan Pustaka}}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Word Sense Disambiguation}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}WSD Bahasa Inggris}{4}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Word Sense Induction}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Pendekatan \textit {Clustering}}{5}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.2}Word Sense Induction}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Pendekatan \textit {Clustering}}{6}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Pendekatan \textit {Cross Language}}{6}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Evaluasi \textit {Word Alignment}}{6}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}\textit {Word Alignment}}{6}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Tokenisasi}{7}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Pengukuran Evaluasi}{7}{subsection.2.3.3}
-\contentsline {chapter}{\numberline {3}\uppercase {Rancangan Penelitian}}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Penyelarasan Kata pada Korpus Paralel}{8}{section.3.1}
-\contentsline {section}{\numberline {3.2}Evaluasi \textit {Word Alignment}}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Peningkatan Kualitas Hasil \textit {Alignment}}{9}{section.3.3}
-\contentsline {section}{\numberline {3.4}Pemindahan Makna Kata}{10}{section.3.4}
+\contentsline {chapter}{\numberline {3}\uppercase {Rancangan Penelitian}}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Penyelarasan Kata pada Korpus Paralel}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Evaluasi \textit {Word Alignment}}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Peningkatan Kualitas Hasil \textit {Alignment}}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Pemindahan Makna Kata}{11}{section.3.4}
 \contentsline {section}{\numberline {3.5}Sistem WSD}{11}{section.3.5}
-\contentsline {chapter}{\numberline {4}\uppercase {Implementasi}}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}Peningkatan Kualitas \textit {Alignment}}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}Sistem WSD}{13}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Pemilihan Fitur dan \textit {Classifier}}{13}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Ekstraksi Teks}{13}{section.4.3}
-\contentsline {section}{\numberline {4.4}Pemisahan kalimat}{15}{section.4.4}
-\contentsline {section}{\numberline {4.5}Pemodelan Word Embedding}{18}{section.4.5}
-\contentsline {section}{\numberline {4.6}Pembentukan T dan H}{18}{section.4.6}
-\contentsline {section}{\numberline {4.7}Ekstraksi Fitur}{22}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Ekstraksi Fitur View Pertama}{22}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Ekstraksi Fitur View Kedua}{25}{subsection.4.7.2}
-\contentsline {section}{\numberline {4.8}Co-training}{25}{section.4.8}
-\contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Pengumpulan Data}{27}{section.5.1}
-\contentsline {section}{\numberline {5.2}Hasil Pengolahan Data}{27}{section.5.2}
-\contentsline {section}{\numberline {5.3}Hasil Anotasi Manual}{29}{section.5.3}
-\contentsline {section}{\numberline {5.4}Pengujian Arsitektur RNN}{31}{section.5.4}
-\contentsline {section}{\numberline {5.5}Pemilihan Fitur View Kedua}{32}{section.5.5}
-\contentsline {section}{\numberline {5.6}Pengujian Classifier View Kedua}{33}{section.5.6}
-\contentsline {section}{\numberline {5.7}Co-training}{33}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Hasil Co-training}{34}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Evaluasi Co-training}{36}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}Analisis Co-training}{38}{subsection.5.7.3}
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{42}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{42}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{43}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{45}{chapter*.41}
+\contentsline {chapter}{\numberline {4}\uppercase {Implementasi}}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Peningkatan Kualitas \textit {Alignment}}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Sistem WSD}{14}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Pemilihan Fitur dan \textit {Classifier}}{14}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Evaluasi Sistem}{15}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pengumpulan Data}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}Hasil Pengolahan Data}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Hasil Anotasi Manual}{18}{section.5.3}
+\contentsline {section}{\numberline {5.4}Pengujian Arsitektur RNN}{20}{section.5.4}
+\contentsline {section}{\numberline {5.5}Pemilihan Fitur View Kedua}{21}{section.5.5}
+\contentsline {section}{\numberline {5.6}Pengujian Classifier View Kedua}{22}{section.5.6}
+\contentsline {section}{\numberline {5.7}Co-training}{22}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Hasil Co-training}{23}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Evaluasi Co-training}{25}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Analisis Co-training}{27}{subsection.5.7.3}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{31}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{32}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{34}{chapter*.38}

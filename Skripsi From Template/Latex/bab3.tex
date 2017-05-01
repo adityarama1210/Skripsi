@@ -11,20 +11,15 @@ Penjajaran kata pada korpus berbahasa Inggris dan Indonesia menggunakan \textit{
 
 Proses penyelarasan yang dilakukan dengan Giza++ meliputi tahap-tahap berikut:
 \begin{enumerate}
-	\item Mempersiapkan kedua buah \textit{file} yaitu korpus bahasa asal dan korpus bahasa tujuan. Kedua \textit{file} ini berpasangan dalam setiap barisnya. Baris pertama dalam \textit{file} pertama berpasangan dengan baris pertama pada \textit{file} kedua sampai akhir baris pada kedua \textit{file}.
+	\item Mempersiapkan kedua buah \textit{file} yaitu korpus bahasa asal (\textit{source}) dan korpus bahasa tujuan (\textit{target}). Kedua \textit{file} ini berpasangan dalam setiap barisnya. Baris pertama dalam \textit{file} pertama berpasangan dengan baris pertama pada \textit{file} kedua sampai akhir baris pada kedua \textit{file}.
 	\item Menghasilkan \textit{file} perbendaharaan kata dari kedua bahasa dan \textit{list} indeks perbendaharaan kata pada tiap kalimat yang sudah diselaraskan
 	\item Menghasilkan \textit{cooccurence file} dari kosa kata dan pasangan kalimat tersebut
 	\item Proses \textit{alignment} yang menghasilkan beberapa macam \textit{output file} 
 \end{enumerate}
 
-Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kalimat dengan kata-kata yang sudah diselaraskan dengan translasinya dalam bahasa tujuan. Hasil ini merupakan \textit{best viterbi alignment} menurut Giza++. Pasangan kalimat dengan kata-kata yang sudah diselaraskan mempunyai bentuk seperti contoh berikut:
+Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kalimat dengan kata-kata yang sudah diselaraskan dengan translasinya dalam bahasa tujuan. Hasil ini merupakan \textit{best viterbi alignment} menurut Giza++.
 
-\begin{itemize}
-	\item Dia pergi ke Bandung malam ini
-	\item NULL (\{ \}) She (\{ 1 \}) will (\{ \}) go (\{ 2 \}) to (\{ 3 \}) Bandung (\{ 4 \}) tonight (\{ 5 6 \})
-\end{itemize}
-
-Setiap kata pada bahasa tujuan akan memiliki angka hasil penyelarasan yang berkorespondensi pada indeks huruf ke-n pada kata di kalimat bahasa tujuan. Pada contoh tersebut "She" dipasangkan dengan kata pertama yaitu "Dia", kata "will" tidak mempunyai pasangan pada kalimat asal, kata "tonight" dipasangkan dengan kata "malam ini". Bila terdapat kata yang dipasangkan pada token khusus (NULL), dapat diartikan bahwa Giza++ menilai bahwa kata tersebut tidak mempunyai pasangan.
+Pada skenario \textit{alignment} dengan bahasa Indonesia sebagai \textit{source} dan bahasa Inggris sebagai \textit{target}, satu kata dalam bahasa Indonesia akan dipasangkan dengan tepat satu kata dalam bahasa Inggris.
 
 %-----------------------------------------------------------------------------%
 \section{Evaluasi \textit{Word Alignment}} \label{sec:pembentukanTdanH}
@@ -75,4 +70,4 @@ Pemindahan makna kata dilakukan dengan dua buah \textit{sub-process} yang terdir
 
 \section{Sistem WSD} \label{sec:Sistem WSD}
 %-----------------------------------------------------------------------------%
-Sistem WSD yang dibangun adalah dengan menggunakan pendekatan \textit{supervised machine learning}. Hasil dari proses sebelumnya (pemindahan makna kata) akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. \textit{Classifier} yang digunakan dalam sistem \textit{WSD} ini adalah SVM. Pengujian dilakukan dengan menggunakan fitur \textit{bag of words} dengan window sebanyak dua buah kata kanan dan kiri kata tujuan. Selain fitur \textit{bag of words} akan dicoba juga dengan tambahan fitur \textit{POS Tag} dan \textit{word embedding}. Performa dari sistem WSD akan dilihat berdasarkan akurasi rata-rata dari \textit{cross validation}.
+Sistem WSD yang dibangun adalah dengan menggunakan pendekatan \textit{supervised learning}. Hasil dari pemindahan makna kata akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. \textit{Classifier} yang digunakan dalam sistem \textit{WSD} ini adalah SVM. Pengujian dilakukan dengan menggunakan beberapa fitur seperti \textit{bag of words}, \textit{POS Tag}, dan \textit{word embedding}. Fitur \textit{bag of words} menggunakan \textit{window} sebanyak dua buah kata kanan dan kiri kata tujuan sebagai kata konteks. \textit{POS Tag} dan vektor \textit{word embedding} juga akan diimplementasikan pada penelitian ini. Performa dari sistem WSD akan dilihat berdasarkan perhitungan F1-score \textit{micro} dari hasil klasifikasi.
