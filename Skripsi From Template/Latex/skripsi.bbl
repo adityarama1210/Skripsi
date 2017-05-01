@@ -11,13 +11,6 @@ Gale, W.~A., Church, K.~W., dan Yarowsky, D. (1992).
 \newblock In {\em Proceedings of the workshop on Speech and Natural Language},
   pages 233--237. Association for Computational Linguistics.
 
-\bibitem[Levenshtein, 1966]{Levenshtein_SPD66}
-Levenshtein, V.~I. (1966).
-\newblock Binary codes capable of correcting deletions, insertions and
-  reversals.
-\newblock {\em Soviet Physics Doklady}, 10(8):707--710.
-\newblock Doklady Akademii Nauk SSSR, V163 No4 845-848 1965.
-
 \bibitem[Mihalcea dan Pedersen, 2003]{mihalcea2003evaluation}
 Mihalcea, R. dan Pedersen, T. (2003).
 \newblock An evaluation exercise for word alignment.
@@ -30,6 +23,14 @@ Nasiruddin, M. (2013).
 \newblock A state of the art of word sense induction: A way towards word sense
   disambiguation for under-resourced languages.
 \newblock {\em arXiv preprint arXiv:1310.1425}.
+
+\bibitem[Pedregosa et~al., 2011]{scikit-learn}
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
+  O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
+  Passos, A., Cournapeau, D., Brucher, M., Perrot, M., dan Duchesnay, E.
+  (2011).
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830.
 
 \bibitem[Zhong dan Ng, 2010]{zhong2010makes}
 Zhong, Z. dan Ng, H.~T. (2010).

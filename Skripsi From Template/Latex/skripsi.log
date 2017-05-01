@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  1 MAY 2017 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  1 MAY 2017 19:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1356,7 +1356,7 @@ LaTeX Warning: Reference `sec:cotrain' on page 24 undefined on input line 204.
 LaTeX Warning: Reference `fig:Co-training' on page 24 undefined on input line 2
 04.
 
-<pics/hasil-cotrain.png, id=602, 478.78876pt x 355.3275pt>
+<pics/hasil-cotrain.png, id=606, 478.78876pt x 355.3275pt>
 File: pics/hasil-cotrain.png Graphic file (type png)
 
 <use pics/hasil-cotrain.png>
@@ -1374,7 +1374,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24] <pics/grafik-jumlah.png, id=609, 684.30656pt x 426.84468pt>
+[24] <pics/grafik-jumlah.png, id=613, 684.30656pt x 426.84468pt>
 File: pics/grafik-jumlah.png Graphic file (type png)
 
 <use pics/grafik-jumlah.png>
@@ -1454,7 +1454,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26 <./pics/grafik-jumlah.png>]
-<pics/grafik-akurasi.png, id=622, 622.57594pt x 353.06906pt>
+<pics/grafik-akurasi.png, id=626, 622.57594pt x 353.06906pt>
 File: pics/grafik-akurasi.png Graphic file (type png)
 
 <use pics/grafik-akurasi.png>
@@ -1467,7 +1467,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27] <pics/kasus-1-1.png, id=627, 410.2828pt x 190.46156pt>
+[27] <pics/kasus-1-1.png, id=631, 410.2828pt x 190.46156pt>
 File: pics/kasus-1-1.png Graphic file (type png)
 
 <use pics/kasus-1-1.png>
@@ -1485,13 +1485,13 @@ Underfull \hbox (badness 1629) in paragraph at lines 282--283
 \T1/ptm/m/n/12 Gambar di atas menunjukkan contoh data yang mengalami kesalahan
  []
 
-<pics/kasus-1-2.png, id=634, 419.31656pt x 271.76532pt>
+<pics/kasus-1-2.png, id=638, 419.31656pt x 271.76532pt>
 File: pics/kasus-1-2.png Graphic file (type png)
 
 <use pics/kasus-1-2.png>
 Package pdftex.def Info: pics/kasus-1-2.png used on input line 286.
 (pdftex.def)             Requested size: 338.59023pt x 219.44447pt.
- <pics/kasus-2.png, id=635, 404.26031pt x 190.46156pt>
+ <pics/kasus-2.png, id=639, 404.26031pt x 190.46156pt>
 File: pics/kasus-2.png Graphic file (type png)
 
 <use pics/kasus-2.png>
@@ -1505,7 +1505,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29 <./pics/kasus-1-1.png> <./pics/kasus-1-2.png>]
-<pics/bagus-1.png, id=644, 417.81094pt x 301.125pt>
+<pics/bagus-1.png, id=648, 417.81094pt x 301.125pt>
 File: pics/bagus-1.png Graphic file (type png)
  <use pics/bagus-1.png>
 Package pdftex.def Info: pics/bagus-1.png used on input line 305.
@@ -1774,8 +1774,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
  15563 strings out of 493014
- 213507 string characters out of 6133352
- 449923 words of memory out of 5000000
+ 213487 string characters out of 6133352
+ 449928 words of memory out of 5000000
  18300 multiletter control sequences out of 15000+600000
  61344 words of font info for 98 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
@@ -1789,10 +1789,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (48 pages, 397787 bytes).
+Output written on skripsi.pdf (48 pages, 398390 bytes).
 PDF statistics:
- 765 PDF objects out of 1000 (max. 8388607)
- 676 compressed objects within 7 object streams
+ 768 PDF objects out of 1000 (max. 8388607)
+ 679 compressed objects within 7 object streams
  218 named destinations out of 1000 (max. 500000)
  496 words of extra memory for PDF output out of 10000 (max. 10000000)
 
