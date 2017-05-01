@@ -4,6 +4,25 @@
 %-----------------------------------------------------------------------------%
 Bab ini akan menjelaskan perihal implementasi dari pemindahan \textit{sense} dan sistem \textit{WSD} yang dibuat.
 
+\section{Proses \textit{Word Alignment}}
+Perlu dilakukan \textit{pre-processing} untuk memisahkan kalimat bahasa Inggris dan bahasa Indonesia menjadi dua buah \textit{file} paralel untuk dapat dimasukan sebagai input dari \textit{tool} Giza.
+
+Perintah berikut digunakan untuk melakukan \textit{alignment} dengan Giza pada penelitian ini:
+
+\begin{lstlisting}[language=bash,caption={Word Alignment}, label={word-alignment}]
+# Lakukan pada direktori Giza
+./plain2snt.out [source_language] [target_language]
+
+# proses diatas menghasilkan tiga buah file yaitu dua buah file vocabulary yang berisi indeks dengan kata (bahasa asal, dan bahasa tujuan), dan satu buah file snt yang berisi \textit{alignment} dari kalimat.
+
+./snt2cooc.out [source_language_vcb_file] [target_language_vcb_file] [snt_file] > [coocurrence_file]
+
+# proses snt2cooc akan menghasilkan \textit{cooccurence file}
+
+./GIZA++ -S [source_language_vcb] -T [target_language_vcb] -C [snt_file] -CoocurrenceFile [cooc_file]
+\end{lstlisting}
+
+	
 
 \section{Peningkatan Kualitas \textit{Alignment}}
 
@@ -44,16 +63,31 @@ final_dictionary[indo_word][en_word] = dict_en[word_en][word_id]
 Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. Pada sistem ini terdapat dua buah bagian utama yaitu pemilihan fitur serta \textit{classifier} dan evaluasi hasil \textit{classifier}.
 
 \subsection{Pemilihan Fitur dan \textit{Classifier}}
-Terdapat n buah fitur pada penelitian ini yang terdiri dari:
+Terdapat tiga buah fitur pada penelitian ini yang terdiri dari:
 
 \begin{enumerate}
-	\item Fitur \textit{bag of words} yang merupakan kata samping kanan dan kiri dengan \textit{window} sebanyak dua buah kata
+	\item Fitur \textit{bag of words}
 	\item Fitur \textit{POS tagging}
-	\item Vektor dari hasil \textit{word embedding}. Model \textit{word embedding} dilatih dengan menggunakan korpus dari Wikipedia bahasa Indonesia.
+	\item Vektor dari hasil \textit{word embedding}
 \end{enumerate}
 
 \textit{Classifier} yang digunakan pada penelitian ini adalah SVM dengan \textit{library} Python yaitu Scikit dengan parameter \textit{default} berupa kernel linear dan C=1.
 
+\subsection{Ekstraksi Fitur}
+Fitur bag of words menggunakan pendekatan kemunculan kata-kata pada konteks kalimat sebagai fitur. Kata yang diambil untuk dijadikan fitur adalah dua buah kata di kiri dan di kanan dari \textit{target word}. Pada penelitian ini, kata-kata yang merupakan bagian dari \textit{stopwords} dalam bahasa Indonesia tidak dimasukan sebagai fitur. Contoh dari fitur ini dapat dilihat pada kalimat dengan kata tujuan "bisa" berikut:
+\\
+- Ani digigit ular dengan bisa yang berbahaya
+\\
+Pada contoh kalimat tersebut, \textit{bag of words} yang diambil adalah ["digigit", "ular", "berbahaya", NULL]
+
+Setiap fitur \textit{bag of words} dari setiap kalimat tersebut dikumpulkan untuk menjadi satu fitur besar yang mendeteksi kemunculan kata-kata tersebut pada setiap kalimat.
+
+Fitur POS Tagging menggunakan tool dari Stanford bernama "A Part-Of-Speech Tagger" yang dilatih dengan menggunakan model bahasa Indonesia. Kelas kata yang diambil adalah POS Tag dari \textit{target word}, kata sebelum, dan kata sesudahnya.
+
+Fitur ketiga yang dicoba adalah \textit{word embedding}. Vektor \textit{word embedding} yang dijadikan fitur adalah vektor dari tiga buah kata di kiri dan kanan dari \textit{target word}. Vektor \textit{target word} tidak dimasukkan ke dalam fitur karena akan mempunyai nilai vektor yang sama antara satu konteks dengan konteks lain. Setiap vektor tersebut kemudian disambung (\textit{concat}) sebagai satu buah vektor besar yang merupakan representasi dari vektor fitur pada konteks tersebut. 
+
 \subsection{Evaluasi Sistem}
 Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan F1-score dari hasil klasifikasi yang dilakukan \textit{classifier}. \textit{Crossvalidation} dilakukan dengan interasi sebanyak tiga buah dengan perbandingan antara \textit{training} dan \textit{test set} sebesar 0,7:0,3.
+
+Sebuah algoritma sederhana digunakan sebagai \textit{baseline} untuk pembanding dari sistem WSD yang dibangun. Baseline menggunakan pendekatan \textit{most frequent sense} sebagai cara untuk menentukan makna terbaik dari suatu kata. Bila diberikan \textit{training data} untuk kata "bisa" dengan makna "dapat melakukan" sebanyak 4 buah dan makna "racun ular" sebanyak 6 buah, maka algoritma baseline ini akan mengklasifikasikan semua kata "bisa" menjadi "racun ular".
 
