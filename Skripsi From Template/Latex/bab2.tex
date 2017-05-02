@@ -9,7 +9,7 @@ Bab ini membahas mengenai studi literatur yang digunakan selama penelitian. Stud
 %-----------------------------------------------------------------------------%
 \textit{Word Sense Disambiguation} merupakan salah satu penelitian di bidang NLP yang bertujuan untuk menentukan makna yang paling tepat dari suatu kata berdasarkan konteks kata tersebut ditemukan. Sebagaimana kata dalam suatu bahasa bisa memiliki makna lebih dari satu (polisemi), \textit{task} ini akan menentukan makna kata mana yang paling tepat.
 
-Penentuan makna kata yang tepat oleh sistem WSD ditentukan berdasarkan konteks dari kata tersebut berada. Walaupun satu kata dapat memiliki beberapa makna, terdapat kecil kemungkinan bahwa kata yang sama digunakan dalam satu \textit{discourse} untuk menyatakan makna yang berbeda sebagaimana "one sense per discourse" \citep{gale1992one}
+Penentuan makna kata yang tepat oleh sistem WSD ditentukan berdasarkan konteks dari kata tersebut berada. Walaupun satu kata dapat memiliki beberapa makna, terdapat kecil kemungkinan bahwa kata yang sama digunakan dalam satu \textit{discourse} untuk menyatakan makna yang berbeda sebagaimana "\textit{one sense per discourse}" \citep{gale1992one}.
 
 \subsection{WSD Bahasa Inggris}
 Salah satu sistem WSD untuk bahasa inggris yang ada adalah "It Makes Sense" (IMS) yang dibuat oleh Zhi Zhong dan Hwee Tou Ng \citep{zhong2010makes}. Sistem  dibangun menggunakan pendekatan \textit{supervised learning} yang dapat digunakan untuk semua kata bahasa Inggris. Pada dasarnya, \textit{classifier} yang dipilih untuk \textit{task} ini adalah \textit{support vector machine} (SVM). Arsitektur yang dibangun pada IMS dapat dilihat pada gambar berikut:
@@ -53,7 +53,9 @@ Pengujian seberapa baik performa IMS dalam melakukan  WSD \textit{task} mendapat
 \textit{Word Sense Induction} (WSI) adalah sebuah \textit{task} yang mempunyai fungsi utama untuk mendapatkan makna kata dari sebuah korpus atau teks yang belum dianotasi secara otomatis. WSI dapat dilakukan jika penelitian WSD yang ingin dilakukan tidak mempunyai cukup \textit{resource} seperti misalnya Wordnet yang memadai. Terdapat berbagai macam pendekatan dalam melakukan WSI, diantaranya adalah dengan melakukan \textit{clustering} kata \citep{denkowski2009survey}, ataupun menggunakan pendekatan \textit{cross language}.
 	
 	\subsection{Pendekatan \textit{Clustering}}
-	Dua kata dianggap dekat secara semantik jika memiliki \textit{co-occurrence} dengan kata-kata tetangganya yang sama \citep{nasiruddin2013state}. Konsep tersebut mendasari cara WSI mendapatkan \textit{sense} kata secara implisit berdasarkan hasil \textit{cluster} yang terbentuk dari data atau teks mentah (teks yang tidak dianotasi). 
+	Dua kata dianggap dekat secara semantik jika memiliki \textit{co-occurrence} dengan kata-kata tetangganya yang sama \citep{nasiruddin2013state}. Konsep tersebut mendasari cara WSI mendapatkan \textit{sense} kata secara implisit berdasarkan hasil \textit{cluster} yang terbentuk dari data atau teks mentah (teks yang tidak dianotasi).
+	
+	Pada pendekatan \textit{clustering} ini, makna kata bisa didapatkan secara implisit dari hasil \textit{cluster} yang terbentuk, namun demikian pelabelan yang dilakukan untuk menentukan apa yang direpresentasikan \textit{cluster} tersebut merupakan sebuah \textit{task} tersendiri.
 	
 	\subsection{Pendekatan \textit{Cross Language}}
 	Selain pendekatan \textit{clustering}, WSI juga dapat memanfaatkan fitur dimana satu kata dari suatu bahasa, dapat diterjemahkan menjadi beberapa kata di bahasa lain. Contoh kasus tersebut dapat dilihat pada kata "halaman" berikut:

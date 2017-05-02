@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  2 MAY 2017 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  2 MAY 2017 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1050,7 +1050,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 55.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 76.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 78.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1058,25 +1058,26 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] <adit_pics/Pengukuran-Word-Alignment.png, id=475, 371.3875pt x 190.7125pt>
+[6]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7] <adit_pics/Pengukuran-Word-Alignment.png, id=479, 371.3875pt x 190.7125pt>
 File: adit_pics/Pengukuran-Word-Alignment.png Graphic file (type png)
 
 <use adit_pics/Pengukuran-Word-Alignment.png>
 Package pdftex.def Info: adit_pics/Pengukuran-Word-Alignment.png used on input 
-line 114.
+line 116.
 (pdftex.def)             Requested size: 398.3386pt x 204.55795pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7] <adit_pics/svm-hyperplane.png, id=482, 502.87875pt x 298.11375pt>
+<adit_pics/svm-hyperplane.png, id=482, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
-Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 125.
+Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 127.
 (pdftex.def)             Requested size: 398.3386pt x 236.13957pt.
 
 
@@ -1803,7 +1804,7 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (49 pages, 412258 bytes).
+Output written on skripsi.pdf (49 pages, 412473 bytes).
 PDF statistics:
  791 PDF objects out of 1000 (max. 8388607)
  697 compressed objects within 7 object streams
