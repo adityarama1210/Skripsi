@@ -116,3 +116,15 @@ Terdapat empat buah pengukuran berbeda, yaitu \textit{precision}, \textit{recall
 	\label{fig:Pengukuran-Word-Alignment}
 \end{figure}
 %------------------------------------------- ----------------------------------%
+
+\section{Support Vector Machine}
+SVM merupakan salah satu \textit{classifier} yang dapat digunakan untuk permasalahan klasifikasi. SVM termasuk sebagai metode klasifikasi yang populer dan telah digunakan untuk berbagai permasalahan seperti klasifikasi teks, \textit{facial expression recognition}, analisis gen, \textit{word sense disambiguation}, dan lain-lain. SVM dapat dikatakan sebagai salah satu metode yang membangun aturan yang dinamakan sebagai \textit{linear classifier} yang secara teori akan menghasilkan kualitas prediksi dari \textit{unseen data} yang baik \citep{fradkin2006support}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/svm-hyperplane}
+	\caption{Hyperplane SVM pada \citep{fradkin2006support}}
+	\label{fig:svm}
+\end{figure}
+
+Konsep dari cara SVM bekerja adalah dengan menemukan sebuah \textit{hyperplane} dengan \textit{margin} (jarak dari \textit{hyperplane} dengan titik kelas terdekat) yang terbesar. Pemilihan \textit{margin} dengan nilai terbesar ini ditujukan agar pemisahan kelas-kelas lebih optimal.

@@ -17,44 +17,44 @@ A level-1 auxiliary file: bab5.aux
 A level-1 auxiliary file: bab6.aux
 The style file: apalikerd.bst
 Database file #1: skripsi.bib
-You've used 6 entries,
+You've used 7 entries,
             1935 wiz_defined-function locations,
-            521 strings with 5155 characters,
-and the built_in function-call counts, 3047 in all, are:
-= -- 302
-> -- 141
-< -- 8
-+ -- 56
-- -- 50
-* -- 241
-:= -- 505
-add.period$ -- 21
-call.type$ -- 6
-change.case$ -- 55
-chr.to.int$ -- 6
-cite$ -- 6
-duplicate$ -- 121
-empty$ -- 200
-format.name$ -- 60
-if$ -- 619
+            529 strings with 5339 characters,
+and the built_in function-call counts, 3428 in all, are:
+= -- 342
+> -- 154
+< -- 9
++ -- 60
+- -- 54
+* -- 273
+:= -- 571
+add.period$ -- 24
+call.type$ -- 7
+change.case$ -- 62
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 135
+empty$ -- 227
+format.name$ -- 67
+if$ -- 693
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 6
-newline$ -- 33
-num.names$ -- 18
-pop$ -- 58
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 21
+pop$ -- 62
 preamble$ -- 1
-purify$ -- 55
+purify$ -- 62
 quote$ -- 0
-skip$ -- 95
+skip$ -- 106
 stack$ -- 0
-substring$ -- 203
-swap$ -- 32
+substring$ -- 234
+swap$ -- 33
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
+type$ -- 42
 warning$ -- 0
-while$ -- 26
+while$ -- 30
 width$ -- 0
-write$ -- 82
+write$ -- 95

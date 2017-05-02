@@ -5,6 +5,12 @@ Denkowski, M. (2009).
 \newblock A survey of techniques for unsupervised word sense induction.
 \newblock {\em Language \& Statistics II Literature Review}, pages 1--18.
 
+\bibitem[Fradkin dan Muchnik, 2006]{fradkin2006support}
+Fradkin, D. dan Muchnik, I. (2006).
+\newblock Support vector machines for classification.
+\newblock {\em DIMACS Series in Discrete Mathematics and Theoretical Computer
+  Science}, 70:13--20.
+
 \bibitem[Gale et~al., 1992]{gale1992one}
 Gale, W.~A., Church, K.~W., dan Yarowsky, D. (1992).
 \newblock One sense per discourse.
