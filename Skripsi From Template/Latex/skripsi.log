@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  2 MAY 2017 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  3 MAY 2017 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,7 +729,7 @@ LaTeX Info: Redefining \nameref on input line 48.
 \openout2 = `sampul.aux'.
 
  (./sampul.tex
-<pics/makara.png, id=229, 154.86429pt x 154.34807pt>
+<pics/makara.png, id=233, 154.86429pt x 154.34807pt>
 File: pics/makara.png Graphic file (type png)
  <use pics/makara.png>
 Package pdftex.def Info: pics/makara.png used on input line 15.
@@ -969,8 +969,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 	\item S
-             eberapa baik performa \textit{WSD} yang dibangun untuk bahasa I...
+l.23 	\item B
+             agaimana cara menerapkan pemindahan makna (\textit{sense transf...
 [1
 
 
@@ -1012,7 +1012,7 @@ Bab 2.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/Arsitektur-IMS.png, id=432, 839.135pt x 282.05376pt>
+<adit_pics/Arsitektur-IMS.png, id=437, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1028,7 +1028,7 @@ Underfull \hbox (badness 4913) in paragraph at lines 40--41
 tm/m/it/12 task
  []
 
-<adit_pics/Performa-IMS.png, id=439, 627.34375pt x 156.585pt>
+<adit_pics/Performa-IMS.png, id=444, 627.34375pt x 156.585pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
@@ -1059,25 +1059,32 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
+Underfull \hbox (badness 1331) in paragraph at lines 111--112
+[]\T1/ptm/m/n/12 Beberapa \T1/ptm/m/it/12 tool \T1/ptm/m/n/12 merepre-sen-tasik
+an kalimat dan kata sebagai indeks angka
+ []
+
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 112.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <adit_pics/Pengukuran-Word-Alignment.png, id=479, 371.3875pt x 190.7125pt>
+[7] <adit_pics/Pengukuran-Word-Alignment.png, id=488, 371.3875pt x 190.7125pt>
 File: adit_pics/Pengukuran-Word-Alignment.png Graphic file (type png)
 
 <use adit_pics/Pengukuran-Word-Alignment.png>
 Package pdftex.def Info: adit_pics/Pengukuran-Word-Alignment.png used on input 
-line 116.
+line 126.
 (pdftex.def)             Requested size: 398.3386pt x 204.55795pt.
 
-<adit_pics/svm-hyperplane.png, id=482, 502.87875pt x 298.11375pt>
+<adit_pics/svm-hyperplane.png, id=491, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
-Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 127.
+Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 137.
 (pdftex.def)             Requested size: 398.3386pt x 236.13957pt.
 
 
@@ -1103,7 +1110,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 12--14
+Underfull \hbox (badness 1152) in paragraph at lines 17--19
 []\T1/ptm/m/n/12 Proses penye-larasan yang dilakukan dengan Giza++ meliputi tah
 ap-tahap
  []
@@ -1113,13 +1120,13 @@ ap-tahap
 
 
 ]
-Underfull \hbox (badness 3724) in paragraph at lines 31--32
+Underfull \hbox (badness 3724) in paragraph at lines 36--37
 []\T1/ptm/m/n/12 Masing-masing \T1/ptm/m/it/12 anotator \T1/ptm/m/n/12 memasang
 -masangkan kata yang tepat pada
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 39--40
+Underfull \hbox (badness 1442) in paragraph at lines 44--45
 \T1/ptm/m/n/12 Proses peningkatan kualitas hasil alignment diperlukan untuk mem
 ini-malisir
  []
@@ -1159,23 +1166,21 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/pcr/bx/it' in size <10> not available
 (Font)              Font shape `T1/pcr/b/it' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/pcr/b/it' in size <10> not available
 (Font)              Font shape `T1/pcr/b/sl' tried instead on input line 13.
+ [14
 
+
+
+]
 Underfull \hbox (badness 1454) in paragraph at lines 31--32
 \T1/ptm/m/n/12 Indonesia dikumpulkan terlebih dahulu dengan setiap pasangan kat
 a bahasa
  []
 
-[14
 
-
-
-]
 Underfull \hbox (badness 1226) in paragraph at lines 36--37
 []\T1/ptm/m/n/12 Jika pada kamus \T1/ptm/m/it/12 enhancement \T1/ptm/m/n/12 "ti
 me" dipasangkan dengan "kali", dan
@@ -1370,7 +1375,7 @@ LaTeX Warning: Reference `sec:cotrain' on page 25 undefined on input line 204.
 LaTeX Warning: Reference `fig:Co-training' on page 25 undefined on input line 2
 04.
 
-<pics/hasil-cotrain.png, id=629, 478.78876pt x 355.3275pt>
+<pics/hasil-cotrain.png, id=639, 478.78876pt x 355.3275pt>
 File: pics/hasil-cotrain.png Graphic file (type png)
 
 <use pics/hasil-cotrain.png>
@@ -1388,7 +1393,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25] <pics/grafik-jumlah.png, id=635, 684.30656pt x 426.84468pt>
+[25] <pics/grafik-jumlah.png, id=645, 684.30656pt x 426.84468pt>
 File: pics/grafik-jumlah.png Graphic file (type png)
 
 <use pics/grafik-jumlah.png>
@@ -1468,7 +1473,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27 <./pics/grafik-jumlah.png>]
-<pics/grafik-akurasi.png, id=648, 622.57594pt x 353.06906pt>
+<pics/grafik-akurasi.png, id=659, 622.57594pt x 353.06906pt>
 File: pics/grafik-akurasi.png Graphic file (type png)
 
 <use pics/grafik-akurasi.png>
@@ -1481,7 +1486,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28] <pics/kasus-1-1.png, id=653, 410.2828pt x 190.46156pt>
+[28] <pics/kasus-1-1.png, id=664, 410.2828pt x 190.46156pt>
 File: pics/kasus-1-1.png Graphic file (type png)
 
 <use pics/kasus-1-1.png>
@@ -1499,13 +1504,13 @@ Underfull \hbox (badness 1629) in paragraph at lines 282--283
 \T1/ptm/m/n/12 Gambar di atas menunjukkan contoh data yang mengalami kesalahan
  []
 
-<pics/kasus-1-2.png, id=661, 419.31656pt x 271.76532pt>
+<pics/kasus-1-2.png, id=671, 419.31656pt x 271.76532pt>
 File: pics/kasus-1-2.png Graphic file (type png)
 
 <use pics/kasus-1-2.png>
 Package pdftex.def Info: pics/kasus-1-2.png used on input line 286.
 (pdftex.def)             Requested size: 338.59023pt x 219.44447pt.
- <pics/kasus-2.png, id=662, 404.26031pt x 190.46156pt>
+ <pics/kasus-2.png, id=672, 404.26031pt x 190.46156pt>
 File: pics/kasus-2.png Graphic file (type png)
 
 <use pics/kasus-2.png>
@@ -1519,7 +1524,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30 <./pics/kasus-1-1.png> <./pics/kasus-1-2.png>]
-<pics/bagus-1.png, id=672, 417.81094pt x 301.125pt>
+<pics/bagus-1.png, id=682, 417.81094pt x 301.125pt>
 File: pics/bagus-1.png Graphic file (type png)
  <use pics/bagus-1.png>
 Package pdftex.def Info: pics/bagus-1.png used on input line 305.
@@ -1781,20 +1786,20 @@ pics/bagus-1.png
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: 7BEEA41C09005860B424325CEFCEB1CE;3784.
+(rerunfilecheck)             Checksum: D8347E53DDAA0E538C14F2C6C36000AC;3872.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15578 strings out of 493014
- 213816 string characters out of 6133352
- 450109 words of memory out of 5000000
- 18310 multiletter control sequences out of 15000+600000
+ 15619 strings out of 493014
+ 214262 string characters out of 6133352
+ 426647 words of memory out of 5000000
+ 18345 multiletter control sequences out of 15000+600000
  61344 words of font info for 98 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
- 44i,12n,51p,1076b,1937s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,51p,1076b,1934s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
@@ -1804,10 +1809,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (49 pages, 412473 bytes).
+Output written on skripsi.pdf (49 pages, 417108 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 697 compressed objects within 7 object streams
- 222 named destinations out of 1000 (max. 500000)
- 509 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 803 PDF objects out of 1000 (max. 8388607)
+ 708 compressed objects within 8 object streams
+ 228 named destinations out of 1000 (max. 500000)
+ 517 words of extra memory for PDF output out of 10000 (max. 10000000)
 

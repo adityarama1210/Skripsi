@@ -2,7 +2,12 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babTiga}
 %-----------------------------------------------------------------------------%
-Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang terdiri dari \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang akan diimplementasikan.
+Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang terdiri dari pembuatan \textit{sense tagged corpus} bahasa Inggris,  \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang diimplementasikan.
+%-----------------------------------------------------------------------------%
+\section{Pembuatan \textit{Sense Corpus} Bahasa Inggris}
+%-----------------------------------------------------------------------------%
+
+Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan IMS untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. \textit{File} yang diberikan sebagai masukan dari IMS adalah kalimat-kalimat pada bahasa Inggris yang berasal dari korpus identik.
 
 %-----------------------------------------------------------------------------%
 \section{Penyelarasan Kata pada Korpus Paralel}

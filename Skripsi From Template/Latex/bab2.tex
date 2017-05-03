@@ -108,6 +108,16 @@ K3(id) : Aku ingin membeli mainan
 
 K3(indeks) : 1 2 3 4
 
+Beberapa \textit{tool} merepresentasikan kalimat dan kata sebagai indeks angka tersebut untuk mempermudah pemrosesan. Suatu \textit{file} dapat berisi indeks dari kalimat dan kata yang ada pada kalimat tersebut seperti:
+\begin{lstlisting}
+1 4 5 7
+2 4 9 2
+3 1 8 4
+...
+\end{lstlisting}
+
+Dimana angka pertama merepresentasikan kalimat ke n pada korpus, dan angka-angka selanjutnya adalah indeks dari kata pada kalimat tersebut.
+
 \subsection{Pengukuran Evaluasi}
 Terdapat empat buah pengukuran berbeda, yaitu \textit{precision}, \textit{recall}, \textit{f-measure}, dan \textit{alignment error rate (AER)} \citep{mihalcea2003evaluation}. Diberikan hasil \textit{alignment} dari program berupa A, dan \textit{gold standard alignment} dari \textit{evaluator} (manusia) sebagai G, masing-masing mengandung dua buah \textit{set} yaitu \textit{probable alignment} dan \textit{sure alignment}. Pengukuran evaluasi dapat dilakukan dengan cara berikut:
 
@@ -129,4 +139,4 @@ SVM merupakan salah satu \textit{classifier} yang dapat digunakan untuk permasal
 	\label{fig:svm}
 \end{figure}
 
-Konsep dari cara SVM bekerja adalah dengan menemukan sebuah \textit{hyperplane} dengan \textit{margin} (jarak dari \textit{hyperplane} dengan titik kelas terdekat) yang terbesar. Pemilihan \textit{margin} dengan nilai terbesar ini ditujukan agar pemisahan kelas-kelas lebih optimal.
+Konsep dari cara SVM bekerja adalah dengan menemukan sebuah \textit{hyperplane} dengan \textit{margin} (jarak dari \textit{hyperplane} dengan titik kelas terdekat) yang terbesar. Pemilihan \textit{margin} dengan nilai terbesar ini ditujukan agar \textit{classifier} lebih optimal dalam memisahkan objek dengan kelas yang berbeda.
