@@ -17,6 +17,10 @@ A level-1 auxiliary file: bab5.aux
 A level-1 auxiliary file: bab6.aux
 The style file: apalikerd.bst
 Database file #1: skripsi.bib
+Repeated entry---line 1489 of file skripsi.bib
+ : @article{denkowski2009survey
+ :                             ,
+I'm skipping whatever remains of this entry
 You've used 7 entries,
             1935 wiz_defined-function locations,
             529 strings with 5339 characters,
@@ -58,3 +62,4 @@ warning$ -- 0
 while$ -- 30
 width$ -- 0
 write$ -- 95
+(There was 1 error message)

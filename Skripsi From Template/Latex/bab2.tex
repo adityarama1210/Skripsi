@@ -9,6 +9,19 @@ Bab ini membahas mengenai studi literatur yang digunakan selama penelitian. Stud
 %-----------------------------------------------------------------------------%
 \textit{Word Sense Disambiguation} merupakan salah satu penelitian di bidang NLP yang bertujuan untuk menentukan makna yang paling tepat dari suatu kata berdasarkan konteks kata tersebut ditemukan. Sebagaimana kata dalam suatu bahasa bisa memiliki makna lebih dari satu (polisemi), \textit{task} ini akan menentukan makna kata mana yang paling tepat.
 
+Penentuan makna kalimat dilakukan dengan pemberian informasi berupa kata yang menjadi \textit{target} dan konteks berupa kalimat. Contoh proses disambiguasi yang dilakukan untuk kata \textbf{cokelat}:
+
+
+
+K1: Roni memakan \textbf{cokelat} yang diberikan ibunya.
+
+
+K2: Walaupun mobil \textbf{cokelat} itu mahal, dia sangat ingin membelinya.
+
+
+
+Pada kalimat pertama (K1), \textbf{cokelat} yang dimaksud memiliki makna sebagai makanan yang terbuat dari buah \textit{cokelat}. Sementara itu, Kata \textbf{cokelat} pada kalimat kedua (K2) memiliki makna yang berbeda, dimana kata tersebut merupakan satu keterangan warna. Penentuan makna yang tepat dapat dilakukan dengan bantuan informasi konteks dari kalimat dimana kata tersebut muncul. Pada K1, kata \textbf{memakan} memberikan informasi bahwa \textit{cokelat} yang dimaksud adalah objek yang bisa dimakan. Kata yang memberikan informasi pada kalimat kedua adalah kata \textbf{berwarna} yang secara eksplisit menerangkan bahwa \textbf{cokelat} yang dimaksud adalah warna. Namun demikian, konteks maupun informasi yang bisa diambil dari kalimat tidak selalu eksplisit. Pada contoh kalimat seperti "Pohon cokelat tua di belakang rumahku sangat besar", cokelat yang dimaksud bisa bermakna "buah cokelat yang sudah tua" atau "berwarna cokelat tua".
+
 Penentuan makna kata yang tepat oleh sistem WSD ditentukan berdasarkan konteks dari kata tersebut berada. Walaupun satu kata dapat memiliki beberapa makna, terdapat kecil kemungkinan bahwa kata yang sama digunakan dalam satu \textit{discourse} untuk menyatakan makna yang berbeda sebagaimana "\textit{one sense per discourse}" \citep{gale1992one}.
 
 \subsection{WSD Bahasa Inggris}
@@ -54,6 +67,17 @@ Pengujian seberapa baik performa IMS dalam melakukan  WSD \textit{task} mendapat
 	
 	\subsection{Pendekatan \textit{Clustering}}
 	Dua kata dianggap dekat secara semantik jika memiliki \textit{co-occurrence} dengan kata-kata tetangganya yang sama \citep{nasiruddin2013state}. Konsep tersebut mendasari cara WSI mendapatkan \textit{sense} kata secara implisit berdasarkan hasil \textit{cluster} yang terbentuk dari data atau teks mentah (teks yang tidak dianotasi).
+	
+	Penarikan makna secara implisit dapat dicontohkan pada beberapa kalimat rujukan berikut \citep{denkowski2009survey}:
+	
+	\begin{enumerate}
+		\item A bottle of tezg\"{u}no is on the table.
+		\item Everyone likes tezg\"{u}no.
+		\item Tezg\"{u}no makes you drunk.
+		\item We make tezg\"{u}no out of corn.
+	\end{enumerate}
+	
+	Walaupun belum terdapat informasi eksplisit makna dari tezg\"{u}no, dapat disimpulkan bahwa tezg\"{u}no mengacu pada minuman beralkohol yang memabukkan. Penarikan kesimpulan ini didapatkan dari kemunculan kata tersebut dengan kata lain pada konteks yang sama.
 	
 	Pada pendekatan \textit{clustering} ini, makna kata bisa didapatkan secara implisit dari hasil \textit{cluster} yang terbentuk, namun demikian pelabelan yang dilakukan untuk menentukan apa yang direpresentasikan \textit{cluster} tersebut merupakan sebuah \textit{task} tersendiri.
 	
