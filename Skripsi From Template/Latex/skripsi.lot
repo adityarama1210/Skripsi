@@ -4,13 +4,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Dua jenis data XML Wikipedia\relax }}{20}{table.caption.23}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Berkas model \textit {word embedding}\relax }}{21}{table.caption.24}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Kappa antara penulis~dan masing-masing anotator pada data ujicoba\relax }}{22}{table.caption.25}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Hasil anotasi uji coba\relax }}{23}{table.caption.26}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Jumlah data per label hasil notasi\relax }}{24}{table.caption.27}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Hasil \textit {cross validation} dua arsitektur RNN\relax }}{24}{table.caption.28}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Contoh N-gram yang kemunculannya digunakan sebagai fitur\relax }}{26}{table.caption.29}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Hasil \textit {cross validation} beberapa \textit {classifier} di Weka\relax }}{27}{table.caption.30}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Jumlah data pada setiap iterasi\relax }}{31}{table.caption.33}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Dua jenis data XML Wikipedia\relax }}{21}{table.caption.23}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Berkas model \textit {word embedding}\relax }}{22}{table.caption.24}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Kappa antara penulis~dan masing-masing anotator pada data ujicoba\relax }}{23}{table.caption.25}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Hasil anotasi uji coba\relax }}{24}{table.caption.26}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Jumlah data per label hasil notasi\relax }}{25}{table.caption.27}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Hasil \textit {cross validation} dua arsitektur RNN\relax }}{25}{table.caption.28}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Contoh N-gram yang kemunculannya digunakan sebagai fitur\relax }}{27}{table.caption.29}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Hasil \textit {cross validation} beberapa \textit {classifier} di Weka\relax }}{28}{table.caption.30}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Jumlah data pada setiap iterasi\relax }}{32}{table.caption.33}
 \addvspace {10\p@ }
