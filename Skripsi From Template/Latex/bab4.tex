@@ -82,7 +82,32 @@ Pada contoh kalimat tersebut, \textit{bag of words} yang diambil adalah ["digigi
 
 Setiap fitur \textit{bag of words} dari setiap kalimat tersebut dikumpulkan untuk menjadi satu fitur besar yang mendeteksi kemunculan kata-kata tersebut pada setiap kalimat.
 
-Fitur POS Tagging menggunakan tool dari Stanford bernama "A Part-Of-Speech Tagger" yang dilatih dengan menggunakan model bahasa Indonesia. Kelas kata yang diambil adalah POS Tag dari \textit{target word}, kata sebelum, dan kata sesudahnya.
+Proses yang dilakukan dalam pengambilan kata konteks untuk fitur \textit{bag of words} dilakukan dengan tahap-tahap berikut.
+
+\begin{lstlisting}[language=python,caption={Fitur Bag of Words}, label={fitur-bag-of-words}]
+
+bag_of_words []
+
+for each sentence
+	split sentence by whitespace into words
+	for each word
+		if word == target word
+			for x in [-2,-1,1,2]
+				if word(x) exist and word(x) not in bag_of_words
+					add word(x) into bag_of_words
+					
+return bag_of_words
+
+\end{lstlisting}
+
+Fitur POS Tagging menggunakan tool dari Stanford bernama "A Part-Of-Speech Tagger" yang dilatih dengan menggunakan model untuk bahasa Indonesia. Kelas kata yang diambil adalah POS Tag dari \textit{target word} kata sebelum, dan kata sesudahnya. Kelas kata dari \textit{target word} diperhitungkan karena pada beberapa kasus kata polisemi dapat dibedakan maknanya berdasarkan POS Tag yang dimilikinya. POS Tag yang digunakan mengacu pada kelas-kelas yang ada pada POS Tag Penn Treebank seperti NN(Noun), NNP(Proper Noun), VB(verb), CC(Coordinating conjunction), dan lain-lain. Pembentukan kelas POS Tag untuk menjadi fitur dilakukan dengan proses yang serupa pada fitur \textit{bag of words} dimana kombinasi kombinasi dari POS Tag yang mungkin direpresentasikan dalam \textit{one hot representation}. Hal ini dapat diilustrasikan dengan proses berikut:
+
+\begin{enumerate}
+	\item Simpan POS Tag dari indeks kata masing-masing (\textit{target word}-1, \textit{target word}, \textit{target word}+1)
+	\item Untuk masing-masing indeks baik itu -1,0,dan 1
+	\item Kumpulkan POS Tag yang \textit{distinct}, populasikan dalam \textit{array}
+	\item \textit{Array} ini nantinya akan merepresentasikan keberadaan POS Tag tertentu pada kata dengan indeks terkait tersebut
+\end{enumerate}
 
 Fitur ketiga yang dicoba adalah \textit{word embedding}. Vektor \textit{word embedding} yang dijadikan fitur adalah vektor dari tiga buah kata di kiri dan kanan dari \textit{target word}. Vektor \textit{target word} tidak dimasukkan ke dalam fitur karena akan mempunyai nilai vektor yang sama antara satu konteks dengan konteks lain. Setiap vektor tersebut kemudian disambung (\textit{concat}) sebagai satu buah vektor besar yang merupakan representasi dari vektor fitur pada konteks tersebut. 
 
