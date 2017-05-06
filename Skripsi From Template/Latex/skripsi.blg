@@ -17,49 +17,49 @@ A level-1 auxiliary file: bab5.aux
 A level-1 auxiliary file: bab6.aux
 The style file: apalikerd.bst
 Database file #1: skripsi.bib
-Repeated entry---line 1489 of file skripsi.bib
+Repeated entry---line 1503 of file skripsi.bib
  : @article{denkowski2009survey
  :                             ,
 I'm skipping whatever remains of this entry
-You've used 7 entries,
+You've used 8 entries,
             1935 wiz_defined-function locations,
-            529 strings with 5339 characters,
-and the built_in function-call counts, 3428 in all, are:
-= -- 342
-> -- 154
-< -- 9
-+ -- 60
-- -- 54
-* -- 273
-:= -- 571
-add.period$ -- 24
-call.type$ -- 7
-change.case$ -- 62
-chr.to.int$ -- 7
-cite$ -- 7
-duplicate$ -- 135
-empty$ -- 227
-format.name$ -- 67
-if$ -- 693
+            534 strings with 5578 characters,
+and the built_in function-call counts, 4075 in all, are:
+= -- 408
+> -- 182
+< -- 10
++ -- 70
+- -- 64
+* -- 322
+:= -- 667
+add.period$ -- 27
+call.type$ -- 8
+change.case$ -- 72
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 164
+empty$ -- 272
+format.name$ -- 78
+if$ -- 833
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 38
-num.names$ -- 21
-pop$ -- 62
+missing$ -- 8
+newline$ -- 43
+num.names$ -- 24
+pop$ -- 76
 preamble$ -- 1
-purify$ -- 62
+purify$ -- 72
 quote$ -- 0
-skip$ -- 106
+skip$ -- 130
 stack$ -- 0
-substring$ -- 234
-swap$ -- 33
-text.length$ -- 4
+substring$ -- 286
+swap$ -- 45
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
+type$ -- 48
 warning$ -- 0
-while$ -- 30
+while$ -- 35
 width$ -- 0
-write$ -- 95
+write$ -- 108
 (There was 1 error message)

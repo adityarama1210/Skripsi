@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  7 MAY 2017 00:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  7 MAY 2017 02:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,7 +1016,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-] <adit_pics/Arsitektur-IMS.png, id=460, 839.135pt x 282.05376pt>
+] <adit_pics/Arsitektur-IMS.png, id=462, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1035,7 +1035,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5 <./adit_pics/Arsitektur-IMS.png>]
-<adit_pics/Performa-IMS.png, id=476, 627.34375pt x 156.585pt>
+<adit_pics/Performa-IMS.png, id=478, 627.34375pt x 156.585pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
@@ -1090,7 +1090,7 @@ an kalimat dan kata sebagai indeks angka
 
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 136.
-<adit_pics/Pengukuran-Word-Alignment.png, id=509, 371.3875pt x 190.7125pt>
+<adit_pics/Pengukuran-Word-Alignment.png, id=511, 371.3875pt x 190.7125pt>
 File: adit_pics/Pengukuran-Word-Alignment.png Graphic file (type png)
 
 <use adit_pics/Pengukuran-Word-Alignment.png>
@@ -1104,7 +1104,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] <adit_pics/svm-hyperplane.png, id=522, 502.87875pt x 298.11375pt>
+[8] <adit_pics/svm-hyperplane.png, id=524, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
@@ -1124,19 +1124,22 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./adit_pics/svm-hyperplane.png>])
-Underfull \hbox (badness 2035) in paragraph at lines 173--119
-\T1/ptm/m/it/12 bag-of-words \T1/ptm/m/n/12 (CBOW). Arsitektur pada CBOW memili
-ki pendekatan untuk
- []
+[10 <./adit_pics/svm-hyperplane.png>]
+<adit_pics/word2vec_diagrams.png, id=541, 836.12375pt x 486.81876pt>
+File: adit_pics/word2vec_diagrams.png Graphic file (type png)
 
+<use adit_pics/word2vec_diagrams.png>
+Package pdftex.def Info: adit_pics/word2vec_diagrams.png used on input line 177
+.
+(pdftex.def)             Requested size: 398.3386pt x 231.93213pt.
+)
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
+[11 <./adit_pics/word2vec_diagrams.png>]
 \openout2 = `bab3.aux'.
 
  (./bab3.tex
@@ -1437,7 +1440,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29] <pics/hasil-cotrain.png, id=707, 478.78876pt x 355.3275pt>
+[29] <pics/hasil-cotrain.png, id=714, 478.78876pt x 355.3275pt>
 File: pics/hasil-cotrain.png Graphic file (type png)
 
 <use pics/hasil-cotrain.png>
@@ -1455,7 +1458,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30] <pics/grafik-jumlah.png, id=714, 684.30656pt x 426.84468pt>
+[30] <pics/grafik-jumlah.png, id=721, 684.30656pt x 426.84468pt>
 File: pics/grafik-jumlah.png Graphic file (type png)
 
 <use pics/grafik-jumlah.png>
@@ -1535,7 +1538,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32 <./pics/grafik-jumlah.png>]
-<pics/grafik-akurasi.png, id=727, 622.57594pt x 353.06906pt>
+<pics/grafik-akurasi.png, id=734, 622.57594pt x 353.06906pt>
 File: pics/grafik-akurasi.png Graphic file (type png)
 
 <use pics/grafik-akurasi.png>
@@ -1548,7 +1551,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33] <pics/kasus-1-1.png, id=732, 410.2828pt x 190.46156pt>
+[33] <pics/kasus-1-1.png, id=739, 410.2828pt x 190.46156pt>
 File: pics/kasus-1-1.png Graphic file (type png)
 
 <use pics/kasus-1-1.png>
@@ -1566,13 +1569,13 @@ Underfull \hbox (badness 1629) in paragraph at lines 293--294
 \T1/ptm/m/n/12 Gambar di atas menunjukkan contoh data yang mengalami kesalahan
  []
 
-<pics/kasus-1-2.png, id=739, 419.31656pt x 271.76532pt>
+<pics/kasus-1-2.png, id=746, 419.31656pt x 271.76532pt>
 File: pics/kasus-1-2.png Graphic file (type png)
 
 <use pics/kasus-1-2.png>
 Package pdftex.def Info: pics/kasus-1-2.png used on input line 297.
 (pdftex.def)             Requested size: 338.59023pt x 219.44447pt.
- <pics/kasus-2.png, id=740, 404.26031pt x 190.46156pt>
+ <pics/kasus-2.png, id=747, 404.26031pt x 190.46156pt>
 File: pics/kasus-2.png Graphic file (type png)
 
 <use pics/kasus-2.png>
@@ -1586,7 +1589,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35 <./pics/kasus-1-1.png> <./pics/kasus-1-2.png>]
-<pics/bagus-1.png, id=749, 417.81094pt x 301.125pt>
+<pics/bagus-1.png, id=756, 417.81094pt x 301.125pt>
 File: pics/bagus-1.png Graphic file (type png)
  <use pics/bagus-1.png>
 Package pdftex.def Info: pics/bagus-1.png used on input line 316.
@@ -1829,6 +1832,7 @@ adit_pics/Arsitektur-IMS.png
 adit_pics/Performa-IMS.png
 adit_pics/Pengukuran-Word-Alignment.png
 adit_pics/svm-hyperplane.png
+adit_pics/word2vec_diagrams.png
     bab3.tex
     bab4.tex
 lstlang1.sty    2015/06/04 1.6 listings language file
@@ -1848,17 +1852,17 @@ pics/bagus-1.png
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: F4742F82EEC8E53B30E95D7240409070;4082.
+(rerunfilecheck)             Checksum: 6CD41917F0A6C7DEB56FFEF00015F6C0;4082.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15745 strings out of 493014
- 215749 string characters out of 6133352
- 426748 words of memory out of 5000000
- 18435 multiletter control sequences out of 15000+600000
+ 15757 strings out of 493014
+ 216086 string characters out of 6133352
+ 426906 words of memory out of 5000000
+ 18444 multiletter control sequences out of 15000+600000
  61344 words of font info for 98 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
  44i,12n,51p,1267b,1934s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1871,10 +1875,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (54 pages, 428879 bytes).
+Output written on skripsi.pdf (54 pages, 479237 bytes).
 PDF statistics:
- 877 PDF objects out of 1000 (max. 8388607)
- 777 compressed objects within 8 object streams
- 264 named destinations out of 1000 (max. 500000)
- 541 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 885 PDF objects out of 1000 (max. 8388607)
+ 783 compressed objects within 8 object streams
+ 266 named destinations out of 1000 (max. 500000)
+ 546 words of extra memory for PDF output out of 10000 (max. 10000000)
 

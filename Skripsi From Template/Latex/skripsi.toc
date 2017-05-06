@@ -58,4 +58,4 @@
 \contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{38}{chapter.6}
 \contentsline {section}{\numberline {6.1}Kesimpulan}{38}{section.6.1}
 \contentsline {section}{\numberline {6.2}Saran}{39}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{41}{chapter*.39}
+\contentsline {chapter}{Daftar Referensi}{41}{chapter*.40}
