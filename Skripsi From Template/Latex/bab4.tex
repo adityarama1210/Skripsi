@@ -58,6 +58,11 @@ if en_word not in final_dictionary[indo_word]:
 final_dictionary[indo_word][en_word] = dict_en[word_en][word_id]
 \end{lstlisting}
 
+
+\section{Pemindahan Makna Kata}
+Hasil dari proses peningkatan kualitas \textit{alignment} adalah sebuah kamus bahasa yang akan digunakan sebagai referensi untuk memindahkan makna kata dari bahasa Inggris ke kata pada bahasa Indonesia.
+
+
 %-----------------------------------------------------------------------------%
 \section{Sistem WSD}
 Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. \textit{Machine learning tool} yang digunakan untuk membangun sistem ini adalah Scikit \citep{scikit-learn}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}.
@@ -125,7 +130,7 @@ Kelas kata yang diambil adalah POS Tag dari \textit{target word} kata sebelum, d
 	\item \textit{Array} ini nantinya akan merepresentasikan keberadaan POS Tag tertentu pada kata dengan indeks terkait tersebut
 \end{enumerate}
 
-Fitur ketiga yang dicoba adalah \textit{word embedding}. Vektor \textit{word embedding} yang dijadikan fitur adalah vektor dari tiga buah kata di kiri dan kanan dari \textit{target word}. Vektor \textit{target word} tidak dimasukkan ke dalam fitur karena akan mempunyai nilai vektor yang sama antara satu konteks dengan konteks lain. Setiap vektor tersebut kemudian disambung (\textit{concat}) sebagai satu buah vektor besar yang merupakan representasi dari vektor fitur pada konteks tersebut. 
+Fitur ketiga yang dicoba adalah \textit{word embedding}. Model dari \textit{word embedding} yang digunakan sudah dilatih dengan menggunakan korpus Wikipedia bahasa Indonesia. Vektor \textit{word embedding} yang dijadikan fitur adalah vektor dari tiga buah kata di kiri dan kanan dari \textit{target word}. Vektor \textit{target word} tidak dimasukkan ke dalam fitur karena akan mempunyai nilai vektor yang sama antara satu konteks dengan konteks lain. Setiap vektor tersebut kemudian disambung (\textit{concat}) sebagai satu buah vektor besar yang merupakan representasi dari vektor fitur pada konteks tersebut. 
 
 \subsection{Evaluasi Sistem}
 Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan F1-score dari hasil klasifikasi yang dilakukan \textit{classifier}. \textit{Crossvalidation} dilakukan dengan interasi sebanyak tiga buah dengan perbandingan antara \textit{training} dan \textit{test set} sebesar 0,7:0,3.
