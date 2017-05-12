@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: skripsi.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: skripsi.aux
 A level-1 auxiliary file: sampul.aux
 A level-1 auxiliary file: judul_dalam.aux
 A level-1 auxiliary file: orisinal.aux
@@ -17,49 +15,8 @@ A level-1 auxiliary file: bab5.aux
 A level-1 auxiliary file: bab6.aux
 The style file: apalikerd.bst
 Database file #1: skripsi.bib
-Repeated entry---line 1503 of file skripsi.bib
+Repeated entry---line 752 of file skripsi.bib
  : @article{denkowski2009survey
  :                             ,
 I'm skipping whatever remains of this entry
-You've used 8 entries,
-            1935 wiz_defined-function locations,
-            534 strings with 5578 characters,
-and the built_in function-call counts, 4075 in all, are:
-= -- 408
-> -- 182
-< -- 10
-+ -- 70
-- -- 64
-* -- 322
-:= -- 667
-add.period$ -- 27
-call.type$ -- 8
-change.case$ -- 72
-chr.to.int$ -- 8
-cite$ -- 8
-duplicate$ -- 164
-empty$ -- 272
-format.name$ -- 78
-if$ -- 833
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 43
-num.names$ -- 24
-pop$ -- 76
-preamble$ -- 1
-purify$ -- 72
-quote$ -- 0
-skip$ -- 130
-stack$ -- 0
-substring$ -- 286
-swap$ -- 45
-text.length$ -- 5
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 48
-warning$ -- 0
-while$ -- 35
-width$ -- 0
-write$ -- 108
 (There was 1 error message)

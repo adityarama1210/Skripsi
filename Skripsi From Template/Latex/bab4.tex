@@ -4,10 +4,21 @@
 %-----------------------------------------------------------------------------%
 Bab ini akan menjelaskan perihal implementasi dari pemindahan \textit{sense} dan sistem \textit{WSD} yang dibuat.
 
-\section{Proses \textit{Word Alignment}}
+
+\section{\textit{Word Alignment}}
+
+\subsection{Pre-Processing}
 Perlu dilakukan \textit{pre-processing} untuk memisahkan kalimat bahasa Inggris dan bahasa Indonesia menjadi dua buah \textit{file} paralel untuk dapat dimasukan sebagai input dari \textit{tool} Giza.
 
-Perintah berikut digunakan untuk melakukan \textit{alignment} dengan Giza pada penelitian ini:
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/pre-process-giza}
+	\caption{Pre-Processing Giza}
+	\label{fig:Pre-Processing-Giza}
+\end{figure}
+
+\subsection{Pemrosesan \textit{Word Alignment}}
+Setelah kedua buah korpus bahasa Indonesia dan Inggris terpisah, perintah berikut digunakan untuk melakukan \textit{alignment} dengan Giza pada penelitian ini:
 
 \begin{lstlisting}[language=bash,caption={Word Alignment}, label={word-alignment}]
 # Lakukan pada direktori Giza
@@ -23,6 +34,29 @@ Perintah berikut digunakan untuk melakukan \textit{alignment} dengan Giza pada p
 \end{lstlisting}
 
 Giza mengeluarkan beberapa \textit{file} hasil dari proses tersebut. \textit{Output} yang akan digunakan diantaranya adalah \textit{file} bernama A3.final yang merupakan pasangan kalimat dengan kata-kata yang sudah dipasangkan sesuai dengan prediksi terbaik hasil pemrosesan Giza.
+
+\subsection{Post-Processing}
+Setelah mendapatkan \textit{file} A3 dari Giza, dilakukan \textit{post-processing} untuk menghasilkan file yang dengan mudah dapat diproses untuk melakukan \textit{sense transfering}. Berikut ini merupakan salah satu contoh pasangan kalimat pada \textit{file} A3 keluaran Giza:
+
+\begin{lstlisting}caption={A3-File}, label={a3-file}]
+# Sentence pair (47183) source length 9 target length 9 alignment score : 6.85298e-13
+Undang-Undang No 14 tahun 2008 tentang Kebebasan Memperoleh Informasi 
+NULL ({ }) Law ({ 1 }) No ({ 2 }) 14 ({ 3 }) of ({ }) 2008 ({ 4 5 }) on ({ 6 }) Freedom ({ 7 8 }) of ({ }) Information ({ 9 })
+\end{lstlisting}
+
+Pembacaan pasangan kata berdasarkan hasil keluaran dilakukan dengan indeks nomor kata yang berada pada dalam kurung kata di bahasa Inggris. Karena pemisah token \textit{by default} adalah spasi, maka kata "Undang-Undang" adalah kata dengan indeks nomor 1, kata "No" adalah kata dengan indeks nomor 2, dan berlaku hal yang sama sampai kata "Informasi". Pada kata bahasa inggris, "Law" dipasangkan dengan indeks satu yang mana adalah "Undang-Undang", kata "No" dipasangkan dengan indeks dua yang mana adalah "No". Bentuk ini diubah menjadi bentuk lain dengan format:
+
+\begin{lstlisting}
+<pair>kata_en_1||kata_id_1 kata_id_2</pair?##<pair>kata_en_2||kata_id\_3</pair>...</pair>
+\end{lstlisting}
+
+Contoh dari hasil \textit{post-processing} pada pasangan kalimat sebelumnya adalah:
+
+\begin{lstlisting}
+<pair>law||undang-undang</pair>##<pair>no||no</pair>##<pair>14||14</pair>##<pair>2008||tahun 2008</pair>##<pair>on||tentang</pair>##<pair>freedom||kebebasan memperoleh</pair>##<pair>information||informasi</pair>
+\end{lstlisting}
+
+Hasil ini diperuntukan agar mempermudah proses \textit{sense transfering} terhadap kata bahasa Inggris dengan pasangan kata dalam Bahasa Indonesia yang bersesuaian. 
 
 \section{Peningkatan Kualitas \textit{Alignment}}
 
