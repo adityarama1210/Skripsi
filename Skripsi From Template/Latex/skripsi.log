@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  12 MAY 2017 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  12 MAY 2017 20:54
 entering extended mode
 **./skripsi.tex
 (skripsi.tex
@@ -1233,14 +1233,8 @@ Giza, dilakukan \T1/ptm/m/it/12 post-processing \T1/ptm/m/n/12 untuk
  []
 
 
-Package Listings Warning: Text dropped after begin of listing on input line 41.
+Package Listings Warning: Text dropped after begin of listing on input line 43.
 
-
-
-Underfull \hbox (badness 3219) in paragraph at lines 59--60
-\T1/ptm/m/n/12 kata bahasa Inggris dengan pasangan kata dalam Bahasa Indonesia 
-yang
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1249,27 +1243,32 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]
-Underfull \hbox (badness 1454) in paragraph at lines 65--66
+Underfull \hbox (badness 1152) in paragraph at lines 71--72
+\T1/ptm/m/n/12 kembali pada sistem WSD nantinya. Sementara itu, keperluan nomor
+ dua
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 77--78
 \T1/ptm/m/n/12 Indonesia dikumpulkan terlebih dahulu dengan setiap pasangan kat
 a bahasa
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 70--71
+Underfull \hbox (badness 1226) in paragraph at lines 82--83
 []\T1/ptm/m/n/12 Jika pada kamus \T1/ptm/m/it/12 enhancement \T1/ptm/m/n/12 "ti
 me" dipasangkan dengan "kali", dan
  []
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
+[18] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1475,7 +1474,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30] <pics/hasil-cotrain.png, id=746, 478.78876pt x 355.3275pt>
+[30] <pics/hasil-cotrain.png, id=748, 478.78876pt x 355.3275pt>
 File: pics/hasil-cotrain.png Graphic file (type png)
 
 <use pics/hasil-cotrain.png>
@@ -1493,7 +1492,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31] <pics/grafik-jumlah.png, id=752, 684.30656pt x 426.84468pt>
+[31] <pics/grafik-jumlah.png, id=754, 684.30656pt x 426.84468pt>
 File: pics/grafik-jumlah.png Graphic file (type png)
 
 <use pics/grafik-jumlah.png>
@@ -1573,7 +1572,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33 <./pics/grafik-jumlah.png>]
-<pics/grafik-akurasi.png, id=765, 622.57594pt x 353.06906pt>
+<pics/grafik-akurasi.png, id=767, 622.57594pt x 353.06906pt>
 File: pics/grafik-akurasi.png Graphic file (type png)
 
 <use pics/grafik-akurasi.png>
@@ -1586,7 +1585,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34] <pics/kasus-1-1.png, id=770, 410.2828pt x 190.46156pt>
+[34] <pics/kasus-1-1.png, id=772, 410.2828pt x 190.46156pt>
 File: pics/kasus-1-1.png Graphic file (type png)
 
 <use pics/kasus-1-1.png>
@@ -1604,13 +1603,13 @@ Underfull \hbox (badness 1629) in paragraph at lines 293--294
 \T1/ptm/m/n/12 Gambar di atas menunjukkan contoh data yang mengalami kesalahan
  []
 
-<pics/kasus-1-2.png, id=777, 419.31656pt x 271.76532pt>
+<pics/kasus-1-2.png, id=779, 419.31656pt x 271.76532pt>
 File: pics/kasus-1-2.png Graphic file (type png)
 
 <use pics/kasus-1-2.png>
 Package pdftex.def Info: pics/kasus-1-2.png used on input line 297.
 (pdftex.def)             Requested size: 338.59023pt x 219.44447pt.
- <pics/kasus-2.png, id=778, 404.26031pt x 190.46156pt>
+ <pics/kasus-2.png, id=780, 404.26031pt x 190.46156pt>
 File: pics/kasus-2.png Graphic file (type png)
 
 <use pics/kasus-2.png>
@@ -1624,7 +1623,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [36 <./pics/kasus-1-1.png> <./pics/kasus-1-2.png>]
-<pics/bagus-1.png, id=788, 417.81094pt x 301.125pt>
+<pics/bagus-1.png, id=790, 417.81094pt x 301.125pt>
 File: pics/bagus-1.png Graphic file (type png)
  <use pics/bagus-1.png>
 Package pdftex.def Info: pics/bagus-1.png used on input line 316.
@@ -1890,27 +1889,21 @@ pics/bagus-1.png
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-
-Package rerunfilecheck Warning: File `skripsi.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `skripsi.out':
-(rerunfilecheck)             Before: 69A67492AA4876E9B1C27692E3BA8F19;4436
-(rerunfilecheck)             After:  ABC4FB6FE4F877B6C6629E5E52822465;4441.
+Package rerunfilecheck Info: File `skripsi.out' has not changed.
+(rerunfilecheck)             Checksum: ABC4FB6FE4F877B6C6629E5E52822465;4441.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15896 strings out of 493328
- 216403 string characters out of 3139127
- 439242 words of memory out of 3000000
+ 15898 strings out of 493328
+ 216417 string characters out of 3139127
+ 462242 words of memory out of 3000000
  18550 multiletter control sequences out of 15000+200000
  61344 words of font info for 98 fonts, out of 3000000 for 9000
  1266 hyphenation exceptions out of 8191
- 44i,12n,51p,1269b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,51p,1269b,1879s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
@@ -1919,9 +1912,9 @@ b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on skripsi.pdf (55 pages, 572745 bytes).
+Output written on skripsi.pdf (55 pages, 573766 bytes).
 PDF statistics:
- 916 PDF objects out of 1000 (max. 8388607)
- 281 named destinations out of 1000 (max. 500000)
+ 919 PDF objects out of 1000 (max. 8388607)
+ 283 named destinations out of 1000 (max. 500000)
  583 words of extra memory for PDF output out of 10000 (max. 10000000)
 

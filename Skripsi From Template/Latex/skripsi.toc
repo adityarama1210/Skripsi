@@ -42,8 +42,8 @@
 \contentsline {subsection}{\numberline {4.1.3}Post-Processing}{17}{subsection.4.1.3}
 \contentsline {section}{\numberline {4.2}Peningkatan Kualitas \textit {Alignment}}{18}{section.4.2}
 \contentsline {section}{\numberline {4.3}Pemindahan Makna Kata}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Sistem WSD}{19}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Pemilihan Fitur dan \textit {Classifier}}{19}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.4}Sistem WSD}{20}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Pemilihan Fitur dan \textit {Classifier}}{20}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Ekstraksi Fitur}{20}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Evaluasi Sistem}{22}{subsection.4.4.3}
 \contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{23}{chapter.5}
