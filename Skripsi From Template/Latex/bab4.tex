@@ -105,6 +105,31 @@ final_dictionary[indo_word][en_word] = dict_en[word_en][word_id]
 \end{lstlisting}
 
 
+\section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
+\textit{Pre-processing} dilakukan terlebih dahulu terhadap korpus bahasa Inggris seperti menghilangkan tanda baca dan mengubah semua token menjadi huruf kecil. Proses \textit{tagging} dilakukan dengan menjalankan perintah:
+
+\begin{lstlisting}[language=bash, caption={IMS}, label={IMS}]
+./testPlain.bash <model> <file_input> <file_output> <file_index_sense>
+\end{lstlisting}
+
+model yang digunakan IMS pada penelitian ini adalah model yang tersedia pada \textit{website software NUS} berdasarkan versi Wordnet 3.0.
+
+Hasil \textit{output} dari \textit{tool} tersebut adalah korpus dengan kata-kata sudah ditag dengan maknanya yang bersesuaian (dalam bentuk \textit{sense key}). \textit{Sense key} merupakan \textit{identifier} unik yang menyimpan arti dari suatu kata pada Wordnet Princeton. Untuk mempermudah pemakaian \textit{sense tagged corpus} ini pada proses selanjutnya, dilakukan \textit{post-processing} untuk mengubah hasil keluaran ke dalam format berikut:
+
+\begin{lstlisting}
+<sentence>kata-1||sensekey-1 kata-2||sensekey-2 ...</sentence>
+<sentence>kata-n||sensekey-n kata-m||sensekey-m ...</sentence>
+...
+\end{lstlisting}
+
+Contoh dari kalimat yang sudah diberikan \textit{tag} sampai keluar dari \textit{post-processing} adalah:
+
+\begin{lstlisting}
+<sentence>years||year%1:28:01:: animals||animal%1:03:00:: have||have%2:40:04:: caused||cause%2:36:00:: havoc||havoc%1:04:00::</sentence>
+\end{lstlisting}
+
+Pada contoh tersebut, kata years memiliki \textit{sense key} berupa "year\%1:28:01::", dimana berdasarkan Wordnet mempunyai arti sebagai '\textit{a period of time containing 365 (or 366) days}'. Tidak semua kata dalam korpus bahasa Inggris ditag oleh IMS, kata-kata sapaan seperti "I", "you", "a" , "the", dan beberapa kata lainnya tidak diberikan \textit{sense key}.  
+
 \section{Pemindahan Makna Kata}
 Hasil dari proses peningkatan kualitas \textit{alignment} adalah sebuah kamus bahasa yang akan digunakan sebagai referensi untuk memindahkan makna kata dari bahasa Inggris ke kata pada bahasa Indonesia.
 

@@ -2,9 +2,22 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babTiga}
 %-----------------------------------------------------------------------------%
-Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang terdiri dari pembuatan \textit{sense tagged corpus} bahasa Inggris,  \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang diimplementasikan.
+Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang terdiri dari pembuatan \textit{sense tagged corpus} bahasa Inggris,  \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang diimplementasikan. Diagram dari rancangan sistem yang akan dibuat pada penelitian ini dapat dilihat pada gambar berikut:
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/WSD-full}
+	\caption{Rancangan Sistem}
+	\label{fig:Rancangan-Sistem}
+\end{figure}
 %-----------------------------------------------------------------------------%
-\section{Pembuatan \textit{Sense Corpus} Bahasa Inggris}
+
+
+\section{Korpus Identik}
+Korpus utama yang digunakan sebagai sumber data penelitian ini adalah korpus identik. Korpus identik berisi pasangan kalimat-kalimat dalam bahasa Indonesia dan Inggris. Kalimat yang berpasangan di dalamnya sebagian besar mempunyai makna konten yang paralel walaupun terdapat juga yang \textit{comparable}. Korpus identik ini mempunyai 88.918 buah pasangan kalimat di dalamnya.
+
+
+\section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
 %-----------------------------------------------------------------------------%
 
 Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. \textit{File} yang diberikan sebagai masukan dari IMS adalah kalimat-kalimat pada bahasa Inggris yang berasal dari korpus identik.

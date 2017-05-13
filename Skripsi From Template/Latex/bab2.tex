@@ -7,7 +7,7 @@ Bab ini membahas mengenai studi literatur yang digunakan selama penelitian. Stud
 %-----------------------------------------------------------------------------%
 \section{Word Sense Disambiguation}
 %-----------------------------------------------------------------------------%
-\textit{Word Sense Disambiguation} merupakan salah satu penelitian di bidang NLP yang bertujuan untuk menentukan makna yang paling tepat dari suatu kata berdasarkan konteks kata tersebut ditemukan. Sebagaimana kata dalam suatu bahasa bisa memiliki makna lebih dari satu (polisemi), \textit{task} ini akan menentukan makna kata mana yang paling tepat.
+\textit{Word Sense Disambiguation} merupakan salah satu penelitian di bidang NLP yang bertujuan untuk menentukan makna yang paling tepat dari suatu kata berdasarkan konteks kata tersebut ditemukan. Sebagaimana kata dalam suatu bahasa bisa memiliki makna lebih dari satu (polisemi), \textit{task} ini akan menentukan makna kata mana yang paling tepat. 
 
 Penentuan makna kalimat dilakukan dengan pemberian informasi berupa kata yang menjadi \textit{target} dan konteks berupa kalimat. Contoh proses disambiguasi yang dilakukan untuk kata \textbf{cokelat}:
 
@@ -97,6 +97,11 @@ Pengujian seberapa baik performa IMS dalam melakukan  WSD \textit{task} mendapat
 	
 	
 	Berdasarkan kedua pasangan kalimat tersebut, kata \textbf{halaman} dalam bahasa Indonesia dapat diterjemahkan menjadi dua buah kata dalam bahasa Inggris, yaitu \textit{page} ataupun \textit{yard}. Hal ini menunjukan bahwa terjemahan dari suatu kata bergantung pada makna yang dikandung kata tersebut.
+
+
+\section{Korpus Paralel dan \textit{Comparable}}
+Terdapat dua macam korpus bilingual yang dapat dimanfaatkan untuk pemanfaatan \textit{cross language } WSD yaitu korpus paralel dan \textit{comparable}. Perbedaan utama terhadap kedua buah korpus berada pada seberapa identik kedua buat kontek yang dimilikinya. Korpus paralel memiliki kalimat dan kata-kata yang serupa antara dua buah pasangan \textit{instance} di masing-masing korpus. Hal ini dapat dicontohkan misalnya dengan kalimat satu pada korpus bahasa Indonesia "Aku makan" dengan "I eat" pada korpus bahasa Inggris. Berbeda dengan korpus paralel, \textit{comparable} berarti kedua kalimat atau \textit{instance} yang berpasangan hanya sebatas mirip/sama dalam suatu kategori kriteria tertentu.
+
 
 %-----------------------------------------------------------------------------%
 \section{\textit{Word Alignment}}

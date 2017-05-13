@@ -1,20 +1,21 @@
 \select@language {bahasa}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Arsitektur IMS\relax }}{5}{figure.caption.19}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Performa IMS \citep {zhong2010makes}\relax }}{6}{figure.caption.20}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Pengukuran Word Alignment\relax }}{9}{figure.caption.21}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Hyperplane SVM pada \citep {fradkin2006support}\relax }}{10}{figure.caption.22}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Word2Vec\relax }}{11}{figure.caption.23}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Arsitektur IMS\relax }}{6}{figure.caption.19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Performa IMS \citep {zhong2010makes}\relax }}{7}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Pengukuran Word Alignment\relax }}{10}{figure.caption.21}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Hyperplane SVM pada \citep {fradkin2006support}\relax }}{11}{figure.caption.22}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Word2Vec\relax }}{12}{figure.caption.23}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rancangan Sistem\relax }}{13}{figure.caption.24}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Pre-Processing Giza\relax }}{16}{figure.caption.24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Pre-Processing Giza\relax }}{18}{figure.caption.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Contoh hasil Co-training pada salah satu iterasi\relax }}{32}{figure.caption.33}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Jumlah data yang diperoleh pada tiap iterasi\relax }}{33}{figure.caption.34}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Akurasi pada setiap kelompok iterasi\relax }}{35}{figure.caption.36}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Contoh kesalahan pelabelan\relax }}{36}{figure.caption.37}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Contoh kesalahan pelabelan\relax }}{36}{figure.caption.38}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Contoh kesalahan pelabelan\relax }}{37}{figure.caption.39}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Contoh pelabelan berhasil\relax }}{38}{figure.caption.40}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Contoh hasil Co-training pada salah satu iterasi\relax }}{35}{figure.caption.34}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Jumlah data yang diperoleh pada tiap iterasi\relax }}{36}{figure.caption.35}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Akurasi pada setiap kelompok iterasi\relax }}{38}{figure.caption.37}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Contoh kesalahan pelabelan\relax }}{39}{figure.caption.38}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Contoh kesalahan pelabelan\relax }}{39}{figure.caption.39}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Contoh kesalahan pelabelan\relax }}{40}{figure.caption.40}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Contoh pelabelan berhasil\relax }}{41}{figure.caption.41}
 \addvspace {10\p@ }
