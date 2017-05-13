@@ -37,17 +37,17 @@
 \BOOKMARK [1][-]{section.3.6}{3.6 Pemindahan Makna Kata}{chapter.3}% 37
 \BOOKMARK [1][-]{section.3.7}{3.7 Sistem WSD}{chapter.3}% 38
 \BOOKMARK [0][-]{chapter.4}{4 Implementasi}{}% 39
-\BOOKMARK [1][-]{section.4.1}{4.1 Word Alignment}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Pre-Processing}{section.4.1}% 41
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Pemrosesan Word Alignment}{section.4.1}% 42
-\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Post-Processing}{section.4.1}% 43
-\BOOKMARK [1][-]{section.4.2}{4.2 Peningkatan Kualitas Alignment}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.3}{4.3 Pembuatan Sense Tagged Corpus Bahasa Inggris}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.4}{4.4 Pemindahan Makna Kata}{chapter.4}% 46
-\BOOKMARK [1][-]{section.4.5}{4.5 Sistem WSD}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Pemilihan Fitur dan Classifier}{section.4.5}% 48
-\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Ekstraksi Fitur}{section.4.5}% 49
-\BOOKMARK [2][-]{subsection.4.5.3}{4.5.3 Evaluasi Sistem}{section.4.5}% 50
+\BOOKMARK [1][-]{section.4.1}{4.1 Pre-Processing}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.2}{4.2 Pembuatan Sense Tagged Corpus Bahasa Inggris}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.3}{4.3 Word Alignment}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Pemrosesan Word Alignment}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Post-Processing}{section.4.3}% 44
+\BOOKMARK [1][-]{section.4.4}{4.4 Peningkatan Kualitas Alignment}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.5}{4.5 Pemindahan Makna Kata}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.6}{4.6 Sistem WSD}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Pemilihan Fitur dan Classifier}{section.4.6}% 48
+\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Ekstraksi Fitur}{section.4.6}% 49
+\BOOKMARK [2][-]{subsection.4.6.3}{4.6.3 Evaluasi Sistem}{section.4.6}% 50
 \BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 51
 \BOOKMARK [1][-]{section.5.1}{5.1 Korpus Identik}{chapter.5}% 52
 \BOOKMARK [1][-]{section.5.2}{5.2 Word Alignment}{chapter.5}% 53

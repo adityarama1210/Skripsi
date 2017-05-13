@@ -2,13 +2,10 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babEmpat} \label{implementasi}
 %-----------------------------------------------------------------------------%
-Bab ini akan menjelaskan perihal implementasi dari pemindahan \textit{sense} dan sistem \textit{WSD} yang dibuat.
+Bab ini akan menjelaskan perihal implementasi dari rancangan yang sudah dibuat pada bab sebelumnya.
 
-
-\section{\textit{Word Alignment}}
-
-\subsection{Pre-Processing}
-Perlu dilakukan \textit{pre-processing} untuk memisahkan kalimat bahasa Inggris dan bahasa Indonesia menjadi dua buah \textit{file} paralel untuk dapat dimasukan sebagai input dari \textit{tool} Giza.
+\section{Pre-Processing}
+Perlu dilakukan \textit{pre-processing} untuk memisahkan kalimat bahasa Inggris dan bahasa Indonesia dari korpus identik menjadi dua buah \textit{file} paralel untuk dapat diproses pada tahap-tahap berikutnya.
 
 \begin{figure}
 	\centering
@@ -17,8 +14,38 @@ Perlu dilakukan \textit{pre-processing} untuk memisahkan kalimat bahasa Inggris 
 	\label{fig:Pre-Processing-Giza}
 \end{figure}
 
+
+\section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
+\textit{Sense Tagged Corpus} dibuat dengan menggunakan bantuan IMS untuk memberikan tag pada korpus bahasa Inggris. \textit{Pre-processing} dilakukan terlebih dahulu terhadap korpus bahasa Inggris seperti menghilangkan tanda baca dan mengubah semua token menjadi huruf kecil. Proses \textit{tagging} dilakukan dengan menjalankan perintah:
+
+\begin{lstlisting}[language=bash, caption={IMS}, label={IMS}]
+./testPlain.bash <model> <file_input> <file_output> <file_index_sense>
+\end{lstlisting}
+
+model yang digunakan IMS pada penelitian ini adalah model yang tersedia pada \textit{website software NUS} berdasarkan versi Wordnet 3.0.
+
+Hasil \textit{output} dari \textit{tool} tersebut adalah korpus dengan kata-kata sudah ditag dengan maknanya yang bersesuaian (dalam bentuk \textit{sense key}). \textit{Sense key} merupakan \textit{identifier} unik yang menyimpan arti dari suatu kata pada Wordnet Princeton. Untuk mempermudah pemakaian \textit{sense tagged corpus} ini pada proses selanjutnya, dilakukan \textit{post-processing} untuk mengubah hasil keluaran ke dalam format berikut:
+
+\begin{lstlisting}
+<sentence>kata-1||sensekey-1 kata-2||sensekey-2 ...</sentence>
+<sentence>kata-n||sensekey-n kata-m||sensekey-m ...</sentence>
+...
+\end{lstlisting}
+
+Contoh dari kalimat yang sudah diberikan \textit{tag} sampai keluar dari \textit{post-processing} adalah:
+
+\begin{lstlisting}
+<sentence>years||year%1:28:01:: animals||animal%1:03:00:: have||have%2:40:04:: caused||cause%2:36:00:: havoc||havoc%1:04:00::</sentence>
+\end{lstlisting}
+
+Pada contoh tersebut, kata years memiliki \textit{sense key} berupa "year\%1:28:01::", dimana berdasarkan Wordnet mempunyai arti sebagai '\textit{a period of time containing 365 (or 366) days}'. Tidak semua kata dalam korpus bahasa Inggris ditag oleh IMS, kata-kata sapaan seperti "I", "you", "a" , "the", dan beberapa kata lainnya tidak diberikan \textit{sense key}.  
+
+
+
+\section{\textit{Word Alignment}}
+
 \subsection{Pemrosesan \textit{Word Alignment}}
-Setelah kedua buah korpus bahasa Indonesia dan Inggris terpisah, perintah berikut digunakan untuk melakukan \textit{alignment} dengan Giza pada penelitian ini:
+Proses \textit{word alignment} menggunakan dua buah \textit{file} yaitu korpus berbahasa Indonesia dan Inggris yang sudah dipisah dari \textit{pre-processing}. Perintah berikut digunakan untuk melakukan \textit{word alignment} dengan Giza pada penelitian ini:
 
 \begin{lstlisting}[language=bash,caption={Word Alignment}, label={word-alignment}]
 # Lakukan pada direktori Giza
@@ -105,34 +132,28 @@ final_dictionary[indo_word][en_word] = dict_en[word_en][word_id]
 \end{lstlisting}
 
 
-\section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
-\textit{Pre-processing} dilakukan terlebih dahulu terhadap korpus bahasa Inggris seperti menghilangkan tanda baca dan mengubah semua token menjadi huruf kecil. Proses \textit{tagging} dilakukan dengan menjalankan perintah:
-
-\begin{lstlisting}[language=bash, caption={IMS}, label={IMS}]
-./testPlain.bash <model> <file_input> <file_output> <file_index_sense>
-\end{lstlisting}
-
-model yang digunakan IMS pada penelitian ini adalah model yang tersedia pada \textit{website software NUS} berdasarkan versi Wordnet 3.0.
-
-Hasil \textit{output} dari \textit{tool} tersebut adalah korpus dengan kata-kata sudah ditag dengan maknanya yang bersesuaian (dalam bentuk \textit{sense key}). \textit{Sense key} merupakan \textit{identifier} unik yang menyimpan arti dari suatu kata pada Wordnet Princeton. Untuk mempermudah pemakaian \textit{sense tagged corpus} ini pada proses selanjutnya, dilakukan \textit{post-processing} untuk mengubah hasil keluaran ke dalam format berikut:
-
-\begin{lstlisting}
-<sentence>kata-1||sensekey-1 kata-2||sensekey-2 ...</sentence>
-<sentence>kata-n||sensekey-n kata-m||sensekey-m ...</sentence>
-...
-\end{lstlisting}
-
-Contoh dari kalimat yang sudah diberikan \textit{tag} sampai keluar dari \textit{post-processing} adalah:
-
-\begin{lstlisting}
-<sentence>years||year%1:28:01:: animals||animal%1:03:00:: have||have%2:40:04:: caused||cause%2:36:00:: havoc||havoc%1:04:00::</sentence>
-\end{lstlisting}
-
-Pada contoh tersebut, kata years memiliki \textit{sense key} berupa "year\%1:28:01::", dimana berdasarkan Wordnet mempunyai arti sebagai '\textit{a period of time containing 365 (or 366) days}'. Tidak semua kata dalam korpus bahasa Inggris ditag oleh IMS, kata-kata sapaan seperti "I", "you", "a" , "the", dan beberapa kata lainnya tidak diberikan \textit{sense key}.  
 
 \section{Pemindahan Makna Kata}
-Hasil dari proses peningkatan kualitas \textit{alignment} adalah sebuah kamus bahasa yang akan digunakan sebagai referensi untuk memindahkan makna kata dari bahasa Inggris ke kata pada bahasa Indonesia.
+Hasil dari proses peningkatan kualitas \textit{alignment} adalah sebuah "kamus" bahasa yang akan digunakan sebagai referensi untuk memindahkan makna kata dari bahasa Inggris ke kata yang benar pada bahasa Indonesia. Proses ini dilakukan dengan tahap-tahap sebagai berikut:
 
+\begin{enumerate}
+	\item Iterasi untuk setiap kata dalam bahasa Indonesia pada kamus
+	\item Iterasi pada setiap pasangan kalimat
+	\item Periksa apakah "\textit{pair}" kata bahasa Indonesia tersebut terdapat di dalam kamus
+	\item Jika "pair" tersebut benar berada dalam kamus, maka pindahkan makna kata dari \textit{english word} yang bersesuaian.
+\end{enumerate}
+
+Ilustrasi dari proses tersebut pada kata "halaman" adalah sebagai berikut:
+
+\begin{enumerate}
+	\item Jika misalkan kata "halaman" pada kamus memiliki pasangan kata "page" dan "courtyard".
+	\item Pada sebuah kalimat "... halaman kedua ..." dimana "\textit{pair}" pada kalimat tersebut diantaranya adalah
+	\begin{lstlisting}
+	..<pair>second||kedua</pair>##<pair>page||halaman</pair>..
+	\end{lstlisting}
+	\item Pasangan kata yang didapat dari "halaman" dari \textit{pair} tersebut adalah "page". Berdasarkan hasil tersebut kata "page" kemudian diperiksa kata dari \textit{pair} tersebut pada kamus.
+	\item Karena kata "page" dari \textit{pair} terdapat pada kamus untuk kata "halaman", maka pindahkan makna "page" dari \textit{sense tagged corpus} kalimat tersebut ke kata "halaman" pada kalimat Indonesia dengan indeks yang sama.
+\end{enumerate}
 
 %-----------------------------------------------------------------------------%
 \section{Sistem WSD}
@@ -204,7 +225,7 @@ Kelas kata yang diambil adalah POS Tag dari \textit{target word} kata sebelum, d
 Fitur ketiga yang dicoba adalah \textit{word embedding}. Model dari \textit{word embedding} yang digunakan sudah dilatih dengan menggunakan korpus Wikipedia bahasa Indonesia. Vektor \textit{word embedding} yang dijadikan fitur adalah vektor dari tiga buah kata di kiri dan kanan dari \textit{target word}. Vektor \textit{target word} tidak dimasukkan ke dalam fitur karena akan mempunyai nilai vektor yang sama antara satu konteks dengan konteks lain. Setiap vektor tersebut kemudian disambung (\textit{concat}) sebagai satu buah vektor besar yang merupakan representasi dari vektor fitur pada konteks tersebut. 
 
 \subsection{Evaluasi Sistem}
-Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan F1-score dari hasil klasifikasi yang dilakukan \textit{classifier}. \textit{Crossvalidation} dilakukan dengan interasi sebanyak tiga buah dengan perbandingan antara \textit{training} dan \textit{test set} sebesar 0,7:0,3.
+Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan F1-score dari hasil klasifikasi yang dilakukan \textit{classifier}. \textit{Cross validation} dilakukan dengan iterasi sebanyak tiga kali dengan perbandingan antara \textit{training} dan \textit{test set} sebesar 0,7:0,3.
 
 Sebuah algoritma sederhana digunakan sebagai \textit{baseline} untuk pembanding dari sistem WSD yang dibangun. Baseline menggunakan pendekatan \textit{most frequent sense} sebagai cara untuk menentukan makna terbaik dari suatu kata. Bila diberikan \textit{training data} untuk kata "bisa" dengan makna "dapat melakukan" sebanyak 4 buah dan makna "racun ular" sebanyak 6 buah, maka algoritma baseline ini akan mengklasifikasikan semua kata "bisa" menjadi "racun ular".
 
