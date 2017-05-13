@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  13 MAY 2017 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  13 MAY 2017 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1170,11 +1170,6 @@ Package pdftex.def Info: adit_pics/WSD-full.jpeg used on input line 9.
 
 
  <./adit_pics/WSD-full.jpeg>]
-Underfull \hbox (badness 1152) in paragraph at lines 29--31
-[]\T1/ptm/m/n/12 Proses penye-larasan yang dilakukan dengan Giza++ meliputi tah
-ap-tahap
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1946,8 +1941,14 @@ pics/bagus-1.png
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: 70AC5ADD0037D884A923E388A84CF633;4615.
+
+Package rerunfilecheck Warning: File `skripsi.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `skripsi.out':
+(rerunfilecheck)             Before: 70AC5ADD0037D884A923E388A84CF633;4615
+(rerunfilecheck)             After:  2711D8C0110C56D70883D8E5751B69DC;4612.
 
 LaTeX Warning: There were undefined references.
 
@@ -1970,7 +1971,7 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (59 pages, 546034 bytes).
+Output written on skripsi.pdf (59 pages, 546056 bytes).
 PDF statistics:
  990 PDF objects out of 1000 (max. 8388607)
  880 compressed objects within 9 object streams

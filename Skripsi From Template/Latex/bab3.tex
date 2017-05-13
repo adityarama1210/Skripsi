@@ -22,11 +22,11 @@ Korpus utama yang digunakan sebagai sumber data penelitian ini adalah korpus ide
 
 Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. \textit{File} yang diberikan sebagai masukan dari IMS adalah kalimat-kalimat pada bahasa Inggris yang berasal dari korpus identik.
 %-----------------------------------------------------------------------------%
-\section{Penyelarasan Kata pada Korpus Paralel}
+\section{\textit{Word alignment} pada Korpus Paralel}
 %-----------------------------------------------------------------------------%
-Penjajaran kata pada korpus berbahasa Inggris dan Indonesia menggunakan \textit{tools word alignment} bernama Giza++. \textit{Tool} ini merupakan salah satu \textit{word alignment tools} pada \textit{statistical machine translation} (SMT) yang dapat digunakan untuk memasangkan kata-kata pada dua buah korpus atau lebih. Terdapat beberapa \textit{word alignment tools} lain seperti Berkeley \textit{aligner}, anymalign, dan lain-lain. Penyelarasan kata ini digunakan untuk kebutuhan pemindahan \textit{sense} dari kata bahasa Inggris ke kata dalam bahasa Indonesia.
+\textit{Word alignment} pada korpus berbahasa Inggris dan Indonesia menggunakan \textit{tools word alignment} bernama Giza++. \textit{Tool} ini merupakan salah satu \textit{word alignment tools} pada \textit{statistical machine translation} (SMT) yang dapat digunakan untuk memasangkan kata-kata pada dua buah korpus atau lebih. Terdapat beberapa \textit{word alignment tools} lain seperti Berkeley \textit{aligner}, anymalign, dan lain-lain. Penyelarasan kata ini digunakan untuk kebutuhan pemindahan \textit{sense} dari kata bahasa Inggris ke kata dalam bahasa Indonesia.
 
-Proses penyelarasan yang dilakukan dengan Giza++ meliputi tahap-tahap berikut:
+Proses \textit{alignment} yang dilakukan dengan Giza++ meliputi tahap-tahap berikut:
 \begin{enumerate}
 	\item Mempersiapkan kedua buah \textit{file} yaitu korpus bahasa asal (\textit{source}) dan korpus bahasa tujuan (\textit{target}). Kedua \textit{file} ini berpasangan dalam setiap barisnya. Baris pertama dalam \textit{file} pertama berpasangan dengan baris pertama pada \textit{file} kedua sampai akhir baris pada kedua \textit{file}.
 	\item Menghasilkan \textit{file} perbendaharaan kata dari kedua bahasa dan \textit{list} indeks perbendaharaan kata pada tiap kalimat yang sudah diselaraskan
