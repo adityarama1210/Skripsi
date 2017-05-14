@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  14 MAY 2017 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  14 MAY 2017 19:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1410,62 +1410,13 @@ Bab 6.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-
-Underfull \hbox (badness 1127) in paragraph at lines 10--11
-\T1/ptm/m/n/12 metode \T1/ptm/m/it/12 semi-supervised learning\T1/ptm/m/n/12 . 
-Metode Co-training pernah dicoba untuk
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 12--13
-[]\T1/ptm/m/n/12 Penelitian ini berusaha mencoba menggunakan metode Co-training
- untuk
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 14--15
-[]\T1/ptm/m/n/12 Masukan untuk proses Co-training berupa data pasangan T dan H 
-serta
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 14--15
-\T1/ptm/m/n/12 komentar penulis yang sebagian kecil telah dilabeli (bibit Co-tr
-aining) dan
- []
-
-[30
+) [30
 
 
 
-]
-Underfull \hbox (badness 3417) in paragraph at lines 30--31
-[]\T1/ptm/m/n/12 Amati lebih dalam mengenai fitur-fitur yang berpotensi memberi
-kan
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[31]
-Underfull \hbox (badness 1077) in paragraph at lines 32--33
-\T1/ptm/m/n/12 Wikipedia Revision History lebih cocok digunakan untuk RTE tingk
-at
- []
-
-)
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32] (./skripsi.bbl)
+] (./skripsi.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
- [33
+ [31
 
 
 ]
@@ -1645,8 +1596,8 @@ Package rerunfilecheck Info: File `skripsi.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15806 strings out of 493014
- 216241 string characters out of 6133352
+ 15796 strings out of 493014
+ 216171 string characters out of 6133352
  460250 words of memory out of 5000000
  18486 multiletter control sequences out of 15000+600000
  46632 words of font info for 70 fonts, out of 8000000 for 9000
@@ -1661,10 +1612,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (46 pages, 391136 bytes).
+Output written on skripsi.pdf (44 pages, 386385 bytes).
 PDF statistics:
- 834 PDF objects out of 1000 (max. 8388607)
- 751 compressed objects within 8 object streams
- 276 named destinations out of 1000 (max. 500000)
+ 817 PDF objects out of 1000 (max. 8388607)
+ 736 compressed objects within 8 object streams
+ 266 named destinations out of 1000 (max. 500000)
  526 words of extra memory for PDF output out of 10000 (max. 10000000)
 
