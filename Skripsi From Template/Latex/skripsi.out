@@ -34,7 +34,7 @@
 \BOOKMARK [1][-]{section.3.3}{3.3 Word alignment pada Korpus Paralel}{chapter.3}% 34
 \BOOKMARK [1][-]{section.3.4}{3.4 Evaluasi Word Alignment}{chapter.3}% 35
 \BOOKMARK [1][-]{section.3.5}{3.5 Peningkatan Kualitas Hasil Alignment}{chapter.3}% 36
-\BOOKMARK [1][-]{section.3.6}{3.6 Pemindahan Makna Kata}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.6}{3.6 Sense Transfering}{chapter.3}% 37
 \BOOKMARK [1][-]{section.3.7}{3.7 Sistem WSD}{chapter.3}% 38
 \BOOKMARK [0][-]{chapter.4}{4 Implementasi}{}% 39
 \BOOKMARK [1][-]{section.4.1}{4.1 Pre-Processing}{chapter.4}% 40
@@ -43,7 +43,7 @@
 \BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Pemrosesan Word Alignment}{section.4.3}% 43
 \BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Post-Processing}{section.4.3}% 44
 \BOOKMARK [1][-]{section.4.4}{4.4 Peningkatan Kualitas Alignment}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.5}{4.5 Pemindahan Makna Kata}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.5}{4.5 Sense Transfering}{chapter.4}% 46
 \BOOKMARK [1][-]{section.4.6}{4.6 Sistem WSD}{chapter.4}% 47
 \BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Pemilihan Fitur dan Classifier}{section.4.6}% 48
 \BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Ekstraksi Fitur}{section.4.6}% 49
@@ -51,20 +51,10 @@
 \BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 51
 \BOOKMARK [1][-]{section.5.1}{5.1 Korpus Identik}{chapter.5}% 52
 \BOOKMARK [1][-]{section.5.2}{5.2 Pembuatan Sense Tagged Corpus Bahasa Inggris}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.3}{5.3 Word Alignment}{chapter.5}% 54
-\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 }{section.5.3}% 55
-\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Evaluasi}{section.5.3}% 56
-\BOOKMARK [1][-]{section.5.4}{5.4 Pengumpulan Data}{chapter.5}% 57
-\BOOKMARK [1][-]{section.5.5}{5.5 Hasil Pengolahan Data}{chapter.5}% 58
-\BOOKMARK [1][-]{section.5.6}{5.6 Hasil Anotasi Manual}{chapter.5}% 59
-\BOOKMARK [1][-]{section.5.7}{5.7 Pengujian Arsitektur RNN}{chapter.5}% 60
-\BOOKMARK [1][-]{section.5.8}{5.8 Pemilihan Fitur View Kedua}{chapter.5}% 61
-\BOOKMARK [1][-]{section.5.9}{5.9 Pengujian Classifier View Kedua}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.10}{5.10 Co-training}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.10.1}{5.10.1 Hasil Co-training}{section.5.10}% 64
-\BOOKMARK [2][-]{subsection.5.10.2}{5.10.2 Evaluasi Co-training}{section.5.10}% 65
-\BOOKMARK [2][-]{subsection.5.10.3}{5.10.3 Analisis Co-training}{section.5.10}% 66
-\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 67
-\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 68
-\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 69
-\BOOKMARK [0][-]{chapter*.44}{Daftar Referensi}{}% 70
+\BOOKMARK [1][-]{section.5.3}{5.3 Evaluasi Word Alignment}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.4}{5.4 Sense Transfering}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.5}{5.5 Sistem WSD}{chapter.5}% 56
+\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 57
+\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 59
+\BOOKMARK [0][-]{chapter*.28}{Daftar Referensi}{}% 60
