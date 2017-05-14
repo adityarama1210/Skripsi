@@ -22,7 +22,8 @@ Perlu dilakukan \textit{pre-processing} untuk memisahkan kalimat bahasa Inggris 
 ./testPlain.bash <model> <file_input> <file_output> <file_index_sense>
 \end{lstlisting}
 
-model yang digunakan IMS pada penelitian ini adalah model yang tersedia pada \textit{website software NUS} berdasarkan versi Wordnet 3.0.
+model yang digunakan IMS pada penelitian ini adalah model yang tersedia pada \textit{website software NUS} berdasarkan versi Wordnet 3.0. Model yang digunakan tersebut meliputi hasil \textit{training} kata-kata dalam bahasa Inggris yang sudah dilakukan di penelitian IMS. Proses yang dilakukan IMS dalam melakukan \textit{tagging sense} adalah dengan mengiterasikan melakukan \textit{sentence splitter}, \textit{tokenizing}, \textit{POS Tagging}, dan \textit{lemmatizing}. Setelah proses itu dilakukan, ekstraksi fitur dilakukan sebelum hasilnya masuk ke dalam \textit{classifier} berdasarkan model kata yang sudah ada. 
+
 
 Hasil \textit{output} dari \textit{tool} tersebut adalah korpus dengan kata-kata sudah ditag dengan maknanya yang bersesuaian (dalam bentuk \textit{sense key}). \textit{Sense key} merupakan \textit{identifier} unik yang menyimpan arti dari suatu kata pada Wordnet Princeton. Untuk mempermudah pemakaian \textit{sense tagged corpus} ini pada proses selanjutnya, dilakukan \textit{post-processing} untuk mengubah hasil keluaran ke dalam format berikut:
 
@@ -222,7 +223,15 @@ Kelas kata yang diambil adalah POS Tag dari \textit{target word} kata sebelum, d
 	\item \textit{Array} ini nantinya akan merepresentasikan keberadaan POS Tag tertentu pada kata dengan indeks terkait tersebut
 \end{enumerate}
 
-Fitur ketiga yang dicoba adalah \textit{word embedding}. Model dari \textit{word embedding} yang digunakan sudah dilatih dengan menggunakan korpus Wikipedia bahasa Indonesia. Vektor \textit{word embedding} yang dijadikan fitur adalah vektor dari tiga buah kata di kiri dan kanan dari \textit{target word}. Vektor \textit{target word} tidak dimasukkan ke dalam fitur karena akan mempunyai nilai vektor yang sama antara satu konteks dengan konteks lain. Setiap vektor tersebut kemudian disambung (\textit{concat}) sebagai satu buah vektor besar yang merupakan representasi dari vektor fitur pada konteks tersebut. 
+Fitur ketiga yang dicoba adalah \textit{word embedding}. Model dari \textit{word embedding} yang digunakan sudah dilatih dengan menggunakan korpus Wikipedia bahasa Indonesia. Vektor \textit{word embedding} yang dijadikan fitur adalah vektor dari tiga buah kata di kiri dan kanan dari \textit{target word}. Vektor \textit{target word} tidak dimasukkan ke dalam fitur karena akan mempunyai nilai vektor yang sama antara satu konteks dengan konteks lain. Setiap vektor tersebut kemudian disambung (\textit{concat}) sebagai satu buah vektor besar yang merupakan representasi dari vektor fitur pada konteks tersebut. Proses tersebut dapat diilustrasikan pada gambar berikut:
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/we-vector}
+	\caption{Ilustrasi Fitur Word Embedding}
+	\label{fig:Ilustrasi-Fitur-Word-Embedding}
+\end{figure}
+
 
 \subsection{Evaluasi Sistem}
 Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan F1-score dari hasil klasifikasi yang dilakukan \textit{classifier}. \textit{Cross validation} dilakukan dengan iterasi sebanyak tiga kali dengan perbandingan antara \textit{training} dan \textit{test set} sebesar 0,7:0,3.
