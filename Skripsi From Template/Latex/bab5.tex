@@ -11,9 +11,46 @@ Korpus identik berisi pasangan-pasangan kalimat Indonesia-Inggris sebanyak 88.91
 %-----------------------------------------------------------------------------%
 
 %-----------------------------------------------------------------------------%
+\section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
+Tabel \ref{table:sense-tagged-corpus} menunjukan jumlah token (kata) pada korpus bahasa Inggris dan yang diberikan \textit{tag sense} oleh IMS
+
+\begin{table}
+	\centering
+	\caption{Jumlah \textit{instance} korpus bahasa Inggris}
+	\label{table:sense-tagged-corpus}
+	\begin{tabular}{|p{0.7cm}|p{4cm}|p{4cm}|}
+		\hline
+		No & Tipe & Jumlah
+		\\ \hline
+		1    & 
+		Token (kata)   & 
+		1.801.484
+		\\ \hline
+		2    & 
+		Kata yang diberikan \textit{tag} oleh IMS     & 
+		1.024.797 
+		\\ \hline
+	\end{tabular}
+\end{table}
+
+Berdasarkan proses pembuatan dan hasil dari \textit{sense tagged corpus} tersebut, dapat dilihat bahwa tidak semua kata diberikan \textit{sense} oleh IMS. Kata-kata sapaan seperti "I", "you", dan kata \textit{articles} yaitu "a", "the", "an". Selain itu, kata yang tidak terdapat pada model juga tidak diberi \textit{tag} (dilewati) oleh IMS. Tingkat kebenaran dari \textit{sense tag} yang diberikan bergantung dari model yang digunakan pada penelitian. Terdapat banyak kasus-kasus dimana pemberian \textit{sense} yang dilakukan adalah benar seperti misalnya pada kata "\textit{visitor}" yang diberikan \textit{tag} dengan \textit{sense key} 1:18:00::, yang mana berdasarkan wordnet Princeton "visitor\%1:18:00::" memiliki arti sebagai "\textit{someone who visits}". Contoh lain dari kata yang diberikan \textit{tag} dengan benar adalah "\textit{company}" pada konteks potongan kalimat "\textit{Plantation company PT ...}". Kata "\textit{company}" tersebut diberikan tag "company\%1:14:01::" yang berdasarkan wordnet Princeton memiliki makna "\textit{an institution created to conduct business}". Namun demikian, terjadinya kesalahan pemberian \textit{tag} pada kata terjadi pada kasus-kasus seperti: 
+
+\begin{enumerate}
+	\item Sebuah entitas diberikan \textit{tag} dimana entitas tersebut dianggap kata biasa. Contohnya adalah kata "Scotland Yard" dimana "Yard" pada kata tersebut diberikan \textit{tag} yang diartikan sebagai "\textit{a unit of length equal to 3 feet}". Hal ini menunjukan bahwa \textit{tool} belum dapat membedakan antara entitas yang memang tidak perlu diberikan \textit{tag} dan kata biasa (walaupun kata tersebut sudah memiliki huruf kapital).
+	\item Kesalahan \textit{tag} dikarenakan \textit{training data} yang digunakan oleh model. Pada potongan kalimat "\textit{... FASB rule will cover such financial instruments as interest rate swaps financial ...}, kata "\textit{interest}" diberikan tag dengan makan "a sense of concern with and curiosity about someone or something". Berdasarkan konteks kalimat tersebut, dapat diketahui bahwa makna yang seharusnya didapat untuk kata "\textit{interest}" diatas ialah "bunga bank". Hal ini sepertinya terjadi karena data yang digunakan untuk \textit{training} model IMS memiliki ketidakseimbangan data untuk model kata "\textit{interest}" sehingga \textit{tag} yang diberikan lebih cenderung kepada "ketertarikan".
+\end{enumerate}
+%-----------------------------------------------------------------------------%
+
+%-----------------------------------------------------------------------------%
 \section{\textit{Word Alignment}}
 
 %-----------------------------------------------------------------------------%
+
+\subsection{}
+
+
+\subsection{Evaluasi}
+Evaluasi terhadap \textit{word alignment} dilakukan dengan membandingkan hasil Giza dengan anotasi manual yang dilakukan oleh dua anotator dengan indikator kualitatif berupa \textit{precision} dan \textit{recall}. 
 
 \section{Pengumpulan Data}
 %-----------------------------------------------------------------------------%

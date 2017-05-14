@@ -51,18 +51,21 @@
 \contentsline {subsection}{\numberline {4.6.3}Evaluasi Sistem}{26}{subsection.4.6.3}
 \contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Korpus Identik}{27}{section.5.1}
-\contentsline {section}{\numberline {5.2}\textit {Word Alignment}}{27}{section.5.2}
-\contentsline {section}{\numberline {5.3}Pengumpulan Data}{27}{section.5.3}
-\contentsline {section}{\numberline {5.4}Hasil Pengolahan Data}{28}{section.5.4}
-\contentsline {section}{\numberline {5.5}Hasil Anotasi Manual}{29}{section.5.5}
-\contentsline {section}{\numberline {5.6}Pengujian Arsitektur RNN}{31}{section.5.6}
-\contentsline {section}{\numberline {5.7}Pemilihan Fitur View Kedua}{32}{section.5.7}
-\contentsline {section}{\numberline {5.8}Pengujian Classifier View Kedua}{33}{section.5.8}
-\contentsline {section}{\numberline {5.9}Co-training}{34}{section.5.9}
-\contentsline {subsection}{\numberline {5.9.1}Hasil Co-training}{35}{subsection.5.9.1}
-\contentsline {subsection}{\numberline {5.9.2}Evaluasi Co-training}{37}{subsection.5.9.2}
-\contentsline {subsection}{\numberline {5.9.3}Analisis Co-training}{39}{subsection.5.9.3}
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{43}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{44}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{46}{chapter*.43}
+\contentsline {section}{\numberline {5.2}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{27}{section.5.2}
+\contentsline {section}{\numberline {5.3}\textit {Word Alignment}}{28}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}}{28}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Evaluasi}{28}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Pengumpulan Data}{28}{section.5.4}
+\contentsline {section}{\numberline {5.5}Hasil Pengolahan Data}{29}{section.5.5}
+\contentsline {section}{\numberline {5.6}Hasil Anotasi Manual}{30}{section.5.6}
+\contentsline {section}{\numberline {5.7}Pengujian Arsitektur RNN}{33}{section.5.7}
+\contentsline {section}{\numberline {5.8}Pemilihan Fitur View Kedua}{34}{section.5.8}
+\contentsline {section}{\numberline {5.9}Pengujian Classifier View Kedua}{35}{section.5.9}
+\contentsline {section}{\numberline {5.10}Co-training}{35}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Hasil Co-training}{36}{subsection.5.10.1}
+\contentsline {subsection}{\numberline {5.10.2}Evaluasi Co-training}{38}{subsection.5.10.2}
+\contentsline {subsection}{\numberline {5.10.3}Analisis Co-training}{40}{subsection.5.10.3}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{44}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{44}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{45}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{47}{chapter*.44}

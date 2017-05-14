@@ -50,18 +50,21 @@
 \BOOKMARK [2][-]{subsection.4.6.3}{4.6.3 Evaluasi Sistem}{section.4.6}% 50
 \BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 51
 \BOOKMARK [1][-]{section.5.1}{5.1 Korpus Identik}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.2}{5.2 Word Alignment}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.3}{5.3 Pengumpulan Data}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.4}{5.4 Hasil Pengolahan Data}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.5}{5.5 Hasil Anotasi Manual}{chapter.5}% 56
-\BOOKMARK [1][-]{section.5.6}{5.6 Pengujian Arsitektur RNN}{chapter.5}% 57
-\BOOKMARK [1][-]{section.5.7}{5.7 Pemilihan Fitur View Kedua}{chapter.5}% 58
-\BOOKMARK [1][-]{section.5.8}{5.8 Pengujian Classifier View Kedua}{chapter.5}% 59
-\BOOKMARK [1][-]{section.5.9}{5.9 Co-training}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.9.1}{5.9.1 Hasil Co-training}{section.5.9}% 61
-\BOOKMARK [2][-]{subsection.5.9.2}{5.9.2 Evaluasi Co-training}{section.5.9}% 62
-\BOOKMARK [2][-]{subsection.5.9.3}{5.9.3 Analisis Co-training}{section.5.9}% 63
-\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 64
-\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 65
-\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 66
-\BOOKMARK [0][-]{chapter*.43}{Daftar Referensi}{}% 67
+\BOOKMARK [1][-]{section.5.2}{5.2 Pembuatan Sense Tagged Corpus Bahasa Inggris}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.3}{5.3 Word Alignment}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 }{section.5.3}% 55
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Evaluasi}{section.5.3}% 56
+\BOOKMARK [1][-]{section.5.4}{5.4 Pengumpulan Data}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.5}{5.5 Hasil Pengolahan Data}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.6}{5.6 Hasil Anotasi Manual}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.7}{5.7 Pengujian Arsitektur RNN}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.8}{5.8 Pemilihan Fitur View Kedua}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.9}{5.9 Pengujian Classifier View Kedua}{chapter.5}% 62
+\BOOKMARK [1][-]{section.5.10}{5.10 Co-training}{chapter.5}% 63
+\BOOKMARK [2][-]{subsection.5.10.1}{5.10.1 Hasil Co-training}{section.5.10}% 64
+\BOOKMARK [2][-]{subsection.5.10.2}{5.10.2 Evaluasi Co-training}{section.5.10}% 65
+\BOOKMARK [2][-]{subsection.5.10.3}{5.10.3 Analisis Co-training}{section.5.10}% 66
+\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 67
+\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 68
+\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 69
+\BOOKMARK [0][-]{chapter*.44}{Daftar Referensi}{}% 70
