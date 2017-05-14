@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  14 MAY 2017 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  14 MAY 2017 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1388,67 +1388,67 @@ gantung dari model yang digunakan pada
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
 []|\T1/ptm/m/n/12 Tangga
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\T1/ptm/m/n/12 idwiki-20160901-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-\T1/ptm/m/n/12 pages-articles-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-[]|\T1/ptm/m/it/12 Articles, templates,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-\T1/ptm/m/n/12 dan \T1/ptm/m/it/12 primary meta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-[]|\T1/ptm/m/n/12 2016-09-02
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\T1/ptm/m/n/12 pages-articles-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\T1/ptm/m/it/12 Articles, templates,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\T1/ptm/m/n/12 dan \T1/ptm/m/it/12 primary meta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\T1/ptm/m/n/12 2016-09-02
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []|\T1/ptm/m/n/12 381.3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\T1/ptm/m/n/12 idwiki-20160901-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/ptm/m/n/12 pages-meta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 []|\T1/ptm/m/n/12 All pages with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \T1/ptm/m/n/12 complete page edit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\T1/ptm/m/n/12 2016-09-07
  []
 
 
-Overfull \hbox (11.18488pt too wide) in paragraph at lines 63--76
+Overfull \hbox (11.18488pt too wide) in paragraph at lines 64--77
  [][] 
  []
 
@@ -1461,11 +1461,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [28]
 
 LaTeX Warning: Reference `fig:hasil-ekstraksi' on page 29 undefined on input li
-ne 85.
+ne 86.
 
 
 LaTeX Warning: Reference `fig:revisi_induk' on page 29 undefined on input line 
-85.
+86.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1490,7 +1490,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [31]
 
 LaTeX Warning: Reference `table:skalaKappa' on page 32 undefined on input line 
-166.
+167.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1499,17 +1499,17 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32]
-Underfull \hbox (badness 1132) in paragraph at lines 186--187
+Underfull \hbox (badness 1132) in paragraph at lines 187--188
 \T1/ptm/m/n/12 Setelah melakukan langkah-langkah tersebut, bibit yang diperoleh
  berkurang
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 203.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1517,7 +1517,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33]
-Underfull \hbox (badness 3679) in paragraph at lines 218--218
+Underfull \hbox (badness 3679) in paragraph at lines 219--219
 \T1/ptm/m/n/12 perubahan teks, menggunakan mesin wikipedia,
  []
 
@@ -1528,13 +1528,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34]
-Underfull \hbox (badness 1077) in paragraph at lines 227--241
+Underfull \hbox (badness 1077) in paragraph at lines 228--242
 \T1/ptm/m/n/12 Kombinasi fitur terbaik hasil dari tahap pemilihan fitur menggun
 akan \T1/ptm/m/it/12 select
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 227--241
+Underfull \hbox (badness 2119) in paragraph at lines 228--242
 \T1/ptm/m/it/12 attribute \T1/ptm/m/n/12 pada Weka digunakan sebagai fitur untu
 k percobaan \T1/ptm/m/it/12 k-fold cross
  []
@@ -1547,20 +1547,20 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [35]
 
-LaTeX Warning: Reference `sec:cotrain' on page 36 undefined on input line 252.
+LaTeX Warning: Reference `sec:cotrain' on page 36 undefined on input line 253.
 
 
 LaTeX Warning: Reference `fig:Co-training' on page 36 undefined on input line 2
-52.
+53.
 
-<pics/hasil-cotrain.png, id=838, 478.78876pt x 355.3275pt>
+<pics/hasil-cotrain.png, id=839, 478.78876pt x 355.3275pt>
 File: pics/hasil-cotrain.png Graphic file (type png)
 
 <use pics/hasil-cotrain.png>
-Package pdftex.def Info: pics/hasil-cotrain.png used on input line 264.
+Package pdftex.def Info: pics/hasil-cotrain.png used on input line 265.
 (pdftex.def)             Requested size: 398.3386pt x 295.62115pt.
 
-Underfull \hbox (badness 1354) in paragraph at lines 261--267
+Underfull \hbox (badness 1354) in paragraph at lines 262--268
 \T1/ptm/m/n/12 Hasil tiap iterasi dari percobaan Co-training disimpan untuk die
 valuasi dan
  []
@@ -1571,11 +1571,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36] <pics/grafik-jumlah.png, id=845, 684.30656pt x 426.84468pt>
+[36] <pics/grafik-jumlah.png, id=846, 684.30656pt x 426.84468pt>
 File: pics/grafik-jumlah.png Graphic file (type png)
 
 <use pics/grafik-jumlah.png>
-Package pdftex.def Info: pics/grafik-jumlah.png used on input line 272.
+Package pdftex.def Info: pics/grafik-jumlah.png used on input line 273.
 (pdftex.def)             Requested size: 398.3386pt x 248.4754pt.
 
 
@@ -1585,62 +1585,62 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [37 <./pics/hasil-cotrain.png>]
-Overfull \hbox (1.71642pt too wide) in paragraph at lines 286--286
+Overfull \hbox (1.71642pt too wide) in paragraph at lines 287--287
 []|\T1/ptm/m/n/12 Label
  []
 
 
-Overfull \hbox (1.71642pt too wide) in paragraph at lines 286--286
+Overfull \hbox (1.71642pt too wide) in paragraph at lines 287--287
 []|\T1/ptm/m/n/12 Label
  []
 
 
-Overfull \hbox (3.36935pt too wide) in paragraph at lines 286--286
+Overfull \hbox (3.36935pt too wide) in paragraph at lines 287--287
 []|\T1/ptm/m/n/12 Jumlah| 
  []
 
 
-Overfull \hbox (1.85631pt too wide) in paragraph at lines 286--286
+Overfull \hbox (1.85631pt too wide) in paragraph at lines 287--287
 []|\T1/ptm/m/n/12 Sampel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 \T1/ptm/m/n/12 E
  []
 
 
-Overfull \hbox (1.85631pt too wide) in paragraph at lines 286--286
+Overfull \hbox (1.85631pt too wide) in paragraph at lines 287--287
 []|\T1/ptm/m/n/12 Sampel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 \T1/ptm/m/n/12 NE
  []
 
 
-Overfull \hbox (3.84837pt too wide) in paragraph at lines 286--286
+Overfull \hbox (3.84837pt too wide) in paragraph at lines 287--287
 []|\T1/ptm/m/n/12 Akurasi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 \T1/ptm/m/n/12 Label
  []
 
 
-Overfull \hbox (3.84837pt too wide) in paragraph at lines 286--286
+Overfull \hbox (3.84837pt too wide) in paragraph at lines 287--287
 []|\T1/ptm/m/n/12 Akurasi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 \T1/ptm/m/n/12 Label
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 []|\T1/ptm/m/n/12 Rata-rata
  []
 
@@ -1651,11 +1651,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [38 <./pics/grafik-jumlah.png>]
-<pics/grafik-akurasi.png, id=858, 622.57594pt x 353.06906pt>
+<pics/grafik-akurasi.png, id=859, 622.57594pt x 353.06906pt>
 File: pics/grafik-akurasi.png Graphic file (type png)
 
 <use pics/grafik-akurasi.png>
-Package pdftex.def Info: pics/grafik-akurasi.png used on input line 310.
+Package pdftex.def Info: pics/grafik-akurasi.png used on input line 311.
 (pdftex.def)             Requested size: 398.3386pt x 225.90416pt.
 
 
@@ -1664,11 +1664,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39] <pics/kasus-1-1.png, id=863, 410.2828pt x 190.46156pt>
+[39] <pics/kasus-1-1.png, id=864, 410.2828pt x 190.46156pt>
 File: pics/kasus-1-1.png Graphic file (type png)
 
 <use pics/kasus-1-1.png>
-Package pdftex.def Info: pics/kasus-1-1.png used on input line 326.
+Package pdftex.def Info: pics/kasus-1-1.png used on input line 327.
 (pdftex.def)             Requested size: 338.59023pt x 157.1792pt.
 
 
@@ -1678,21 +1678,21 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40 <./pics/grafik-akurasi.png>]
-Underfull \hbox (badness 1629) in paragraph at lines 330--331
+Underfull \hbox (badness 1629) in paragraph at lines 331--332
 \T1/ptm/m/n/12 Gambar di atas menunjukkan contoh data yang mengalami kesalahan
  []
 
-<pics/kasus-1-2.png, id=870, 419.31656pt x 271.76532pt>
+<pics/kasus-1-2.png, id=871, 419.31656pt x 271.76532pt>
 File: pics/kasus-1-2.png Graphic file (type png)
 
 <use pics/kasus-1-2.png>
-Package pdftex.def Info: pics/kasus-1-2.png used on input line 334.
+Package pdftex.def Info: pics/kasus-1-2.png used on input line 335.
 (pdftex.def)             Requested size: 338.59023pt x 219.44447pt.
- <pics/kasus-2.png, id=871, 404.26031pt x 190.46156pt>
+ <pics/kasus-2.png, id=872, 404.26031pt x 190.46156pt>
 File: pics/kasus-2.png Graphic file (type png)
 
 <use pics/kasus-2.png>
-Package pdftex.def Info: pics/kasus-2.png used on input line 342.
+Package pdftex.def Info: pics/kasus-2.png used on input line 343.
 (pdftex.def)             Requested size: 338.59023pt x 159.5245pt.
 
 
@@ -1702,10 +1702,10 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41 <./pics/kasus-1-1.png> <./pics/kasus-1-2.png>]
-<pics/bagus-1.png, id=880, 417.81094pt x 301.125pt>
+<pics/bagus-1.png, id=881, 417.81094pt x 301.125pt>
 File: pics/bagus-1.png Graphic file (type png)
  <use pics/bagus-1.png>
-Package pdftex.def Info: pics/bagus-1.png used on input line 353.
+Package pdftex.def Info: pics/bagus-1.png used on input line 354.
 (pdftex.def)             Requested size: 338.59023pt x 244.04315pt.
 
 
@@ -1975,8 +1975,8 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15957 strings out of 493014
- 218689 string characters out of 6133352
+ 15958 strings out of 493014
+ 218696 string characters out of 6133352
  461557 words of memory out of 5000000
  18584 multiletter control sequences out of 15000+600000
  61344 words of font info for 98 fonts, out of 8000000 for 9000
@@ -1991,10 +1991,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (60 pages, 566238 bytes).
+Output written on skripsi.pdf (60 pages, 566895 bytes).
 PDF statistics:
- 1020 PDF objects out of 1200 (max. 8388607)
- 907 compressed objects within 10 object streams
- 320 named destinations out of 1000 (max. 500000)
+ 1021 PDF objects out of 1200 (max. 8388607)
+ 908 compressed objects within 10 object streams
+ 321 named destinations out of 1000 (max. 500000)
  641 words of extra memory for PDF output out of 10000 (max. 10000000)
 
