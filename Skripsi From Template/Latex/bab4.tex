@@ -121,15 +121,15 @@ dict_en = {}
 
 # this section is for filtering which english word that has corresponding indo translation (bidirectional) from Giza output
 for indo_word in dict_id.keys():
-if indo_word not in dict_en:
-# filtering so no same translation is entered, answer -> answer, jawaban -> jawaban
-for en_word in dict_id[indo_word].keys():
-if en_word in dict_en and indo_word in dict_en[en_word] and en_word not in stop:
-if indo_word not in final_dictionary:
-final_dictionary[indo_word] = { en_word: dict_en[word_en][word_id] }
-else:
-if en_word not in final_dictionary[indo_word]:
-final_dictionary[indo_word][en_word] = dict_en[word_en][word_id]
+	for en_word in dict_id[indo_word].keys():
+		if en_word != dict_en:
+		# filtering so no same translation is entered, answer -> answer, jawaban -> jawaban
+			if en_word in dict_en and indo_word in dict_en[en_word] and en_word not in stop:
+				if indo_word not in final_dictionary:
+					final_dictionary[indo_word] = { en_word: dict_en[word_en][word_id] }
+				else:
+					if en_word not in final_dictionary[indo_word]:
+						final_dictionary[indo_word][en_word] = dict_en[word_en][word_id]
 \end{lstlisting}
 
 
