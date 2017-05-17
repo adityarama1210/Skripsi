@@ -50,7 +50,26 @@ Hasil dari proses \textit{word alignment} yang dilakukan Giza dibandingkan denga
 %-----------------------------------------------------------------------------%
 \section{\textit{Sense Transfering}}
 
-Proses \textit{transfer} makna kata dari bahasa Inggris ke bahasa Indonesia yang dilakukan sangat bergantung dari hasil \textit{alignment} kata pada proses sebelumnya. Untuk sebagian besar kata yang memiliki pasangan kata yang benar, proses \textit{transfer} dapat menghasilkan makna yang benar juga. Hal tersebut didukung jika \textit{sense tagged word} pada korpus bahasa Inggris juga benar).
+Proses \textit{transfer} makna kata dari bahasa Inggris ke bahasa Indonesia yang dilakukan sangat bergantung dari hasil \textit{alignment} kata pada proses sebelumnya. Untuk sebagian besar kata yang memiliki pasangan kata yang benar, proses \textit{transfer} dapat menghasilkan makna yang benar juga. Hal tersebut didukung jika \textit{sense tagged word} pada korpus bahasa Inggris juga benar). Terdapat beberapa kata yang dipilih sebagai \textit{sampling} untuk mengevaluasi hasil \textit{sense transfering}. Kelompok ini dibagi menjadi:
+
+\begin{enumerate}
+	\item Jumlah Kelas
+	\begin{enumerate}
+		\item 3-5 kelas kata
+		\item lebih dari 5 kelas kata
+	\end{enumerate}
+	\item sebaran jumlah \textit{instance} dalam kelasnya
+	\begin{enumerate}
+		\item \textit{balance}
+		\item \textit{imbalance}
+	\end{enumerate}
+	\item Bentuk morfologi dari kata tersebut
+	\begin{enumerate}
+		\item Lemma
+		\item Berimbuhan baik itu infleksional ataupun \textit{derivative}
+	\end{enumerate}
+\end{enumerate}
+
 
 
 %-----------------------------------------------------------------------------%

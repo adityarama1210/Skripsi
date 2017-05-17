@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  17 MAY 2017 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  17 MAY 2017 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1602,10 +1602,10 @@ Package rerunfilecheck Info: File `skripsi.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15796 strings out of 493014
- 216171 string characters out of 6133352
+ 15807 strings out of 493014
+ 216258 string characters out of 6133352
  459250 words of memory out of 5000000
- 18486 multiletter control sequences out of 15000+600000
+ 18488 multiletter control sequences out of 15000+600000
  46632 words of font info for 70 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
  44i,12n,51p,1555b,1802s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1618,10 +1618,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (44 pages, 387261 bytes).
+Output written on skripsi.pdf (44 pages, 388299 bytes).
 PDF statistics:
- 817 PDF objects out of 1000 (max. 8388607)
- 736 compressed objects within 8 object streams
- 266 named destinations out of 1000 (max. 500000)
+ 827 PDF objects out of 1000 (max. 8388607)
+ 746 compressed objects within 8 object streams
+ 275 named destinations out of 1000 (max. 500000)
  526 words of extra memory for PDF output out of 10000 (max. 10000000)
 
