@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  15 MAY 2017 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  17 MAY 2017 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1355,6 +1355,12 @@ File: adit_pics/we-vector.jpeg Graphic file (type jpg)
 <use adit_pics/we-vector.jpeg>
 Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 230.
 (pdftex.def)             Requested size: 398.3386pt x 136.96837pt.
+
+Underfull \hbox (badness 1348) in paragraph at lines 237--238
+\T1/ptm/m/n/12 kata tersebut memiliki kata \T1/ptm/m/it/12 translation \T1/ptm/
+m/n/12 lebih dari satu dengan makna yang
+ []
+
 )
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1612,7 +1618,7 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (44 pages, 386663 bytes).
+Output written on skripsi.pdf (44 pages, 387261 bytes).
 PDF statistics:
  817 PDF objects out of 1000 (max. 8388607)
  736 compressed objects within 8 object streams
