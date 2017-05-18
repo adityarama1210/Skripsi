@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  18 MAY 2017 09:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  18 MAY 2017 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1515,6 +1515,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30])
+Underfull \hbox (badness 1052) in paragraph at lines 156--122
+\T1/ptm/m/n/12 terendah dengan semua penilaian akurasi dibawah 50%. Makna kata 
+yang
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1522,6 +1527,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [31]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
 \openout2 = `bab6.aux'.
 
  (./bab6.tex
@@ -1530,13 +1542,13 @@ Bab 6.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-) [32
+) [33
 
 
 
 ] (./skripsi.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
- [33
+ [34
 
 
 ]
@@ -1716,8 +1728,8 @@ Package rerunfilecheck Info: File `skripsi.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15814 strings out of 493014
- 216391 string characters out of 6133352
+ 15815 strings out of 493014
+ 216398 string characters out of 6133352
  460391 words of memory out of 5000000
  18491 multiletter control sequences out of 15000+600000
  46632 words of font info for 70 fonts, out of 8000000 for 9000
@@ -1732,10 +1744,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (46 pages, 393214 bytes).
+Output written on skripsi.pdf (47 pages, 394624 bytes).
 PDF statistics:
- 842 PDF objects out of 1000 (max. 8388607)
- 759 compressed objects within 8 object streams
- 279 named destinations out of 1000 (max. 500000)
+ 846 PDF objects out of 1000 (max. 8388607)
+ 762 compressed objects within 8 object streams
+ 280 named destinations out of 1000 (max. 500000)
  526 words of extra memory for PDF output out of 10000 (max. 10000000)
 
