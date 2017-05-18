@@ -74,7 +74,7 @@ Pada jumlah kelas sebanyak 3-5 kelas kata (\textit{sense key}), \textit{target w
 
 \begin{table}
 	\centering
-	\caption{Evaluasi \textit{Sense Transfering} Berdasarkan Jumlah Kelompok Kata}
+	\caption{Evaluasi \textit{Sense Transfering} Berdasarkan Jumlah Kelas}
 	\label{table:number-classes-sense-transfering-evaluation}
 	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
 		\hline
@@ -115,4 +115,43 @@ Makna kata \textit{split} yang diberikan hanya berjumlah satu buah dari keseluru
 %-----------------------------------------------------------------------------%
 \section{Sistem WSD}
 
-Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai \textit{target word} yang akan dievaluasi berdasarkan nilai F-score.
+Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai sampling dari \textit{target word} yang akan dievaluasi berdasarkan nilai F-score dari hasil rata-rata \textit{cross validation}. \textit{Target word} yang dipilih tersebut memiliki kriteria bahwa pasangan bahasa inggris kata tersebut lebih dari satu ataupun juga pasangan bahasa inggrisnya memiliki makna yang tidak dekat (ambigu). Fitur yang dilakukan percobaan pada penelitian ini adalah F1(\textit{bag of words}), F2 (\textit{word embedding}), F3 (\textit{pos-tag}), F4(\textit{pos tagging} dan \textit{bag of words}). Hasil evaluasi dapat dilihat pada tabel akurasi  \ref{table:wsd-evaluation} berikut.
+
+
+\begin{table}
+	\centering
+	\caption{Evaluasi Sistem WSD}
+	\label{table:wsd-evaluation}
+	\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+		\hline
+		\textit{Target Word} & Baseline & F1 & F2 & F3 & F4
+		\\ \hline
+		meninggalkan & 0.89 & 0.89 & 0.88 & 0.89 & 0.88
+		\\ \hline
+		memecahkan & 0.50 & 0.50 & \cellcolor{blue!25}0.54 & 0.50 & 0.46
+		\\ \hline
+		menolak & 0.36 & \cellcolor{blue!25}0.52 & \cellcolor{blue!25}0.49 & \cellcolor{blue!25}0.52 & \cellcolor{blue!25}0.60
+		\\ \hline
+		obat & 0.49 & \cellcolor{blue!25}0.70 & \cellcolor{blue!25}0.56 & \cellcolor{blue!25}0.61 & \cellcolor{blue!25}0.78
+		\\ \hline
+		linkungan & 0.54 & 0.54 & 0.43 & \cellcolor{blue!25}0.67 & \cellcolor{blue!25}0.66
+		\\ \hline
+		halaman & 0.93 & 0.93 & 0.93 & 0.91 & 0.93
+		\\ \hline
+		kehadiran & 0.67 & \cellcolor{blue!25}0.91 & \cellcolor{blue!25}0.77 & \cellcolor{blue!25}0.73 & \cellcolor{blue!25}0.91
+		\\ \hline
+		hati & 0.72 & \cellcolor{blue!25}0.84 & \cellcolor{blue!25}0.77 & \cellcolor{blue!25}0.73 & \cellcolor{blue!25}0.84
+		\\ \hline
+		coklat & 0.11 & \cellcolor{blue!25}0.39 & \cellcolor{blue!25}0.22 & \cellcolor{blue!25}0.17 & \cellcolor{blue!25}0.33
+		\\ \hline
+		acara & 0.58 & \cellcolor{blue!25}0.60 & 0.53 & 0.45 & 0.55
+		\\ \hline
+		berat & 0.53 & \cellcolor{blue!25}0.61 & 0.52 & \cellcolor{blue!25}0.68 & \cellcolor{blue!25}0.70
+		\\ \hline
+		jalan & 0.66 & \cellcolor{blue!25}0.75 & \cellcolor{blue!25}0.73 & \cellcolor{blue!25}0.68 & \cellcolor{blue!25}0.74
+		\\ \hline
+		
+		
+		
+	\end{tabular}
+\end{table}
