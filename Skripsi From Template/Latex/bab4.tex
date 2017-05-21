@@ -109,7 +109,60 @@ Pertama, dilakukan pemilihan acak terhadap 200 pasang kalimat yang merupakan has
 \end{enumerate}
 
 \subsection{Proses Anotasi Data}
-Setelah 200 buah pasangan kalimat(data) tersebut selesai dipersiapkan, anotator akan melakukan anotasi data (\textit{alignment}) secara manual dengan panduan yang diberikan oleh \saya. Panduan tersebut meliputi keterangan dari \textit{task word alignment}, format data yang diberikan dan cara pembacaannya, dan yang paling utama adalah cara melakukan proses \textit{alignment}.
+Setelah 200 buah pasangan kalimat(data) tersebut selesai dipersiapkan, anotator akan melakukan anotasi data (\textit{alignment}) secara manual dengan panduan yang diberikan oleh \saya. Panduan tersebut meliputi keterangan dari \textit{task word alignment}, format data yang diberikan dan cara pembacaannya, dan yang paling utama adalah cara melakukan proses \textit{alignment}. Panduan anotasi yang diberikan dapat dilihat di lampiran pada laporan ini.
+
+\subsection{Evaluasi}
+Evaluasi perhitungan \textit{precision}, \textit{recall}, f-score, dan \textit{agreement} dilakukan secara otomatis dengan program yang dibuat dengan algoritma berikut.
+
+\begin{lstlisting}[language=Python, caption={Word Alignment Evaluation}, label={word-alignment-evaluation}]
+
+def evaluate_bracket(list_giza, list_anotator):
+	# evaluate per character
+	numbers_anotator = len(list_anotator)
+	numbers_giza = len(list_giza)
+	match = 0
+	if numbers_giza < numbers_anotator:
+		# iterate through the numbers giza
+		for n in list_giza:
+			if n in list_anotator:
+				match += 1
+	else:
+		# iterate through the numbers anotator
+		for n in list_anotator:
+			if n in list_giza:
+				match += 1
+	return (numbers_anotator, numbers_giza, match)
+
+# given sentence which already been alignned from the first anotator (an1), second anotator(an2), and giza(giza)
+matches, total_giza, total_anotator, total_giza_1, total_anotator_1 = 0, 0, 0, 0, 0
+precision, recall = [[],[]], [[],[]]
+
+for each sentence in sentences:
+	for each token in sentence:
+		(numbers_anotator, numbers_giza, match) = evaluate_bracket(an1(token), giza(token))
+		(numbers_anotator_1, numbers_giza_1, match_1) = evaluate_brakcet(an2(token), giza(token))
+		agreement = count_agreement(an1(token), an2(token))
+		matches += match
+		matches_1 += match_1
+		total_giza += numbers_giza
+		total_giza_1 += numbers_giza_1
+		total_anotator += numbers_anotator
+		total_anotator_1 += numbers_anotator_1
+	agreement.append(agreement)
+	precision[0].append(matches/total_giza)
+	recall[0].append(matches/total_anotator)
+	precision[1].append(matches_1/total_giza_1)
+	recall[1].append(matches_1/total_anotator_1)
+
+precision = average(precision[0])
+recall = average(recall[0])
+precision_1 = average(precision[1])
+recall_1 = average(recall[1])
+agreement = average(agreement)	
+
+\end{lstlisting}
+
+Berdasarkan cara perhitungan evaluasi tersebut, terdapat dua buah \textit{precision} dan \textit{recall} yang mana masing-masing menunjukan indikator penilaian untuk anotator pertama dan kedua.
 
 \section{Peningkatan Kualitas \textit{Alignment}}
 
