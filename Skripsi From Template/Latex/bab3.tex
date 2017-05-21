@@ -53,28 +53,8 @@ Pada skenario \textit{alignment} dengan bahasa Indonesia sebagai \textit{source}
 %-------%
 \section{Peningkatan Kualitas Hasil \textit{Alignment}}
 %-----------------------------------------------------------------------------%
-Proses peningkatan kualitas hasil alignment diperlukan untuk meminimalisir kesalahan pemasangan kata-kata pada proses sebelumnya. Permasalahan  yang terjadi adalah adanya pasangan-pasangan kata yang tidak benar seperti pada halnya kata "lapangan" yang  dipasangkan dengan kata dalam bahasa inggris \textit{field}, \textit{ground}, \textit{involved}, \textit{job}, \textit{program}, dan beberapa kata lainnya. Peningkatan kualitas \textit{alignment} ini dilakukan dengan memanfaatkan hasil \textit{inverse} \textit{alignment} antara bahasa Indonesia ke Inggris. Pemanfaatkan hasil \textit{alignment} korpus bahasa Inggris ke Indonesia akan menghasilkan pasangan-pasangan kata dengan tingkat kesalahan \textit{alignment} lebih kecil. Metode yang akan dilakukan adalah dengan memeriksa setiap pasangan kata dari bahasa Indonesia yang mana merupakan kata dalam bahasa Inggris, apakah kata tersebut memiliki pasangan dalam bahasa Indonesia yang sama dengan keluaran dari \textit{inverse alignment} Giza.
+Proses peningkatan kualitas hasil alignment diperlukan untuk meminimalisir kesalahan pemasangan kata-kata pada proses sebelumnya. Permasalahan  yang terjadi adalah adanya pasangan-pasangan kata yang tidak benar seperti pada halnya kata "lapangan" misalnya yang  dipasangkan dengan kata dalam bahasa inggris \textit{field}, \textit{ground}, \textit{involved}, \textit{job}, \textit{program}, dan beberapa kata lainnya. Peningkatan kualitas \textit{alignment} ini dilakukan dengan dua buah pendekatan, yaitu dengan bantuan \textit{online dictionary} bahasa Indonesia-Inggris dan \textit{bi-directional alignment}. Pendekatan dengan bantuan kamus diterapkan dengan mencari kata terjemahan pada bahasa Inggris untuk menentukan apakah \textit{alignment} benar atau salah. Pada pendekatan kedua, dilakukan \textit{inverse} \textit{alignment} antara bahasa Indonesia ke Inggris. Jika pada proses awal \textit{alignment} dilakukan dengan menerapkan bahasa Indonesia sebagai \textit{source} dan Inggris sebagai \textit{target}, kali ini dilakukan proses yang berkebalikan. Pemanfaatkan hasil \textit{alignment} korpus bahasa Inggris ke Indonesia akan menghasilkan pasangan-pasangan kata dengan tingkat kesalahan \textit{alignment} lebih kecil dari \textit{alignment} satu arah saja. Metode yang akan dilakukan adalah dengan memeriksa setiap pasangan kata dari bahasa Indonesia yang mana merupakan kata dalam bahasa Inggris, apakah kata tersebut memiliki pasangan dalam \textit{inverse alignment} Giza.
 
-Pada kasus kata \textbf{lingkungan} dari hasil keluaran Giza memiliki pasangan kata:
-
-\begin{enumerate}
-	\item environment
-	\item environmental
-	\item neighborhood
-	\item within
-	\item environmentally
-\end{enumerate}
-
-Untuk setiap pasangan kata dalam bahasa Inggris tersebut, akan dilakukan pengecekan apa saja pasangan kata bahasa Indonesianya. Bila terdapat kata \textbf{lingkungan} dalam pasangan kata bahasa Indonesianya maka kata tersebut dianggap pasangan yang benar.
-
-Kata \textbf{environment} memiliki pasangan dalam bahasa Indonesia:
-
-\begin{enumerate}
-	\item lingkungan
-	\item lingkup
-\end{enumerate}
-
-Keberadaan kata \textbf{lingkungan} dari pasangan kata \textit{environment} mengakibatkan kata \textit{environment} dianggap sebagai pasangan kata yang benar dari \textit{lingkungan}. Proses ini dilakukan untuk setiap kata dalam bahasa Inggris yang merupakan pasangan kata dalam bahasa Indonesia.
 %-----------------------------------------------------------------------------%
 \section{\textit{Sense Transfering}} \label{sec:Sense Transfering}
 %-----------------------------------------------------------------------------%
@@ -82,7 +62,9 @@ Pemindahan makna kata dilakukan dengan tiga buah \textit{sub-process} yang terdi
 \begin{enumerate}
 	\item Pemasangan antar kalimat yang bersesuaian dengan kata-kata yang berpasangan. Pada contoh kata "halaman" yang berpasangan dengan "courtyard", maka pasangan kalimat "Aku bermain di halaman" akan dipasangkan dengan kalimat "I play at the courtyard".
 	\item Pemeriksaan untuk kata yang saling berpasangan dari hasil \textit{alignment} dan kamus hasil \textit{alignment enhancement}.
-	\item \textit{Sense} dari kata yang menjadi \textit{target} tersebut kemudian dipindahkan ke kata yang bersesuaian pada bahasa Indonesianya di kalimat tersebut. Bila "courtyard" memiliki \textit{sense} yang artinya adalah "halaman rumah", maka "halaman" pada kalimat "Aku bermain di halaman" memiliki \textit{sense} "halaman rumah".
+	\item \textit{Sense} dari kata yang menjadi \textit{target} tersebut kemudian diperiksa dengan \textit{sense} kata yang sama yang sudah pernah dipindahkan dari pasangan kalimat lain. 
+	\item Jika \textit{sense} yang ingin dipindahkan "mirip" dan memiliki kedekatan makna dibatas \textit{threshold}, maka \textit{sense} yang akan dipindahkan hanya salah satu saja. Proses ini diperlukan untuk meminimalisir adanya satu kata bahasa Indonesia yang mempunyai lebih dari satu \textit{sense} yang mirip dari definisi makna tersebut.
+	\item Bila "courtyard" memiliki \textit{sense} yang artinya adalah "halaman rumah", maka "halaman" pada kalimat "Aku bermain di halaman" memiliki \textit{sense} "halaman rumah".
 \end{enumerate}
 
 \section{Sistem WSD} \label{sec:Sistem WSD}
