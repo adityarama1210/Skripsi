@@ -7,7 +7,15 @@
 \section{Kesimpulan}
 %-----------------------------------------------------------------------------%
 
-Data dan \textit{resource} berupa \textit{sense tagged corpus} yang terbatas pada bahasa Indonesia merupakan penghambat dari penelitian WSD di bahasa Indonesia. Untuk mengatasi masalah tersebut, salah satu pendekatan WSI berupa \textit{cross language} dapat dimanfaatkan untuk \textit{transfering knowledge} dari salah satu bahasa dengan data yang mumpuni yaitu bahasa Inggris. Konsep pendekatan ini dapat menghasilkan \textit{sense tagged corpus} bahasa Indonesia dengan memindahkan makna kata dari korpus bahasa Inggris ke kata-kata yang menjadi pasangannya (\textit{translation} dari kata tersebut) di dalam bahasa indonesia.
+Data dan \textit{resource} berupa \textit{sense tagged corpus} yang terbatas pada bahasa Indonesia merupakan penghambat dari penelitian WSD di bahasa Indonesia. Untuk mengatasi masalah tersebut, salah satu pendekatan WSI berupa \textit{cross language} dapat dimanfaatkan untuk \textit{transfering knowledge} dari salah satu bahasa dengan data yang mumpuni yaitu bahasa Inggris. Konsep pendekatan ini dapat menghasilkan \textit{sense tagged corpus} bahasa Indonesia dengan memindahkan makna kata dari korpus bahasa Inggris ke kata-kata yang menjadi pasangannya (\textit{translation} dari kata tersebut) di dalam bahasa indonesia. Pendekatan yang dilakukan dengan proses-proses dari pembuatan \textit{sense tagged corpus} bahasa Inggris sampai dengan percobaan sistem WSD ini dapat menghasilkan sebuah \textit{sense tagged corpus} makna kata dalam bahasa Indonesia yang mempunyai hasil dengan kualitas cukup baik walaupun masih dapat ditingkatkan lagi. Sistem WSD yang dibangun sendiri telah dibuktikan dapat mengungguli sistem baseline untuk melakukan penentuan makna kata.
 %-----------------------------------------------------------------------------%
 \section{Saran}
 %-----------------------------------------------------------------------------%
+Setelah melakukan percobaan dan melakukan analisis hasil dari penelitian ini, terdapat beberapa saran untuk penelitian selanjutnya diantaranya sebagai berikut.
+
+\begin{enumerate}
+	\item Penggunaan kualitas dari korpus paralel dapat mempengaruhi seberapa baik hasil \textit{sense transfering} yang dilakukan. Pada korpus identik yang penelitian ini gunakan, terdapat beberapa kalimat yang terpotong maupun \textit{comparable} (tidak sepenuhnya paralel), sehingga rawan menimbulkan kesalahan \textit{alignment}
+	\item Fitur yang digunakan dalam sistem WSD bahasa Indonesia masih dapat ditambahkan dengan berbagai fitur lainnya yang dapat menunjang akurasi sistem.
+	\item \textit{Classifier} pada sistem WSD juga dapat diubah-ubah untuk mencari hasil optimal pada penelitian selanjutnya.
+	\item Proses \textit{word alignment} sebaiknya dilakukan dengan \textit{tool} SMT yang lebih baru, salah satunya adalah \textit{berkeley aligner}.
+\end{enumerate}
