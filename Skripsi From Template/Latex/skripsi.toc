@@ -54,7 +54,7 @@
 \contentsline {section}{\numberline {5.2}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{27}{section.5.2}
 \contentsline {section}{\numberline {5.3}Evaluasi \textit {Word Alignment}}{28}{section.5.3}
 \contentsline {section}{\numberline {5.4}\textit {Sense Transfering}}{29}{section.5.4}
-\contentsline {section}{\numberline {5.5}Sistem WSD}{30}{section.5.5}
+\contentsline {section}{\numberline {5.5}Sistem WSD}{31}{section.5.5}
 \contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{33}{chapter.6}
 \contentsline {section}{\numberline {6.1}Kesimpulan}{33}{section.6.1}
 \contentsline {section}{\numberline {6.2}Saran}{33}{section.6.2}

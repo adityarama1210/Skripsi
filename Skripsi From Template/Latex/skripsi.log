@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  18 MAY 2017 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  21 MAY 2017 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1508,6 +1508,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29]
+Underfull \hbox (badness 1275) in paragraph at lines 116--118
+[]\T1/ptm/m/n/12 Pada sebaran jumlah \T1/ptm/m/it/12 instance \T1/ptm/m/n/12 di
+ dalam kelas-kelasnya, kata "kehadiran"
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1515,7 +1520,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30])
-Underfull \hbox (badness 1052) in paragraph at lines 156--122
+Underfull \hbox (badness 1052) in paragraph at lines 158--122
 \T1/ptm/m/n/12 terendah dengan semua penilaian akurasi dibawah 50%. Makna kata 
 yang
  []
@@ -1744,7 +1749,7 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (47 pages, 394624 bytes).
+Output written on skripsi.pdf (47 pages, 395658 bytes).
 PDF statistics:
  846 PDF objects out of 1000 (max. 8388607)
  762 compressed objects within 8 object streams
