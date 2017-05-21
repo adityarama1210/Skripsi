@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  21 MAY 2017 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  22 MAY 2017 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -872,17 +872,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
-
-Underfull \hbox (badness 1383) in paragraph at lines 27--29
-\T1/ptm/m/it/12 Textual Entailment\T1/ptm/m/n/12 , Co-training, Wikipedia \T1/p
-tm/m/it/12 revision history\T1/ptm/m/n/12 , korpus, Bahasa
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-
- []
-
 [6
 
 
@@ -892,16 +881,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  (./abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
@@ -1793,7 +1772,7 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (50 pages, 410468 bytes).
+Output written on skripsi.pdf (50 pages, 411170 bytes).
 PDF statistics:
  943 PDF objects out of 1000 (max. 8388607)
  855 compressed objects within 9 object streams
