@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  22 MAY 2017 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  22 MAY 2017 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1175,18 +1175,18 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
-Underfull \hbox (badness 5133) in paragraph at lines 63--64
+Underfull \hbox (badness 5133) in paragraph at lines 65--66
 []\T1/ptm/m/n/12 Pemasangan antar kalimat yang bersesuaian dengan kata-kata yan
 g
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 63--64
+Underfull \hbox (badness 1527) in paragraph at lines 65--66
 \T1/ptm/m/n/12 berpasangan. Pada contoh kata "halaman" yang berpasangan dengan
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 63--64
+Underfull \hbox (badness 1565) in paragraph at lines 65--66
 \T1/ptm/m/n/12 "courtyard", maka pasangan kalimat "Aku bermain di halaman" akan
 
  []
@@ -1343,14 +1343,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27] <adit_pics/we-vector.jpeg, id=789, 382.42876pt x 141.52875pt>
+[27] <adit_pics/we-vector.jpeg, id=791, 382.42876pt x 141.52875pt>
 File: adit_pics/we-vector.jpeg Graphic file (type jpg)
 
 <use adit_pics/we-vector.jpeg>
-Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 316.
+Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 318.
 (pdftex.def)             Requested size: 398.3386pt x 147.42397pt.
 
-Underfull \hbox (badness 1348) in paragraph at lines 323--324
+Underfull \hbox (badness 1348) in paragraph at lines 325--326
 \T1/ptm/m/n/12 kata tersebut memiliki kata \T1/ptm/m/it/12 translation \T1/ptm/
 m/n/12 lebih dari satu dengan makna yang
  []
@@ -1616,6 +1616,12 @@ alahan makna kata yang
  []
 
 
+Underfull \hbox (badness 1168) in paragraph at lines 152--153
+\T1/ptm/m/n/12 dan feed%1:13:00:: ("\T1/ptm/m/it/12 food for domestic livestock
+\T1/ptm/m/n/12 ") yang semestinya adalah
+ []
+
+
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -1855,8 +1861,8 @@ Package rerunfilecheck Info: File `skripsi.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15953 strings out of 493014
- 218639 string characters out of 6133352
+ 15955 strings out of 493014
+ 218653 string characters out of 6133352
  460606 words of memory out of 5000000
  18565 multiletter control sequences out of 15000+600000
  46632 words of font info for 70 fonts, out of 8000000 for 9000
@@ -1871,10 +1877,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (52 pages, 449702 bytes).
+Output written on skripsi.pdf (52 pages, 450118 bytes).
 PDF statistics:
- 969 PDF objects out of 1000 (max. 8388607)
- 878 compressed objects within 9 object streams
- 343 named destinations out of 1000 (max. 500000)
+ 971 PDF objects out of 1000 (max. 8388607)
+ 880 compressed objects within 9 object streams
+ 345 named destinations out of 1000 (max. 500000)
  579 words of extra memory for PDF output out of 10000 (max. 10000000)
 
