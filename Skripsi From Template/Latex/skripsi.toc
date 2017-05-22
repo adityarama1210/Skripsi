@@ -60,8 +60,8 @@
 \contentsline {section}{\numberline {5.2}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{30}{section.5.2}
 \contentsline {section}{\numberline {5.3}Evaluasi \textit {Word Alignment}}{31}{section.5.3}
 \contentsline {section}{\numberline {5.4}\textit {Sense Transfering}}{32}{section.5.4}
-\contentsline {section}{\numberline {5.5}Sistem WSD}{34}{section.5.5}
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{36}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{36}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{36}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{38}{chapter*.31}
+\contentsline {section}{\numberline {5.5}Sistem WSD}{35}{section.5.5}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{37}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{37}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{37}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{39}{chapter*.32}
