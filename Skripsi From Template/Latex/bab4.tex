@@ -168,6 +168,8 @@ Berdasarkan cara perhitungan evaluasi tersebut, terdapat dua buah \textit{precis
 
 Hasil dari \textit{alignment} kata yang dilakukan Giza masih menghasilkan pasangan-pasangan kata yang tidak tepat. Untuk mengurangi jumlah pasangan kata yang salah tersebut, dilakukan \textit{enhancement} terhadap hasil pasangan kata dari Giza. Terdapat dua macam peningkatan kualitas \textit{alignment} yang digunakan pada penelitian ini, yaitu \textit{crawling based} dan \textit{bi-directional based}.
 
+\subsection{Pendekatan \textit{Crawling}}
+
 Konsep \textit{crawling} pada penelitian ini mengacu pada kebutuhan untuk \textit{filtering} hasil pasangan kata yang salah berdasarkan kamus Indonesia-Inggris. Karena keterbatasan \textit{resource digital} kamus tersebut, maka dibutuhkan pendekatan \textit{crawling} dari \textit{online dictionary} untuk mendapatkan pasangan kata yang benar. Salah satu \textit{online dictionary} yang dapat diakses dan memiliki hasil terjemahan yang cukup baik adalah \textit{website} sederet.com. \textit{Crawling} dilakukan dengan memeriksa setiap pasangan bahasa Inggris dari kata Indonesia hasil Giza, apakah pasangan kata tersebut berada pada hasil penerjemahan yang sesuai. Ilustrasi dari proses ini dapat dimodelkan dalam contoh berikut:
 
 \begin{enumerate}
@@ -177,12 +179,23 @@ Konsep \textit{crawling} pada penelitian ini mengacu pada kebutuhan untuk \texti
 	\item Berdasarkan kedua hasil tersebut, maka pasangan kata "halaman" yang dianggap benar adalah irisan dari kedua \textit{set} tersebut yaitu "\textit{page}" dan "\textit{courtyard}"
 \end{enumerate}
 
-Metode lain yang digunakan untuk meningkatkan kualitas \textit{aligment} yaitu dengan memanfaatkan \textit{bi-directional alignment}. Proses yang dilakukan adalah melakukan validasi terhadap kata-kata yang berpasangan  dari kedua korpus. Pertama, setiap kata dalam bahasa Indonesia dikumpulkan terlebih dahulu dengan setiap pasangan kata bahasa Inggrisnya (satu kata bisa memiliki lebih dari satu pasangan). Proses selanjutnya adalah melakukan pengumpulan yang serupa terhadap kata dalam bahasa Inggris dengan pasangan kata dalam bahasa Indonesianya. Proses validasi dilakukan dengan cara:
+\subsection{Pendekatan \textit{Bi-directional}}
+
+Metode lain yang digunakan untuk meningkatkan kualitas \textit{aligment} yaitu dengan memanfaatkan \textit{bi-directional alignment}. Proses yang dilakukan adalah melakukan validasi terhadap kata-kata yang berpasangan  dari kedua korpus. Bagan dari \textit{enhancement} pada \textit{bi-directional} ini dapat dilihat pada gambar \ref{fig:Bidirectional-Enhancement}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/bidirectional-enhancement}
+	\caption{Bi-directional \textit{Enhancement}}
+	\label{fig:Bidirectional-Enhancement}
+\end{figure}
+
+Pertama, setiap kata dalam bahasa Indonesia dikumpulkan terlebih dahulu dengan setiap pasangan kata bahasa Inggrisnya (satu kata bisa memiliki lebih dari satu pasangan). Proses selanjutnya adalah melakukan pengumpulan yang serupa terhadap kata dalam bahasa Inggris dengan pasangan kata dalam bahasa Indonesianya. Berbagai kata dalam bahasa Indonesia beserta pasangannya disimpan sebagai "kamus-1". Kata dalam bahasa Inggris, beserta pasangan kata Indonesianya disimpan sebagai "kamus-2". Proses validasi dilakukan dengan cara:
 
 \begin{enumerate}
-	\item Untuk setiap kata di bahasa Indonesia semisal kata "kali"
-	\item Lakukan pengecekan terhadap setiap pasangan kata di bahasa Inggris dari "kali" misalkan "time", "river", "fire"
-	\item Jika pada kamus \textit{enhancement} "time" dipasangkan dengan "kali", dan "waktu" maka kata "time" merupakan pasangan yang dianggap benar. Pada kasus kata "fire", bila pasangan bahasa Indonesianya adalah "api" dan "tungku", maka kata "fire" dianggap bukan pasangan yang tepat dengan "kali" karena tidak terdapat pasangan "fire -> kali".
+	\item Untuk setiap kata di bahasa Indonesia dalam "kamus-1" semisal kata "kali".
+	\item Lakukan pengecekan terhadap setiap pasangan kata di bahasa Inggris pada "kamus-1" dari kata "kali", misalkan pasangan kata bahasa inggrisnya adalah "time", "river", dan "fire".
+	\item Jika pada "kamus-2" kata "time" dipasangkan dengan "kali", dan "waktu" maka kata "time" merupakan pasangan yang dianggap benar (karena kata "time" berpasangan dengan "kali"). Pada kasus kata "fire", bila pasangan bahasa Indonesianya adalah "api" dan "tungku", maka kata "fire" dianggap bukan pasangan yang tepat dengan "kali" karena tidak terdapat pasangan "fire -> kali".
 \end{enumerate} 
 
 \begin{lstlisting}[language=Python, caption={Word Alignment Enhancement}, label={word-alignment-enhancement}]
