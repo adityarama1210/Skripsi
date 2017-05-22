@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  22 MAY 2017 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  22 MAY 2017 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,12 +816,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--29
  []
 
 
-Overfull \hbox (10.04211pt too wide) in paragraph at lines 36--44
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--44
+Underfull \hbox (badness 10000) in paragraph at lines 36--46
 
  []
 
@@ -1884,7 +1879,7 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (53 pages, 450436 bytes).
+Output written on skripsi.pdf (53 pages, 450425 bytes).
 PDF statistics:
  975 PDF objects out of 1000 (max. 8388607)
  883 compressed objects within 9 object streams
