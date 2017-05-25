@@ -76,6 +76,9 @@ Proses disambiguasi yang dicoba menggunakan beberapa cara diantaranya KNN yang m
 	\caption{Akurasi Klasifikasi dari penelitian \citep{rudnick2011towards} dengan cross validation}
 	\label{fig:akurasi-klasifikasi}
 \end{figure}
+
+Simplified Lesk dalam percobaan tersebut menghadapi kasus dimana tidak terdapat kata yang ditemukan dari konteks word pada entri kamus. Fitur yang menghasilkan akurasi terbaik dari percobaan tersebut merupakan KNN dengan fitur konteks kata dengan fitur \textit{parser}.
+
 %-----------------------------------------------------------------------------%
 \section{Word Sense Induction}
 %-----------------------------------------------------------------------------%	
@@ -113,7 +116,7 @@ Proses disambiguasi yang dicoba menggunakan beberapa cara diantaranya KNN yang m
 	
 	
 	
-	Berdasarkan kedua pasangan kalimat tersebut, kata \textbf{halaman} dalam bahasa Indonesia dapat diterjemahkan menjadi dua buah kata dalam bahasa Inggris, yaitu \textit{page} ataupun \textit{yard}. Hal ini menunjukan bahwa terjemahan dari suatu kata bergantung pada makna yang dikandung kata tersebut.
+	Berdasarkan kedua pasangan kalimat tersebut, kata \textbf{halaman} dalam bahasa Indonesia dapat diterjemahkan menjadi dua buah kata dalam bahasa Inggris, yaitu \textit{page} ataupun \textit{yard}. Hal ini menunjukan bahwa terjemahan dari suatu kata bergantung pada konteks dimana kata tersebut muncul.
 
 
 \section{Korpus Paralel dan \textit{Comparable}}
@@ -144,15 +147,15 @@ K2(id) : Korban tersebut harus di bawa ke rumah sakit
 
 Berangkat dari bahasa asal yaitu Indonesia, kata "rumah sakit" dipasangkan kepada kata "hospital". Hal ini dapat berlaku berkebalikan jika bahasa asal yang digunakan adalah bahasa Inggris seperti kata "untuknya" berpasangan dengan kata "for him".
 
-\subsection{Tokenisasi}
+\subsection{Tokenisasi dan Representasi Kalimat}
 
-Pada proses evaluasi ini, pemisah kata yang umum digunakan untuk tokenisasi adalah karakter spasi. setiap token dari hasil tokenisasi tersebut kemudian dianggap sebagai satu unit kata. Kata ini akan diindeks dengan angka untuk mempermudah proses \textit{alignment} dan komputasi evaluasi. Contoh tokenisasi dan pemberian indeks pada kalimat "Aku ingin membeli mainan" adalah:
+Pada penelitian \citep{mihalcea2003evaluation}, pemisah kata yang umum digunakan untuk tokenisasi adalah karakter spasi. setiap token dari hasil tokenisasi tersebut kemudian dianggap sebagai satu unit kata. Kata ini akan diindeks dengan angka untuk mempermudah proses \textit{alignment} dan komputasi evaluasi. Contoh tokenisasi dan pemberian indeks pada kalimat "Aku ingin membeli mainan" adalah:
 
 K3(id) : Aku ingin membeli mainan
 
 K3(indeks) : 1 2 3 4
 
-Beberapa \textit{tool} merepresentasikan kalimat dan kata sebagai indeks angka tersebut untuk mempermudah pemrosesan. Suatu \textit{file} dapat berisi indeks dari kalimat dan kata yang ada pada kalimat tersebut seperti:
+Angka yang menjadi indeks tersebut akan merepresentasikan kata yang bersesuaian, indeks 1 mewakili kata "Aku", indeks 2 mewakili "ingin", dan lain-lain. Beberapa \textit{tool} merepresentasikan kalimat dan kata sebagai indeks angka tersebut untuk mempermudah pemrosesan tahap-tahap selanjutnya. Suatu \textit{file} dapat berisi indeks dari kalimat dan kata yang ada pada kalimat tersebut seperti:
 \begin{lstlisting}
 1 4 5 7
 2 4 9 2
