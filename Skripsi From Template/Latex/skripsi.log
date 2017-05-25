@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  22 MAY 2017 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  25 MAY 2017 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,7 +729,7 @@ LaTeX Info: Redefining \nameref on input line 48.
 \openout2 = `sampul.aux'.
 
  (./sampul.tex
-<pics/makara.png, id=269, 154.86429pt x 154.34807pt>
+<pics/makara.png, id=273, 154.86429pt x 154.34807pt>
 File: pics/makara.png Graphic file (type png)
  <use pics/makara.png>
 Package pdftex.def Info: pics/makara.png used on input line 15.
@@ -1001,7 +1001,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-] <adit_pics/Arsitektur-IMS.png, id=488, 839.135pt x 282.05376pt>
+] <adit_pics/Arsitektur-IMS.png, id=493, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1020,35 +1020,18 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./adit_pics/Arsitektur-IMS.png>]
-<adit_pics/Performa-IMS.png, id=504, 627.34375pt x 156.585pt>
+<adit_pics/Performa-IMS.png, id=509, 627.34375pt x 156.585pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
 Package pdftex.def Info: adit_pics/Performa-IMS.png used on input line 57.
 (pdftex.def)             Requested size: 398.3386pt x 99.42796pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 62.
 
-Underfull \hbox (badness 1681) in paragraph at lines 66--67
+Underfull \hbox (badness 1681) in paragraph at lines 70--71
 \T1/ptm/m/n/12 tidak mempunyai cukup \T1/ptm/m/it/12 resource \T1/ptm/m/n/12 se
 perti misalnya Wordnet yang memadai.
- []
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 68.
-
-Underfull \hbox (badness 1430) in paragraph at lines 80--81
-[]\T1/ptm/m/n/12 Walaupun belum terdapat informasi eksplisit makna dari tezgüno
-, dapat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/n/12 disimpulkan bahwa tezgüno mengacu pada minuman beralkohol yang
- []
-
-
-Underfull \hbox (badness 1931) in paragraph at lines 80--81
-\T1/ptm/m/n/12 memabukkan. Penarikan kesimpulan ini didapatkan dari kemunculan 
-kata
  []
 
 
@@ -1058,9 +1041,24 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7 <./adit_pics/Performa-IMS.png>]
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 102.
+Underfull \hbox (badness 1430) in paragraph at lines 84--85
+[]\T1/ptm/m/n/12 Walaupun belum terdapat informasi eksplisit makna dari tezgüno
+, dapat
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\T1/ptm/m/n/12 disimpulkan bahwa tezgüno mengacu pada minuman beralkohol yang
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 84--85
+\T1/ptm/m/n/12 memabukkan. Penarikan kesimpulan ini didapatkan dari kemunculan 
+kata
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1068,11 +1066,6 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-Underfull \hbox (badness 1331) in paragraph at lines 138--139
-[]\T1/ptm/m/n/12 Beberapa \T1/ptm/m/it/12 tool \T1/ptm/m/n/12 merepre-sen-tasik
-an kalimat dan kata sebagai indeks angka
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1080,14 +1073,19 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]
+Underfull \hbox (badness 1331) in paragraph at lines 142--143
+[]\T1/ptm/m/n/12 Beberapa \T1/ptm/m/it/12 tool \T1/ptm/m/n/12 merepre-sen-tasik
+an kalimat dan kata sebagai indeks angka
+ []
+
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 139.
- <adit_pics/Pengukuran-Word-Alignment.png, id=540, 371.3875pt x 190.7125pt>
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 143.
+<adit_pics/Pengukuran-Word-Alignment.png, id=545, 371.3875pt x 190.7125pt>
 File: adit_pics/Pengukuran-Word-Alignment.png Graphic file (type png)
 
 <use adit_pics/Pengukuran-Word-Alignment.png>
 Package pdftex.def Info: adit_pics/Pengukuran-Word-Alignment.png used on input 
-line 153.
+line 157.
 (pdftex.def)             Requested size: 398.3386pt x 204.55795pt.
 
 
@@ -1097,11 +1095,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./adit_pics/Pengukuran-Word-Alignment.png>]
-<adit_pics/svm-hyperplane.png, id=554, 502.87875pt x 298.11375pt>
+<adit_pics/svm-hyperplane.png, id=559, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
-Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 166.
+Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 170.
 (pdftex.def)             Requested size: 398.3386pt x 236.13957pt.
 
 
@@ -1111,11 +1109,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./adit_pics/svm-hyperplane.png>]
-<adit_pics/word2vec_diagrams.png, id=566, 836.12375pt x 486.81876pt>
+<adit_pics/word2vec_diagrams.png, id=571, 836.12375pt x 486.81876pt>
 File: adit_pics/word2vec_diagrams.png Graphic file (type png)
 
 <use adit_pics/word2vec_diagrams.png>
-Package pdftex.def Info: adit_pics/word2vec_diagrams.png used on input line 182
+Package pdftex.def Info: adit_pics/word2vec_diagrams.png used on input line 186
 .
 (pdftex.def)             Requested size: 398.3386pt x 231.93213pt.
 )
@@ -1141,7 +1139,7 @@ Bab 3.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/WSD-full.jpeg, id=578, 537.00626pt x 307.1475pt>
+<adit_pics/WSD-full.jpeg, id=583, 537.00626pt x 307.1475pt>
 File: adit_pics/WSD-full.jpeg Graphic file (type jpg)
 
 <use adit_pics/WSD-full.jpeg>
@@ -1209,7 +1207,7 @@ Bab 4.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/pre-process-giza.jpg, id=608, 515.9275pt x 106.3975pt>
+<adit_pics/pre-process-giza.jpg, id=613, 515.9275pt x 106.3975pt>
 File: adit_pics/pre-process-giza.jpg Graphic file (type jpg)
 
 <use adit_pics/pre-process-giza.jpg>
@@ -1303,7 +1301,7 @@ Underfull \hbox (badness 3690) in paragraph at lines 176--177
 tu
  []
 
-<adit_pics/bidirectional-enhancement.jpeg, id=709, 743.77875pt x 166.6225pt>
+<adit_pics/bidirectional-enhancement.jpeg, id=714, 743.77875pt x 166.6225pt>
 File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
 
 <use adit_pics/bidirectional-enhancement.jpeg>
@@ -1345,7 +1343,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28] <adit_pics/we-vector.jpeg, id=795, 382.42876pt x 141.52875pt>
+[28] <adit_pics/we-vector.jpeg, id=800, 382.42876pt x 141.52875pt>
 File: adit_pics/we-vector.jpeg Graphic file (type jpg)
 
 <use adit_pics/we-vector.jpeg>
@@ -1859,14 +1857,14 @@ adit_pics/we-vector.jpeg
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: 505DB3E1B52C3ADA1DE64BB23D703DA0;4553.
+(rerunfilecheck)             Checksum: EE6F566E14AE781433F326D929DBF5C6;4631.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 15956 strings out of 493014
- 218660 string characters out of 6133352
+ 15958 strings out of 493014
+ 218694 string characters out of 6133352
  460606 words of memory out of 5000000
- 18565 multiletter control sequences out of 15000+600000
+ 18566 multiletter control sequences out of 15000+600000
  46632 words of font info for 70 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
  44i,12n,51p,1555b,1936s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1879,10 +1877,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (53 pages, 450425 bytes).
+Output written on skripsi.pdf (53 pages, 450908 bytes).
 PDF statistics:
- 975 PDF objects out of 1000 (max. 8388607)
- 883 compressed objects within 9 object streams
- 346 named destinations out of 1000 (max. 500000)
- 579 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 980 PDF objects out of 1000 (max. 8388607)
+ 888 compressed objects within 9 object streams
+ 347 named destinations out of 1000 (max. 500000)
+ 587 words of extra memory for PDF output out of 10000 (max. 10000000)
 
