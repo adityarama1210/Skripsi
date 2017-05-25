@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  25 MAY 2017 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  25 MAY 2017 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1245,6 +1245,12 @@ kata-kata dalam bahasa Inggris yang sudah
 
 
  <./adit_pics/pre-process-giza.jpg>]
+Underfull \hbox (badness 1552) in paragraph at lines 28--29
+\T1/ptm/m/n/12 mempermudah pemakaian \T1/ptm/m/it/12 sense tagged corpus \T1/pt
+m/m/n/12 ini pada proses selanjutnya,
+ []
+
+
 Underfull \hbox (badness 1297) in paragraph at lines 36--37
 []\T1/ptm/m/n/12 Contoh dari kalimat yang sudah diberikan \T1/ptm/m/it/12 tag \
 T1/ptm/m/n/12 sampai keluar dari \T1/ptm/m/it/12 post-
@@ -1889,7 +1895,7 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (54 pages, 495540 bytes).
+Output written on skripsi.pdf (54 pages, 495633 bytes).
 PDF statistics:
  1000 PDF objects out of 1000 (max. 8388607)
  902 compressed objects within 10 object streams
