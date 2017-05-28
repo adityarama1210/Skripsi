@@ -120,7 +120,7 @@ Simplified Lesk dalam percobaan tersebut menghadapi kasus dimana tidak terdapat 
 
 
 \section{Korpus Paralel dan \textit{Comparable}}
-Terdapat dua macam korpus bilingual yang dapat dimanfaatkan untuk pemanfaatan \textit{cross language } WSD yaitu korpus paralel dan \textit{comparable}. Perbedaan utama terhadap kedua buah korpus berada pada seberapa identik kedua buat kontek yang dimilikinya. Korpus paralel memiliki kalimat dan kata-kata yang serupa antara dua buah pasangan \textit{instance} di masing-masing korpus. Hal ini dapat dicontohkan misalnya dengan kalimat satu pada korpus bahasa Indonesia "Aku makan" dengan "I eat" pada korpus bahasa Inggris. Berbeda dengan korpus paralel, \textit{comparable} berarti kedua kalimat atau \textit{instance} yang berpasangan hanya sebatas mirip/sama dalam suatu kategori kriteria tertentu. Dengan adanya korpus paralel dan \textit{comparable} tersebut, dibutuhkan juga alat untuk menyelaraskan (\textit{aligning}) konten pada kedua korpus tersebut. \textit{Alignment} yang dapat dilakukan memiliki beberapa tingkatan mulai dari \textit{scope} yang besar sampai kecil. \textit{Scope} besar tersebut meliputi \textit{alignment} dokumen yang mana fungsinya adalah menyelaraskan antar dokumen yang konten atau kriterianya sama. Tingkatan yang lebih kecil berikutnya yaitu kalimat dimana \textit{alignment} dilakukan pada \textit{level} kalimat (pasangan kalimat yang makna atau kriterianya sama). \textit{Alignment} dengan tingkatan yang lebih spesifik lagi adalah kata (\textit{word alignment}), dimana hasil yang didapat dari proses ini adalah pasangan kata pada kedua korpus dwibahasa yang selaras.
+Terdapat dua macam korpus bilingual yang dapat dimanfaatkan untuk pemanfaatan \textit{cross language } WSD yaitu korpus paralel dan \textit{comparable}. Perbedaan utama terhadap kedua buah korpus berada pada seberapa identik kedua buat kontek yang dimilikinya. Korpus paralel memiliki kalimat dan kata-kata yang serupa antara dua buah pasangan \textit{instance} di masing-masing korpus. Hal ini dapat dicontohkan misalnya dengan kalimat satu pada korpus bahasa Indonesia "Aku makan" dengan "I eat" pada korpus bahasa Inggris. Berbeda dengan korpus paralel, \textit{comparable} berarti kedua kalimat atau \textit{instance} yang berpasangan hanya sebatas mirip/sama dalam suatu kategori kriteria tertentu. Dengan adanya korpus paralel dan \textit{comparable} tersebut, dibutuhkan juga alat untuk menyelaraskan (\textit{aligning}) konten pada kedua korpus tersebut. \textit{Alignment} yang dapat dilakukan memiliki beberapa tingkatan mulai dari \textit{scope} yang besar sampai kecil. \textit{Scope} besar tersebut meliputi \textit{alignment} dokumen yang mana fungsinya adalah menyelaraskan antar dokumen yang konten atau kriterianya sama. Tingkatan yang lebih kecil berikutnya yaitu kalimat dimana \textit{alignment} dilakukan pada \textit{level} kalimat (pasangan kalimat yang makna atau kriterianya sama). \textit{Alignment} dengan tingkatan yang lebih spesifik lagi adalah kata (\textit{word alignment}), dimana hasil yang didapat dari proses ini adalah pasangan kata pada kedua korpus dwibahasa yang selaras. Korpus utama yang digunakan sebagai sumber data penelitian ini adalah korpus identik. Korpus identik berisi pasangan kalimat-kalimat dalam bahasa Indonesia dan Inggris. Kalimat yang berpasangan di dalamnya sebagian besar mempunyai makna konten yang paralel walaupun terdapat juga yang \textit{comparable}. Korpus identik ini mempunyai total sebanyak 88.918 buah pasangan kalimat di dalamnya.
 %-----------------------------------------------------------------------------%
 \section{\textit{Word Alignment}}
 
@@ -134,7 +134,7 @@ K1(en) : \textit{He would do it regardless what people say}
 K1(id) : Dia akan melakukannya segalanya
 
 
-Bila melihat bahasa Indonesia sebagai sumber bahasa, maka kata "segalanya" pada kalimat tersebut tidak memiliki pasangan. Pada kasus seperti contoh diatas, kata yang tidak memiliki pasangan akan dipasangkan dengan \textit{token} NULL.
+Bila melihat bahasa Indonesia sebagai sumber bahasa, maka kata "segalanya" pada kalimat tersebut tidak memiliki pasangan. Pada kasus seperti contoh diatas, kata yang tidak memiliki pasangan akan dipasangkan dengan \textit{token} khusus yaitu NULL.
 
 
 Selain kata yang tidak memiliki pasangan, terdapat juga kasus dimana pasangan adalah berupa frasa. Hal ini dapat dilihat pada contoh berikut:
@@ -146,6 +146,8 @@ K2(id) : Korban tersebut harus di bawa ke rumah sakit
 
 
 Berangkat dari bahasa asal yaitu Indonesia, kata "rumah sakit" dipasangkan kepada kata "hospital". Hal ini dapat berlaku berkebalikan jika bahasa asal yang digunakan adalah bahasa Inggris seperti kata "untuknya" berpasangan dengan kata "for him".
+
+\textit{Tool} yang digunakan untuk keperluan \textit{word alignment} pada penelitian ini adalah Giza++. \textit{Tool} tersebut merupakan salah satu \textit{word alignment tools} pada \textit{statistical machine translation} (SMT) yang dapat digunakan untuk memasangkan kata-kata pada dua buah korpus dwibahasa atau lebih. Terdapat beberapa \textit{word alignment tools} lain seperti Berkeley \textit{aligner}, anymalign, dan lain-lain.
 
 \subsection{Representasi Kalimat}
 
@@ -184,7 +186,7 @@ SVM merupakan salah satu \textit{classifier} yang dapat digunakan untuk permasal
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{adit_pics/svm-hyperplane}
-	\caption{Hyperplane SVM pada \citep{fradkin2006support}}
+	\caption{Hyperplane pada SVM \citep{fradkin2006support}}
 	\label{fig:svm}
 \end{figure}
 

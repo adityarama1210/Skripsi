@@ -31,13 +31,12 @@
 \contentsline {section}{\numberline {2.5}Support Vector Machine}{11}{section.2.5}
 \contentsline {section}{\numberline {2.6}Word Embedding Language Model}{12}{section.2.6}
 \contentsline {chapter}{\numberline {3}\uppercase {Rancangan Penelitian}}{14}{chapter.3}
-\contentsline {section}{\numberline {3.1}Korpus Identik}{14}{section.3.1}
-\contentsline {section}{\numberline {3.2}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{15}{section.3.2}
-\contentsline {section}{\numberline {3.3}\textit {Word alignment} pada Korpus Paralel}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}Evaluasi \textit {Word Alignment}}{16}{section.3.4}
-\contentsline {section}{\numberline {3.5}Peningkatan Kualitas Hasil \textit {Alignment}}{16}{section.3.5}
-\contentsline {section}{\numberline {3.6}\textit {Sense Transfering}}{17}{section.3.6}
-\contentsline {section}{\numberline {3.7}Sistem WSD}{17}{section.3.7}
+\contentsline {section}{\numberline {3.1}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}\textit {Word alignment} pada Korpus Paralel}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}Evaluasi \textit {Word Alignment}}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}Peningkatan Kualitas Hasil \textit {Alignment}}{16}{section.3.4}
+\contentsline {section}{\numberline {3.5}\textit {Sense Transfering}}{16}{section.3.5}
+\contentsline {section}{\numberline {3.6}Sistem WSD}{17}{section.3.6}
 \contentsline {chapter}{\numberline {4}\uppercase {Implementasi}}{18}{chapter.4}
 \contentsline {section}{\numberline {4.1}Pre-Processing}{18}{section.4.1}
 \contentsline {section}{\numberline {4.2}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{18}{section.4.2}
@@ -49,7 +48,7 @@
 \contentsline {subsection}{\numberline {4.4.2}Proses Anotasi Data}{22}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Evaluasi}{22}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}Peningkatan Kualitas \textit {Alignment}}{23}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Pendekatan \textit {Crawling}}{23}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Pendekatan \textit {Crawling}}{24}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Pendekatan \textit {Bi-directional}}{24}{subsection.4.5.2}
 \contentsline {section}{\numberline {4.6}\textit {Sense Transfering}}{26}{section.4.6}
 \contentsline {section}{\numberline {4.7}Sistem WSD}{27}{section.4.7}
@@ -57,12 +56,11 @@
 \contentsline {subsection}{\numberline {4.7.2}Ekstraksi Fitur}{27}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Evaluasi Sistem}{30}{subsection.4.7.3}
 \contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Korpus Identik}{31}{section.5.1}
-\contentsline {section}{\numberline {5.2}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{31}{section.5.2}
-\contentsline {section}{\numberline {5.3}Evaluasi \textit {Word Alignment}}{32}{section.5.3}
-\contentsline {section}{\numberline {5.4}\textit {Sense Transfering}}{33}{section.5.4}
-\contentsline {section}{\numberline {5.5}Sistem WSD}{36}{section.5.5}
+\contentsline {section}{\numberline {5.1}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Evaluasi \textit {Word Alignment}}{32}{section.5.2}
+\contentsline {section}{\numberline {5.3}\textit {Sense Transfering}}{32}{section.5.3}
+\contentsline {section}{\numberline {5.4}Sistem WSD}{36}{section.5.4}
 \contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{39}{chapter.6}
 \contentsline {section}{\numberline {6.1}Kesimpulan}{39}{section.6.1}
 \contentsline {section}{\numberline {6.2}Saran}{39}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{41}{chapter*.35}
+\contentsline {chapter}{Daftar Referensi}{41}{chapter*.34}

@@ -12,11 +12,6 @@ Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang terd
 \end{figure}
 %-----------------------------------------------------------------------------%
 
-
-\section{Korpus Identik}
-Korpus utama yang digunakan sebagai sumber data penelitian ini adalah korpus identik. Korpus identik berisi pasangan kalimat-kalimat dalam bahasa Indonesia dan Inggris. Kalimat yang berpasangan di dalamnya sebagian besar mempunyai makna konten yang paralel walaupun terdapat juga yang \textit{comparable}. Korpus identik ini mempunyai 88.918 buah pasangan kalimat di dalamnya.
-
-
 \section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
 %-----------------------------------------------------------------------------%
 
@@ -24,7 +19,7 @@ Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunak
 %-----------------------------------------------------------------------------%
 \section{\textit{Word alignment} pada Korpus Paralel}
 %-----------------------------------------------------------------------------%
-\textit{Word alignment} pada korpus berbahasa Inggris dan Indonesia menggunakan \textit{tools word alignment} bernama Giza++. \textit{Tool} ini merupakan salah satu \textit{word alignment tools} pada \textit{statistical machine translation} (SMT) yang dapat digunakan untuk memasangkan kata-kata pada dua buah korpus atau lebih. Terdapat beberapa \textit{word alignment tools} lain seperti Berkeley \textit{aligner}, anymalign, dan lain-lain. Penyelarasan kata ini digunakan untuk kebutuhan pemindahan \textit{sense} dari kata bahasa Inggris ke kata dalam bahasa Indonesia.
+Proses \textit{word alignment} ini dilakukan agar nantinya makna kata dari suatu kata dalam bahasa Inggris dapat ditransfer ke kata yang bersesuaian pada Bahasa Indonesia.
 
 Proses \textit{alignment} yang dilakukan dengan Giza++ meliputi tahap-tahap berikut:
 \begin{enumerate}
@@ -60,13 +55,11 @@ Pendekatan dengan bantuan kamus diterapkan dengan mencari kata terjemahan pada b
 %-----------------------------------------------------------------------------%
 \section{\textit{Sense Transfering}} \label{sec:Sense Transfering}
 %-----------------------------------------------------------------------------%
-Pemindahan makna kata dilakukan dengan tiga buah \textit{sub-process} yang terdiri dari pemasangan antar kalimat, pemeriksaan kata, dan \textit{sense transfering}.
+Pemindahan makna kata dilakukan dengan beberapa \textit{sub-process} yang terdiri dari pemasangan antar kalimat, pemeriksaan kata, dan \textit{sense transfering}.
 \begin{enumerate}
-	\item Pemasangan antar kalimat yang bersesuaian dengan kata-kata yang berpasangan. Pada contoh kata "halaman" yang berpasangan dengan "courtyard", maka pasangan kalimat "Aku bermain di halaman" akan dipasangkan dengan kalimat "I play at the courtyard".
-	\item Pemeriksaan untuk kata yang saling berpasangan dari hasil \textit{alignment} dan kamus hasil \textit{alignment enhancement}.
-	\item \textit{Sense} dari kata yang menjadi \textit{target} tersebut kemudian diperiksa dengan \textit{sense} kata yang sama yang sudah pernah dipindahkan dari pasangan kalimat lain. 
-	\item Jika \textit{sense} yang ingin dipindahkan "mirip" dan memiliki kedekatan makna dibatas \textit{threshold}, maka \textit{sense} yang akan dipindahkan hanya salah satu saja. Proses ini diperlukan untuk meminimalisir adanya satu kata bahasa Indonesia yang mempunyai lebih dari satu \textit{sense} yang mirip dari definisi makna tersebut.
-	\item Bila "courtyard" memiliki \textit{sense} yang artinya adalah "halaman rumah", maka "halaman" pada kalimat "Aku bermain di halaman" memiliki \textit{sense} "halaman rumah".
+	\item Pemasangan antar kalimat yang bersesuaian dengan kata-kata yang berpasangan. Pada contoh kata "halaman" yang berpasangan dengan "courtyard", maka pasangan kalimat "Aku bermain di halaman" akan dipasangkan dengan kalimat "I play at the courtyard". Pemeriksaan untuk kata yang saling berpasangan menggunakan hasil dari \textit{alignment} dan kamus hasil \textit{alignment enhancement}.
+	\item \textit{Sense} dari kata yang menjadi \textit{target} tersebut ("halaman") kemudian diperiksa dengan \textit{sense} kata yang sama yang sudah pernah dipindahkan dari pasangan kalimat lain. Jika \textit{sense} yang ingin dipindahkan "mirip" dan memiliki kedekatan makna diatas batas \textit{threshold}, maka \textit{sense} yang akan dipindahkan hanya salah satunya saja. Proses ini diperlukan untuk meminimalisir adanya satu kata bahasa Indonesia yang mempunyai lebih dari satu \textit{sense} yang mirip dari definisi makna tersebut.
+	\item Pemindahan makna dilakukan sebagai proses akhir. Bila "courtyard" memiliki \textit{sense} yang artinya adalah "pekarangan rumah", maka "halaman" pada kalimat "Aku bermain di halaman" memiliki \textit{sense} "pekarangan rumah".
 \end{enumerate}
 
 \section{Sistem WSD} \label{sec:Sistem WSD}
