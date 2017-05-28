@@ -50,6 +50,12 @@ Rudnick, A. (2011).
 \newblock Towards cross-language word sense disambiguation for quechua.
 \newblock In {\em RANLP Student Research Workshop}, pages 133--138.
 
+\bibitem[Septiantri, 2013]{septiantri2013wsd}
+Septiantri, H. (2013).
+\newblock Word sense disambiguation (wsd) untuk bahasa indonesia menggunakan
+  \textit{Cross-Lingual} wsd dengan korpus paralel.
+\newblock unpublished thesis.
+
 \bibitem[Zhong dan Ng, 2010]{zhong2010makes}
 Zhong, Z. dan Ng, H.~T. (2010).
 \newblock It makes sense: A wide-coverage word sense disambiguation system for

@@ -11,13 +11,10 @@ Bab ini membahas mengenai studi literatur yang digunakan selama penelitian. Stud
 
 Penentuan makna kalimat dilakukan dengan pemberian informasi berupa kata yang menjadi \textit{target} dan konteks berupa kalimat. Contoh proses disambiguasi yang dilakukan untuk kata \textbf{cokelat}:
 
-
-
-K1: Roni memakan \textbf{cokelat} yang diberikan ibunya.
-
-
-K2: Walaupun mobil \textbf{cokelat} itu mahal, dia sangat ingin membelinya.
-
+\begin{lstlisting}
+K1: Roni memakan cokelat yang diberikan ibunya
+K2: Walaupun mobil cokelat itu mahal, dia sangat ingin membelinya
+\end{lstlisting}
 
 
 Pada kalimat pertama (K1), \textbf{cokelat} yang dimaksud memiliki makna sebagai makanan yang terbuat dari buah \textit{cokelat}. Sementara itu, Kata \textbf{cokelat} pada kalimat kedua (K2) memiliki makna yang berbeda, dimana kata tersebut merupakan satu keterangan warna. Penentuan makna yang tepat dapat dilakukan dengan bantuan informasi konteks dari kalimat dimana kata tersebut muncul. Pada K1, kata \textbf{memakan} memberikan informasi bahwa \textit{cokelat} yang dimaksud adalah objek yang bisa dimakan. Kata yang memberikan informasi pada kalimat kedua adalah kata \textbf{berwarna} yang secara eksplisit menerangkan bahwa \textbf{cokelat} yang dimaksud adalah warna. Namun demikian, konteks maupun informasi yang bisa diambil dari kalimat tidak selalu eksplisit. Pada contoh kalimat seperti "Pohon cokelat tua di belakang rumahku sangat besar", cokelat yang dimaksud bisa bermakna "buah cokelat yang sudah tua" atau "berwarna cokelat tua".
@@ -59,6 +56,8 @@ Pengujian seberapa baik performa IMS dalam melakukan  WSD \textit{task} mendapat
 	\label{fig:Performa-IMS}
 \end{figure}
 
+IMS digunakan pada penelitian ini karena sistem WSD ini sudah dapat digunakan untuk \textit{tagging} makna kata dengan input berupa \textit{free text}.
+
 \subsection{WSD \textit{Cross Language}}
 
 Salah satu penelitian yang ada terkait dengan \textit{cross language} WSD dilakukan untuk antara bahasa Quechua dan Spanyol \citep{rudnick2011towards}. Penelitian tersebut dilakukan untuk menghasilkan sebuah sistem WSD yang nantinya dapat diintegrasikan dengan \textit{Machine Translation System} untuk bahasa tersebut. Kata yang menjadi fokus pada penelitian tersebut hanyalah \textit{adjective word} saja, karena sedikitnya kata infleksional dalam bahasa Quechua. Terdapat dua buah kamus digital yang digunakan untuk melakukan penerjemahan kata antara kedua bahasa. Wordnet bahasa Spanyol yang digunakan bukan sepenuhnya Wordnet \textit{full version} yang membutuhkan biaya dan \textit{lisence} untuk dapat diakses, namun merupakan subset dari Wordnet \textit{full version} tersebut. Korpus yang digunakan sebagai \textit{paralel resource text} merupakan Bitext (bibel Katolik) dengan total 31 ribu jumlah ayat.
@@ -78,6 +77,8 @@ Proses disambiguasi yang dicoba menggunakan beberapa cara diantaranya KNN yang m
 \end{figure}
 
 Simplified Lesk dalam percobaan tersebut menghadapi kasus dimana tidak terdapat kata yang ditemukan dari konteks word pada entri kamus. Fitur yang menghasilkan akurasi terbaik dari percobaan tersebut merupakan KNN dengan fitur konteks kata dengan fitur \textit{parser}.
+
+Berdasarkan hasil yang didapat, sistem \textit{cross-lingual} WSD dengan fitur dan \textit{classifier} yang tepat dapat mengungguli sistem baseline dan Simplified Lesk.
 
 %-----------------------------------------------------------------------------%
 \section{Word Sense Induction}
@@ -104,23 +105,25 @@ Simplified Lesk dalam percobaan tersebut menghadapi kasus dimana tidak terdapat 
 	\subsection{Pendekatan \textit{Cross Language}}
 	Selain pendekatan \textit{clustering}, WSI juga dapat memanfaatkan fitur dimana satu kata dari suatu bahasa, dapat diterjemahkan menjadi beberapa kata di bahasa lain. Contoh kasus tersebut dapat dilihat pada kata "halaman" berikut:
 
-
-
-	(K1-Indonesia): Aku membaca 10 \textbf{halaman} buku Harry Potter
-	
-	(K1-English): I read 10 \textbf{pages} of Harry Potter book
-	
-	(K2-Indonesia): Ani tinggal di rumah dengan \textbf{halaman} yang sangat luas
-	
-	(K2-English): Ani lives in a house with very large \textbf{yard}
-	
-	
+	\begin{lstlisting}
+	(K1-Indonesia): Aku membaca 10 halaman buku Harry Potter
+	(K1-English): I read 10 pages of Harry Potter book
+	(K2-Indonesia): Ani tinggal di rumah dengan halaman yang sangat luas
+	(K2-English): Ani lives in a house with very large yard
+	\end{lstlisting}
 	
 	Berdasarkan kedua pasangan kalimat tersebut, kata \textbf{halaman} dalam bahasa Indonesia dapat diterjemahkan menjadi dua buah kata dalam bahasa Inggris, yaitu \textit{page} ataupun \textit{yard}. Hal ini menunjukan bahwa terjemahan dari suatu kata bergantung pada konteks dimana kata tersebut muncul.
+	
+	Salah satu penelitian yang juga menggunakan pendekatan \textit{Cross-Lingual} WSI adalah penelitian \citep{septiantri2013wsd} yang memanfaatkan korpus paralel untuk menentukan makna yang tepat dari suatu kata berdasarkan makna tersebut dalam Bahasa Indonesia dan Bahasa Inggris.
 
 
 \section{Korpus Paralel dan \textit{Comparable}}
 Terdapat dua macam korpus bilingual yang dapat dimanfaatkan untuk pemanfaatan \textit{cross language } WSD yaitu korpus paralel dan \textit{comparable}. Perbedaan utama terhadap kedua buah korpus berada pada seberapa identik kedua buat kontek yang dimilikinya. Korpus paralel memiliki kalimat dan kata-kata yang serupa antara dua buah pasangan \textit{instance} di masing-masing korpus. Hal ini dapat dicontohkan misalnya dengan kalimat satu pada korpus bahasa Indonesia "Aku makan" dengan "I eat" pada korpus bahasa Inggris. Berbeda dengan korpus paralel, \textit{comparable} berarti kedua kalimat atau \textit{instance} yang berpasangan hanya sebatas mirip/sama dalam suatu kategori kriteria tertentu. Dengan adanya korpus paralel dan \textit{comparable} tersebut, dibutuhkan juga alat untuk menyelaraskan (\textit{aligning}) konten pada kedua korpus tersebut. \textit{Alignment} yang dapat dilakukan memiliki beberapa tingkatan mulai dari \textit{scope} yang besar sampai kecil. \textit{Scope} besar tersebut meliputi \textit{alignment} dokumen yang mana fungsinya adalah menyelaraskan antar dokumen yang konten atau kriterianya sama. Tingkatan yang lebih kecil berikutnya yaitu kalimat dimana \textit{alignment} dilakukan pada \textit{level} kalimat (pasangan kalimat yang makna atau kriterianya sama). \textit{Alignment} dengan tingkatan yang lebih spesifik lagi adalah kata (\textit{word alignment}), dimana hasil yang didapat dari proses ini adalah pasangan kata pada kedua korpus dwibahasa yang selaras. Korpus utama yang digunakan sebagai sumber data penelitian ini adalah korpus identik. Korpus identik berisi pasangan kalimat-kalimat dalam bahasa Indonesia dan Inggris. Kalimat yang berpasangan di dalamnya sebagian besar mempunyai makna konten yang paralel walaupun terdapat juga yang \textit{comparable}. Korpus identik ini mempunyai total sebanyak 88.918 buah pasangan kalimat di dalamnya.
+%-----------------------------------------------------------------------------%
+
+\section{Wordnet}
+
+Wordnet merupakan salah satu \textit{resource} yang berisi kelompok kata dalam suatu bahasa yang biasa disebut sebagai \textit{synsets} (\textit{sets of synonyms}). Selain menyimpan kata-kata, Wordnet juga menyimpan makna dari kata-kata tersebut. Informasi makna kata yang ada di dalam Wordnet sering digunakan untuk sistem WSD suatu bahasa sebagai acuan. Makna kata pada Wordnet disimpan dengan \textit{uniq identifier} berupa \textit{sense key} yang memiliki format "\textbf{lemma\%key}". Salah satu contoh \textit{sense key} adalah "home\%1:06:00::" yang mana memiliki makna "\textit{Housing that someone is living in}".
 %-----------------------------------------------------------------------------%
 \section{\textit{Word Alignment}}
 
