@@ -235,7 +235,7 @@ Kelas kata dari "memecahkan" dengan kamus \textit{bi-directional} berjumlah 3 bu
 'break%2:30:03::': 5, 'resolve%2:31:01::': 7, 'solve%2:31:00::': 13
 \end{lstlisting}
 
-
+Pada kata "memecahkan" dapat dilihat bahwa performa sistem WSD menggunakan kamus \textit{crawling} sebagai \textit{alignment enhancement} mempunyai tingkat akurasi yang lebih tinggi untuk setiap fitur yang digunakan. Namun demikian, performa dengan fitur gabungan POS Tag dan \textit{bag of words} malah menurun jika dibandingkan dengan fitur \textit{word embedding} dan \textit{bag of words} saja, bahkan akurasi yang didapatkan di bawah baseline.
 
 \subsection{\textit{Target word} "menolak"}
 
@@ -256,6 +256,8 @@ Kelas kata dari "menolak" dengan kamus \textit{bi-directional} berjumlah 12 buah
 'deny%2:32:00::': 6, 'spurn%2:32:00::': 1, 'rebuff%2:32:00::': 2, 'balk%2:41:00::': 1, 'object%2:32:00::': 1, 'dismiss%2:32:02::': 7, 'reject%2:40:00::': 80, 'refuse%1:27:00::': 1, 'oppose%2:32:01::': 5, 'refusal%1:10:01::': 3, 'resist%2:42:01::': 6, 'decline%2:32:00::': 197
 \end{lstlisting}
 
+Percobaan fitur f3 dan f4 pada kata "menolak" memiliki peningkatan performa akurasi jika dibandingkan dengan f1 atau bahkan f2 (\textit{word embedding}). Semua fitur yang dicoba pada kata ini memiliki performa diatas baseline kecuali f2. Perbedaan antara akurasi dengan menggunakan kamus \textit{crawling} ataupun \textit{bi-directional} tidak terlalu berbeda.
+
 \subsection{\textit{Target word} "Obat"}
 
 \begin{figure}
@@ -274,6 +276,8 @@ Kelas kata dari "obat" dengan kamus \textit{bi-directional} berjumlah 4 buah yai
 'cure%1:06:00::': 7, 'medicine%1:09:00::': 46, 'drug%1:06:00::': 62, 'medication%1:06:00::': 22
 \end{lstlisting}
 
+Pada penggunaan kamus \textit{crawling}, semua fitur memiliki akurasi diatas baseline dan diatas performa penggunaan kamus \textit{bi-directional}. Dari kelas-kelas yang dihasilkan, dapat dilihat bahwa kamus \textit{crawling} hanya menghasilkan dua buah kelas makna kata untuk "obat", hal ini memungkinkan model untuk dapat menebak lebih akurat dari pada kasus ketika kelas makna kata lebih banyak.
+
 \subsection{\textit{Target word} "Lingkungan"}
 
 \begin{figure}
@@ -291,6 +295,9 @@ Kelas kata dari "lingkungan" dengan kamus \textit{bi-directional} berjumlah 7 bu
 \begin{lstlisting}
 'environmentalist%1:18:00::': 1, 'sphere%1:15:00::': 2, 'neighborhood%1:14:00::': 22, 'environmental%3:01:01::': 74, 'vicinity%1:15:00::': 2, 'environment%1:26:00::': 113, 'outside%5:00:00:external:00': 1
 \end{lstlisting}
+
+
+
 
 \subsection{\textit{Target word} "Halaman"}
 
