@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1680,13 +1680,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]
-Underfull \hbox (badness 1173) in paragraph at lines 218--219
-\T1/ptm/m/n/12 tersebut untuk mengetahui pengaruh fitur yang digunakan dan perb
-andingan
- []
-
-<adit_pics/memecahkan.png, id=985, 667.49374pt x 357.335pt>
+[38] <adit_pics/memecahkan.png, id=985, 667.49374pt x 357.335pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
@@ -2047,7 +2041,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (62 pages, 589753 bytes).
+Output written on skripsi.pdf (62 pages, 589867 bytes).
 PDF statistics:
  1170 PDF objects out of 1200 (max. 8388607)
  1046 compressed objects within 11 object streams
