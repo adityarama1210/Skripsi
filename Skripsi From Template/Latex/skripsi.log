@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1783,6 +1783,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [45 <./adit_pics/kehadiran.png>]
+Underfull \hbox (badness 3803) in paragraph at lines 360--361
+[]\T1/ptm/m/n/12 Pada kasus kata "hati", performa sistem dengan kamus \T1/ptm/m
+/it/12 bi-directional
+ []
+
 <adit_pics/coklat.png, id=1052, 581.17125pt x 329.23pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
@@ -1801,7 +1806,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
-Package pdftex.def Info: adit_pics/berat.png used on input line 385.
+Package pdftex.def Info: adit_pics/berat.png used on input line 386.
 (pdftex.def)             Requested size: 398.3386pt x 229.0343pt.
 
 
@@ -1813,7 +1818,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [47 <./adit_pics/coklat.png>]
 File: adit_pics/lingkungan.png Graphic file (type png)
  <use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 403.
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 404.
 (pdftex.def)             Requested size: 398.3386pt x 213.10242pt.
 
 
@@ -2081,7 +2086,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (67 pages, 603756 bytes).
+Output written on skripsi.pdf (67 pages, 604363 bytes).
 PDF statistics:
  1243 PDF objects out of 1440 (max. 8388607)
  1113 compressed objects within 12 object streams

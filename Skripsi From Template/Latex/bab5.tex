@@ -357,7 +357,7 @@ Kelas kata dari "hati" dengan kamus \textit{bi-directional} berjumlah 3 buah yai
 'liver%1:08:00::': 44, 'heart%1:09:00::': 176, 'humble%5:00:00:inferior:01': 1
 \end{lstlisting}
 
-
+Pada kasus kata "hati", performa sistem dengan kamus \textit{bi-directional} menungguli setiap fitur jika dibandingkan dengan kamus \textit{crawling}. Kedua buah skenario kamus memiliki pola yang sama yaitu menungguli baseline pada f1, turun pada saat menggunakan f2 dan f3, dan akhirnya naik kembali akurasinya pada fitur f4. 
 
 \subsection{\textit{Target word} "Coklat"}
 
@@ -372,11 +372,12 @@ Kelas kata "coklat" dari hasil kamus \textit{crawling} memiliki 3 buah kelas yai
 \begin{lstlisting}
 'cocoa%1:13:02::': 10, 'cacao%1:20:00::': 5, 'brown%5:00:00:chromatic:00': 4
 \end{lstlisting}
-Kelas kata dari "hati" dengan kamus \textit{bi-directional} berjumlah 3 buah yaitu:
+Kelas kata dari "coklat" dengan kamus \textit{bi-directional} berjumlah 3 buah yaitu:
 \begin{lstlisting}
 'cocoa%1:13:02::': 11, 'cacao%1:20:00::': 5, 'brown%5:00:00:chromatic:00': 4
 \end{lstlisting}
 
+Kelas makna kata pada kedua skenario kamus sangatlah mirip dan hanya berbeda satu buah \textit{instance} lebih pada makna 'cocoa'. Dengan data yang lebih banyak pada skenario kamus \textit{bi-directional}, akurasi yang dihasilkan oleh sistem lebih baik dari \textit{crawling based} walaupun hanya lebih banyak satu buah data.
 
 \subsection{\textit{Target word} "Berat"}
 
@@ -395,6 +396,8 @@ Kelas kata dari "berat" dengan kamus \textit{bi-directional} berjumlah 10 buah y
 \begin{lstlisting}
 'tough%3:00:03::': 15, 'hard%4:02:00::': 1, 'weigh%2:42:01::': 10, 'heavy%3:00:04::': 58, 'weight%1:07:00::': 26, 'hard%5:00:00:strong:00': 3, 'difficult%3:00:00::': 9, 'challenging%5:00:00:difficult:00': 1, 'violent%3:00:00::': 1, 'severe%5:00:02:nonindulgent:00': 4
 \end{lstlisting}
+
+
 
 \subsection{\textit{Target word} "Jalan"}
 
