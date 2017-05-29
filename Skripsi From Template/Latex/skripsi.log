@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2105,7 +2105,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
 Here is how much of TeX's memory you used:
  16323 strings out of 493014
  223477 string characters out of 6133352
- 482360 words of memory out of 5000000
+ 482522 words of memory out of 5000000
  18827 multiletter control sequences out of 15000+600000
  47291 words of font info for 72 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
@@ -2121,7 +2121,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (68 pages, 609591 bytes).
+Output written on skripsi.pdf (68 pages, 609747 bytes).
 PDF statistics:
  1249 PDF objects out of 1440 (max. 8388607)
  1118 compressed objects within 12 object streams
