@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1828,6 +1828,17 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48 <./adit_pics/berat.png>])
+Underfull \hbox (badness 1325) in paragraph at lines 422--122
+[]\T1/ptm/m/n/12 Berdasarkan berbagai grafik dari masing-masing kata \T1/ptm/m/
+it/12 sample\T1/ptm/m/n/12 , fitur yang
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 422--122
+\T1/ptm/m/it/12 training \T1/ptm/m/n/12 data yang digunakan untuk model ini mem
+engaruhi performa dari
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1835,6 +1846,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
 \openout2 = `bab6.aux'.
 
  (./bab6.tex
@@ -1855,7 +1873,7 @@ Underfull \hbox (badness 2368) in paragraph at lines 17--18
 rawan menimbulkan
  []
 
-[50
+[51
 
 
 
@@ -1866,7 +1884,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51] (./skripsi.bbl [52
+[52] (./skripsi.bbl [53
 
 
 ])
@@ -1878,7 +1896,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
+[54]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./skripsi.aux (./sampul.aux) (./judul_dalam.aux) (./orisinal.aux)
 (./pengesahan_sidang.aux) (./pengantar.aux) (./persetujuan_publikasi.aux)
@@ -2068,8 +2086,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 16322 strings out of 493014
- 223470 string characters out of 6133352
+ 16323 strings out of 493014
+ 223477 string characters out of 6133352
  482110 words of memory out of 5000000
  18827 multiletter control sequences out of 15000+600000
  47291 words of font info for 72 fonts, out of 8000000 for 9000
@@ -2086,10 +2104,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (67 pages, 604581 bytes).
+Output written on skripsi.pdf (68 pages, 605964 bytes).
 PDF statistics:
- 1243 PDF objects out of 1440 (max. 8388607)
- 1113 compressed objects within 12 object streams
- 440 named destinations out of 1000 (max. 500000)
+ 1247 PDF objects out of 1440 (max. 8388607)
+ 1116 compressed objects within 12 object streams
+ 441 named destinations out of 1000 (max. 500000)
  723 words of extra memory for PDF output out of 10000 (max. 10000000)
 
