@@ -8,8 +8,10 @@ Bab ini akan menjelaskan perihal implementasi dari rancangan yang sudah dibuat p
 Proses pertama yang dilakukan adalah memisahkan kalimat bahasa Inggris dan bahasa Indonesia dari korpus identik menjadi dua buah \textit{file} paralel untuk dapat diproses pada tahap-tahap berikutnya. Bentuk dari korpus identik tersebut adalah setiap \textit{instance} kalimat direpresentasikan dalam satu baris, dimana baris tersebut mengandung id unik, kalimat berbahasa Indonesia, dan kalimat berbahasa Inggris yang dipisahkan oleh tab.
 
 \begin{lstlisting}
+...
 panl-bppt-eco-s1505	Ada 10 sektor yang dibicarakan.	There are 10 sectors that have been on the talk.
 panl-bppt-eco-s1508	Semua ketentuan Insya Allah akan selesai 1 April, kata Burhanuddin.	All the regulations, God willing, will be completed on April 1, he said.
+...
 \end{lstlisting}
 
 Korpus yang dihasilkan setelah proses ini adalah dua buah korpus (korpus bahasa Indonesia, dan korpus bahasa Inggris) dimana masing-masing baris adalah kalimat yang saling berpasangan.
@@ -44,6 +46,8 @@ Pada contoh tersebut, kata years memiliki \textit{sense key} berupa "year\%1:28:
 
 
 \section{\textit{Word Alignment}}
+
+Proses awal yang diperlukan untuk \textit{alignment} adalah memberikan kedua korpus (Indonesia dan Inggris) ke dalam input Giza++. Setelah menghasilkan \textit{file} hasil \textit{alignment}, dilakukan post-processing untuk menghasilkan kamus yang nantinya dapat digunakan untuk melakukan \textit{sense transfering}.
 
 \subsection{Pemrosesan \textit{Word Alignment}}
 Proses \textit{word alignment} menggunakan dua buah \textit{file} yaitu korpus berbahasa Indonesia dan Inggris yang sudah dipisah dari \textit{pre-processing}. Perintah berikut digunakan untuk melakukan \textit{word alignment} dengan Giza pada penelitian ini:

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 05:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 08:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1227,7 +1227,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Underfull \hbox (badness 1635) in paragraph at lines 25--26
+Underfull \hbox (badness 1635) in paragraph at lines 27--28
 \T1/ptm/m/n/12 tersebut meliputi hasil \T1/ptm/m/it/12 training \T1/ptm/m/n/12 
 kata-kata dalam bahasa Inggris yang sudah
  []
@@ -1237,27 +1237,23 @@ kata-kata dalam bahasa Inggris yang sudah
 
 
 ]
-Underfull \hbox (badness 1552) in paragraph at lines 28--29
+Underfull \hbox (badness 1552) in paragraph at lines 30--31
 \T1/ptm/m/n/12 mempermudah pemakaian \T1/ptm/m/it/12 sense tagged corpus \T1/pt
 m/m/n/12 ini pada proses selanjutnya,
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 36--37
+Underfull \hbox (badness 1297) in paragraph at lines 38--39
 []\T1/ptm/m/n/12 Contoh dari kalimat yang sudah diberikan \T1/ptm/m/it/12 tag \
 T1/ptm/m/n/12 sampai keluar dari \T1/ptm/m/it/12 post-
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 49--50
+Underfull \hbox (badness 1577) in paragraph at lines 53--54
 \T1/ptm/m/n/12 Proses \T1/ptm/m/it/12 word alignment \T1/ptm/m/n/12 menggunakan
  dua buah \T1/ptm/m/it/12 file \T1/ptm/m/n/12 yaitu korpus berbahasa
  []
 
-LaTeX Font Info:    Font shape `T1/pcr/bx/it' in size <10> not available
-(Font)              Font shape `T1/pcr/b/it' tried instead on input line 52.
-LaTeX Font Info:    Font shape `T1/pcr/b/it' in size <10> not available
-(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 52.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1265,7 +1261,12 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20]
-Underfull \hbox (badness 4108) in paragraph at lines 67--68
+LaTeX Font Info:    Font shape `T1/pcr/bx/it' in size <10> not available
+(Font)              Font shape `T1/pcr/b/it' tried instead on input line 56.
+LaTeX Font Info:    Font shape `T1/pcr/b/it' in size <10> not available
+(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 56.
+
+Underfull \hbox (badness 4108) in paragraph at lines 71--72
 \T1/ptm/m/n/12 Setelah mendapatkan \T1/ptm/m/it/12 file \T1/ptm/m/n/12 A3 dari 
 Giza, dilakukan \T1/ptm/m/it/12 post-processing \T1/ptm/m/n/12 untuk
  []
@@ -1277,7 +1278,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21]
-Underfull \hbox (badness 1152) in paragraph at lines 99--100
+Underfull \hbox (badness 1152) in paragraph at lines 103--104
 \T1/ptm/m/n/12 kembali pada sistem WSD nantinya. Sementara itu, keperluan nomor
  dua
  []
@@ -1305,17 +1306,24 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
-Underfull \hbox (badness 3690) in paragraph at lines 176--177
+Underfull \hbox (badness 3690) in paragraph at lines 180--181
 []\T1/ptm/m/n/12 Kata "halaman" memiliki pasangan bahasa Inggris hasil Giza yai
 tu
  []
 
-<adit_pics/bidirectional-enhancement.jpeg, id=737, 743.77875pt x 166.6225pt>
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+<adit_pics/bidirectional-enhancement.jpeg, id=747, 743.77875pt x 166.6225pt>
 File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
 
 <use adit_pics/bidirectional-enhancement.jpeg>
 Package pdftex.def Info: adit_pics/bidirectional-enhancement.jpeg used on input
- line 188.
+ line 192.
 (pdftex.def)             Requested size: 398.3386pt x 89.23749pt.
 
 
@@ -1324,14 +1332,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 <./adit_pics/bidirectional-enhancement.jpeg>]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26]
+[26 <./adit_pics/bidirectional-enhancement.jpeg>]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1352,21 +1353,21 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29] <adit_pics/we-vector.jpeg, id=818, 382.42876pt x 141.52875pt>
-File: adit_pics/we-vector.jpeg Graphic file (type jpg)
-
-<use adit_pics/we-vector.jpeg>
-Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 318.
-(pdftex.def)             Requested size: 398.3386pt x 147.42397pt.
-
+[29]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30]
-Underfull \hbox (badness 1348) in paragraph at lines 325--326
+[30] <adit_pics/we-vector.jpeg, id=833, 382.42876pt x 141.52875pt>
+File: adit_pics/we-vector.jpeg Graphic file (type jpg)
+
+<use adit_pics/we-vector.jpeg>
+Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 322.
+(pdftex.def)             Requested size: 398.3386pt x 147.42397pt.
+
+Underfull \hbox (badness 1348) in paragraph at lines 329--330
 \T1/ptm/m/n/12 kata tersebut memiliki kata \T1/ptm/m/it/12 translation \T1/ptm/
 m/n/12 lebih dari satu dengan makna yang
  []
@@ -1890,9 +1891,9 @@ Package rerunfilecheck Info: File `skripsi.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 16169 strings out of 493014
- 221038 string characters out of 6133352
- 463708 words of memory out of 5000000
+ 16171 strings out of 493014
+ 221066 string characters out of 6133352
+ 495744 words of memory out of 5000000
  18762 multiletter control sequences out of 15000+600000
  46632 words of font info for 70 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
@@ -1906,10 +1907,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (56 pages, 480305 bytes).
+Output written on skripsi.pdf (56 pages, 480623 bytes).
 PDF statistics:
- 1017 PDF objects out of 1200 (max. 8388607)
- 918 compressed objects within 10 object streams
- 362 named destinations out of 1000 (max. 500000)
+ 1019 PDF objects out of 1200 (max. 8388607)
+ 920 compressed objects within 10 object streams
+ 364 named destinations out of 1000 (max. 500000)
  571 words of extra memory for PDF output out of 10000 (max. 10000000)
 
