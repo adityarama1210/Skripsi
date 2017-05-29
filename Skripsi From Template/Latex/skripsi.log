@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1862,6 +1862,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 
+Underfull \hbox (badness 1596) in paragraph at lines 10--12
+\T1/ptm/m/n/12 merupakan penghambat dari penelitian WSD di Bahasa Indonesia. Un
+tuk
+ []
+
+
 Underfull \hbox (badness 1122) in paragraph at lines 17--18
 []\T1/ptm/m/n/12 Penggunaan kualitas dari korpus paralel dapat mempe-ngaruhi se
 berapa
@@ -2104,10 +2110,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (68 pages, 606333 bytes).
+Output written on skripsi.pdf (68 pages, 606909 bytes).
 PDF statistics:
- 1247 PDF objects out of 1440 (max. 8388607)
- 1116 compressed objects within 12 object streams
+ 1249 PDF objects out of 1440 (max. 8388607)
+ 1118 compressed objects within 12 object streams
  441 named destinations out of 1000 (max. 500000)
  723 words of extra memory for PDF output out of 10000 (max. 10000000)
 
