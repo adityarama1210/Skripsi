@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 09:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1300,10 +1300,18 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
-Underfull \hbox (badness 3690) in paragraph at lines 180--181
+Underfull \hbox (badness 3690) in paragraph at lines 184--185
 []\T1/ptm/m/n/12 Kata "halaman" memiliki pasangan bahasa Inggris hasil Giza yai
 tu
  []
+
+<adit_pics/bidirectional-enhancement.jpeg, id=758, 743.77875pt x 166.6225pt>
+File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
+
+<use adit_pics/bidirectional-enhancement.jpeg>
+Package pdftex.def Info: adit_pics/bidirectional-enhancement.jpeg used on input
+ line 196.
+(pdftex.def)             Requested size: 398.3386pt x 89.23749pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1312,14 +1320,6 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
-<adit_pics/bidirectional-enhancement.jpeg, id=764, 743.77875pt x 166.6225pt>
-File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
-
-<use adit_pics/bidirectional-enhancement.jpeg>
-Package pdftex.def Info: adit_pics/bidirectional-enhancement.jpeg used on input
- line 192.
-(pdftex.def)             Requested size: 398.3386pt x 89.23749pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1347,21 +1347,21 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29]
+[29] <adit_pics/we-vector.jpeg, id=837, 382.42876pt x 141.52875pt>
+File: adit_pics/we-vector.jpeg Graphic file (type jpg)
+
+<use adit_pics/we-vector.jpeg>
+Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 326.
+(pdftex.def)             Requested size: 398.3386pt x 147.42397pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30] <adit_pics/we-vector.jpeg, id=850, 382.42876pt x 141.52875pt>
-File: adit_pics/we-vector.jpeg Graphic file (type jpg)
-
-<use adit_pics/we-vector.jpeg>
-Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 322.
-(pdftex.def)             Requested size: 398.3386pt x 147.42397pt.
-
-Underfull \hbox (badness 1348) in paragraph at lines 329--330
+[30]
+Underfull \hbox (badness 1348) in paragraph at lines 333--334
 \T1/ptm/m/n/12 kata tersebut memiliki kata \T1/ptm/m/it/12 translation \T1/ptm/
 m/n/12 lebih dari satu dengan makna yang
  []
@@ -1418,9 +1418,15 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34]
-Underfull \hbox (badness 2538) in paragraph at lines 91--92
-\T1/ptm/m/n/12 dan 'split%2:38:00::'. Kata "menolak" mewakili kelas kata sebany
-ak 10
+Underfull \hbox (badness 1472) in paragraph at lines 91--92
+\T1/ptm/m/n/12 5 kelas kata (\T1/ptm/m/it/12 sense key\T1/ptm/m/n/12 ), \T1/ptm
+/m/it/12 target word \T1/ptm/m/n/12 yang diambil adalah "memecahkan".
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 91--92
+\T1/ptm/m/n/12 Kata "menolak" mewakili kelas kata sebanyak 10 buah yang diantar
+anya
  []
 
 
@@ -1899,14 +1905,14 @@ adit_pics/we-vector.jpeg
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: A84D99F855A750D01AD7E3F2CCD1F26A;4791.
+(rerunfilecheck)             Checksum: A43E069071C26103AFEB42C7D40203EF;4779.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 16178 strings out of 493014
- 221200 string characters out of 6133352
- 495715 words of memory out of 5000000
- 18765 multiletter control sequences out of 15000+600000
+ 16184 strings out of 493014
+ 221260 string characters out of 6133352
+ 478715 words of memory out of 5000000
+ 18769 multiletter control sequences out of 15000+600000
  46632 words of font info for 70 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
  44i,12n,51p,1947b,1936s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1919,10 +1925,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (57 pages, 483325 bytes).
+Output written on skripsi.pdf (57 pages, 483351 bytes).
 PDF statistics:
- 1047 PDF objects out of 1200 (max. 8388607)
- 947 compressed objects within 10 object streams
- 368 named destinations out of 1000 (max. 500000)
+ 1049 PDF objects out of 1200 (max. 8388607)
+ 949 compressed objects within 10 object streams
+ 370 named destinations out of 1000 (max. 500000)
  603 words of extra memory for PDF output out of 10000 (max. 10000000)
 

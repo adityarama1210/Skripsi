@@ -47,13 +47,13 @@
 \contentsline {section}{\numberline {4.3}\textit {Word Alignment}}{20}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Pemrosesan \textit {Word Alignment}}{21}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Post-Processing}{21}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Evaluasi \textit {Word Alignment}}{23}{section.4.4}
+\contentsline {section}{\numberline {4.4}Evaluasi \textit {Word Alignment}}{22}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Pre-Processing}{23}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Proses Anotasi Data}{23}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Anotasi}{23}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Evaluasi}{23}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}Peningkatan Kualitas \textit {Alignment}}{25}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Pendekatan \textit {Crawling}}{25}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Pendekatan \textit {Bi-directional}}{26}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.2}Pendekatan \textit {Bi-directional}}{25}{subsection.4.5.2}
 \contentsline {section}{\numberline {4.6}\textit {Sense Transfering}}{27}{section.4.6}
 \contentsline {section}{\numberline {4.7}Sistem WSD}{28}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}Pemilihan Fitur dan \textit {Classifier}}{28}{subsection.4.7.1}

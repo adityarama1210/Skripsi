@@ -105,15 +105,17 @@ Hasil ini kemudian disimpan sebagai sebuah \textit{file} sendiri yang akan digun
 
 \section{Evaluasi \textit{Word Alignment}}
 
+Proses evaluasi meliputi \textit{pre-processing}, anotasi data, dan evaluasi.
+
 \subsection{Pre-Processing}
-Pertama, dilakukan pemilihan acak terhadap 200 pasang kalimat yang merupakan hasil keluaran Giza(\textit{file} A3). Setiap pasang tersebut meliputi dua buah isi yaitu kalimat bahasa Indonesia, dan kalimat bahasa Inggris dengan tanda \textit{alignment} Giza. Proses selanjutnya adalah menyiapkan 200 pasang kalimat tersebut untuk dievaluasi oleh anotator. Terdapat beberapa proses dalam mempersiapkan data untuk evaluasi oleh anotator.
+Terdapat beberapa proses dalam mempersiapkan data untuk evaluasi oleh anotator.
 \begin{enumerate}
 	\item Pertama, pada setiap kata dalam bahasa Indonesia diberikan sebuah tanda indeks berupa angka untuk mempermudah proses evaluasi anotator nantinya. Pada proses tersebut, kalimat "Aku ingin makan" sebagai perumpamaan, diubah menjadi "Aku(1) ingin(2) makan(3)". Angka tersebut diperuntukan untuk mempercepat dan mempermudah kerja anotator nanti untuk melihat pasangan kata dari kalimat bahasa Inggris.
 	\item Kedua, kosongkan nomor indeks hasil \textit{alignment} Giza pada kalimat bahasa Inggris. Perumpamaan pada kalimat "NULL (\{  \}) i (\{ 1 \}) want (\{ 2 \}) to (\{  \}) eat (\{ 3 \})" akan berubah menjadi  "NULL (\{  \}) i (\{  \}) want (\{   \}) to (\{  \}) eat (\{  \})" yang nantinya akan diisi secara manual oleh anotator.
 \end{enumerate}
 
-\subsection{Proses Anotasi Data}
-Setelah 200 buah pasangan kalimat(data) tersebut selesai dipersiapkan, anotator akan melakukan anotasi data (\textit{alignment}) secara manual dengan panduan yang diberikan oleh \saya. Panduan tersebut meliputi keterangan dari \textit{task word alignment}, format data yang diberikan dan cara pembacaannya, dan yang paling utama adalah cara melakukan proses \textit{alignment}. Panduan anotasi yang diberikan dapat dilihat di lampiran pada laporan ini.
+\subsection{Anotasi}
+Setelah diberikan pasangan kalimat untuk dianotasi, anotator melakukan anotasi sesuai dengan panduan yang diberikan. Hasil dari anotasi tersebut kemudian dikumpulkan kembali untuk dievaluasi.
 
 \subsection{Evaluasi}
 Evaluasi perhitungan \textit{precision}, \textit{recall}, f-score, dan \textit{agreement} dilakukan secara otomatis dengan program yang dibuat dengan algoritma berikut.
@@ -162,6 +164,8 @@ precision = average(precision[0])
 recall = average(recall[0])
 precision_1 = average(precision[1])
 recall_1 = average(recall[1])
+f1 = 2 * precision * recall / (precision + recall)
+f2 = 2 * precision_1 * recall_1 / (precision_1 + recall_1)
 agreement = average(agreement)	
 
 \end{lstlisting}
