@@ -297,7 +297,7 @@ Kelas kata dari "lingkungan" dengan kamus \textit{bi-directional} berjumlah 7 bu
 \end{lstlisting}
 
 
-
+Pada kata "lingkungan" hasil performa dengan penggunaan kamus \textit{crawling} memiliki performa lebih baik untuk semua fitur dibandingkan dengan \textit{bi-directional} walaupun kelas makna kata yang didapatkan dari dua buah kamus memiliki jumlah yang sama.
 
 \subsection{\textit{Target word} "Halaman"}
 
@@ -317,6 +317,8 @@ Kelas kata dari "halaman" dengan kamus \textit{bi-directional} berjumlah 5 buah 
 'page%1:10:00::': 41, 'compound%1:09:00::': 1, 'yard%1:23:00::': 3, 'lawn%1:15:00::': 3, 'courtyard%1:06:00::': 3
 \end{lstlisting}
 
+Jumlah kelas pada kata "halaman" pada kedua buah skenario kamus sama-sama 3 buah dan performa yang dihasilkan oleh sistem yang menggunakan kamus \textit{crawling} mengungguli akurasi dari kamus \textit{bi-directional}. Fitur pada kedua skenario sama-sama turun pada f3 (POS Tag) dan meningkat pada fitur gabungan (f4).
+
 \subsection{\textit{Target word} "Kehadiran"}
 
 \begin{figure}
@@ -335,6 +337,7 @@ Kelas kata dari "kehadiran" dengan kamus \textit{bi-directional} berjumlah 6 bua
 'arrive%2:38:00::': 1, 'presence%1:09:00::': 64, 'attendance%1:04:00::': 18, 'prevent%2:41:01::': 1, 'teacher%1:18:00::': 2, 'participation%1:04:00::': 3
 \end{lstlisting}
 
+Kata "kehadiran" dengan kamus \textit{crawling} memiliki performa lebih baik dari setiap fitur dengan kamus \textit{bi-directional}. Berdasarkan jumlah kelas kata masing-masing skenario (kamus), \textit{bi-directional} menghasilkan jumlah kelas kata yang lebih banyak sehingga kemungkinan menyebabkan \textit{classifier} melakukan klasifikasi yang lebih sulit dari pada \textit{crawling based dictionary}.
 
 \subsection{\textit{Target word} "Hati"}
 
@@ -353,6 +356,8 @@ Kelas kata dari "hati" dengan kamus \textit{bi-directional} berjumlah 3 buah yai
 \begin{lstlisting}
 'liver%1:08:00::': 44, 'heart%1:09:00::': 176, 'humble%5:00:00:inferior:01': 1
 \end{lstlisting}
+
+
 
 \subsection{\textit{Target word} "Coklat"}
 
