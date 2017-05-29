@@ -17,6 +17,12 @@ Gale, W.~A., Church, K.~W., dan Yarowsky, D. (1992).
 \newblock In {\em Proceedings of the workshop on Speech and Natural Language},
   pages 233--237. Association for Computational Linguistics.
 
+\bibitem[Larasati, 2012]{larasati2012identic}
+Larasati, S.~D. (2012).
+\newblock Identic corpus: Morphologically enriched indonesian-english parallel
+  corpus.
+\newblock In {\em LREC}, pages 902--906.
+
 \bibitem[Mihalcea dan Pedersen, 2003]{mihalcea2003evaluation}
 Mihalcea, R. dan Pedersen, T. (2003).
 \newblock An evaluation exercise for word alignment.
