@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 09:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -998,7 +998,7 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 
 
 
-] <adit_pics/Arsitektur-IMS.png, id=515, 839.135pt x 282.05376pt>
+] <adit_pics/Arsitektur-IMS.png, id=513, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1017,7 +1017,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./adit_pics/Arsitektur-IMS.png>]
-<adit_pics/Performa-IMS.png, id=530, 622.325pt x 77.28876pt>
+<adit_pics/Performa-IMS.png, id=528, 622.325pt x 77.28876pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
@@ -1031,7 +1031,7 @@ dapat
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
-<adit_pics/crosslanguage-wsd.png, id=537, 694.595pt x 386.44376pt>
+<adit_pics/crosslanguage-wsd.png, id=535, 694.595pt x 386.44376pt>
 File: adit_pics/crosslanguage-wsd.png Graphic file (type png)
 
 <use adit_pics/crosslanguage-wsd.png>
@@ -1090,25 +1090,24 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-<adit_pics/Pengukuran-Word-Alignment.png, id=586, 371.3875pt x 190.7125pt>
-File: adit_pics/Pengukuran-Word-Alignment.png Graphic file (type png)
-
-<use adit_pics/Pengukuran-Word-Alignment.png>
-Package pdftex.def Info: adit_pics/Pengukuran-Word-Alignment.png used on input 
-line 159.
-(pdftex.def)             Requested size: 398.3386pt x 204.55795pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11] <adit_pics/svm-hyperplane.png, id=601, 502.87875pt x 298.11375pt>
+[11]
+Underfull \hbox (badness 1303) in paragraph at lines 165--167
+\T1/ptm/m/n/12 antara \T1/ptm/m/it/12 probable \T1/ptm/m/n/12 dan \T1/ptm/m/it/
+12 sure alignment\T1/ptm/m/n/12 , maka semua hasil \T1/ptm/m/it/12 alignment \T
+1/ptm/m/n/12 dianggap
+ []
+
+<adit_pics/svm-hyperplane.png, id=598, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
-Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 172.
+Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 173.
 (pdftex.def)             Requested size: 398.3386pt x 236.13957pt.
 
 
@@ -1117,22 +1116,22 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./adit_pics/Pengukuran-Word-Alignment.png>]
+[12 <./adit_pics/svm-hyperplane.png>]
+<adit_pics/word2vec_diagrams.png, id=614, 836.12375pt x 486.81876pt>
+File: adit_pics/word2vec_diagrams.png Graphic file (type png)
+
+<use adit_pics/word2vec_diagrams.png>
+Package pdftex.def Info: adit_pics/word2vec_diagrams.png used on input line 189
+.
+(pdftex.def)             Requested size: 398.3386pt x 231.93213pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./adit_pics/svm-hyperplane.png>]
-<adit_pics/word2vec_diagrams.png, id=619, 836.12375pt x 486.81876pt>
-File: adit_pics/word2vec_diagrams.png Graphic file (type png)
-
-<use adit_pics/word2vec_diagrams.png>
-Package pdftex.def Info: adit_pics/word2vec_diagrams.png used on input line 188
-.
-(pdftex.def)             Requested size: 398.3386pt x 231.93213pt.
-)
+[13])
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1148,7 +1147,7 @@ Bab 3.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/WSD-full.jpeg, id=626, 537.00626pt x 307.1475pt>
+<adit_pics/WSD-full.jpeg, id=625, 537.00626pt x 307.1475pt>
 File: adit_pics/WSD-full.jpeg Graphic file (type jpg)
 
 <use adit_pics/WSD-full.jpeg>
@@ -1283,7 +1282,20 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+[22]
+Underfull \hbox (badness 3138) in paragraph at lines 121--122
+\T1/ptm/m/n/12 Evaluasi perhitungan \T1/ptm/m/it/12 precision\T1/ptm/m/n/12 , \
+T1/ptm/m/it/12 recall\T1/ptm/m/n/12 , f-score, dan \T1/ptm/m/it/12 agreement \T
+1/ptm/m/n/12 merupakan
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 121--122
+\T1/ptm/m/n/12 penyesuaian dari rumus pada ([]Mihalcea dan Pedersen[], []2003[]
+). Perhitungan
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
@@ -1305,7 +1317,7 @@ Underfull \hbox (badness 3690) in paragraph at lines 184--185
 tu
  []
 
-<adit_pics/bidirectional-enhancement.jpeg, id=758, 743.77875pt x 166.6225pt>
+<adit_pics/bidirectional-enhancement.jpeg, id=759, 743.77875pt x 166.6225pt>
 File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
 
 <use adit_pics/bidirectional-enhancement.jpeg>
@@ -1347,7 +1359,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29] <adit_pics/we-vector.jpeg, id=837, 382.42876pt x 141.52875pt>
+[29] <adit_pics/we-vector.jpeg, id=838, 382.42876pt x 141.52875pt>
 File: adit_pics/we-vector.jpeg Graphic file (type jpg)
 
 <use adit_pics/we-vector.jpeg>
@@ -1658,18 +1670,18 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [38])
-Underfull \hbox (badness 10000) in paragraph at lines 222--122
+Underfull \hbox (badness 10000) in paragraph at lines 218--122
 []\T1/ptm/m/n/12 Pada kata "halaman" persebaran \T1/ptm/m/it/12 instance \T1/pt
 m/m/n/12 dalam kelasnya adalah
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--122
+Underfull \hbox (badness 10000) in paragraph at lines 218--122
 \T1/ptm/m/n/12 page%1:10:00:: sebanyak 41 buah, yard%1:23:00:: 3 buah, dan
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 222--122
+Underfull \hbox (badness 1048) in paragraph at lines 218--122
 \T1/ptm/m/n/12 courtyard%1:06:00:: 3 buah. Jumlah data yang tidak \T1/ptm/m/it/
 12 balance \T1/ptm/m/n/12 pada kelas-
  []
@@ -1887,7 +1899,6 @@ abstract.tex
 adit_pics/Arsitektur-IMS.png
 adit_pics/Performa-IMS.png
 adit_pics/crosslanguage-wsd.png
-adit_pics/Pengukuran-Word-Alignment.png
 adit_pics/svm-hyperplane.png
 adit_pics/word2vec_diagrams.png
     bab3.tex
@@ -1905,30 +1916,32 @@ adit_pics/we-vector.jpeg
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: A43E069071C26103AFEB42C7D40203EF;4779.
+(rerunfilecheck)             Checksum: 9C2BD67686DE89CBBCAEC7E575B47A5F;4779.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 16184 strings out of 493014
- 221260 string characters out of 6133352
- 478715 words of memory out of 5000000
- 18769 multiletter control sequences out of 15000+600000
- 46632 words of font info for 70 fonts, out of 8000000 for 9000
+ 16179 strings out of 493014
+ 221000 string characters out of 6133352
+ 481647 words of memory out of 5000000
+ 18763 multiletter control sequences out of 15000+600000
+ 47291 words of font info for 72 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
- 44i,12n,51p,1947b,1936s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,14n,51p,1947b,1936s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/urw/courier/ucrbo8a.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on skripsi.pdf (57 pages, 483351 bytes).
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/courier/ucrbo8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
+rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on skripsi.pdf (57 pages, 483330 bytes).
 PDF statistics:
- 1049 PDF objects out of 1200 (max. 8388607)
- 949 compressed objects within 10 object streams
+ 1056 PDF objects out of 1200 (max. 8388607)
+ 956 compressed objects within 10 object streams
  370 named destinations out of 1000 (max. 500000)
- 603 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 598 words of extra memory for PDF output out of 10000 (max. 10000000)
 
