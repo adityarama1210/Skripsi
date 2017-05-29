@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -740,6 +740,8 @@ Package pdftex.def Info: pics/makara.png used on input line 15.
 (pdftex.def)             Requested size: 71.13188pt x 70.89497pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 25.
 
 [1
 
@@ -805,6 +807,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 (./pengesahan_sidang.tex
+Underfull \hbox (badness 1466) in paragraph at lines 20--21
+\T1/ptm/m/it/12 Sense Tagged Corpus \T1/ptm/m/n/12 dan \T1/ptm/m/it/12 Word Sen
+se Disam-bi-
+ []
+
+
 Overfull \hbox (14.74275pt too wide) in paragraph at lines 14--22
 [] 
  []
@@ -879,6 +887,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
 \openout2 = `abstract.aux'.
 
  (./abstract.tex
+Underfull \hbox (badness 1590) in paragraph at lines 16--17
+[]|\T1/ptm/m/n/12 Cross Language Sense Transfering To Build Sense Tagged
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
@@ -1009,7 +1022,7 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 
 
 
-] <adit_pics/Arsitektur-IMS.png, id=588, 839.135pt x 282.05376pt>
+] <adit_pics/Arsitektur-IMS.png, id=589, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1028,7 +1041,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./adit_pics/Arsitektur-IMS.png>]
-<adit_pics/Performa-IMS.png, id=602, 622.325pt x 77.28876pt>
+<adit_pics/Performa-IMS.png, id=603, 622.325pt x 77.28876pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
@@ -1040,9 +1053,7 @@ Underfull \hbox (badness 1158) in paragraph at lines 59--60
 dapat
  []
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
-<adit_pics/crosslanguage-wsd.png, id=609, 694.595pt x 386.44376pt>
+<adit_pics/crosslanguage-wsd.png, id=610, 694.595pt x 386.44376pt>
 File: adit_pics/crosslanguage-wsd.png Graphic file (type png)
 
 <use adit_pics/crosslanguage-wsd.png>
@@ -1684,7 +1695,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
-Package pdftex.def Info: adit_pics/memecahkan.png used on input line 224.
+Package pdftex.def Info: adit_pics/memecahkan.png used on input line 225.
 (pdftex.def)             Requested size: 398.3386pt x 213.25217pt.
 
 
@@ -1694,7 +1705,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39]
-Underfull \hbox (badness 4505) in paragraph at lines 238--239
+Underfull \hbox (badness 4505) in paragraph at lines 239--240
 []\T1/ptm/m/n/12 Pada kata "memecahkan" dapat dilihat bahwa performa sistem WSD
 
  []
@@ -1703,7 +1714,7 @@ Underfull \hbox (badness 4505) in paragraph at lines 238--239
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
-Package pdftex.def Info: adit_pics/menolak.png used on input line 244.
+Package pdftex.def Info: adit_pics/menolak.png used on input line 245.
 (pdftex.def)             Requested size: 398.3386pt x 192.86557pt.
 
 
@@ -1717,7 +1728,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
-Package pdftex.def Info: adit_pics/obat.png used on input line 265.
+Package pdftex.def Info: adit_pics/obat.png used on input line 266.
 (pdftex.def)             Requested size: 398.3386pt x 223.79726pt.
 
 
@@ -1731,7 +1742,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 285.
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 286.
 (pdftex.def)             Requested size: 398.3386pt x 213.10242pt.
 
 
@@ -1745,7 +1756,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
-Package pdftex.def Info: adit_pics/halaman.png used on input line 306.
+Package pdftex.def Info: adit_pics/halaman.png used on input line 307.
 (pdftex.def)             Requested size: 398.3386pt x 226.77164pt.
 
 
@@ -1759,7 +1770,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
-Package pdftex.def Info: adit_pics/kehadiran.png used on input line 326.
+Package pdftex.def Info: adit_pics/kehadiran.png used on input line 327.
 (pdftex.def)             Requested size: 398.3386pt x 215.1115pt.
 
 
@@ -1773,7 +1784,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
-Package pdftex.def Info: adit_pics/hati.png used on input line 346.
+Package pdftex.def Info: adit_pics/hati.png used on input line 347.
 (pdftex.def)             Requested size: 398.3386pt x 211.29147pt.
 
 
@@ -1783,7 +1794,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [45 <./adit_pics/kehadiran.png>]
-Underfull \hbox (badness 3803) in paragraph at lines 360--361
+Underfull \hbox (badness 3803) in paragraph at lines 361--362
 []\T1/ptm/m/n/12 Pada kasus kata "hati", performa sistem dengan kamus \T1/ptm/m
 /it/12 bi-directional
  []
@@ -1792,7 +1803,7 @@ Underfull \hbox (badness 3803) in paragraph at lines 360--361
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
-Package pdftex.def Info: adit_pics/coklat.png used on input line 366.
+Package pdftex.def Info: adit_pics/coklat.png used on input line 367.
 (pdftex.def)             Requested size: 398.3386pt x 225.65681pt.
 
 
@@ -1806,7 +1817,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
-Package pdftex.def Info: adit_pics/berat.png used on input line 386.
+Package pdftex.def Info: adit_pics/berat.png used on input line 387.
 (pdftex.def)             Requested size: 398.3386pt x 229.0343pt.
 
 
@@ -1818,7 +1829,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [47 <./adit_pics/coklat.png>]
 File: adit_pics/lingkungan.png Graphic file (type png)
  <use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 406.
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 407.
 (pdftex.def)             Requested size: 398.3386pt x 213.10242pt.
 
 
@@ -1828,13 +1839,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48 <./adit_pics/berat.png>])
-Underfull \hbox (badness 1325) in paragraph at lines 422--122
+Underfull \hbox (badness 1325) in paragraph at lines 423--122
 []\T1/ptm/m/n/12 Berdasarkan berbagai grafik dari masing-masing kata \T1/ptm/m/
 it/12 sample\T1/ptm/m/n/12 , fitur yang
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 422--122
+Underfull \hbox (badness 1609) in paragraph at lines 423--122
 \T1/ptm/m/it/12 training \T1/ptm/m/n/12 data yang digunakan untuk model ini mem
 engaruhi performa dari
  []
@@ -2094,7 +2105,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
 Here is how much of TeX's memory you used:
  16323 strings out of 493014
  223477 string characters out of 6133352
- 482110 words of memory out of 5000000
+ 482360 words of memory out of 5000000
  18827 multiletter control sequences out of 15000+600000
  47291 words of font info for 72 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
@@ -2110,7 +2121,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (68 pages, 606980 bytes).
+Output written on skripsi.pdf (68 pages, 609591 bytes).
 PDF statistics:
  1249 PDF objects out of 1440 (max. 8388607)
  1118 compressed objects within 12 object streams
