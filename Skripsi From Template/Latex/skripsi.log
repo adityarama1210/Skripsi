@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1697,7 +1697,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
-Package pdftex.def Info: adit_pics/menolak.png used on input line 245.
+Package pdftex.def Info: adit_pics/menolak.png used on input line 244.
 (pdftex.def)             Requested size: 398.3386pt x 192.86557pt.
 
 
@@ -1711,14 +1711,21 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
-Package pdftex.def Info: adit_pics/obat.png used on input line 256.
+Package pdftex.def Info: adit_pics/obat.png used on input line 263.
 (pdftex.def)             Requested size: 398.3386pt x 223.79726pt.
 
-<adit_pics/lingkungan.png, id=1001, 617.30624pt x 330.23375pt>
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41 <./adit_pics/menolak.png>]
+<adit_pics/lingkungan.png, id=1011, 617.30624pt x 330.23375pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 267.
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 281.
 (pdftex.def)             Requested size: 398.3386pt x 213.10242pt.
 
 
@@ -1727,12 +1734,12 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./adit_pics/menolak.png> <./adit_pics/obat.png>]
-<adit_pics/halaman.png, id=1009, 601.24625pt x 342.27875pt>
+[42 <./adit_pics/obat.png>]
+<adit_pics/halaman.png, id=1022, 601.24625pt x 342.27875pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
-Package pdftex.def Info: adit_pics/halaman.png used on input line 281.
+Package pdftex.def Info: adit_pics/halaman.png used on input line 299.
 (pdftex.def)             Requested size: 398.3386pt x 226.77164pt.
 
 
@@ -1741,12 +1748,12 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42 <./adit_pics/lingkungan.png>]
-<adit_pics/kehadiran.png, id=1017, 652.4375pt x 352.31625pt>
+[43 <./adit_pics/lingkungan.png>]
+<adit_pics/kehadiran.png, id=1032, 652.4375pt x 352.31625pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
-Package pdftex.def Info: adit_pics/kehadiran.png used on input line 295.
+Package pdftex.def Info: adit_pics/kehadiran.png used on input line 317.
 (pdftex.def)             Requested size: 398.3386pt x 215.1115pt.
 
 
@@ -1755,19 +1762,26 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43 <./adit_pics/halaman.png> <./adit_pics/kehadiran.png>]
-<adit_pics/hati.png, id=1027, 643.40375pt x 341.275pt>
+[44 <./adit_pics/halaman.png>]
+<adit_pics/hati.png, id=1042, 643.40375pt x 341.275pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
-Package pdftex.def Info: adit_pics/hati.png used on input line 309.
+Package pdftex.def Info: adit_pics/hati.png used on input line 336.
 (pdftex.def)             Requested size: 398.3386pt x 211.29147pt.
 
-<adit_pics/coklat.png, id=1028, 581.17125pt x 329.23pt>
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45 <./adit_pics/kehadiran.png>]
+<adit_pics/coklat.png, id=1052, 581.17125pt x 329.23pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
-Package pdftex.def Info: adit_pics/coklat.png used on input line 323.
+Package pdftex.def Info: adit_pics/coklat.png used on input line 354.
 (pdftex.def)             Requested size: 398.3386pt x 225.65681pt.
 
 
@@ -1776,12 +1790,12 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44 <./adit_pics/hati.png>]
-<adit_pics/berat.png, id=1038, 609.27625pt x 350.30875pt>
+[46 <./adit_pics/hati.png>]
+<adit_pics/berat.png, id=1062, 609.27625pt x 350.30875pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
-Package pdftex.def Info: adit_pics/berat.png used on input line 337.
+Package pdftex.def Info: adit_pics/berat.png used on input line 373.
 (pdftex.def)             Requested size: 398.3386pt x 229.0343pt.
 
 
@@ -1790,20 +1804,26 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45 <./adit_pics/coklat.png> <./adit_pics/berat.png>]
+[47 <./adit_pics/coklat.png>]
 File: adit_pics/lingkungan.png Graphic file (type png)
-
-<use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 351.
+ <use adit_pics/lingkungan.png>
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 391.
 (pdftex.def)             Requested size: 398.3386pt x 213.10242pt.
-)
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
+[48 <./adit_pics/berat.png>])
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49]
 \openout2 = `bab6.aux'.
 
  (./bab6.tex
@@ -1824,7 +1844,7 @@ Underfull \hbox (badness 2368) in paragraph at lines 17--18
 rawan menimbulkan
  []
 
-[47
+[50
 
 
 
@@ -1835,7 +1855,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48] (./skripsi.bbl [49
+[51] (./skripsi.bbl [52
 
 
 ])
@@ -1847,7 +1867,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
+[53]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./skripsi.aux (./sampul.aux) (./judul_dalam.aux) (./orisinal.aux)
 (./pengesahan_sidang.aux) (./pengantar.aux) (./persetujuan_publikasi.aux)
@@ -2037,8 +2057,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 16297 strings out of 493014
- 223108 string characters out of 6133352
+ 16322 strings out of 493014
+ 223470 string characters out of 6133352
  482110 words of memory out of 5000000
  18827 multiletter control sequences out of 15000+600000
  47291 words of font info for 72 fonts, out of 8000000 for 9000
@@ -2055,10 +2075,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (64 pages, 595596 bytes).
+Output written on skripsi.pdf (67 pages, 604343 bytes).
 PDF statistics:
- 1201 PDF objects out of 1440 (max. 8388607)
- 1075 compressed objects within 11 object streams
- 415 named destinations out of 1000 (max. 500000)
+ 1243 PDF objects out of 1440 (max. 8388607)
+ 1113 compressed objects within 12 object streams
+ 440 named destinations out of 1000 (max. 500000)
  723 words of extra memory for PDF output out of 10000 (max. 10000000)
 

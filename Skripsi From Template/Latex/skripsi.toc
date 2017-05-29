@@ -66,15 +66,15 @@
 \contentsline {section}{\numberline {5.4}Sistem WSD}{38}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}\textit {Target word} "memecahkan"}{40}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}\textit {Target word} "menolak"}{41}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}\textit {Target word} "Obat"}{41}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}\textit {Target word} "Lingkungan"}{42}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}\textit {Target word} "Halaman"}{43}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}\textit {Target word} "Kehadiran"}{43}{subsection.5.4.6}
-\contentsline {subsection}{\numberline {5.4.7}\textit {Target word} "Hati"}{44}{subsection.5.4.7}
-\contentsline {subsection}{\numberline {5.4.8}\textit {Target word} "Coklat"}{45}{subsection.5.4.8}
-\contentsline {subsection}{\numberline {5.4.9}\textit {Target word} "Berat"}{45}{subsection.5.4.9}
-\contentsline {subsection}{\numberline {5.4.10}\textit {Target word} "Jalan"}{46}{subsection.5.4.10}
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{47}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{47}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{47}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{49}{chapter*.43}
+\contentsline {subsection}{\numberline {5.4.3}\textit {Target word} "Obat"}{42}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}\textit {Target word} "Lingkungan"}{43}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}\textit {Target word} "Halaman"}{44}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}\textit {Target word} "Kehadiran"}{45}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.7}\textit {Target word} "Hati"}{46}{subsection.5.4.7}
+\contentsline {subsection}{\numberline {5.4.8}\textit {Target word} "Coklat"}{47}{subsection.5.4.8}
+\contentsline {subsection}{\numberline {5.4.9}\textit {Target word} "Berat"}{48}{subsection.5.4.9}
+\contentsline {subsection}{\numberline {5.4.10}\textit {Target word} "Jalan"}{49}{subsection.5.4.10}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{50}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{50}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{50}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{52}{chapter*.43}
