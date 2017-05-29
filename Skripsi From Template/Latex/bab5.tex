@@ -39,7 +39,31 @@ Berdasarkan proses pembuatan dan hasil dari \textit{sense tagged corpus} tersebu
 %-----------------------------------------------------------------------------%
 \section{Evaluasi \textit{Word Alignment}}
 
-Hasil dari proses \textit{word alignment} yang dilakukan Giza dibandingkan dengan hasil \textit{alignment} yang dibuat oleh dua orang anotator. Jumlah yang akan dibandingkan adalah 200 buah pasangan data yang didapat dengan \textit{random sampling}. Indikator performa dari perbandingan tersebut adalah nilai dari \textit{precision} dan \textit{recall}.
+Hasil dari proses \textit{word alignment} yang dilakukan Giza dibandingkan dengan hasil \textit{alignment} yang dibuat oleh dua orang anotator. Jumlah yang akan dibandingkan adalah 200 buah pasangan data yang didapat dengan \textit{random sampling}. Indikator performa dari perbandingan tersebut adalah nilai dari \textit{precision}, \textit{recall}, dan F-score sesuai dengan penyesuaian cara perhitungan dari penelitian \citep{mihalcea2003evaluation}. Hasil evaluasi yang didapatkan dapat dilihat pada tabel \ref{table:word-alignment-evaluation}
+
+\begin{table}
+	\centering
+	\caption{Evaluasi Word Alignment}
+	\label{table:word-alignment-evaluation}
+	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+		\hline
+		Anotator & Precision & Recall & F-Score
+		\\ \hline
+		1 & 0.775 & 0.747 & 0.761
+		\\ \hline
+		2 & 0.768 & 0.75 & 0.759
+		\\ \hline
+	\end{tabular} 
+\end{table}
+
+Berdasarkan hasil tersebut, dapat dilihat bahwa Giza++ secara umum dapat menghasilkan \textit{alignment} cukup baik untuk korpus identik yang digunakan. Namun demikian, kesalahan ataupun kelemahan yang sering terjadi adalah pada kasus-kasus seperti:
+
+\begin{enumerate}
+	\item Pemasangan frasa kompleks dengan kata lain. Seperti misalnya frasa "\textit{a very huge building}" dengan "gedung raksasa", ataupun gaya bahasa lainnya yang menjadikan frasa tersebut kompleks dan panjang.
+	\item Pasangan kalimat yang tidak sepenuhnya paralel (\textit{comparable}), seperti misalnya "I'm glad that you're here" dengan "Aku senang kau ada". Variasi dari bentuk kalimat \textit{comparable} terkadang mempersulit model dari Giza++ untuk menentukan pasangan kata yang benar.
+\end{enumerate}
+
+Walaupun akurasi yang didapatkan sekitar 70\%, tidak jarang ditemukan pasangan kata-kata yang tidak sesuai dan dapat menjadi masalah pada saat \textit{sense transfering} sehingga dilakukan proses \textit{word alignment enhancement}.
 
 %-----------------------------------------------------------------------------%
 \section{\textit{Sense Transfering}}
@@ -192,23 +216,6 @@ Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense
 		acara & 0.53 & 0.55 & 0.53 & 0.53 & 0.55 \\ \hline
 		berat & 0.49 & 0.63 & 0.52 & 0.68 & 0.68 \\ \hline
 		jalan & 0.68 & 0.76 & 0.71 & 0.71 & 0.76 \\ \hline
-	\end{tabular} 
-\end{table}
-
-
-
-\begin{table}
-	\centering
-	\caption{Evaluasi Word Alignment}
-	\label{table:word-alignment-evaluation}
-	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
-		\hline
-		Anotator & Precision & Recall & F-Score
-		\\ \hline
-		1 & 0.775 & 0.747 & 0.761
-		\\ \hline
-		2 & 0.768 & 0.75 & 0.759
-		\\ \hline
 	\end{tabular} 
 \end{table}
 

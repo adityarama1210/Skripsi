@@ -33,10 +33,14 @@
 \contentsline {chapter}{\numberline {3}\uppercase {Rancangan Penelitian}}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{15}{section.3.1}
 \contentsline {section}{\numberline {3.2}\textit {Word alignment} pada Korpus Paralel}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Evaluasi \textit {Word Alignment}}{16}{section.3.3}
-\contentsline {section}{\numberline {3.4}Peningkatan Kualitas Hasil \textit {Alignment}}{17}{section.3.4}
-\contentsline {section}{\numberline {3.5}\textit {Sense Transfering}}{17}{section.3.5}
-\contentsline {section}{\numberline {3.6}Sistem WSD}{18}{section.3.6}
+\contentsline {section}{\numberline {3.3}Peningkatan Kualitas Hasil \textit {Alignment}}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}\textit {Sense Transfering}}{17}{section.3.4}
+\contentsline {section}{\numberline {3.5}Sistem WSD}{17}{section.3.5}
+\contentsline {section}{\numberline {3.6}Evaluasi}{18}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}\textit {Word Alignment}}{18}{subsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.1.1}Proses Anotasi}{18}{subsubsection.3.6.1.1}
+\contentsline {subsubsection}{\numberline {3.6.1.2}Proses Evaluasi}{18}{subsubsection.3.6.1.2}
+\contentsline {subsection}{\numberline {3.6.2}Sistem WSD}{18}{subsection.3.6.2}
 \contentsline {chapter}{\numberline {4}\uppercase {Implementasi}}{19}{chapter.4}
 \contentsline {section}{\numberline {4.1}Pre-Processing}{19}{section.4.1}
 \contentsline {section}{\numberline {4.2}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{19}{section.4.2}
@@ -58,9 +62,9 @@
 \contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{32}{chapter.5}
 \contentsline {section}{\numberline {5.1}Pembuatan \textit {Sense Tagged Corpus} Bahasa Inggris}{32}{section.5.1}
 \contentsline {section}{\numberline {5.2}Evaluasi \textit {Word Alignment}}{33}{section.5.2}
-\contentsline {section}{\numberline {5.3}\textit {Sense Transfering}}{33}{section.5.3}
-\contentsline {section}{\numberline {5.4}Sistem WSD}{37}{section.5.4}
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{40}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{40}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{40}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{42}{chapter*.34}
+\contentsline {section}{\numberline {5.3}\textit {Sense Transfering}}{34}{section.5.3}
+\contentsline {section}{\numberline {5.4}Sistem WSD}{38}{section.5.4}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{41}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{41}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{43}{chapter*.34}

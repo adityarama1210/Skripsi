@@ -34,18 +34,7 @@ Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kal
 Pada skenario \textit{alignment} dengan bahasa Indonesia sebagai \textit{source} dan bahasa Inggris sebagai \textit{target}, satu kata dalam bahasa Indonesia akan dipasangkan dengan tepat satu kata dalam bahasa Inggris.
 
 %-----------------------------------------------------------------------------%
-\section{Evaluasi \textit{Word Alignment}} \label{sec:pembentukanTdanH}
-%-----------------------------------------------------------------------------%
-\textit{Word alignment} hasil dari \textit{tool} Giza++ dievaluasi dengan menggunakan \textit{anotator} hasil \textit{alignment} dari \textit{anotator} yang akan ditujukan sebagai \textit{gold standard}. Nilai-nilai yang akan dihitung meliputi \textit{precision} (P), \textit{recall} (R), dan F-\textit{score}. Metode evaluasi keseluruhan meliputi:
 
-\begin{enumerate}
-	\item Pemilihan \textit{random sampling} sebanyak dua ratus buah pasangan kalimat
-	\item Masing-masing \textit{anotator} memasang-masangkan kata yang tepat pada masing-masing pasangan kalimat, dengan asumsi bahwa anotasi manusia sebagai \textit{gold standard}
-	\item Hasil anotasi manusia dan keluaran dari \textit{tool} Giza dibandingkan untuk mendapatkan ketiga nilai P, R, F-Score, dan \textit{agreement} kedua anotator.
-\end{enumerate}
-
-
-%-------%
 \section{Peningkatan Kualitas Hasil \textit{Alignment}}
 %-----------------------------------------------------------------------------%
 Proses peningkatan kualitas hasil alignment diperlukan untuk meminimalisir kesalahan pemasangan kata-kata pada proses sebelumnya. Permasalahan  yang terjadi adalah adanya pasangan-pasangan kata yang tidak benar seperti pada halnya kata "lapangan" misalnya yang  dipasangkan dengan kata dalam bahasa inggris \textit{field}, \textit{ground}, \textit{involved}, \textit{job}, \textit{program}, dan beberapa kata lainnya. Peningkatan kualitas \textit{alignment} ini dilakukan dengan dua buah pendekatan, yaitu dengan bantuan \textit{online dictionary} bahasa Indonesia-Inggris dan \textit{bi-directional alignment}. 
@@ -64,4 +53,22 @@ Pemindahan makna kata dilakukan dengan beberapa \textit{sub-process} yang terdir
 
 \section{Sistem WSD} \label{sec:Sistem WSD}
 %-----------------------------------------------------------------------------%
-Sistem WSD yang dibangun adalah dengan menggunakan pendekatan \textit{supervised learning}. Hasil dari pemindahan makna kata akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. \textit{Classifier} yang digunakan dalam sistem \textit{WSD} ini adalah SVM. Pengujian dilakukan dengan menggunakan beberapa fitur seperti \textit{bag of words}, \textit{POS Tag}, dan \textit{word embedding}. Fitur \textit{bag of words} menggunakan \textit{window} sebanyak dua buah kata kanan dan kiri kata tujuan sebagai kata konteks. \textit{POS Tag} dan vektor \textit{word embedding} juga akan diimplementasikan pada penelitian ini. Performa dari sistem WSD akan dilihat berdasarkan perhitungan F1-score \textit{micro} dari hasil klasifikasi.
+Sistem WSD yang dibangun adalah dengan menggunakan pendekatan \textit{supervised learning}. \textit{Classifier} yang digunakan dalam sistem \textit{WSD} ini adalah SVM dengan fitur-fitur tertentu. Pengujian dilakukan dengan menggunakan beberapa fitur seperti \textit{bag of words}, \textit{POS Tag}, dan \textit{word embedding}. Fitur \textit{bag of words} menggunakan \textit{window} sebanyak dua buah kata kanan dan kiri kata tujuan sebagai kata konteks. Fitur \textit{POS Tag} dan vektor \textit{word embedding} juga akan dicoba sebagai skenario pada penelitian ini.
+
+\section{Evaluasi}
+
+Terdapat evaluasi khusus untuk proses \textit{word alignment} dan sistem WSD Bahasa Indonesia yang dibangun. Evaluasi pada bagian \textit{word alignment} ditujukan untuk mengetahui seberapa baik dan \textit{reliable} proses \textit{alignment} yang dilakukan Giza++. Sementara itu, sistem WSD dievaluasi untuk mendapatkan gambaran performa dari fitur seperti apa yang memberikan akurasi terbaik.
+
+\subsection{\textit{Word Alignment}}
+\textit{Word alignment} hasil dari \textit{tool} Giza++ dievaluasi dengan membandingkan hasil \textit{alignment} dari \textit{anotator} dengan hasil \textit{alignment} Giza. Hasil \textit{alignment} yang dilakukan anotator akan dijadikan sebagai \textit{gold standard} acuan untuk perbandingan. Nilai-nilai yang akan dihitung meliputi \textit{precision} (P), \textit{recall} (R), dan F-\textit{score}. 
+
+\subsubsection{Proses Anotasi}
+
+Anotator diberikan panduan untuk melakukan anotasi sesuai dengan \textit{task} yang dilakukan Giza. Kedua anotator diminta untuk memasangkan kata-kata yang bersesuaian untuk masing-masing kalimat (dalam bahasa Inggris dan Indonesia) dengan format \textit{file} yang mirip dengan Giza. Panduan anotasi yang diberikan dapat dilihat pada lampiran.
+
+\subsubsection{Proses Evaluasi}
+
+Hasil \textit{alignment} dari kedua anotator masing-masing dibandingkan dengan hasil \textit{alignment} yang dilakukan oleh Giza. Perhitungan Precision, Recall, dan F-score dihitung berdasarkan perbandingan seberapa banyak \textit{alignment} yang benar dengan banyaknya \textit{alignment} yang dilakukan. Proses lebih rinci dari perhitungan yang dilakukan akan dijelaskan pada Bab 4.
+
+\subsection{Sistem WSD}
+Hasil dari \textit{sense transfering} akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. Performa dari sistem WSD akan dilihat berdasarkan perhitungan F1-score dari hasil klasifikasi makna kata yang dilakukan dengan menggunakan \textit{cross validation}.

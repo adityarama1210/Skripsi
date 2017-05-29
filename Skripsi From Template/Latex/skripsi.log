@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 08:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  29 MAY 2017 09:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,7 +729,7 @@ LaTeX Info: Redefining \nameref on input line 48.
 \openout2 = `sampul.aux'.
 
  (./sampul.tex
-<pics/makara.png, id=265, 154.86429pt x 154.34807pt>
+<pics/makara.png, id=281, 154.86429pt x 154.34807pt>
 File: pics/makara.png Graphic file (type png)
  <use pics/makara.png>
 Package pdftex.def Info: pics/makara.png used on input line 15.
@@ -998,7 +998,7 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 
 
 
-] <adit_pics/Arsitektur-IMS.png, id=495, 839.135pt x 282.05376pt>
+] <adit_pics/Arsitektur-IMS.png, id=515, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1017,7 +1017,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./adit_pics/Arsitektur-IMS.png>]
-<adit_pics/Performa-IMS.png, id=510, 622.325pt x 77.28876pt>
+<adit_pics/Performa-IMS.png, id=530, 622.325pt x 77.28876pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
@@ -1031,7 +1031,7 @@ dapat
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
-<adit_pics/crosslanguage-wsd.png, id=517, 694.595pt x 386.44376pt>
+<adit_pics/crosslanguage-wsd.png, id=537, 694.595pt x 386.44376pt>
 File: adit_pics/crosslanguage-wsd.png Graphic file (type png)
 
 <use adit_pics/crosslanguage-wsd.png>
@@ -1090,7 +1090,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-<adit_pics/Pengukuran-Word-Alignment.png, id=566, 371.3875pt x 190.7125pt>
+<adit_pics/Pengukuran-Word-Alignment.png, id=586, 371.3875pt x 190.7125pt>
 File: adit_pics/Pengukuran-Word-Alignment.png Graphic file (type png)
 
 <use adit_pics/Pengukuran-Word-Alignment.png>
@@ -1104,7 +1104,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11] <adit_pics/svm-hyperplane.png, id=580, 502.87875pt x 298.11375pt>
+[11] <adit_pics/svm-hyperplane.png, id=601, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
@@ -1125,7 +1125,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13 <./adit_pics/svm-hyperplane.png>]
-<adit_pics/word2vec_diagrams.png, id=599, 836.12375pt x 486.81876pt>
+<adit_pics/word2vec_diagrams.png, id=619, 836.12375pt x 486.81876pt>
 File: adit_pics/word2vec_diagrams.png Graphic file (type png)
 
 <use adit_pics/word2vec_diagrams.png>
@@ -1148,7 +1148,7 @@ Bab 3.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/WSD-full.jpeg, id=606, 537.00626pt x 307.1475pt>
+<adit_pics/WSD-full.jpeg, id=626, 537.00626pt x 307.1475pt>
 File: adit_pics/WSD-full.jpeg Graphic file (type jpg)
 
 <use adit_pics/WSD-full.jpeg>
@@ -1159,13 +1159,7 @@ Package pdftex.def Info: adit_pics/WSD-full.jpeg used on input line 9.
 
 
  <./adit_pics/WSD-full.jpeg>]
-Underfull \hbox (badness 3724) in paragraph at lines 43--44
-[]\T1/ptm/m/n/12 Masing-masing \T1/ptm/m/it/12 anotator \T1/ptm/m/n/12 memasang
--masangkan kata yang tepat pada
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 51--52
+Underfull \hbox (badness 1442) in paragraph at lines 40--41
 \T1/ptm/m/n/12 Proses peningkatan kualitas hasil alignment diperlukan untuk mem
 ini-malisir
  []
@@ -1177,20 +1171,26 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-Underfull \hbox (badness 5133) in paragraph at lines 60--61
+Underfull \hbox (badness 5133) in paragraph at lines 49--50
 []\T1/ptm/m/n/12 Pemasangan antar kalimat yang bersesuaian dengan kata-kata yan
 g
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 60--61
+Underfull \hbox (badness 1527) in paragraph at lines 49--50
 \T1/ptm/m/n/12 berpasangan. Pada contoh kata "halaman" yang berpasangan dengan
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 60--61
+Underfull \hbox (badness 1565) in paragraph at lines 49--50
 \T1/ptm/m/n/12 "courtyard", maka pasangan kalimat "Aku bermain di halaman" akan
 
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 51--52
+[]\T1/ptm/m/n/12 Pemindahan makna dilakukan sebagai proses akhir. Bila "courtya
+rd"
  []
 
 
@@ -1199,13 +1199,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
-Underfull \hbox (badness 1418) in paragraph at lines 62--63
-[]\T1/ptm/m/n/12 Pemindahan makna dilakukan sebagai proses akhir. Bila "courtya
-rd"
- []
-
-)
+[17])
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1318,7 +1312,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
-<adit_pics/bidirectional-enhancement.jpeg, id=747, 743.77875pt x 166.6225pt>
+<adit_pics/bidirectional-enhancement.jpeg, id=764, 743.77875pt x 166.6225pt>
 File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
 
 <use adit_pics/bidirectional-enhancement.jpeg>
@@ -1360,7 +1354,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30] <adit_pics/we-vector.jpeg, id=833, 382.42876pt x 141.52875pt>
+[30] <adit_pics/we-vector.jpeg, id=850, 382.42876pt x 141.52875pt>
 File: adit_pics/we-vector.jpeg Graphic file (type jpg)
 
 <use adit_pics/we-vector.jpeg>
@@ -1406,104 +1400,15 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33]
-Underfull \hbox (badness 2538) in paragraph at lines 67--68
-\T1/ptm/m/n/12 dan 'split%2:38:00::'. Kata "menolak" mewakili kelas kata sebany
-ak 10
+Underfull \hbox (badness 1248) in paragraph at lines 63--64
+[]\T1/ptm/m/n/12 Pasangan kalimat yang tidak sepenuhnya paralel (\T1/ptm/m/it/1
+2 comparable\T1/ptm/m/n/12 ), seperti
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 78--78
-\T1/ptm/m/it/12 problem or question)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
-\T1/ptm/m/it/12 or understand the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-[]|\T1/ptm/m/n/12 salah satu cara
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-\T1/ptm/m/n/12 untuk \T1/ptm/b/n/12 memecahkan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-[]|\T1/ptm/m/n/12 evolusionis masih
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-\T1/ptm/m/n/12 belum bisa
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-\T1/ptm/b/n/12 memecahkan \T1/ptm/m/n/12 perma-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-[]|\T1/ptm/m/n/12 ...base mereka
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-\T1/ptm/b/n/12 memecahkan \T1/ptm/m/n/12 rekor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]|\T1/ptm/m/it/12 go one's own way;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-[]|\T1/ptm/m/n/12 senat mereka
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-\T1/ptm/b/n/12 memecahkan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-\T1/ptm/m/n/12 perbedaan antara
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-\T1/ptm/m/n/12 skenario 1 dan 3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
-[]|\T1/ptm/m/it/12 show unwillingness
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-[]|\T1/ptm/m/n/12 wells rich \T1/ptm/b/n/12 menolak
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-[]|\T1/ptm/m/it/12 show unwillingness
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-[]|\T1/ptm/m/n/12 ..dua pekan lalu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-\T1/ptm/b/n/12 menolak \T1/ptm/m/n/12 tawaran
+Underfull \hbox (badness 1430) in paragraph at lines 66--67
+[]\T1/ptm/m/n/12 Walaupun akurasi yang didapatkan sekitar 70%, tidak jarang dit
+emukan
  []
 
 
@@ -1513,7 +1418,114 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34]
-Underfull \hbox (badness 1275) in paragraph at lines 110--111
+Underfull \hbox (badness 2538) in paragraph at lines 91--92
+\T1/ptm/m/n/12 dan 'split%2:38:00::'. Kata "menolak" mewakili kelas kata sebany
+ak 10
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 102--102
+\T1/ptm/m/it/12 problem or question)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+\T1/ptm/m/it/12 or understand the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+[]|\T1/ptm/m/n/12 salah satu cara
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+\T1/ptm/m/n/12 untuk \T1/ptm/b/n/12 memecahkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+[]|\T1/ptm/m/n/12 evolusionis masih
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+\T1/ptm/m/n/12 belum bisa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+\T1/ptm/b/n/12 memecahkan \T1/ptm/m/n/12 perma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+[]|\T1/ptm/m/n/12 ...base mereka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+\T1/ptm/b/n/12 memecahkan \T1/ptm/m/n/12 rekor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\T1/ptm/m/it/12 go one's own way;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+[]|\T1/ptm/m/n/12 senat mereka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+\T1/ptm/b/n/12 memecahkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+\T1/ptm/m/n/12 perbedaan antara
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+\T1/ptm/m/n/12 skenario 1 dan 3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\T1/ptm/m/it/12 show unwillingness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[]|\T1/ptm/m/n/12 wells rich \T1/ptm/b/n/12 menolak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T1/ptm/m/it/12 show unwillingness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+[]|\T1/ptm/m/n/12 ..dua pekan lalu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+\T1/ptm/b/n/12 menolak \T1/ptm/m/n/12 tawaran
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+Underfull \hbox (badness 1275) in paragraph at lines 134--135
 []\T1/ptm/m/n/12 Pada sebaran jumlah \T1/ptm/m/it/12 instance \T1/ptm/m/n/12 di
  dalam kelas-kelasnya, kata "kehadiran"
  []
@@ -1524,104 +1536,104 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]
-Overfull \hbox (0.52434pt too wide) in paragraph at lines 118--119
+[36]
+Overfull \hbox (0.52434pt too wide) in paragraph at lines 142--143
 []|\T1/ptm/m/n/12 Jumlah| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []|\T1/ptm/m/n/12 Kehadiran
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 \T1/ptm/m/it/12 present (at a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
 []|\T1/ptm/m/n/12 ...tingkat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 []|\T1/ptm/m/n/12 Kehadiran
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 []|\T1/ptm/m/it/12 the impression
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 \T1/ptm/m/it/12 that something
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 []|\T1/ptm/m/n/12 ...berkurangnya
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 127--128
+Underfull \hbox (badness 5548) in paragraph at lines 151--152
 \T1/ptm/b/n/12 kehadiran \T1/ptm/m/n/12 pria
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []|\T1/ptm/m/n/12 rumahnya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []|\T1/ptm/m/it/12 an official
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \T1/ptm/m/it/12 legislative
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 []|\T1/ptm/m/n/12 ...kebakaran
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 \T1/ptm/m/n/12 yang melanda
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 []|\T1/ptm/m/n/12 rumahnya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\T1/ptm/m/it/12 Housing that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \T1/ptm/m/it/12 someone is
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 138--139
+Underfull \hbox (badness 5331) in paragraph at lines 162--163
 []|\T1/ptm/m/n/12 ...ia pulang ke
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 144--145
+Underfull \hbox (badness 1215) in paragraph at lines 168--169
 \T1/ptm/m/it/12 in which something is sheltered or located\T1/ptm/m/n/12 ". Kes
 alahan makna kata yang
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 146--147
+Underfull \hbox (badness 1168) in paragraph at lines 170--171
 \T1/ptm/m/n/12 dan feed%1:13:00:: ("\T1/ptm/m/it/12 food for domestic livestock
 \T1/ptm/m/n/12 ") yang semestinya adalah
  []
@@ -1632,26 +1644,26 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
+[37]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37])
-Underfull \hbox (badness 10000) in paragraph at lines 215--122
+[38])
+Underfull \hbox (badness 10000) in paragraph at lines 222--122
 []\T1/ptm/m/n/12 Pada kata "halaman" persebaran \T1/ptm/m/it/12 instance \T1/pt
 m/m/n/12 dalam kelasnya adalah
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--122
+Underfull \hbox (badness 10000) in paragraph at lines 222--122
 \T1/ptm/m/n/12 page%1:10:00:: sebanyak 41 buah, yard%1:23:00:: 3 buah, dan
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 215--122
+Underfull \hbox (badness 1048) in paragraph at lines 222--122
 \T1/ptm/m/n/12 courtyard%1:06:00:: 3 buah. Jumlah data yang tidak \T1/ptm/m/it/
 12 balance \T1/ptm/m/n/12 pada kelas-
  []
@@ -1662,14 +1674,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]
+[39]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
+[40]
 \openout2 = `bab6.aux'.
 
  (./bab6.tex
@@ -1690,7 +1702,7 @@ Underfull \hbox (badness 2368) in paragraph at lines 17--18
 rawan menimbulkan
  []
 
-[40
+[41
 
 
 
@@ -1701,7 +1713,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41] (./skripsi.bbl [42
+[42] (./skripsi.bbl [43
 
 
 ])
@@ -1713,7 +1725,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43]
+[44]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./skripsi.aux (./sampul.aux) (./judul_dalam.aux) (./orisinal.aux)
 (./pengesahan_sidang.aux) (./pengantar.aux) (./persetujuan_publikasi.aux)
@@ -1887,14 +1899,14 @@ adit_pics/we-vector.jpeg
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: 6DC3C3D2A4362ED876828A22638169FB;4489.
+(rerunfilecheck)             Checksum: A84D99F855A750D01AD7E3F2CCD1F26A;4791.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 16171 strings out of 493014
- 221066 string characters out of 6133352
- 495744 words of memory out of 5000000
- 18762 multiletter control sequences out of 15000+600000
+ 16178 strings out of 493014
+ 221200 string characters out of 6133352
+ 495715 words of memory out of 5000000
+ 18765 multiletter control sequences out of 15000+600000
  46632 words of font info for 70 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
  44i,12n,51p,1947b,1936s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1907,10 +1919,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on skripsi.pdf (56 pages, 480623 bytes).
+Output written on skripsi.pdf (57 pages, 483325 bytes).
 PDF statistics:
- 1019 PDF objects out of 1200 (max. 8388607)
- 920 compressed objects within 10 object streams
- 364 named destinations out of 1000 (max. 500000)
- 571 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1047 PDF objects out of 1200 (max. 8388607)
+ 947 compressed objects within 10 object streams
+ 368 named destinations out of 1000 (max. 500000)
+ 603 words of extra memory for PDF output out of 10000 (max. 10000000)
 
