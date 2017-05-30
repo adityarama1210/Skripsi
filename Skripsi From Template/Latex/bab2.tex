@@ -3,6 +3,11 @@
 \chapter{\babDua}
 %-----------------------------------------------------------------------------%
 Bab ini membahas mengenai studi literatur yang digunakan selama penelitian. Studi literatur ini menjelaskan tentang hal-hal mendasar yang dibutuhkan dalam penelitian.
+%-----------------------------------------------------------------------------%
+
+\section{Lexical Semantic}
+
+Kata dalam suatu bahasa memiliki banyak fitur atau informasi yang terkandung di dalamnya. Informasi pada kata tersebut meliputi contoh-contoh seperti ortografi, POS Tag, dan juga makna. Ortografi meliputi permasalahan dalam suatu kata pada bahasa mengenai ejaan, kapitalisasi, pemenggalan kata, dan lain-lain. POS Tag atau Part of Speech Tag merupakan 'kategori' dari suatu kata yang didefinisikan untuk membedakan kelas-kelas yang ada seperti misalnya \textit{proper noun}, \textit{verb}, \textit{adjective}, dan semacamnya. Makna kata menyimpan informasi dari arti suatu kata, dan bisa saja satu kata memiliki lebih dari satu makna. Selain informasi dalam suatu kata, terdapat relasi antara satu kata dengan kata lain seperti misalnya sinonim, homonim, polisemi, dan lain-lain. Berdasarkan informasi pada \citep{sheeba2013unsupervised}, Sinonim merupakan kata-kata yang berbeda namun memiliki makna yang mirip. Homonim berarti suatu kata memiliki makna yang berbeda. Mirip dengan Homonim, Polisemi merupakan suatu kata yang memiliki makna lebih dari satu.
 
 %-----------------------------------------------------------------------------%
 \section{Word Sense Disambiguation}
@@ -58,28 +63,6 @@ Pengujian seberapa baik performa IMS dalam melakukan  WSD \textit{task} mendapat
 
 IMS digunakan pada penelitian ini karena sistem WSD ini sudah dapat digunakan untuk \textit{tagging} makna kata dengan input berupa \textit{free text}.
 
-\subsection{WSD \textit{Cross Language}}
-
-Salah satu penelitian yang ada terkait dengan \textit{cross language} WSD dilakukan untuk antara bahasa Quechua dan Spanyol \citep{rudnick2011towards}. Penelitian tersebut dilakukan untuk menghasilkan sebuah sistem WSD yang nantinya dapat diintegrasikan dengan \textit{Machine Translation System} untuk bahasa tersebut. Kata yang menjadi fokus pada penelitian tersebut hanyalah \textit{adjective word} saja, karena sedikitnya kata infleksional dalam bahasa Quechua. Terdapat dua buah kamus digital yang digunakan untuk melakukan penerjemahan kata antara kedua bahasa. Wordnet bahasa Spanyol yang digunakan bukan sepenuhnya Wordnet \textit{full version} yang membutuhkan biaya dan \textit{lisence} untuk dapat diakses, namun merupakan subset dari Wordnet \textit{full version} tersebut. Korpus yang digunakan sebagai \textit{paralel resource text} merupakan Bitext (bibel Katolik) dengan total 31 ribu jumlah ayat.
-
-Proses ekstraksi kata-kata yang ambigu dari kamus kedua bahasa dilakukan dengan cara menetapkan kata-kata dalam bahasa Spanyol yang dapat diterjemahkan menjadi lebih dari satu kata dalam bahasa Quechua yang berbeda (dengan tipe kelas kata adalah \textit{adjective}).
-
-Setelah mendapatkan kata-kata ambigu pada bahasa Spanyol tersebut, proses berikutnya adalah mencari dan mengumpulkan ayat yang mengandung kata ambigu tersebut untuk data \textit{training}.
-
-Proses disambiguasi yang dicoba menggunakan beberapa cara diantaranya KNN yang memperhitungkan jarak terdekat kedua node kata pada Wordnet, Simplified lesk Algorithm, dan penggunakan fitur untuk \textit{classifier} tertentu. Pendekatan fitur yang digunakan adalah kata samping dari \textit{target word}, synsets dari Wordnet Spanyol untuk kata tetangganya, dan hasil \textit{parse} dengan menggunakan \textit{dependancy parser}. Semua fitur tersebut dicoba pada \textit{classifier} KNN, decision tree, dan naive bayes.
-
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/crosslanguage-wsd}
-	\caption{Akurasi Klasifikasi dari penelitian \citep{rudnick2011towards} dengan cross validation}
-	\label{fig:akurasi-klasifikasi}
-\end{figure}
-
-Simplified Lesk dalam percobaan tersebut menghadapi kasus dimana tidak terdapat kata yang ditemukan dari konteks word pada entri kamus. Fitur yang menghasilkan akurasi terbaik dari percobaan tersebut merupakan KNN dengan fitur konteks kata dengan fitur \textit{parser}.
-
-Berdasarkan hasil yang didapat, sistem \textit{cross-lingual} WSD dengan fitur dan \textit{classifier} yang tepat dapat mengungguli sistem baseline dan Simplified Lesk.
-
 %-----------------------------------------------------------------------------%
 \section{Word Sense Induction}
 %-----------------------------------------------------------------------------%	
@@ -134,7 +117,7 @@ panl-bppt-eco-s1508	Semua ketentuan Insya Allah akan selesai 1 April, kata Burha
 
 \section{Wordnet}
 
-Wordnet merupakan salah satu \textit{resource} yang berisi kelompok kata dalam suatu bahasa yang biasa disebut sebagai \textit{synsets} (\textit{sets of synonyms}). Selain menyimpan kata-kata, Wordnet juga menyimpan makna dari kata-kata tersebut. Informasi makna kata yang ada di dalam Wordnet sering digunakan untuk sistem WSD suatu bahasa sebagai acuan. Makna kata pada Wordnet disimpan dengan \textit{uniq identifier} berupa \textit{sense key} yang memiliki format "\textbf{lemma\%key}". Salah satu contoh \textit{sense key} adalah "home\%1:06:00::" yang mana memiliki makna "\textit{Housing that someone is living in}".
+Wordnet merupakan \textit{online lexical database} yang didesain dan untuk digunakan suatu program \citep{miller1995wordnet}. Salah satu Wordnet untuk bahasa Inggris yang sudah berkembang dan digunakan dalam berbagai penelitian adalah Wordnet yang dikembangkan Princeton. Representasi yang digunakan Wordnet adalah \textit{set of synonyms} (synset) sebagai kumpulan dari kata-kata yang memiliki kemiripan makna. Selain menyimpan kata-kata, Wordnet juga menyimpan makna dari setiap kata-kata tersebut. Informasi makna kata yang ada di dalam Wordnet sering digunakan untuk sistem WSD suatu bahasa sebagai acuan (\textit{sense inventory}). Makna kata pada Wordnet disimpan dengan \textit{uniq identifier} berupa \textit{sense key} yang memiliki format "\textbf{lemma\%key}". Salah satu contoh \textit{sense key} adalah "home\%1:06:00::" yang mana memiliki makna "\textit{Housing that someone is living in}". Representasi \textit{synset} dari Wordnet beserta relasi-relasinya tersebut dapat dimanfaatkan untuk disambiguasi makna suatu kata.
 %-----------------------------------------------------------------------------%
 \section{\textit{Word Alignment}}
 
