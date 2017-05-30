@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  30 MAY 2017 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  30 MAY 2017 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1022,11 +1022,11 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 
 
 
-] <adit_pics/Arsitektur-IMS.png, id=592, 839.135pt x 282.05376pt>
+] <adit_pics/Arsitektur-IMS.png, id=590, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
-Package pdftex.def Info: adit_pics/Arsitektur-IMS.png used on input line 34.
+Package pdftex.def Info: adit_pics/Arsitektur-IMS.png used on input line 36.
 (pdftex.def)             Requested size: 398.3386pt x 133.89084pt.
 
 
@@ -1035,28 +1035,22 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./adit_pics/Arsitektur-IMS.png>]
-Underfull \hbox (badness 4913) in paragraph at lines 55--56
+[6]
+Underfull \hbox (badness 4913) in paragraph at lines 57--58
 []\T1/ptm/m/n/12 Pengujian seberapa baik performa IMS dalam melakukan WSD \T1/p
 tm/m/it/12 task
  []
 
-<adit_pics/Performa-IMS.png, id=604, 622.325pt x 77.28876pt>
+<adit_pics/Performa-IMS.png, id=597, 622.325pt x 77.28876pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
-Package pdftex.def Info: adit_pics/Performa-IMS.png used on input line 59.
+Package pdftex.def Info: adit_pics/Performa-IMS.png used on input line 61.
 (pdftex.def)             Requested size: 398.3386pt x 49.4717pt.
 
-Underfull \hbox (badness 1158) in paragraph at lines 64--65
+Underfull \hbox (badness 1158) in paragraph at lines 66--67
 []\T1/ptm/m/n/12 IMS digunakan pada penelitian ini karena sistem WSD ini sudah 
 dapat
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 70--71
-\T1/ptm/m/n/12 tidak mempunyai cukup \T1/ptm/m/it/12 resource \T1/ptm/m/n/12 se
-perti misalnya Wordnet yang memadai.
  []
 
 
@@ -1065,25 +1059,23 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7 <./adit_pics/Performa-IMS.png>]
-Underfull \hbox (badness 1430) in paragraph at lines 84--85
+[7 <./adit_pics/Arsitektur-IMS.png> <./adit_pics/Performa-IMS.png>]
+Underfull \hbox (badness 1430) in paragraph at lines 86--87
 []\T1/ptm/m/n/12 Walaupun belum terdapat informasi eksplisit makna dari tezgüno
 , dapat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 \T1/ptm/m/n/12 disimpulkan bahwa tezgüno mengacu pada minuman beralkohol yang
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 84--85
+Underfull \hbox (badness 1931) in paragraph at lines 86--87
 \T1/ptm/m/n/12 memabukkan. Penarikan kesimpulan ini didapatkan dari kemunculan 
 kata
  []
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 103.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1091,6 +1083,9 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 105.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1105,17 +1100,24 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-Underfull \hbox (badness 1303) in paragraph at lines 159--161
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+Underfull \hbox (badness 1303) in paragraph at lines 161--163
 \T1/ptm/m/n/12 antara \T1/ptm/m/it/12 probable \T1/ptm/m/n/12 dan \T1/ptm/m/it/
 12 sure alignment\T1/ptm/m/n/12 , maka semua hasil \T1/ptm/m/it/12 alignment \T
 1/ptm/m/n/12 dianggap
  []
 
-<adit_pics/svm-hyperplane.png, id=675, 502.87875pt x 298.11375pt>
+<adit_pics/svm-hyperplane.png, id=678, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
-Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 167.
+Package pdftex.def Info: adit_pics/svm-hyperplane.png used on input line 169.
 (pdftex.def)             Requested size: 398.3386pt x 236.13957pt.
 
 
@@ -1124,29 +1126,29 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [12 <./adit_pics/svm-hyperplane.png>]
-<adit_pics/word2vec_diagrams.png, id=697, 836.12375pt x 486.81876pt>
+<adit_pics/word2vec_diagrams.png, id=693, 836.12375pt x 486.81876pt>
 File: adit_pics/word2vec_diagrams.png Graphic file (type png)
 
 <use adit_pics/word2vec_diagrams.png>
-Package pdftex.def Info: adit_pics/word2vec_diagrams.png used on input line 183
+Package pdftex.def Info: adit_pics/word2vec_diagrams.png used on input line 185
 .
 (pdftex.def)             Requested size: 398.3386pt x 231.93213pt.
-)
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./adit_pics/word2vec_diagrams.png>]
+[13])
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <./adit_pics/word2vec_diagrams.png>]
 \openout2 = `bab3.aux'.
 
  (./bab3.tex
@@ -1161,7 +1163,7 @@ File: adit_pics/WSD-full.jpeg Graphic file (type jpg)
 <use adit_pics/WSD-full.jpeg>
 Package pdftex.def Info: adit_pics/WSD-full.jpeg used on input line 9.
 (pdftex.def)             Requested size: 398.3386pt x 227.83392pt.
- [14
+ [15
 
 
 
@@ -1177,7 +1179,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
+[16]
 Underfull \hbox (badness 5133) in paragraph at lines 49--50
 []\T1/ptm/m/n/12 Pemasangan antar kalimat yang bersesuaian dengan kata-kata yan
 g
@@ -1206,14 +1208,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16])
+[17])
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
+[18]
 \openout2 = `bab4.aux'.
 
  (./bab4.tex
@@ -1239,7 +1241,7 @@ Underfull \hbox (badness 1552) in paragraph at lines 21--22
 m/m/n/12 ini pada proses selanjutnya,
  []
 
-[18
+[19
 
 
 
@@ -1265,7 +1267,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19]
+[20]
 Underfull \hbox (badness 4108) in paragraph at lines 62--63
 \T1/ptm/m/n/12 Setelah mendapatkan \T1/ptm/m/it/12 file \T1/ptm/m/n/12 A3 dari 
 Giza, dilakukan \T1/ptm/m/it/12 post-processing \T1/ptm/m/n/12 untuk
@@ -1277,7 +1279,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
+[21]
 Underfull \hbox (badness 1152) in paragraph at lines 94--95
 \T1/ptm/m/n/12 kembali pada sistem WSD nantinya. Sementara itu, keperluan nomor
  dua
@@ -1289,7 +1291,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]
+[22]
 Underfull \hbox (badness 3138) in paragraph at lines 112--113
 \T1/ptm/m/n/12 Evaluasi perhitungan \T1/ptm/m/it/12 precision\T1/ptm/m/n/12 , \
 T1/ptm/m/it/12 recall\T1/ptm/m/n/12 , f-score, dan \T1/ptm/m/it/12 agreement \T
@@ -1311,14 +1313,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]
+[23]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]
+[24]
 Underfull \hbox (badness 3690) in paragraph at lines 175--176
 []\T1/ptm/m/n/12 Kata "halaman" memiliki pasangan bahasa Inggris hasil Giza yai
 tu
@@ -1338,14 +1340,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24 <./adit_pics/bidirectional-enhancement.jpeg>]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
+[25 <./adit_pics/bidirectional-enhancement.jpeg>]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1366,7 +1361,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28] <adit_pics/we-vector.jpeg, id=919, 382.42876pt x 141.52875pt>
+[28]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29] <adit_pics/we-vector.jpeg, id=920, 382.42876pt x 141.52875pt>
 File: adit_pics/we-vector.jpeg Graphic file (type jpg)
 
 <use adit_pics/we-vector.jpeg>
@@ -1384,14 +1386,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 <./adit_pics/we-vector.jpeg>])
+[30 <./adit_pics/we-vector.jpeg>])
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30]
+[31]
 \openout2 = `bab5.aux'.
 
  (./bab5.tex
@@ -1406,7 +1408,7 @@ Underfull \hbox (badness 1221) in paragraph at lines 30--31
 gantung dari model yang digunakan pada
  []
 
-[31
+[32
 
 
 
@@ -1417,7 +1419,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32]
+[33]
 Underfull \hbox (badness 1248) in paragraph at lines 63--64
 []\T1/ptm/m/n/12 Pasangan kalimat yang tidak sepenuhnya paralel (\T1/ptm/m/it/1
 2 comparable\T1/ptm/m/n/12 ), seperti
@@ -1435,7 +1437,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
+[34]
 Underfull \hbox (badness 1472) in paragraph at lines 91--92
 \T1/ptm/m/n/12 5 kelas kata (\T1/ptm/m/it/12 sense key\T1/ptm/m/n/12 ), \T1/ptm
 /m/it/12 target word \T1/ptm/m/n/12 yang diambil adalah "memecahkan".
@@ -1548,7 +1550,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
+[35]
 Underfull \hbox (badness 1275) in paragraph at lines 134--135
 []\T1/ptm/m/n/12 Pada sebaran jumlah \T1/ptm/m/it/12 instance \T1/ptm/m/n/12 di
  dalam kelas-kelasnya, kata "kehadiran"
@@ -1560,7 +1562,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]
+[36]
 Overfull \hbox (0.52434pt too wide) in paragraph at lines 142--143
 []|\T1/ptm/m/n/12 Jumlah| 
  []
@@ -1668,14 +1670,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
+[37]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37] <adit_pics/memecahkan.png, id=986, 667.49374pt x 357.335pt>
+[38] <adit_pics/memecahkan.png, id=985, 667.49374pt x 357.335pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
@@ -1688,13 +1690,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]
+[39]
 Underfull \hbox (badness 4505) in paragraph at lines 239--240
 []\T1/ptm/m/n/12 Pada kata "memecahkan" dapat dilihat bahwa performa sistem WSD
 
  []
 
-<adit_pics/menolak.png, id=991, 729.72626pt x 353.32pt>
+<adit_pics/menolak.png, id=990, 729.72626pt x 353.32pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
@@ -1707,8 +1709,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39 <./adit_pics/memecahkan.png>]
-<adit_pics/obat.png, id=1002, 641.39626pt x 360.34625pt>
+[40 <./adit_pics/memecahkan.png>]
+<adit_pics/obat.png, id=1000, 641.39626pt x 360.34625pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
@@ -1721,8 +1723,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40 <./adit_pics/menolak.png>]
-<adit_pics/lingkungan.png, id=1012, 617.30624pt x 330.23375pt>
+[41 <./adit_pics/menolak.png>]
+<adit_pics/lingkungan.png, id=1011, 617.30624pt x 330.23375pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
@@ -1735,8 +1737,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./adit_pics/obat.png>]
-<adit_pics/halaman.png, id=1023, 601.24625pt x 342.27875pt>
+[42 <./adit_pics/obat.png>]
+<adit_pics/halaman.png, id=1022, 601.24625pt x 342.27875pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
@@ -1749,8 +1751,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42 <./adit_pics/lingkungan.png>]
-<adit_pics/kehadiran.png, id=1034, 652.4375pt x 352.31625pt>
+[43 <./adit_pics/lingkungan.png>]
+<adit_pics/kehadiran.png, id=1032, 652.4375pt x 352.31625pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
@@ -1763,8 +1765,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43 <./adit_pics/halaman.png>]
-<adit_pics/hati.png, id=1044, 643.40375pt x 341.275pt>
+[44 <./adit_pics/halaman.png>]
+<adit_pics/hati.png, id=1042, 643.40375pt x 341.275pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
@@ -1777,13 +1779,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44 <./adit_pics/kehadiran.png>]
+[45 <./adit_pics/kehadiran.png>]
 Underfull \hbox (badness 3803) in paragraph at lines 361--362
 []\T1/ptm/m/n/12 Pada kasus kata "hati", performa sistem dengan kamus \T1/ptm/m
 /it/12 bi-directional
  []
 
-<adit_pics/coklat.png, id=1054, 581.17125pt x 329.23pt>
+<adit_pics/coklat.png, id=1052, 581.17125pt x 329.23pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
@@ -1796,8 +1798,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45 <./adit_pics/hati.png>]
-<adit_pics/berat.png, id=1064, 609.27625pt x 350.30875pt>
+[46 <./adit_pics/hati.png>]
+<adit_pics/berat.png, id=1062, 609.27625pt x 350.30875pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
@@ -1810,7 +1812,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46 <./adit_pics/coklat.png>]
+[47 <./adit_pics/coklat.png>]
 File: adit_pics/lingkungan.png Graphic file (type png)
  <use adit_pics/lingkungan.png>
 Package pdftex.def Info: adit_pics/lingkungan.png used on input line 407.
@@ -1822,7 +1824,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47 <./adit_pics/berat.png>])
+[48 <./adit_pics/berat.png>])
 Underfull \hbox (badness 1325) in paragraph at lines 423--122
 []\T1/ptm/m/n/12 Berdasarkan berbagai grafik dari masing-masing kata \T1/ptm/m/
 it/12 sample\T1/ptm/m/n/12 , fitur yang
@@ -1840,14 +1842,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
+[49]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
+[50]
 \openout2 = `bab6.aux'.
 
  (./bab6.tex
@@ -1874,7 +1876,7 @@ Underfull \hbox (badness 2368) in paragraph at lines 19--20
 rawan menimbulkan
  []
 
-[50
+[51
 
 
 
@@ -1885,7 +1887,19 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51] (./skripsi.bbl [52
+[52] (./skripsi.bbl
+Underfull \hbox (badness 3601) in paragraph at lines 66--71
+[]\T1/ptm/m/n/12 Sheeba, J., Vivekanandan, K., Sabitha, G., dan Padmavathi, P. 
+(2013).
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 66--71
+\T1/ptm/m/n/12 Unsupervised hidden topic framework for extracting keywords (syn
+onym,
+ []
+
+[53
 
 
 ])
@@ -1897,7 +1911,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
+[54]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./skripsi.aux (./sampul.aux) (./judul_dalam.aux) (./orisinal.aux)
 (./pengesahan_sidang.aux) (./pengantar.aux) (./persetujuan_publikasi.aux)
@@ -2078,68 +2092,36 @@ adit_pics/lingkungan.png
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-
-Package rerunfilecheck Warning: File `skripsi.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `skripsi.out':
-(rerunfilecheck)             Before: 7A37BA1B8287D1D1B46CBA0D2D53B0D0;5588
-(rerunfilecheck)             After:  DF94F31211E39DFBCAABE69F2467F533;5577.
+Package rerunfilecheck Info: File `skripsi.out' has not changed.
+(rerunfilecheck)             Checksum: 25F90E7ABA6D47D1149A593DBE4BA18A;5615.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 16338 strings out of 493014
- 223614 string characters out of 6133352
- 461681 words of memory out of 5000000
- 18833 multiletter control sequences out of 15000+600000
+ 16333 strings out of 493014
+ 223563 string characters out of 6133352
+ 461483 words of memory out of 5000000
+ 18835 multiletter control sequences out of 15000+600000
  47291 words of font info for 72 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
- 44i,14n,51p,2050b,1936s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.32} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.26} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.43} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/courier/ucrbo8a.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
-/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (67 pages, 566187 bytes).
+ 44i,14n,51p,2028b,1936s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/courier/ucrbo8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
+rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on skripsi.pdf (68 pages, 568218 bytes).
 PDF statistics:
- 1254 PDF objects out of 1440 (max. 8388607)
- 1128 compressed objects within 12 object streams
- 451 named destinations out of 1000 (max. 500000)
+ 1249 PDF objects out of 1440 (max. 8388607)
+ 1122 compressed objects within 12 object streams
+ 444 named destinations out of 1000 (max. 500000)
  718 words of extra memory for PDF output out of 10000 (max. 10000000)
 
