@@ -187,11 +187,4 @@ Terdapat beberapa cara untuk merepresentasikan sebuah kata sebagai \textit{input
 
 Representasi \textit{one hot vector} akan mempunyai panjang vektor yang besar jika korpus mempunyai jumlah kata unik yang besar. Terdapat bentuk representasi lain untuk membentuk vektor dari kata, salah satunya adalah dengan \textit{word embedding}. \textit{Word Embedding} menggunakan representasi bilangan \textit{real} pada vektor untuk merepresentasikan sebuah kata berdasarkan hasil \textit{training} dengan suatu korpus. Contoh representasi dari \textit{word embedding} pada suatu kata "makan" adalah vektor [0.6, -0.3, ..., 0.5] (misalnya). Vektor dari hasil \textit{word embedding} mempunyai karakteristik dimana jarak antara dua buah vektor dari kata yang mirip secara semantik bernilai kecil(dekat). Bila misalkan pada data \textit{training} untuk \textit{word embedding} terdapat banyak kalimat-kalimat berbentuk "... makan Y ..." dimana Y adalah sebuah objek berupa makanan. Maka kata-kata yang mewakili Y seperti misalnya "burger", "apel", "steak", dan lain-lain, akan memiliki vektor yang mirip dan secara implisit dapat saling menggantikan untuk menempati posisi Y tersebut. Berdasarkan keterdekatan vektor tersebut, \textit{word embedding} mampu untuk menangkap semantik dari kata-kata yang ada pada korpus.
 
-Salah satu model \textit{word embedding} yang dapat digunakan adalah Word2Vec \citep{mikolov2013distributed}. Terdapat dua buah arsitektur Word2Vec tersebut, yaitu skip-Gram dan \textit{Continous bag-of-words} (CBOW). Arsitektur pada CBOW memiliki pendekatan untuk memprediksi setiap kata berdasarkan kata-kata disekelilingnya. Lain halnya dengan arsitektur tersebut, Skip-Gram akan memprediksi kata-kata di sekeliling berdasarkan kata yang diberikan. Gambaran dari skip-gram dan CBOW dapat dilihat pada gambar berikut:
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/word2vec_diagrams.png}
-	\caption{Word2Vec}
-	\label{fig:Word2Vec}
-\end{figure}
+Salah satu model \textit{word embedding} yang dapat digunakan adalah Word2Vec \citep{mikolov2013distributed}. Pada penelitian ini Word2Vec akan digunakan untuk memanfaatkan vektor \textit{word embedding} sebagai salah satu fitur percobaan skenario yang ada. 
