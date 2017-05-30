@@ -125,7 +125,17 @@ Wordnet merupakan \textit{online lexical database} yang didesain dan untuk digun
 
 \subsection{\textit{Task Word Alignment}}
 Tugas dari \textit{word alignment} adalah menemukan korespondensi antara kata dan frasa pada teks paralel 
-\citep{mihalcea2003evaluation}. Evaluasi ini akan membandingkan antara hasil \textit{alignment} dari sebuah tool \textit{word alignment} dengan hasil \textit{alignment} manusia sebagai \textit{gold standard}. Kasus yang dapat terjadi pada proses \textit{alignment} ini adalah ketika terdapat kata yang tidak memiliki pasangan. Contoh dari kasus tersebut dapat dilihat pada pasangan kaimat berikut:
+\citep{mihalcea2003evaluation}. Secara umum, proses dari pemasangan kata berlangsung seperti pada gambar \ref{fig:word-alignment}.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/wordalignment.jpeg}
+	\caption{Word Alignment}
+	\label{fig:word-alignment}
+\end{figure}
+
+Kasus yang dapat terjadi pada proses \textit{alignment} ini salah satunya adalah ketika terdapat kata yang tidak memiliki pasangan. Contoh dari kasus tersebut dapat dilihat pada pasangan kaimat berikut:
 
 \begin{lstlisting}
 K1(en) : He would do it regardless what people say
@@ -133,8 +143,7 @@ K1(id) : Dia akan melakukannya segalanya
 \end{lstlisting}
 
 
-Bila melihat bahasa Indonesia sebagai sumber bahasa, maka kata "segalanya" pada kalimat tersebut tidak memiliki pasangan. Pada kasus seperti contoh diatas, kata yang tidak memiliki pasangan akan dipasangkan dengan \textit{token} khusus yaitu NULL.
-
+Bila melihat bahasa Indonesia sebagai sumber bahasa, maka kata "segalanya" pada kalimat tersebut tidak memiliki pasangan dalam bahasa Inggris K1. Pada kasus-kasus seperti ini, biasanya akan ada token khusus yang nantinya akan berpasangan dengan kata-kata yang tidak mempunyai pasangan.
 
 Selain kata yang tidak memiliki pasangan, terdapat juga kasus dimana pasangan adalah berupa frasa. Hal ini dapat dilihat pada contoh berikut:
 

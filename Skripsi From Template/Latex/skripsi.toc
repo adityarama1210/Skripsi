@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {2.5}Wordnet}{10}{section.2.5}
 \contentsline {section}{\numberline {2.6}\textit {Word Alignment}}{11}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}\textit {Task Word Alignment}}{11}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Pengukuran Evaluasi}{11}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.2}Pengukuran Evaluasi}{12}{subsection.2.6.2}
 \contentsline {section}{\numberline {2.7}Support Vector Machine}{12}{section.2.7}
 \contentsline {section}{\numberline {2.8}Word Embedding Language Model}{13}{section.2.8}
 \contentsline {chapter}{\numberline {3}\uppercase {Rancangan Penelitian}}{15}{chapter.3}
@@ -77,4 +77,4 @@
 \contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{51}{chapter.6}
 \contentsline {section}{\numberline {6.1}Kesimpulan}{51}{section.6.1}
 \contentsline {section}{\numberline {6.2}Saran}{51}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{53}{chapter*.42}
+\contentsline {chapter}{Daftar Referensi}{53}{chapter*.43}
