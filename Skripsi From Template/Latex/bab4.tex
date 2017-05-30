@@ -93,76 +93,6 @@ Contoh dari hasil \textit{post-processing} pada pasangan kalimat sebelumnya adal
 
 Hasil ini kemudian disimpan sebagai sebuah \textit{file} sendiri yang akan digunakan kembali pada sistem WSD nantinya. Sementara itu, keperluan nomor dua difokuskan untuk membuat \textit{dictionary} yang akan ditingkatkan kualitasnya pada tahap berikutnya. Untuk menghasilkan \textit{file} yang dibutuhkan pada nomor kedua, dilakukan pengumpulan pasangan kata bahasa Indonesia dengan bahasa Inggris. Bila misalkan pada kalimat ke-n terdapat kata "undang-undang" yang dipasangkan dengan "law", dan pasangan kata "undang-undang" dengan "regulation" pada kalimat lain (kalimat ke-m, dimana m != n). Berdasarkan kedua kalimat tersebut, maka kata "undang-undang" akan berpasangan dengan dua kata yaitu "law", dan "regulation".
 
-
-\section{Evaluasi \textit{Word Alignment}}
-
-Proses evaluasi meliputi \textit{pre-processing}, anotasi data, dan evaluasi.
-
-\subsection{Pre-Processing}
-Terdapat beberapa proses dalam mempersiapkan data untuk evaluasi oleh anotator.
-\begin{enumerate}
-	\item Pertama, pada setiap kata dalam bahasa Indonesia diberikan sebuah tanda indeks berupa angka untuk mempermudah proses evaluasi anotator nantinya. Pada proses tersebut, kalimat "Aku ingin makan" sebagai perumpamaan, diubah menjadi "Aku(1) ingin(2) makan(3)". Angka tersebut diperuntukan untuk mempercepat dan mempermudah kerja anotator nanti untuk melihat pasangan kata dari kalimat bahasa Inggris.
-	\item Kedua, kosongkan nomor indeks hasil \textit{alignment} Giza pada kalimat bahasa Inggris. Perumpamaan pada kalimat "NULL (\{  \}) i (\{ 1 \}) want (\{ 2 \}) to (\{  \}) eat (\{ 3 \})" akan berubah menjadi  "NULL (\{  \}) i (\{  \}) want (\{   \}) to (\{  \}) eat (\{  \})" yang nantinya akan diisi secara manual oleh anotator.
-\end{enumerate}
-
-\subsection{Anotasi}
-Setelah diberikan pasangan kalimat untuk dianotasi, anotator melakukan anotasi sesuai dengan panduan yang diberikan. Hasil dari anotasi tersebut kemudian dikumpulkan kembali untuk dievaluasi.
-
-\subsection{Evaluasi}
-Evaluasi perhitungan \textit{precision}, \textit{recall}, f-score, dan \textit{agreement} merupakan penyesuaian dari rumus pada \citep{mihalcea2003evaluation}. Perhitungan dilakukan secara otomatis dengan program yang dibuat dengan algoritma berikut.
-
-\begin{lstlisting}[language=Python, caption={Word Alignment Evaluation}, label={word-alignment-evaluation}]
-
-def evaluate_bracket(list_giza, list_anotator):
-	# evaluate per character
-	numbers_anotator = len(list_anotator)
-	numbers_giza = len(list_giza)
-	match = 0
-	if numbers_giza < numbers_anotator:
-		# iterate through the numbers giza
-		for n in list_giza:
-			if n in list_anotator:
-				match += 1
-	else:
-		# iterate through the numbers anotator
-		for n in list_anotator:
-			if n in list_giza:
-				match += 1
-	return (numbers_anotator, numbers_giza, match)
-
-# given sentence which already been alignned from the first anotator (an1), second anotator(an2), and giza(giza)
-matches, total_giza, total_anotator, total_giza_1, total_anotator_1 = 0, 0, 0, 0, 0
-precision, recall = [[],[]], [[],[]]
-
-for each sentence in sentences:
-	for each token in sentence:
-		(numbers_anotator, numbers_giza, match) = evaluate_bracket(an1(token), giza(token))
-		(numbers_anotator_1, numbers_giza_1, match_1) = evaluate_brakcet(an2(token), giza(token))
-		agreement = count_agreement(an1(token), an2(token))
-		matches += match
-		matches_1 += match_1
-		total_giza += numbers_giza
-		total_giza_1 += numbers_giza_1
-		total_anotator += numbers_anotator
-		total_anotator_1 += numbers_anotator_1
-	agreement.append(agreement)
-	precision[0].append(matches/total_giza)
-	recall[0].append(matches/total_anotator)
-	precision[1].append(matches_1/total_giza_1)
-	recall[1].append(matches_1/total_anotator_1)
-
-precision = average(precision[0])
-recall = average(recall[0])
-precision_1 = average(precision[1])
-recall_1 = average(recall[1])
-f1 = 2 * precision * recall / (precision + recall)
-f2 = 2 * precision_1 * recall_1 / (precision_1 + recall_1)
-agreement = average(agreement)	
-
-\end{lstlisting}
-
-Berdasarkan cara perhitungan evaluasi tersebut, terdapat dua buah \textit{precision} dan \textit{recall} yang mana masing-masing menunjukan indikator penilaian untuk anotator pertama dan kedua.
-
 \section{Peningkatan Kualitas \textit{Alignment}}
 
 Hasil dari \textit{alignment} kata yang dilakukan Giza masih menghasilkan pasangan-pasangan kata yang tidak tepat. Untuk mengurangi jumlah pasangan kata yang salah tersebut, dilakukan \textit{enhancement} terhadap hasil pasangan kata dari Giza. Terdapat dua macam peningkatan kualitas \textit{alignment} yang digunakan pada penelitian ini, yaitu \textit{crawling based} dan \textit{bi-directional based}.
@@ -243,6 +173,7 @@ Ilustrasi dari proses tersebut pada kata "halaman" adalah sebagai berikut:
 	\item Jika "kemiripan" makna kata yang akan dipindahkan melebihi threshold (0.5), makan akan digunakan \textit{sense key} yang lama karena kedua \textit{sense key} dianggap mempunyai makna yang sama. Penghitungan seberapa dekat "makna" dari kedua \textit{sense key} tersebut dilakukan dengan bantuan \textit{method} path\_similarity dari \textit{tool} NLTK dengan korpus wordnet.
 \end{enumerate}
 
+Setelah didapatkan setiap kata beserta makna hasil \textit{transfernya}, semua kata tersebut disusun ke dalam bentuk JSON dengan bentuk \textit{array of} kalimat yang isinya adalah \textit{array of words}. Setiap \textit{instance} dari \textit{word} tersebut menyimpan kata, POS Tag, dan \textit{sense key} hasil \textit{sense transfering} jika ada.
 %-----------------------------------------------------------------------------%
 \section{Sistem WSD}
 Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. \textit{Machine learning tool} yang digunakan untuk membangun sistem ini adalah Scikit \citep{scikit-learn}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}. Proses yang pertama kali dilakukan oleh sistem adalah membaca korpus dan memilih \textit{target word}, mendapatkan \textit{sense key} dari kata tersebut untuk dijadikan sebagai \textit{class} dari klasifikasi. 
@@ -319,6 +250,75 @@ Fitur ketiga yang dicoba adalah \textit{word embedding}. Model dari \textit{word
 	\label{fig:Ilustrasi-Fitur-Word-Embedding}
 \end{figure}
 
+
+\section{Evaluasi \textit{Word Alignment}}
+
+Proses evaluasi meliputi \textit{pre-processing}, anotasi data, dan evaluasi.
+
+\subsection{Pre-Processing}
+Terdapat beberapa proses dalam mempersiapkan data untuk evaluasi oleh anotator.
+\begin{enumerate}
+	\item Pertama, pada setiap kata dalam bahasa Indonesia diberikan sebuah tanda indeks berupa angka untuk mempermudah proses evaluasi anotator nantinya. Pada proses tersebut, kalimat "Aku ingin makan" sebagai perumpamaan, diubah menjadi "Aku(1) ingin(2) makan(3)". Angka tersebut diperuntukan untuk mempercepat dan mempermudah kerja anotator nanti untuk melihat pasangan kata dari kalimat bahasa Inggris.
+	\item Kedua, kosongkan nomor indeks hasil \textit{alignment} Giza pada kalimat bahasa Inggris. Perumpamaan pada kalimat "NULL (\{  \}) i (\{ 1 \}) want (\{ 2 \}) to (\{  \}) eat (\{ 3 \})" akan berubah menjadi  "NULL (\{  \}) i (\{  \}) want (\{   \}) to (\{  \}) eat (\{  \})" yang nantinya akan diisi secara manual oleh anotator.
+\end{enumerate}
+
+\subsection{Anotasi}
+Setelah diberikan pasangan kalimat untuk dianotasi, anotator melakukan anotasi sesuai dengan panduan yang diberikan. Hasil dari anotasi tersebut kemudian dikumpulkan kembali untuk dievaluasi.
+
+\subsection{Evaluasi}
+Evaluasi perhitungan \textit{precision}, \textit{recall}, f-score, dan \textit{agreement} merupakan penyesuaian dari rumus pada \citep{mihalcea2003evaluation}. Perhitungan dilakukan secara otomatis dengan program yang dibuat dengan algoritma berikut.
+
+\begin{lstlisting}[language=Python, caption={Word Alignment Evaluation}, label={word-alignment-evaluation}]
+
+def evaluate_bracket(list_giza, list_anotator):
+# evaluate per character
+numbers_anotator = len(list_anotator)
+numbers_giza = len(list_giza)
+match = 0
+if numbers_giza < numbers_anotator:
+# iterate through the numbers giza
+for n in list_giza:
+if n in list_anotator:
+match += 1
+else:
+# iterate through the numbers anotator
+for n in list_anotator:
+if n in list_giza:
+match += 1
+return (numbers_anotator, numbers_giza, match)
+
+# given sentence which already been alignned from the first anotator (an1), second anotator(an2), and giza(giza)
+matches, total_giza, total_anotator, total_giza_1, total_anotator_1 = 0, 0, 0, 0, 0
+precision, recall = [[],[]], [[],[]]
+
+for each sentence in sentences:
+for each token in sentence:
+(numbers_anotator, numbers_giza, match) = evaluate_bracket(an1(token), giza(token))
+(numbers_anotator_1, numbers_giza_1, match_1) = evaluate_brakcet(an2(token), giza(token))
+agreement = count_agreement(an1(token), an2(token))
+matches += match
+matches_1 += match_1
+total_giza += numbers_giza
+total_giza_1 += numbers_giza_1
+total_anotator += numbers_anotator
+total_anotator_1 += numbers_anotator_1
+agreement.append(agreement)
+precision[0].append(matches/total_giza)
+recall[0].append(matches/total_anotator)
+precision[1].append(matches_1/total_giza_1)
+recall[1].append(matches_1/total_anotator_1)
+
+precision = average(precision[0])
+recall = average(recall[0])
+precision_1 = average(precision[1])
+recall_1 = average(recall[1])
+f1 = 2 * precision * recall / (precision + recall)
+f2 = 2 * precision_1 * recall_1 / (precision_1 + recall_1)
+agreement = average(agreement)	
+
+\end{lstlisting}
+
+Berdasarkan cara perhitungan evaluasi tersebut, terdapat dua buah \textit{precision} dan \textit{recall} yang mana masing-masing menunjukan indikator penilaian untuk anotator pertama dan kedua.
 
 \subsection{Evaluasi Sistem}
 \textit{Target word} untuk evaluasi dipilih secara manual yang memenuhi kriteria bahwa kata tersebut memiliki kata \textit{translation} lebih dari satu dengan makna yang berbeda.Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan F1-score dari hasil klasifikasi yang dilakukan \textit{classifier} terhadap \textit{target word}. \textit{Cross validation} dilakukan dengan iterasi sebanyak tiga kali dengan perbandingan antara \textit{training} dan \textit{test set} sebesar 0,7:0,3.

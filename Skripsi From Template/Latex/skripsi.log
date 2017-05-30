@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  30 MAY 2017 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  30 MAY 2017 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1298,18 +1298,26 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22]
-Underfull \hbox (badness 3138) in paragraph at lines 112--113
-\T1/ptm/m/n/12 Evaluasi perhitungan \T1/ptm/m/it/12 precision\T1/ptm/m/n/12 , \
-T1/ptm/m/it/12 recall\T1/ptm/m/n/12 , f-score, dan \T1/ptm/m/it/12 agreement \T
-1/ptm/m/n/12 merupakan
+Underfull \hbox (badness 3690) in paragraph at lines 105--106
+[]\T1/ptm/m/n/12 Kata "halaman" memiliki pasangan bahasa Inggris hasil Giza yai
+tu
  []
 
+<adit_pics/bidirectional-enhancement.jpeg, id=778, 743.77875pt x 166.6225pt>
+File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
 
-Underfull \hbox (badness 1264) in paragraph at lines 112--113
-\T1/ptm/m/n/12 penyesuaian dari rumus pada ([]Mihalcea dan Pedersen[], []2003[]
-). Perhitungan
- []
+<use adit_pics/bidirectional-enhancement.jpeg>
+Package pdftex.def Info: adit_pics/bidirectional-enhancement.jpeg used on input
+ line 117.
+(pdftex.def)             Requested size: 398.3386pt x 89.23749pt.
 
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23 <./adit_pics/bidirectional-enhancement.jpeg>]
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1319,34 +1327,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [24]
-Underfull \hbox (badness 3690) in paragraph at lines 175--176
-[]\T1/ptm/m/n/12 Kata "halaman" memiliki pasangan bahasa Inggris hasil Giza yai
-tu
- []
-
-<adit_pics/bidirectional-enhancement.jpeg, id=838, 743.77875pt x 166.6225pt>
-File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
-
-<use adit_pics/bidirectional-enhancement.jpeg>
-Package pdftex.def Info: adit_pics/bidirectional-enhancement.jpeg used on input
- line 187.
-(pdftex.def)             Requested size: 398.3386pt x 89.23749pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 <./adit_pics/bidirectional-enhancement.jpeg>]
+[25]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1360,30 +1348,30 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29] <adit_pics/we-vector.jpeg, id=924, 382.42876pt x 141.52875pt>
+[27] <adit_pics/we-vector.jpeg, id=864, 382.42876pt x 141.52875pt>
 File: adit_pics/we-vector.jpeg Graphic file (type jpg)
 
 <use adit_pics/we-vector.jpeg>
-Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 317.
+Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 248.
 (pdftex.def)             Requested size: 398.3386pt x 147.42397pt.
 
-Underfull \hbox (badness 1348) in paragraph at lines 324--325
-\T1/ptm/m/n/12 kata tersebut memiliki kata \T1/ptm/m/it/12 translation \T1/ptm/
-m/n/12 lebih dari satu dengan makna yang
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <./adit_pics/we-vector.jpeg>]
+Underfull \hbox (badness 3138) in paragraph at lines 269--270
+\T1/ptm/m/n/12 Evaluasi perhitungan \T1/ptm/m/it/12 precision\T1/ptm/m/n/12 , \
+T1/ptm/m/it/12 recall\T1/ptm/m/n/12 , f-score, dan \T1/ptm/m/it/12 agreement \T
+1/ptm/m/n/12 merupakan
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 269--270
+\T1/ptm/m/n/12 penyesuaian dari rumus pada ([]Mihalcea dan Pedersen[], []2003[]
+). Perhitungan
  []
 
 
@@ -1392,7 +1380,20 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30 <./adit_pics/we-vector.jpeg>])
+[29]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+Underfull \hbox (badness 1348) in paragraph at lines 324--325
+\T1/ptm/m/n/12 kata tersebut memiliki kata \T1/ptm/m/it/12 translation \T1/ptm/
+m/n/12 lebih dari satu dengan makna yang
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -2080,8 +2081,8 @@ adit_pics/WSD-full.jpeg
     bab4.tex
 lstlang1.sty    2015/06/04 1.6 listings language file
 lstlang1.sty    2015/06/04 1.6 listings language file
-lstlang1.sty    2015/06/04 1.6 listings language file
 adit_pics/bidirectional-enhancement.jpeg
+lstlang1.sty    2015/06/04 1.6 listings language file
 adit_pics/we-vector.jpeg
     bab5.tex
 adit_pics/memecahkan.png
@@ -2100,7 +2101,7 @@ adit_pics/lingkungan.png
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: DF05C49FCB6A7D584E754D74A20BC0F6;5615.
+(rerunfilecheck)             Checksum: C8CBA893DC0DF5F0C13F64BA67629CE2;5615.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2109,11 +2110,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
 Here is how much of TeX's memory you used:
  16341 strings out of 493014
  223770 string characters out of 6133352
- 461644 words of memory out of 5000000
+ 493645 words of memory out of 5000000
  18841 multiletter control sequences out of 15000+600000
  47291 words of font info for 72 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
- 44i,14n,51p,2028b,1936s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,14n,51p,2028b,1840s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -2125,7 +2126,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (68 pages, 585079 bytes).
+Output written on skripsi.pdf (68 pages, 585288 bytes).
 PDF statistics:
  1254 PDF objects out of 1440 (max. 8388607)
  1126 compressed objects within 12 object streams

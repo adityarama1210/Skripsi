@@ -46,18 +46,18 @@
 \BOOKMARK [1][-]{section.4.3}{4.3 Word Alignment}{chapter.4}% 46
 \BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Pemrosesan Word Alignment}{section.4.3}% 47
 \BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Post-Processing}{section.4.3}% 48
-\BOOKMARK [1][-]{section.4.4}{4.4 Evaluasi Word Alignment}{chapter.4}% 49
-\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 Pre-Processing}{section.4.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Anotasi}{section.4.4}% 51
-\BOOKMARK [2][-]{subsection.4.4.3}{4.4.3 Evaluasi}{section.4.4}% 52
-\BOOKMARK [1][-]{section.4.5}{4.5 Peningkatan Kualitas Alignment}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Pendekatan Crawling}{section.4.5}% 54
-\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Pendekatan Bi-directional}{section.4.5}% 55
-\BOOKMARK [1][-]{section.4.6}{4.6 Sense Transfering}{chapter.4}% 56
-\BOOKMARK [1][-]{section.4.7}{4.7 Sistem WSD}{chapter.4}% 57
-\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Pemilihan Fitur dan Classifier}{section.4.7}% 58
-\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Ekstraksi Fitur}{section.4.7}% 59
-\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 Evaluasi Sistem}{section.4.7}% 60
+\BOOKMARK [1][-]{section.4.4}{4.4 Peningkatan Kualitas Alignment}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 Pendekatan Crawling}{section.4.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Pendekatan Bi-directional}{section.4.4}% 51
+\BOOKMARK [1][-]{section.4.5}{4.5 Sense Transfering}{chapter.4}% 52
+\BOOKMARK [1][-]{section.4.6}{4.6 Sistem WSD}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Pemilihan Fitur dan Classifier}{section.4.6}% 54
+\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Ekstraksi Fitur}{section.4.6}% 55
+\BOOKMARK [1][-]{section.4.7}{4.7 Evaluasi Word Alignment}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Pre-Processing}{section.4.7}% 57
+\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Anotasi}{section.4.7}% 58
+\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 Evaluasi}{section.4.7}% 59
+\BOOKMARK [2][-]{subsection.4.7.4}{4.7.4 Evaluasi Sistem}{section.4.7}% 60
 \BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 61
 \BOOKMARK [1][-]{section.5.1}{5.1 Pembuatan Sense Tagged Corpus Bahasa Inggris}{chapter.5}% 62
 \BOOKMARK [1][-]{section.5.2}{5.2 Evaluasi Word Alignment}{chapter.5}% 63
