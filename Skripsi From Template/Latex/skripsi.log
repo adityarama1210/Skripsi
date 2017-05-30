@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  30 MAY 2017 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  30 MAY 2017 22:51
 entering extended mode
 **./skripsi.tex
 (skripsi.tex
@@ -1351,12 +1351,12 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27] <adit_pics/we-vector.jpeg, id=866, 382.42876pt x 141.52875pt>
-File: adit_pics/we-vector.jpeg Graphic file (type jpg)
+[27] <adit_pics/we-vector.png, id=866, 613.29124pt x 131.49126pt>
+File: adit_pics/we-vector.png Graphic file (type png)
 
-<use adit_pics/we-vector.jpeg>
-Package pdftex.def Info: adit_pics/we-vector.jpeg used on input line 250.
-(pdftex.def)             Requested size: 398.3386pt x 147.42397pt.
+<use adit_pics/we-vector.png>
+Package pdftex.def Info: adit_pics/we-vector.png used on input line 250.
+(pdftex.def)             Requested size: 398.3386pt x 85.40408pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1364,7 +1364,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 <./adit_pics/we-vector.jpeg>]
+[28 <./adit_pics/we-vector.png>]
 Underfull \hbox (badness 3138) in paragraph at lines 273--274
 \T1/ptm/m/n/12 Evaluasi perhitungan \T1/ptm/m/it/12 precision\T1/ptm/m/n/12 , \
 T1/ptm/m/it/12 recall\T1/ptm/m/n/12 , f-score, dan \T1/ptm/m/it/12 agreement \T
@@ -1687,7 +1687,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38] <adit_pics/memecahkan.png, id=990, 667.49374pt x 357.335pt>
+[38] <adit_pics/memecahkan.png, id=991, 667.49374pt x 357.335pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
@@ -1706,7 +1706,7 @@ Underfull \hbox (badness 4505) in paragraph at lines 239--240
 
  []
 
-<adit_pics/menolak.png, id=995, 729.72626pt x 353.32pt>
+<adit_pics/menolak.png, id=996, 729.72626pt x 353.32pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
@@ -1720,7 +1720,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40 <./adit_pics/memecahkan.png>]
-<adit_pics/obat.png, id=1005, 641.39626pt x 360.34625pt>
+<adit_pics/obat.png, id=1006, 641.39626pt x 360.34625pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
@@ -1734,7 +1734,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41 <./adit_pics/menolak.png>]
-<adit_pics/lingkungan.png, id=1016, 617.30624pt x 330.23375pt>
+<adit_pics/lingkungan.png, id=1017, 617.30624pt x 330.23375pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
@@ -1748,7 +1748,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42 <./adit_pics/obat.png>]
-<adit_pics/halaman.png, id=1026, 601.24625pt x 342.27875pt>
+<adit_pics/halaman.png, id=1027, 601.24625pt x 342.27875pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
@@ -1762,7 +1762,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43 <./adit_pics/lingkungan.png>]
-<adit_pics/kehadiran.png, id=1036, 652.4375pt x 352.31625pt>
+<adit_pics/kehadiran.png, id=1037, 652.4375pt x 352.31625pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
@@ -1776,7 +1776,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44 <./adit_pics/halaman.png>]
-<adit_pics/hati.png, id=1046, 643.40375pt x 341.275pt>
+<adit_pics/hati.png, id=1047, 643.40375pt x 341.275pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
@@ -1795,7 +1795,7 @@ Underfull \hbox (badness 3803) in paragraph at lines 361--362
 /it/12 bi-directional
  []
 
-<adit_pics/coklat.png, id=1056, 581.17125pt x 329.23pt>
+<adit_pics/coklat.png, id=1057, 581.17125pt x 329.23pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
@@ -1809,7 +1809,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46 <./adit_pics/hati.png>]
-<adit_pics/berat.png, id=1066, 609.27625pt x 350.30875pt>
+<adit_pics/berat.png, id=1067, 609.27625pt x 350.30875pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
@@ -2088,7 +2088,7 @@ lstlang1.sty    2015/06/04 1.6 listings language file
 lstlang1.sty    2015/06/04 1.6 listings language file
 adit_pics/bidirectional-enhancement.jpeg
 lstlang1.sty    2015/06/04 1.6 listings language file
-adit_pics/we-vector.jpeg
+adit_pics/we-vector.png
     bab5.tex
 adit_pics/memecahkan.png
 adit_pics/menolak.png
@@ -2114,8 +2114,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
  16418 strings out of 493328
- 223061 string characters out of 3139127
- 486732 words of memory out of 3000000
+ 223056 string characters out of 3139127
+ 496732 words of memory out of 3000000
  18900 multiletter control sequences out of 15000+200000
  47291 words of font info for 72 fonts, out of 3000000 for 9000
  1266 hyphenation exceptions out of 8191
@@ -2130,9 +2130,9 @@ am Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on skripsi.pdf (68 pages, 646527 bytes).
+Output written on skripsi.pdf (68 pages, 634946 bytes).
 PDF statistics:
- 1250 PDF objects out of 1440 (max. 8388607)
+ 1251 PDF objects out of 1440 (max. 8388607)
  448 named destinations out of 1000 (max. 500000)
  718 words of extra memory for PDF output out of 10000 (max. 10000000)
 
