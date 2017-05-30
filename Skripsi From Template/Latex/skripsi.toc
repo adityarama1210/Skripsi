@@ -13,8 +13,8 @@
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Perumusan Masalah}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Tujuan dan Manfaat Penelitian}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}Ruang Lingkup Penelitian}{2}{section.1.4}
-\contentsline {section}{\numberline {1.5}Metodologi Penelitian}{2}{section.1.5}
+\contentsline {section}{\numberline {1.4}Ruang Lingkup Penelitian}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Metodologi Penelitian}{3}{section.1.5}
 \contentsline {section}{\numberline {1.6}Sistematika Penulisan}{3}{section.1.6}
 \contentsline {chapter}{\numberline {2}\uppercase {Tinjauan Pustaka}}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Lexical Semantic}{5}{section.2.1}
