@@ -21,45 +21,45 @@ Repeated entry---line 133 of file skripsi.bib
  : @article{denkowski2009survey
  :                             ,
 I'm skipping whatever remains of this entry
-You've used 12 entries,
+You've used 13 entries,
             1935 wiz_defined-function locations,
-            559 strings with 6276 characters,
-and the built_in function-call counts, 5735 in all, are:
-= -- 583
-> -- 226
-< -- 15
-+ -- 84
-- -- 78
-* -- 439
-:= -- 937
-add.period$ -- 40
-call.type$ -- 12
-change.case$ -- 99
-chr.to.int$ -- 12
-cite$ -- 12
-duplicate$ -- 241
-empty$ -- 400
-format.name$ -- 96
-if$ -- 1182
+            565 strings with 6412 characters,
+and the built_in function-call counts, 6125 in all, are:
+= -- 623
+> -- 239
+< -- 16
++ -- 90
+- -- 82
+* -- 474
+:= -- 1003
+add.period$ -- 43
+call.type$ -- 13
+change.case$ -- 106
+chr.to.int$ -- 13
+cite$ -- 13
+duplicate$ -- 255
+empty$ -- 428
+format.name$ -- 103
+if$ -- 1257
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 63
-num.names$ -- 36
-pop$ -- 102
+missing$ -- 12
+newline$ -- 68
+num.names$ -- 39
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 106
 quote$ -- 0
-skip$ -- 193
+skip$ -- 204
 stack$ -- 0
-substring$ -- 417
-swap$ -- 66
+substring$ -- 450
+swap$ -- 67
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
+type$ -- 78
 warning$ -- 0
-while$ -- 51
+while$ -- 55
 width$ -- 0
-write$ -- 160
+write$ -- 173
 (There was 1 error message)

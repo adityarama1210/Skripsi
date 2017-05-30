@@ -54,7 +54,7 @@
 \contentsline {section}{\numberline {4.6}Sistem WSD}{26}{section.4.6}
 \contentsline {subsection}{\numberline {4.6.1}Pemilihan Fitur dan \textit {Classifier}}{26}{subsection.4.6.1}
 \contentsline {subsection}{\numberline {4.6.2}Ekstraksi Fitur}{26}{subsection.4.6.2}
-\contentsline {section}{\numberline {4.7}Evaluasi \textit {Word Alignment}}{29}{section.4.7}
+\contentsline {section}{\numberline {4.7}Evaluasi \textit {Word Alignment}}{28}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}Pre-Processing}{29}{subsection.4.7.1}
 \contentsline {subsection}{\numberline {4.7.2}Anotasi}{29}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Evaluasi}{29}{subsection.4.7.3}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  30 MAY 2017 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  30 MAY 2017 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -983,9 +983,9 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 69.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 65.
 
-Underfull \hbox (badness 1831) in paragraph at lines 69--71
+Underfull \hbox (badness 1831) in paragraph at lines 65--67
 \T1/ptm/m/n/12 tujuan penelitian, tahapan penelitian, ruang lingkup, metodologi
 , dan
  []
@@ -1016,7 +1016,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-] <adit_pics/Arsitektur-IMS.png, id=595, 839.135pt x 282.05376pt>
+] <adit_pics/Arsitektur-IMS.png, id=593, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1035,7 +1035,7 @@ Underfull \hbox (badness 4913) in paragraph at lines 57--58
 tm/m/it/12 task
  []
 
-<adit_pics/Performa-IMS.png, id=602, 622.325pt x 77.28876pt>
+<adit_pics/Performa-IMS.png, id=600, 622.325pt x 77.28876pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
@@ -1093,7 +1093,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] <adit_pics/wordalignment.jpeg, id=668, 442.65375pt x 141.52875pt>
+[10] <adit_pics/wordalignment.jpeg, id=666, 442.65375pt x 141.52875pt>
 File: adit_pics/wordalignment.jpeg Graphic file (type jpg)
 
 <use adit_pics/wordalignment.jpeg>
@@ -1113,7 +1113,7 @@ Underfull \hbox (badness 1303) in paragraph at lines 170--172
 1/ptm/m/n/12 dianggap
  []
 
-<adit_pics/svm-hyperplane.png, id=685, 502.87875pt x 298.11375pt>
+<adit_pics/svm-hyperplane.png, id=686, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
@@ -1149,7 +1149,7 @@ Bab 3.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/WSD-full.jpeg, id=709, 537.00626pt x 307.1475pt>
+<adit_pics/WSD-full.jpeg, id=714, 537.00626pt x 307.1475pt>
 File: adit_pics/WSD-full.jpeg Graphic file (type jpg)
 
 <use adit_pics/WSD-full.jpeg>
@@ -1160,7 +1160,7 @@ Package pdftex.def Info: adit_pics/WSD-full.jpeg used on input line 9.
 
 
  <./adit_pics/WSD-full.jpeg>]
-Underfull \hbox (badness 1442) in paragraph at lines 40--41
+Underfull \hbox (badness 1442) in paragraph at lines 42--43
 \T1/ptm/m/n/12 Proses peningkatan kualitas hasil alignment diperlukan untuk mem
 ini-malisir
  []
@@ -1172,24 +1172,24 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-Underfull \hbox (badness 5133) in paragraph at lines 49--50
+Underfull \hbox (badness 5133) in paragraph at lines 51--52
 []\T1/ptm/m/n/12 Pemasangan antar kalimat yang bersesuaian dengan kata-kata yan
 g
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 49--50
+Underfull \hbox (badness 1527) in paragraph at lines 51--52
 \T1/ptm/m/n/12 berpasangan. Pada contoh kata "halaman" yang berpasangan dengan
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 49--50
+Underfull \hbox (badness 1565) in paragraph at lines 51--52
 \T1/ptm/m/n/12 "courtyard", maka pasangan kalimat "Aku bermain di halaman" akan
 
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 51--52
+Underfull \hbox (badness 1418) in paragraph at lines 53--54
 []\T1/ptm/m/n/12 Pemindahan makna dilakukan sebagai proses akhir. Bila "courtya
 rd"
  []
@@ -1289,7 +1289,7 @@ Underfull \hbox (badness 3690) in paragraph at lines 105--106
 tu
  []
 
-<adit_pics/bidirectional-enhancement.jpeg, id=779, 743.77875pt x 166.6225pt>
+<adit_pics/bidirectional-enhancement.jpeg, id=786, 743.77875pt x 166.6225pt>
 File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
 
 <use adit_pics/bidirectional-enhancement.jpeg>
@@ -1321,6 +1321,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
+Underfull \hbox (badness 2512) in paragraph at lines 190--191
+[]\T1/ptm/m/it/12 Classifier \T1/ptm/m/n/12 yang digunakan pada penelitian ini 
+adalah SVM dari Scikit
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1334,7 +1339,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27] <adit_pics/we-vector.jpeg, id=865, 382.42876pt x 141.52875pt>
+[27] <adit_pics/we-vector.jpeg, id=870, 382.42876pt x 141.52875pt>
 File: adit_pics/we-vector.jpeg Graphic file (type jpg)
 
 <use adit_pics/we-vector.jpeg>
@@ -1670,7 +1675,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38] <adit_pics/memecahkan.png, id=991, 667.49374pt x 357.335pt>
+[38] <adit_pics/memecahkan.png, id=995, 667.49374pt x 357.335pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
@@ -1689,7 +1694,7 @@ Underfull \hbox (badness 4505) in paragraph at lines 239--240
 
  []
 
-<adit_pics/menolak.png, id=996, 729.72626pt x 353.32pt>
+<adit_pics/menolak.png, id=1000, 729.72626pt x 353.32pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
@@ -1703,7 +1708,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40 <./adit_pics/memecahkan.png>]
-<adit_pics/obat.png, id=1007, 641.39626pt x 360.34625pt>
+<adit_pics/obat.png, id=1010, 641.39626pt x 360.34625pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
@@ -1717,7 +1722,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41 <./adit_pics/menolak.png>]
-<adit_pics/lingkungan.png, id=1018, 617.30624pt x 330.23375pt>
+<adit_pics/lingkungan.png, id=1022, 617.30624pt x 330.23375pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
@@ -1731,7 +1736,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42 <./adit_pics/obat.png>]
-<adit_pics/halaman.png, id=1029, 601.24625pt x 342.27875pt>
+<adit_pics/halaman.png, id=1032, 601.24625pt x 342.27875pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
@@ -1745,7 +1750,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43 <./adit_pics/lingkungan.png>]
-<adit_pics/kehadiran.png, id=1039, 652.4375pt x 352.31625pt>
+<adit_pics/kehadiran.png, id=1042, 652.4375pt x 352.31625pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
@@ -1759,7 +1764,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44 <./adit_pics/halaman.png>]
-<adit_pics/hati.png, id=1049, 643.40375pt x 341.275pt>
+<adit_pics/hati.png, id=1052, 643.40375pt x 341.275pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
@@ -1778,7 +1783,7 @@ Underfull \hbox (badness 3803) in paragraph at lines 361--362
 /it/12 bi-directional
  []
 
-<adit_pics/coklat.png, id=1059, 581.17125pt x 329.23pt>
+<adit_pics/coklat.png, id=1062, 581.17125pt x 329.23pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
@@ -1792,7 +1797,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46 <./adit_pics/hati.png>]
-<adit_pics/berat.png, id=1069, 609.27625pt x 350.30875pt>
+<adit_pics/berat.png, id=1072, 609.27625pt x 350.30875pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
@@ -1880,22 +1885,22 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52] (./skripsi.bbl
-Underfull \hbox (badness 3601) in paragraph at lines 66--71
+[52] (./skripsi.bbl [53
+
+
+]
+Underfull \hbox (badness 3601) in paragraph at lines 71--76
 []\T1/ptm/m/n/12 Sheeba, J., Vivekanandan, K., Sabitha, G., dan Padmavathi, P. 
 (2013).
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 66--71
+Underfull \hbox (badness 1577) in paragraph at lines 71--76
 \T1/ptm/m/n/12 Unsupervised hidden topic framework for extracting keywords (syn
 onym,
  []
 
-[53
-
-
-])
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 
 
@@ -2085,53 +2090,36 @@ adit_pics/lingkungan.png
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-
-Package rerunfilecheck Warning: File `skripsi.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `skripsi.out':
-(rerunfilecheck)             Before: C8CBA893DC0DF5F0C13F64BA67629CE2;5615
-(rerunfilecheck)             After:  70F9836C819F37FDDE6CC2A6E61E4953;5615.
+Package rerunfilecheck Info: File `skripsi.out' has not changed.
+(rerunfilecheck)             Checksum: 70F9836C819F37FDDE6CC2A6E61E4953;5615.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 16375 strings out of 493014
- 224012 string characters out of 6133352
- 493556 words of memory out of 5000000
- 18870 multiletter control sequences out of 15000+600000
+ 16374 strings out of 493014
+ 224002 string characters out of 6133352
+ 480541 words of memory out of 5000000
+ 18872 multiletter control sequences out of 15000+600000
  47291 words of font info for 72 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
- 44i,14n,51p,2028b,1840s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.32} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.26} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.43} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/courier/ucrbo8a.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
-/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (68 pages, 536935 bytes).
+ 44i,14n,51p,2011b,1840s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/courier/ucrbo8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
+rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on skripsi.pdf (68 pages, 538068 bytes).
 PDF statistics:
- 1259 PDF objects out of 1440 (max. 8388607)
- 1133 compressed objects within 12 object streams
- 451 named destinations out of 1000 (max. 500000)
+ 1260 PDF objects out of 1440 (max. 8388607)
+ 1134 compressed objects within 12 object streams
+ 448 named destinations out of 1000 (max. 500000)
  718 words of extra memory for PDF output out of 10000 (max. 10000000)
 

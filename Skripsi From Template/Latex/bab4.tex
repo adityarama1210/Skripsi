@@ -176,7 +176,7 @@ Ilustrasi dari proses tersebut pada kata "halaman" adalah sebagai berikut:
 Setelah didapatkan setiap kata beserta makna hasil \textit{transfernya}, semua kata tersebut disusun ke dalam bentuk JSON dengan bentuk \textit{array of} kalimat yang isinya adalah \textit{array of words}. Setiap \textit{instance} dari \textit{word} tersebut menyimpan kata, POS Tag, dan \textit{sense key} hasil \textit{sense transfering} jika ada.
 %-----------------------------------------------------------------------------%
 \section{Sistem WSD}
-Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. \textit{Machine learning tool} yang digunakan untuk membangun sistem ini adalah Scikit \citep{scikit-learn}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}. Proses yang pertama kali dilakukan oleh sistem adalah membaca korpus dan memilih \textit{target word}, mendapatkan \textit{sense key} dari kata tersebut untuk dijadikan sebagai \textit{class} dari klasifikasi. 
+Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}. Proses yang pertama kali dilakukan oleh sistem adalah membaca korpus dan memilih \textit{target word}, mendapatkan \textit{sense key} dari kata tersebut untuk dijadikan sebagai \textit{class} dari klasifikasi. 
 
 \subsection{Pemilihan Fitur dan \textit{Classifier}}
 Terdapat tiga buah fitur pada penelitian ini yang terdiri dari:
@@ -187,7 +187,7 @@ Terdapat tiga buah fitur pada penelitian ini yang terdiri dari:
 	\item Vektor dari hasil \textit{word embedding}
 \end{enumerate}
 
-\textit{Classifier} yang digunakan pada penelitian ini adalah SVM dengan \textit{library} Python yaitu Scikit dengan parameter \textit{default} berupa kernel linear dan C=1.
+\textit{Classifier} yang digunakan pada penelitian ini adalah SVM dari Scikit \citep{scikit-learn} dengan parameter \textit{default} berupa kernel linear dan C=1.
 
 \subsection{Ekstraksi Fitur}
 Fitur bag of words menggunakan pendekatan kemunculan kata-kata pada konteks kalimat sebagai fitur. Kata yang diambil untuk dijadikan fitur adalah dua buah kata di kiri dan di kanan dari \textit{target word}. Pada penelitian ini, kata-kata yang merupakan bagian dari \textit{stopwords} dalam bahasa Indonesia tidak dimasukan sebagai fitur. Contoh dari fitur ini dapat dilihat pada kalimat dengan kata tujuan "bisa" berikut:
@@ -318,7 +318,7 @@ agreement = average(agreement)
 
 \end{lstlisting}
 
-Berdasarkan cara perhitungan evaluasi tersebut, terdapat dua buah \textit{precision} dan \textit{recall} yang mana masing-masing menunjukan indikator penilaian untuk anotator pertama dan kedua.
+Berdasarkan cara perhitungan evaluasi tersebut, terdapat dua buah \textit{precision} dan \textit{recall} yang mana masing-masing menunjukan indikator penilaian untuk anotator pertama dan kedua. Precision didapatkan dengan menghitung jumlah \textit{alignment} yang sama antara anotator dengan hasil giza, dibagi dengan jumlah \textit{alignment} pada Giza. Sementara itu, Recall dihitung dengan cara jumlah \textit{alignment} sama dibagi dengan jumlah \textit{alignment} pada Anotator. Nilai F-score dihitung dengan cara mengalikan 2 dengan Precision dan Recall, lalu membaginya dengan jumlah Precision dan Recall. Precision, Recall, dan F-score masing-masing kalimat kemudian dirata-rata untuk mendapatkan nilai akhir. Agreement pada kedua anotator dilihat dengan membandingkan antara jumlah kesamaan \textit{alignment} pada kedua anotator dibagi dengan jumlah \textit{alignment} anotator pertama.
 
 \subsection{Evaluasi Sistem}
 \textit{Target word} untuk evaluasi dipilih secara manual yang memenuhi kriteria bahwa kata tersebut memiliki kata \textit{translation} lebih dari satu dengan makna yang berbeda.Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan F1-score dari hasil klasifikasi yang dilakukan \textit{classifier} terhadap \textit{target word}. \textit{Cross validation} dilakukan dengan iterasi sebanyak tiga kali dengan perbandingan antara \textit{training} dan \textit{test set} sebesar 0,7:0,3.

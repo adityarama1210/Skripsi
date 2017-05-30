@@ -48,6 +48,11 @@ Nasiruddin, M. (2013).
   disambiguation for under-resourced languages.
 \newblock {\em arXiv preprint arXiv:1310.1425}.
 
+\bibitem[Och dan Ney, 2003]{och03:asc}
+Och, F.~J. dan Ney, H. (2003).
+\newblock A systematic comparison of various statistical alignment models.
+\newblock {\em Computational Linguistics}, 29(1):19--51.
+
 \bibitem[Pedregosa et~al., 2011]{scikit-learn}
 Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
   O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,

@@ -21,7 +21,7 @@ Membangun sistem WSD biasanya dilakukan dengan beberapa pendekatan \textit{machi
 
 Makna kata yang diberikan oleh sistem WSD pada kata-kata pada umumnya berasal dari definisi pada Wordnet. Namun demikian, membangun Wordnet secara manual untuk memenuhi kebutuhannya sebagai inventaris makna kata membutuhkan waktu dan dana yang relatif tidak sedikit. Terdapat beberapa Wordnet bahasa Indonesia yang dapat digunakan, diantaranya adalah Wordnet Bahasa (bahasa.cs.ui.ac.id) dan Wordnet Bahasa yang berasal dari proyek Nanyang Technological University (NTU).  Wordnet dari Bahasa Fasilkom UI masih memiliki sedikit \textit{sets of synonyms} (synsets) yang mana berarti banyak kata-kata yang tidak tersedia di dalamnya. Wordnet bahasa dari proyek NTU sendiri masih mengandung makna kata yang tidak sesuai. Oleh karena masalah tersebut, pada penelitian ini Wordnet yang digunakan adalah Wordnet bahasa Inggris buatan Princeton yang sudah sering digunakan untuk \textit{event} Semantic Evaluation atau Sense Evaluation. Penggunaan makna kata dari Wordnet bahasa Inggris tersebut nantinya akan dipindahkan ke kata dalam bahasa Indonesia yang bersesuaian dengan memanfaatkan sifat paralel dari korpus identik hasil penelitian \citep{larasati2012identic}.
 
-Pendekatan \textit{cross language} dengan bahasa Inggris sebagai pasangan korpus diharapkan dapat memperkaya \textit{resource}(data) yang masih kurang pada bahasa Indonesia. 
+Pendekatan \textit{cross lingual sense transfering} dengan bahasa Inggris sebagai pasangan korpus diharapkan dapat memperkaya \textit{resource}(data) yang masih kurang pada bahasa Indonesia. 
 %-----------------------------------------------------------------------------%
 \section{Perumusan Masalah}
 %-----------------------------------------------------------------------------%
@@ -34,14 +34,10 @@ Beberapa pertanyaan yang menjadi rumusan masalah dalam penelitian ini yaitu:
 %-----------------------------------------------------------------------------%
 \section{Tujuan dan Manfaat Penelitian}
 %-----------------------------------------------------------------------------%
-Tujuan dari penelitian yang dilakukan adalah menghasilkan \textit{sense tagged corpus} dalam bahasa Indonesia sebagai data makna kata, dan menghitung seberapa baik performa \textit{wsd system} bahasa Indonesia yang dibuat.
-
+Tujuan dari penelitian ini adalah menghasilkan \textit{sense tagged corpus} dalam bahasa Indonesia, dan menghitung seberapa baik performa \textit{wsd system} bahasa Indonesia yang dibuat.
 %-----------------------------------------------------------------------------%
 \section{Ruang Lingkup Penelitian}
-Penelitian berfokus pada pemindahan \textit{sense} dari korpus paralel berbahasa Inggris ke Indonesia, dan melakukan \textit{WSD task} pada hasil pemindahan makna kata tersebut.
-
-\textit{Word sense disambiguation} yang dilakukan pada penelitian ini hanya pada tingkatan \textit{coarse-grained} \textit{wsd}.
-
+Penelitian berfokus pada pemindahan \textit{sense} dari korpus paralel berbahasa Inggris ke Indonesia, dan melakukan \textit{WSD task} dari hasil \textit{sense transfering} tersebut.
 %-----------------------------------------------------------------------------%
 \section{Metodologi Penelitian}
 %-----------------------------------------------------------------------------%

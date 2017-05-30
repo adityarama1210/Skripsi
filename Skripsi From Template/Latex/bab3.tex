@@ -2,7 +2,7 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babTiga}
 %-----------------------------------------------------------------------------%
-Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang terdiri dari pembuatan \textit{sense tagged corpus} bahasa Inggris,  \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang diimplementasikan. Diagram dari rancangan sistem yang akan dibuat pada penelitian ini dapat dilihat pada gambar berikut:
+Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang sesuai dengan rancangan sistem pada gambar \ref{fig:Rancangan-Sistem}.
 
 \begin{figure}
 	\centering
@@ -10,12 +10,14 @@ Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang terd
 	\caption{Rancangan Sistem}
 	\label{fig:Rancangan-Sistem}
 \end{figure}
+
+Proses \textit{pipeline} terdiri dari pembuatan \textit{sense tagged corpus} bahasa Inggris,  \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang diimplementasikan.
 %-----------------------------------------------------------------------------%
 
 \section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
 %-----------------------------------------------------------------------------%
 
-Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. \textit{File} yang diberikan sebagai masukan dari IMS adalah kalimat-kalimat pada bahasa Inggris yang berasal dari korpus identik.
+Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS \citep{zhong2010makes} untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. \textit{File} yang diberikan sebagai masukan dari IMS adalah kalimat-kalimat pada bahasa Inggris yang berasal dari korpus identik.
 %-----------------------------------------------------------------------------%
 \section{\textit{Word alignment} pada Korpus Paralel}
 %-----------------------------------------------------------------------------%
@@ -60,7 +62,7 @@ Sistem WSD yang dibangun adalah dengan menggunakan pendekatan \textit{supervised
 Terdapat evaluasi khusus untuk proses \textit{word alignment} dan sistem WSD Bahasa Indonesia yang dibangun. Evaluasi pada bagian \textit{word alignment} ditujukan untuk mengetahui seberapa baik dan \textit{reliable} proses \textit{alignment} yang dilakukan Giza++. Sementara itu, sistem WSD dievaluasi untuk mendapatkan gambaran performa dari fitur seperti apa yang memberikan akurasi terbaik.
 
 \subsection{\textit{Word Alignment}}
-\textit{Word alignment} hasil dari \textit{tool} Giza++ dievaluasi dengan membandingkan hasil \textit{alignment} dari \textit{anotator} dengan hasil \textit{alignment} Giza. Hasil \textit{alignment} yang dilakukan anotator akan dijadikan sebagai \textit{gold standard} acuan untuk perbandingan. Nilai-nilai yang akan dihitung meliputi \textit{precision} (P), \textit{recall} (R), dan F-\textit{score}. 
+\textit{Word alignment} hasil dari \textit{tool} Giza++ dievaluasi dengan membandingkan hasil \textit{alignment} dari \textit{anotator}(orang yang melakukan evaluasi \textit{alignment} secara manual) dengan hasil \textit{alignment} Giza. Hasil \textit{alignment} yang dilakukan anotator akan dijadikan sebagai \textit{gold standard} acuan untuk perbandingan. Nilai-nilai yang akan dihitung meliputi \textit{precision} (P), \textit{recall} (R), dan F-\textit{score}. 
 
 \subsubsection{Proses Anotasi}
 
