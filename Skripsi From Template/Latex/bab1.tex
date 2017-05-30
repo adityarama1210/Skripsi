@@ -11,8 +11,8 @@ Bab ini membahas mengenai latar belakang penelitian, perumusan masalah, tujuan d
 \textit{Word Sense Disambiguation} (WSD) merupakan salah satu tugas untuk menentukan makna terbaik dari sebuah kata. Sebuah kata sendiri dapat memiliki beberapa makna dan bergantung pada konteks dimana kata tersebut muncul. Penentuan makna kata yang paling tepat ini secara tidak langsung dapat membantu beberapa \textit{task} \textit{Natural Language Processing}(NLP) ataupun \textit{Information Retrieval} (IR) lainnya seperti misalnya \textit{machine translation}(MT). Salah satu contoh dimana WSD dapat membantu dalam sistem IR adalah pada \textit{task quention answering} berikut.
 
 \begin{lstlisting}
-Q: Apakah orang Indonesia senang sarapan apel di pagi hari?
-A: Orang indonesia senang untuk apel di pagi hari jika mereka tidak lupa sarapan sebelumnya
+Q: Apakah orang Indonesia sarapan apel di pagi hari?
+A: Ya, orang indonesia sering melakukan apel di pagi hari setelah mereka sarapan dan pergi ke kantor 
 \end{lstlisting}
 
 Pada contoh kasus \textit{question answering} diatas, dapat terjadi jawaban dari \textit{query} yang diberikan tidak cocok dengan pertanyaan karena sistem tidak mengerti bahwa "apel" yang dimaksud pada kalimat pertanyaan adalah apel (buah), bukan merupakan apel (upacara). Sistem WSD yang dapat melakukan disambiguasi makna kata dapat membantu sistem QA diatas untuk dapat mengetahui bahwa "apel" dalam pertanyaan memiliki makna buah.
