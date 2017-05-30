@@ -190,7 +190,7 @@ Terdapat tiga buah fitur pada penelitian ini yang terdiri dari:
 	\item Vektor dari hasil \textit{word embedding}
 \end{enumerate}
 
-\textit{Classifier} yang digunakan pada penelitian ini adalah SVM dari Scikit \citep{scikit-learn} dengan parameter \textit{default} berupa kernel linear dan C=1.
+\textit{Classifier} yang digunakan pada penelitian ini adalah SVM dari Scikit \citep{scikit-learn} dengan parameter \textit{default} berupa kernel linear dan C=1. Penggunaan SVM pada penelitian ini mengikuti \textit{classifier} yang digunakan pada IMS \cite{zhong2010makes} untuk melihat performa yang dihasilkan pada sistem WSD Bahasa Indonesia yang dibuat.
 
 \subsection{Ekstraksi Fitur}
 Fitur bag of words menggunakan pendekatan kemunculan kata-kata pada konteks kalimat sebagai fitur. Kata yang diambil untuk dijadikan fitur adalah dua buah kata di kiri dan di kanan dari \textit{target word}. Pada penelitian ini, kata-kata yang merupakan bagian dari \textit{stopwords} dalam bahasa Indonesia tidak dimasukan sebagai fitur. Contoh dari fitur ini dapat dilihat pada kalimat dengan kata tujuan "bisa" berikut:
