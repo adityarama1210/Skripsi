@@ -5,6 +5,13 @@ Denkowski, M. (2009).
 \newblock A survey of techniques for unsupervised word sense induction.
 \newblock {\em Language \& Statistics II Literature Review}, pages 1--18.
 
+\bibitem[Dinakaramani et~al., 2014]{dinakaramani2014designing}
+Dinakaramani, A., Rashel, F., Luthfi, A., dan Manurung, R. (2014).
+\newblock Designing an indonesian part of speech tagset and manually tagged
+  indonesian corpus.
+\newblock In {\em Asian Language Processing (IALP), 2014 International
+  Conference on}, pages 66--69. IEEE.
+
 \bibitem[Fradkin dan Muchnik, 2006]{fradkin2006support}
 Fradkin, D. dan Muchnik, I. (2006).
 \newblock Support vector machines for classification.
