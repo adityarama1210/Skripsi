@@ -63,11 +63,9 @@ Proses \textit{word alignment} menggunakan dua buah \textit{file} yaitu korpus b
 Giza mengeluarkan beberapa \textit{file} hasil dari proses tersebut. \textit{Output} yang akan digunakan diantaranya adalah \textit{file} bernama A3.final yang merupakan pasangan kalimat dengan kata-kata yang sudah dipasangkan sesuai dengan prediksi terbaik hasil pemrosesan Giza.
 
 \subsection{Post-Processing}
-Setelah mendapatkan \textit{file} A3 dari Giza, dilakukan \textit{post-processing} untuk menghasilkan file yang dengan mudah dapat diproses untuk melakukan \textit{sense transfering}.
+Setelah mendapatkan \textit{file} A3 dari Giza, dilakukan \textit{post-processing} untuk menghasilkan file yang dengan mudah dapat diproses untuk melakukan \textit{sense transfering}. Berikut ini merupakan salah satu contoh pasangan kalimat pada \textit{file} A3 keluaran Giza.
 
-Berikut ini merupakan salah satu contoh pasangan kalimat pada \textit{file} A3 keluaran Giza:
-
-\begin{lstlisting}[caption={A3-File}, label={a3-file}]
+\begin{lstlisting}[backgroundcolor = \color{white}]
 # Sentence pair (47183) source length 9 target length 9 alignment score : 6.85298e-13
 Undang-Undang No 14 tahun 2008 tentang Kebebasan Memperoleh Informasi 
 NULL ({ }) Law ({ 1 }) No ({ 2 }) 14 ({ 3 }) of ({ }) 2008 ({ 4 5 }) on ({ 6 }) Freedom ({ 7 8 }) of ({ }) Information ({ 9 })
@@ -94,7 +92,7 @@ Untuk keperluan nomor satu, bentuk \textit{output} diproses menjadi bentuk lain 
 
 Contoh dari hasil \textit{post-processing} pada pasangan kalimat sebelumnya adalah:
 
-\begin{lstlisting}
+\begin{lstlisting}[backgroundcolor = \color{white}]
 <pair>law||undang-undang</pair>##<pair>no||no</pair>##<pair>14||14</pair>##<pair>2008||tahun 2008</pair>##<pair>on||tentang</pair>##<pair>freedom||kebebasan memperoleh</pair>##<pair>information||informasi</pair>
 \end{lstlisting}
 
@@ -174,7 +172,7 @@ Ilustrasi dari proses tersebut pada kata "halaman" adalah sebagai berikut:
 \begin{enumerate}
 	\item Jika misalkan kata "halaman" pada kamus memiliki pasangan kata "page" dan "courtyard".
 	\item Pada sebuah kalimat "... halaman kedua ..." dimana "\textit{pair}" pada kalimat tersebut diantaranya adalah
-	\begin{lstlisting}
+	\begin{lstlisting}[backgroundcolor = \color{white}]
 	..<pair>second||kedua</pair>##<pair>page||halaman</pair>..
 	\end{lstlisting}
 	\item Pasangan kata yang didapat dari "halaman" dari \textit{pair} tersebut adalah "page". Berdasarkan hasil tersebut kata "page" kemudian diperiksa pada kamus yang ada.
@@ -240,7 +238,7 @@ java -mx300m -cp 'stanford-postagger.jar:lib/*' edu.stanford.nlp.tagger.maxent.M
 
 Hasil dari proses tersebut merupakan korpus dengan setiap kata yang sudah memiliki POS Tag dengan format:
 
-\begin{lstlisting}
+\begin{lstlisting}[backgroundcolor = \color{white}]
 <kata_1>_<postag_1> <kata_2>_<postag_2> ... <kata_n>_<postag_n>
 <kata_x> <postag_x> <kata_y>_<postag_y> ... <kata_z>_<postag_z>
 ...
