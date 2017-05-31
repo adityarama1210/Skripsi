@@ -1,14 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  31 MAY 2017 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  31 MAY 2017 19:47
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**skripsi.tex
-(./skripsi.tex
-LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
+**./skripsi.tex
+(skripsi.tex
+LaTeX2e <2017-04-15>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,46 +22,46 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabtex.sty
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aconfig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabtex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aconfig.sty"
 LaTeX2e detected 
 BABEL detected
 \a@moduledate=\count88
 \a@maindate=\count89
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabaux.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/acmd.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/afonts.sty
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/afonts2.sty))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/ascan.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabaux.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\acmd.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\afonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\afonts2.sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\ascan.sty"
 (ArabTeX) scanner for code `arabtex' installed.
 (ArabTeX) input encoding set to ArabTeX standard conventions.)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aparse.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/awrite.sty
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/xarbsymb.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabskel.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/xarbskel.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aboxes.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabtoks.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/arabchrs.sty))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aligs.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/aoutput.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/abidir.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/atrans.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aparse.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\awrite.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\xarbsymb.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabskel.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\xarbskel.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aboxes.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabtoks.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabchrs.sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aligs.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aoutput.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\abidir.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\atrans.sty"
 (ArabTeX) ZDMG transliteration.)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/alatex.sty
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/afoot.sty))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/abjad.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/apatch.sty
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/alists.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/asect.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/atabg.sty)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/alocal.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\alatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\afoot.sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\abjad.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\apatch.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\alists.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\asect.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\atabg.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\alocal.sty"
 (ArabTeX) 3.11 local stub, 26.02.2006))
 Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
 (ArabTeX) ... now be patient ... )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/utf8.sty
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/utfcode.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\utf8.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\utfcode.sty"
 Package: utfcode 2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
 \u@lb=\count119
 \u@lq=\count120
@@ -72,41 +70,41 @@ Package: utf8 2000/06/13  3.10 UTF-8 input encoding
 
 (ArabTeX) scanner for code UTF-8 installed.)
 (ArabTeX) input encoding set to UTF-8 conventions
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/10 v2.15b AMS math features
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks34
 \ex@=\dimen125
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen126
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count121
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count122
 \leftroot@=\count123
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count124
 \DOTSCASE@=\count125
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box41
 \strutbox@=\box42
 \big@size=\dimen127
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count126
 \c@MaxMatrixCols=\count127
 \dotsspace@=\muskip10
@@ -127,20 +125,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip46
 \multlinetaggap=\skip47
 \mathdisplay@stack=\toks38
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitkv@toks@=\toks39
 \labelindent=\skip48
@@ -149,51 +147,51 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box43
 \enitdp@description=\count133
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip49
 \bibsep=\skip50
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count134
-)
-(./uithesis.sty (./tocbibind.sty
+) (uithesis.sty
+(tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./multirow.sty
+) (multirow.sty
 \bigstrutjot=\dimen135
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks41
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 96.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count135
@@ -201,20 +199,20 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen136
 \Gin@req@width=\dimen137
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count136
@@ -229,12 +227,13 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen144
 \Gm@layoutvoffset=\dimen145
 \Gm@dimlist=\toks42
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: Fixing ArabTeX on input line 50.
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen146
@@ -247,7 +246,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count139
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/subfloat/subfloat.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfloat\subfloat.sty"
 Package: subfloat 2003/08/21 version 2.14
 
 Package `subfloat', Version 2.14 of 2003/08/21.
@@ -260,7 +259,7 @@ Package subfloat Warning: Numbers of floats not counted:
 (subfloat)                Please switch on countmax or remove the code using
 (subfloat)                the counter then..
 
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/pslatex/pslatex.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -295,13 +294,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count140
 \calc@Bcount=\count141
@@ -314,16 +313,16 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count142
 \calc@Cskip=\skip53
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -340,16 +339,15 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pagewidth=\dimen155
 \AM@pageheight=\dimen156
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box44
 \AM@global@opts=\toks43
 \AM@toc@title=\toks44
 \c@AM@survey=\count143
 \AM@templatesizebox=\box45
-)
-(./fncychap.sty
+) (fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip54
 \mylen=\skip55
@@ -358,12 +356,11 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \py=\skip58
 \pyy=\skip59
 \pxx=\skip60
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen157
 \extrarowheight=\dimen158
 \NC@list=\toks45
@@ -373,21 +370,22 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \everycr=\toks46
 \minrowclearance=\skip63
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count144
 \float@exts=\toks47
 \float@box=\box46
 \@float@everytoks=\toks48
 \@floatcapt=\box47
-) (./fontenc.sty
+) (fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip64
 \f@ncyO@elh=\skip65
 \f@ncyO@erh=\skip66
@@ -398,7 +396,7 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 \f@ncyO@olf=\skip71
 \f@ncyO@orf=\skip72
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count145
 \lst@gtempboxa=\box48
 \lst@token=\toks49
@@ -412,24 +410,24 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 \lst@lineno=\count150
 \lst@maxwidth=\dimen162
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count151
 \lst@skipnumbers=\count152
 \lst@framebox=\box49
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.sty"
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
@@ -440,19 +438,18 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \c@FancyVerbLine=\count154
 \FV@StepNumber=\count155
 \FV@OutFile=\write5
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/hhline.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\hhline.sty"
 Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip73
 \LTright=\skip74
@@ -470,14 +467,14 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count160
 \LT@p@ftn=\toks50
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -494,7 +491,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -517,51 +514,51 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 
 
 Package auxhook Warning: Cannot patch \document,
 (auxhook)                using \AtBeginDocument instead.
 
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen164
 \Hy@linkcounter=\count161
 \Hy@pagecounter=\count162
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count163
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `final' set `true' on input line 4322.
-Package hyperref Info: Hyper figures OFF on input line 4446.
-Package hyperref Info: Link nesting OFF on input line 4451.
-Package hyperref Info: Hyper index ON on input line 4454.
-Package hyperref Info: Plain pages OFF on input line 4461.
-Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Option `final' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4691.
+Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count164
-LaTeX Info: Redefining \url on input line 5044.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen165
 \Fld@menulength=\count165
 \Field@Width=\dimen166
 \Fld@charsize=\dimen167
-Package hyperref Info: Hyper figures OFF on input line 6298.
-Package hyperref Info: Link nesting OFF on input line 6303.
-Package hyperref Info: Hyper index ON on input line 6306.
-Package hyperref Info: backreferencing OFF on input line 6313.
-Package hyperref Info: Link coloring OFF on input line 6318.
-Package hyperref Info: Link coloring with OCG OFF on input line 6323.
-Package hyperref Info: PDF/A mode OFF on input line 6328.
-LaTeX Info: Redefining \ref on input line 6368.
-LaTeX Info: Redefining \pageref on input line 6372.
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
 \Hy@abspage=\count166
 \c@Item=\count167
 \c@Hfootnote=\count168
@@ -569,12 +566,12 @@ LaTeX Info: Redefining \pageref on input line 6372.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count169
 \c@bookmark@seq@number=\count170
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -586,27 +583,38 @@ Package hyperref Info: Option `bookmarksopen' set `false' on input line 445.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 445.
 
 )
-(./laporan_setting.tex)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+(laporan_setting.tex) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+"
 Package: babel 2016/04/23 3.9r The Babel package
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-bahasa/bahasai.ldf
-Language: bahasa 2008/03/15 v1.0l Bahasa Indonesia support from the babel syste
-m
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-indonesian\bahasai.ldf"
+Language: bahasai 2017/02/15 v1.0m Bahasa Indonesia support from the babel syst
+em
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-indonesian\indonesian.ldf"
+Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel s
+ystem
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count171
 \U@D=\dimen168
-)))
-(./hype.indonesia.tex) (./istilah.tex) (./skripsi.aux (./sampul.aux)
-(./judul_dalam.aux) (./orisinal.aux) (./pengesahan_sidang.aux) (./pengantar.aux
-) (./persetujuan_publikasi.aux) (./abstrak.aux) (./abstract.aux) (./bab1.aux)
-(./bab2.aux) (./bab3.aux) (./bab4.aux) (./bab5.aux
+))))
+(hype.indonesia.tex) (istilah.tex) (skripsi.aux (sampul.aux) (judul_dalam.aux)
+(orisinal.aux) (pengesahan_sidang.aux) (pengantar.aux)
+(persetujuan_publikasi.aux) (abstrak.aux) (abstract.aux) (bab1.aux) (bab2.aux)
+(bab3.aux) (bab4.aux) (bab5.aux
 
 LaTeX Warning: Label `fig:halaman' multiply defined.
 
-) (./bab6.aux))
+) (bab6.aux))
 \openout1 = `skripsi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -618,8 +626,7 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 48.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 48
 .
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omspzccm.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 48.
@@ -630,7 +637,7 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count172
 \scratchdimen=\dimen169
@@ -643,21 +650,19 @@ LaTeX Font Info:    ... okay on input line 48.
 \MPnumerator=\count176
 \makeMPintoPDFobject=\count177
 \everyMPtoPDFconversion=\toks52
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -697,7 +702,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
@@ -705,10 +710,10 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count178
 Package hyperref Info: Link coloring OFF on input line 48.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count179
@@ -717,23 +722,23 @@ LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
 
-(./skripsi.out) (./skripsi.out)
+(skripsi.out) (skripsi.out)
 \@outlinefile=\write6
 \openout6 = `skripsi.out'.
 
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/apatch.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\apatch.sty"
 \a@lines=\count180
 \a@Lwidth=\dimen171
 \a@displaywidth=\dimen172
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/arabtex/alocal.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\alocal.sty"
 (ArabTeX) 3.11 local stub, 26.02.2006)
 (ArabTeX) version 3.11s (02.07.2006): second phase of patching)
 \openout2 = `sampul.aux'.
 
- (./sampul.tex
-<pics/makara.png, id=321, 154.86429pt x 154.34807pt>
+ (sampul.tex
+<pics/makara.png, id=319, 154.86429pt x 154.34807pt>
 File: pics/makara.png Graphic file (type png)
  <use pics/makara.png>
 Package pdftex.def Info: pics/makara.png used on input line 15.
@@ -746,11 +751,11 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 [1
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pics/
-makara.png>])
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./pics/makara.png>])
 \openout2 = `judul_dalam.aux'.
 
- (./judul_dalam.tex
+
+(judul_dalam.tex
 File: pics/makara.png Graphic file (type png)
  <use pics/makara.png>
 Package pdftex.def Info: pics/makara.png used on input line 13.
@@ -761,35 +766,35 @@ Package pdftex.def Info: pics/makara.png used on input line 13.
 ])
 \openout2 = `orisinal.aux'.
 
- (./orisinal.tex
+ (orisinal.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 18
 .
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 18
 .
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlptmcm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+psycm on input line 18
 .
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxpsycm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -806,7 +811,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout2 = `pengesahan_sidang.aux'.
 
 
-(./pengesahan_sidang.tex
+(pengesahan_sidang.tex
 Underfull \hbox (badness 1466) in paragraph at lines 20--21
 \T1/ptm/m/it/12 Sense Tagged Corpus \T1/ptm/m/n/12 dan \T1/ptm/m/it/12 Word Sen
 se Disam-bi-
@@ -843,14 +848,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 \openout2 = `pengantar.aux'.
 
-(./pengantar.tex) [4
+(pengantar.tex) [4
 
 
 
 ]
 \openout2 = `persetujuan_publikasi.aux'.
 
- (./persetujuan_publikasi.tex
+ (persetujuan_publikasi.tex
 Underfull \hbox (badness 1354) in paragraph at lines 31--37
 \T1/ptm/m/n/12 beserta perangkat yang ada (jika diperlukan). Dengan Hak Bebas R
 oyalti
@@ -874,7 +879,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--37
 ])
 \openout2 = `abstrak.aux'.
 
- (./abstrak.tex
+ (abstrak.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
@@ -886,7 +891,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
 ])
 \openout2 = `abstract.aux'.
 
- (./abstract.tex
+ (abstract.tex
 Underfull \hbox (badness 1590) in paragraph at lines 16--17
 []|\T1/ptm/m/n/12 Cross Language Sense Transfering To Build Sense Tagged
  []
@@ -900,7 +905,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
 
 
-]) (./skripsi.toc [8
+]) (skripsi.toc [8
 
 
 ]
@@ -927,21 +932,21 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] (./skripsi.lof)
+[10] (skripsi.lof)
 \tf@lof=\write8
 \openout8 = `skripsi.lof'.
 
  [11
 
 
-] (./skripsi.lot)
+] (skripsi.lot)
 \tf@lot=\write9
 \openout9 = `skripsi.lot'.
 
  [12
 
 
-] (./skripsi.lol)
+] (skripsi.lol)
 \tf@lol=\write10
 \openout10 = `skripsi.lol'.
 
@@ -951,7 +956,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 ]
 \openout2 = `bab1.aux'.
 
- (./bab1.tex
+ (bab1.tex
 Bab 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1013,7 +1018,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [4]
 \openout2 = `bab2.aux'.
 
- (./bab2.tex
+ (bab2.tex
 Bab 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1023,7 +1028,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-] <adit_pics/Arsitektur-IMS.png, id=593, 839.135pt x 282.05376pt>
+] <adit_pics/Arsitektur-IMS.png, id=589, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1042,7 +1047,7 @@ Underfull \hbox (badness 4913) in paragraph at lines 57--58
 tm/m/it/12 task
  []
 
-<adit_pics/Performa-IMS.png, id=600, 622.325pt x 77.28876pt>
+<adit_pics/Performa-IMS.png, id=596, 622.325pt x 77.28876pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
@@ -1100,7 +1105,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] <adit_pics/wordalignment.jpeg, id=669, 442.65375pt x 141.52875pt>
+[10] <adit_pics/wordalignment.jpeg, id=664, 442.65375pt x 141.52875pt>
 File: adit_pics/wordalignment.jpeg Graphic file (type jpg)
 
 <use adit_pics/wordalignment.jpeg>
@@ -1120,7 +1125,7 @@ Underfull \hbox (badness 1303) in paragraph at lines 172--174
 1/ptm/m/n/12 dianggap
  []
 
-<adit_pics/svm-hyperplane.png, id=689, 502.87875pt x 298.11375pt>
+<adit_pics/svm-hyperplane.png, id=684, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
@@ -1150,13 +1155,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [14]
 \openout2 = `bab3.aux'.
 
- (./bab3.tex
+ (bab3.tex
 Bab 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/WSD-full.jpeg, id=717, 537.00626pt x 307.1475pt>
+<adit_pics/WSD-full.jpeg, id=712, 537.00626pt x 307.1475pt>
 File: adit_pics/WSD-full.jpeg Graphic file (type jpg)
 
 <use adit_pics/WSD-full.jpeg>
@@ -1217,16 +1222,16 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [18]
 \openout2 = `bab4.aux'.
 
- (./bab4.tex
+ (bab4.tex
 Bab 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 Underfull \hbox (badness 1635) in paragraph at lines 18--19
@@ -1296,7 +1301,7 @@ Underfull \hbox (badness 3690) in paragraph at lines 105--106
 tu
  []
 
-<adit_pics/bidirectional-enhancement.jpeg, id=789, 743.77875pt x 166.6225pt>
+<adit_pics/bidirectional-enhancement.jpeg, id=783, 743.77875pt x 166.6225pt>
 File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
 
 <use adit_pics/bidirectional-enhancement.jpeg>
@@ -1304,7 +1309,7 @@ Package pdftex.def Info: adit_pics/bidirectional-enhancement.jpeg used on input
  line 117.
 (pdftex.def)             Requested size: 398.3386pt x 89.23749pt.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
@@ -1346,7 +1351,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27] <adit_pics/we-vector.png, id=872, 613.29124pt x 131.49126pt>
+[27] <adit_pics/we-vector.png, id=865, 613.29124pt x 131.49126pt>
 File: adit_pics/we-vector.png Graphic file (type png)
 
 <use adit_pics/we-vector.png>
@@ -1401,7 +1406,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [31]
 \openout2 = `bab5.aux'.
 
- (./bab5.tex
+ (bab5.tex
 Bab 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1687,7 +1692,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38] <adit_pics/memecahkan.png, id=1002, 667.49374pt x 357.335pt>
+[38] <adit_pics/memecahkan.png, id=994, 667.49374pt x 357.335pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
@@ -1706,7 +1711,7 @@ Underfull \hbox (badness 4505) in paragraph at lines 243--244
 
  []
 
-<adit_pics/menolak.png, id=1007, 729.72626pt x 353.32pt>
+<adit_pics/menolak.png, id=999, 729.72626pt x 353.32pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
@@ -1720,7 +1725,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40 <./adit_pics/memecahkan.png>]
-<adit_pics/obat.png, id=1017, 641.39626pt x 360.34625pt>
+<adit_pics/obat.png, id=1009, 641.39626pt x 360.34625pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
@@ -1734,7 +1739,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41 <./adit_pics/menolak.png>]
-<adit_pics/lingkungan.png, id=1029, 617.30624pt x 330.23375pt>
+<adit_pics/lingkungan.png, id=1020, 617.30624pt x 330.23375pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
@@ -1748,7 +1753,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42 <./adit_pics/obat.png>]
-<adit_pics/halaman.png, id=1039, 601.24625pt x 342.27875pt>
+<adit_pics/halaman.png, id=1030, 601.24625pt x 342.27875pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
@@ -1762,7 +1767,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43 <./adit_pics/lingkungan.png>]
-<adit_pics/kehadiran.png, id=1049, 652.4375pt x 352.31625pt>
+<adit_pics/kehadiran.png, id=1040, 652.4375pt x 352.31625pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
@@ -1776,7 +1781,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44 <./adit_pics/halaman.png>]
-<adit_pics/hati.png, id=1059, 643.40375pt x 341.275pt>
+<adit_pics/hati.png, id=1050, 643.40375pt x 341.275pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
@@ -1795,7 +1800,7 @@ Underfull \hbox (badness 3803) in paragraph at lines 365--366
 /it/12 bi-directional
  []
 
-<adit_pics/coklat.png, id=1069, 581.17125pt x 329.23pt>
+<adit_pics/coklat.png, id=1060, 581.17125pt x 329.23pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
@@ -1809,7 +1814,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46 <./adit_pics/hati.png>]
-<adit_pics/berat.png, id=1079, 609.27625pt x 350.30875pt>
+<adit_pics/berat.png, id=1070, 609.27625pt x 350.30875pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
@@ -1862,7 +1867,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [50]
 \openout2 = `bab6.aux'.
 
- (./bab6.tex
+ (bab6.tex
 Bab 6.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1885,7 +1890,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52] (./skripsi.bbl [53
+[52] (skripsi.bbl [53
 
 
 ]
@@ -1911,10 +1916,10 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [54]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
- (./skripsi.aux (./sampul.aux) (./judul_dalam.aux) (./orisinal.aux)
-(./pengesahan_sidang.aux) (./pengantar.aux) (./persetujuan_publikasi.aux)
-(./abstrak.aux) (./abstract.aux) (./bab1.aux) (./bab2.aux) (./bab3.aux)
-(./bab4.aux) (./bab5.aux) (./bab6.aux))
+ (skripsi.aux (sampul.aux) (judul_dalam.aux) (orisinal.aux)
+(pengesahan_sidang.aux) (pengantar.aux) (persetujuan_publikasi.aux)
+(abstrak.aux) (abstract.aux) (bab1.aux) (bab2.aux) (bab3.aux) (bab4.aux)
+(bab5.aux) (bab6.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 
 
@@ -1948,7 +1953,7 @@ arabchrs.sty    1998/07/11  3.07 letter token definitions
    atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
     utf8.sty    2000/06/13  3.10 UTF-8 input encoding 
  utfcode.sty    2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
- amsmath.sty    2016/03/10 v2.15b AMS math features
+ amsmath.sty    2016/11/05 v2.16a AMS math features
  amstext.sty    2000/06/29 v2.01 AMS text
   amsgen.sty    1999/11/30 v2.0 generic functions
   amsbsy.sty    1999/11/29 v1.2d Bold Symbols
@@ -1963,36 +1968,37 @@ tocbibind.sty    2010/10/13 v1.5k extra ToC listings
 multirow.sty    
 graphicx.sty    2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
   keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
-graphics.sty    2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+graphics.sty    2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
     trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
-graphics.cfg    2016/01/02 v1.10 sample graphics configuration
-  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  pdftex.def    2017/01/12 v0.06k Graphics/color for pdfTeX
 infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
  ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 setspace.sty    2011/12/19 v6.7a set line spacing
 geometry.sty    2010/09/12 v5.6 Page Geometry
-   ifpdf.sty    2016/05/14 v3.1 Provides the ifpdf switch
+   ifpdf.sty    2017/03/15 v3.2 Provides the ifpdf switch
   ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
  ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+geometry.cfg
  caption.sty    2016/02/21 v3.3-144 Customizing captions (AR)
-caption3.sty    2016/02/04 v1.7-139 caption3 kernel (AR)
+caption3.sty    2016/05/22 v1.7-166 caption3 kernel (AR)
 subfloat.sty    2003/08/21 version 2.14
  pslatex.sty    1996/07/24 v1.2 pslatex emulation (DPC)
-pdfpages.sty    2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+pdfpages.sty    2017/01/14 v0.5h Insert pages of external PDF documents (AM)
   ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
     calc.sty    2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
  eso-pic.sty    2015/07/21 v2.0g eso-pic (RN)
-atbegshi.sty    2016/05/16 v1.17 At begin shipout hook (HO)
+atbegshi.sty    2016/06/09 v1.18 At begin shipout hook (HO)
   xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
    color.cfg    2016/01/02 v1.6 sample color configuration
-pppdftex.def    2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+pppdftex.def    2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 fncychap.sty    2007/07/30 v1.34 LaTeX package (Revised chapters)
 colortbl.sty    2012/02/13 v1.0a Color table columns (DPC)
-   array.sty    2014/10/28 v2.4c Tabular extension package (FMi)
+   array.sty    2016/10/06 v2.4d Tabular extension package (FMi)
    float.sty    2001/11/08 v1.3d Float enhancements (AL)
  fontenc.sty
-   t1enc.def    2005/09/27 v1.99g Standard LaTeX file
-fancyhdr.sty    
+   t1enc.def    2017/04/05 v2.0i Standard LaTeX file
+fancyhdr.sty    2016/09/06 3.8 Extensive control of page headers and footers
 listings.sty    2015/06/04 1.6 (Carsten Heinz)
  lstmisc.sty    2015/06/04 1.6 (Carsten Heinz)
 listings.cfg    2015/06/04 1.6 listings configuration
@@ -2003,7 +2009,7 @@ fancyvrb.sty    2008/02/07
 pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
   lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
 longtable.sty    2014/10/28 v4.11 Multi-page Table package (DPC)
-hyperref.sty    2016/05/05 v6.83n Hypertext links for LaTeX
+hyperref.sty    2017/03/14 v6.85a Hypertext links for LaTeX
 hobsub-hyperref.sty    2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 hobsub-generic.sty    2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
   hobsub.sty    2016/05/16 v1.14 Construct package bundles (HO)
@@ -2012,7 +2018,7 @@ ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
 etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
 kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
-pdftexcmds.sty    2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
+pdftexcmds.sty    2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
 pdfescape.sty    2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 bigintcalc.sty    2016/05/16 v1.4 Expandable calculations on big integers (HO)
   bitset.sty    2016/05/16 v1.2 Handle bit-vector datatype (HO)
@@ -2025,22 +2031,24 @@ refcount.sty    2016/05/16 v3.5 Data extraction from label references (HO)
  hycolor.sty    2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
  auxhook.sty    2016/05/16 v1.4 Hooks for auxiliary files (HO)
 kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
-  pd1enc.def    2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+  pd1enc.def    2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
- hpdftex.def    2016/05/05 v6.83n Hyperref driver for pdfTeX
+ hpdftex.def    2017/03/14 v6.85a Hyperref driver for pdfTeX
 rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 laporan_setting.tex
    babel.sty    2016/04/23 3.9r The Babel package
- bahasai.ldf
+ bblopts.cfg    2005/09/08 v0.1 add Arabic and Farsi to "declared" options of b
+abel
+ bahasai.ldf    2017/02/15 v1.0m Bahasa Indonesia support from the babel system
+
     hype.indonesia
  istilah.tex
 omspzccm.fd    2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 supp-pdf.mkii
 epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
   grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
-epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ltcaption.sty    2013/06/09 v1.4-94 longtable captions (AR)
- nameref.sty    2012/10/27 v2.43 Cross-referencing by name of section
+ nameref.sty    2016/05/21 v2.44 Cross-referencing by name of section
 gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
  skripsi.out
  skripsi.out
@@ -2091,35 +2099,33 @@ adit_pics/lingkungan.png
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: 70F9836C819F37FDDE6CC2A6E61E4953;5615.
+(rerunfilecheck)             Checksum: 66CD98ADBD4A2030120E202740990EFB;5694.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 16378 strings out of 493014
- 224108 string characters out of 6133352
- 485575 words of memory out of 5000000
- 18875 multiletter control sequences out of 15000+600000
- 47291 words of font info for 72 fonts, out of 8000000 for 9000
+ 16422 strings out of 493328
+ 223169 string characters out of 3139127
+ 486766 words of memory out of 3000000
+ 18903 multiletter control sequences out of 15000+200000
+ 47291 words of font info for 72 fonts, out of 3000000 for 9000
  1266 hyphenation exceptions out of 8191
- 44i,14n,51p,2011b,1928s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/courier/ucrbo8a.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
-rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
-utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on skripsi.pdf (68 pages, 529547 bytes).
+ 44i,14n,51p,2013b,1930s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
+courier/ucrb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrbo8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
+rw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on skripsi.pdf (68 pages, 636839 bytes).
 PDF statistics:
- 1267 PDF objects out of 1440 (max. 8388607)
- 1140 compressed objects within 12 object streams
+ 1254 PDF objects out of 1440 (max. 8388607)
  449 named destinations out of 1000 (max. 500000)
  718 words of extra memory for PDF output out of 10000 (max. 10000000)
 
