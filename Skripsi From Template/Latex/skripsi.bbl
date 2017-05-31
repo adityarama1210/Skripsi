@@ -53,6 +53,12 @@ Och, F.~J. dan Ney, H. (2003).
 \newblock A systematic comparison of various statistical alignment models.
 \newblock {\em Computational Linguistics}, 29(1):19--51.
 
+\bibitem[Pantel dan Lin, 2002]{pantel2002discovering}
+Pantel, P. dan Lin, D. (2002).
+\newblock Discovering word senses from text.
+\newblock In {\em Proceedings of the eighth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 613--619. ACM.
+
 \bibitem[Pedregosa et~al., 2011]{scikit-learn}
 Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
   O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
