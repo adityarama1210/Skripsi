@@ -18,19 +18,23 @@ Proses pertama yang dilakukan adalah memisahkan kalimat bahasa Inggris dan bahas
 model yang digunakan IMS pada penelitian ini adalah model yang tersedia pada \textit{website software NUS} berdasarkan versi Wordnet 3.0. Model yang digunakan tersebut meliputi hasil \textit{training} kata-kata dalam bahasa Inggris yang sudah dilakukan di penelitian IMS. Proses yang dilakukan IMS dalam melakukan \textit{tagging sense} adalah dengan mengiterasikan melakukan \textit{sentence splitter}, \textit{tokenizing}, \textit{POS Tagging}, dan \textit{lemmatizing}. Setelah proses itu dilakukan, ekstraksi fitur dilakukan sebelum hasilnya masuk ke dalam \textit{classifier} berdasarkan model kata yang sudah ada. 
 
 
-Hasil \textit{output} dari \textit{tool} tersebut adalah korpus dengan kata-kata sudah ditag dengan makna kata yang mungkin(dalam bentuk \textit{sense key}). Makna kata yang diambil untuk kata tersebut merupakan \textit{sense key} dengan nilai kemungkinan terbesar. \textit{Sense key} merupakan \textit{identifier} unik yang menyimpan arti dari suatu kata pada Wordnet Princeton dengan format "lemma\_suatu\_kata\%key". Untuk mempermudah pemakaian \textit{sense tagged corpus} ini pada proses selanjutnya, dilakukan \textit{post-processing} untuk mengubah hasil keluaran ke dalam format berikut:
+Hasil \textit{output} dari \textit{tool} tersebut adalah korpus dengan kata-kata sudah ditag dengan makna kata yang mungkin(dalam bentuk \textit{sense key}). Makna kata yang diambil untuk kata tersebut merupakan \textit{sense key} dengan nilai kemungkinan terbesar. \textit{Sense key} merupakan \textit{identifier} unik yang menyimpan arti dari suatu kata pada Wordnet Princeton dengan format "lemma\_suatu\_kata\%key". Untuk mempermudah pemakaian \textit{sense tagged corpus} ini pada proses selanjutnya, dilakukan \textit{post-processing} untuk mengubah hasil keluaran ke dalam format berikut.\\
 
-\begin{lstlisting}
-<sentence>kata-1||sensekey-1 kata-2||sensekey-2 ...</sentence>
-<sentence>kata-n||sensekey-n kata-m||sensekey-m ...</sentence>
-...
-\end{lstlisting}
+\noindent\fbox{%
+	\parbox{\textwidth}{%
+		<sentence>kata-1||sensekey-1 kata-2||sensekey-2 ...</sentence>\\
+		<sentence>kata-n||sensekey-n kata-m||sensekey-m ...</sentence>\\
+		...	
+	}%
+}\\
 
-Contoh dari kalimat yang sudah diberikan \textit{tag} sampai keluar dari \textit{post-processing} adalah:
+Contoh dari kalimat yang sudah diberikan \textit{tag} sampai keluar dari \textit{post-processing} adalah:\\
 
-\begin{lstlisting}
-<sentence>years||year%1:28:01:: animals||animal%1:03:00:: have||have%2:40:04:: caused||cause%2:36:00:: havoc||havoc%1:04:00::</sentence>
-\end{lstlisting}
+\noindent\fbox{%
+	\parbox{\textwidth}{%
+		<sentence>years||year\%1:28:01:: animals||animal\%1:03:00:: have||have\%2:40:04:: caused||cause\%2:36:00:: havoc||havoc\%1:04:00::</sentence>
+	}%
+}\\
 
 Pada contoh tersebut, kata years memiliki \textit{sense key} berupa "year\%1:28:01::", dimana berdasarkan Wordnet mempunyai arti sebagai '\textit{a period of time containing 365 (or 366) days}'. Tidak semua kata dalam korpus bahasa Inggris ditag oleh IMS, kata-kata sapaan seperti "I", "you", "a" , "the", dan beberapa kata lainnya tidak diberikan \textit{sense key}.  
 
@@ -79,11 +83,14 @@ Terdapat dua buah \textit{post-processing} yang dilakukan dengan tujuan masing-m
 \end{enumerate}
 
 
-Untuk keperluan nomor satu, bentuk \textit{output} diproses menjadi bentuk lain dengan format:
+Untuk keperluan nomor satu, bentuk \textit{output} diproses menjadi bentuk lain dengan format:\\
 
-\begin{lstlisting}
-<pair>kata_en_1||kata_id_1 kata_id_2</pair?##<pair>kata_en_2||kata_id\_3</pair>...</pair>
-\end{lstlisting}
+\noindent\fbox{%
+	\parbox{\textwidth}{%
+		<pair>kata\_en\_1||kata\_id\_1 kata\_id\_2</pair>\#\#<pair>kata\_en\_2||kata\_id\_3\\</pair>...</pair>
+	}%
+}\\
+
 
 Contoh dari hasil \textit{post-processing} pada pasangan kalimat sebelumnya adalah:
 

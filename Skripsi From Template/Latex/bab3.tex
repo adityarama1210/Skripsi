@@ -17,13 +17,30 @@ Proses \textit{pipeline} terdiri dari pembuatan \textit{sense tagged corpus} bah
 \section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
 %-----------------------------------------------------------------------------%
 
-Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS \citep{zhong2010makes} untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. \textit{File} yang diberikan sebagai masukan dari IMS adalah kalimat-kalimat pada bahasa Inggris yang berasal dari korpus identik.
+Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS \citep{zhong2010makes} untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. Gambaran proses secara singkat dapat dilihat pada \ref{fig:producing-en-tag-corpus} berikut.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/bab-3-en-tag-corpus.png}
+	\caption{Ilustrasi Pembuatan \textit{sense tagged corpus} Bahasa Inggris}
+	\label{fig:producing-en-tag-corpus}
+\end{figure}
+
+\textit{File} yang diberikan sebagai masukan dari IMS adalah korpus Bahasa Inggris yang berisi kalimat-kalimat  dalam Bahasa Inggris. Korpus ini didapatkan setelah memisahkan konten dari korpus identik menjadi dua buah korpus Bahasa Indonesia dan Bahasa Inggris. Keluaran dari proses ini adalah korpus berbahasa Inggris dengan kata-kata yang sudah diberikan \textit{tag} berupa \textit{sense key} yang memungkinkan untuk kata tersebut.
 %-----------------------------------------------------------------------------%
 \section{\textit{Word alignment} pada Korpus Paralel}
 %-----------------------------------------------------------------------------%
-Proses \textit{word alignment} ini dilakukan agar nantinya makna kata dari suatu kata dalam bahasa Inggris dapat ditransfer ke kata yang bersesuaian pada Bahasa Indonesia.
+Proses \textit{word alignment} ini dilakukan agar nantinya makna kata dari suatu kata dalam bahasa Inggris dapat ditransfer ke kata yang bersesuaian pada Bahasa Indonesia. Gambaran proses dapat dilihat pada gambar \ref{fig:giza-aligning}.
 
-Proses \textit{alignment} yang dilakukan dengan Giza++ meliputi tahap-tahap berikut:
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/giza-process.png}
+	\caption{Ilustrasi \textit{alignment} dengan Giza++}
+	\label{fig:giza-aligning}
+\end{figure}
+
+Penjelasan dair proses \textit{alignment} tersebut meliputi tahap-tahap berikut:
 \begin{enumerate}
 	\item Mempersiapkan kedua buah \textit{file} yaitu korpus bahasa asal (\textit{source}) dan korpus bahasa tujuan (\textit{target}). Kedua \textit{file} ini berpasangan dalam setiap barisnya. Baris pertama dalam \textit{file} pertama berpasangan dengan baris pertama pada \textit{file} kedua sampai akhir baris pada kedua \textit{file}.
 	\item Menghasilkan \textit{file} perbendaharaan kata dari kedua bahasa dan \textit{list} indeks perbendaharaan kata pada tiap kalimat yang sudah diselaraskan
@@ -31,7 +48,7 @@ Proses \textit{alignment} yang dilakukan dengan Giza++ meliputi tahap-tahap beri
 	\item Proses \textit{alignment} yang menghasilkan beberapa macam \textit{output file} 
 \end{enumerate}
 
-Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kalimat dengan kata-kata yang sudah diselaraskan dengan translasinya dalam bahasa tujuan. Hasil ini merupakan \textit{best viterbi alignment} menurut Giza++.
+Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kalimat dengan kata-kata yang sudah diselaraskan dengan translasinya dalam bahasa tujuan. Hasil ini merupakan \textit{best viterbi alignment} menurut Giza++. Penjelasan lebih mendalam tentang \textit{output file} Giza++ tersebut akan dibahas pada bab implementasi.
 
 Pada skenario \textit{alignment} dengan bahasa Indonesia sebagai \textit{source} dan bahasa Inggris sebagai \textit{target}, satu kata dalam bahasa Indonesia akan dipasangkan dengan tepat satu kata dalam bahasa Inggris.
 
