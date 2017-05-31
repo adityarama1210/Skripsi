@@ -179,7 +179,7 @@ Ilustrasi dari proses tersebut pada kata "halaman" adalah sebagai berikut:
 Setelah didapatkan setiap kata beserta makna hasil \textit{transfernya}, semua kata tersebut disusun ke dalam bentuk JSON dengan bentuk \textit{array of} kalimat yang isinya adalah \textit{array of words}. Setiap \textit{instance} dari \textit{word} tersebut menyimpan kata, POS Tag, dan \textit{sense key} hasil \textit{sense transfering} jika ada.
 %-----------------------------------------------------------------------------%
 \section{Sistem WSD}
-Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}. Proses yang pertama kali dilakukan oleh sistem adalah membaca korpus dan memilih \textit{target word}, mendapatkan \textit{sense key} dari kata tersebut untuk dijadikan sebagai \textit{class} dari klasifikasi. 
+Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}. Proses yang pertama kali dilakukan oleh sistem adalah membaca korpus dan memilih \textit{target word}, mendapatkan \textit{sense key} dari kata tersebut untuk dijadikan sebagai \textit{class} dari klasifikasi. Pada sistem WSD yang dibuat, kata-kata yang terdapat pada \textit{list of stopwords} dihilangkan dari kalimat-kalimat pada data.
 
 \subsection{Pemilihan Fitur dan \textit{Classifier}}
 Terdapat tiga buah fitur pada penelitian ini yang terdiri dari:
@@ -193,13 +193,7 @@ Terdapat tiga buah fitur pada penelitian ini yang terdiri dari:
 \textit{Classifier} yang digunakan pada penelitian ini adalah SVM dari Scikit \citep{scikit-learn} dengan parameter \textit{default} berupa kernel linear dan C=1. Penggunaan SVM pada penelitian ini mengikuti \textit{classifier} yang digunakan pada IMS \cite{zhong2010makes} untuk melihat performa yang dihasilkan pada sistem WSD Bahasa Indonesia yang dibuat.
 
 \subsection{Ekstraksi Fitur}
-Fitur bag of words menggunakan pendekatan kemunculan kata-kata pada konteks kalimat sebagai fitur. Kata yang diambil untuk dijadikan fitur adalah dua buah kata di kiri dan di kanan dari \textit{target word}. Pada penelitian ini, kata-kata yang merupakan bagian dari \textit{stopwords} dalam bahasa Indonesia tidak dimasukan sebagai fitur. Contoh dari fitur ini dapat dilihat pada kalimat dengan kata tujuan "bisa" berikut:
-\\
-- Ani digigit ular dengan bisa yang berbahaya
-\\
-Pada contoh kalimat tersebut, \textit{bag of words} yang diambil adalah ["digigit", "ular", "berbahaya", NULL]
-
-Setiap fitur \textit{bag of words} dari setiap kalimat tersebut dikumpulkan untuk menjadi satu fitur besar yang mendeteksi kemunculan kata-kata tersebut pada setiap kalimat.
+Fitur bag of words menggunakan pendekatan kemunculan kata-kata pada konteks kalimat sebagai fitur. Kata yang diambil untuk dijadikan fitur adalah dua buah kata di kiri dan di kanan dari \textit{target word}.
 
 Proses yang dilakukan dalam pengambilan kata konteks untuk fitur \textit{bag of words} dilakukan dengan tahap-tahap berikut.
 
@@ -208,16 +202,26 @@ Proses yang dilakukan dalam pengambilan kata konteks untuk fitur \textit{bag of 
 bag_of_words []
 
 for each sentence
-	split sentence by whitespace into words
-	for each word
-		if word == target word
-			for x in [-2,-1,1,2]
-				if word(x) exist and word(x) not in bag_of_words
-					add word(x) into bag_of_words
-					
+split sentence by whitespace into words
+for each word
+if word == target word
+for x in [-2,-1,1,2]
+if word(x) exist and word(x) not in bag_of_words
+add word(x) into bag_of_words
+
 return bag_of_words
 
 \end{lstlisting}
+
+Jika ditemukan kata yang merupakan \textit{target word}, ambil kata sebelum dan sesudah dari kata tersebut. Contoh dari fitur ini dapat dilihat pada kalimat dengan kata tujuan "bisa" berikut:
+\\
+- Ani digigit ular dengan bisa yang berbahaya
+\\
+Pada contoh kalimat tersebut, \textit{bag of words} yang diambil adalah ["digigit", "ular", "berbahaya", NULL]
+
+Setiap fitur \textit{bag of words} dari setiap kalimat tersebut dikumpulkan untuk menjadi satu fitur besar yang mendeteksi kemunculan kata-kata tersebut pada setiap kalimat.
+
+
 
 Fitur POS Tagging menggunakan \textit{tool} dari Stanford bernama "A Part-Of-Speech Tagger" yang dilatih dengan menggunakan model untuk bahasa Indonesia. Proses \textit{tagging} ini dilakukan sebelum memasuki sistem WSD terhadap keseluruhan kalimat dalam korpus identik yang berisi bahasa Indonesia saja. Terdapat \textit{pre-processing} awal pada korpus bahasa Indonesia tersebut untuk menghilangkan beberapa tanda baca seperti titik, koma, tanda tanya, tanda seru, dan beberapa tanda baca lainnya. Setelah proses tersebut, diberikan tanda baca berupa titik pada akhir kalimat sebagai indikator akhir sebagai kebutuhan dari kompabilitas \textit{tool} (tidak semua kalimat pada korpus memiliki tanda baca akhir kalimat). Perintah yang dilakukan untuk melakukan \textit{POS Tagging} tersebut adalah:
 
