@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  31 MAY 2017 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  2 JUN 2017 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -149,12 +149,101 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box43
 \enitdp@description=\count133
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count134
+\calc@Bcount=\count135
+\calc@Adimen=\dimen135
+\calc@Bdimen=\dimen136
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count136
+\calc@Cskip=\skip51
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks41
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count137
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+)
+\AM@pagewidth=\dimen139
+\AM@pageheight=\dimen140
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box44
+\AM@global@opts=\toks42
+\AM@toc@title=\toks43
+\c@AM@survey=\count138
+\AM@templatesizebox=\box45
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip49
-\bibsep=\skip50
+\bibhang=\skip52
+\bibsep=\skip53
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count134
+\c@NAT@ctr=\count139
 )
 (./uithesis.sty (./tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -167,39 +256,7 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./multirow.sty
-\bigstrutjot=\dimen135
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks41
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 96.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count135
-))
-\Gin@req@height=\dimen136
-\Gin@req@width=\dimen137
+\bigstrutjot=\dimen141
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -207,9 +264,6 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
@@ -217,18 +271,18 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count136
-\Gm@cntv=\count137
-\c@Gm@tempcnt=\count138
-\Gm@bindingoffset=\dimen138
-\Gm@wd@mp=\dimen139
-\Gm@odd@mp=\dimen140
-\Gm@even@mp=\dimen141
-\Gm@layoutwidth=\dimen142
-\Gm@layoutheight=\dimen143
-\Gm@layouthoffset=\dimen144
-\Gm@layoutvoffset=\dimen145
-\Gm@dimlist=\toks42
+\Gm@cnth=\count140
+\Gm@cntv=\count141
+\c@Gm@tempcnt=\count142
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks44
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -237,15 +291,15 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: Fixing ArabTeX on input line 50.
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen146
-\captionmargin@=\dimen147
-\captionwidth=\dimen148
-\caption@tempdima=\dimen149
-\caption@indent=\dimen150
-\caption@parindent=\dimen151
-\caption@hangindent=\dimen152
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
 )
-\c@ContinuedFloat=\count139
+\c@ContinuedFloat=\count143
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfloat/subfloat.sty
 Package: subfloat 2003/08/21 version 2.14
@@ -294,60 +348,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count140
-\calc@Bcount=\count141
-\calc@Adimen=\dimen153
-\calc@Bdimen=\dimen154
-\calc@Askip=\skip51
-\calc@Bskip=\skip52
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count142
-\calc@Cskip=\skip53
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-))
-\AM@pagewidth=\dimen155
-\AM@pageheight=\dimen156
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
-)
-\AM@pagebox=\box44
-\AM@global@opts=\toks43
-\AM@toc@title=\toks44
-\c@AM@survey=\count143
-\AM@templatesizebox=\box45
 )
 (./fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
@@ -606,35 +606,36 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 
 LaTeX Warning: Label `fig:halaman' multiply defined.
 
-) (./bab6.aux))
+) (./bab6.aux) (./lampiran.aux))
 \openout1 = `skripsi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 48
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 49
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+\AtBeginShipoutBox=\box55
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count172
 \scratchdimen=\dimen169
-\scratchbox=\box55
+\scratchbox=\box56
 \nofMPsegments=\count173
 \nofMParguments=\count174
 \everyMPshowfont=\toks51
@@ -701,9 +702,8 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box56
 \c@lstlisting=\count178
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 49.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -713,9 +713,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count179
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
 (./skripsi.out) (./skripsi.out)
 \@outlinefile=\write6
@@ -839,7 +839,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--46
 ])
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 82.
+(hyperref)                removing `\uppercase' on input line 83.
 
 \openout2 = `pengantar.aux'.
 
@@ -1908,13 +1908,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49 <./adit_pics/berat.png>])
-Underfull \hbox (badness 1325) in paragraph at lines 427--122
+Underfull \hbox (badness 1325) in paragraph at lines 427--123
 []\T1/ptm/m/n/12 Berdasarkan berbagai grafik dari masing-masing kata \T1/ptm/m/
 it/12 sample\T1/ptm/m/n/12 , fitur yang
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 427--122
+Underfull \hbox (badness 1609) in paragraph at lines 427--123
 \T1/ptm/m/it/12 training \T1/ptm/m/n/12 data yang digunakan untuk model ini mem
 engaruhi performa dari
  []
@@ -1974,8 +1974,6 @@ onym,
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1983,12 +1981,140 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [55]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+\openout2 = `lampiran.aux'.
+
+ (./lampiran.tex
+<PanduanEvaluasiWordAlignment.pdf, id=1143, 614.295pt x 794.97pt>
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf used on input line 2.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+ <use PanduanEvaluasiWordAlignment.pdf>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf used on input line 2.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<PanduanEvaluasiWordAlignment.pdf, id=1146, page=1, 614.295pt x 794.97pt>
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 1>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page1 used on input 
+line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 1>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page1 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 1>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page1 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 1>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page1 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 1>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page1 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [56
+
+ <./PanduanEvaluasiWordAlignment.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./PanduanEvaluasiWordAlignme
+nt.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
+, type <array>); ignored.
+>] <PanduanEvaluasiWordAlignment.pdf, id=1180, page=2, 614.295pt x 794.97pt>
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 2>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page2 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 2>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page2 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 2>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page2 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [57 <./PanduanEvaluasiWordAlignment.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./PanduanEvaluasiWordAlignme
+nt.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
+, type <array>); ignored.
+>] <PanduanEvaluasiWordAlignment.pdf, id=1185, page=3, 614.295pt x 794.97pt>
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 3>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page3 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 3>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page3 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 3>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page3 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [58 <./PanduanEvaluasiWordAlignment.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./PanduanEvaluasiWordAlignme
+nt.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
+, type <array>); ignored.
+>] <PanduanEvaluasiWordAlignment.pdf, id=1190, page=4, 614.295pt x 794.97pt>
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 4>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page4 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 4>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page4 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
+
+<use PanduanEvaluasiWordAlignment.pdf, page 4>
+Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf, page4 used on input 
+line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [59 <./PanduanEvaluasiWordAlignment.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./PanduanEvaluasiWordAlignme
+nt.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
+, type <array>); ignored.
+>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./skripsi.aux (./sampul.aux) (./judul_dalam.aux) (./orisinal.aux)
 (./pengesahan_sidang.aux) (./pengantar.aux) (./persetujuan_publikasi.aux)
 (./abstrak.aux) (./abstract.aux) (./bab1.aux) (./bab2.aux) (./bab3.aux)
-(./bab4.aux) (./bab5.aux) (./bab6.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+(./bab4.aux) (./bab5.aux) (./bab6.aux) (./lampiran.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
 
 
  *File List*
@@ -2029,36 +2155,36 @@ arabchrs.sty    1998/07/11  3.07 letter token definitions
  amssymb.sty    2013/01/14 v3.01 AMS font symbols
 amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
 enumitem.sty    2011/09/28 v3.5.2 Customized lists
+pdfpages.sty    2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+  ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+    calc.sty    2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+ eso-pic.sty    2015/07/21 v2.0g eso-pic (RN)
+atbegshi.sty    2016/05/16 v1.17 At begin shipout hook (HO)
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+   ifpdf.sty    2016/05/14 v3.1 Provides the ifpdf switch
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+graphicx.sty    2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/01/02 v1.10 sample graphics configuration
+pppdftex.def    2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
   natbib.sty    2010/09/13 8.31b (PWD, AO)
 uithesis.sty    
 tocbibind.sty    2010/10/13 v1.5k extra ToC listings
      url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
 multirow.sty    
-graphicx.sty    2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
-graphics.sty    2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
-    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
-graphics.cfg    2016/01/02 v1.10 sample graphics configuration
-  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
-infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
- ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 setspace.sty    2011/12/19 v6.7a set line spacing
 geometry.sty    2010/09/12 v5.6 Page Geometry
-   ifpdf.sty    2016/05/14 v3.1 Provides the ifpdf switch
   ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
  ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
  caption.sty    2016/02/21 v3.3-144 Customizing captions (AR)
 caption3.sty    2016/02/04 v1.7-139 caption3 kernel (AR)
 subfloat.sty    2003/08/21 version 2.14
  pslatex.sty    1996/07/24 v1.2 pslatex emulation (DPC)
-pdfpages.sty    2016/04/19 v0.5f Insert pages of external PDF documents (AM)
-  ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-    calc.sty    2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
- eso-pic.sty    2015/07/21 v2.0g eso-pic (RN)
-atbegshi.sty    2016/05/16 v1.17 At begin shipout hook (HO)
-  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
-   color.cfg    2016/01/02 v1.6 sample color configuration
-pppdftex.def    2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 fncychap.sty    2007/07/30 v1.34 LaTeX package (Revised chapters)
 colortbl.sty    2012/02/13 v1.0a Color table columns (DPC)
    array.sty    2014/10/28 v2.4c Tabular extension package (FMi)
@@ -2162,24 +2288,32 @@ adit_pics/berat.png
 adit_pics/lingkungan.png
     bab6.tex
  skripsi.bbl
+lampiran.tex
+PanduanEvaluasiWordAlignment.pdf    Graphic file (type pdf)
+PanduanEvaluasiWordAlignment.pdf    Graphic file (type pdf)
+PanduanEvaluasiWordAlignment.pdf    Graphic file (type pdf)
+PanduanEvaluasiWordAlignment.pdf    Graphic file (type pdf)
+PanduanEvaluasiWordAlignment.pdf    Graphic file (type pdf)
+PanduanEvaluasiWordAlignment.pdf    Graphic file (type pdf)
+PanduanEvaluasiWordAlignment.pdf    Graphic file (type pdf)
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
 (rerunfilecheck)             Checksum: 1E79A1B441389E443D36BCFD220248F7;5615.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
  ) 
 Here is how much of TeX's memory you used:
- 16360 strings out of 493014
- 224222 string characters out of 6133352
- 485917 words of memory out of 5000000
- 18859 multiletter control sequences out of 15000+600000
+ 16392 strings out of 493014
+ 225075 string characters out of 6133352
+ 486415 words of memory out of 5000000
+ 18877 multiletter control sequences out of 15000+600000
  47291 words of font info for 72 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
- 44i,14n,51p,2011b,1928s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,18n,51p,2011b,1928s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -2191,10 +2325,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (69 pages, 605358 bytes).
+Output written on skripsi.pdf (73 pages, 712496 bytes).
 PDF statistics:
- 1275 PDF objects out of 1440 (max. 8388607)
- 1143 compressed objects within 12 object streams
- 445 named destinations out of 1000 (max. 500000)
- 728 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1329 PDF objects out of 1440 (max. 8388607)
+ 1176 compressed objects within 12 object streams
+ 449 named destinations out of 1000 (max. 500000)
+ 763 words of extra memory for PDF output out of 10000 (max. 10000000)
 
