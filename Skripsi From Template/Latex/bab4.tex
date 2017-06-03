@@ -8,8 +8,8 @@ Bab ini akan menjelaskan perihal implementasi dari rancangan yang sudah dibuat p
 Proses pertama yang dilakukan adalah memisahkan kalimat bahasa Inggris dan bahasa Indonesia dari korpus identik menjadi dua buah \textit{file} paralel untuk dapat diproses pada tahap-tahap berikutnya. Korpus yang dihasilkan setelah proses ini adalah dua buah korpus (korpus bahasa Indonesia, dan korpus bahasa Inggris) dimana masing-masing baris merupakan kalimat yang saling berpasangan.
 
 
-\section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
-\textit{Sense Tagged Corpus} dibuat dengan menggunakan bantuan IMS untuk memberikan tag pada korpus bahasa Inggris. \textit{Pre-processing} dilakukan terlebih dahulu terhadap korpus bahasa Inggris seperti menghilangkan tanda baca dan mengubah semua token menjadi huruf kecil. Proses \textit{tagging} dilakukan dengan menjalankan perintah:
+\section{Pembangunan \textit{Sense Tagged Corpus} Bahasa Inggris}
+\textit{Sense Tagged Corpus} dibangun dengan menggunakan bantuan IMS untuk memberikan tag pada korpus bahasa Inggris. \textit{Pre-processing} dilakukan terlebih dahulu terhadap korpus bahasa Inggris seperti menghilangkan tanda baca dan mengubah semua token menjadi huruf kecil. Proses \textit{tagging} dilakukan dengan menjalankan perintah:
 
 \begin{lstlisting}[language=bash, caption={IMS}, label={IMS}]
 ./testPlain.bash <model> <file_input> <file_output> <file_index_sense>
@@ -115,16 +115,7 @@ Konsep \textit{crawling} pada penelitian ini mengacu pada kebutuhan untuk \texti
 
 \subsection{Pendekatan \textit{Bi-directional}}
 
-Metode lain yang digunakan untuk meningkatkan kualitas \textit{aligment} yaitu dengan memanfaatkan \textit{bi-directional alignment}. Proses yang dilakukan adalah melakukan validasi terhadap kata-kata yang berpasangan  dari kedua korpus. Bagan dari \textit{enhancement} pada \textit{bi-directional} ini dapat dilihat pada gambar \ref{fig:Bidirectional-Enhancement}.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/bidirectional-enhancement}
-	\caption{Bi-directional \textit{Enhancement}}
-	\label{fig:Bidirectional-Enhancement}
-\end{figure}
-
-\textit{Source code} dari proses \textit{enhancement bi-directional} ini dapat dilihat pada kode berikut.
+Metode lain yang digunakan untuk meningkatkan kualitas \textit{aligment} yaitu dengan memanfaatkan \textit{bi-directional alignment}. Proses yang dilakukan adalah melakukan validasi terhadap kata-kata yang berpasangan  dari kedua korpus. \textit{Source code} dari proses \textit{enhancement bi-directional} ini dapat dilihat pada kode berikut.
 
 \begin{lstlisting}[language=Python, caption={Word Alignment Enhancement}, label={word-alignment-enhancement}]
 

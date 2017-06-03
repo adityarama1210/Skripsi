@@ -30,9 +30,9 @@
 \BOOKMARK [1][-]{section.2.7}{2.7 Support Vector Machine}{chapter.2}% 30
 \BOOKMARK [1][-]{section.2.8}{2.8 Word Embedding Language Model}{chapter.2}% 31
 \BOOKMARK [0][-]{chapter.3}{3 Rancangan Penelitian}{}% 32
-\BOOKMARK [1][-]{section.3.1}{3.1 Pembuatan Sense Tagged Corpus Bahasa Inggris}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.2}{3.2 Word alignment pada Korpus Paralel}{chapter.3}% 34
-\BOOKMARK [1][-]{section.3.3}{3.3 Peningkatan Kualitas Hasil Alignment}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.1}{3.1 Rancangan Sistem}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.2}{3.2 Pembangunan Sense Tagged Corpus Bahasa Inggris}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.3}{3.3 Word alignment pada Korpus Identik}{chapter.3}% 35
 \BOOKMARK [1][-]{section.3.4}{3.4 Sense Transfering}{chapter.3}% 36
 \BOOKMARK [1][-]{section.3.5}{3.5 Sistem WSD}{chapter.3}% 37
 \BOOKMARK [1][-]{section.3.6}{3.6 Evaluasi}{chapter.3}% 38
@@ -42,7 +42,7 @@
 \BOOKMARK [2][-]{subsection.3.6.2}{3.6.2 Sistem WSD}{section.3.6}% 42
 \BOOKMARK [0][-]{chapter.4}{4 Implementasi}{}% 43
 \BOOKMARK [1][-]{section.4.1}{4.1 Pre-Processing}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.2}{4.2 Pembuatan Sense Tagged Corpus Bahasa Inggris}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.2}{4.2 Pembangunan Sense Tagged Corpus Bahasa Inggris}{chapter.4}% 45
 \BOOKMARK [1][-]{section.4.3}{4.3 Word Alignment}{chapter.4}% 46
 \BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Pemrosesan Word Alignment}{section.4.3}% 47
 \BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Post-Processing}{section.4.3}% 48
@@ -59,8 +59,8 @@
 \BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 Evaluasi}{section.4.7}% 59
 \BOOKMARK [2][-]{subsection.4.7.4}{4.7.4 Evaluasi Sistem}{section.4.7}% 60
 \BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 61
-\BOOKMARK [1][-]{section.5.1}{5.1 Pembuatan Sense Tagged Corpus Bahasa Inggris}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.2}{5.2 Evaluasi Word Alignment}{chapter.5}% 63
+\BOOKMARK [1][-]{section.5.1}{5.1 Sense Tagged Corpus Bahasa Inggris}{chapter.5}% 62
+\BOOKMARK [1][-]{section.5.2}{5.2 Word Alignment}{chapter.5}% 63
 \BOOKMARK [1][-]{section.5.3}{5.3 Sense Transfering}{chapter.5}% 64
 \BOOKMARK [1][-]{section.5.4}{5.4 Sistem WSD}{chapter.5}% 65
 \BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Target word "memecahkan"}{section.5.4}% 66

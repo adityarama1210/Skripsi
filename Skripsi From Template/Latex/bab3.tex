@@ -2,7 +2,11 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babTiga}
 %-----------------------------------------------------------------------------%
-Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang sesuai dengan rancangan sistem pada gambar \ref{fig:Rancangan-Sistem}.
+Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan mulai dari rancangan sistem sampai dengan metode evaluasi. Rancangan dari sistem mempunyai dua hasil utama yaitu membangun \textit{sense tagged corpus} dan sistem WSD Bahasa Indonesia.
+
+\section{Rancangan Sistem}
+
+Rancangan sistem pada penelitian ini dapat dilihat pada gambar \ref{fig:Rancangan-Sistem} berikut.
 
 \begin{figure}
 	\centering
@@ -11,13 +15,13 @@ Bab ini akan menjelaskan gambaran proses penelitian secara keseluruhan yang sesu
 	\label{fig:Rancangan-Sistem}
 \end{figure}
 
-Proses \textit{pipeline} terdiri dari pembuatan \textit{sense tagged corpus} bahasa Inggris,  \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang diimplementasikan.
+Proses \textit{pipeline} terdiri dari pembuatan \textit{sense tagged corpus} bahasa Inggris,  \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang diimplementasikan. Semua data di dalam korpus identik digunakan dalam proses \textit{word alignment} dan \textit{English} WSD di atas.
 %-----------------------------------------------------------------------------%
 
-\section{Pembuatan \textit{Sense Tagged Corpus} Bahasa Inggris}
+\section{Pembangunan \textit{Sense Tagged Corpus} Bahasa Inggris}
 %-----------------------------------------------------------------------------%
 
-Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS \citep{zhong2010makes} untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. Gambaran proses secara singkat dapat dilihat pada \ref{fig:producing-en-tag-corpus} berikut.
+Pembangunan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS \citep{zhong2010makes} untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. Gambaran proses secara singkat dapat dilihat pada \ref{fig:producing-en-tag-corpus} berikut.
 
 
 \begin{figure}
@@ -29,9 +33,9 @@ Pembuatan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunak
 
 \textit{File} yang diberikan sebagai masukan dari IMS adalah korpus Bahasa Inggris yang berisi kalimat-kalimat  dalam Bahasa Inggris. Korpus ini didapatkan setelah memisahkan konten dari korpus identik menjadi dua buah korpus Bahasa Indonesia dan Bahasa Inggris. Keluaran dari proses ini adalah korpus berbahasa Inggris dengan kata-kata yang sudah diberikan \textit{tag} berupa \textit{sense key} yang memungkinkan untuk kata tersebut.
 %-----------------------------------------------------------------------------%
-\section{\textit{Word alignment} pada Korpus Paralel}
+\section{\textit{Word alignment} pada Korpus Identik}
 %-----------------------------------------------------------------------------%
-Proses \textit{word alignment} ini dilakukan agar nantinya makna kata dari suatu kata dalam bahasa Inggris dapat ditransfer ke kata yang bersesuaian pada Bahasa Indonesia. Gambaran proses dapat dilihat pada gambar \ref{fig:giza-aligning}.
+Proses \textit{word alignment} ini dilakukan agar nantinya makna kata dari suatu kata dalam Bahasa Inggris dapat ditransfer ke kata yang bersesuaian pada Bahasa Indonesia. Gambaran proses dapat dilihat pada gambar \ref{fig:giza-aligning}.
 
 \begin{figure}
 	\centering
@@ -48,17 +52,24 @@ Penjelasan dair proses \textit{alignment} tersebut meliputi tahap-tahap berikut:
 	\item Proses \textit{alignment} yang menghasilkan beberapa macam \textit{output file} 
 \end{enumerate}
 
-Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kalimat dengan kata-kata yang sudah diselaraskan dengan translasinya dalam bahasa tujuan. Hasil ini merupakan \textit{best viterbi alignment} menurut Giza++. Penjelasan lebih mendalam tentang \textit{output file} Giza++ tersebut akan dibahas pada bab implementasi.
+Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kalimat dengan kata-kata yang sudah diselaraskan dengan translasinya dalam bahasa tujuan. Hasil ini merupakan \textit{best viterbi alignment} menurut Giza++. Penjelasan lebih mendalam tentang \textit{output file} Giza++ tersebut akan dibahas pada bab implementasi. Hasil dari proses ini kemudian akan ditingkatkan kualitasnya sebelum melakukan proses \textit{sense transfering}.
 
-Pada skenario \textit{alignment} dengan bahasa Indonesia sebagai \textit{source} dan bahasa Inggris sebagai \textit{target}, satu kata dalam bahasa Indonesia akan dipasangkan dengan tepat satu kata dalam bahasa Inggris.
-
-%-----------------------------------------------------------------------------%
-
-\section{Peningkatan Kualitas Hasil \textit{Alignment}}
-%-----------------------------------------------------------------------------%
 Proses peningkatan kualitas hasil alignment diperlukan untuk meminimalisir kesalahan pemasangan kata-kata pada proses sebelumnya. Permasalahan  yang terjadi adalah adanya pasangan-pasangan kata yang tidak benar seperti pada halnya kata "lapangan" misalnya yang  dipasangkan dengan kata dalam bahasa inggris \textit{field}, \textit{ground}, \textit{involved}, \textit{job}, \textit{program}, dan beberapa kata lainnya. Peningkatan kualitas \textit{alignment} ini dilakukan dengan dua buah pendekatan, yaitu dengan bantuan \textit{online dictionary} bahasa Indonesia-Inggris dan \textit{bi-directional alignment}. 
 
-Pendekatan dengan bantuan kamus diterapkan dengan mencari kata terjemahan pada bahasa Inggris untuk menentukan apakah \textit{alignment} benar atau salah. Pada pendekatan kedua, dilakukan \textit{inverse} \textit{alignment} antara bahasa Indonesia ke Inggris. Jika pada proses awal \textit{alignment} dilakukan dengan menerapkan bahasa Indonesia sebagai \textit{source} dan Inggris sebagai \textit{target}, kali ini dilakukan proses yang berkebalikan. Pemanfaatkan hasil \textit{alignment} korpus bahasa Inggris ke Indonesia akan menghasilkan pasangan-pasangan kata dengan tingkat kesalahan \textit{alignment} lebih kecil dari \textit{alignment} satu arah saja. Metode yang akan dilakukan adalah dengan memeriksa setiap pasangan kata dari bahasa Indonesia yang mana merupakan kata dalam bahasa Inggris, apakah kata tersebut memiliki pasangan dalam \textit{inverse alignment} Giza.
+Pendekatan dengan bantuan kamus diterapkan dengan mencari kata terjemahan pada bahasa Inggris untuk menentukan apakah \textit{alignment} benar atau salah. Pada pendekatan kedua, dilakukan \textit{inverse} \textit{alignment} antara bahasa Indonesia ke Inggris (\textit{bi-directional}). Jika pada proses awal \textit{alignment} dilakukan dengan menerapkan bahasa Indonesia sebagai \textit{source} dan Inggris sebagai \textit{target}, kali ini dilakukan proses yang berkebalikan. Gambaran proses secara umum pada \textit{bi-directional} ini dapat dilihat pada gambar \ref{fig:Bidirectional-Enhancement}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/bidirectional-enhancement}
+	\caption{Bi-directional \textit{Enhancement}}
+	\label{fig:Bidirectional-Enhancement}
+\end{figure}
+
+
+Pemanfaatkan hasil \textit{alignment} korpus bahasa Inggris ke Indonesia akan menghasilkan pasangan-pasangan kata dengan tingkat kesalahan \textit{alignment} lebih kecil dari \textit{alignment} satu arah saja. Metode yang akan dilakukan adalah dengan memeriksa setiap pasangan kata dari bahasa Indonesia yang mana merupakan kata dalam bahasa Inggris, apakah kata tersebut memiliki pasangan dalam \textit{inverse alignment} Giza.
+
+
+
 
 %-----------------------------------------------------------------------------%
 \section{\textit{Sense Transfering}} \label{sec:Sense Transfering}
@@ -90,4 +101,4 @@ Anotator diberikan panduan untuk melakukan anotasi sesuai dengan \textit{task} y
 Hasil \textit{alignment} dari kedua anotator masing-masing dibandingkan dengan hasil \textit{alignment} yang dilakukan oleh Giza. Perhitungan Precision, Recall, dan F-score dihitung berdasarkan perbandingan seberapa banyak \textit{alignment} yang benar dengan banyaknya \textit{alignment} yang dilakukan. Proses lebih rinci dari perhitungan yang dilakukan akan dijelaskan pada Bab 4.
 
 \subsection{Sistem WSD}
-Hasil dari \textit{sense transfering} akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. Performa dari sistem WSD akan dilihat berdasarkan perhitungan F1-score dari hasil klasifikasi makna kata yang dilakukan dengan menggunakan \textit{cross validation}.
+Hasil dari \textit{sense transfering} kemudian akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. Sistem yang dibangun akan mencoba empat buah skenario fitur yang meliputi \textit{bag of words}, \textit{word embedding}, POS Tag, dan gabungan dari \textit{bag of words} serta POS Tag. Sistem ini akan melakukan klasifikasi terhadap kata yang diberikan dengan pengetahuan berupa \textit{sense} apa saja yang mungkin untuk kata tersebut, dan kalimat dimana kata tersebut muncul. Performa dari klasifikasi tersebut akan dilihat berdasarkan perhitungan F1-score dari hasil klasifikasi makna kata yang dilakukan dengan menggunakan \textit{cross validation}.
