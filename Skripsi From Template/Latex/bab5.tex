@@ -178,15 +178,14 @@ Berdasarkan hasil evaluasi dari \textit{sampling} diatas, makna kata yang tidak 
 %-----------------------------------------------------------------------------%
 \section{Sistem WSD}
 
-Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai sampling dari \textit{target word} yang akan dievaluasi berdasarkan nilai F-score dari hasil rata-rata \textit{cross validation}. Kata yang dipilih merupakan \textit{instance} yang memiliki pasangan kata lebih dari satu dalam bahasa Inggris dan mempunyai makna yang berbeda dari hasil \textit{sense transfering}. \textit{Target word} yang dipilih tersebut memiliki kriteria bahwa pasangan bahasa inggris kata tersebut lebih dari satu ataupun juga pasangan bahasa inggrisnya memiliki makna yang tidak dekat (ambigu). Fitur yang dilakukan percobaan pada penelitian ini adalah F1(\textit{bag of words}), F2 (\textit{word embedding}), F3 (\textit{pos-tag}), F4(\textit{pos tagging} dan \textit{bag of words}). Terdapat dua tabel dengan perbedaan berupa kamus yang digunakan dari proses \textit{enhancement} sebelumnya. Hasil evaluasi dapat dilihat pada tabel akurasi  \ref{table:wsd-evaluation-crawling} dan \ref{table:wsd-evaluation-bidirectional} berikut.
-
+Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai sampling dari \textit{target word} yang akan dievaluasi berdasarkan nilai F-score dari hasil rata-rata \textit{cross validation}. Kata yang dipilih merupakan \textit{instance} yang memiliki pasangan kata lebih dari satu dalam bahasa Inggris dan mempunyai makna yang berbeda dari hasil \textit{sense transfering}. \textit{Target word} yang dipilih tersebut memiliki kriteria bahwa pasangan bahasa inggris kata tersebut lebih dari satu ataupun juga pasangan bahasa inggrisnya memiliki makna yang tidak dekat (ambigu). Fitur yang dilakukan percobaan pada penelitian ini adalah F1(\textit{bag of words}), F2 (\textit{word embedding}), F3 (\textit{pos-tag}), F4(\textit{pos tagging} dan \textit{bag of words}). Hasil evaluasi dapat dilihat pada tabel akurasi  \ref{table:wsd-evaluation-crawling} berikut.
 \begin{table}
 	\centering
-	\caption{Evaluasi sistem WSD kamus \textit{crawling}}
+	\caption{Evaluasi sistem WSD}
 	\label{table:wsd-evaluation-crawling}
 	\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
 		\hline
-		Kata & Baseline & f1 & f2 & f3 & f4 \\ \hline
+		Kata & Baseline & F1 & F2 & F3 & F4 \\ \hline
 		memecahkan & 0.5 & 0.5 & 0.54 & 0.5 & 0.46 \\ \hline
 		menolak & 0.6 & 0.65 & 0.6 & 0.75 & 0.76 \\ \hline
 		obat & 0.49 & 0.7 & 0.56 & 0.61 & 0.78 \\ \hline
@@ -225,8 +224,22 @@ Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense
 
 \end{comment}
 
-Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1, tujuh dari sepuluh (70\%) buah kata memiliki nilai performa diatas baseline, enam dari sepuluh kata (60\%) diatas baseline pada fitur F2, tujuh dari sepuluh kata (70\%) diatas baseline pada fitur F3, dan delapan dari sepuluh kata (80\%) diatas baseline pada fitur F4. Grafik perbandingan dari fitur-fitur tersebut dapat dilihat pada gambar \ref{fig:fitur-wsd-indo}.
+Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1, tujuh dari sepuluh (70\%) buah kata memiliki nilai performa diatas baseline, enam dari sepuluh kata (60\%) diatas baseline pada fitur F2, tujuh dari sepuluh kata (70\%) diatas baseline pada fitur F3, dan delapan dari sepuluh kata (80\%) diatas baseline pada fitur F4. Rerata performa dari hasil tersebut dapat dilihat pada tabel \ref{table:performa-rerata-wsd}.
 
+\begin{table}
+	\centering
+	\caption{Performa rerata sistem WSD Bahasa Indonesia}
+	\label{table:performa-rerata-wsd}
+	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+		\hline
+		Baseline & F1 & F2 & F3 & F4 \\ \hline
+		0.62 & 0.710 & 0.646 & 0.651 & 0.716 \\ \hline
+	\end{tabular}
+\end{table}
+
+Berdasarkan rata-rata dari nilai F-Score tersebut, dapat dilihat bahwa untuk kesepuluh data \textit{sampling} yang digunakan, rerata dari F-Score semua performa mengungguli sistem dengan algoritma baseline.
+
+Grafik perbandingan dari fitur-fitur tersebut untuk setiap kata dapat dilihat pada gambar \ref{fig:fitur-wsd-indo}.
 
 \begin{figure}[H]
 	\begin{subfigure}{.5\textwidth}
