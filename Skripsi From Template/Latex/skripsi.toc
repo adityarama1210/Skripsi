@@ -52,11 +52,11 @@
 \contentsline {section}{\numberline {4.5}\textit {Sense Transfering}}{27}{section.4.5}
 \contentsline {section}{\numberline {4.6}Sistem WSD}{29}{section.4.6}
 \contentsline {subsection}{\numberline {4.6.1}Pemilihan Fitur dan \textit {Classifier}}{29}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Ekstraksi Fitur}{29}{subsection.4.6.2}
-\contentsline {section}{\numberline {4.7}Evaluasi dan Anotasi}{31}{section.4.7}
+\contentsline {subsection}{\numberline {4.6.2}Ekstraksi Fitur}{30}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.7}Evaluasi dan Anotasi}{32}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}Anotasi}{32}{subsection.4.7.1}
 \contentsline {subsection}{\numberline {4.7.2}Evaluasi \textit {Word Alignment}}{32}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}Evaluasi Sistem WSD Bahasa Indonesia}{33}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.3}Evaluasi Sistem WSD Bahasa Indonesia}{34}{subsection.4.7.3}
 \contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{35}{chapter.5}
 \contentsline {section}{\numberline {5.1}\textit {Sense Tagged Corpus} Bahasa Inggris}{35}{section.5.1}
 \contentsline {section}{\numberline {5.2}\textit {Word Alignment}}{36}{section.5.2}
@@ -65,4 +65,4 @@
 \contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{45}{chapter.6}
 \contentsline {section}{\numberline {6.1}Kesimpulan}{45}{section.6.1}
 \contentsline {section}{\numberline {6.2}Saran}{45}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{47}{chapter*.34}
+\contentsline {chapter}{Daftar Referensi}{47}{chapter*.35}

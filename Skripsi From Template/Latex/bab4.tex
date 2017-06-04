@@ -158,11 +158,21 @@ Hasil dari proses peningkatan kualitas \textit{alignment} adalah sebuah "kamus" 
 	\item Jika "pair" tersebut benar berada dalam kamus, maka pindahkan makna kata dari \textit{english word} yang bersesuaian.
 \end{enumerate}
 
-Ilustrasi dari proses tersebut pada kata "halaman" adalah sebagai berikut:
+Ilustrasi dari proses tersebut pada kata "halaman" secara garis besar dapat dilihat pada gambar 
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/sense-transfering}
+	\caption{Ilustrasi \textit{sense transfering}}
+	\label{fig:ilustrasi-sense-transfering}
+\end{figure}
+
+Proses yang terjadi pada ilustrasi di atas adalah:
 
 \begin{enumerate}
 	\item Jika misalkan kata "halaman" pada kamus memiliki pasangan kata "page" dan "courtyard".
-	\item Pada sebuah kalimat "... halaman kedua ..." dimana "\textit{pair}" pada kalimat tersebut diantaranya adalah
+	\item Pada sebuah kalimat "... 300 halaman ..." dimana "\textit{pair}" pada kalimat tersebut diantaranya adalah
 	\begin{lstlisting}[backgroundcolor = \color{white}]
 	..<pair>second||kedua</pair>##<pair>page||halaman</pair>..
 	\end{lstlisting}
