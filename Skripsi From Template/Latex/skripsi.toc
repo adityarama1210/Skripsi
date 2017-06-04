@@ -50,7 +50,7 @@
 \contentsline {subsection}{\numberline {4.4.1}Pendekatan \textit {Crawling}}{25}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Pendekatan \textit {Bi-directional}}{26}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5}\textit {Sense Transfering}}{27}{section.4.5}
-\contentsline {section}{\numberline {4.6}Sistem WSD}{28}{section.4.6}
+\contentsline {section}{\numberline {4.6}Sistem WSD}{29}{section.4.6}
 \contentsline {subsection}{\numberline {4.6.1}Pemilihan Fitur dan \textit {Classifier}}{29}{subsection.4.6.1}
 \contentsline {subsection}{\numberline {4.6.2}Ekstraksi Fitur}{29}{subsection.4.6.2}
 \contentsline {section}{\numberline {4.7}Evaluasi dan Anotasi}{31}{section.4.7}

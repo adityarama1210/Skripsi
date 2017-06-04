@@ -167,7 +167,11 @@ Ilustrasi dari proses tersebut pada kata "halaman" adalah sebagai berikut:
 	..<pair>second||kedua</pair>##<pair>page||halaman</pair>..
 	\end{lstlisting}
 	\item Pasangan kata yang didapat dari "halaman" dari \textit{pair} tersebut adalah "page". Berdasarkan hasil tersebut kata "page" kemudian diperiksa pada kamus yang ada.
-	\item Karena kata "page" merupakan salah satu terjemahan untuk kata "halaman", maka pindahkan makna "page" dari \textit{sense tagged corpus} kalimat tersebut ke kata "halaman" pada kalimat Indonesia dengan indeks yang sama.
+	\item Karena kata "page" merupakan salah satu terjemahan untuk kata "halaman", maka pindahkan makna "page" dari \textit{sense tagged corpus} kalimat tersebut ke kata "halaman" pada kalimat Indonesia dengan indeks yang sama. Hal tersebut dapat dicontohkan pada pemindahan makna "page\%1:10:00::" dari contoh \textit{sense tagged corpus} berikut.
+	\begin{lstlisting}[backgroundcolor = \color{white}]
+	<sentence>... page||page%1:10:00:: ...</sentence>
+	\end{lstlisting}
+	\textit{Sense key} "page\%1:10:00::" tersebut kemudian dipindahkan ke kata "halaman" pada kata "halaman" di kalimat bahasa Indonesia yang bersesuaian.
 	\item Dalam proses pemindahan makna tersebut, akan dilakukan pemeriksaan apakah untuk kata yang sama, terdapat makna kata yang serupa dari hasil transfer kalimat lain.
 	\item Jika "kemiripan" makna kata yang akan dipindahkan melebihi threshold (0.5), makan akan digunakan \textit{sense key} yang lama karena kedua \textit{sense key} dianggap mempunyai makna yang sama. Penghitungan seberapa dekat "makna" dari kedua \textit{sense key} tersebut dilakukan dengan bantuan \textit{method} path\_similarity dari \textit{tool} NLTK dengan korpus wordnet.
 \end{enumerate}
