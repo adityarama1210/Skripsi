@@ -27,53 +27,52 @@
 \BOOKMARK [1][-]{section.2.4}{2.4 Korpus Paralel dan Comparable}{chapter.2}% 27
 \BOOKMARK [1][-]{section.2.5}{2.5 Word Alignment}{chapter.2}% 28
 \BOOKMARK [1][-]{section.2.6}{2.6 Support Vector Machine}{chapter.2}% 29
-\BOOKMARK [1][-]{section.2.7}{2.7 Word Embedding Language Model}{chapter.2}% 30
-\BOOKMARK [1][-]{section.2.8}{2.8 Evaluasi}{chapter.2}% 31
-\BOOKMARK [0][-]{chapter.3}{3 Rancangan Penelitian}{}% 32
-\BOOKMARK [1][-]{section.3.1}{3.1 Rancangan Sistem}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.2}{3.2 Pembangunan Sense Tagged Corpus Bahasa Inggris}{chapter.3}% 34
-\BOOKMARK [1][-]{section.3.3}{3.3 Word alignment pada Korpus Identik}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.4}{3.4 Sense Transfering}{chapter.3}% 36
-\BOOKMARK [1][-]{section.3.5}{3.5 Sistem WSD}{chapter.3}% 37
-\BOOKMARK [1][-]{section.3.6}{3.6 Evaluasi}{chapter.3}% 38
-\BOOKMARK [2][-]{subsection.3.6.1}{3.6.1 Word Alignment}{section.3.6}% 39
-\BOOKMARK [3][-]{subsubsection.3.6.1.1}{3.6.1.1 Proses Anotasi}{subsection.3.6.1}% 40
-\BOOKMARK [3][-]{subsubsection.3.6.1.2}{3.6.1.2 Proses Evaluasi}{subsection.3.6.1}% 41
-\BOOKMARK [2][-]{subsection.3.6.2}{3.6.2 Sistem WSD}{section.3.6}% 42
-\BOOKMARK [0][-]{chapter.4}{4 Implementasi}{}% 43
-\BOOKMARK [1][-]{section.4.1}{4.1 Pre-Processing}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.2}{4.2 Pembangunan Sense Tagged Corpus Bahasa Inggris}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.3}{4.3 Word Alignment}{chapter.4}% 46
-\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Pemrosesan Word Alignment}{section.4.3}% 47
-\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Post-Processing}{section.4.3}% 48
-\BOOKMARK [1][-]{section.4.4}{4.4 Peningkatan Kualitas Alignment}{chapter.4}% 49
-\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 Pendekatan Crawling}{section.4.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Pendekatan Bi-directional}{section.4.4}% 51
-\BOOKMARK [1][-]{section.4.5}{4.5 Sense Transfering}{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.6}{4.6 Sistem WSD}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Pemilihan Fitur dan Classifier}{section.4.6}% 54
-\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Ekstraksi Fitur}{section.4.6}% 55
-\BOOKMARK [1][-]{section.4.7}{4.7 Evaluasi dan Anotasi}{chapter.4}% 56
-\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Anotasi}{section.4.7}% 57
-\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Evaluasi}{section.4.7}% 58
-\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 Evaluasi Sistem}{section.4.7}% 59
-\BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 60
-\BOOKMARK [1][-]{section.5.1}{5.1 Sense Tagged Corpus Bahasa Inggris}{chapter.5}% 61
-\BOOKMARK [1][-]{section.5.2}{5.2 Word Alignment}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.3}{5.3 Sense Transfering}{chapter.5}% 63
-\BOOKMARK [1][-]{section.5.4}{5.4 Sistem WSD}{chapter.5}% 64
-\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Target word "memecahkan"}{section.5.4}% 65
-\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Target word "menolak"}{section.5.4}% 66
-\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Target word "Obat"}{section.5.4}% 67
-\BOOKMARK [2][-]{subsection.5.4.4}{5.4.4 Target word "Lingkungan"}{section.5.4}% 68
-\BOOKMARK [2][-]{subsection.5.4.5}{5.4.5 Target word "Halaman"}{section.5.4}% 69
-\BOOKMARK [2][-]{subsection.5.4.6}{5.4.6 Target word "Kehadiran"}{section.5.4}% 70
-\BOOKMARK [2][-]{subsection.5.4.7}{5.4.7 Target word "Hati"}{section.5.4}% 71
-\BOOKMARK [2][-]{subsection.5.4.8}{5.4.8 Target word "Coklat"}{section.5.4}% 72
-\BOOKMARK [2][-]{subsection.5.4.9}{5.4.9 Target word "Berat"}{section.5.4}% 73
-\BOOKMARK [2][-]{subsection.5.4.10}{5.4.10 Target word "Jalan"}{section.5.4}% 74
-\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 75
-\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 76
-\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 77
-\BOOKMARK [0][-]{chapter*.44}{Daftar Referensi}{}% 78
-\BOOKMARK [0][-]{section*.45}{Lampiran 1 : Panduan Evaluasi Word Alignment}{}% 79
+\BOOKMARK [1][-]{section.2.7}{2.7 Evaluasi}{chapter.2}% 30
+\BOOKMARK [0][-]{chapter.3}{3 Rancangan Penelitian}{}% 31
+\BOOKMARK [1][-]{section.3.1}{3.1 Rancangan Sistem}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.2}{3.2 Pembangunan Sense Tagged Corpus Bahasa Inggris}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.3}{3.3 Word alignment pada Korpus Identik}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.4}{3.4 Sense Transfering}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.5}{3.5 Sistem WSD}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.6}{3.6 Evaluasi}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.6.1}{3.6.1 Word Alignment}{section.3.6}% 38
+\BOOKMARK [3][-]{subsubsection.3.6.1.1}{3.6.1.1 Proses Anotasi}{subsection.3.6.1}% 39
+\BOOKMARK [3][-]{subsubsection.3.6.1.2}{3.6.1.2 Proses Evaluasi}{subsection.3.6.1}% 40
+\BOOKMARK [2][-]{subsection.3.6.2}{3.6.2 Sistem WSD}{section.3.6}% 41
+\BOOKMARK [0][-]{chapter.4}{4 Implementasi}{}% 42
+\BOOKMARK [1][-]{section.4.1}{4.1 Pre-Processing}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.2}{4.2 Pembangunan Sense Tagged Corpus Bahasa Inggris}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.3}{4.3 Word Alignment}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Pemrosesan Word Alignment}{section.4.3}% 46
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Post-Processing}{section.4.3}% 47
+\BOOKMARK [1][-]{section.4.4}{4.4 Peningkatan Kualitas Alignment}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 Pendekatan Crawling}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Pendekatan Bi-directional}{section.4.4}% 50
+\BOOKMARK [1][-]{section.4.5}{4.5 Sense Transfering}{chapter.4}% 51
+\BOOKMARK [1][-]{section.4.6}{4.6 Sistem WSD}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Pemilihan Fitur dan Classifier}{section.4.6}% 53
+\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Ekstraksi Fitur}{section.4.6}% 54
+\BOOKMARK [1][-]{section.4.7}{4.7 Evaluasi dan Anotasi}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Anotasi}{section.4.7}% 56
+\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Evaluasi}{section.4.7}% 57
+\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 Evaluasi Sistem}{section.4.7}% 58
+\BOOKMARK [0][-]{chapter.5}{5 Hasil dan Analisis}{}% 59
+\BOOKMARK [1][-]{section.5.1}{5.1 Sense Tagged Corpus Bahasa Inggris}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.2}{5.2 Word Alignment}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.3}{5.3 Sense Transfering}{chapter.5}% 62
+\BOOKMARK [1][-]{section.5.4}{5.4 Sistem WSD}{chapter.5}% 63
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Target word "memecahkan"}{section.5.4}% 64
+\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Target word "menolak"}{section.5.4}% 65
+\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Target word "Obat"}{section.5.4}% 66
+\BOOKMARK [2][-]{subsection.5.4.4}{5.4.4 Target word "Lingkungan"}{section.5.4}% 67
+\BOOKMARK [2][-]{subsection.5.4.5}{5.4.5 Target word "Halaman"}{section.5.4}% 68
+\BOOKMARK [2][-]{subsection.5.4.6}{5.4.6 Target word "Kehadiran"}{section.5.4}% 69
+\BOOKMARK [2][-]{subsection.5.4.7}{5.4.7 Target word "Hati"}{section.5.4}% 70
+\BOOKMARK [2][-]{subsection.5.4.8}{5.4.8 Target word "Coklat"}{section.5.4}% 71
+\BOOKMARK [2][-]{subsection.5.4.9}{5.4.9 Target word "Berat"}{section.5.4}% 72
+\BOOKMARK [2][-]{subsection.5.4.10}{5.4.10 Target word "Jalan"}{section.5.4}% 73
+\BOOKMARK [0][-]{chapter.6}{6 Penutup}{}% 74
+\BOOKMARK [1][-]{section.6.1}{6.1 Kesimpulan}{chapter.6}% 75
+\BOOKMARK [1][-]{section.6.2}{6.2 Saran}{chapter.6}% 76
+\BOOKMARK [0][-]{chapter*.43}{Daftar Referensi}{}% 77
+\BOOKMARK [0][-]{section*.44}{Lampiran 1 : Panduan Evaluasi Word Alignment}{}% 78

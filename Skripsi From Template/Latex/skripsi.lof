@@ -2,25 +2,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Arsitektur IMS\relax }}{8}{figure.caption.19}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Performa IMS \citep {zhong2010makes}\relax }}{8}{figure.caption.20}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Word Alignment\relax }}{11}{figure.caption.21}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Hyperplane pada SVM \citep {fradkin2006support}\relax }}{13}{figure.caption.22}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Performa IMS \citep {zhong2010makes}\relax }}{9}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Word Alignment\relax }}{12}{figure.caption.21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Rancangan Sistem\relax }}{16}{figure.caption.23}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustrasi Pembuatan \textit {sense tagged corpus} Bahasa Inggris\relax }}{17}{figure.caption.24}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustrasi \textit {alignment} dengan Giza++\relax }}{18}{figure.caption.25}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Bi-directional \textit {Enhancement}\relax }}{19}{figure.caption.26}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Ilustrasi Fitur Word Embedding\relax }}{21}{figure.caption.27}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rancangan Sistem\relax }}{15}{figure.caption.22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustrasi Pembuatan \textit {sense tagged corpus} Bahasa Inggris\relax }}{16}{figure.caption.23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustrasi \textit {alignment} dengan Giza++\relax }}{17}{figure.caption.24}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Bi-directional \textit {Enhancement}\relax }}{18}{figure.caption.25}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Ilustrasi Fitur Word Embedding\relax }}{20}{figure.caption.26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Grafik evaluasi kata "memecahkan"\relax }}{44}{figure.caption.34}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Grafik evaluasi kata "menolak"\relax }}{45}{figure.caption.35}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Grafik evaluasi kata "obat"\relax }}{46}{figure.caption.36}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Grafik evaluasi kata "lingkungan"\relax }}{47}{figure.caption.37}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Grafik evaluasi kata "halaman"\relax }}{48}{figure.caption.38}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Grafik evaluasi kata "kehadiran"\relax }}{49}{figure.caption.39}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Grafik evaluasi kata "hati"\relax }}{50}{figure.caption.40}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Grafik evaluasi kata "coklat"\relax }}{51}{figure.caption.41}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Grafik evaluasi kata "berat"\relax }}{52}{figure.caption.42}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Grafik evaluasi kata "jalan"\relax }}{53}{figure.caption.43}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Grafik evaluasi kata "memecahkan"\relax }}{43}{figure.caption.33}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Grafik evaluasi kata "menolak"\relax }}{44}{figure.caption.34}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Grafik evaluasi kata "obat"\relax }}{45}{figure.caption.35}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Grafik evaluasi kata "lingkungan"\relax }}{46}{figure.caption.36}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Grafik evaluasi kata "halaman"\relax }}{47}{figure.caption.37}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Grafik evaluasi kata "kehadiran"\relax }}{48}{figure.caption.38}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Grafik evaluasi kata "hati"\relax }}{49}{figure.caption.39}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Grafik evaluasi kata "coklat"\relax }}{50}{figure.caption.40}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Grafik evaluasi kata "berat"\relax }}{51}{figure.caption.41}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Grafik evaluasi kata "jalan"\relax }}{52}{figure.caption.42}
 \addvspace {10\p@ }
