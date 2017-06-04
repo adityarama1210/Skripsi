@@ -55,8 +55,8 @@
 \contentsline {subsection}{\numberline {4.6.2}Ekstraksi Fitur}{29}{subsection.4.6.2}
 \contentsline {section}{\numberline {4.7}Evaluasi dan Anotasi}{31}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}Anotasi}{32}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Evaluasi}{32}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}Evaluasi Sistem}{33}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.2}Evaluasi \textit {Word Alignment}}{32}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Evaluasi Sistem WSD Bahasa Indonesia}{33}{subsection.4.7.3}
 \contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{35}{chapter.5}
 \contentsline {section}{\numberline {5.1}\textit {Sense Tagged Corpus} Bahasa Inggris}{35}{section.5.1}
 \contentsline {section}{\numberline {5.2}\textit {Word Alignment}}{36}{section.5.2}
