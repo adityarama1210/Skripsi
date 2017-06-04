@@ -59,15 +59,16 @@ Proses alignment dilakukan terhadap semua pasangan kalimat pada korpus identik (
 	\end{tabular} 
 \end{table}
 
-Berdasarkan hasil tersebut, dapat dilihat bahwa Giza++ secara umum dapat menghasilkan \textit{alignment} cukup baik untuk korpus identik yang digunakan. Namun demikian, kesalahan ataupun kelemahan yang sering terjadi adalah pada kasus-kasus seperti:
+\textit{Agreement} dari kedua anotator tersebut adalah 0.924. Berdasarkan hasil tersebut, dapat dilihat bahwa Giza++ secara umum dapat menghasilkan \textit{alignment} cukup baik untuk korpus identik yang digunakan. Namun demikian, kesalahan ataupun kelemahan yang sering terjadi dari \textit{alignment} Giza adalah pada kasus-kasus seperti:
 
 \begin{enumerate}
-	\item Pemasangan frasa kompleks dengan kata lain. Seperti misalnya frasa "\textit{a very huge building}" dengan "gedung raksasa", ataupun gaya bahasa lainnya yang menjadikan frasa tersebut kompleks dan panjang.
+	\item Pemasangan frasa kompleks dengan kata lain. Seperti misalnya frasa "\textit{a very awesome and huge building}" dengan "gedung raksasa", ataupun gaya bahasa lainnya yang menjadikan frasa tersebut kompleks dan panjang.
 	\item Pasangan kalimat yang tidak sepenuhnya paralel (\textit{comparable}), seperti misalnya "I'm glad that you're here" dengan "Aku senang kau ada". Variasi dari bentuk kalimat \textit{comparable} terkadang mempersulit model dari Giza++ untuk menentukan pasangan kata yang benar.
 \end{enumerate}
 
 Walaupun akurasi yang didapatkan sekitar 70\%, tidak jarang ditemukan pasangan kata-kata yang tidak sesuai dan dapat menjadi masalah pada saat \textit{sense transfering} sehingga dilakukan proses \textit{word alignment enhancement}.
 
+Pada hasil kedua buah skenario \textit{enhancement} yang dicoba, kelemahan pada implementasi \textit{bi-directional} yang dicoba adalah hilangnya pasangan kata yang \textit{multiword} seperti misalnya "\textit{hospital}" dengan "\textit{rumah sakit}". Hal ini terjadi karena pada hasil \textit{alignment} Giza dengan Bahasa Indonesia sebagai \textit{source} dan Inggris sebagai \textit{target}, kata "\textit{hospital}" hanya dapat dipasangkan tepat satu ke kata "rumah" atau "sakit" (keterbatasan Giza). Karena tidak dapat dipasangkan dengan kedua buah kata (rumah dan sakit), maka tidak terdapat pasangan "hospital" dengan "rumah sakit". Selain keterbatasan tersebut, masih terdapat kata-kata yang memiliki pasangan tidak sesuai pada skenario \textit{bi-directional} seperti misalnya kata "pembuat" dengan "\textit{jewelry}", kata "pendidikan" dengan "\textit{tended}", kata "harapkan" dengan "\textit{anticipate}", dan lain-lain. Skenario pada \textit{enhancement} menggunakan \textit{crawling} kamus Indonesia-Inggris tidak memiliki pasangan seperti pada contoh yang diberikan diatas, sehingga hasil \textit{crawling} merupakan kamus yang digunakan untuk proses \textit{sense transfering}.
 %-----------------------------------------------------------------------------%
 \section{\textit{Sense Transfering}}
 
@@ -91,7 +92,7 @@ Proses \textit{transfer} makna kata dari bahasa Inggris ke bahasa Indonesia yang
 	\end{enumerate}
 \end{enumerate}
 
-Pada laporan kali ini, hasil dari \textit{sense transfering} yang dianalisis adalah proses yang menggunakan kamus \textit{crawling}. Pada jumlah kelas sebanyak 3-5 kelas kata (\textit{sense key}), \textit{target word} yang diambil adalah "memecahkan". Kata tersebut memiliki 4 buah kelas total dengan \textit{sense key} yang didapat yaitu 'solve\%2:31:00::','resolve\%2:31:01::', 'break\%2:30:03::', dan 'split\%2:38:00::'. Kata "menolak" mewakili kelas kata sebanyak 10 buah yang diantaranya mengandung kelas 'refuse\%2:32:00::', 'reject\%2:40:00::', 'decline\%2:32:00::', dan beberapa kelas lainnya. Tabel \ref{table:number-classes-sense-transfering-evaluation} menunjukan contoh beberapa kata tersebut dalam beberapa konteks kalimat yang bersesuaian.
+Pada laporan ini, hasil dari \textit{sense transfering} yang dianalisis adalah proses yang menggunakan kamus \textit{crawling}. Pada jumlah kelas sebanyak 3-5 kelas kata (\textit{sense key}), \textit{target word} yang diambil adalah "memecahkan". Kata tersebut memiliki 4 buah kelas total dengan \textit{sense key} yang didapat yaitu 'solve\%2:31:00::','resolve\%2:31:01::', 'break\%2:30:03::', dan 'split\%2:38:00::'. Kata "menolak" mewakili kelas kata sebanyak 10 buah yang diantaranya mengandung kelas 'refuse\%2:32:00::', 'reject\%2:40:00::', 'decline\%2:32:00::', dan beberapa kelas lainnya. Tabel \ref{table:number-classes-sense-transfering-evaluation} menunjukan contoh beberapa kata tersebut dalam beberapa konteks kalimat yang bersesuaian.
 
 \begin{table}
 	\centering
