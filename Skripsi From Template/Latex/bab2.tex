@@ -162,14 +162,7 @@ Pada contoh pasangan kalimat tersebut, kata "\textit{hospital}" berpasangan deng
 %------------------------------------------- ----------------------------------%
 
 \section{Support Vector Machine}
-SVM merupakan salah satu \textit{classifier} yang dapat digunakan untuk permasalahan klasifikasi. SVM termasuk sebagai metode klasifikasi yang populer dan telah digunakan untuk berbagai permasalahan seperti klasifikasi teks, \textit{facial expression recognition}, analisis gen, \textit{word sense disambiguation}, dan lain-lain. SVM dapat dikatakan sebagai salah satu metode yang membangun aturan yang dinamakan sebagai \textit{linear classifier} yang secara teori akan menghasilkan kualitas prediksi dari \textit{unseen data} yang baik \citep{fradkin2006support}.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/svm-hyperplane}
-	\caption{Hyperplane pada SVM \citep{fradkin2006support}}
-	\label{fig:svm}
-\end{figure}
+Salah satu \textit{classifier} yang dapat digunakan dalam \textit{supervised learning} untuk melakukan klasifikasi adalah SVM. SVM termasuk sebagai metode klasifikasi yang populer dan telah digunakan untuk berbagai permasalahan seperti klasifikasi teks, \textit{facial expression recognition}, analisis gen, \textit{word sense disambiguation}, dan lain-lain. SVM dapat dikatakan sebagai salah satu metode yang membangun aturan yang dinamakan sebagai \textit{linear classifier} yang secara teori akan menghasilkan kualitas prediksi dari \textit{unseen data} yang baik \citep{fradkin2006support}. Pada salah satu penelitian WSD Bahasa Inggris \citep{zhong2010makes}, SVM digunakan sebagai \textit{classifier} dari sistem yang dibuat.
 
 Konsep dari cara SVM bekerja adalah dengan menemukan sebuah \textit{hyperplane} dengan \textit{margin} (jarak dari \textit{hyperplane} dengan titik kelas terdekat) yang terbesar. Pemilihan \textit{margin} dengan nilai terbesar ini ditujukan agar \textit{classifier} lebih optimal dalam memisahkan objek dengan kelas yang berbeda. Pada penelitian kali ini, SVM yang digunakan berasal dari \textit{library} Python bernama Scikit \citep{scikit-learn}.
 

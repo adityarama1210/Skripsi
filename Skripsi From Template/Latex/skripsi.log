@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  4 JUN 2017 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  4 JUN 2017 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1120,7 +1120,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./adit_pics/wordalignment.jpeg>]
-<adit_pics/svm-hyperplane.png, id=684, 502.87875pt x 298.11375pt>
+<adit_pics/svm-hyperplane.png, id=686, 502.87875pt x 298.11375pt>
 File: adit_pics/svm-hyperplane.png Graphic file (type png)
 
 <use adit_pics/svm-hyperplane.png>
@@ -1174,7 +1174,7 @@ Bab 3.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/WSD-full.jpeg, id=728, 537.00626pt x 307.1475pt>
+<adit_pics/WSD-full.jpeg, id=730, 537.00626pt x 307.1475pt>
 File: adit_pics/WSD-full.jpeg Graphic file (type jpg)
 
 <use adit_pics/WSD-full.jpeg>
@@ -1185,7 +1185,7 @@ Package pdftex.def Info: adit_pics/WSD-full.jpeg used on input line 13.
 
 
  <./adit_pics/WSD-full.jpeg>]
-<adit_pics/bab-3-en-tag-corpus.png, id=737, 793.96625pt x 241.90375pt>
+<adit_pics/bab-3-en-tag-corpus.png, id=739, 793.96625pt x 241.90375pt>
 File: adit_pics/bab-3-en-tag-corpus.png Graphic file (type png)
 
 <use adit_pics/bab-3-en-tag-corpus.png>
@@ -1193,7 +1193,7 @@ Package pdftex.def Info: adit_pics/bab-3-en-tag-corpus.png used on input line 2
 9.
 (pdftex.def)             Requested size: 398.3386pt x 121.36867pt.
 
-<adit_pics/giza-process.png, id=739, 693.59125pt x 342.27875pt>
+<adit_pics/giza-process.png, id=741, 693.59125pt x 342.27875pt>
 File: adit_pics/giza-process.png Graphic file (type png)
 
 <use adit_pics/giza-process.png>
@@ -1214,7 +1214,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [18 <./adit_pics/giza-process.png>]
-<adit_pics/bidirectional-enhancement.jpeg, id=756, 743.77875pt x 166.6225pt>
+<adit_pics/bidirectional-enhancement.jpeg, id=758, 743.77875pt x 166.6225pt>
 File: adit_pics/bidirectional-enhancement.jpeg Graphic file (type jpg)
 
 <use adit_pics/bidirectional-enhancement.jpeg>
@@ -1262,7 +1262,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20] <adit_pics/we-vector.png, id=774, 613.29124pt x 131.49126pt>
+[20] <adit_pics/we-vector.png, id=776, 613.29124pt x 131.49126pt>
 File: adit_pics/we-vector.png Graphic file (type png)
 
 <use adit_pics/we-vector.png>
@@ -1791,7 +1791,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42] <adit_pics/memecahkan.png, id=1046, 667.49374pt x 357.335pt>
+[42] <adit_pics/memecahkan.png, id=1048, 667.49374pt x 357.335pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
@@ -1810,7 +1810,7 @@ Underfull \hbox (badness 4505) in paragraph at lines 243--244
 
  []
 
-<adit_pics/menolak.png, id=1051, 729.72626pt x 353.32pt>
+<adit_pics/menolak.png, id=1053, 729.72626pt x 353.32pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
@@ -1824,7 +1824,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44 <./adit_pics/memecahkan.png>]
-<adit_pics/obat.png, id=1061, 641.39626pt x 360.34625pt>
+<adit_pics/obat.png, id=1063, 641.39626pt x 360.34625pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
@@ -1838,7 +1838,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [45 <./adit_pics/menolak.png>]
-<adit_pics/lingkungan.png, id=1071, 617.30624pt x 330.23375pt>
+<adit_pics/lingkungan.png, id=1073, 617.30624pt x 330.23375pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
@@ -1852,7 +1852,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46 <./adit_pics/obat.png>]
-<adit_pics/halaman.png, id=1081, 601.24625pt x 342.27875pt>
+<adit_pics/halaman.png, id=1083, 601.24625pt x 342.27875pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
@@ -1866,7 +1866,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [47 <./adit_pics/lingkungan.png>]
-<adit_pics/kehadiran.png, id=1092, 652.4375pt x 352.31625pt>
+<adit_pics/kehadiran.png, id=1094, 652.4375pt x 352.31625pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
@@ -1880,7 +1880,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48 <./adit_pics/halaman.png>]
-<adit_pics/hati.png, id=1102, 643.40375pt x 341.275pt>
+<adit_pics/hati.png, id=1104, 643.40375pt x 341.275pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
@@ -1899,7 +1899,7 @@ Underfull \hbox (badness 3803) in paragraph at lines 365--366
 /it/12 bi-directional
  []
 
-<adit_pics/coklat.png, id=1112, 581.17125pt x 329.23pt>
+<adit_pics/coklat.png, id=1114, 581.17125pt x 329.23pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
@@ -1913,7 +1913,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [50 <./adit_pics/hati.png>]
-<adit_pics/berat.png, id=1122, 609.27625pt x 350.30875pt>
+<adit_pics/berat.png, id=1124, 609.27625pt x 350.30875pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
@@ -2015,7 +2015,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 \openout2 = `lampiran.aux'.
 
  (./lampiran.tex
-<PanduanEvaluasiWordAlignment.pdf, id=1177, 614.295pt x 794.97pt>
+<PanduanEvaluasiWordAlignment.pdf, id=1179, 614.295pt x 794.97pt>
 File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
 
 <use PanduanEvaluasiWordAlignment.pdf>
@@ -2028,7 +2028,7 @@ Package pdftex.def Info: PanduanEvaluasiWordAlignment.pdf used on input line 6.
 
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<PanduanEvaluasiWordAlignment.pdf, id=1180, page=1, 614.295pt x 794.97pt>
+<PanduanEvaluasiWordAlignment.pdf, id=1182, page=1, 614.295pt x 794.97pt>
 File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
 
 <use PanduanEvaluasiWordAlignment.pdf, page 1>
@@ -2074,7 +2074,7 @@ line 6.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./PanduanEvaluasiWordAlignme
 nt.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
 , type <array>); ignored.
->] <PanduanEvaluasiWordAlignment.pdf, id=1220, page=2, 614.295pt x 794.97pt>
+>] <PanduanEvaluasiWordAlignment.pdf, id=1222, page=2, 614.295pt x 794.97pt>
 File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
 
 <use PanduanEvaluasiWordAlignment.pdf, page 2>
@@ -2104,7 +2104,7 @@ line 6.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./PanduanEvaluasiWordAlignme
 nt.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
 , type <array>); ignored.
->] <PanduanEvaluasiWordAlignment.pdf, id=1225, page=3, 614.295pt x 794.97pt>
+>] <PanduanEvaluasiWordAlignment.pdf, id=1227, page=3, 614.295pt x 794.97pt>
 File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
 
 <use PanduanEvaluasiWordAlignment.pdf, page 3>
@@ -2134,7 +2134,7 @@ line 6.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./PanduanEvaluasiWordAlignme
 nt.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
 , type <array>); ignored.
->] <PanduanEvaluasiWordAlignment.pdf, id=1230, page=4, 614.295pt x 794.97pt>
+>] <PanduanEvaluasiWordAlignment.pdf, id=1232, page=4, 614.295pt x 794.97pt>
 File: PanduanEvaluasiWordAlignment.pdf Graphic file (type pdf)
 
 <use PanduanEvaluasiWordAlignment.pdf, page 4>
@@ -2382,10 +2382,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (77 pages, 719624 bytes).
+Output written on skripsi.pdf (77 pages, 719832 bytes).
 PDF statistics:
- 1374 PDF objects out of 1440 (max. 8388607)
- 1216 compressed objects within 13 object streams
+ 1376 PDF objects out of 1440 (max. 8388607)
+ 1218 compressed objects within 13 object streams
  471 named destinations out of 1000 (max. 500000)
  763 words of extra memory for PDF output out of 10000 (max. 10000000)
 
