@@ -172,7 +172,7 @@ Konsep dari cara SVM bekerja adalah dengan menemukan sebuah \textit{hyperplane} 
 
 \section{Evaluasi}
 
-Precision, Recall, dan F-score merupakan beberapa cara perhitungan untuk merepresentasikan akurasi dari suatu sistem. Berdasarkan domain \textit{information retrieval}, precision merupakan perbandingan dari total jumlah dokumen relevan yang didapatkan oleh sistem dengan total jumlah dokumen yang didapat. Lain halnya dengan precision, recall membandingkan total dokumen relevan yang didapatkan dengan total dokumen relevan dalam \textit{database} \citep{ting2011precision}. Kedua penilaian ini juga digunakan pada sistem yang melakukan klasifikasi suatu \textit{instance} dengan kelas-kelas yang sudah ditentukan. 
+Precision, Recall, dan F-score merupakan beberapa cara perhitungan untuk merepresentasikan akurasi dari suatu sistem. Berdasarkan domain \textit{information retrieval}, precision merupakan perbandingan dari total jumlah dokumen relevan yang didapatkan oleh sistem dengan total jumlah dokumen yang didapat. Lain halnya dengan precision, recall membandingkan total dokumen relevan yang didapatkan dengan total dokumen relevan dalam \textit{database} \citep{ting2011precision}. Kedua penilaian ini juga digunakan pada sistem yang melakukan klasifikasi suatu \textit{instance} dengan kelas-kelas yang sudah ditentukan.
 
 Pada kasus \textit{word alignment}, terdapat empat buah pengukuran yang dapat dilakukan yaitu \textit{precision}, \textit{recall}, \textit{f-measure}, dan \textit{alignment error rate (AER)} \citep{mihalcea2003evaluation}. Diberikan hasil \textit{alignment} dari program berupa A, dan \textit{gold standard alignment} dari \textit{evaluator} (manusia) sebagai G, masing-masing mengandung dua buah \textit{set} yaitu \textit{probable alignment} dan \textit{sure alignment}. Karena \textit{tool alignment} yang digunakan pada penelitian ini menghasilkan \textit{sure alignment} untuk setiap pasangan, maka dilakukan penyesuaian formula penghitungan seperti rumus pada (2.1).
 
@@ -185,3 +185,5 @@ FScore = 2 P R / P + R
 \end{equation}
 
 Dikarenakan proses \textit{word alignment} pada penelitian ini tidak membedakan antara \textit{probable} dan \textit{sure alignment}, maka semua hasil \textit{alignment} dianggap merupakan set dari \textit{sure alignment}.
+
+Evaluasi yang dilakukan pada sistem WSD yang dibuat juga menggunakan nilai precision dan recall untuk menghitung F-Score. Pada perhitungan F-Score tersebut, teknik \textit{cross validation} juga digunakan untuk membagi data menjadi \textit{training} dan \textit{testing}.

@@ -87,6 +87,12 @@ Sheeba, J., Vivekanandan, K., Sabitha, G., dan Padmavathi, P. (2013).
 \newblock In {\em Advances in Computing and Information Technology}, pages
   299--307. Springer.
 
+\bibitem[Taghipour dan Ng, 2015]{taghipour2015one}
+Taghipour, K. dan Ng, H.~T. (2015).
+\newblock One million sense-tagged instances for word sense disambiguation and
+  induction.
+\newblock In {\em CoNLL}, pages 338--344.
+
 \bibitem[Tala, 2003]{tala2003study}
 Tala, Z. (2003).
 \newblock A study of stemming effect on information retrieval in bahasa
