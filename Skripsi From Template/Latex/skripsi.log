@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  4 JUN 2017 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  4 JUN 2017 21:22
 entering extended mode
 **./skripsi.tex
 (skripsi.tex
@@ -1541,9 +1541,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ]
-Underfull \hbox (badness 2941) in paragraph at lines 36--37
-\T1/ptm/m/n/12 Berdasarkan konteks kalimat tersebut, dapat diketahui bahwa makn
-a
+Underfull \hbox (badness 2020) in paragraph at lines 36--37
+\T1/ptm/m/n/12 seharusnya didapat untuk kata "\T1/ptm/m/it/12 interest\T1/ptm/m
+/n/12 " di atas ialah "bunga bank".
  []
 
 
@@ -1589,9 +1589,9 @@ e key \T1/ptm/m/n/12 yang didapat yaitu
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 95--96
-\T1/ptm/m/n/12 Kata "menolak" mewakili kelas kata sebanyak 10 buah yang diantar
-anya
+Underfull \hbox (badness 4144) in paragraph at lines 95--96
+\T1/ptm/m/n/12 Kata "menolak" mewakili kelas kata sebanyak 9 buah yang diantara
+nya
  []
 
 
@@ -1675,8 +1675,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--124
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\T1/ptm/m/n/12 refuse%2:32:00::
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 126--126
-[]|\T1/ptm/m/it/12 show unwillingness
+[]|\T1/ptm/m/it/12 reject outright and
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 127--128
+[]|\T1/ptm/m/n/12 georgia gulf \T1/ptm/b/n/12 menolak
  []
 
 
@@ -1696,7 +1706,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39]
-Underfull \hbox (badness 1275) in paragraph at lines 138--139
+Underfull \hbox (badness 1275) in paragraph at lines 138--140
 []\T1/ptm/m/n/12 Pada sebaran jumlah \T1/ptm/m/it/12 instance \T1/ptm/m/n/12 di
  dalam kelas-kelasnya, kata "kehadiran"
  []
@@ -1708,103 +1718,97 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40]
-Overfull \hbox (0.52434pt too wide) in paragraph at lines 146--147
+Overfull \hbox (0.52434pt too wide) in paragraph at lines 147--148
 []|\T1/ptm/m/n/12 Jumlah| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]|\T1/ptm/m/n/12 Kehadiran
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T1/ptm/m/it/12 present (at a
+[]|\T1/ptm/m/n/12 Kehadiran
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\T1/ptm/m/it/12 present (at a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 []|\T1/ptm/m/n/12 ...tingkat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []|\T1/ptm/m/n/12 Kehadiran
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []|\T1/ptm/m/it/12 the impression
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 \T1/ptm/m/it/12 that something
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 []|\T1/ptm/m/n/12 ...berkurangnya
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 155--156
+Underfull \hbox (badness 5548) in paragraph at lines 156--157
 \T1/ptm/b/n/12 kehadiran \T1/ptm/m/n/12 pria
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 []|\T1/ptm/m/n/12 rumahnya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\T1/ptm/m/it/12 an official
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \T1/ptm/m/it/12 legislative
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 []|\T1/ptm/m/n/12 ...kebakaran
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 \T1/ptm/m/n/12 yang melanda
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\T1/ptm/m/n/12 rumahnya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []|\T1/ptm/m/it/12 Housing that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 \T1/ptm/m/it/12 someone is
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 166--167
+Underfull \hbox (badness 5331) in paragraph at lines 167--168
 []|\T1/ptm/m/n/12 ...ia pulang ke
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 172--173
-\T1/ptm/m/it/12 in which something is sheltered or located\T1/ptm/m/n/12 ". Kes
-alahan makna kata yang
- []
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 175--176
+Underfull \hbox (badness 1168) in paragraph at lines 176--177
 \T1/ptm/m/n/12 dan feed%1:13:00:: ("\T1/ptm/m/it/12 food for domestic livestock
 \T1/ptm/m/n/12 ") yang semestinya adalah
  []
@@ -1826,56 +1830,56 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
-Package pdftex.def Info: adit_pics/memecahkan.png used on input line 247.
+Package pdftex.def Info: adit_pics/memecahkan.png used on input line 248.
 (pdftex.def)             Requested size: 199.1693pt x 132.51773pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 248.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 249.
 
 <adit_pics/menolak.png, id=987, 472.76625pt x 313.17pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
-Package pdftex.def Info: adit_pics/menolak.png used on input line 252.
+Package pdftex.def Info: adit_pics/menolak.png used on input line 253.
 (pdftex.def)             Requested size: 199.1693pt x 131.93668pt.
 
 <adit_pics/obat.png, id=988, 468.75125pt x 313.17pt>
 File: adit_pics/obat.png Graphic file (type png)
  <use adit_pics/obat.png>
-Package pdftex.def Info: adit_pics/obat.png used on input line 258.
+Package pdftex.def Info: adit_pics/obat.png used on input line 259.
 (pdftex.def)             Requested size: 199.1693pt x 133.05963pt.
 
 <adit_pics/lingkungan.png, id=989, 469.755pt x 299.1175pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 263.
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 264.
 (pdftex.def)             Requested size: 199.1693pt x 126.81973pt.
 
 <adit_pics/halaman.png, id=990, 471.7625pt x 299.1175pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
-Package pdftex.def Info: adit_pics/halaman.png used on input line 269.
+Package pdftex.def Info: adit_pics/halaman.png used on input line 270.
 (pdftex.def)             Requested size: 199.1693pt x 126.28116pt.
 
 <adit_pics/kehadiran.png, id=991, 445.665pt x 301.125pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
-Package pdftex.def Info: adit_pics/kehadiran.png used on input line 274.
+Package pdftex.def Info: adit_pics/kehadiran.png used on input line 275.
 (pdftex.def)             Requested size: 199.1693pt x 134.57225pt.
 
 <adit_pics/hati.png, id=992, 471.7625pt x 307.1475pt>
 File: adit_pics/hati.png Graphic file (type png)
  <use adit_pics/hati.png>
-Package pdftex.def Info: adit_pics/hati.png used on input line 280.
+Package pdftex.def Info: adit_pics/hati.png used on input line 281.
 (pdftex.def)             Requested size: 199.1693pt x 129.67126pt.
 
 <adit_pics/coklat.png, id=993, 439.6425pt x 307.1475pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
-Package pdftex.def Info: adit_pics/coklat.png used on input line 285.
+Package pdftex.def Info: adit_pics/coklat.png used on input line 286.
 (pdftex.def)             Requested size: 199.1693pt x 139.14305pt.
 
 
@@ -1898,14 +1902,14 @@ n.png> <./adit_pics/hati.png> <./adit_pics/coklat.png>]
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
-Package pdftex.def Info: adit_pics/berat.png used on input line 294.
+Package pdftex.def Info: adit_pics/berat.png used on input line 295.
 (pdftex.def)             Requested size: 199.1693pt x 129.69325pt.
 
 <adit_pics/jalan.png, id=1012, 475.7775pt x 303.1325pt>
 File: adit_pics/jalan.png Graphic file (type png)
 
 <use adit_pics/jalan.png>
-Package pdftex.def Info: adit_pics/jalan.png used on input line 299.
+Package pdftex.def Info: adit_pics/jalan.png used on input line 300.
 (pdftex.def)             Requested size: 199.1693pt x 126.89848pt.
 )
 
@@ -2313,7 +2317,7 @@ am Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on skripsi.pdf (66 pages, 757035 bytes).
+Output written on skripsi.pdf (66 pages, 757403 bytes).
 PDF statistics:
  1219 PDF objects out of 1440 (max. 8388607)
  422 named destinations out of 1000 (max. 500000)
