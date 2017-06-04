@@ -259,6 +259,31 @@ foreach sentence in pos_tagged_sentences:
 
 Pada proses ekstraksi fitur POS Tag, dilakukan iterasi untuk setiap kata pada setiap kalimat. Jika \textit{target word} telah ditemukan, ambil POS Tag dari kata sebelum \textit{target word}, \textit{target} word, dan sesudah \textit{target word}. pos\_tag\_features[0] merepresentasikan POS Tag yang muncul pada sebelum \textit{target word}, pos\_tag\_features[1] untuk POS Tag \textit{target word}, dan pos\_tag\_features[2] untuk POS Tag kata sesudah \textit{target word}. Setelah POS Tag masing-masing posisi dikumpulkan, vektor representasi fitur akhir akan bernilai satu jika POS Tag muncul pada kalimat dan nol jika POS Tag tidak muncul. 
 
+Fitur ketiga adalah penggunaan vektor dari model \textit{word embedding}. Ekstraksi fitur ini dilakukan dengan proses \ref{ekstraksi-we-feature}.
+
+\begin{lstlisting}[language = python, caption={Ekstraksi fitur \textit{word embedding}}, label={ekstraksi-we-feature}]
+
+model = Word2Vec.load(word_embedding_model)
+
+length_we_feature = len(model['yang'])
+
+max_length = max(length(sentences))
+
+foreach sentence in sentences_containing_target_words:
+	arr = []
+	words = get_words(sentence)
+		for x in range(max_length):
+			if x in range of len(words):
+				if words[x] in model:
+					arr = arr + model[words[x]]
+				else:
+					arr = arr + array_of_zero(length_we_feature)
+			else:
+				arr = arr + array_of_zero(length_we_feature)
+\end{lstlisting}
+
+Pada proses tersebut, \textit{length\_we\_feature} diisi dengan jumlah kata terbanyak pada kumpulan kalimat. Untuk setiap kalimat, setiap kata di dalamnya akan diperiksa terlebih dahulu apakah terdapat vektor kata tersebut pada model. Jika vektor kata tersebut ada pada model \textit{word embedding} yang digunakan, konkatenasi vektor dengan arr yang merepresentasikan fitur pada kalimat tersebut. Namun demikian, jika kata tersebut tidak terdapat pada model ataupun indeks kata sudah melebihi jumlah kata pada kalimat, konkatenasi arr dengan \textit{array} yang berisi angka nol sebanyak panjang dari vektor \textit{word embedding}.
+
 Fitur terakhir yang dicoba adalah gabungan dari fitur \textit{bag of words} dengan \textit{POS Tag}. Implementasi yang digunakan sama dengan ekstraksi fitur \textit{bag of words} dan POS Tag, yang kemudian kedua buah vektor dikonkatenasi menjadi satu buah vektor gabungan.
 
 \section{Evaluasi dan Anotasi}

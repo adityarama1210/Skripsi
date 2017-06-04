@@ -4,4 +4,5 @@
 \contentsline {lstlisting}{\numberline {4.4}Fitur Bag of Words}{30}{lstlisting.4.4}
 \contentsline {lstlisting}{\numberline {4.5}Stanford POS Tagger}{31}{lstlisting.4.5}
 \contentsline {lstlisting}{\numberline {4.6}Ekstraksi Fitur POS Tag}{31}{lstlisting.4.6}
-\contentsline {lstlisting}{\numberline {4.7}Word Alignment Evaluation}{32}{lstlisting.4.7}
+\contentsline {lstlisting}{\numberline {4.7}Ekstraksi fitur \textit {word embedding}}{31}{lstlisting.4.7}
+\contentsline {lstlisting}{\numberline {4.8}Word Alignment Evaluation}{33}{lstlisting.4.8}
