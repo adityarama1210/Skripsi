@@ -2,13 +2,11 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babEmpat} \label{implementasi}
 %-----------------------------------------------------------------------------%
-Bab ini akan menjelaskan perihal implementasi dari rancangan yang sudah dibuat pada bab sebelumnya.
-
-\section{Pre-Processing}
-Proses pertama yang dilakukan adalah memisahkan kalimat bahasa Inggris dan bahasa Indonesia dari korpus identik menjadi dua buah \textit{file} paralel untuk dapat diproses pada tahap-tahap berikutnya. Korpus yang dihasilkan setelah proses ini adalah dua buah korpus (korpus bahasa Indonesia, dan korpus bahasa Inggris) dimana masing-masing baris merupakan kalimat yang saling berpasangan.
-
+Bab ini akan menjelaskan perihal implementasi dari rancangan yang sudah dibuat pada bab sebelumnya, mulai dari pembangunan \textit{sense tagged corpus} bahasa Inggris sampai dengan evaluasi.
 
 \section{Pembangunan \textit{Sense Tagged Corpus} Bahasa Inggris}
+Proses pertama yang dilakukan adalah memisahkan kalimat bahasa Inggris dan bahasa Indonesia dari korpus identik menjadi dua buah \textit{file} paralel untuk dapat diproses pada tahap-tahap berikutnya. Korpus yang dihasilkan setelah proses ini adalah dua buah korpus (korpus bahasa Indonesia, dan korpus bahasa Inggris) dimana masing-masing baris merupakan kalimat yang saling berpasangan.
+
 \textit{Sense Tagged Corpus} dibangun dengan menggunakan bantuan IMS untuk memberikan tag pada korpus bahasa Inggris. \textit{Pre-processing} dilakukan terlebih dahulu terhadap korpus bahasa Inggris seperti menghilangkan tanda baca dan mengubah semua token menjadi huruf kecil. Proses \textit{tagging} dilakukan dengan menjalankan perintah:
 
 \begin{lstlisting}[language=bash, caption={\textit{Tagging} korpus bahasa Inggris dengan IMS}, label={IMS}]
@@ -94,7 +92,7 @@ Contoh dari hasil \textit{post-processing} pada pasangan kalimat sebelumnya adal
 <pair>law||undang-undang</pair>##<pair>no||no</pair>##<pair>14||14</pair>##<pair>2008||tahun 2008</pair>##<pair>on||tentang</pair>##<pair>freedom||kebebasan memperoleh</pair>##<pair>information||informasi</pair>
 \end{lstlisting}
 
-Hasil ini kemudian disimpan sebagai sebuah \textit{file} sendiri yang akan digunakan kembali pada sistem WSD nantinya. Sementara itu, keperluan nomor dua difokuskan untuk membuat \textit{dictionary} yang akan ditingkatkan kualitasnya pada tahap berikutnya. Untuk menghasilkan \textit{file} yang dibutuhkan pada nomor kedua, dilakukan pengumpulan pasangan kata bahasa Indonesia dengan bahasa Inggris. Bila misalkan pada kalimat ke-n terdapat kata "undang-undang" yang dipasangkan dengan "law", dan pasangan kata "undang-undang" dengan "regulation" pada kalimat lain (kalimat ke-m, dimana m != n). Berdasarkan kedua kalimat tersebut, maka kata "undang-undang" akan berpasangan dengan dua kata yaitu "law", dan "regulation".
+Hasil ini kemudian disimpan sebagai sebuah \textit{file} sendiri yang akan digunakan kembali pada proses selanjutnya. Sementara itu, keperluan nomor dua difokuskan untuk membuat \textit{dictionary} yang akan ditingkatkan kualitasnya pada tahap berikutnya. Untuk menghasilkan \textit{file} yang dibutuhkan pada nomor kedua, dilakukan pengumpulan pasangan kata bahasa Indonesia dengan bahasa Inggris. Bila misalkan pada kalimat ke-n terdapat kata "undang-undang" yang dipasangkan dengan "law", dan pasangan kata "undang-undang" dengan "regulation" pada kalimat lain (kalimat ke-m, dimana m != n). Berdasarkan kedua kalimat tersebut, maka kata "undang-undang" akan berpasangan dengan dua kata yaitu "law", dan "regulation".
 
 \section{Peningkatan Kualitas \textit{Alignment}}
 
@@ -351,9 +349,9 @@ agreement = average(agreement)
 Berdasarkan cara perhitungan evaluasi tersebut, terdapat dua buah \textit{precision} dan \textit{recall} yang mana masing-masing menunjukan indikator penilaian untuk anotator pertama dan kedua. Precision didapatkan dengan menghitung jumlah \textit{alignment} yang sama antara anotator dengan hasil giza, dibagi dengan jumlah \textit{alignment} pada Giza. Sementara itu, Recall dihitung dengan cara jumlah \textit{alignment} sama dibagi dengan jumlah \textit{alignment} pada Anotator. Nilai F-score dihitung dengan cara mengalikan 2 dengan Precision dan Recall, lalu membaginya dengan jumlah Precision dan Recall. Precision, Recall, dan F-score masing-masing kalimat kemudian dirata-rata untuk mendapatkan nilai akhir. Agreement pada kedua anotator dilihat dengan membandingkan antara jumlah kesamaan \textit{alignment} pada kedua anotator dibagi dengan jumlah \textit{alignment} anotator pertama.
 
 \subsection{Evaluasi Sistem WSD Bahasa Indonesia}
-\textit{Target word} untuk evaluasi dipilih secara manual yang memenuhi kriteria bahwa kata tersebut memiliki kata \textit{translation} lebih dari satu dengan makna yang berbeda. Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan F1-score dari hasil klasifikasi yang dilakukan SVM terhadap \textit{target word}. Perintah pada \textit{script} yang digunakan untuk inisialisasi \textit{classifier} dapat dilihat pada \ref{svm-command} berikut.
+\textit{Target word} untuk evaluasi dipilih secara manual yang memenuhi kriteria bahwa kata tersebut memiliki kata \textit{translation} lebih dari satu dengan makna yang berbeda. Evaluasi dilakukan dengan \textit{cross validation} menggunakan perhitungan F1-score dari hasil klasifikasi yang dilakukan SVM terhadap \textit{target word}. Perintah pada \textit{script} yang digunakan untuk inisialisasi \textit{classifier} dapat dilihat pada potongan kode \ref{svm-command} berikut.
 
-\begin{lstlisting}[language=python, caption={Perintah SVM, baseline, dan \textit{cross validation}}, label={svm-command}]
+\begin{lstlisting}[language=python, caption={Inisialisasi SVM, baseline, dan \textit{cross validation}}, label={svm-command}]
 clf = svm.SVC(kernel='linear')
 bf = dummy.DummyClassifier(strategy='most_frequent')
 cv = ShuffleSplit(n_splits=3, test_size=0.3, random_state=0)
@@ -362,5 +360,4 @@ cv = ShuffleSplit(n_splits=3, test_size=0.3, random_state=0)
 
 \textit{Cross validation} dilakukan dengan iterasi sebanyak tiga \textit{fold} dengan perbandingan antara \textit{training} dan \textit{test set} sebesar 0,7:0,3. Nilai F-score yang diambil merupakan rerata dari hasil tiap \textit{fold}.
 
-Sebuah algoritma sederhana digunakan sebagai \textit{baseline} untuk pembanding dari sistem WSD yang dibangun. Baseline menggunakan pendekatan \textit{most frequent sense} sebagai cara untuk menentukan makna terbaik dari suatu kata. Bila diberikan \textit{training data} untuk kata "bisa" dengan makna "dapat melakukan" sebanyak 4 buah dan makna "racun ular" sebanyak 6 buah, maka algoritma baseline ini akan mengklasifikasikan semua kata "bisa" menjadi "racun ular".
-
+Sebuah algoritma sederhana digunakan sebagai \textit{baseline} untuk pembanding dari sistem WSD yang dibangun. Baseline menggunakan pendekatan \textit{most frequent} sebagai cara untuk menentukan makna terbaik dari suatu kata. Baseline tersebut akan memberikan kelas makna kata pada semua \textit{target word} sesuai dengan makna kata terbanyak pada \textit{training data}.

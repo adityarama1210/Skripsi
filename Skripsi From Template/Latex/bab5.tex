@@ -92,7 +92,7 @@ Proses \textit{transfer} makna kata dari bahasa Inggris ke bahasa Indonesia yang
 	\end{enumerate}
 \end{enumerate}
 
-Pada laporan ini, hasil dari \textit{sense transfering} yang dianalisis adalah proses yang menggunakan kamus \textit{crawling}. Pada jumlah kelas sebanyak 3-5 kelas kata (\textit{sense key}), \textit{target word} yang diambil adalah "memecahkan". Kata tersebut memiliki 4 buah kelas total dengan \textit{sense key} yang didapat yaitu 'solve\%2:31:00::','resolve\%2:31:01::', 'break\%2:30:03::', dan 'split\%2:38:00::'. Kata "menolak" mewakili kelas kata sebanyak 9 buah yang diantaranya mengandung kelas 'reject\%2:40:00::', 'decline\%2:32:00::', rebuff\%2:32:00::, dan enam buah kelas lainnya. Makna kata 'decline\%2:32:00::' sendiri sebenarnya merupakan "gabungan" dengan 'refuse\%2:32:00' yang memiliki kemiripan dengan nilai \textit{path similarity} melewati batas \textit{threshold}, sehingga makna kata dianggap sama dan diberikan \textit{tag} sebagai 'decline'. Tabel \ref{table:number-classes-sense-transfering-evaluation} menunjukan contoh beberapa kata tersebut dalam beberapa konteks kalimat yang bersesuaian.
+Pada laporan ini, hasil dari \textit{sense transfering} yang dianalisis adalah proses yang menggunakan kamus \textit{crawling}. Pada jumlah kelas sebanyak 3-5 kelas kata (\textit{sense key}), \textit{target word} yang diambil adalah "memecahkan". Kata tersebut memiliki 4 buah kelas total dengan \textit{sense key} yang didapat yaitu 'solve\%2:31:00::','resolve\%2:31:01::', 'break\%2:30:03::', dan 'split\%2:38:00::'. Kata "menolak" mewakili kelas kata sebanyak 9 buah yang diantaranya mengandung kelas 'reject\%2:40:00::', 'decline\%2:32:00::', rebuff\%2:32:00::, dan enam buah kelas lainnya. Makna kata 'decline\%2:32:00::' sendiri sebenarnya merupakan "gabungan" dengan 'refuse\%2:32:00' yang memiliki kemiripan dengan nilai \textit{path similarity} melewati batas \textit{threshold}, sehingga makna kata dianggap sama dan diberikan \textit{tag} sebagai 'decline' (dipilih satu \textit{tag} saja). Tabel \ref{table:number-classes-sense-transfering-evaluation} menunjukan contoh beberapa kata tersebut dalam beberapa konteks kalimat yang bersesuaian.
 
 \begin{table}
 	\centering
@@ -122,7 +122,7 @@ Pada laporan ini, hasil dari \textit{sense transfering} yang dianalisis adalah p
 		\textit{show unwillingness towards} &
 		wells rich \textbf{menolak} untuk berkomentar...
 		\\ \hline
-		refuse\%2:32:00:: rebuff\%2:32:00:: &
+		rebuff\%2:32:00:: &
 		\textit{reject outright and bluntly} &
 		georgia gulf \textbf{menolak} penawaran tersebut ...
 		\\ \hline
@@ -238,7 +238,7 @@ Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1,
 	\end{tabular}
 \end{table}
 
-Berdasarkan rata-rata dari nilai F-Score tersebut, dapat dilihat bahwa untuk kesepuluh data \textit{sampling} yang digunakan, rerata dari F-Score semua performa mengungguli sistem dengan algoritma baseline.
+Berdasarkan rata-rata dari nilai F-Score tersebut, dapat dilihat bahwa untuk kesepuluh data \textit{sampling} yang digunakan, rerata dari F-Score semua fitur mengungguli sistem baseline.
 
 Grafik perbandingan dari fitur-fitur tersebut untuk setiap kata dapat dilihat pada gambar \ref{fig:fitur-wsd-indo}.
 
@@ -304,4 +304,4 @@ Grafik perbandingan dari fitur-fitur tersebut untuk setiap kata dapat dilihat pa
 	\label{fig:fitur-wsd-indo}
 \end{figure} 
 
-Berdasarkan sepuluh grafik di atas, dapat kita lihat bahwa sembilan dari sepuluh \textit{sample} kata yang dicoba, hanya satu kata yang tidak pernah memiliki performa lebih baik baseline yaitu kata "halaman". Sembilan kata lainnya selalu memiliki performa di atas baseline untuk minimal satu dari keempat fitur yang dicoba. Pada delapan buah \textit{sample}, fitur F2 memiliki akurasi di bawah F1 walaupun sudah menggunakan \textit{word embedding}. Pada empat buah kata, F4 yang merupakan fitur gabungan F1 dan F3 memiliki performa yang lebih baik dari fitur F1. Penggunaan berbagai skenario fitur tersebut menunjukan bahwa fitur F1 dan F4 memiliki performa minimal sama atau di atas baseline pada sembilan dari sepuluh \textit{sample} (90\%). Dengan jumlah persentase 60\% fitur F2 mengungguli performa dari baseline, F2 (\textit{word embedding}) memiliki persentase lebih kecil dari fitur lainnya yang memiliki persentase lebih tinggi jika dibandingkan dengan baseline. Performa yang lebih rendah dari fitur lain ini bisa disebabkan karena domain yang berbeda antara \textit{training} pada saat membentuk model \textit{word embedding} (perbedaan pada gaya bahasa pada Wikipedia dan korpus identik). Namun demikian, persentase terbesar dari \textit{sampling} sepuluh kata di atas diperoleh pada fitur F4 yang memiliki performa lebih baik dari baseline pada delapan kasus dari sepuluh kata tersebut (80\%).
+Berdasarkan sepuluh grafik di atas, dapat kita lihat bahwa sembilan dari sepuluh \textit{sample} kata yang dicoba, hanya satu kata yang tidak pernah memiliki performa lebih baik baseline yaitu kata "halaman". Sembilan kata lainnya selalu memiliki performa di atas baseline untuk minimal satu dari keempat fitur yang dicoba. Pada delapan buah \textit{sample}, fitur F2 memiliki akurasi di bawah F1 walaupun sudah menggunakan \textit{word embedding}. Pada empat buah kata, F4 yang merupakan fitur gabungan F1 dan F3 memiliki performa yang lebih baik dari fitur F1 saja. Penggunaan berbagai skenario fitur tersebut menunjukan bahwa fitur F1 dan F4 memiliki performa minimal sama atau di atas baseline pada sembilan dari sepuluh \textit{sample} (90\%). Jumlah persentase pada \textit{sampling} sebesar 60\%  untuk fitur F2 yang mengungguli performa baseline, F2 (\textit{word embedding}) memiliki persentase lebih kecil dari fitur lainnya yang memiliki persentase lebih tinggi jika dibandingkan dengan baseline. Performa yang lebih rendah dari fitur lain ini bisa disebabkan karena domain yang berbeda antara \textit{training} pada saat membentuk model \textit{word embedding} (perbedaan pada gaya bahasa pada Wikipedia dan korpus identik). Namun demikian, persentase terbesar dari \textit{sampling} sepuluh kata di atas diperoleh pada fitur F4 yang memiliki performa lebih baik dari baseline pada delapan kasus dari sepuluh kata tersebut (80\%).
