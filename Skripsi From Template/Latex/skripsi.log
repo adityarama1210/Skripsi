@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  4 JUN 2017 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  4 JUN 2017 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1911,7 +1911,13 @@ tuk
 
 
 
-])
+]
+Underfull \hbox (badness 3000) in paragraph at lines 24--25
+[]\T1/ptm/m/n/12 Proses \T1/ptm/m/it/12 word alignment \T1/ptm/m/n/12 sebaiknya
+ dilakukan dengan \T1/ptm/m/it/12 tool \T1/ptm/m/n/12 SMT yang
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -2312,7 +2318,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (66 pages, 648940 bytes).
+Output written on skripsi.pdf (66 pages, 649111 bytes).
 PDF statistics:
  1194 PDF objects out of 1200 (max. 8388607)
  1051 compressed objects within 11 object streams
