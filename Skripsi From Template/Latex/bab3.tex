@@ -83,7 +83,36 @@ Pemindahan makna kata dilakukan dengan beberapa \textit{sub-process} yang terdir
 
 \section{Sistem WSD} \label{sec:Sistem WSD}
 %-----------------------------------------------------------------------------%
-Sistem WSD yang dibangun adalah dengan menggunakan pendekatan \textit{supervised learning}. \textit{Classifier} yang digunakan dalam sistem \textit{WSD} ini adalah SVM dengan fitur-fitur tertentu. Pengujian dilakukan dengan menggunakan beberapa fitur seperti \textit{bag of words}, \textit{POS Tag}, dan \textit{word embedding}. Fitur \textit{bag of words} menggunakan \textit{window} sebanyak dua buah kata kanan dan kiri kata tujuan sebagai kata konteks. Fitur \textit{POS Tag} dan vektor \textit{word embedding} juga akan dicoba sebagai skenario pada penelitian ini.
+Sistem WSD yang dibangun adalah dengan menggunakan pendekatan \textit{supervised learning}. \textit{Classifier} yang digunakan dalam sistem \textit{WSD} ini adalah SVM dengan fitur-fitur tertentu. Pengujian dilakukan dengan menggunakan beberapa fitur seperti \textit{bag of words}, \textit{POS Tag}, dan \textit{word embedding}. Fitur \textit{bag of words} menggunakan \textit{window} sebanyak dua buah kata kanan dan kiri kata tujuan sebagai kata konteks. Fitur \textit{POS Tag} dan vektor \textit{word embedding} juga akan dicoba sebagai skenario pada penelitian ini. Pada ekstraksi fitur, kata-kata yang termasuk dalam stopwords \citep{tala2003study} tidak digunakan sebagai fitur.
+
+Fitur \textit{bag of words} menggunakan pendekatan kemunculan kata-kata pada konteks kalimat sebagai fitur. Kata yang diambil untuk dijadikan fitur adalah dua buah kata di kiri dan di kanan dari \textit{target word}. Proses diawali dengan mencari \textit{target word} pada kalimat, kemudian ambil kata sebelum dan sesudah dari \textit{target word} tersebut. Contoh dari fitur ini dapat dilihat pada kalimat dengan \textit{target word} "bisa" berikut.
+\begin{lstlisting}[backgroundcolor = \color{white}]
+Ani digigit ular dengan bisa yang berbahaya
+\end{lstlisting}
+Pada contoh kalimat tersebut, \textit{bag of words} yang diambil adalah "digigit", "ular", dan "berbahaya". Kata "yang" tidak masuk sebagai fitur karena termasuk dalam stopwords. 
+
+Setiap fitur \textit{bag of words} dari setiap kalimat tersebut dikumpulkan untuk menjadi satu fitur besar yang mendeteksi kemunculan kata-kata tersebut pada setiap kalimat.
+
+Pada fitur POS Tag kelas kata yang diambil adalah POS Tag dari \textit{target word} kata sebelum, dan kata sesudahnya. Kelas kata dari \textit{target word} diperhitungkan karena pada beberapa kasus kata polisemi dapat dibedakan maknanya berdasarkan POS Tag yang dimilikinya. Kelas pada POS Tag yang digunakan meliputi NN(Noun), NNP(Proper Noun), VB(verb), CC(Coordinating conjunction), dan lain-lain. Pembentukan kelas POS Tag untuk menjadi fitur dilakukan dengan proses yang serupa pada fitur \textit{bag of words} dimana kombinasi kombinasi dari POS Tag yang mungkin direpresentasikan dalam \textit{one hot representation}. Hal ini dapat diilustrasikan dengan proses berikut:
+
+\begin{enumerate}
+	\item Simpan POS Tag dari indeks kata masing-masing (\textit{target word}-1, \textit{target word}, \textit{target word}+1)
+	\item Untuk masing-masing indeks baik itu -1,0,dan 1
+	\item Kumpulkan POS Tag yang \textit{distinct}, populasikan dalam \textit{array}
+	\item \textit{Array} ini nantinya akan merepresentasikan keberadaan POS Tag tertentu pada kata dengan indeks terkait tersebut
+\end{enumerate}
+
+Pada fitur \textit{word embedding}, vektor yang dijadikan sebagai fitur adalah vektor dari semua kata pada kalimat tersebut. Proses tersebut dapat diilustrasikan pada gambar \ref{fig:Ilustrasi-Fitur-Word-Embedding}.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/we-vector.png}
+	\caption{Ilustrasi Fitur Word Embedding}
+	\label{fig:Ilustrasi-Fitur-Word-Embedding}
+\end{figure}
+
+Semua vektor nilai dari kata-kata tersebut kemudian dikonkatenasi menjadi satu buah vektor besar. Untuk menjamin panjang vektor yang sama untuk setiap kalimat (karena jumlah kata tiap kalimat bisa berbeda-beda), panjang vektor disesuaikan dengan kalimat terpanjang dari semua kalimat yang mengandung \textit{target word} tersebut.
+
+
 
 \section{Evaluasi}
 
@@ -101,4 +130,5 @@ Anotator diberikan panduan untuk melakukan anotasi sesuai dengan \textit{task} y
 Hasil \textit{alignment} dari kedua anotator masing-masing dibandingkan dengan hasil \textit{alignment} yang dilakukan oleh Giza. Perhitungan Precision, Recall, dan F-score dihitung berdasarkan perbandingan seberapa banyak \textit{alignment} yang benar dengan banyaknya \textit{alignment} yang dilakukan. Proses lebih rinci dari perhitungan yang dilakukan akan dijelaskan pada Bab 4.
 
 \subsection{Sistem WSD}
-Hasil dari \textit{sense transfering} kemudian akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. Sistem yang dibangun akan mencoba empat buah skenario fitur yang meliputi \textit{bag of words}, \textit{word embedding}, POS Tag, dan gabungan dari \textit{bag of words} serta POS Tag. Sistem ini akan melakukan klasifikasi terhadap kata yang diberikan dengan pengetahuan berupa \textit{sense} apa saja yang mungkin untuk kata tersebut, dan kalimat dimana kata tersebut muncul. Performa dari klasifikasi tersebut akan dilihat berdasarkan perhitungan F1-score dari hasil klasifikasi makna kata yang dilakukan dengan menggunakan \textit{cross validation}.
+Hasil dari \textit{sense transfering} kemudian akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. 
+Sistem ini akan melakukan klasifikasi terhadap kata yang diberikan dengan pengetahuan berupa \textit{sense} apa saja yang mungkin untuk kata tersebut, dan kalimat dimana kata tersebut muncul. Performa dari klasifikasi tersebut akan dilihat berdasarkan perhitungan F1-score dari hasil klasifikasi makna kata yang dilakukan dengan menggunakan \textit{cross validation}.

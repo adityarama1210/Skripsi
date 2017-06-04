@@ -189,8 +189,6 @@ Terdapat tiga buah fitur pada penelitian ini yang terdiri dari:
 \textit{Classifier} yang digunakan pada penelitian ini adalah SVM dari Scikit \citep{scikit-learn} dengan parameter \textit{default} berupa kernel linear dan C=1. Penggunaan SVM pada penelitian ini mengikuti \textit{classifier} yang digunakan pada IMS \cite{zhong2010makes} untuk melihat performa yang dihasilkan pada sistem WSD Bahasa Indonesia yang dibuat.
 
 \subsection{Ekstraksi Fitur}
-Fitur \textit{bag of words} menggunakan pendekatan kemunculan kata-kata pada konteks kalimat sebagai fitur. Kata yang diambil untuk dijadikan fitur adalah dua buah kata di kiri dan di kanan dari \textit{target word}.
-
 Proses yang dilakukan dalam pengambilan kata konteks untuk fitur \textit{bag of words} dilakukan dengan tahap-tahap berikut.
 
 \begin{lstlisting}[language=python,caption={Fitur Bag of Words}, label={fitur-bag-of-words}]
@@ -209,15 +207,7 @@ return bag_of_words
 
 \end{lstlisting}
 
-Jika ditemukan kata yang merupakan \textit{target word}, ambil kata sebelum dan sesudah dari kata tersebut. Contoh dari fitur ini dapat dilihat pada kalimat dengan kata tujuan "bisa" berikut:
-\\
-- Ani digigit ular dengan bisa yang berbahaya
-\\
-Pada contoh kalimat tersebut, \textit{bag of words} yang diambil adalah ["digigit", "ular", "berbahaya", NULL]
-
-Setiap fitur \textit{bag of words} dari setiap kalimat tersebut dikumpulkan untuk menjadi satu fitur besar yang mendeteksi kemunculan kata-kata tersebut pada setiap kalimat.
-
-
+Pada \textit{source code} tersebut, fitur \textit{bag of words} diinisiasi dengan \textit{list} kosong. Proses selanjutnya adalah dengan mengiterasi setiap kata dalam setiap kalimat, jika kata tersebut merupakan \textit{target word} yang dicari, ambil kata dengan indeks -2, -1, 1, dan 2 dari kata \textit{target word} sekarang (jika ada). Hasil dari proses tersebut adalah \textit{list} yang berisi kata-kata yang pernah muncul sebagai tetangga dari \textit{target word}. Kumpulan kata-kata tersebut kemudian digunakan untuk mengubah suatu kalimat yang mengandung \textit{target word} menjadi vektor yang merepresentasikan keberadaan kata-kata pada \textit{list bag of words} tersebut.
 
 Fitur POS Tagging menggunakan \textit{tool} dari Stanford bernama "A Part-Of-Speech Tagger" yang dilatih dengan menggunakan model untuk bahasa Indonesia \citep{dinakaramani2014designing}. Proses \textit{tagging} ini dilakukan sebelum memasuki sistem WSD terhadap keseluruhan kalimat dalam korpus identik yang berisi bahasa Indonesia saja. Terdapat \textit{pre-processing} awal pada korpus bahasa Indonesia tersebut untuk menghilangkan beberapa tanda baca seperti titik, koma, tanda tanya, tanda seru, dan beberapa tanda baca lainnya. Setelah proses tersebut, diberikan tanda baca berupa titik pada akhir kalimat sebagai indikator akhir sebagai kebutuhan dari kompabilitas \textit{tool} (tidak semua kalimat pada korpus memiliki tanda baca akhir kalimat). Perintah yang dilakukan untuk melakukan \textit{POS Tagging} tersebut adalah:
 
@@ -235,25 +225,27 @@ Hasil dari proses tersebut merupakan korpus dengan setiap kata yang sudah memili
 ...
 \end{lstlisting}
 
-Kelas kata yang diambil adalah POS Tag dari \textit{target word} kata sebelum, dan kata sesudahnya. Kelas kata dari \textit{target word} diperhitungkan karena pada beberapa kasus kata polisemi dapat dibedakan maknanya berdasarkan POS Tag yang dimilikinya. POS Tag yang digunakan mengacu pada kelas-kelas yang ada pada POS Tag Penn Treebank seperti NN(Noun), NNP(Proper Noun), VB(verb), CC(Coordinating conjunction), dan lain-lain. Pembentukan kelas POS Tag untuk menjadi fitur dilakukan dengan proses yang serupa pada fitur \textit{bag of words} dimana kombinasi kombinasi dari POS Tag yang mungkin direpresentasikan dalam \textit{one hot representation}. Hal ini dapat diilustrasikan dengan proses berikut:
+Proses dalam melakukan eksetraksi fitur POS Tag tersebut dapat dilihat pada \ref{fitur-postag} berikut.
 
-\begin{enumerate}
-	\item Simpan POS Tag dari indeks kata masing-masing (\textit{target word}-1, \textit{target word}, \textit{target word}+1)
-	\item Untuk masing-masing indeks baik itu -1,0,dan 1
-	\item Kumpulkan POS Tag yang \textit{distinct}, populasikan dalam \textit{array}
-	\item \textit{Array} ini nantinya akan merepresentasikan keberadaan POS Tag tertentu pada kata dengan indeks terkait tersebut
-\end{enumerate}
+\begin{lstlisting}[language=python,caption={Ekstraksi Fitur POS Tag}, label={fitur-postag}]
 
-Fitur ketiga yang dicoba adalah \textit{word embedding}. Model dari \textit{word embedding} yang digunakan sudah dilatih dengan menggunakan korpus Wikipedia bahasa Indonesia. Vektor \textit{word embedding} yang dijadikan fitur adalah vektor dari semua kata pada kalimat tersebut. Semua vektor nilai dari kata-kata tersebut kemudian dikonkatenasi menjadi satu buah vektor besar. Untuk menjamin panjang vektor yang sama untuk setiap kalimat, panjang vektor disesuaikan dengan kalimat terpanjang dari semua kalimat yang mengandung \textit{target word} tersebut. Proses tersebut dapat diilustrasikan pada gambar \ref{fig:Ilustrasi-Fitur-Word-Embedding}.
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/we-vector.png}
-	\caption{Ilustrasi Fitur Word Embedding}
-	\label{fig:Ilustrasi-Fitur-Word-Embedding}
-\end{figure}
+pos_tag_features = [[],[],[]]
 
-Setelah didapatkan vektor hasil konkatenasi semua kata pada kalimat tersebut, vektor kemudian dimasukan ke \textit{classifier} untuk diprediksi makna kata apa yang diberikan untuk kata \textit{target word} tersebut.
-Fitur terakhir yang dicoba adalah gabungan dari fitur \textit{bag of words} dengan \textit{POS Tag}. Implementasi yang digunakan sama dengan ekstraksi fitur \textit{bag of words} dan POS Tag, yang kemudian kedua buak vektor dikonkatenasi menjadi satu buah vektor gabungan yang menjadi \textit{input} dari \textit{classifier}.
+foreach sentence in pos_tagged_sentences:
+	foreach word_with_postag in sentence:
+		word, postag = split_postag(word_with_postag)
+		if word == target_word:
+			if word_before(word,-1) exist:
+				pos_tag_features[0].append(postag(word,-1))
+			pos_tag_features[1].append(postag)
+			if word_after(word,1) exist:
+				pos_tag_features[2].append(postag(word,1))
+
+\end{lstlisting}
+
+Pada proses ekstraksi fitur POS Tag, dilakukan iterasi untuk setiap kata pada setiap kalimat. Jika \textit{target word} telah ditemukan, ambil POS Tag dari kata sebelum \textit{target word}, \textit{target} word, dan sesudah \textit{target word}. pos\_tag\_features[0] merepresentasikan POS Tag yang muncul pada sebelum \textit{target word}, pos\_tag\_features[1] untuk POS Tag \textit{target word}, dan pos\_tag\_features[2] untuk POS Tag kata sesudah \textit{target word}. Setelah POS Tag masing-masing posisi dikumpulkan, vektor representasi fitur akhir akan bernilai satu jika POS Tag muncul pada kalimat dan nol jika POS Tag tidak muncul. 
+
+Fitur terakhir yang dicoba adalah gabungan dari fitur \textit{bag of words} dengan \textit{POS Tag}. Implementasi yang digunakan sama dengan ekstraksi fitur \textit{bag of words} dan POS Tag, yang kemudian kedua buah vektor dikonkatenasi menjadi satu buah vektor gabungan.
 
 \section{Evaluasi \textit{Word Alignment}}
 
