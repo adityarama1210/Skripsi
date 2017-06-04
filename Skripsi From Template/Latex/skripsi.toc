@@ -6,9 +6,9 @@
 \contentsline {chapter}{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}{v}{section*.10}
 \contentsline {chapter}{ABSTRAK}{vi}{section*.12}
 \contentsline {chapter}{Daftar Isi}{viii}{chapter*.15}
-\contentsline {chapter}{Daftar Gambar}{xi}{chapter*.16}
-\contentsline {chapter}{Daftar Tabel}{xii}{chapter*.17}
-\contentsline {chapter}{Daftar Kode}{xiii}{chapter*.18}
+\contentsline {chapter}{Daftar Gambar}{x}{chapter*.16}
+\contentsline {chapter}{Daftar Tabel}{xi}{chapter*.17}
+\contentsline {chapter}{Daftar Kode}{xii}{chapter*.18}
 \contentsline {chapter}{\numberline {1}\uppercase {Pendahuluan}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Perumusan Masalah}{2}{section.1.2}
@@ -62,18 +62,8 @@
 \contentsline {section}{\numberline {5.2}\textit {Word Alignment}}{36}{section.5.2}
 \contentsline {section}{\numberline {5.3}\textit {Sense Transfering}}{38}{section.5.3}
 \contentsline {section}{\numberline {5.4}Sistem WSD}{41}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}\textit {Target word} "memecahkan"}{43}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}\textit {Target word} "menolak"}{44}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}\textit {Target word} "Obat"}{45}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}\textit {Target word} "Lingkungan"}{46}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}\textit {Target word} "Halaman"}{47}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}\textit {Target word} "Kehadiran"}{48}{subsection.5.4.6}
-\contentsline {subsection}{\numberline {5.4.7}\textit {Target word} "Hati"}{49}{subsection.5.4.7}
-\contentsline {subsection}{\numberline {5.4.8}\textit {Target word} "Coklat"}{50}{subsection.5.4.8}
-\contentsline {subsection}{\numberline {5.4.9}\textit {Target word} "Berat"}{51}{subsection.5.4.9}
-\contentsline {subsection}{\numberline {5.4.10}\textit {Target word} "Jalan"}{52}{subsection.5.4.10}
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{54}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{54}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{54}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{56}{chapter*.42}
-\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{58}{section*.43}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{45}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{45}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{45}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{47}{chapter*.34}
+\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{49}{section*.35}

@@ -225,208 +225,69 @@ Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense
 
 \end{comment}
 
-Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1, tujuh dari sepuluh (70\%) buah kata memiliki nilai performa diatas baseline, enam dari sepuluh kata (60\%) diatas baseline pada fitur F2, tujuh dari sepuluh kata (70\%) diatas baseline pada fitur F3, dan delapan dari sepuluh kata (80\%) diatas baseline pada fitur F4. Grafik perbandingan dari fitur-fitur tersebut dapat dilihat pada gambar berikut. 
+Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1, tujuh dari sepuluh (70\%) buah kata memiliki nilai performa diatas baseline, enam dari sepuluh kata (60\%) diatas baseline pada fitur F2, tujuh dari sepuluh kata (70\%) diatas baseline pada fitur F3, dan delapan dari sepuluh kata (80\%) diatas baseline pada fitur F4. Grafik perbandingan dari fitur-fitur tersebut dapat dilihat pada gambar \ref{fig:fitur-wsd-indo}.
 
-\subsection{\textit{Target word} "memecahkan"}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/memecahkan.png}
-	\caption{Grafik evaluasi kata "memecahkan"}
-	\label{fig:memecahkan}
+\begin{figure}[H]
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/memecahkan.png}
+		\caption{memecahkan}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/menolak.png}
+		\caption{menolak}
+	\end{subfigure}%
+	\\
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/obat.png}
+		\caption{obat}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/lingkungan.png}
+		\caption{lingkungan}
+	\end{subfigure}%
+	\\
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/halaman.png}
+		\caption{halaman}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/kehadiran.png}
+		\caption{kehadiran}
+	\end{subfigure}%
+	\\
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/hati.png}
+		\caption{hati}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/coklat.png}
+		\caption{coklat}
+	\end{subfigure}%
 \end{figure}
+\clearpage	
+\begin{figure}[H]
+	\ContinuedFloat
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/berat.png}
+		\caption{berat}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/jalan.png}
+		\caption{jalan}
+	\end{subfigure}%
+	\caption{Grafik Performa Fitur WSD Bahasa Indonesia}
+	\label{fig:fitur-wsd-indo}
+\end{figure} 
 
-Kelas kata dari "memecahkan" dengan kamus \textit{crawling} berjumlah 4 buah yaitu:
-\begin{lstlisting}
-'split\%2:38:00::': 1, 'break\%2:30:03::': 5, 'resolve\%2:31:01::': 7, 'solve\%2:31:00::': 13
-\end{lstlisting}
-Kelas kata dari "memecahkan" dengan kamus \textit{bi-directional} berjumlah 3 buah yaitu:
-\begin{lstlisting}
-'break%2:30:03::': 5, 'resolve%2:31:01::': 7, 'solve%2:31:00::': 13
-\end{lstlisting}
-
-Pada kata "memecahkan" dapat dilihat bahwa performa sistem WSD menggunakan kamus \textit{crawling} sebagai \textit{alignment enhancement} mempunyai tingkat akurasi yang lebih tinggi untuk setiap fitur yang digunakan. Namun demikian, performa dengan fitur gabungan POS Tag dan \textit{bag of words} malah menurun jika dibandingkan dengan fitur \textit{word embedding} dan \textit{bag of words} saja, bahkan akurasi yang didapatkan di bawah baseline.
-
-\subsection{\textit{Target word} "menolak"}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/menolak.png}
-	\caption{Grafik evaluasi kata "menolak"}
-	\label{fig:menolak}
-\end{figure}
-
-
-Kelas kata dari "menolak" dengan kamus \textit{crawling} berjumlah 9 buah yaitu:
-\begin{lstlisting}
-'rebuff%2:32:00::': 2, 'balk%2:41:00::': 3, 'object%2:32:00::': 1, 'dismiss%2:32:02::': 6, 'reject%2:40:00::': 82, 'refuse%1:27:00::': 1, 'oppose%2:32:01::': 10, 'resist%2:42:01::': 6, 'decline%2:32:00::': 198
-\end{lstlisting}
-Kelas kata dari "menolak" dengan kamus \textit{bi-directional} berjumlah 12 buah yaitu:
-\begin{lstlisting}
-'deny%2:32:00::': 6, 'spurn%2:32:00::': 1, 'rebuff%2:32:00::': 2, 'balk%2:41:00::': 1, 'object%2:32:00::': 1, 'dismiss%2:32:02::': 7, 'reject%2:40:00::': 80, 'refuse%1:27:00::': 1, 'oppose%2:32:01::': 5, 'refusal%1:10:01::': 3, 'resist%2:42:01::': 6, 'decline%2:32:00::': 197
-\end{lstlisting}
-
-Percobaan fitur f3 dan f4 pada kata "menolak" memiliki peningkatan performa akurasi jika dibandingkan dengan f1 atau bahkan f2 (\textit{word embedding}). Semua fitur yang dicoba pada kata ini memiliki performa diatas baseline kecuali f2. Perbedaan antara akurasi dengan menggunakan kamus \textit{crawling} ataupun \textit{bi-directional} tidak terlalu berbeda.
-
-\subsection{\textit{Target word} "Obat"}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/obat.png}
-	\caption{Grafik evaluasi kata "obat"}
-	\label{fig:obat}
-\end{figure}
-
-Kelas kata dari "obat" dengan kamus \textit{crawling} berjumlah 2 buah yaitu:
-\begin{lstlisting}
-'medicine%1:09:00::': 48, 'drug%1:06:00::': 52, 
-\end{lstlisting}
-Kelas kata dari "obat" dengan kamus \textit{bi-directional} berjumlah 4 buah yaitu:
-\begin{lstlisting}
-'cure%1:06:00::': 7, 'medicine%1:09:00::': 46, 'drug%1:06:00::': 62, 'medication%1:06:00::': 22
-\end{lstlisting}
-
-Pada penggunaan kamus \textit{crawling}, semua fitur memiliki akurasi diatas baseline dan diatas performa penggunaan kamus \textit{bi-directional}. Dari kelas-kelas yang dihasilkan, dapat dilihat bahwa kamus \textit{crawling} hanya menghasilkan dua buah kelas makna kata untuk "obat", hal ini memungkinkan model untuk dapat menebak lebih akurat dari pada kasus ketika kelas makna kata lebih banyak.
-
-\subsection{\textit{Target word} "Lingkungan"}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/lingkungan.png}
-	\caption{Grafik evaluasi kata "lingkungan"}
-	\label{fig:halaman}
-\end{figure}
-
-Kelas kata dari "lingkungan" dengan kamus \textit{crawling} berjumlah 7 buah yaitu:
-\begin{lstlisting}
-'environmentally%4:02:00::': 6, 'sphere%1:15:00::': 2, 'neighborhood%1:14:00::': 22, 'surroundings%1:15:00::': 1, 'environmental%3:01:01::': 72, 'environment%1:26:00::': 113, 'outside%5:00:00:external:00': 1
-\end{lstlisting}
-Kelas kata dari "lingkungan" dengan kamus \textit{bi-directional} berjumlah 7 buah yaitu:
-\begin{lstlisting}
-'environmentalist%1:18:00::': 1, 'sphere%1:15:00::': 2, 'neighborhood%1:14:00::': 22, 'environmental%3:01:01::': 74, 'vicinity%1:15:00::': 2, 'environment%1:26:00::': 113, 'outside%5:00:00:external:00': 1
-\end{lstlisting}
-
-
-Pada kata "lingkungan" hasil performa dengan penggunaan kamus \textit{crawling} memiliki performa lebih baik untuk semua fitur dibandingkan dengan \textit{bi-directional} walaupun kelas makna kata yang didapatkan dari dua buah kamus memiliki jumlah yang sama.
-
-\subsection{\textit{Target word} "Halaman"}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/halaman.png}
-	\caption{Grafik evaluasi kata "halaman"}
-	\label{fig:halaman}
-\end{figure}
-
-Kelas kata "halaman" dari hasil kamus \textit{crawling} memiliki 3 buah kelas yaitu:
-\begin{lstlisting}
-'page%1:10:00::': 41, 'yard%1:23:00::': 3, 'courtyard%1:06:00::': 3
-\end{lstlisting}
-Kelas kata dari "halaman" dengan kamus \textit{bi-directional} berjumlah 5 buah yaitu:
-\begin{lstlisting}
-'page%1:10:00::': 41, 'compound%1:09:00::': 1, 'yard%1:23:00::': 3, 'lawn%1:15:00::': 3, 'courtyard%1:06:00::': 3
-\end{lstlisting}
-
-Jumlah kelas pada kata "halaman" pada kedua buah skenario kamus sama-sama 3 buah dan performa yang dihasilkan oleh sistem yang menggunakan kamus \textit{crawling} mengungguli akurasi dari kamus \textit{bi-directional}. Fitur pada kedua skenario sama-sama turun pada f3 (POS Tag) dan meningkat pada fitur gabungan (f4).
-
-\subsection{\textit{Target word} "Kehadiran"}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/kehadiran.png}
-	\caption{Grafik evaluasi kata "kehadiran"}
-	\label{fig:kehadiran}
-\end{figure}
-
-Kelas kata "kehadiran" dari hasil kamus \textit{crawling} memiliki 3 buah kelas yaitu:
-\begin{lstlisting}
-'attendance%1:04:00::': 19, 'presence%1:09:00::': 64, 'existence%1:26:00::': 1
-\end{lstlisting}
-Kelas kata dari "kehadiran" dengan kamus \textit{bi-directional} berjumlah 6 buah yaitu:
-\begin{lstlisting}
-'arrive%2:38:00::': 1, 'presence%1:09:00::': 64, 'attendance%1:04:00::': 18, 'prevent%2:41:01::': 1, 'teacher%1:18:00::': 2, 'participation%1:04:00::': 3
-\end{lstlisting}
-
-Kata "kehadiran" dengan kamus \textit{crawling} memiliki performa lebih baik dari setiap fitur dengan kamus \textit{bi-directional}. Berdasarkan jumlah kelas kata masing-masing skenario (kamus), \textit{bi-directional} menghasilkan jumlah kelas kata yang lebih banyak sehingga kemungkinan menyebabkan \textit{classifier} melakukan klasifikasi yang lebih sulit dari pada \textit{crawling based dictionary}.
-
-\subsection{\textit{Target word} "Hati"}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/hati.png}
-	\caption{Grafik evaluasi kata "hati"}
-	\label{fig:hati}
-\end{figure}
-
-Kelas kata "hati" dari hasil kamus \textit{crawling} memiliki 3 buah kelas yaitu:
-\begin{lstlisting}
-'liver%1:08:00::': 44, 'heart%1:09:00::': 170, 'mind%1:09:00::': 7
-\end{lstlisting}
-Kelas kata dari "hati" dengan kamus \textit{bi-directional} berjumlah 3 buah yaitu:
-\begin{lstlisting}
-'liver%1:08:00::': 44, 'heart%1:09:00::': 176, 'humble%5:00:00:inferior:01': 1
-\end{lstlisting}
-
-Pada kasus kata "hati", performa sistem dengan kamus \textit{bi-directional} menungguli setiap fitur jika dibandingkan dengan kamus \textit{crawling}. Kedua buah skenario kamus memiliki pola yang sama yaitu menungguli baseline pada f1, turun pada saat menggunakan f2 dan f3, dan akhirnya naik kembali akurasinya pada fitur f4. 
-
-\subsection{\textit{Target word} "Coklat"}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/coklat.png}
-	\caption{Grafik evaluasi kata "coklat"}
-	\label{fig:coklat}
-\end{figure}
-
-Kelas kata "coklat" dari hasil kamus \textit{crawling} memiliki 3 buah kelas yaitu:
-\begin{lstlisting}
-'cocoa%1:13:02::': 10, 'cacao%1:20:00::': 5, 'brown%5:00:00:chromatic:00': 4
-\end{lstlisting}
-Kelas kata dari "coklat" dengan kamus \textit{bi-directional} berjumlah 3 buah yaitu:
-\begin{lstlisting}
-'cocoa%1:13:02::': 11, 'cacao%1:20:00::': 5, 'brown%5:00:00:chromatic:00': 4
-\end{lstlisting}
-
-Kelas makna kata pada kedua skenario kamus sangatlah mirip dan hanya berbeda satu buah \textit{instance} lebih pada makna 'cocoa'. Dengan data yang lebih banyak pada skenario kamus \textit{bi-directional}, akurasi yang dihasilkan oleh sistem lebih baik dari \textit{crawling based} walaupun hanya lebih banyak satu buah data.
-
-\subsection{\textit{Target word} "Berat"}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/berat.png}
-	\caption{Grafik evaluasi kata "berat"}
-	\label{fig:berat}
-\end{figure}
-
-Kelas kata "berat" dari hasil kamus \textit{crawling} memiliki 10 buah kelas yaitu:
-\begin{lstlisting}
-'heavily%4:02:00::': 3, 'tough%3:00:03::': 15, 'hard%4:02:00::': 1, 'weigh%2:42:01::': 8, 'heavy%3:00:04::': 58, 'weight%1:07:00::': 26, 'hard%5:00:00:strong:00': 3, 'difficult%3:00:00::': 8, 'strenuous%5:00:00:energetic:00': 2, 'severe%5:00:02:nonindulgent:00': 4
-\end{lstlisting}
-Kelas kata dari "berat" dengan kamus \textit{bi-directional} berjumlah 10 buah yaitu:
-\begin{lstlisting}
-'tough%3:00:03::': 15, 'hard%4:02:00::': 1, 'weigh%2:42:01::': 10, 'heavy%3:00:04::': 58, 'weight%1:07:00::': 26, 'hard%5:00:00:strong:00': 3, 'difficult%3:00:00::': 9, 'challenging%5:00:00:difficult:00': 1, 'violent%3:00:00::': 1, 'severe%5:00:02:nonindulgent:00': 4
-\end{lstlisting}
-
-Performa sistem dengan dua buah skenario kamus pada kata "berat" memiliki akurasi yang sama pada fitur f2 dan f3. Pada fitur kombinasi (f4), kedua sistem memiliki akurasi diatas baseline dan diungguli oleh sistem dengan kamus hasil \textit{crawling}.
-
-\subsection{\textit{Target word} "Jalan"}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{adit_pics/lingkungan.png}
-	\caption{Grafik evaluasi kata "jalan"}
-	\label{fig:jalan}
-\end{figure}
-
-Kelas kata "jalan" dari hasil kamus \textit{crawling} memiliki 10 buah kelas yaitu:
-\begin{lstlisting}
-'way%1:15:00::': 106, 'path%1:04:00::': 13, 'street%1:06:00::': 45, 'highway%1:06:00::': 4, 'recourse%1:04:00::': 1, 'road%1:06:00::': 347, 'walkway%1:06:00::': 1
-\end{lstlisting}
-Kelas kata dari "jalan" dengan kamus \textit{bi-directional} berjumlah 14 buah yaitu:
-\begin{lstlisting}
-'go%2:30:02::': 3, 'way%1:15:00::': 101, 'traffic%1:14:00::': 3, 'pursue%2:38:00::': 1, 'highway%1:06:00::': 4, 'walk%1:04:01::': 2, 'option%1:21:00::': 1, 'move%2:41:01::': 2, 'passage%1:04:01::': 5, 'road%1:06:00::': 344, 'walk%2:33:00::': 2, 'choice%1:09:00::': 1, 'street%1:06:00::': 44, 'path%1:04:00::': 11
-\end{lstlisting}
-
-Performa pada kedua buah skenario tidak berbeda jauh dan diungguli oleh kamus \textit{bi-directional}. Jumlah makna kelas kata dengan kamus \textit{bi-directional} memiliki 14 buah kelas yang mana lebih banyak dari sistem dengan kamus \textit{crawling}. Walaupun memiliki jumlah kelas makna kata yang lebih banyak, sistem dengan kamsu \textit{bi-directional} memiliki performa yang lebih baik yang mungkin dikarenakan data yang lebih banyak.
-
-Berdasarkan berbagai grafik dari masing-masing kata \textit{sample}, fitur yang biasanya mengalami penurunan adalah dari fitur f1 ke f2. Walaupun f2 merupakan fitur yang memanfaatkan model \textit{word embedding}, sepertinya perbedaan antara \textit{training} data yang digunakan untuk model ini memengaruhi performa dari penggunaan fitur ini pada \textit{classifier}. Data \textit{training} yang digunakan untuk \textit{word embedding} berasal dari Wikipedia dengan bentuk dan struktur kalimat/kata domain ensiklopedia sementara kalimat dalam korpus identik memiliki struktur \textit{general} domain yang di dalamnya terdapat kalimat-kalimat domain berita, obrolan sehari-hari, dan lain-lain. Perbedaan inilah yang memungkinkan kurang optimalnya fitur \textit{word embedding} dalam melakukan WSD pada penelitian ini. Pada fitur lain yaitu f4, dapat dilihat bahwa performa yang dihasilkan dengan gabungan fitur ini (POS Tag dan \textit{bag of words}) menghasilkan peningkatan ataupun juga penurunan pada beberapa kasus kata. Berdasarkan data tersebut, dapat disimpulkan juga bahwa performa fitur f1 dan f4 dapat mengungguli baseline pada banyak contoh kasus kata tersebut dengan total minimal delapan buah kata yang memiliki performa f1 atau f4 diatas baseline.
+Berdasarkan sepuluh grafik diatas, dapat kita lihat bahwa sembilan dari sepuluh \textit{sample} kata yang dicoba, hanya satu kata yang tidak pernah memiliki performa diatas baseline yaitu kata "halaman". Sembilan kata lainnya selalu memiliki performa di atas baseline untuk minimal satu dari keempat fitur yang dicoba. Pada delapan buah \textit{sample}, fitur F2 memiliki akurasi di bawah F1 walaupun sudah menggunakan \textit{word embedding}. Pada empat buah kata, F4 yang merupakan fitur gabungan F1 dan F3 memiliki performa yang lebih baik dari fitur F1. Penggunaan berbagai skenario fitur tersebut menunjukan bahwa fitur F1 dan F4 memiliki performa minimal sama atau di atas baseline pada sembilan dari sepuluh \textit{sample} (90\%). Dengan jumlah persentase 60\% fitur F2 mengungguli performa dari baseline, F2 (\textit{word embedding}) memiliki persentase lebih kecil dari fitur lainnya yang memiliki persentase lebih tinggi jika dibandingkan dengan baseline. Performa yang lebih rendah dari fitur lain ini bisa disebabkan karena domain yang berbeda antara \textit{training} pada saat membentuk model \textit{word embedding} (perbedaan pada gaya bahasa pada Wikipedia dan korpus identik). Namun demikian, persentase terbesar dari \textit{sampling} sepuluh kata di atas diperoleh pada fitur F4 yang memiliki performa lebih baik dari baseline pada delapan kasus dari sepuluh kata tersebut (80\%).
