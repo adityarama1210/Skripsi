@@ -94,6 +94,11 @@ Tala, Z. (2003).
 \newblock {\em Institute for Logic, Language and Computation, Universiteit van
   Amsterdam, The Nedherlands}.
 
+\bibitem[Ting, 2011]{ting2011precision}
+Ting, K.~M. (2011).
+\newblock Precision and recall.
+\newblock In {\em Encyclopedia of machine learning}, pages 781--781. Springer.
+
 \bibitem[Zhong dan Ng, 2010]{zhong2010makes}
 Zhong, Z. dan Ng, H.~T. (2010).
 \newblock It makes sense: A wide-coverage word sense disambiguation system for

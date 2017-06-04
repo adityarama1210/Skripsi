@@ -128,9 +128,7 @@ panl-bppt-eco-s1508	Semua ketentuan Insya Allah akan selesai 1 April, kata Burha
 
 %-----------------------------------------------------------------------------%
 \section{\textit{Word Alignment}}
-
-\subsection{\textit{Task Word Alignment}}
-Tugas dari \textit{word alignment} adalah menemukan korespondensi antara kata dan frasa pada teks paralel 
+Tugas dari \textit{word alignment} adalah menemukan korespondensi antara kata pada teks paralel 
 \citep{mihalcea2003evaluation}. Secara umum, proses dari pemasangan kata berlangsung seperti pada gambar \ref{fig:word-alignment}.
 
 
@@ -161,19 +159,6 @@ K2(id) : Korban tersebut harus di bawa ke rumah sakit
 Pada contoh pasangan kalimat tersebut, kata "\textit{hospital}" berpasangan dengan "rumah sakit". Proses pemasangan kata dengan frasa lebih sulit dibandingkan dengan satu unit kata saja.
 
 \textit{Tool} yang digunakan untuk keperluan \textit{word alignment} pada penelitian ini adalah Giza++ \citep{och03:asc}. \textit{Tool} tersebut merupakan salah satu \textit{word alignment tools} pada \textit{statistical machine translation} (SMT) yang dapat digunakan untuk memasangkan kata-kata pada dua buah korpus dwibahasa atau lebih. Terdapat beberapa \textit{word alignment tools} lain seperti Berkeley \textit{aligner}, anymalign, dan lain-lain.
-
-\subsection{Pengukuran Evaluasi}
-Terdapat empat buah pengukuran berbeda, yaitu \textit{precision}, \textit{recall}, \textit{f-measure}, dan \textit{alignment error rate (AER)} \citep{mihalcea2003evaluation}. Diberikan hasil \textit{alignment} dari program berupa A, dan \textit{gold standard alignment} dari \textit{evaluator} (manusia) sebagai G, masing-masing mengandung dua buah \textit{set} yaitu \textit{probable alignment} dan \textit{sure alignment}. Karena \textit{tool alignment} yang digunakan pada penelitian ini menghasilkan \textit{sure alignment} untuk setiap pasangan, maka dilakukan penyesuaian formula penghitungan seperti rumus pada (2.1).
-
-\begin{equation}
-	\begin{split}
-	Precision = A \cap G / A \\
-	Recall = A \cap G / G \\
-	FScore = 2 P R / P + R
-	\end{split}
-\end{equation}
-
-Dikarenakan proses \textit{word alignment} pada penelitian ini tidak membedakan antara \textit{probable} dan \textit{sure alignment}, maka semua hasil \textit{alignment} dianggap merupakan set dari \textit{sure alignment}.
 %------------------------------------------- ----------------------------------%
 
 \section{Support Vector Machine}
@@ -194,3 +179,19 @@ Terdapat beberapa cara untuk merepresentasikan sebuah kata sebagai \textit{input
 Representasi \textit{one hot vector} akan mempunyai panjang vektor yang besar jika korpus mempunyai jumlah kata unik yang besar. Terdapat bentuk representasi lain untuk membentuk vektor dari kata, salah satunya adalah dengan \textit{word embedding}. \textit{Word Embedding} menggunakan representasi bilangan \textit{real} pada vektor untuk merepresentasikan sebuah kata berdasarkan hasil \textit{training} dengan suatu korpus. Contoh representasi dari \textit{word embedding} pada suatu kata "makan" adalah vektor [0.6, -0.3, ..., 0.5] (misalnya). Vektor dari hasil \textit{word embedding} mempunyai karakteristik dimana jarak antara dua buah vektor dari kata yang mirip secara semantik bernilai kecil(dekat). Bila misalkan pada data \textit{training} untuk \textit{word embedding} terdapat banyak kalimat-kalimat berbentuk "... makan Y ..." dimana Y adalah sebuah objek berupa makanan. Maka kata-kata yang mewakili Y seperti misalnya "burger", "apel", "steak", dan lain-lain, akan memiliki vektor yang mirip dan secara implisit dapat saling menggantikan untuk menempati posisi Y tersebut. Berdasarkan keterdekatan vektor tersebut, \textit{word embedding} mampu untuk menangkap semantik dari kata-kata yang ada pada korpus.
 
 Salah satu model \textit{word embedding} yang dapat digunakan adalah Word2Vec \citep{mikolov2013distributed}. Pada penelitian ini Word2Vec akan digunakan untuk memanfaatkan vektor \textit{word embedding} sebagai salah satu fitur percobaan skenario yang ada. 
+
+\section{Evaluasi}
+
+Precision, Recall, dan F-score merupakan beberapa cara perhitungan untuk merepresentasikan akurasi dari suatu sistem. Berdasarkan domain \textit{information retrieval}, precision merupakan perbandingan dari total jumlah dokumen relevan yang didapatkan oleh sistem dengan total jumlah dokumen yang didapat. Lain halnya dengan precision, recall membandingkan total dokumen relevan yang didapatkan dengan total dokumen relevan dalam \textit{database} \citep{ting2011precision}. Kedua penilaian ini juga digunakan pada sistem yang melakukan klasifikasi suatu \textit{instance} dengan kelas-kelas yang sudah ditentukan. 
+
+Pada kasus \textit{word alignment}, terdapat empat buah pengukuran yang dapat dilakukan yaitu \textit{precision}, \textit{recall}, \textit{f-measure}, dan \textit{alignment error rate (AER)} \citep{mihalcea2003evaluation}. Diberikan hasil \textit{alignment} dari program berupa A, dan \textit{gold standard alignment} dari \textit{evaluator} (manusia) sebagai G, masing-masing mengandung dua buah \textit{set} yaitu \textit{probable alignment} dan \textit{sure alignment}. Karena \textit{tool alignment} yang digunakan pada penelitian ini menghasilkan \textit{sure alignment} untuk setiap pasangan, maka dilakukan penyesuaian formula penghitungan seperti rumus pada (2.1).
+
+\begin{equation}
+\begin{split}
+Precision = A \cap G / A \\
+Recall = A \cap G / G \\
+FScore = 2 P R / P + R
+\end{split}
+\end{equation}
+
+Dikarenakan proses \textit{word alignment} pada penelitian ini tidak membedakan antara \textit{probable} dan \textit{sure alignment}, maka semua hasil \textit{alignment} dianggap merupakan set dari \textit{sure alignment}.
