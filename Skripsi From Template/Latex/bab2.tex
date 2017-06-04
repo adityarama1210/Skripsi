@@ -7,7 +7,16 @@ Bab ini membahas mengenai studi literatur yang digunakan selama penelitian. Stud
 
 \section{Lexical Semantic}
 
-Kata dalam suatu bahasa memiliki banyak fitur atau informasi yang terkandung di dalamnya. Informasi pada kata tersebut meliputi contoh-contoh seperti ortografi, POS Tag, dan juga makna. Ortografi meliputi permasalahan dalam suatu kata pada bahasa mengenai ejaan, kapitalisasi, pemenggalan kata, dan lain-lain. POS Tag atau Part of Speech Tag merupakan 'kategori' dari suatu kata yang didefinisikan untuk membedakan kelas-kelas yang ada seperti misalnya \textit{proper noun}, \textit{verb}, \textit{adjective}, dan semacamnya. Makna kata menyimpan informasi dari arti suatu kata, dan bisa saja satu kata memiliki lebih dari satu makna. Selain informasi dalam suatu kata, terdapat relasi antara satu kata dengan kata lain seperti misalnya sinonim, homonim, polisemi, dan lain-lain. Berdasarkan informasi pada \citep{sheeba2013unsupervised}, Sinonim merupakan kata-kata yang berbeda namun memiliki makna yang mirip. Homonim berarti suatu kata memiliki makna yang berbeda. Mirip dengan Homonim, Polisemi merupakan suatu kata yang memiliki makna lebih dari satu.
+Kata dalam suatu bahasa memiliki banyak fitur atau informasi yang terkandung di dalamnya. Informasi pada kata tersebut meliputi contoh-contoh seperti ortografi, POS Tag, dan juga makna. Informasi tersebut dapat diperhitungkan sebagai fitur untuk merepresentasikan suatu kata.
+
+\subsection{\textit{Word Feature}}
+Ortografi meliputi permasalahan dalam suatu kata pada bahasa mengenai ejaan, kapitalisasi, pemenggalan kata, dan lain-lain. Pada bentuk kata (morfologi), Lemma merupakan bentuk kata "dasar" seperti misalnya "\textit{run}", \textit{"ran"}, dan "\textit{runs}" memiliki lemma yang sama yaitu "run". POS Tag atau Part of Speech Tag merupakan "kategori" dari suatu kata yang didefinisikan untuk membedakan kelas-kelas yang ada seperti misalnya \textit{proper noun} (nama orang, organisasi, nama tempat, dan lain-lain), \textit{verb} (kata kerja), \textit{adjective} (kata sifat seperti "marah", "senang", dan lain-lain), \textit{adverbial}, dan semacamnya. Makna kata menyimpan informasi dari arti sebuah kata, dan satu kata bisa memiliki lebih dari satu makna. Selain informasi dalam suatu kata, terdapat relasi antara satu kata dengan kata lain seperti misalnya sinonim, homonim, polisemi, dan lain-lain. Berdasarkan informasi pada \citep{sheeba2013unsupervised}, Sinonim merupakan kata-kata yang berbeda namun memiliki makna yang mirip. Homonim berarti suatu kata memiliki makna yang berbeda. Mirip dengan Homonim, Polisemi merupakan suatu kata yang memiliki makna lebih dari satu. Contoh dari relasi sinonim adalah antara kata "bohong" dengan "dusta", "perspektif" dengan "sudut pandang", dan kata-kata dengan makna mirip lainnya. Contoh dari kata polisemi adalah pada kata "darah" dalam kalimat "Tangan Ani mengeluarkan darah setelah tertusuk jarum" dengan "Ani baru menyadari bahwa dia dan Rina memiliki hubungan darah". Relasi homonim antar kata dapat dilihat misalnya pada kata "rapat" yang dapat berarti "pertemuan" ataupun juga "berdekatan", sebenarnya kata ini merupakan dua buah kata yang berbeda(sehingga maknanya berbeda) hanya saja penulisan dan pengejaannya sama.
+
+
+
+\subsection{Wordnet}
+
+Wordnet merupakan \textit{online lexical database} yang didesain dan untuk digunakan suatu program \citep{miller1995wordnet}. Salah satu Wordnet untuk bahasa Inggris yang sudah berkembang dan digunakan dalam berbagai penelitian adalah Wordnet yang dikembangkan Princeton. Representasi yang digunakan Wordnet adalah \textit{set of synonyms} (synset) sebagai kumpulan dari kata-kata yang memiliki kemiripan makna. Selain menyimpan kata-kata, Wordnet juga menyimpan makna dari setiap kata-kata tersebut. Informasi makna kata yang ada di dalam Wordnet sering digunakan untuk sistem WSD suatu bahasa sebagai acuan (\textit{sense inventory}). Makna kata pada Wordnet disimpan dengan \textit{uniq identifier} berupa \textit{sense key} yang memiliki format "\textbf{lemma\%key}". Salah satu contoh \textit{sense key} adalah "home\%1:06:00::" yang mana memiliki makna "\textit{Housing that someone is living in}". Representasi \textit{synset} dari Wordnet beserta relasi-relasinya tersebut dapat dimanfaatkan untuk disambiguasi makna suatu kata.
 
 %-----------------------------------------------------------------------------%
 \section{Word Sense Disambiguation}
@@ -117,11 +126,6 @@ panl-bppt-eco-s1508	Semua ketentuan Insya Allah akan selesai 1 April, kata Burha
 ...
 \end{lstlisting}
 
-%-----------------------------------------------------------------------------%
-
-\section{Wordnet}
-
-Wordnet merupakan \textit{online lexical database} yang didesain dan untuk digunakan suatu program \citep{miller1995wordnet}. Salah satu Wordnet untuk bahasa Inggris yang sudah berkembang dan digunakan dalam berbagai penelitian adalah Wordnet yang dikembangkan Princeton. Representasi yang digunakan Wordnet adalah \textit{set of synonyms} (synset) sebagai kumpulan dari kata-kata yang memiliki kemiripan makna. Selain menyimpan kata-kata, Wordnet juga menyimpan makna dari setiap kata-kata tersebut. Informasi makna kata yang ada di dalam Wordnet sering digunakan untuk sistem WSD suatu bahasa sebagai acuan (\textit{sense inventory}). Makna kata pada Wordnet disimpan dengan \textit{uniq identifier} berupa \textit{sense key} yang memiliki format "\textbf{lemma\%key}". Salah satu contoh \textit{sense key} adalah "home\%1:06:00::" yang mana memiliki makna "\textit{Housing that someone is living in}". Representasi \textit{synset} dari Wordnet beserta relasi-relasinya tersebut dapat dimanfaatkan untuk disambiguasi makna suatu kata.
 %-----------------------------------------------------------------------------%
 \section{\textit{Word Alignment}}
 
