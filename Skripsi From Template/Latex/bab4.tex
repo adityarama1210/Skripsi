@@ -249,10 +249,7 @@ Fitur terakhir yang dicoba adalah gabungan dari fitur \textit{bag of words} deng
 
 \section{Evaluasi \textit{Word Alignment}}
 
-Proses evaluasi meliputi \textit{pre-processing}, anotasi data, dan evaluasi. Hasil dari evaluasi ini ditujukan untuk memberikan informasi seberapa baik performa dari \textit{alignment} yang dilakukan oleh \textit{tool} Giza.
-
-\subsection{Pre-Processing}
-Terdapat beberapa proses dalam mempersiapkan data untuk evaluasi oleh anotator.
+Proses evaluasi meliputi \textit{pre-processing}, anotasi data, dan evaluasi. Hasil dari evaluasi ini ditujukan untuk memberikan informasi seberapa baik performa dari \textit{alignment} yang dilakukan oleh \textit{tool} Giza. Terdapat beberapa proses dalam mempersiapkan data untuk evaluasi oleh anotator.
 \begin{enumerate}
 	\item Pertama, pada setiap kata dalam bahasa Indonesia diberikan sebuah tanda indeks berupa angka untuk mempermudah proses evaluasi anotator nantinya. Pada proses tersebut, kalimat "Aku ingin makan" sebagai perumpamaan, diubah menjadi "Aku(1) ingin(2) makan(3)". Angka tersebut diperuntukan untuk mempercepat dan mempermudah kerja anotator nanti untuk melihat pasangan kata dari kalimat bahasa Inggris.
 	\item Kedua, kosongkan nomor indeks hasil \textit{alignment} Giza pada kalimat bahasa Inggris. Perumpamaan pada kalimat "NULL (\{  \}) i (\{ 1 \}) want (\{ 2 \}) to (\{  \}) eat (\{ 3 \})" akan berubah menjadi  "NULL (\{  \}) i (\{  \}) want (\{   \}) to (\{  \}) eat (\{  \})" yang nantinya akan diisi secara manual oleh anotator.
