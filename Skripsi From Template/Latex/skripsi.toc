@@ -66,4 +66,3 @@
 \contentsline {section}{\numberline {6.1}Kesimpulan}{45}{section.6.1}
 \contentsline {section}{\numberline {6.2}Saran}{45}{section.6.2}
 \contentsline {chapter}{Daftar Referensi}{47}{chapter*.34}
-\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{49}{section*.35}
