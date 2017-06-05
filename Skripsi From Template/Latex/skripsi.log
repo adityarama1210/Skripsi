@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  6 JUN 2017 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  6 JUN 2017 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1130,7 +1130,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11] <adit_pics/wordalignment.jpeg, id=598, 442.65375pt x 141.52875pt>
+[11] <adit_pics/wordalignment.jpeg, id=595, 442.65375pt x 141.52875pt>
 File: adit_pics/wordalignment.jpeg Graphic file (type jpg)
 
 <use adit_pics/wordalignment.jpeg>
@@ -2601,7 +2601,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (71 pages, 673332 bytes).
+Output written on skripsi.pdf (71 pages, 673526 bytes).
 PDF statistics:
  1265 PDF objects out of 1440 (max. 8388607)
  1111 compressed objects within 12 object streams
