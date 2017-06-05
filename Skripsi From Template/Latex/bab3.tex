@@ -33,8 +33,22 @@ Pembangunan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggun
 
 \textit{File} yang diberikan sebagai masukan dari IMS adalah korpus Bahasa Inggris yang berisi kalimat-kalimat  dalam Bahasa Inggris. Korpus ini didapatkan setelah memisahkan konten dari korpus identik menjadi dua buah korpus Bahasa Indonesia dan Bahasa Inggris. Keluaran dari proses ini adalah korpus berbahasa Inggris dengan kata-kata yang sudah diberikan \textit{tag} berupa \textit{sense key} yang memungkinkan untuk kata tersebut. Hasil tersebut kemudian akan diproses lagi untuk memilih \textit{sense} terbaik dan menyederhanakan format untuk proses berikutnya yang akan dijelaskan lebih rinci pada bab implementasi.
 %-----------------------------------------------------------------------------%
-\section{\textit{Word alignment} pada Korpus Identik}
+\section{\textit{Word Alignment} Bahasa Indonesia - Bahasa Inggris}
 %-----------------------------------------------------------------------------%
+
+Korpus utama yang digunakan sebagai sumber data penelitian ini adalah korpus identik \citep{larasati2012identic}. Korpus identik berisi pasangan kalimat-kalimat dalam bahasa Indonesia dan Inggris. Kalimat yang berpasangan di dalamnya sebagian besar mempunyai makna konten yang paralel walaupun terdapat juga yang \textit{comparable}. Korpus identik ini mempunyai total sebanyak 88.918 buah pasangan kalimat di dalamnya. Format korpus identik adalah sebagai berikut:
+\begin{lstlisting}
+<ID><tab><Kalimat Indonesia><tab><Kalimat Inggris>
+\end{lstlisting}
+Contoh isi dari korpus identik yang digunakan berbentuk seperti berikut ini:
+\begin{lstlisting}[backgroundcolor = \color{white}]
+...
+panl-bppt-eco-s1505	Ada 10 sektor yang dibicarakan.	There are 10 sectors that have been on the talk.
+panl-bppt-eco-s1508	Semua ketentuan Insya Allah akan selesai 1 April, kata Burhanuddin.	All the regulations, God willing, will be completed on April 1, he said.
+...
+\end{lstlisting}
+
+
 Proses \textit{word alignment} ini dilakukan agar nantinya makna kata dari suatu kata dalam Bahasa Inggris dapat ditransfer ke kata yang bersesuaian pada Bahasa Indonesia. Gambaran proses dapat dilihat pada gambar \ref{fig:giza-aligning}.
 
 \begin{figure}
@@ -81,7 +95,7 @@ Pemindahan makna kata dilakukan dengan beberapa \textit{sub-process} yang terdir
 	\item Pemindahan makna dilakukan sebagai proses akhir. Bila "courtyard" memiliki \textit{sense} yang artinya adalah "pekarangan rumah", maka "halaman" pada kalimat "Aku bermain di halaman" memiliki \textit{sense} "pekarangan rumah".
 \end{enumerate}
 
-\section{Sistem WSD} \label{sec:Sistem WSD}
+\section{WSD Bahasa Indonesia} \label{sec:Sistem WSD}
 %-----------------------------------------------------------------------------%
 Sistem WSD yang dibangun adalah dengan menggunakan pendekatan \textit{supervised learning}. \textit{Classifier} yang digunakan dalam sistem \textit{WSD} ini adalah SVM dengan fitur-fitur tertentu. Pengujian dilakukan dengan menggunakan beberapa fitur seperti \textit{bag of words}, \textit{POS Tag}, dan \textit{word embedding}. Fitur \textit{bag of words} menggunakan \textit{window} sebanyak dua buah kata kanan dan kiri kata tujuan sebagai kata konteks. Fitur \textit{POS Tag} dan vektor \textit{word embedding} juga akan dicoba sebagai skenario pada penelitian ini. Pada ekstraksi fitur, kata-kata yang termasuk dalam stopwords \citep{tala2003study} tidak digunakan sebagai fitur.
 

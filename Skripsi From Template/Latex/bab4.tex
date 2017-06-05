@@ -184,7 +184,7 @@ Proses yang terjadi pada ilustrasi di atas adalah:
 
 Setelah didapatkan setiap kata beserta makna hasil \textit{transfernya}, semua kata tersebut disusun ke dalam bentuk JSON dengan bentuk \textit{array of} kalimat yang isinya adalah \textit{array of words}. Setiap \textit{instance} dari \textit{word} tersebut menyimpan kata, POS Tag, dan \textit{sense key} hasil \textit{sense transfering} jika ada.
 %-----------------------------------------------------------------------------%
-\section{Sistem WSD}
+\section{WSD Bahasa Indonesia}
 Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}. Proses yang pertama kali dilakukan oleh sistem adalah membaca korpus dan memilih \textit{target word}, mendapatkan \textit{sense key} dari kata tersebut untuk dijadikan sebagai \textit{class} dari klasifikasi. Pada sistem WSD yang dibuat, kata-kata yang terdapat pada \textit{list of stopwords} dihilangkan dari kalimat-kalimat pada data.
 
 \subsection{Pemilihan Fitur dan \textit{Classifier}}
