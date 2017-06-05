@@ -59,9 +59,9 @@
 \contentsline {section}{\numberline {5.1}\textit {Sense Tagged Corpus} Bahasa Inggris}{38}{section.5.1}
 \contentsline {section}{\numberline {5.2}\textit {Word Alignment}}{39}{section.5.2}
 \contentsline {section}{\numberline {5.3}\textit {Sense Transfering}}{41}{section.5.3}
-\contentsline {section}{\numberline {5.4}WSD Bahasa Indonesia}{46}{section.5.4}
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{50}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{50}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{50}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{52}{chapter*.36}
-\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{54}{section*.37}
+\contentsline {section}{\numberline {5.4}WSD Bahasa Indonesia}{47}{section.5.4}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{51}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{51}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{51}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{53}{chapter*.37}
+\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{55}{section*.38}

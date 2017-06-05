@@ -195,7 +195,30 @@ Terdapat beberapa kata-kata yang dipilih secara manual untuk dihitung seberapa a
  
 Berdasarkan tabel di atas, rerata akurasi yang didapatkan pada kata-kata tersebut adalah 0.73. Terdapat beberapa makna hasil \textit{transfer} yang tidak sesuai dengan kata pasangannya seperti misalnya "plume\%1:06:00::" dengan kata "debu" yang memiliki makna "\textit{a feather or cluster of feathers worn as an ornament}, atau \textit{sense key} "limit\%2:30:01::" dengan makna "\textit{place limits on (extent or access)}" pada kata "batasan". \textit{Sense key} "limit\%2:30:01::" tersebut dianggap tidak sesuai dengan kata "batasan" karena makna yang dikandung adalah "memberi batas" dan bukan "batasan" itu sendiri.
 
-Berbeda dengan evaluasi sebelumnya yang berfokus pada penilaian seberapa tepat makna yang dipindahkan dari hasil \textit{transfering} pada suatu kata.
+Pada hasil tabel tersebut, dipilih beberapa kata-kata yang ambigu (memiliki makna kata yang tidak mirip) secara manual untuk dievaluasi pada tahap berikutnya. Pada tahap ini, evaluasi dilakukan anotator dengan menghitung berapa jumlah makna hasil \textit{transfer} pada kata tersebut, yang sesuai dengan kalimat dimana kata itu muncul. Makna kata yang tidak sesuai dari hasil evaluasi sebelumnya tidak dimasukkan ke dalam proses ini. Hasil evaluasi dapat dilihat pada tabel \ref{table:evaluasi-sense-transfer-2}.
+
+\begin{table}
+	\centering
+	\caption{Evaluasi \textit{sense transfering} berdasarkan jumlah kesesuaian dengan kalimat}
+	\label{table:evaluasi-sense-transfer-2}
+	\begin{tabular}{|p{4cm}|p{2.85cm}|p{2.85cm}|p{1.2cm}|}
+		\hline
+		Kata dan \textit{sense key} & Jumlah benar & Jumlah kalimat & Akurasi
+		\\ \hline
+		halaman (page\%1:10:00::) & 29 & 41 & 0.70 \\ \hline
+		halaman (courtyard\%1:06:00::) & 3 & 3 & 1.0 \\ \hline
+		coklat (cocoa\%1:13:02::) & 6 & 10 & 0.6 \\ \hline
+		coklat (brown\%5:00:00:chro-matic:00) & 3 & 4 & 0.75 \\ \hline
+		coklat (cacao\%1:20:00::) & 4 & 5 & 0.8 \\ \hline
+		hati (heart\%1:09:00::) &  & 170 & \\ \hline
+		hati (liver\%1:08:00::) &  & 44 & \\ \hline
+		memecahkan (solve\%2:31:00::) & 12 & 13 & 0.92 \\ \hline
+		memecahkan (resolve\%2:31:01::) &  & 7 & \\ \hline
+		memecahkan (split\%2:38:00::) & 1 & 1 & 1.0 \\ \hline
+	\end{tabular}
+\end{table}
+
+Pada tabel di atas, didapatkan hasil dari rerata akurasi kesesuaian makna kata hasil \textit{transfering} dengan kalimat sebesar <INSERTAKURASIHERE>. Ketidaksesuaian sense "page\%1:10:00::" (halaman buku) pada kata "halaman", terjadi pada kalimat yang mengandung makna "halaman \textit{web}" dan bukan halaman buku. Kesalahan pada kata "hati" juga disebabkan karena "\textit{heart}" diberikan \textit{tag} "hati (perasaan)" dan pada beberapa kasus, "\textit{heart}" yang dimaksud adalah "\textit{heart} (jantung)".
  
 Berdasarkan berbagai hasil evaluasi di atas, makna kata yang tidak tepat merupakan kesalahan dari baik itu variasi \textit{alignment} suatu kata yang dipasangkan dengan kata lainnya, ataupun juga hasil \textit{tagging} model IMS yang yang tidak tepat. Pada kesalahan hasil \textit{alignment} kasus yang terjadi adalah ketika suatu kata dipasangkan dengan kata lain yang tidak tepat sehingga berpengaruh pada makna kata yang dipindahkan. Kesalahan \textit{tagging} pada IMS juga mengakibatkan kesalahan \textit{sense key} pada kata Bahasa Indonesia karena pada \textit{sense tagged corpus} sudah mengalami kesalahan.
 %-----------------------------------------------------------------------------%
