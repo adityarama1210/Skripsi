@@ -63,5 +63,5 @@
 \contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{51}{chapter.6}
 \contentsline {section}{\numberline {6.1}Kesimpulan}{51}{section.6.1}
 \contentsline {section}{\numberline {6.2}Saran}{51}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{53}{chapter*.37}
-\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{55}{section*.38}
+\contentsline {chapter}{Daftar Referensi}{53}{chapter*.38}
+\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{55}{section*.39}

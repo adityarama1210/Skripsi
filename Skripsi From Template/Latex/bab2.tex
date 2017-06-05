@@ -184,4 +184,13 @@ FScore = 2 P R / P + R
 
 Dikarenakan proses \textit{word alignment} pada penelitian ini tidak membedakan antara \textit{probable} dan \textit{sure alignment}, maka semua hasil \textit{alignment} dianggap merupakan set dari \textit{sure alignment}.
 
-Evaluasi yang dilakukan pada sistem WSD yang dibuat juga menggunakan nilai precision dan recall untuk menghitung F-Score. Pada perhitungan F-Score tersebut, teknik \textit{cross validation} juga digunakan untuk membagi data menjadi \textit{training} dan \textit{testing} data. Training data merupakan bagian dari data keseluruhan yang digunakan untuk memberikan \textit{knowledge} agar nanti mesin dapat melakukan klasifikasi terhadap \textit{input} yang diberikan. Sementara itu, \textit{testing} data merupakan bagian dari data yang akan diprediksi oleh mesin terlebih dahulu (dari hasil latihan dengan \textit{training} data), lalu diperiksa prediksinya dengan kelas sebenarnya pada \textit{testing} data. Rasio dari jumlah \textit{training} dan \textit{testing} data yang dicoba pada penelitian ini adalah 7:3. Hasil perhitungan F-Score nantinya akan diambil rata-ratanya dari setiap iterasi \textit{cross validation}.
+Evaluasi yang dilakukan pada sistem WSD yang dibuat juga menggunakan nilai precision dan recall untuk menghitung F-Score. Pada perhitungan F-Score tersebut, teknik \textit{cross validation} juga digunakan untuk membagi data menjadi \textit{training} dan \textit{testing} data. Training data merupakan bagian dari data keseluruhan yang digunakan untuk memberikan \textit{knowledge} agar nanti mesin dapat melakukan klasifikasi terhadap \textit{input} yang diberikan. Sementara itu, \textit{testing} data merupakan bagian dari data yang akan diprediksi oleh mesin terlebih dahulu (dari hasil latihan dengan \textit{training} data), lalu diperiksa prediksinya dengan kelas sebenarnya pada \textit{testing} data. Metode \textit{cross validation} yang digunakan pada penelitian ini adalah K-Fold \textit{cross validation}. Ilustrasi dari metode tersebut dapat dilihat pada gambar \ref{fig:cross_val}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/cross_validation}
+	\caption{K-Fold \textit{cross validation} dengan nilai k=3}
+	\label{fig:cross_val}
+\end{figure}
+
+Pada K-Fold \textit{cross validation}, variabel K akan digantikan dengan nilai yang menunjukan pembagian dari \textit{training} dan \textit{testing} yang akan dilakukan. Pada contoh gambar dengan k=3, keseluruhan data akan dibagi menjadi 3 bagian, lalu 1 bagian tersebut akan digunakan untuk \textit{testing} dan sisanya digunakan sebagai \textit{training}. Hal ini dilakukan sebanyak K kali, yang mana pada contoh gambar dilakukan sebanyak 3 kali. Hasil perhitungan F-Score nantinya akan diambil rata-ratanya dari setiap iterasi \textit{cross validation}.
