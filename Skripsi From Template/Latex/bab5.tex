@@ -209,8 +209,8 @@ Pada hasil tabel tersebut, dipilih beberapa kata-kata yang ambigu (memiliki makn
 		coklat (cocoa\%1:13:02::) & 6 & 10 & 0.6 \\ \hline
 		coklat (brown\%5:00:00:chro-matic:00) & 3 & 4 & 0.75 \\ \hline
 		coklat (cacao\%1:20:00::) & 4 & 5 & 0.8 \\ \hline
-		hati (heart\%1:09:00::) &  & 170 & \\ \hline
-		hati (liver\%1:08:00::) &  & 44 & \\ \hline
+		hati (heart\%1:09:00::) & 166 & 170 & 0.97 \\ \hline
+		hati (liver\%1:08:00::) & 44 & 44 & 1.0 \\ \hline
 		memecahkan (solve\%2:31:00::) & 12 & 13 & 0.92 \\ \hline
 		memecahkan (resolve\%2:31:01::) &  & 7 & \\ \hline
 		memecahkan (split\%2:38:00::) & 1 & 1 & 1.0 \\ \hline
@@ -223,7 +223,7 @@ Berdasarkan berbagai hasil evaluasi di atas, makna kata yang tidak tepat merupak
 %-----------------------------------------------------------------------------%
 \section{WSD Bahasa Indonesia}
 
-Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai sampling dari \textit{target word} yang akan dievaluasi berdasarkan nilai F-score dari hasil rata-rata \textit{cross validation}. Kata yang dipilih merupakan \textit{instance} yang memiliki pasangan kata lebih dari satu dalam bahasa Inggris dan mempunyai makna yang berbeda dari hasil \textit{sense transfering}. \textit{Target word} yang dipilih tersebut memiliki kriteria bahwa pasangan bahasa inggris kata tersebut lebih dari satu ataupun juga pasangan bahasa inggrisnya memiliki makna yang tidak dekat (ambigu). Fitur yang dilakukan percobaan pada penelitian ini adalah F1(\textit{bag of words}), F2 (\textit{word embedding}), F3 (\textit{pos-tag}), F4(\textit{pos tagging} dan \textit{bag of words}). Hasil evaluasi dapat dilihat pada tabel akurasi  \ref{table:wsd-evaluation-crawling} berikut.
+Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai sampling dari \textit{target word} yang akan dievaluasi berdasarkan nilai F-score dari hasil rata-rata \textit{cross validation}. Kata yang dipilih merupakan \textit{instance} yang memiliki pasangan kata lebih dari satu dalam bahasa Inggris dan mempunyai makna yang berbeda dari hasil \textit{sense transfering}. \textit{Target word} yang dipilih tersebut memiliki kriteria bahwa pasangan bahasa inggris kata tersebut lebih dari satu ataupun juga pasangan bahasa inggrisnya memiliki makna yang tidak dekat (ambigu). Fitur yang dilakukan percobaan pada penelitian ini adalah F1(\textit{bag of words}), F2 (\textit{word embedding}), F3 (\textit{pos-tag}), F4 (\textit{pos tagging} dan \textit{bag of words}). Hasil evaluasi dapat dilihat pada tabel akurasi  \ref{table:wsd-evaluation-crawling} berikut.
 \begin{table}
 	\centering
 	\caption{Evaluasi sistem WSD}
@@ -231,16 +231,16 @@ Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense
 	\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
 		\hline
 		Kata & Baseline & F1 & F2 & F3 & F4 \\ \hline
-		memecahkan & 0.5 & 0.5 & 0.54 & 0.5 & 0.46 \\ \hline
-		menolak & 0.6 & 0.65 & 0.6 & 0.75 & 0.76 \\ \hline
-		obat & 0.49 & 0.7 & 0.56 & 0.61 & 0.78 \\ \hline
-		lingkungan & 0.54 & 0.54 & 0.43 & 0.67 & 0.66 \\ \hline
-		halaman & 0.93 & 0.93 & 0.93 & 0.91 & 0.93 \\ \hline
-		kehadiran & 0.67 & 0.91 & 0.77 & 0.73 & 0.91 \\ \hline
-		hati & 0.72 & 0.84 & 0.77 & 0.73 & 0.84 \\ \hline
-		coklat & 0.33 & 0.61 & 0.5 & 0.22 & 0.39 \\ \hline
-		berat & 0.53 & 0.61 & 0.52 & 0.68 & 0.7 \\ \hline
-		jalan & 0.66 & 0.75 & 0.73 & 0.68 & 0.74 \\ \hline
+		memecahkan & 0.5 & 0.51 & 0.62 & 0.48 & 0.51 \\ \hline
+		menolak & 0.6 & 0.63 & 0.6 & 0.76 & 0.74 \\ \hline
+		obat & 0.49 & 0.58 & 0.62 & 0.56 & 0.63 \\ \hline
+		lingkungan & 0.54 & 0.51 & 0.42 & 0.7 & 0.66 \\ \hline
+		halaman & 0.93 & 0.9 & 0.88 & 0.83 & 0.88 \\ \hline
+		kehadiran & 0.67 & 0.93 & 0.8 & 0.72 & 0.88 \\ \hline
+		hati & 0.72 & 0.88 & 0.82 & 0.75 & 0.89 \\ \hline
+		coklat & 0.33 & 0.61 & 0.48 & 0.34 & 0.67 \\ \hline
+		berat & 0.53 & 0.5 & 0.46 & 0.64 & 0.66 \\ \hline
+		jalan & 0.66 & 0.72 & 0.74 & 0.69 & 0.72 \\ \hline
 	\end{tabular} 
 \end{table}
 
@@ -278,7 +278,8 @@ Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1,
 	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
 		\hline
 		Baseline & F1 & F2 & F3 & F4 \\ \hline
-		0.62 & 0.710 & 0.646 & 0.651 & 0.716 \\ \hline
+		%0.62 & 0.710 & 0.646 & 0.651 & 0.716 \\ \hline
+		0.597 & 0.677 & 0.644 & 0.647 & 0.724 \\ \hline
 	\end{tabular}
 \end{table}
 
