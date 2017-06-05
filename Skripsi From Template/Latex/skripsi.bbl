@@ -74,6 +74,11 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 \newblock Scikit-learn: Machine learning in {P}ython.
 \newblock {\em Journal of Machine Learning Research}, 12:2825--2830.
 
+\bibitem[Rudnick, 2011]{rudnick2011towards}
+Rudnick, A. (2011).
+\newblock Towards cross-language word sense disambiguation for quechua.
+\newblock In {\em RANLP Student Research Workshop}, pages 133--138.
+
 \bibitem[Septiantri, 2013]{septiantri2013wsd}
 Septiantri, H. (2013).
 \newblock Word sense disambiguation (wsd) untuk bahasa indonesia menggunakan
