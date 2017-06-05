@@ -1,18 +1,18 @@
 \select@language {bahasa}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Arsitektur IMS\relax }}{8}{figure.caption.19}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Arsitektur IMS\relax }}{9}{figure.caption.19}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Performa IMS \citep {zhong2010makes}\relax }}{9}{figure.caption.20}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Word Alignment\relax }}{13}{figure.caption.21}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces K-Fold \textit {cross validation} dengan nilai k=3\relax }}{15}{figure.caption.22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Rancangan Sistem\relax }}{16}{figure.caption.23}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustrasi Pembuatan \textit {sense tagged corpus} Bahasa Inggris\relax }}{17}{figure.caption.24}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustrasi \textit {alignment} dengan Giza++\relax }}{18}{figure.caption.25}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Bi-directional \textit {Enhancement}\relax }}{19}{figure.caption.26}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Ilustrasi Fitur Word Embedding\relax }}{21}{figure.caption.27}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rancangan Sistem\relax }}{17}{figure.caption.23}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustrasi Pembuatan \textit {sense tagged corpus} Bahasa Inggris\relax }}{18}{figure.caption.24}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustrasi \textit {alignment} dengan Giza++\relax }}{19}{figure.caption.25}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Bi-directional \textit {Enhancement}\relax }}{20}{figure.caption.26}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Ilustrasi Fitur Word Embedding\relax }}{22}{figure.caption.27}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Ilustrasi \textit {sense transfering}\relax }}{30}{figure.caption.28}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ilustrasi \textit {sense transfering}\relax }}{31}{figure.caption.28}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Grafik Performa Fitur WSD Bahasa Indonesia\relax }}{50}{figure.caption.37}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Grafik Performa Fitur WSD Bahasa Indonesia\relax }}{51}{figure.caption.37}
 \addvspace {10\p@ }
