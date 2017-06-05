@@ -175,7 +175,29 @@ Kedua makna pada kata "kehadiran" memiliki makna yang relatif dekat dan sesuai d
 
 Kelompok \textit{sampling} lain adalah makna yang akan dilihat pada kata dengan bentuk morfologi yang berbeda. Kata "makan", "makanan", dan "memakan" merupakan kata yang mewakili kasus bentuk morfologi dalam bentuk lemma maupun berimbuhan. Pada kata "makan", \textit{sense key} yang diterima dari hasil \textit{transfer} adalah eat\%2:34:00:: yang memiliki makna "\textit{take in solid food}". Kata "makanan" pada kalimat-kalimat yang ada diberikan \textit{sense key} food\%1:03:00:: yang diartikan sebagai "\textit{any substance that can be metabolized by an animal to give energy and build tissue}". Kata "memakan" sendiri memiliki beberapa \textit{sense key} seperti consume\%2:34:02::, eat\%2:34:00::, dan feed\%1:13:00::. Dari \textit{sense key} yang didapat tersebut, consume\%2:34:02::("spend extravagantly") bukan merupakan \textit{sense} yang tepat (seharusnya memiliki makna mengonsumsi makanan), dan feed\%1:13:00:: ("\textit{food for domestic livestock}") yang semestinya adalah "memberikan makanan".
 
-Berdasarkan hasil evaluasi dari \textit{sampling} di atas, makna kata yang tidak tepat merupakan kesalahan dari baik itu variasi \textit{alignment} suatu kata yang dipasangkan dengan kata lainnya, ataupun juga hasil \textit{tagging} model IMS yang yang tidak tepat. Pada kesalahan hasil \textit{alignment} kasus yang terjadi adalah ketika suatu kata dipasangkan dengan kata lain yang tidak tepat sehingga berpengaruh pada makna kata yang dipindahkan. Kesalahan \textit{tagging} pada IMS juga mengakibatkan makna kata yang dipindahkan tidak tepat seperti kata "rumahnya" dengan \textit{sense key} "house\%1:14:02::". 
+Terdapat beberapa kata-kata yang dipilih secara manual untuk dihitung seberapa akurasi dari kesesuaian \textit{tag} makna yang didapat. Kriteria pemilihan kata-kata ini yaitu memiliki pasangan kata  dalam Bahasa Inggris dan makna kata lebih dari satu. Evaluasi ini akan menghitung seberapa banyak kelas-kelas makna kata yang benar dari hasil \textit{transfering} pada kata-kata pilihan tersebut. Hasil akurasi dari jumlah makna kata yang tepat dapat dilihat pada tabel \ref{table:akuras-kelas-makna-kata}.
+
+\begin{longtable}{|p{1.8cm}|p{1.2cm}|p{5cm}|p{1.5cm}|} 
+	\hline
+	Kata & Jumlah \textit{sense key} & \textit{sense key} & Akurasi \\ \hline
+	halaman & 3 & page\%1:10:00::, yard\%1:23:00::, courtyard\%1:06:00:: & 0.67 \\ \hline
+	coklat & 3 & cocoa\%1:13:02, cacao\%1:20:00::, brown\%5:00:00:chromatic:00 & 1.0 \\ \hline
+	debu & 2 & dust\%1:27:00::, plume\%1:06:00:: & 0.5 \\ \hline
+	debu & 2 & dust\%1:27:00::, plume\%1:06:00:: & 0.5 \\ \hline
+	batasan & 7 & limit\%1:07:00::, restriction\%1:09:00::, restraint\%1:04:00::, limitation\%1:23:00::, definition\%1:10:00::, constraint\%1:26:00::, limit\%2:30:01:: & 0.71 \\ \hline
+	lingkungan & 7 & environment\%1:26:00::, environmental\%3:01:01::, neighborhood\%1:14:00::, environmentally\%4:02:00::, sphere\%1:15:00::, surroundings\%1:15:00::, outside\%5:00:00:external:00 & 0.71 \\ \hline
+	hakim & 3 & judge\%1:18:01::, justice\%1:04:00::, magistrate\%1:18:00:: & 0.67 \\ \hline
+	hati & 3 & heart\%1:09:00::, liver\%1:08:00::, mind\%1:09:00:: & 0.67 \\ \hline
+	memecah-kan & 4 & solve\%2:31:00::, resolve\%2:31:01::, break\%2:30:03::, split\%2:38:00:: & 0.75 \\ \hline
+	\caption{Evaluasi \textit{sense transfering} akurasi kelas makna kata}
+	\label{table:akuras-kelas-makna-kata}
+\end{longtable}
+ 
+Berdasarkan tabel di atas, rerata akurasi yang didapatkan pada kata-kata tersebut adalah 0.73. Terdapat beberapa makna hasil \textit{transfer} yang tidak sesuai dengan kata pasangannya seperti misalnya "plume\%1:06:00::" dengan kata "debu" yang memiliki makna "\textit{a feather or cluster of feathers worn as an ornament}, atau \textit{sense key} "limit\%2:30:01::" dengan makna "\textit{place limits on (extent or access)}" pada kata "batasan". \textit{Sense key} "limit\%2:30:01::" tersebut dianggap tidak sesuai dengan kata "batasan" karena makna yang dikandung adalah "memberi batas" dan bukan "batasan" itu sendiri.
+ 
+
+ 
+Berdasarkan berbagai hasil evaluasi di atas, makna kata yang tidak tepat merupakan kesalahan dari baik itu variasi \textit{alignment} suatu kata yang dipasangkan dengan kata lainnya, ataupun juga hasil \textit{tagging} model IMS yang yang tidak tepat. Pada kesalahan hasil \textit{alignment} kasus yang terjadi adalah ketika suatu kata dipasangkan dengan kata lain yang tidak tepat sehingga berpengaruh pada makna kata yang dipindahkan. Kesalahan \textit{tagging} pada IMS juga mengakibatkan kesalahan \textit{sense key} pada kata Bahasa Indonesia karena pada \textit{sense tagged corpus} sudah mengalami kesalahan.
 %-----------------------------------------------------------------------------%
 \section{WSD Bahasa Indonesia}
 
