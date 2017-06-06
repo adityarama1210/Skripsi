@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  6 JUN 2017 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  6 JUN 2017 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1912,8 +1912,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [45]
-Overfull \hbox (0.52434pt too wide) in paragraph at lines 197--198
-[]|\T1/ptm/m/n/12 Jumlah| 
+Overfull \hbox (4.35257pt too wide) in paragraph at lines 197--198
+[]|\T1/ptm/b/n/12 Jumlah| 
  []
 
 
@@ -2014,33 +2014,33 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46]
-Overfull \hbox (0.52434pt too wide) in paragraph at lines 232--232
-[]|\T1/ptm/m/n/12 Jumlah
+Overfull \hbox (4.35257pt too wide) in paragraph at lines 232--232
+[]|\T1/ptm/b/n/12 Jumlah
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 232--232
-\T1/ptm/m/it/12 sense
+\T1/ptm/b/it/12 sense
  []
 
 
-Overfull \hbox (0.52434pt too wide) in paragraph at lines 232--232
-[]|\T1/ptm/m/n/12 Jumlah
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
-\T1/ptm/m/it/12 sense
+Overfull \hbox (4.35257pt too wide) in paragraph at lines 232--232
+[]|\T1/ptm/b/n/12 Jumlah
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 232--232
-\T1/ptm/m/it/12 key
+\T1/ptm/b/it/12 sense
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 232--232
-\T1/ptm/m/n/12 yang
+\T1/ptm/b/it/12 key
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
+\T1/ptm/b/n/12 yang
  []
 
 
@@ -2179,7 +2179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--240
  []
 
 
-Underfull \vbox (badness 10000) detected at line 243
+Underfull \vbox (badness 10000) detected at line 245
  []
 
 
@@ -2189,33 +2189,18 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [47]
-Overfull \hbox (1.5058pt too wide) in paragraph at lines 255--256
+Overfull \hbox (1.5058pt too wide) in paragraph at lines 257--258
 []|\T1/ptm/b/n/12 Akurasi| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
-[]|\T1/ptm/m/n/12 halaman
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]|\T1/ptm/m/n/12 halaman
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 259--259
-[]|\T1/ptm/m/n/12 coklat
+[]|\T1/ptm/m/n/12 halaman
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 260--260
-[]|\T1/ptm/m/n/12 coklat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
-\T1/ptm/m/n/12 (brown%5:00:00:chro-
+[]|\T1/ptm/m/n/12 halaman
  []
 
 
@@ -2224,17 +2209,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--261
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-[]|\T1/ptm/m/n/12 memecahkan
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
+[]|\T1/ptm/m/n/12 coklat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
-[]|\T1/ptm/m/n/12 memecahkan
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
+\T1/ptm/m/n/12 (brown%5:00:00:chro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+[]|\T1/ptm/m/n/12 coklat
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 266--266
+[]|\T1/ptm/m/n/12 memecahkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+[]|\T1/ptm/m/n/12 memecahkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 []|\T1/ptm/m/n/12 memecahkan
  []
 
@@ -2245,7 +2245,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48]
-Underfull \hbox (badness 1478) in paragraph at lines 272--273
+Underfull \hbox (badness 1478) in paragraph at lines 274--275
 \T1/ptm/m/n/12 buku) pada kata "halaman", terjadi pada kalimat yang mengandung 
 makna
  []
@@ -2257,7 +2257,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49]
-Underfull \hbox (badness 2368) in paragraph at lines 338--339
+Underfull \hbox (badness 2368) in paragraph at lines 340--341
 \T1/ptm/m/n/12 kesepuluh data \T1/ptm/m/it/12 sampling \T1/ptm/m/n/12 yang digu
 nakan, rerata dari F-Score semua fitur
  []
@@ -2272,58 +2272,58 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
-Package pdftex.def Info: adit_pics/memecahkan.png used on input line 345.
+Package pdftex.def Info: adit_pics/memecahkan.png used on input line 347.
 (pdftex.def)             Requested size: 199.1693pt x 125.63791pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 346.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 348.
 
 <adit_pics/menolak.png, id=1052, 473.77pt x 299.1175pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
-Package pdftex.def Info: adit_pics/menolak.png used on input line 350.
+Package pdftex.def Info: adit_pics/menolak.png used on input line 352.
 (pdftex.def)             Requested size: 199.1693pt x 125.74715pt.
 
 <adit_pics/obat.png, id=1053, 471.7625pt x 298.11375pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
-Package pdftex.def Info: adit_pics/obat.png used on input line 356.
+Package pdftex.def Info: adit_pics/obat.png used on input line 358.
 (pdftex.def)             Requested size: 199.1693pt x 125.8574pt.
 
 <adit_pics/lingkungan.png, id=1054, 475.7775pt x 301.125pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 361.
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 363.
 (pdftex.def)             Requested size: 199.1693pt x 126.05809pt.
 
 <adit_pics/halaman.png, id=1055, 468.75125pt x 302.12875pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
-Package pdftex.def Info: adit_pics/halaman.png used on input line 367.
+Package pdftex.def Info: adit_pics/halaman.png used on input line 369.
 (pdftex.def)             Requested size: 199.1693pt x 128.36844pt.
 
 <adit_pics/kehadiran.png, id=1056, 471.7625pt x 299.1175pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
-Package pdftex.def Info: adit_pics/kehadiran.png used on input line 372.
+Package pdftex.def Info: adit_pics/kehadiran.png used on input line 374.
 (pdftex.def)             Requested size: 199.1693pt x 126.28116pt.
 
 <adit_pics/hati.png, id=1057, 470.75874pt x 295.1025pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
-Package pdftex.def Info: adit_pics/hati.png used on input line 378.
+Package pdftex.def Info: adit_pics/hati.png used on input line 380.
 (pdftex.def)             Requested size: 199.1693pt x 124.85178pt.
 
 <adit_pics/coklat.png, id=1058, 468.75125pt x 300.12125pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
-Package pdftex.def Info: adit_pics/coklat.png used on input line 383.
+Package pdftex.def Info: adit_pics/coklat.png used on input line 385.
 (pdftex.def)             Requested size: 199.1693pt x 127.51549pt.
 
 
@@ -2346,14 +2346,14 @@ n.png> <./adit_pics/hati.png> <./adit_pics/coklat.png>]
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
-Package pdftex.def Info: adit_pics/berat.png used on input line 392.
+Package pdftex.def Info: adit_pics/berat.png used on input line 394.
 (pdftex.def)             Requested size: 199.1693pt x 127.51549pt.
 
 <adit_pics/jalan.png, id=1077, 462.72874pt x 290.08376pt>
 File: adit_pics/jalan.png Graphic file (type png)
 
 <use adit_pics/jalan.png>
-Package pdftex.def Info: adit_pics/jalan.png used on input line 397.
+Package pdftex.def Info: adit_pics/jalan.png used on input line 399.
 (pdftex.def)             Requested size: 199.1693pt x 124.85751pt.
 )
 
@@ -2765,7 +2765,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (74 pages, 683623 bytes).
+Output written on skripsi.pdf (74 pages, 687545 bytes).
 PDF statistics:
  1291 PDF objects out of 1440 (max. 8388607)
  1132 compressed objects within 12 object streams

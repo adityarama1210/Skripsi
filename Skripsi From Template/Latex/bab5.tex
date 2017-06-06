@@ -50,7 +50,7 @@ Proses alignment dilakukan terhadap semua pasangan kalimat pada korpus identik (
 	\label{table:word-alignment-evaluation}
 	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
 		\hline
-		Anotator & Precision & Recall & F-Score
+		\textbf{Anotator} & \textbf{Precision} & \textbf{Recall} & \textbf{F-Score}
 		\\ \hline
 		1 & 0.775 & 0.747 & 0.761
 		\\ \hline
@@ -100,7 +100,7 @@ Pasangan kata pada tabel di atas kemudian dihitung berapa jumlah pasangan yang b
 	\label{table:enhancement-precision}
 	\begin{tabular}{|p{2.5cm}|p{3cm}|p{3cm}|}
 		\hline
-		Kata & \textbf{\textit{Bi-directional}} & \textbf{\textit{Crawling}}
+		\textbf{Kata} & \textbf{\textit{Bi-directional}} & \textbf{\textit{Crawling}}
 		\\ \hline
 		memodernkan & 1.0 & 1.0 \\ \hline
 		kembar & 1.0 & 1.0 \\ \hline
@@ -150,7 +150,7 @@ Pada laporan ini, hasil dari \textit{sense transfering} yang dianalisis adalah p
 	\label{table:number-classes-sense-transfering-evaluation}
 	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
 		\hline
-		\textit{Sense Key} & Makna & Kalimat
+		\textbf{\textit{Sense Key}} & \textbf{Makna} & \textbf{Kalimat}
 		\\ \hline
 		solve\%2:31:00::  & 
 		\textit{find the solution to (a problem or question) or understand the meaning of}   & 
@@ -194,7 +194,7 @@ Pada sebaran jumlah \textit{instance} di dalam kelas-kelasnya, kata "kehadiran" 
 	\label{table:class-instance-sense-transfering-evaluation}
 	\begin{tabular}{|p{4cm}|p{2.85cm}|p{2.85cm}|p{1.2cm}|}
 		\hline
-		Kata (Sense key) & Makna & Kalimat & Jumlah
+		\textbf{Kata (\textit{sense key})} & \textbf{Makna} & \textbf{Kalimat} & \textbf{Jumlah}
 		\\ \hline
 		Kehadiran (attendance\%1:04:00::)  & 
 		\textit{the act of being present (at a meeting or event etc.)}   & 
@@ -229,7 +229,7 @@ Terdapat beberapa kata-kata yang dipilih secara manual untuk dihitung akurasi da
 
 \begin{longtable}{|p{1.8cm}|p{1.2cm}|p{5cm}|p{1.2cm}|p{1.5cm}|} 
 	\hline
-	Kata & Jumlah \textit{sense key} & \textit{sense key}  & Jumlah \textit{sense key} yang benar & Akurasi \\ \hline
+	\textbf{Kata} & \textbf{Jumlah \textit{sense key}} & \textbf{\textit{sense key}}  & \textbf{Jumlah \textit{sense key} yang benar} & \textbf{Akurasi} \\ \hline
 	halaman & 3 &  page\%1:10:00::, yard\%1:23:00::, courtyard\%1:06:00:: & 2 & 0.67 \\ \hline
 	coklat & 3 & cocoa\%1:13:02, cacao\%1:20:00::, brown\%5:00:00:chromatic:00 & 3 & 1.0 \\ \hline
 	debu & 2 & dust\%1:27:00::, plume\%1:06:00:: & 1 & 0.5 \\ \hline
@@ -238,6 +238,8 @@ Terdapat beberapa kata-kata yang dipilih secara manual untuk dihitung akurasi da
 	hakim & 3 & judge\%1:18:01::, justice\%1:04:00::, magistrate\%1:18:00:: & 2 & 0.67 \\ \hline
 	hati & 3 & heart\%1:09:00::, liver\%1:08:00::, mind\%1:09:00:: & 2 & 0.67 \\ \hline
 	memecah-kan & 4 & solve\%2:31:00::, resolve\%2:31:01::, break\%2:30:03::, split\%2:38:00:: & 3 & 0.75 \\ \hline
+	\hline
+	\textbf{Rerata} & - & - & - & \textbf{0.73} \\ \hline
 	\caption{Evaluasi \textit{sense transfering} akurasi kelas makna kata}
 	\label{table:akuras-kelas-makna-kata}
 \end{longtable}
@@ -265,7 +267,7 @@ Pada hasil tabel tersebut, dipilih beberapa kata-kata yang ambigu (memiliki makn
 		memecahkan (resolve\%2:31:01::) & 4 & 7 & 0.57 \\ \hline
 		memecahkan (split\%2:38:00::) & 1 & 1 & 1.0 \\ \hline
 		\hline
-		\textbf{Rerata Akurasi} & - & - & 0.848 \\ \hline
+		\textbf{Rerata Akurasi} & - & - & \textbf{0.848} \\ \hline
 	\end{tabular}
 \end{table}
 
@@ -282,7 +284,7 @@ Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense
 	\label{table:wsd-evaluation-crawling}
 	\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
 		\hline
-		Kata & Baseline & F1 & F2 & F3 & F4 \\ \hline
+		\textbf{Kata} & \textbf{Baseline} & \textbf{F1} & \textbf{F2} & \textbf{F3} & \textbf{F4} \\ \hline
 		memecahkan & 0.5 & 0.51 & 0.62 & 0.48 & 0.51 \\ \hline
 		menolak & 0.6 & 0.63 & 0.6 & 0.76 & 0.74 \\ \hline
 		obat & 0.49 & 0.58 & 0.62 & 0.56 & 0.63 \\ \hline
@@ -329,7 +331,7 @@ Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1,
 	\label{table:performa-rerata-wsd}
 	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
 		\hline
-		Baseline & F1 & F2 & F3 & F4 \\ \hline
+		\textbf{Baseline} & \textbf{F1} & \textbf{F2} & \textbf{F3} & \textbf{F4} \\ \hline
 		%0.62 & 0.710 & 0.646 & 0.651 & 0.716 \\ \hline
 		0.597 & 0.677 & 0.644 & 0.647 & 0.724 \\ \hline
 	\end{tabular}
