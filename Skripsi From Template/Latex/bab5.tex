@@ -59,7 +59,25 @@ Proses alignment dilakukan terhadap semua pasangan kalimat pada korpus identik (
 	\end{tabular} 
 \end{table}
 
-\textit{Agreement} antara kedua anotator pada \textit{random sampling alignment} adalah 0.924. Berdasarkan hasil tersebut, dapat dilihat bahwa Giza++ secara umum dapat menghasilkan \textit{alignment} cukup baik untuk korpus identik yang digunakan. Namun demikian, kesalahan ataupun kelemahan yang sering terjadi dari \textit{alignment} Giza adalah pada kasus-kasus seperti:
+\textit{Agreement} antara kedua anotator pada \textit{random sampling alignment} adalah 0.924.
+
+Evaluasi hasil anotasi tersebut juga dilihat dari sisi perbandingan jumlah \textit{alignment} yang \textit{exact match} dengan total kata. Suatu \textit{alignment} dikatakan sebagai \textit{exact match} jika pasangan kata yang diberikan oleh kedua anotator sama persis. Contoh yang tidak \textit{exact match} adalah jika misalkan kata "keluar" dipasangkan dengan "\textit{get out}" pada anotator 1, namun dipasangkan dengan "\textit{out}" pada anotator 2. \textit{Alignment} dikatakan \textit{exact match} pada kasus sebelumnya jika anotator 2 juga memasangkan kata "keluar" dengan "\textit{get out}". Jumlah dan perbandingan \textit{exact match} antara kedua anotator dengan total pasangan kata dapat dilihat pada tabel \ref{table:exact-match-anotator}.
+
+\begin{table}
+	\centering
+	\caption{Perbandingan \textit{exact match alignment} anotator}
+	\label{table:exact-match-anotator}
+	\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|}
+		\hline
+		\textbf{\textit{Exact match} (e)} & \textbf{Total \textit{alignment} (t)} & \textbf{Rasio (e/t)}
+		\\ \hline
+		4.315 & 5198 & 0.83 \\ \hline
+	\end{tabular} 
+\end{table}
+ 
+Perbandingan antara jumlah \textit{alignment} yang \textit{exact match} antara kedua anotator dengan pasangan kata pada 200 \textit{sample} yang diberikan adalah 0.83. Hal ini berarti 83\% dari \textit{alignment} yang dilakukan kedua anotator memiliki kesamaan pasangan kata yang identik.
+
+Berdasarkan hasil beberapa analisis \textit{word alignment} tersebut, dapat dilihat bahwa Giza++ secara umum dapat menghasilkan \textit{alignment} pada korpus identik dengan nilai F-Score sekitar 75\%. Namun demikian, kesalahan ataupun kelemahan yang sering terjadi dari \textit{alignment} Giza adalah pada kasus-kasus seperti:
 
 \begin{enumerate}
 	\item Pemasangan frasa kompleks dengan kata lain. Seperti misalnya frasa "\textit{a very awesome and huge building}" dengan "gedung raksasa", ataupun gaya bahasa lainnya yang menjadikan frasa tersebut kompleks dan panjang.
