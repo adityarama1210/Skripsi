@@ -68,7 +68,57 @@ Proses alignment dilakukan terhadap semua pasangan kalimat pada korpus identik (
 
 Walaupun akurasi yang didapatkan sekitar 70\%, tidak jarang ditemukan pasangan kata-kata yang tidak sesuai dan dapat menjadi masalah pada saat \textit{sense transfering} sehingga dilakukan proses \textit{word alignment enhancement}.
 
-Pada hasil kedua buah skenario \textit{enhancement} yang dicoba, kelemahan pada implementasi \textit{bi-directional} yang dicoba adalah hilangnya pasangan kata yang \textit{multiword} seperti misalnya "\textit{hospital}" dengan "\textit{rumah sakit}". Hal ini terjadi karena pada hasil \textit{alignment} Giza dengan Bahasa Indonesia sebagai \textit{source} dan Inggris sebagai \textit{target}, kata "\textit{hospital}" hanya dapat dipasangkan tepat satu ke kata "rumah" atau "sakit" (keterbatasan Giza). Karena tidak dapat dipasangkan dengan kedua buah kata (rumah dan sakit), maka tidak terdapat pasangan "hospital" dengan "rumah sakit". Selain keterbatasan tersebut, masih terdapat kata-kata yang memiliki pasangan tidak sesuai pada skenario \textit{bi-directional} seperti misalnya kata "pembuat" dengan "\textit{jewelry}", kata "pendidikan" dengan "\textit{tended}", kata "harapkan" dengan "\textit{anticipate}", dan lain-lain. Skenario pada \textit{enhancement} menggunakan \textit{crawling} kamus Indonesia-Inggris tidak memiliki pasangan seperti pada contoh yang diberikan di atas, sehingga hasil \textit{crawling} merupakan kamus yang digunakan untuk proses \textit{sense transfering}.
+Hasil \textit{enhancement} dengan pendekatan \textit{bi-directional} masih menghasilkan kata-kata yang memiliki pasangan tidak sesuai seperti misalnya kata "pembuat" dengan "\textit{jewelry}", kata "pendidikan" dengan "\textit{tended}", kata "harapkan" dengan "\textit{anticipate}", dan lain-lain. Skenario pada \textit{enhancement} menggunakan \textit{crawling} kamus Indonesia-Inggris tidak menghasilkan pasangan yang salah seperti pada contoh yang diberikan di atas. Evaluasi terhadap hasil \textit{enhancement} ini dilakukan dengan mengambil 10 buah \textit{sample} secara \textit{random} dari pasangan kata yang ada. Hasil \textit{sampling} tersebut dapat dilihat pada \ref{table:random-sampling-enhancement}.
+
+\begin{table}
+	\centering
+	\caption{Pasangan kata hasil \textit{random sampling} dengan pendekatan \textit{bi-directional} dan \textit{crawling}}
+	\label{table:random-sampling-enhancement}
+	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+		\hline
+		\textbf{Kata} & \textbf{\textit{Bi-directional}} & \textbf{\textit{Crawling}}
+		\\ \hline
+		memodernkan & \textit{modernize} & \textit{modernize} \\ \hline
+		kembar & \textit{twin}, \textit{twins} & \textit{twin}, \textit{twins} \\ \hline
+		ingat & \textit{remember}, \textit{remembered}, \textit{recall}, \textit{note}, \textit{recalls}, \textit{strike} & \textit{remembered}, \textit{recall}, \textit{remember} \\ \hline
+		peroksida & peroxide & peroxide \\ \hline
+		imbang & \textit{draw}, \textit{drawing} & \textit{draw}, \textit{drawing} \\ \hline
+		tegang & \textit{tense}, \textit{edge} & \textit{tense} \\ \hline
+		berobat & \textit{medical}, \textit{purpose}, \textit{treatment} & \textit{treatment} \\ \hline
+		membantu & \textit{bolster}, \textit{supporting}, \textit{beneficial}, \textit{helping}, \textit{help}, \textit{support}, \textit{assisted}, \textit{assist}, \textit{appearance}, \textit{assisting}, \textit{helped}, \textit{assists}, \textit{helps}, \textit{aiding}, \textit{aid}, \textit{facilitates}, \textit{supports}, \textit{assistance} & \textit{helped}, \textit{assisting}, \textit{facilitating}, \textit{help}, \textit{assisted}, \textit{assist}, \textit{helpful}, \textit{helping}, \textit{helps}, \textit{aid}, \textit{facilitates}, \textit{supports}, \textit{avail} \\ \hline
+		disusun & \textit{composed}, \textit{arranged}, \textit{developed}, \textit{structured}, \textit{organized}, \textit{prepared}, \textit{compiled} & \textit{composed}, \textit{arranged}, \textit{developed}, \textit{structured}, \textit{prepared}, \textit{compiled} \\ \hline
+		diusulkan & \textit{suggested}, \textit{suggests}, \textit{recommended}, \textit{proposed}, \textit{proposes} & \textit{suggested}, \textit{proposed} \\ \hline
+	\end{tabular}
+\end{table}
+
+Pasangan kata pada tabel di atas kemudian dihitung berapa jumlah pasangan yang benar untuk masing-masing pendekatan (\textit{bi-directional} dan \textit{crawling}). Pasangan kata dianggap benar jika hasil translasi kata tersebut dapat digunakan untuk konteks kalimat tertentu. Hasil evaluasi dengan mengukur precision dari hasil tersebut dapat dilihat pada tabel \ref{table:enhancement-precision}.
+
+
+\begin{table}
+	\centering
+	\caption{Precision dari hasil \textit{random sampling alignment enhancement}}
+	\label{table:enhancement-precision}
+	\begin{tabular}{|p{2.5cm}|p{3cm}|p{3cm}|}
+		\hline
+		Kata & \textbf{\textit{Bi-directional}} & \textbf{\textit{Crawling}}
+		\\ \hline
+		memodernkan & 1.0 & 1.0 \\ \hline
+		kembar & 1.0 & 1.0 \\ \hline
+		ingat & 0.67 & 1.0 \\ \hline
+		peroksida & 1.0 & 1.0 \\ \hline
+		imbang & 0.5 & 0.5 \\ \hline
+		tegang & 1.0 & 1.0 \\ \hline
+		berobat & 0.33 & 1.0 \\ \hline
+		membantu & 0.73 & 0.84 \\ \hline
+		disusun & 0.71 & 0.66 \\ \hline
+		diusulkan & 0.6 & 1.0 \\ \hline	
+		\hline
+		\textbf{Rata-rata} & 0.78 & 0.90 \\ \hline
+	\end{tabular}
+\end{table}
+
+Berdasarkan evaluasi pada tabel di atas, didapatkan bahwa pendekatan \textit{crawling} pada \textit{random sampling} tersebut memiliki tingkat precision yang lebih tinggi dari \textit{bi-directional} yaitu sebesar 90\%. Kamus hasil dari \textit{crawling} inilah yang akan digunakan untuk proses \textit{sense transfering}.
+
 %-----------------------------------------------------------------------------%
 \section{\textit{Sense Transfering}}
 
