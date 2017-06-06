@@ -202,12 +202,12 @@ Proses yang dilakukan dalam pengambilan kata konteks untuk fitur \textit{bag of 
 bag_of_words []
 
 for each sentence
-split sentence by whitespace into words
-for each word
-if word == target word
-for x in [-2,-1,1,2]
-if word(x) exist and word(x) not in bag_of_words
-add word(x) into bag_of_words
+	split sentence by whitespace into words
+	for each word
+		if word == target word
+			for x in [-2,-1,1,2]
+				if word(x) exist and word(x) not in bag_of_words
+					add word(x) into bag_of_words
 
 return bag_of_words
 
