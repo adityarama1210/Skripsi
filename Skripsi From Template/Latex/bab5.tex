@@ -250,9 +250,9 @@ Pada hasil tabel tersebut, dipilih beberapa kata-kata yang ambigu (memiliki makn
 	\centering
 	\caption{Evaluasi \textit{sense transfering} berdasarkan jumlah kesesuaian dengan kalimat}
 	\label{table:evaluasi-sense-transfer-2}
-	\begin{tabular}{|p{4cm}|p{2.85cm}|p{2.85cm}|p{1.2cm}|}
+	\begin{tabular}{|p{4cm}|p{2.85cm}|p{2.85cm}|p{1.4cm}|}
 		\hline
-		Kata dan \textit{sense key} & Jumlah benar & Jumlah kalimat & Akurasi
+		\textbf{Kata dan \textit{sense key}} & \textbf{Jumlah benar} & \textbf{Jumlah kalimat} & \textbf{Akurasi}
 		\\ \hline
 		halaman (page\%1:10:00::) & 29 & 41 & 0.70 \\ \hline
 		halaman (courtyard\%1:06:00::) & 3 & 3 & 1.0 \\ \hline
@@ -262,12 +262,14 @@ Pada hasil tabel tersebut, dipilih beberapa kata-kata yang ambigu (memiliki makn
 		hati (heart\%1:09:00::) & 166 & 170 & 0.97 \\ \hline
 		hati (liver\%1:08:00::) & 44 & 44 & 1.0 \\ \hline
 		memecahkan (solve\%2:31:00::) & 12 & 13 & 0.92 \\ \hline
-		memecahkan (resolve\%2:31:01::) &  & 7 & \\ \hline
+		memecahkan (resolve\%2:31:01::) & 4 & 7 & 0.57 \\ \hline
 		memecahkan (split\%2:38:00::) & 1 & 1 & 1.0 \\ \hline
+		\hline
+		\textbf{Rerata Akurasi} & - & - & 0.848 \\ \hline
 	\end{tabular}
 \end{table}
 
-Pada tabel di atas, didapatkan hasil dari rerata akurasi kesesuaian makna kata hasil \textit{transfering} dengan kalimat sebesar <INSERTAKURASIHERE>. Ketidaksesuaian sense "page\%1:10:00::" (halaman buku) pada kata "halaman", terjadi pada kalimat yang mengandung makna "halaman \textit{web}" dan bukan halaman buku. Kesalahan pada kata "hati" juga disebabkan karena "\textit{heart}" diberikan \textit{tag} "hati (perasaan)" dan pada beberapa kasus, "\textit{heart}" yang dimaksud adalah "\textit{heart} (jantung)".
+Pada hasil evaluasi tersebut, ketidaksesuaian \textit{sense} "page\%1:10:00::" (halaman buku) pada kata "halaman", terjadi pada kalimat yang mengandung makna "halaman \textit{web}" dan bukan halaman buku. Kesalahan pada kata "hati" juga disebabkan karena "\textit{heart}" diberikan \textit{tag} "hati (perasaan)" dan pada beberapa kasus, "\textit{heart}" yang dimaksud adalah "\textit{heart} (jantung)".
  
 Berdasarkan berbagai hasil evaluasi di atas, makna kata yang tidak tepat merupakan kesalahan dari baik itu variasi \textit{alignment} suatu kata yang dipasangkan dengan kata lainnya, ataupun juga hasil \textit{tagging} model IMS yang yang tidak tepat. Pada kesalahan hasil \textit{alignment} kasus yang terjadi adalah ketika suatu kata dipasangkan dengan kata lain yang tidak tepat sehingga berpengaruh pada makna kata yang dipindahkan. Kesalahan \textit{tagging} pada IMS juga mengakibatkan kesalahan \textit{sense key} pada kata Bahasa Indonesia karena pada \textit{sense tagged corpus} sudah mengalami kesalahan.
 %-----------------------------------------------------------------------------%
