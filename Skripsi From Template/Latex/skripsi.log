@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  7 JUN 2017 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  7 JUN 2017 12:11
 entering extended mode
 **./skripsi.tex
 (skripsi.tex
@@ -2607,63 +2607,63 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52] <adit_pics/memecahkan.png, id=1049, 475.7775pt x 300.12125pt>
+[52] <adit_pics/memecahkan.png, id=1049, 312.41719pt x 215.30438pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
 Package pdftex.def Info: adit_pics/memecahkan.png used on input line 362.
-(pdftex.def)             Requested size: 199.1693pt x 125.63791pt.
+(pdftex.def)             Requested size: 199.1693pt x 137.26212pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 363.
 
-<adit_pics/menolak.png, id=1050, 473.77pt x 299.1175pt>
+<adit_pics/menolak.png, id=1050, 321.45094pt x 205.5178pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
 Package pdftex.def Info: adit_pics/menolak.png used on input line 367.
-(pdftex.def)             Requested size: 199.1693pt x 125.74715pt.
+(pdftex.def)             Requested size: 199.1693pt x 127.34132pt.
 
-<adit_pics/obat.png, id=1051, 471.7625pt x 298.11375pt>
+<adit_pics/obat.png, id=1051, 319.94531pt x 204.01219pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
 Package pdftex.def Info: adit_pics/obat.png used on input line 373.
-(pdftex.def)             Requested size: 199.1693pt x 125.8574pt.
+(pdftex.def)             Requested size: 199.1693pt x 126.99988pt.
 
-<adit_pics/lingkungan.png, id=1052, 475.7775pt x 301.125pt>
+<adit_pics/lingkungan.png, id=1052, 328.97906pt x 210.7875pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
 Package pdftex.def Info: adit_pics/lingkungan.png used on input line 378.
-(pdftex.def)             Requested size: 199.1693pt x 126.05809pt.
+(pdftex.def)             Requested size: 199.1693pt x 127.61528pt.
 
-<adit_pics/halaman.png, id=1053, 468.75125pt x 302.12875pt>
+<adit_pics/halaman.png, id=1053, 341.77687pt x 218.31563pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
 Package pdftex.def Info: adit_pics/halaman.png used on input line 384.
-(pdftex.def)             Requested size: 199.1693pt x 128.36844pt.
+(pdftex.def)             Requested size: 199.1693pt x 127.22609pt.
 
-<adit_pics/kehadiran.png, id=1054, 471.7625pt x 299.1175pt>
+<adit_pics/kehadiran.png, id=1054, 353.82187pt x 216.81pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
 Package pdftex.def Info: adit_pics/kehadiran.png used on input line 389.
-(pdftex.def)             Requested size: 199.1693pt x 126.28116pt.
+(pdftex.def)             Requested size: 199.1693pt x 122.04463pt.
 
-<adit_pics/hati.png, id=1055, 470.75874pt x 295.1025pt>
+<adit_pics/hati.png, id=1055, 344.03531pt x 220.57407pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
 Package pdftex.def Info: adit_pics/hati.png used on input line 395.
-(pdftex.def)             Requested size: 199.1693pt x 124.85178pt.
+(pdftex.def)             Requested size: 199.1693pt x 127.69408pt.
 
-<adit_pics/coklat.png, id=1056, 468.75125pt x 300.12125pt>
+<adit_pics/coklat.png, id=1056, 341.77687pt x 219.06844pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
 Package pdftex.def Info: adit_pics/coklat.png used on input line 400.
-(pdftex.def)             Requested size: 199.1693pt x 127.51549pt.
+(pdftex.def)             Requested size: 199.1693pt x 127.6648pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -2681,12 +2681,12 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [54 <./adit_pics/memecahkan.png> <./adit_pics/menolak.png> <./adit_pics/obat.pn
 g> <./adit_pics/lingkungan.png> <./adit_pics/halaman.png> <./adit_pics/kehadira
 n.png> <./adit_pics/hati.png> <./adit_pics/coklat.png>]
-<adit_pics/berat.png, id=1075, 468.75125pt x 300.12125pt>
+<adit_pics/berat.png, id=1075, 328.22626pt x 209.28188pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
 Package pdftex.def Info: adit_pics/berat.png used on input line 409.
-(pdftex.def)             Requested size: 199.1693pt x 127.51549pt.
+(pdftex.def)             Requested size: 199.1693pt x 126.99432pt.
 
 <adit_pics/jalan.png, id=1076, 462.72874pt x 290.08376pt>
 File: adit_pics/jalan.png Graphic file (type png)
@@ -3102,7 +3102,7 @@ am Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on skripsi.pdf (76 pages, 795743 bytes).
+Output written on skripsi.pdf (76 pages, 790365 bytes).
 PDF statistics:
  1285 PDF objects out of 1440 (max. 8388607)
  431 named destinations out of 1000 (max. 500000)
