@@ -60,10 +60,10 @@
 \contentsline {chapter}{\numberline {5}\uppercase {Hasil dan Analisis}}{39}{chapter.5}
 \contentsline {section}{\numberline {5.1}\textit {Sense Tagged Corpus} Bahasa Inggris}{39}{section.5.1}
 \contentsline {section}{\numberline {5.2}\textit {Word Alignment}}{40}{section.5.2}
-\contentsline {section}{\numberline {5.3}\textit {Sense Transfering}}{44}{section.5.3}
-\contentsline {section}{\numberline {5.4}WSD Bahasa Indonesia}{51}{section.5.4}
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{55}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{55}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{55}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{57}{chapter*.42}
-\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{59}{section*.43}
+\contentsline {section}{\numberline {5.3}\textit {Sense Transfering}}{45}{section.5.3}
+\contentsline {section}{\numberline {5.4}WSD Bahasa Indonesia}{52}{section.5.4}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{56}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{56}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{56}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{58}{chapter*.41}
+\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{60}{section*.42}
