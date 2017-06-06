@@ -142,28 +142,20 @@ Tugas dari \textit{word alignment} adalah menemukan korespondensi antara kata pa
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{adit_pics/wordalignment.jpeg}
-	\caption{Word Alignment}
+	\caption{Contoh \textit{word alignment}}
 	\label{fig:word-alignment}
 \end{figure}
 
-Kasus yang dapat terjadi pada proses \textit{alignment} ini salah satunya adalah ketika terdapat kata yang tidak memiliki pasangan. Contoh dari kasus tersebut dapat dilihat pada pasangan kalimat berikut:
+Kasus yang dapat terjadi pada proses \textit{alignment} ini salah satunya adalah ketika terdapat kata yang tidak memiliki pasangan. Contoh dari kasus tersebut dapat dilihat pada gambar \ref{fig:word-alignment-2}.
 
-\begin{lstlisting}[backgroundcolor = \color{white}]
-K1(en) : He would do it regardless what people say
-K1(id) : Dia akan melakukannya segalanya
-\end{lstlisting}
-
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{adit_pics/contoh_word_alignment_2.png}
+	\caption{Contoh lain \textit{word alignment}}
+	\label{fig:word-alignment-2}
+\end{figure}
 
 Bila melihat bahasa Indonesia sebagai sumber bahasa, maka kata "segalanya" pada kalimat tersebut tidak memiliki pasangan dalam bahasa Inggris K1. Pada kasus-kasus seperti ini, biasanya akan ada token khusus yang nantinya akan berpasangan dengan kata-kata yang tidak mempunyai pasangan.
-
-Selain kata yang tidak memiliki pasangan, terdapat juga kasus dimana pasangan adalah berupa frasa. Hal ini dapat dilihat pada contoh berikut:
-
-\begin{lstlisting}[backgroundcolor = \color{white}]
-K2(en) : The victim must be taken to the hospital
-K2(id) : Korban tersebut harus di bawa ke rumah sakit
-\end{lstlisting}
-
-Pada contoh pasangan kalimat tersebut, kata "\textit{hospital}" berpasangan dengan "rumah sakit". Proses pemasangan kata dengan frasa lebih sulit dibandingkan dengan satu unit kata saja.
 
 \textit{Tool} yang digunakan untuk keperluan \textit{word alignment} pada penelitian ini adalah Giza++ \citep{och03:asc}. \textit{Tool} tersebut merupakan salah satu \textit{word alignment tools} pada \textit{statistical machine translation} (SMT) yang dapat digunakan untuk memasangkan kata-kata pada dua buah korpus dwibahasa atau lebih. Terdapat beberapa \textit{word alignment tools} lain seperti Berkeley \textit{aligner}, anymalign, dan lain-lain.
 %------------------------------------------- ----------------------------------%
