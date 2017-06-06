@@ -123,7 +123,6 @@ dict_en = {}
 for indo_word in dict_id.keys():
 	for en_word in dict_id[indo_word].keys():
 		if en_word != dict_en:
-		# filtering so no same translation is entered, answer -> answer, jawaban -> jawaban
 			if en_word in dict_en and indo_word in dict_en[en_word] and en_word not in stop:
 				if indo_word not in final_dictionary:
 					final_dictionary[indo_word] = { en_word: dict_en[word_en][word_id] }
@@ -296,43 +295,40 @@ Evaluasi perhitungan \textit{precision}, \textit{recall}, f-score, dan \textit{a
 \begin{lstlisting}[language=Python, caption={Word Alignment Evaluation}, label={word-alignment-evaluation}]
 
 def evaluate_bracket(list_giza, list_anotator):
-# evaluate per character
-numbers_anotator = len(list_anotator)
-numbers_giza = len(list_giza)
-match = 0
-if numbers_giza < numbers_anotator:
-# iterate through the numbers giza
-for n in list_giza:
-if n in list_anotator:
-match += 1
-else:
-# iterate through the numbers anotator
-for n in list_anotator:
-if n in list_giza:
-match += 1
-return (numbers_anotator, numbers_giza, match)
-
-# given sentence which already been alignned from the first anotator (an1), second anotator(an2), and giza(giza)
+	
+	numbers_anotator = len(list_anotator)
+	numbers_giza = len(list_giza)
+	match = 0
+	if numbers_giza < numbers_anotator:
+		for n in list_giza:
+			if n in list_anotator:
+				match += 1
+	else:
+		for n in list_anotator:
+			if n in list_giza:
+				match += 1
+	return (numbers_anotator, numbers_giza, match)
+	
+	
 matches, total_giza, total_anotator, total_giza_1, total_anotator_1 = 0, 0, 0, 0, 0
 precision, recall = [[],[]], [[],[]]
-
 for each sentence in sentences:
-for each token in sentence:
-(numbers_anotator, numbers_giza, match) = evaluate_bracket(an1(token), giza(token))
-(numbers_anotator_1, numbers_giza_1, match_1) = evaluate_brakcet(an2(token), giza(token))
-agreement = count_agreement(an1(token), an2(token))
-matches += match
-matches_1 += match_1
-total_giza += numbers_giza
-total_giza_1 += numbers_giza_1
-total_anotator += numbers_anotator
-total_anotator_1 += numbers_anotator_1
-agreement.append(agreement)
-precision[0].append(matches/total_giza)
-recall[0].append(matches/total_anotator)
-precision[1].append(matches_1/total_giza_1)
-recall[1].append(matches_1/total_anotator_1)
-
+	for each token in sentence:
+		(numbers_anotator, numbers_giza, match) = evaluate_bracket(an1(token), giza(token))
+		(numbers_anotator_1, numbers_giza_1, match_1) = evaluate_brakcet(an2(token), giza(token))
+		agreement = count_agreement(an1(token), an2(token))
+		matches += match
+		matches_1 += match_1
+		total_giza += numbers_giza
+		total_giza_1 += numbers_giza_1
+		total_anotator += numbers_anotator
+		total_anotator_1 += numbers_anotator_1
+		agreement.append(agreement)
+		precision[0].append(matches/total_giza)
+		recall[0].append(matches/total_anotator)
+		precision[1].append(matches_1/total_giza_1)
+		recall[1].append(matches_1/total_anotator_1)
+	
 precision = average(precision[0])
 recall = average(recall[0])
 precision_1 = average(precision[1])

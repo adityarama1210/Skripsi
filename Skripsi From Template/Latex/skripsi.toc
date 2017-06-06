@@ -52,7 +52,7 @@
 \contentsline {section}{\numberline {4.4}\textit {Sense Transfering}}{30}{section.4.4}
 \contentsline {section}{\numberline {4.5}WSD Bahasa Indonesia}{32}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Pemilihan Fitur dan \textit {Classifier}}{32}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Ekstraksi Fitur}{33}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.2}Ekstraksi Fitur}{32}{subsection.4.5.2}
 \contentsline {section}{\numberline {4.6}Evaluasi dan Anotasi}{35}{section.4.6}
 \contentsline {subsection}{\numberline {4.6.1}Anotasi}{36}{subsection.4.6.1}
 \contentsline {subsection}{\numberline {4.6.2}Evaluasi \textit {Word Alignment}}{36}{subsection.4.6.2}
