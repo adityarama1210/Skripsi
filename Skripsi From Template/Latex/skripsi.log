@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  7 JUN 2017 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.12)  7 JUN 2017 12:06
 entering extended mode
 **./skripsi.tex
 (skripsi.tex
@@ -3080,14 +3080,8 @@ lampiran.tex
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
-
-Package rerunfilecheck Warning: File `skripsi.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `skripsi.out':
-(rerunfilecheck)             Before: 9E9513CA402F5CBDA109D320C16C7C63;4735
-(rerunfilecheck)             After:  D953298CD459E9F0C8076D385437DD29;4803.
+Package rerunfilecheck Info: File `skripsi.out' has not changed.
+(rerunfilecheck)             Checksum: D953298CD459E9F0C8076D385437DD29;4803.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
@@ -3108,7 +3102,7 @@ am Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on skripsi.pdf (76 pages, 795720 bytes).
+Output written on skripsi.pdf (76 pages, 795730 bytes).
 PDF statistics:
  1285 PDF objects out of 1440 (max. 8388607)
  431 named destinations out of 1000 (max. 500000)
