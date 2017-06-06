@@ -118,9 +118,6 @@ Metode lain yang digunakan untuk meningkatkan kualitas \textit{aligment} yaitu d
 dict_id = {}
 dict_en = {}
 
-# masukan setiap kosa kata bahasa Indonesia ke dalam dict_id sebagai key dan kumpulan pasangan kata bahasa inggrisnya sebagai value
-# proses yang sama dilakukan untuk dict_en dengan kosa kata bahasa Inggris sebagai key dan kumpulan pasangan kata bahasa Indonesia sebagai value
-# stop adalah list stopword yang didapat dari korpus nltk
 
 # this section is for filtering which english word that has corresponding indo translation (bidirectional) from Giza output
 for indo_word in dict_id.keys():
@@ -135,7 +132,7 @@ for indo_word in dict_id.keys():
 						final_dictionary[indo_word][en_word] = dict_en[word_en][word_id]
 \end{lstlisting}
 
-Pertama, setiap kata dalam bahasa Indonesia dikumpulkan terlebih dahulu dengan setiap pasangan kata bahasa Inggrisnya (satu kata bisa memiliki lebih dari satu pasangan). Proses selanjutnya adalah melakukan pengumpulan yang serupa terhadap kata dalam bahasa Inggris dengan pasangan kata dalam bahasa Indonesianya. Berbagai kata dalam bahasa Indonesia beserta pasangannya disimpan sebagai "kamus-1". Kata dalam bahasa Inggris, beserta pasangan kata Indonesianya disimpan sebagai "kamus-2". Proses validasi dilakukan dengan cara:
+Pertama, setiap kata dalam bahasa Indonesia dikumpulkan terlebih dahulu dengan setiap pasangan kata bahasa Inggrisnya (satu kata bisa memiliki lebih dari satu pasangan) ke dalam variabel dict\_id. Proses selanjutnya adalah melakukan pengumpulan yang serupa terhadap kata dalam bahasa Inggris dengan pasangan kata dalam bahasa Indonesianya (pada variabel dict\_en). Berbagai kata dalam bahasa Indonesia beserta pasangannya disimpan sebagai "kamus-1 (dict\_id)". Kata dalam bahasa Inggris, beserta pasangan kata Indonesianya disimpan sebagai "kamus-2"(dict\_en). Variabel stop berisi \textit{list} of stopwords Bahasa Inggris dari \textit{library} NLTK. Proses validasi kebenaran dari pasangan kata dilakukan dengan cara:
 
 \begin{enumerate}
 	\item Untuk setiap kata di bahasa Indonesia dalam "kamus-1" semisal kata "kali".
