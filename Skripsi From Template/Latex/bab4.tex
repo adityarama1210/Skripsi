@@ -354,6 +354,4 @@ bf = dummy.DummyClassifier(strategy='most_frequent')
 \end{lstlisting}
 
 
-\textit{Cross validation} dilakukan dengan iterasi sebanyak tiga \textit{fold} dengan perbandingan antara \textit{training} dan \textit{test set} sebesar 0,7:0,3. Nilai F-score yang diambil merupakan rerata dari hasil tiap \textit{fold}.
-
-Sebuah algoritma sederhana digunakan sebagai \textit{baseline} untuk pembanding dari sistem WSD yang dibangun. Baseline menggunakan pendekatan \textit{most frequent} sebagai cara untuk menentukan makna terbaik dari suatu kata. Baseline tersebut akan memberikan kelas makna kata pada semua \textit{target word} sesuai dengan makna kata terbanyak pada \textit{training data}.
+\textit{Cross validation} (CV) dilakukan dengan 4-Fold CV dengan mengambil hasil akurasi (F-Score) rerata dari tiap \textit{fold}. Sebuah algoritma sederhana digunakan sebagai \textit{baseline} untuk pembanding dari sistem WSD yang dibangun. Baseline menggunakan pendekatan \textit{most frequent} sebagai cara untuk menentukan makna terbaik dari suatu kata. Baseline tersebut akan memberikan kelas makna kata pada semua \textit{target word} sesuai dengan makna kata terbanyak pada \textit{training data}.
