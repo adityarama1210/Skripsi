@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  6 JUN 2017 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  6 JUN 2017 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1059,6 +1059,12 @@ ian tersebut, proses diawali dengan
  []
 
 
+Underfull \hbox (badness 1178) in paragraph at lines 46--47
+\T1/ptm/m/n/12 yang memilki makna lebih dari satu diambil untuk dijadikan \T1/p
+tm/m/it/12 sample \T1/ptm/m/n/12 untuk
+ []
+
+
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -1071,18 +1077,6 @@ File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 Package pdftex.def Info: adit_pics/Arsitektur-IMS.png used on input line 53.
 (pdftex.def)             Requested size: 398.3386pt x 133.89084pt.
 
-Underfull \hbox (badness 4913) in paragraph at lines 74--75
-[]\T1/ptm/m/n/12 Pengujian seberapa baik performa IMS dalam melakukan WSD \T1/p
-tm/m/it/12 task
- []
-
-<adit_pics/Performa-IMS.png, id=560, 622.325pt x 77.28876pt>
-File: adit_pics/Performa-IMS.png Graphic file (type png)
-
-<use adit_pics/Performa-IMS.png>
-Package pdftex.def Info: adit_pics/Performa-IMS.png used on input line 78.
-(pdftex.def)             Requested size: 398.3386pt x 49.4717pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -1090,12 +1084,30 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./adit_pics/Arsitektur-IMS.png>]
+Underfull \hbox (badness 4913) in paragraph at lines 74--75
+[]\T1/ptm/m/n/12 Pengujian seberapa baik performa IMS dalam melakukan WSD \T1/p
+tm/m/it/12 task
+ []
+
+<adit_pics/Performa-IMS.png, id=570, 622.325pt x 77.28876pt>
+File: adit_pics/Performa-IMS.png Graphic file (type png)
+
+<use adit_pics/Performa-IMS.png>
+Package pdftex.def Info: adit_pics/Performa-IMS.png used on input line 78.
+(pdftex.def)             Requested size: 398.3386pt x 49.4717pt.
+
 Underfull \hbox (badness 1158) in paragraph at lines 83--84
 []\T1/ptm/m/n/12 IMS digunakan pada penelitian ini karena sistem WSD ini sudah 
 dapat
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./adit_pics/Performa-IMS.png>]
 Underfull \hbox (badness 1430) in paragraph at lines 103--104
 []\T1/ptm/m/n/12 Walaupun belum terdapat informasi eksplisit makna dari tezgüno
 , dapat
@@ -1113,12 +1125,6 @@ kata
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10 <./adit_pics/Performa-IMS.png>]
 Underfull \hbox (badness 1127) in paragraph at lines 109--110
 []\T1/ptm/m/n/12 Pada pendekatan \T1/ptm/m/it/12 clustering\T1/ptm/m/n/12 , has
 il dari \T1/ptm/m/it/12 cluster \T1/ptm/m/n/12 yang didapat masih harus
@@ -1148,14 +1154,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12] <adit_pics/wordalignment.jpeg, id=625, 442.65375pt x 141.52875pt>
+[12] <adit_pics/wordalignment.jpeg, id=624, 442.65375pt x 141.52875pt>
 File: adit_pics/wordalignment.jpeg Graphic file (type jpg)
 
 <use adit_pics/wordalignment.jpeg>
 Package pdftex.def Info: adit_pics/wordalignment.jpeg used on input line 143.
 (pdftex.def)             Requested size: 398.3386pt x 127.36604pt.
 
-<adit_pics/contoh_word_alignment_2.png, id=627, 442.65375pt x 121.45375pt>
+<adit_pics/contoh_word_alignment_2.png, id=626, 442.65375pt x 121.45375pt>
 File: adit_pics/contoh_word_alignment_2.png Graphic file (type png)
 
 <use adit_pics/contoh_word_alignment_2.png>
@@ -1169,8 +1175,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./adit_pics/wordalignment.jpeg> <./adit_pics/contoh_word_alignment_2.png>]
-
+[13 <./adit_pics/wordalignment.jpeg>]
 Underfull \hbox (badness 1590) in paragraph at lines 169--170
 \T1/ptm/m/n/12 Precision, Recall, dan F-score merupakan beberapa cara perhitung
 an untuk
@@ -1182,7 +1187,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14] <adit_pics/cross_validation.png, id=655, 442.65375pt x 211.79124pt>
+[14 <./adit_pics/contoh_word_alignment_2.png>]
+<adit_pics/cross_validation.png, id=654, 442.65375pt x 211.79124pt>
 File: adit_pics/cross_validation.png Graphic file (type png)
 
 <use adit_pics/cross_validation.png>
@@ -2776,7 +2782,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (75 pages, 686342 bytes).
+Output written on skripsi.pdf (75 pages, 689458 bytes).
 PDF statistics:
  1301 PDF objects out of 1440 (max. 8388607)
  1141 compressed objects within 12 object streams
