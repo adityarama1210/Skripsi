@@ -43,7 +43,9 @@ Pada contoh tersebut, kata years memiliki \textit{sense key} berupa "year\%1:28:
 Proses awal yang diperlukan untuk \textit{alignment} adalah memberikan kedua korpus (Indonesia dan Inggris) ke dalam input Giza++. Setelah menghasilkan \textit{file} hasil \textit{alignment}, dilakukan post-processing untuk menghasilkan kamus yang nantinya dapat digunakan untuk melakukan validasi pasangan kata pada proses \textit{sense transfering}.
 
 \subsection{Pemrosesan \textit{Word Alignment}}
-Proses \textit{word alignment} menggunakan dua buah \textit{file} yaitu korpus berbahasa Indonesia dan Inggris yang sudah dipisah dari \textit{pre-processing}. Perintah berikut digunakan untuk melakukan \textit{word alignment} dengan Giza pada penelitian ini:
+Proses \textit{word alignment} menggunakan dua buah \textit{file} yaitu korpus berbahasa Indonesia dan Inggris yang sudah dipisah dari \textit{pre-processing}. Perintah \ref{word-alignment} digunakan untuk melakukan \textit{word alignment} dengan Giza pada penelitian ini.
+
+\clearpage
 
 \begin{lstlisting}[language=bash,caption={\textit{Word  alignment} dengan Giza++}, label={word-alignment}]
 ./plain2snt.out [source_language] [target_language]
@@ -111,7 +113,9 @@ Konsep \textit{crawling} pada penelitian ini mengacu pada kebutuhan untuk \texti
 
 \subsection{Pendekatan \textit{Bi-directional}}
 
-Metode lain yang digunakan untuk meningkatkan kualitas \textit{aligment} yaitu dengan memanfaatkan \textit{bi-directional alignment}. Proses yang dilakukan adalah melakukan validasi terhadap kata-kata yang berpasangan  dari kedua korpus. \textit{Source code} dari proses \textit{enhancement bi-directional} ini dapat dilihat pada kode berikut.
+Metode lain yang digunakan untuk meningkatkan kualitas \textit{aligment} yaitu dengan memanfaatkan \textit{bi-directional alignment}. Proses yang dilakukan adalah melakukan validasi terhadap kata-kata yang berpasangan  dari kedua korpus. \textit{Source code} dari proses \textit{enhancement bi-directional} ini dapat dilihat pada kode \ref{word-alignment-enhancement}.
+
+\clearpage
 
 \begin{lstlisting}[language=Python, caption={Word Alignment Enhancement}, label={word-alignment-enhancement}]
 
@@ -231,7 +235,9 @@ Hasil dari proses tersebut merupakan korpus dengan setiap kata yang sudah memili
 ...
 \end{lstlisting}
 
-Proses dalam melakukan eksetraksi fitur POS Tag tersebut dapat dilihat pada \ref{fitur-postag} berikut.
+Proses dalam melakukan eksetraksi fitur POS Tag tersebut dapat dilihat pada kode \ref{fitur-postag}.
+
+\clearpage
 
 \begin{lstlisting}[language=python,caption={Ekstraksi Fitur POS Tag}, label={fitur-postag}]
 
@@ -252,6 +258,8 @@ foreach sentence in pos_tagged_sentences:
 Pada proses ekstraksi fitur POS Tag, dilakukan iterasi untuk setiap kata pada setiap kalimat. Jika \textit{target word} telah ditemukan, ambil POS Tag dari kata sebelum \textit{target word}, \textit{target} word, dan sesudah \textit{target word}. pos\_tag\_features[0] merepresentasikan POS Tag yang muncul pada sebelum \textit{target word}, pos\_tag\_features[1] untuk POS Tag \textit{target word}, dan pos\_tag\_features[2] untuk POS Tag kata sesudah \textit{target word}. Setelah POS Tag masing-masing posisi dikumpulkan, vektor representasi fitur akhir akan bernilai satu jika POS Tag muncul pada kalimat dan nol jika POS Tag tidak muncul. 
 
 Fitur ketiga adalah penggunaan vektor dari model \textit{word embedding}. Ekstraksi fitur ini dilakukan dengan proses \ref{ekstraksi-we-feature}.
+
+\clearpage
 
 \begin{lstlisting}[language = python, caption={Ekstraksi fitur \textit{word embedding}}, label={ekstraksi-we-feature}]
 
@@ -290,12 +298,12 @@ Proses evaluasi meliputi \textit{pre-processing}, anotasi data, dan evaluasi. Ha
 Setelah diberikan pasangan kalimat untuk dianotasi, anotator melakukan anotasi sesuai dengan panduan yang diberikan. Hasil dari anotasi tersebut kemudian dikumpulkan kembali untuk dievaluasi.
 
 \subsection{Evaluasi \textit{Word Alignment}}
-Evaluasi perhitungan \textit{precision}, \textit{recall}, f-score, dan \textit{agreement} merupakan penyesuaian dari rumus pada \citep{mihalcea2003evaluation}. Perhitungan dilakukan secara otomatis dengan program yang dibuat dengan algoritma berikut.
+Evaluasi perhitungan \textit{precision}, \textit{recall}, f-score, dan \textit{agreement} merupakan penyesuaian dari rumus pada \citep{mihalcea2003evaluation}. Perhitungan dilakukan secara otomatis dengan program yang dibuat dengan kode \ref{word-alignment-evaluation}.
+
+\clearpage
 
 \begin{lstlisting}[language=Python, caption={Word Alignment Evaluation}, label={word-alignment-evaluation}]
-
 def evaluate_bracket(list_giza, list_anotator):
-	
 	numbers_anotator = len(list_anotator)
 	numbers_giza = len(list_giza)
 	match = 0
@@ -308,8 +316,7 @@ def evaluate_bracket(list_giza, list_anotator):
 			if n in list_giza:
 				match += 1
 	return (numbers_anotator, numbers_giza, match)
-	
-	
+
 matches, total_giza, total_anotator, total_giza_1, total_anotator_1 = 0, 0, 0, 0, 0
 precision, recall = [[],[]], [[],[]]
 for each sentence in sentences:

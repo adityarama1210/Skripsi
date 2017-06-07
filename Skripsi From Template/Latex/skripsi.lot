@@ -4,15 +4,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Jumlah \textit {instance} korpus bahasa Inggris\relax }}{39}{table.caption.30}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Evaluasi Word Alignment\relax }}{41}{table.caption.31}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Perbandingan \textit {exact match alignment} anotator\relax }}{41}{table.caption.32}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Pasangan kata hasil \textit {random sampling} Giza, \textit {bi-directional} dan \textit {crawling}\relax }}{44}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Precision dari hasil \textit {random sampling alignment enhancement}\relax }}{45}{table.caption.33}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Jumlah Kelas\relax }}{47}{table.caption.34}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Sebaran Kelas\relax }}{48}{table.caption.35}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Evaluasi \textit {sense transfering} akurasi kelas makna kata\relax }}{50}{table.5.8}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Evaluasi \textit {sense transfering} berdasarkan jumlah kesesuaian dengan kalimat\relax }}{51}{table.caption.36}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Evaluasi sistem WSD\relax }}{52}{table.caption.37}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Performa rerata sistem WSD Bahasa Indonesia\relax }}{52}{table.caption.38}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Jumlah \textit {instance} korpus bahasa Inggris\relax }}{40}{table.caption.30}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Evaluasi Word Alignment\relax }}{42}{table.caption.31}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Perbandingan \textit {exact match alignment} anotator\relax }}{42}{table.caption.32}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Pasangan kata hasil \textit {random sampling} Giza, \textit {bi-directional} dan \textit {crawling}\relax }}{45}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Precision dari hasil \textit {random sampling alignment enhancement}\relax }}{46}{table.caption.33}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Jumlah Kelas\relax }}{48}{table.caption.34}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Sebaran Kelas\relax }}{49}{table.caption.35}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Evaluasi \textit {sense transfering} akurasi kelas makna kata\relax }}{51}{table.5.8}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Evaluasi \textit {sense transfering} berdasarkan jumlah kesesuaian dengan kalimat\relax }}{52}{table.caption.36}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Evaluasi sistem WSD\relax }}{53}{table.caption.37}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Performa rerata sistem WSD Bahasa Indonesia\relax }}{53}{table.caption.38}
 \addvspace {10\p@ }
