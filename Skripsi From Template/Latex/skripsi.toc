@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {4.2.1}Pemrosesan \textit {Word Alignment}}{27}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Post-Processing}{28}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Peningkatan Kualitas \textit {Alignment}}{29}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Pendekatan \textit {Crawling}}{30}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Pendekatan Kamus}{30}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Pendekatan \textit {Bi-directional}}{30}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}\textit {Sense Transfering}}{32}{section.4.4}
 \contentsline {section}{\numberline {4.5}WSD Bahasa Indonesia}{33}{section.4.5}

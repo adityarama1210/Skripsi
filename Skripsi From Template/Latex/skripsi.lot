@@ -7,7 +7,7 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces Jumlah \textit {instance} korpus bahasa Inggris\relax }}{41}{table.caption.30}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Evaluasi Word Alignment\relax }}{43}{table.caption.31}
 \contentsline {table}{\numberline {5.3}{\ignorespaces Perbandingan \textit {exact match alignment} anotator\relax }}{43}{table.caption.32}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Pasangan kata hasil \textit {random sampling} Giza, \textit {bi-directional} dan \textit {crawling}\relax }}{46}{table.5.4}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Pasangan kata hasil \textit {random sampling} Giza, \textit {bi-directional} dan kamus\relax }}{46}{table.5.4}
 \contentsline {table}{\numberline {5.5}{\ignorespaces Precision dari hasil \textit {random sampling alignment enhancement}\relax }}{47}{table.caption.33}
 \contentsline {table}{\numberline {5.6}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Jumlah Kelas\relax }}{49}{table.caption.34}
 \contentsline {table}{\numberline {5.7}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Sebaran Kelas\relax }}{50}{table.caption.35}

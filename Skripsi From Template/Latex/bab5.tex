@@ -86,11 +86,11 @@ Berdasarkan hasil beberapa analisis \textit{word alignment} tersebut, dapat dili
 
 Walaupun akurasi yang didapatkan sekitar 70\%, tidak jarang ditemukan pasangan kata-kata yang tidak sesuai dan dapat menjadi masalah pada saat \textit{sense transfering} sehingga dilakukan proses \textit{word alignment enhancement}.
 
-Hasil \textit{enhancement} dengan pendekatan \textit{bi-directional} masih menghasilkan kata-kata yang memiliki pasangan tidak sesuai seperti misalnya kata "pembuat" dengan "\textit{jewelry}", kata "pendidikan" dengan "\textit{tended}", kata "harapkan" dengan "\textit{anticipate}", dan lain-lain. Skenario pada \textit{enhancement} menggunakan \textit{crawling} kamus Indonesia-Inggris tidak menghasilkan pasangan yang salah seperti pada contoh yang diberikan di atas. Evaluasi terhadap hasil \textit{enhancement} ini dilakukan dengan mengambil 10 buah \textit{sample} secara \textit{random} dari pasangan kata yang ada. Hasil \textit{sampling} tersebut dapat dilihat pada tabel \ref{table:random-sampling-enhancement}.
+Hasil \textit{enhancement} dengan pendekatan \textit{bi-directional} masih menghasilkan kata-kata yang memiliki pasangan tidak sesuai seperti misalnya kata "pembuat" dengan "\textit{jewelry}", kata "pendidikan" dengan "\textit{tended}", kata "harapkan" dengan "\textit{anticipate}", dan lain-lain. Skenario pada \textit{enhancement} menggunakan kamus Indonesia-Inggris tidak menghasilkan pasangan yang salah seperti pada contoh yang diberikan di atas. Evaluasi terhadap hasil \textit{enhancement} ini dilakukan dengan mengambil 10 buah \textit{sample} secara \textit{random} dari pasangan kata yang ada. Hasil \textit{sampling} tersebut dapat dilihat pada tabel \ref{table:random-sampling-enhancement}.
 
 	\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 		\hline
-		\textbf{Kata} & \textbf{Giza} & \textbf{\textit{Bi-directional}} & \textbf{\textit{Crawling}}
+		\textbf{Kata} & \textbf{Giza} & \textbf{\textit{Bi-directional}} & \textbf{Kamus}
 		\\ \hline
 		memodernkan & \textit{modernize} & \textit{modernize} & \textit{modernize} \\ \hline
 		kembar & \textit{twin}, \textit{twins} & \textit{twin}, \textit{twins} & \textit{twin}, \textit{twins} \\ \hline
@@ -102,11 +102,11 @@ Hasil \textit{enhancement} dengan pendekatan \textit{bi-directional} masih mengh
 		membantu & \textit{helping}, \textit{assisting}, \textit{supports}, \textit{help}, \textit{helped}, \textit{assist}, \textit{helping}, \textit{assisting}, \textit{helps}, \textit{helpful}, \textit{assisted}, \textit{assistance}, \textit{support}, \textit{aid}, \textit{beneficial}, \textit{assists}, \textit{supporting}, \textit{useful}, \textit{facilitates}, \textit{foster}, \textit{aiding}, \textit{squared}, \textit{expenses}, \textit{appearance}, \textit{suportive}, \textit{bolster}, \textit{given}, \textit{handy}, \textit{avail}, \textit{indonesia}, \textit{bear}, \textit{address}, \textit{contributed}, \textit{effective}, \textit{helping}, \textit{facilitating}, \textit{enabled}, \textit{instrumental}, \textit{providing}, \textit{pulled}, \textit{meet} & \textit{bolster}, \textit{supporting}, \textit{beneficial}, \textit{helping}, \textit{help}, \textit{support}, \textit{assisted}, \textit{assist}, \textit{appearance}, \textit{assisting}, \textit{helped}, \textit{assists}, \textit{helps}, \textit{aiding}, \textit{aid}, \textit{facilitates}, \textit{supports}, \textit{assistance} & \textit{helped}, \textit{assisting}, \textit{facilitating}, \textit{help}, \textit{assisted}, \textit{assist}, \textit{helpful}, \textit{helping}, \textit{helps}, \textit{aid}, \textit{facilitates}, \textit{supports}, \textit{avail} \\ \hline
 		disusun & \textit{prepared}, \textit{developed}, \textit{compiled}, \textit{arranged}, \textit{constructed}, \textit{structured}, \textit{composed}, \textit{then}, \textit{formulated}, \textit{proposed}, \textit{organized}, \textit{broken}, \textit{cds}, \textit{constituted}, \textit{written}, \textit{sejahtera}, \textit{consistency}, \textit{drawn}, \textit{codified} & \textit{composed}, \textit{arranged}, \textit{developed}, \textit{structured}, \textit{organized}, \textit{prepared}, \textit{compiled} & \textit{composed}, \textit{arranged}, \textit{developed}, \textit{structured}, \textit{prepared}, \textit{compiled} \\ \hline
 		diusulkan & \textit{proposed}, \textit{suggested}, \textit{recommended}, \textit{proposes}, \textit{suggests}, \textit{sought} & \textit{suggested}, \textit{suggests}, \textit{recommended}, \textit{proposed}, \textit{proposes} & \textit{suggested}, \textit{proposed} \\ \hline
-		\caption{Pasangan kata hasil \textit{random sampling} Giza, \textit{bi-directional} dan \textit{crawling}}
+		\caption{Pasangan kata hasil \textit{random sampling} Giza, \textit{bi-directional} dan kamus}
 		\label{table:random-sampling-enhancement}
 	\end{longtable}
 
-Pasangan kata pada tabel di atas kemudian dihitung berapa jumlah pasangan yang benar untuk masing-masing pendekatan (\textit{bi-directional} dan \textit{crawling}). Pasangan kata dianggap benar jika hasil translasi kata tersebut masih sesuai untuk konteks kalimat tertentu. Pada kata "imbang" misalnya, kata "\textit{draw}" termasuk sebagai pasangan yang benar, sementara "\textit{drawing}" dianggap salah karena tidak sesuai untuk konteks "imbang". Pada contoh kata "imbang" tersebut, jumlah pasangan yang benar adalah 1 dari total 2 pasangan, sehingga precision yang didapat adalah 1/2 = 0.5. Hasil evaluasi pada kata-kata tersebut dapat dilihat pada tabel \ref{table:enhancement-precision}.
+Pasangan kata pada tabel di atas kemudian dihitung berapa jumlah pasangan yang benar untuk masing-masing pendekatan (\textit{bi-directional} dan kamus). Pasangan kata dianggap benar jika hasil translasi kata tersebut masih sesuai untuk konteks kalimat tertentu. Pada kata "imbang" misalnya, kata "\textit{draw}" termasuk sebagai pasangan yang benar, sementara "\textit{drawing}" dianggap salah karena tidak sesuai untuk konteks "imbang". Pada contoh kata "imbang" tersebut, jumlah pasangan yang benar adalah 1 dari total 2 pasangan, sehingga precision yang didapat adalah 1/2 = 0.5. Hasil evaluasi pada kata-kata tersebut dapat dilihat pada tabel \ref{table:enhancement-precision}.
 
 
 \begin{table}
@@ -115,7 +115,7 @@ Pasangan kata pada tabel di atas kemudian dihitung berapa jumlah pasangan yang b
 	\label{table:enhancement-precision}
 	\begin{tabular}{|p{2.5cm}|p{3cm}|p{3cm}|p{3cm}|}
 		\hline
-		\textbf{Kata} & \textbf{Giza original} & \textbf{\textit{Bi-directional}} & \textbf{\textit{Crawling}}
+		\textbf{Kata} & \textbf{Giza original} & \textbf{\textit{Bi-directional}} & \textbf{Kamu}
 		\\ \hline
 		memodernkan & 1.0 & 1.0 & 1.0 \\ \hline
 		kembar & 1.0 & 1.0 & 1.0 \\ \hline
@@ -132,7 +132,7 @@ Pasangan kata pada tabel di atas kemudian dihitung berapa jumlah pasangan yang b
 	\end{tabular}
 \end{table}
 
-Berdasarkan evaluasi pada tabel di atas, didapatkan bahwa pendekatan \textit{crawling} pada \textit{random sampling} tersebut memiliki tingkat precision yang lebih tinggi dari \textit{bi-directional} yaitu sebesar 90\%. Kamus hasil dari \textit{crawling} inilah yang akan digunakan untuk proses \textit{sense transfering}.
+Berdasarkan evaluasi pada tabel di atas, didapatkan bahwa pendekatan kamus pada \textit{random sampling} tersebut memiliki tingkat precision yang lebih tinggi dari \textit{bi-directional} yaitu sebesar 90\%. Kamus hasil \textit{online dictionary} inilah yang akan digunakan untuk proses \textit{sense transfering}.
 
 Pengukuran \textit{recall} terhadap keseluruhan proses \textit{word alignment} lebih sulit untuk dilakukan karena data yang banyak dan kecenderungan \textit{alignment} yang dihasilkan oleh \textit{anotator} bisa berbeda-beda. Proses dari \textit{word alignment} ini dapat diverifikasi lebih rinci jika sudah terdapat metode untuk menentukan pasangan \textit{word alignment} yang benar.
 
@@ -159,7 +159,7 @@ Proses \textit{transfer} makna kata dari bahasa Inggris ke bahasa Indonesia yang
 	\end{enumerate}
 \end{enumerate}
 
-Pada laporan ini, hasil dari \textit{sense transfering} yang dianalisis adalah proses yang menggunakan kamus \textit{crawling}. Pada jumlah kelas sebanyak 3-5 kelas kata (\textit{sense key}), \textit{target word} yang diambil adalah "memecahkan". Kata tersebut memiliki 4 buah kelas total dengan \textit{sense key} yang didapat yaitu 'solve\%2:31:00::','resolve\%2:31:01::', 'break\%2:30:03::', dan 'split\%2:38:00::'. Kata "menolak" mewakili kelas kata sebanyak 9 buah yang diantaranya mengandung kelas 'reject\%2:40:00::', 'decline\%2:32:00::', rebuff\%2:32:00::, dan enam buah kelas lainnya. Makna kata 'decline\%2:32:00::' sendiri sebenarnya merupakan "gabungan" dengan 'refuse\%2:32:00' yang memiliki kemiripan dengan nilai \textit{path similarity} melewati batas \textit{threshold}, sehingga makna kata dianggap sama dan diberikan \textit{tag} sebagai 'decline' (dipilih satu \textit{tag} saja). Tabel \ref{table:number-classes-sense-transfering-evaluation} menunjukan contoh beberapa kata tersebut dalam beberapa konteks kalimat yang bersesuaian.
+Pada laporan ini, hasil dari \textit{sense transfering} yang dianalisis adalah proses yang menggunakan pendekatan kamus \textit{online}. Pada jumlah kelas sebanyak 3-5 kelas kata (\textit{sense key}), \textit{target word} yang diambil adalah "memecahkan". Kata tersebut memiliki 4 buah kelas total dengan \textit{sense key} yang didapat yaitu 'solve\%2:31:00::','resolve\%2:31:01::', 'break\%2:30:03::', dan 'split\%2:38:00::'. Kata "menolak" mewakili kelas kata sebanyak 9 buah yang diantaranya mengandung kelas 'reject\%2:40:00::', 'decline\%2:32:00::', rebuff\%2:32:00::, dan enam buah kelas lainnya. Makna kata 'decline\%2:32:00::' sendiri sebenarnya merupakan "gabungan" dengan 'refuse\%2:32:00' yang memiliki kemiripan dengan nilai \textit{path similarity} melewati batas \textit{threshold}, sehingga makna kata dianggap sama dan diberikan \textit{tag} sebagai 'decline' (dipilih satu \textit{tag} saja). Tabel \ref{table:number-classes-sense-transfering-evaluation} menunjukan contoh beberapa kata tersebut dalam beberapa konteks kalimat yang bersesuaian.
 
 \begin{table}
 	\centering
