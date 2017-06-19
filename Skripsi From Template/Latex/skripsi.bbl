@@ -110,6 +110,12 @@ Ting, K.~M. (2011).
 \newblock Precision and recall.
 \newblock In {\em Encyclopedia of machine learning}, pages 781--781. Springer.
 
+\bibitem[Uliniansyah dan Ishizaki, 2006]{uliniansyah2006word}
+Uliniansyah, M.~T. dan Ishizaki, S. (2006).
+\newblock A word sense disambiguation system using modified na{\"\i}ve bayesian
+  algorithms for indonesian language.
+\newblock {\em Information and Media Technologies}, 1(1):257--274.
+
 \bibitem[Zhong dan Ng, 2010]{zhong2010makes}
 Zhong, Z. dan Ng, H.~T. (2010).
 \newblock It makes sense: A wide-coverage word sense disambiguation system for

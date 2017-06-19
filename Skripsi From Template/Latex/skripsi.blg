@@ -26,45 +26,45 @@ Repeated entry---line 315 of file skripsi.bib
  : @inproceedings{rudnick2011towards
  :                                  ,
 I'm skipping whatever remains of this entry
-You've used 19 entries,
+You've used 20 entries,
             1935 wiz_defined-function locations,
-            599 strings with 7440 characters,
-and the built_in function-call counts, 8980 in all, are:
-= -- 928
-> -- 309
-< -- 26
-+ -- 114
-- -- 104
-* -- 663
-:= -- 1434
-add.period$ -- 64
-call.type$ -- 19
-change.case$ -- 147
-chr.to.int$ -- 19
-cite$ -- 19
-duplicate$ -- 401
-empty$ -- 657
-format.name$ -- 135
-if$ -- 1886
+            605 strings with 7701 characters,
+and the built_in function-call counts, 9388 in all, are:
+= -- 970
+> -- 322
+< -- 27
++ -- 120
+- -- 108
+* -- 700
+:= -- 1502
+add.period$ -- 67
+call.type$ -- 20
+change.case$ -- 154
+chr.to.int$ -- 20
+cite$ -- 20
+duplicate$ -- 415
+empty$ -- 687
+format.name$ -- 142
+if$ -- 1965
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 18
-newline$ -- 98
-num.names$ -- 57
-pop$ -- 159
+missing$ -- 19
+newline$ -- 103
+num.names$ -- 60
+pop$ -- 163
 preamble$ -- 1
-purify$ -- 147
+purify$ -- 154
 quote$ -- 0
-skip$ -- 321
+skip$ -- 332
 stack$ -- 0
-substring$ -- 676
-swap$ -- 116
+substring$ -- 715
+swap$ -- 117
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 114
+type$ -- 120
 warning$ -- 0
-while$ -- 82
+while$ -- 86
 width$ -- 0
-write$ -- 253
+write$ -- 266
 (There were 2 error messages)
