@@ -42,7 +42,30 @@ Berdasarkan proses pembuatan dan hasil dari \textit{sense tagged corpus} tersebu
 %-----------------------------------------------------------------------------%
 \section{\textit{Word Alignment}}
 
-Proses alignment dilakukan terhadap semua pasangan kalimat pada korpus identik (total sebanyak 88.919 buah). Hasil dari proses \textit{word alignment} yang dilakukan Giza dibandingkan dengan hasil \textit{alignment} yang dibuat oleh dua orang anotator. Jumlah yang akan dibandingkan adalah 200 buah pasangan data yang didapat dengan \textit{random sampling}. Indikator performa dari perbandingan tersebut adalah nilai dari \textit{precision}, \textit{recall}, dan F-score sesuai dengan penyesuaian cara perhitungan dari penelitian \citep{mihalcea2003evaluation}. Hasil evaluasi yang didapatkan dapat dilihat pada tabel \ref{table:word-alignment-evaluation}
+Proses alignment dilakukan terhadap semua pasangan kalimat pada korpus identik (total sebanyak 88.919 buah). Hasil dari proses \textit{word alignment} yang dilakukan Giza dibandingkan dengan hasil \textit{alignment} yang dibuat oleh dua orang anotator. Jumlah yang akan dibandingkan adalah 200 buah pasangan data yang didapat dengan \textit{random sampling}. Indikator performa dari perbandingan tersebut adalah nilai dari \textit{precision}, \textit{recall}, dan F-score sesuai dengan penyesuaian cara perhitungan dari penelitian \citep{mihalcea2003evaluation}.
+
+\subsection{Hasil Anotasi \textit{Word Alignment}}
+
+Evaluasi hasil anotasi dilihat dari sisi perbandingan jumlah \textit{alignment} yang \textit{exact match} dengan total kata. Suatu \textit{alignment} dikatakan sebagai \textit{exact match} jika pasangan kata yang diberikan oleh kedua anotator sama persis. Contoh yang tidak \textit{exact match} adalah jika misalkan kata "keluar" dipasangkan dengan "\textit{get out}" pada anotator 1, namun dipasangkan dengan "\textit{out}" pada anotator 2. \textit{Alignment} dikatakan \textit{exact match} pada kasus sebelumnya jika anotator 2 juga memasangkan kata "keluar" dengan "\textit{get out}". Jumlah dan perbandingan \textit{exact match} antara kedua anotator dengan total pasangan kata dapat dilihat pada tabel \ref{table:exact-match-anotator}.
+
+\begin{table}
+	\centering
+	\caption{Perbandingan \textit{exact match alignment} anotator}
+	\label{table:exact-match-anotator}
+	\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|}
+		\hline
+		\textbf{\textit{Exact match} (e)} & \textbf{Total \textit{alignment} (t)} & \textbf{Rasio (e/t)}
+		\\ \hline
+		4.315 & 5198 & 0.83 \\ \hline
+	\end{tabular} 
+\end{table}
+
+Perbandingan antara jumlah \textit{alignment} yang \textit{exact match} antara kedua anotator dengan pasangan kata pada 200 \textit{sample} yang diberikan adalah 0.83. Hal ini berarti 83\% dari \textit{alignment} yang dilakukan kedua anotator memiliki kesamaan pasangan kata yang identik.
+
+
+\subsection{Evaluasi \textit{Word Alignment}}
+
+Hasil evaluasi perbandingan antara hasil \textit{alignment} yang dilakukan anotator dengan hasil Giza original dapat dilihat pada tabel \ref{table:word-alignment-evaluation}
 
 \begin{table}
 	\centering
@@ -61,22 +84,6 @@ Proses alignment dilakukan terhadap semua pasangan kalimat pada korpus identik (
 
 \textit{Agreement} antara kedua anotator pada \textit{random sampling alignment} adalah 0.924.
 
-Evaluasi hasil anotasi tersebut juga dilihat dari sisi perbandingan jumlah \textit{alignment} yang \textit{exact match} dengan total kata. Suatu \textit{alignment} dikatakan sebagai \textit{exact match} jika pasangan kata yang diberikan oleh kedua anotator sama persis. Contoh yang tidak \textit{exact match} adalah jika misalkan kata "keluar" dipasangkan dengan "\textit{get out}" pada anotator 1, namun dipasangkan dengan "\textit{out}" pada anotator 2. \textit{Alignment} dikatakan \textit{exact match} pada kasus sebelumnya jika anotator 2 juga memasangkan kata "keluar" dengan "\textit{get out}". Jumlah dan perbandingan \textit{exact match} antara kedua anotator dengan total pasangan kata dapat dilihat pada tabel \ref{table:exact-match-anotator}.
-
-\begin{table}
-	\centering
-	\caption{Perbandingan \textit{exact match alignment} anotator}
-	\label{table:exact-match-anotator}
-	\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|}
-		\hline
-		\textbf{\textit{Exact match} (e)} & \textbf{Total \textit{alignment} (t)} & \textbf{Rasio (e/t)}
-		\\ \hline
-		4.315 & 5198 & 0.83 \\ \hline
-	\end{tabular} 
-\end{table}
- 
-Perbandingan antara jumlah \textit{alignment} yang \textit{exact match} antara kedua anotator dengan pasangan kata pada 200 \textit{sample} yang diberikan adalah 0.83. Hal ini berarti 83\% dari \textit{alignment} yang dilakukan kedua anotator memiliki kesamaan pasangan kata yang identik.
-
 Berdasarkan hasil beberapa analisis \textit{word alignment} tersebut, dapat dilihat bahwa Giza++ secara umum dapat menghasilkan \textit{alignment} pada korpus identik dengan nilai F-Score sekitar 75\%. Namun demikian, kesalahan yang terjadi pada \textit{alignment} Giza ada di kasus-kasus seperti:
 
 \begin{enumerate}
@@ -85,6 +92,8 @@ Berdasarkan hasil beberapa analisis \textit{word alignment} tersebut, dapat dili
 \end{enumerate}
 
 Walaupun akurasi yang didapatkan sekitar 70\%, tidak jarang ditemukan pasangan kata-kata yang tidak sesuai dan dapat menjadi masalah pada saat \textit{sense transfering} sehingga dilakukan proses \textit{word alignment enhancement}.
+
+
 
 Hasil \textit{enhancement} dengan pendekatan \textit{bi-directional} masih menghasilkan kata-kata yang memiliki pasangan tidak sesuai seperti misalnya kata "pembuat" dengan "\textit{jewelry}", kata "pendidikan" dengan "\textit{tended}", kata "harapkan" dengan "\textit{anticipate}", dan lain-lain. Skenario pada \textit{enhancement} menggunakan kamus Indonesia-Inggris tidak menghasilkan pasangan yang salah seperti pada contoh yang diberikan di atas. Evaluasi terhadap hasil \textit{enhancement} ini dilakukan dengan mengambil 10 buah \textit{sample} secara \textit{random} dari pasangan kata yang ada. Hasil \textit{sampling} tersebut dapat dilihat pada tabel \ref{table:random-sampling-enhancement}.
 
