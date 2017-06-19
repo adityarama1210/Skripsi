@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  19 JUN 2017 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  19 JUN 2017 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2580,73 +2580,74 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [53]
-Underfull \hbox (badness 2368) in paragraph at lines 357--358
-\T1/ptm/m/n/12 kesepuluh data \T1/ptm/m/it/12 sampling \T1/ptm/m/n/12 yang digu
-nakan, rerata dari F-Score semua fitur
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54] <adit_pics/memecahkan.png, id=1082, 312.41719pt x 215.30438pt>
+[54]
+Underfull \hbox (badness 2368) in paragraph at lines 344--345
+\T1/ptm/m/n/12 kesepuluh data \T1/ptm/m/it/12 sampling \T1/ptm/m/n/12 yang digu
+nakan, rerata dari F-Score semua fitur
+ []
+
+<adit_pics/memecahkan.png, id=1082, 312.41719pt x 215.30438pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
-Package pdftex.def Info: adit_pics/memecahkan.png used on input line 364.
+Package pdftex.def Info: adit_pics/memecahkan.png used on input line 351.
 (pdftex.def)             Requested size: 199.1693pt x 137.26212pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 365.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
 
 <adit_pics/menolak.png, id=1083, 321.45094pt x 205.5178pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
-Package pdftex.def Info: adit_pics/menolak.png used on input line 369.
+Package pdftex.def Info: adit_pics/menolak.png used on input line 356.
 (pdftex.def)             Requested size: 199.1693pt x 127.34132pt.
 
 <adit_pics/obat.png, id=1084, 319.94531pt x 204.01219pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
-Package pdftex.def Info: adit_pics/obat.png used on input line 375.
+Package pdftex.def Info: adit_pics/obat.png used on input line 362.
 (pdftex.def)             Requested size: 199.1693pt x 126.99988pt.
 
 <adit_pics/lingkungan.png, id=1085, 328.97906pt x 210.7875pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 380.
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 367.
 (pdftex.def)             Requested size: 199.1693pt x 127.61528pt.
 
 <adit_pics/halaman.png, id=1086, 341.77687pt x 218.31563pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
-Package pdftex.def Info: adit_pics/halaman.png used on input line 386.
+Package pdftex.def Info: adit_pics/halaman.png used on input line 373.
 (pdftex.def)             Requested size: 199.1693pt x 127.22609pt.
 
 <adit_pics/kehadiran.png, id=1087, 353.82187pt x 216.81pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
-Package pdftex.def Info: adit_pics/kehadiran.png used on input line 391.
+Package pdftex.def Info: adit_pics/kehadiran.png used on input line 378.
 (pdftex.def)             Requested size: 199.1693pt x 122.04463pt.
 
 <adit_pics/hati.png, id=1088, 344.03531pt x 220.57407pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
-Package pdftex.def Info: adit_pics/hati.png used on input line 397.
+Package pdftex.def Info: adit_pics/hati.png used on input line 384.
 (pdftex.def)             Requested size: 199.1693pt x 127.69408pt.
 
 <adit_pics/coklat.png, id=1089, 341.77687pt x 219.06844pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
-Package pdftex.def Info: adit_pics/coklat.png used on input line 402.
+Package pdftex.def Info: adit_pics/coklat.png used on input line 389.
 (pdftex.def)             Requested size: 199.1693pt x 127.6648pt.
 
 
@@ -2669,14 +2670,14 @@ n.png> <./adit_pics/hati.png> <./adit_pics/coklat.png>]
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
-Package pdftex.def Info: adit_pics/berat.png used on input line 411.
+Package pdftex.def Info: adit_pics/berat.png used on input line 398.
 (pdftex.def)             Requested size: 199.1693pt x 126.99432pt.
 
 <adit_pics/jalan.png, id=1108, 462.72874pt x 290.08376pt>
 File: adit_pics/jalan.png Graphic file (type png)
 
 <use adit_pics/jalan.png>
-Package pdftex.def Info: adit_pics/jalan.png used on input line 416.
+Package pdftex.def Info: adit_pics/jalan.png used on input line 403.
 (pdftex.def)             Requested size: 199.1693pt x 124.85751pt.
 )
 
@@ -3088,7 +3089,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (78 pages, 659659 bytes).
+Output written on skripsi.pdf (78 pages, 660471 bytes).
 PDF statistics:
  1322 PDF objects out of 1440 (max. 8388607)
  1158 compressed objects within 12 object streams
