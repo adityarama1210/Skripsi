@@ -307,7 +307,7 @@ Berdasarkan berbagai hasil evaluasi di atas, makna kata yang tidak tepat merupak
 %-----------------------------------------------------------------------------%
 \section{WSD Bahasa Indonesia}
 
-Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai sampling dari \textit{target word} yang akan dievaluasi berdasarkan nilai F-score dari hasil rata-rata \textit{cross validation}. Kata yang dipilih merupakan \textit{instance} yang memiliki pasangan kata lebih dari satu dalam bahasa Inggris dan mempunyai makna yang berbeda dari hasil \textit{sense transfering}. \textit{Target word} yang dipilih tersebut memiliki kriteria bahwa pasangan bahasa inggris kata tersebut lebih dari satu ataupun juga pasangan bahasa inggrisnya memiliki makna yang tidak dekat (ambigu). Fitur yang dilakukan percobaan pada penelitian ini adalah F1(\textit{bag of words}), F2 (\textit{word embedding}), F3 (\textit{pos-tag}), F4 (\textit{pos tagging} dan \textit{bag of words}). Hasil evaluasi dapat dilihat pada tabel akurasi  \ref{table:wsd-evaluation-crawling} berikut.
+Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai sampling dari \textit{target word} yang akan dievaluasi berdasarkan nilai F-score dari hasil rata-rata \textit{cross validation}. Kata yang dipilih merupakan \textit{instance} yang memiliki pasangan kata lebih dari satu dalam bahasa Inggris dan mempunyai makna yang berbeda dari hasil \textit{sense transfering}. \textit{Target word} yang dipilih tersebut memiliki kriteria bahwa pasangan bahasa inggris kata tersebut lebih dari satu ataupun juga pasangan bahasa inggrisnya memiliki makna yang tidak dekat (ambigu). Terdapat juga kata-kata yang ada pada analisis WSD penelitian \citep{septiantri2013wsd} untuk dicoba pada sistem WSD penelitian ini. Fitur yang dilakukan percobaan pada penelitian ini adalah F1(\textit{bag of words}), F2 (\textit{word embedding}), F3 (\textit{pos-tag}), F4 (\textit{pos tagging} dan \textit{bag of words}). Hasil evaluasi dapat dilihat pada tabel akurasi  \ref{table:wsd-evaluation-crawling} berikut.
 \begin{table}
 	\centering
 	\caption{Evaluasi sistem WSD}
@@ -340,7 +340,7 @@ Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense
 \end{table}
 
 
-Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1, tujuh dari sepuluh (70\%) buah kata memiliki nilai performa di atas baseline, lime dari sepuluh kata (50\%) mengungguli baseline pada fitur F2, lima dari sepuluh kata (50\%) mengungguli baseline pada fitur F3, dan delapan dari sepuluh kata (80\%) mengungguli baseline pada fitur F4. Rerata performa dari hasil tersebut dapat dilihat pada tabel \ref{table:performa-rerata-wsd}.
+Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1, 13 dari 19 (68\%) buah kata memiliki nilai performa di atas baseline, 9 dari 19 kata (47\%) mengungguli baseline pada fitur F2, 12 dari 19 kata (63\%) mengungguli baseline pada fitur F3, dan 15 dari 19 kata (78\%) mengungguli baseline pada fitur F4. Rerata performa dari hasil tersebut dapat dilihat pada tabel \ref{table:performa-rerata-wsd}.
 
 \begin{table}
 	\centering
@@ -350,11 +350,12 @@ Pada hasil akurasi (F-Score) tabel tersebut, dapat terlihat bahwa pada fitur F1,
 		\hline
 		\textbf{Baseline} & \textbf{F1} & \textbf{F2} & \textbf{F3} & \textbf{F4} \\ \hline
 		%0.62 & 0.710 & 0.646 & 0.651 & 0.716 \\ \hline
-		0.626 & 0.677 & 0.644 & 0.647 & 0.724 \\ \hline
+		%0.626 & 0.677 & 0.644 & 0.647 & 0.724 \\ \hline
+		0.583 & 0.635 & 0.604 & 0.629 & 0.682 \\ \hline
 	\end{tabular}
 \end{table}
 
-Berdasarkan rata-rata dari nilai F-Score tersebut, dapat dilihat bahwa untuk kesepuluh data \textit{sampling} yang digunakan, rerata dari F-Score semua fitur mengungguli sistem baseline.
+Berdasarkan rata-rata dari nilai F-Score tersebut, dapat dilihat bahwa untuk sembilan belas data \textit{sampling} yang digunakan, rerata dari F-Score semua fitur mengungguli sistem baseline.
 
 Grafik perbandingan dari fitur-fitur tersebut untuk setiap kata dapat dilihat pada gambar \ref{fig:fitur-wsd-indo}.
 
@@ -420,4 +421,4 @@ Grafik perbandingan dari fitur-fitur tersebut untuk setiap kata dapat dilihat pa
 	\label{fig:fitur-wsd-indo}
 \end{figure} 
 
-Berdasarkan sepuluh grafik di atas, pada tujuh buah \textit{sample}, fitur F2 memiliki akurasi di bawah F1 walaupun sudah menggunakan \textit{word embedding}. Pada enam buah \textit{sample} kata, F4 yang merupakan fitur gabungan F1 dan F3 memiliki performa yang lebih baik dari fitur F1 saja. Penggunaan berbagai skenario fitur tersebut menunjukan bahwa fitur F1 atau F4 memiliki performa minimal sama atau di atas baseline pada sembilan dari sepuluh \textit{sample} (90\%), hal ini menunjukkan bahwa \textit{bag of words} ataupun kombinasinya dengan POS Tag dapat mengungguli baseline pada \textit{sampling} ini. Jumlah persentase pada \textit{sampling} dengan fitur F2 yang mengungguli baseline adalah 50\%. Performa F2 yang lebih rendah dari F4 pada rerata F-Score dapat disebabkan karena domain yang berbeda antara \textit{training data} pada saat membentuk model \textit{word embedding} (perbedaan pada gaya bahasa pada Wikipedia dan korpus identik). Selain permasalahan domain \textit{training data}, pengambilan seluruh kata di kalimat untuk dijadikan fitur vektor \textit{word embedding} juga belum dapat menghasilkan performa diatas baseline pada \textit{sample} tersebut. Namun demikian, persentase terbesar dari \textit{sampling} sepuluh kata di atas diperoleh pada fitur F4 yang memiliki performa lebih baik dari baseline pada delapan kasus dari sepuluh kata tersebut (80\%).
+Berdasarkan 19 grafik di atas, pada 12 buah \textit{sample}, fitur F2 memiliki akurasi di bawah F1 walaupun sudah menggunakan \textit{word embedding}. Pada 12 buah \textit{sample} kata, F4 yang merupakan fitur gabungan F1 dan F3 memiliki performa yang lebih baik dari fitur F1 saja. Penggunaan berbagai skenario fitur tersebut menunjukan bahwa fitur F1 atau F4 memiliki performa minimal sama atau di atas baseline pada 16 dari 19 \textit{sample} (84\%), hal ini menunjukkan bahwa \textit{bag of words} ataupun kombinasinya dengan POS Tag dapat mengungguli baseline pada \textit{sampling} ini. Jumlah persentase pada \textit{sampling} dengan fitur F2 yang mengungguli baseline adalah 47\%. Performa F2 yang lebih rendah dari F4 pada rerata F-Score dapat disebabkan karena domain yang berbeda antara \textit{training data} pada saat membentuk model \textit{word embedding} (perbedaan pada gaya bahasa pada Wikipedia dan korpus identik). Selain permasalahan domain \textit{training data}, pengambilan seluruh kata di kalimat untuk dijadikan fitur vektor \textit{word embedding} juga belum dapat menghasilkan performa diatas baseline pada \textit{sample} tersebut. Namun demikian, persentase terbesar dari \textit{sampling} sepuluh kata di atas diperoleh pada fitur F4 yang memiliki performa lebih baik dari baseline pada 15 kasus dari 19 kata tersebut (78\%).

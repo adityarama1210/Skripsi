@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  19 JUN 2017 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  19 JUN 2017 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2586,68 +2586,62 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54]
-Underfull \hbox (badness 2368) in paragraph at lines 357--358
-\T1/ptm/m/n/12 kesepuluh data \T1/ptm/m/it/12 sampling \T1/ptm/m/n/12 yang digu
-nakan, rerata dari F-Score semua fitur
- []
-
-<adit_pics/memecahkan.png, id=1103, 312.41719pt x 215.30438pt>
+[54] <adit_pics/memecahkan.png, id=1105, 312.41719pt x 215.30438pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
-Package pdftex.def Info: adit_pics/memecahkan.png used on input line 364.
+Package pdftex.def Info: adit_pics/memecahkan.png used on input line 365.
 (pdftex.def)             Requested size: 199.1693pt x 137.26212pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 365.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 366.
 
-<adit_pics/menolak.png, id=1104, 321.45094pt x 205.5178pt>
+<adit_pics/menolak.png, id=1106, 321.45094pt x 205.5178pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
-Package pdftex.def Info: adit_pics/menolak.png used on input line 369.
+Package pdftex.def Info: adit_pics/menolak.png used on input line 370.
 (pdftex.def)             Requested size: 199.1693pt x 127.34132pt.
 
-<adit_pics/obat.png, id=1105, 319.94531pt x 204.01219pt>
+<adit_pics/obat.png, id=1107, 319.94531pt x 204.01219pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
-Package pdftex.def Info: adit_pics/obat.png used on input line 375.
+Package pdftex.def Info: adit_pics/obat.png used on input line 376.
 (pdftex.def)             Requested size: 199.1693pt x 126.99988pt.
 
-<adit_pics/lingkungan.png, id=1106, 328.97906pt x 210.7875pt>
+<adit_pics/lingkungan.png, id=1108, 328.97906pt x 210.7875pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 380.
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 381.
 (pdftex.def)             Requested size: 199.1693pt x 127.61528pt.
 
-<adit_pics/halaman.png, id=1107, 341.77687pt x 218.31563pt>
+<adit_pics/halaman.png, id=1109, 341.77687pt x 218.31563pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
-Package pdftex.def Info: adit_pics/halaman.png used on input line 386.
+Package pdftex.def Info: adit_pics/halaman.png used on input line 387.
 (pdftex.def)             Requested size: 199.1693pt x 127.22609pt.
 
-<adit_pics/kehadiran.png, id=1108, 353.82187pt x 216.81pt>
+<adit_pics/kehadiran.png, id=1110, 353.82187pt x 216.81pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
-Package pdftex.def Info: adit_pics/kehadiran.png used on input line 391.
+Package pdftex.def Info: adit_pics/kehadiran.png used on input line 392.
 (pdftex.def)             Requested size: 199.1693pt x 122.04463pt.
 
-<adit_pics/hati.png, id=1109, 344.03531pt x 220.57407pt>
+<adit_pics/hati.png, id=1111, 344.03531pt x 220.57407pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
-Package pdftex.def Info: adit_pics/hati.png used on input line 397.
+Package pdftex.def Info: adit_pics/hati.png used on input line 398.
 (pdftex.def)             Requested size: 199.1693pt x 127.69408pt.
 
-<adit_pics/coklat.png, id=1110, 341.77687pt x 219.06844pt>
+<adit_pics/coklat.png, id=1112, 341.77687pt x 219.06844pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
-Package pdftex.def Info: adit_pics/coklat.png used on input line 402.
+Package pdftex.def Info: adit_pics/coklat.png used on input line 403.
 (pdftex.def)             Requested size: 199.1693pt x 127.6648pt.
 
 
@@ -2666,18 +2660,18 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [56 <./adit_pics/memecahkan.png> <./adit_pics/menolak.png> <./adit_pics/obat.pn
 g> <./adit_pics/lingkungan.png> <./adit_pics/halaman.png> <./adit_pics/kehadira
 n.png> <./adit_pics/hati.png> <./adit_pics/coklat.png>]
-<adit_pics/berat.png, id=1128, 328.22626pt x 209.28188pt>
+<adit_pics/berat.png, id=1130, 328.22626pt x 209.28188pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
-Package pdftex.def Info: adit_pics/berat.png used on input line 411.
+Package pdftex.def Info: adit_pics/berat.png used on input line 412.
 (pdftex.def)             Requested size: 199.1693pt x 126.99432pt.
 
-<adit_pics/jalan.png, id=1129, 462.72874pt x 290.08376pt>
+<adit_pics/jalan.png, id=1131, 462.72874pt x 290.08376pt>
 File: adit_pics/jalan.png Graphic file (type png)
 
 <use adit_pics/jalan.png>
-Package pdftex.def Info: adit_pics/jalan.png used on input line 416.
+Package pdftex.def Info: adit_pics/jalan.png used on input line 417.
 (pdftex.def)             Requested size: 199.1693pt x 124.85751pt.
 )
 
@@ -2745,7 +2739,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [61]
 \openout2 = `lampiran.aux'.
 
- (./lampiran.tex <pewa_1.pdf, id=1163, 614.295pt x 794.97pt>
+ (./lampiran.tex <pewa_1.pdf, id=1165, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf>
@@ -2756,7 +2750,7 @@ File: pewa_1.pdf Graphic file (type pdf)
 Package pdftex.def Info: pewa_1.pdf used on input line 7.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<pewa_1.pdf, id=1166, page=1, 614.295pt x 794.97pt>
+<pewa_1.pdf, id=1168, page=1, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
  <use pewa_1.pdf, page 1>
 Package pdftex.def Info: pewa_1.pdf, page1 used on input line 7.
@@ -2792,7 +2786,7 @@ Package pdftex.def Info: pewa_1.pdf, page1 used on input line 7.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1200, page=2, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1202, page=2, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 2>
@@ -2818,7 +2812,7 @@ Package pdftex.def Info: pewa_1.pdf, page2 used on input line 7.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1205, page=3, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1207, page=3, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 3>
@@ -2844,7 +2838,7 @@ Package pdftex.def Info: pewa_1.pdf, page3 used on input line 7.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1210, page=4, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1212, page=4, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 4>
@@ -3089,10 +3083,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (78 pages, 661251 bytes).
+Output written on skripsi.pdf (78 pages, 670977 bytes).
 PDF statistics:
- 1346 PDF objects out of 1440 (max. 8388607)
- 1182 compressed objects within 12 object streams
+ 1348 PDF objects out of 1440 (max. 8388607)
+ 1184 compressed objects within 12 object streams
  436 named destinations out of 1000 (max. 500000)
  722 words of extra memory for PDF output out of 10000 (max. 10000000)
 
