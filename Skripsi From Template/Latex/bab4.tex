@@ -98,16 +98,16 @@ Hasil ini kemudian disimpan sebagai sebuah \textit{file} sendiri yang akan digun
 
 \section{Peningkatan Kualitas \textit{Alignment}}
 
-Hasil dari \textit{alignment} kata yang dilakukan Giza masih menghasilkan pasangan-pasangan kata yang tidak tepat. Untuk mengurangi jumlah pasangan kata yang salah tersebut, dilakukan \textit{enhancement} terhadap hasil pasangan kata dari Giza. Terdapat dua macam peningkatan kualitas \textit{alignment} yang digunakan pada penelitian ini, yaitu \textit{crawling based} dan \textit{bi-directional based}.
+Hasil dari \textit{alignment} kata yang dilakukan Giza masih menghasilkan pasangan-pasangan kata yang tidak tepat. Untuk mengurangi jumlah pasangan kata yang salah tersebut, dilakukan \textit{enhancement} terhadap hasil pasangan kata dari Giza. Terdapat dua macam peningkatan kualitas \textit{alignment} yang digunakan pada penelitian ini, yaitu \textit{dictionary based} dan \textit{bi-directional based}.
 
-\subsection{Pendekatan \textit{Crawling}}
+\subsection{Pendekatan Kamus}
 
-Konsep \textit{crawling} pada penelitian ini mengacu pada kebutuhan untuk \textit{filtering} hasil pasangan kata yang salah berdasarkan kamus Indonesia-Inggris. Karena keterbatasan \textit{resource digital} kamus tersebut, maka dibutuhkan pendekatan \textit{crawling} dari \textit{online dictionary} untuk mendapatkan pasangan kata yang benar. Salah satu \textit{online dictionary} yang dapat diakses dan memiliki hasil terjemahan yang cukup baik adalah \textit{website} sederet.com. \textit{Crawling} dilakukan dengan memeriksa setiap pasangan bahasa Inggris dari kata Indonesia hasil Giza, apakah pasangan kata tersebut berada pada hasil penerjemahan yang sesuai. Ilustrasi dari proses ini dapat dimodelkan dalam contoh berikut:
+Konsep penggunaan kamus pada penelitian ini mengacu pada kebutuhan untuk \textit{filtering} hasil pasangan kata yang salah berdasarkan kamus Indonesia-Inggris. Karena keterbatasan \textit{resource digital} kamus tersebut, maka dibutuhkan pendekatan kamus dari \textit{online dictionary} untuk mendapatkan pasangan kata yang benar. Salah satu \textit{online dictionary} yang dapat diakses dan memiliki hasil terjemahan yang cukup baik adalah \textit{website} sederet.com. Proses dilakukan dengan memeriksa setiap pasangan bahasa Inggris dari kata Indonesia hasil Giza, apakah pasangan kata tersebut berada pada hasil penerjemahan yang sesuai. Ilustrasi dari proses ini dapat dimodelkan dalam contoh berikut:
 
 \begin{enumerate}
 	\item Kata "halaman" memiliki pasangan bahasa Inggris hasil Giza yaitu  "\textit{courtyard}", \textit{"yard"}, \textit{"page"}, dan "\textit{lawn}".
-	\item Gunakan \textit{crawler} untuk menerima hasil terjemahan dari kata "halaman" dalam bahasa Inggris
-	\item \textit{Crawler} mendapatkan hasil kata "\textit{page}", dan "\textit{courtyard}".
+	\item Gunakan kamus untuk menerima hasil terjemahan dari kata "halaman" dalam bahasa Inggris
+	\item Pendekatan kamus mendapatkan hasil kata "\textit{page}", dan "\textit{courtyard}".
 	\item Berdasarkan kedua hasil tersebut, maka pasangan kata "halaman" yang dianggap benar adalah irisan dari kedua \textit{set} tersebut yaitu "\textit{page}" dan "\textit{courtyard}"
 \end{enumerate}
 
