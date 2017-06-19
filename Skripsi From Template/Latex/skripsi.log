@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  7 JUN 2017 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  19 JUN 2017 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2736,7 +2736,7 @@ tuk
 
 
 ]
-Underfull \hbox (badness 3000) in paragraph at lines 24--25
+Underfull \hbox (badness 3000) in paragraph at lines 25--26
 []\T1/ptm/m/n/12 Proses \T1/ptm/m/it/12 word alignment \T1/ptm/m/n/12 sebaiknya
  dilakukan dengan \T1/ptm/m/it/12 tool \T1/ptm/m/n/12 SMT yang
  []
@@ -2773,7 +2773,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [60]
 \openout2 = `lampiran.aux'.
 
- (./lampiran.tex <pewa_1.pdf, id=1122, 614.295pt x 794.97pt>
+ (./lampiran.tex <pewa_1.pdf, id=1123, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf>
@@ -2784,7 +2784,7 @@ File: pewa_1.pdf Graphic file (type pdf)
 Package pdftex.def Info: pewa_1.pdf used on input line 7.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<pewa_1.pdf, id=1125, page=1, 614.295pt x 794.97pt>
+<pewa_1.pdf, id=1126, page=1, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
  <use pewa_1.pdf, page 1>
 Package pdftex.def Info: pewa_1.pdf, page1 used on input line 7.
@@ -2820,7 +2820,7 @@ Package pdftex.def Info: pewa_1.pdf, page1 used on input line 7.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1159, page=2, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1160, page=2, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 2>
@@ -2846,7 +2846,7 @@ Package pdftex.def Info: pewa_1.pdf, page2 used on input line 7.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1164, page=3, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1165, page=3, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 3>
@@ -2872,7 +2872,7 @@ Package pdftex.def Info: pewa_1.pdf, page3 used on input line 7.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1169, page=4, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1170, page=4, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 4>
@@ -3099,9 +3099,9 @@ Package rerunfilecheck Info: File `skripsi.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 16497 strings out of 493014
- 227021 string characters out of 6133352
- 494219 words of memory out of 5000000
+ 16498 strings out of 493014
+ 227028 string characters out of 6133352
+ 494220 words of memory out of 5000000
  18993 multiletter control sequences out of 15000+600000
  52816 words of font info for 76 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
@@ -3117,10 +3117,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (77 pages, 680947 bytes).
+Output written on skripsi.pdf (77 pages, 698668 bytes).
 PDF statistics:
- 1302 PDF objects out of 1440 (max. 8388607)
- 1140 compressed objects within 12 object streams
- 429 named destinations out of 1000 (max. 500000)
+ 1303 PDF objects out of 1440 (max. 8388607)
+ 1141 compressed objects within 12 object streams
+ 430 named destinations out of 1000 (max. 500000)
  690 words of extra memory for PDF output out of 10000 (max. 10000000)
 
