@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  20 JUN 2017 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  20 JUN 2017 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1058,7 +1058,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] <adit_pics/Arsitektur-IMS.png, id=577, 839.135pt x 282.05376pt>
+[8] <adit_pics/Arsitektur-IMS.png, id=581, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1070,7 +1070,7 @@ Underfull \hbox (badness 4913) in paragraph at lines 70--71
 tm/m/it/12 task
  []
 
-<adit_pics/Performa-IMS.png, id=579, 622.325pt x 77.28876pt>
+<adit_pics/Performa-IMS.png, id=583, 622.325pt x 77.28876pt>
 File: adit_pics/Performa-IMS.png Graphic file (type png)
 
 <use adit_pics/Performa-IMS.png>
@@ -1148,14 +1148,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13] <adit_pics/wordalignment.jpeg, id=663, 442.65375pt x 141.52875pt>
+[13] <adit_pics/wordalignment.jpeg, id=667, 442.65375pt x 141.52875pt>
 File: adit_pics/wordalignment.jpeg Graphic file (type jpg)
 
 <use adit_pics/wordalignment.jpeg>
 Package pdftex.def Info: adit_pics/wordalignment.jpeg used on input line 146.
 (pdftex.def)             Requested size: 398.3386pt x 127.36604pt.
 
-<adit_pics/contoh_word_alignment_2.png, id=665, 442.65375pt x 121.45375pt>
+<adit_pics/contoh_word_alignment_2.png, id=669, 442.65375pt x 121.45375pt>
 File: adit_pics/contoh_word_alignment_2.png Graphic file (type png)
 
 <use adit_pics/contoh_word_alignment_2.png>
@@ -1182,7 +1182,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15] <adit_pics/cross_validation.png, id=693, 442.65375pt x 211.79124pt>
+[15] <adit_pics/cross_validation.png, id=697, 442.65375pt x 211.79124pt>
 File: adit_pics/cross_validation.png Graphic file (type png)
 
 <use adit_pics/cross_validation.png>
@@ -1212,7 +1212,7 @@ Bab 3.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/WSD-full.png, id=707, 537.00626pt x 307.1475pt>
+<adit_pics/WSD-full.png, id=711, 537.00626pt x 307.1475pt>
 File: adit_pics/WSD-full.png Graphic file (type png)
 
 <use adit_pics/WSD-full.png>
@@ -1223,7 +1223,7 @@ Package pdftex.def Info: adit_pics/WSD-full.png used on input line 13.
 
 
  <./adit_pics/WSD-full.png>]
-<adit_pics/bab-3-en-tag-corpus.png, id=717, 793.96625pt x 241.90375pt>
+<adit_pics/bab-3-en-tag-corpus.png, id=721, 793.96625pt x 241.90375pt>
 File: adit_pics/bab-3-en-tag-corpus.png Graphic file (type png)
 
 <use adit_pics/bab-3-en-tag-corpus.png>
@@ -1243,7 +1243,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19 <./adit_pics/bab-3-en-tag-corpus.png>]
-<adit_pics/giza-process.png, id=729, 693.59125pt x 342.27875pt>
+<adit_pics/giza-process.png, id=733, 693.59125pt x 342.27875pt>
 File: adit_pics/giza-process.png Graphic file (type png)
 
 <use adit_pics/giza-process.png>
@@ -1259,7 +1259,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [20
 
  <./adit_pics/giza-process.png>]
-<adit_pics/bidirectional-enhancement.png, id=745, 743.77875pt x 166.6225pt>
+<adit_pics/bidirectional-enhancement.png, id=749, 743.77875pt x 166.6225pt>
 File: adit_pics/bidirectional-enhancement.png Graphic file (type png)
 
 <use adit_pics/bidirectional-enhancement.png>
@@ -1307,7 +1307,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <adit_pics/we-vector.png, id=764, 613.29124pt x 131.49126pt>
+[22] <adit_pics/we-vector.png, id=768, 613.29124pt x 131.49126pt>
 File: adit_pics/we-vector.png Graphic file (type png)
 
 <use adit_pics/we-vector.png>
@@ -1481,7 +1481,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [31
 
-] <adit_pics/sense-transfering.png, id=852, 703.62875pt x 282.05376pt>
+] <adit_pics/sense-transfering.png, id=856, 703.62875pt x 282.05376pt>
 File: adit_pics/sense-transfering.png Graphic file (type png)
 
 <use adit_pics/sense-transfering.png>
@@ -1639,457 +1639,450 @@ emukan
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 98--99
-[]\T1/ptm/m/n/12 Hasil \T1/ptm/m/it/12 enhancement \T1/ptm/m/n/12 dengan pendek
-atan \T1/ptm/m/it/12 bi-directional \T1/ptm/m/n/12 masih menghasilkan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-\T1/ptm/m/it/12 remembered\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-\T1/ptm/m/it/12 note\T1/ptm/m/n/12 , \T1/ptm/m/it/12 recalls\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-[]|\T1/ptm/m/it/12 remember\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-\T1/ptm/m/it/12 remembered\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-\T1/ptm/m/it/12 recall\T1/ptm/m/n/12 , \T1/ptm/m/it/12 note\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-[]|\T1/ptm/m/it/12 remembered\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-[]|\T1/ptm/m/it/12 treatment\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-\T1/ptm/m/it/12 medical\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-\T1/ptm/m/it/12 healthcare\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 3849) in paragraph at lines 110--110
-\T1/ptm/m/it/12 healers\T1/ptm/m/n/12 , \T1/ptm/m/it/12 treated\T1/ptm/m/n/12 ,
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-[]|\T1/ptm/m/it/12 helping\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 assisting\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 supports\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 help\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helped\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 assist\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helping\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 6428) in paragraph at lines 111--111
-\T1/ptm/m/it/12 assisting\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helps\T1/ptm/m/n/12 ,
-
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 111--111
-\T1/ptm/m/it/12 helpful\T1/ptm/m/n/12 , \T1/ptm/m/it/12 assisted\T1/ptm/m/n/12 
-,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 assistance\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 support\T1/ptm/m/n/12 , \T1/ptm/m/it/12 aid\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 beneficial\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 assists\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 supporting\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 foster\T1/ptm/m/n/12 , \T1/ptm/m/it/12 aiding\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 squared\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 expenses\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 appearance\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 suportive\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 bolster\T1/ptm/m/n/12 , \T1/ptm/m/it/12 given\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 handy\T1/ptm/m/n/12 , \T1/ptm/m/it/12 avail\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 indonesia\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 bear\T1/ptm/m/n/12 , \T1/ptm/m/it/12 address\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 contributed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 facilitating\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 enabled\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 instrumental\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-[]|\T1/ptm/m/it/12 bolster\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 supporting\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 beneficial\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 helping\T1/ptm/m/n/12 , \T1/ptm/m/it/12 help\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 support\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 assisted\T1/ptm/m/n/12 , \T1/ptm/m/it/12 assist\T1/ptm/m/n/12 ,
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 appearance\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 assists\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helps\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 aiding\T1/ptm/m/n/12 , \T1/ptm/m/it/12 aid\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 facilitates\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 supports\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 facilitating\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 help\T1/ptm/m/n/12 , \T1/ptm/m/it/12 assisted\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 assist\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helpful\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 helping\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helps\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-\T1/ptm/m/it/12 aid\T1/ptm/m/n/12 , \T1/ptm/m/it/12 facilitates\T1/ptm/m/n/12 ,
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]|\T1/ptm/m/it/12 prepared\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 developed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 compiled\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 arranged\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 constructed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 structured\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 4013) in paragraph at lines 112--112
-\T1/ptm/m/it/12 composed\T1/ptm/m/n/12 , \T1/ptm/m/it/12 then\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 formulated\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 proposed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 organized\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 broken\T1/ptm/m/n/12 , \T1/ptm/m/it/12 cds\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 constituted\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 written\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 sejahtera\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 consistency\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]|\T1/ptm/m/it/12 composed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 arranged\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 developed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 structured\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 organized\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 prepared\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]|\T1/ptm/m/it/12 composed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 arranged\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 developed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 structured\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/it/12 prepared\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-[]|\T1/ptm/m/it/12 proposed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/it/12 suggested\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/it/12 recommended\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/it/12 proposes\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-[]|\T1/ptm/m/it/12 suggested\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/it/12 suggests\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/it/12 recommended\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/it/12 proposed\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-[]|\T1/ptm/m/it/12 suggested\T1/ptm/m/n/12 ,
- []
-
-
-Underfull \vbox (badness 10000) detected at line 116
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [44]
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\T1/ptm/m/it/12 remembered\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\T1/ptm/m/it/12 note\T1/ptm/m/n/12 , \T1/ptm/m/it/12 recalls\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\T1/ptm/m/it/12 remember\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\T1/ptm/m/it/12 remembered\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\T1/ptm/m/it/12 recall\T1/ptm/m/n/12 , \T1/ptm/m/it/12 note\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\T1/ptm/m/it/12 remembered\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/ptm/m/it/12 treatment\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/ptm/m/it/12 medical\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/ptm/m/it/12 healthcare\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 138--138
+\T1/ptm/m/it/12 healers\T1/ptm/m/n/12 , \T1/ptm/m/it/12 treated\T1/ptm/m/n/12 ,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\T1/ptm/m/it/12 helping\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 assisting\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 supports\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 help\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helped\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 assist\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helping\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 139--139
+\T1/ptm/m/it/12 assisting\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helps\T1/ptm/m/n/12 ,
+
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 139--139
+\T1/ptm/m/it/12 helpful\T1/ptm/m/n/12 , \T1/ptm/m/it/12 assisted\T1/ptm/m/n/12 
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 assistance\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 support\T1/ptm/m/n/12 , \T1/ptm/m/it/12 aid\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 beneficial\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 assists\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 supporting\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 foster\T1/ptm/m/n/12 , \T1/ptm/m/it/12 aiding\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 squared\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 expenses\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 appearance\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 suportive\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 bolster\T1/ptm/m/n/12 , \T1/ptm/m/it/12 given\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 handy\T1/ptm/m/n/12 , \T1/ptm/m/it/12 avail\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 indonesia\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 bear\T1/ptm/m/n/12 , \T1/ptm/m/it/12 address\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 contributed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 facilitating\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 enabled\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 instrumental\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\T1/ptm/m/it/12 bolster\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 supporting\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 beneficial\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 helping\T1/ptm/m/n/12 , \T1/ptm/m/it/12 help\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 support\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 assisted\T1/ptm/m/n/12 , \T1/ptm/m/it/12 assist\T1/ptm/m/n/12 ,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 appearance\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 assists\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helps\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 aiding\T1/ptm/m/n/12 , \T1/ptm/m/it/12 aid\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 facilitates\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 supports\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 facilitating\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 help\T1/ptm/m/n/12 , \T1/ptm/m/it/12 assisted\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 assist\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helpful\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 helping\T1/ptm/m/n/12 , \T1/ptm/m/it/12 helps\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/ptm/m/it/12 aid\T1/ptm/m/n/12 , \T1/ptm/m/it/12 facilitates\T1/ptm/m/n/12 ,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\T1/ptm/m/it/12 prepared\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 developed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 compiled\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 arranged\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 constructed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 structured\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 140--140
+\T1/ptm/m/it/12 composed\T1/ptm/m/n/12 , \T1/ptm/m/it/12 then\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 formulated\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 proposed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 organized\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 broken\T1/ptm/m/n/12 , \T1/ptm/m/it/12 cds\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 constituted\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 written\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 sejahtera\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 consistency\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\T1/ptm/m/it/12 composed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 arranged\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 developed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 structured\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 organized\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 prepared\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\T1/ptm/m/it/12 composed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 arranged\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 developed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 structured\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ptm/m/it/12 prepared\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|\T1/ptm/m/it/12 proposed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+\T1/ptm/m/it/12 suggested\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+\T1/ptm/m/it/12 recommended\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+\T1/ptm/m/it/12 proposes\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|\T1/ptm/m/it/12 suggested\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+\T1/ptm/m/it/12 suggests\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+\T1/ptm/m/it/12 recommended\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+\T1/ptm/m/it/12 proposed\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|\T1/ptm/m/it/12 suggested\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 144
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
@@ -2111,108 +2104,115 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [47]
-Underfull \hbox (badness 4144) in paragraph at lines 171--172
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
+Underfull \hbox (badness 4144) in paragraph at lines 199--200
 \T1/ptm/m/n/12 Kata "menolak" mewakili kelas kata sebanyak 9 buah yang diantara
 nya
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 182--182
+Underfull \hbox (badness 4726) in paragraph at lines 210--210
 \T1/ptm/m/it/12 problem or question)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 \T1/ptm/m/it/12 or understand the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 []|\T1/ptm/m/n/12 salah satu cara
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 \T1/ptm/m/n/12 untuk \T1/ptm/b/n/12 memecahkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 []|\T1/ptm/m/n/12 evolusionis masih
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/ptm/m/n/12 belum bisa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 \T1/ptm/b/n/12 memecahkan \T1/ptm/m/n/12 perma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 []|\T1/ptm/m/n/12 ...base mereka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 \T1/ptm/b/n/12 memecahkan \T1/ptm/m/n/12 rekor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 []|\T1/ptm/m/it/12 go one's own way;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 []|\T1/ptm/m/n/12 senat mereka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 \T1/ptm/b/n/12 memecahkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 \T1/ptm/m/n/12 perbedaan antara
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 \T1/ptm/m/n/12 skenario 1 dan 3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
 []|\T1/ptm/m/it/12 show unwillingness
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 []|\T1/ptm/m/n/12 wells rich \T1/ptm/b/n/12 menolak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
 []|\T1/ptm/m/it/12 reject outright and
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 203--204
+Underfull \hbox (badness 1412) in paragraph at lines 231--232
 []|\T1/ptm/m/n/12 georgia gulf \T1/ptm/b/n/12 menolak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 []|\T1/ptm/m/n/12 ..dua pekan lalu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 \T1/ptm/b/n/12 menolak \T1/ptm/m/n/12 tawaran
  []
 
@@ -2222,8 +2222,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
-Underfull \hbox (badness 1275) in paragraph at lines 214--216
+[49]
+Underfull \hbox (badness 1275) in paragraph at lines 242--244
 []\T1/ptm/m/n/12 Pada sebaran jumlah \T1/ptm/m/it/12 instance \T1/ptm/m/n/12 di
  dalam kelas-kelasnya, kata "kehadiran"
  []
@@ -2234,98 +2234,98 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
-Overfull \hbox (4.35257pt too wide) in paragraph at lines 223--224
+[50]
+Overfull \hbox (4.35257pt too wide) in paragraph at lines 251--252
 []|\T1/ptm/b/n/12 Jumlah| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []|\T1/ptm/m/n/12 Kehadiran
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 \T1/ptm/m/it/12 present (at a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 []|\T1/ptm/m/n/12 ...tingkat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
 []|\T1/ptm/m/n/12 Kehadiran
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 []|\T1/ptm/m/it/12 the impression
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 \T1/ptm/m/it/12 that something
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 []|\T1/ptm/m/n/12 ...berkurangnya
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 232--233
+Underfull \hbox (badness 5548) in paragraph at lines 260--261
 \T1/ptm/b/n/12 kehadiran \T1/ptm/m/n/12 pria
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
 []|\T1/ptm/m/n/12 rumahnya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []|\T1/ptm/m/it/12 an official
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \T1/ptm/m/it/12 legislative
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 []|\T1/ptm/m/n/12 ...kebakaran
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 \T1/ptm/m/n/12 yang melanda
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
 []|\T1/ptm/m/n/12 rumahnya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
 []|\T1/ptm/m/it/12 Housing that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
 \T1/ptm/m/it/12 someone is
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 243--244
+Underfull \hbox (badness 5331) in paragraph at lines 271--272
 []|\T1/ptm/m/n/12 ...ia pulang ke
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 252--253
+Underfull \hbox (badness 1168) in paragraph at lines 280--281
 \T1/ptm/m/n/12 dan feed%1:13:00:: ("\T1/ptm/m/it/12 food for domestic livestock
 \T1/ptm/m/n/12 ") yang semestinya adalah
  []
@@ -2336,229 +2336,173 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
-Overfull \hbox (4.35257pt too wide) in paragraph at lines 260--260
+[51]
+Overfull \hbox (4.35257pt too wide) in paragraph at lines 288--288
 []|\T1/ptm/b/n/12 Jumlah
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
 \T1/ptm/b/it/12 sense
  []
 
 
-Overfull \hbox (4.35257pt too wide) in paragraph at lines 260--260
+Overfull \hbox (4.35257pt too wide) in paragraph at lines 288--288
 []|\T1/ptm/b/n/12 Jumlah
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
 \T1/ptm/b/it/12 sense
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
 \T1/ptm/b/it/12 key
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
 \T1/ptm/b/n/12 yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 []|\T1/ptm/m/n/12 page%1:10:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 \T1/ptm/m/n/12 yard%1:23:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
 []|\T1/ptm/m/n/12 cocoa%1:13:02,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
 \T1/ptm/m/n/12 cacao%1:20:00::,
  []
 
 
-Overfull \hbox (1.42296pt too wide) in paragraph at lines 262--262
+Overfull \hbox (1.42296pt too wide) in paragraph at lines 290--290
 \T1/ptm/m/n/12 brown%5:00:00:chromatic:00| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 []|\T1/ptm/m/n/12 dust%1:27:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 []|\T1/ptm/m/n/12 limit%1:07:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 \T1/ptm/m/n/12 restriction%1:09:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 \T1/ptm/m/n/12 restraint%1:04:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 \T1/ptm/m/n/12 limitation%1:23:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 \T1/ptm/m/n/12 definition%1:10:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 \T1/ptm/m/n/12 constraint%1:26:00::,
  []
 
 
-Overfull \hbox (2.72472pt too wide) in paragraph at lines 265--265
+Overfull \hbox (2.72472pt too wide) in paragraph at lines 293--293
 []|\T1/ptm/m/n/12 lingkungan| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 []|\T1/ptm/m/n/12 environment%1:26:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \T1/ptm/m/n/12 enviro-nmental%3:01:01::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \T1/ptm/m/n/12 neighborhood%1:14:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \T1/ptm/m/n/12 enviro-nmentally%4:02:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \T1/ptm/m/n/12 sphere%1:15:00::, surro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \T1/ptm/m/n/12 undings%1:15:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 []|\T1/ptm/m/n/12 judge%1:18:01::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 \T1/ptm/m/n/12 justice%1:04:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\T1/ptm/m/n/12 heart%1:09:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 \T1/ptm/m/n/12 liver%1:08:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 []|\T1/ptm/m/n/12 memecah-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 []|\T1/ptm/m/n/12 solve%2:31:00::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \T1/ptm/m/n/12 resolve%2:31:01::,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \T1/ptm/m/n/12 break%2:30:03::,
  []
 
 
-Underfull \vbox (badness 10000) detected at line 273
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[51]
-Overfull \hbox (1.5058pt too wide) in paragraph at lines 287--288
-[]|\T1/ptm/b/n/12 Akurasi| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/ptm/m/n/12 halaman
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
-[]|\T1/ptm/m/n/12 halaman
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]|\T1/ptm/m/n/12 coklat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
-[]|\T1/ptm/m/n/12 coklat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
-\T1/ptm/m/n/12 (brown%5:00:00:chro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
-[]|\T1/ptm/m/n/12 coklat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
-[]|\T1/ptm/m/n/12 memecahkan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
-[]|\T1/ptm/m/n/12 memecahkan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
-[]|\T1/ptm/m/n/12 memecahkan
+Underfull \vbox (badness 10000) detected at line 301
  []
 
 
@@ -2568,7 +2512,63 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [52]
-Underfull \hbox (badness 1478) in paragraph at lines 304--305
+Overfull \hbox (1.5058pt too wide) in paragraph at lines 315--316
+[]|\T1/ptm/b/n/12 Akurasi| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+[]|\T1/ptm/m/n/12 halaman
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+[]|\T1/ptm/m/n/12 halaman
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[]|\T1/ptm/m/n/12 coklat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[]|\T1/ptm/m/n/12 coklat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+\T1/ptm/m/n/12 (brown%5:00:00:chro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]|\T1/ptm/m/n/12 coklat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]|\T1/ptm/m/n/12 memecahkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]|\T1/ptm/m/n/12 memecahkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+[]|\T1/ptm/m/n/12 memecahkan
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+Underfull \hbox (badness 1478) in paragraph at lines 332--333
 \T1/ptm/m/n/12 buku) pada kata "halaman", terjadi pada kalimat yang mengandung 
 makna
  []
@@ -2579,69 +2579,69 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
+[54]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54] <adit_pics/memecahkan.png, id=1105, 312.41719pt x 215.30438pt>
+[55] <adit_pics/memecahkan.png, id=1115, 312.41719pt x 215.30438pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
-Package pdftex.def Info: adit_pics/memecahkan.png used on input line 365.
+Package pdftex.def Info: adit_pics/memecahkan.png used on input line 393.
 (pdftex.def)             Requested size: 199.1693pt x 137.26212pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 366.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 394.
 
-<adit_pics/menolak.png, id=1106, 321.45094pt x 205.5178pt>
+<adit_pics/menolak.png, id=1116, 321.45094pt x 205.5178pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
-Package pdftex.def Info: adit_pics/menolak.png used on input line 370.
+Package pdftex.def Info: adit_pics/menolak.png used on input line 398.
 (pdftex.def)             Requested size: 199.1693pt x 127.34132pt.
 
-<adit_pics/obat.png, id=1107, 319.94531pt x 204.01219pt>
+<adit_pics/obat.png, id=1117, 319.94531pt x 204.01219pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
-Package pdftex.def Info: adit_pics/obat.png used on input line 376.
+Package pdftex.def Info: adit_pics/obat.png used on input line 404.
 (pdftex.def)             Requested size: 199.1693pt x 126.99988pt.
 
-<adit_pics/lingkungan.png, id=1108, 328.97906pt x 210.7875pt>
+<adit_pics/lingkungan.png, id=1118, 328.97906pt x 210.7875pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
-Package pdftex.def Info: adit_pics/lingkungan.png used on input line 381.
+Package pdftex.def Info: adit_pics/lingkungan.png used on input line 409.
 (pdftex.def)             Requested size: 199.1693pt x 127.61528pt.
 
-<adit_pics/halaman.png, id=1109, 341.77687pt x 218.31563pt>
+<adit_pics/halaman.png, id=1119, 341.77687pt x 218.31563pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
-Package pdftex.def Info: adit_pics/halaman.png used on input line 387.
+Package pdftex.def Info: adit_pics/halaman.png used on input line 415.
 (pdftex.def)             Requested size: 199.1693pt x 127.22609pt.
 
-<adit_pics/kehadiran.png, id=1110, 353.82187pt x 216.81pt>
+<adit_pics/kehadiran.png, id=1120, 353.82187pt x 216.81pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
-Package pdftex.def Info: adit_pics/kehadiran.png used on input line 392.
+Package pdftex.def Info: adit_pics/kehadiran.png used on input line 420.
 (pdftex.def)             Requested size: 199.1693pt x 122.04463pt.
 
-<adit_pics/hati.png, id=1111, 344.03531pt x 220.57407pt>
+<adit_pics/hati.png, id=1121, 344.03531pt x 220.57407pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
-Package pdftex.def Info: adit_pics/hati.png used on input line 398.
+Package pdftex.def Info: adit_pics/hati.png used on input line 426.
 (pdftex.def)             Requested size: 199.1693pt x 127.69408pt.
 
-<adit_pics/coklat.png, id=1112, 341.77687pt x 219.06844pt>
+<adit_pics/coklat.png, id=1122, 341.77687pt x 219.06844pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
-Package pdftex.def Info: adit_pics/coklat.png used on input line 403.
+Package pdftex.def Info: adit_pics/coklat.png used on input line 431.
 (pdftex.def)             Requested size: 199.1693pt x 127.6648pt.
 
 
@@ -2650,70 +2650,70 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55]
+[56]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56 <./adit_pics/memecahkan.png> <./adit_pics/menolak.png> <./adit_pics/obat.pn
+[57 <./adit_pics/memecahkan.png> <./adit_pics/menolak.png> <./adit_pics/obat.pn
 g> <./adit_pics/lingkungan.png> <./adit_pics/halaman.png> <./adit_pics/kehadira
 n.png> <./adit_pics/hati.png> <./adit_pics/coklat.png>]
-<adit_pics/berat.png, id=1130, 328.22626pt x 209.28188pt>
+<adit_pics/berat.png, id=1140, 328.22626pt x 209.28188pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
-Package pdftex.def Info: adit_pics/berat.png used on input line 412.
+Package pdftex.def Info: adit_pics/berat.png used on input line 440.
 (pdftex.def)             Requested size: 199.1693pt x 126.99432pt.
 
-<adit_pics/jalan.png, id=1131, 462.72874pt x 290.08376pt>
+<adit_pics/jalan.png, id=1141, 462.72874pt x 290.08376pt>
 File: adit_pics/jalan.png Graphic file (type png)
 
 <use adit_pics/jalan.png>
-Package pdftex.def Info: adit_pics/jalan.png used on input line 417.
+Package pdftex.def Info: adit_pics/jalan.png used on input line 445.
 (pdftex.def)             Requested size: 199.1693pt x 124.85751pt.
 
-<adit_pics/alam.png, id=1132, 506.89375pt x 323.2075pt>
+<adit_pics/alam.png, id=1142, 506.89375pt x 323.2075pt>
 File: adit_pics/alam.png Graphic file (type png)
 
 <use adit_pics/alam.png>
-Package pdftex.def Info: adit_pics/alam.png used on input line 423.
+Package pdftex.def Info: adit_pics/alam.png used on input line 451.
 (pdftex.def)             Requested size: 199.1693pt x 126.99237pt.
 
-<adit_pics/atas.png, id=1133, 511.9125pt x 319.1925pt>
+<adit_pics/atas.png, id=1143, 511.9125pt x 319.1925pt>
 File: adit_pics/atas.png Graphic file (type png)
 
 <use adit_pics/atas.png>
-Package pdftex.def Info: adit_pics/atas.png used on input line 428.
+Package pdftex.def Info: adit_pics/atas.png used on input line 456.
 (pdftex.def)             Requested size: 199.1693pt x 124.18747pt.
 
-<adit_pics/berarti.png, id=1134, 425.59pt x 315.1775pt>
+<adit_pics/berarti.png, id=1144, 425.59pt x 315.1775pt>
 File: adit_pics/berarti.png Graphic file (type png)
 
 <use adit_pics/berarti.png>
-Package pdftex.def Info: adit_pics/berarti.png used on input line 434.
+Package pdftex.def Info: adit_pics/berarti.png used on input line 462.
 (pdftex.def)             Requested size: 199.1693pt x 147.49863pt.
 
-<adit_pics/bidang.png, id=1135, 496.85625pt x 313.17pt>
+<adit_pics/bidang.png, id=1145, 496.85625pt x 313.17pt>
 File: adit_pics/bidang.png Graphic file (type png)
 
 <use adit_pics/bidang.png>
-Package pdftex.def Info: adit_pics/bidang.png used on input line 439.
+Package pdftex.def Info: adit_pics/bidang.png used on input line 467.
 (pdftex.def)             Requested size: 199.1693pt x 125.53815pt.
 
-<adit_pics/dasar.png, id=1136, 505.89pt x 315.1775pt>
+<adit_pics/dasar.png, id=1146, 505.89pt x 315.1775pt>
 File: adit_pics/dasar.png Graphic file (type png)
 
 <use adit_pics/dasar.png>
-Package pdftex.def Info: adit_pics/dasar.png used on input line 445.
+Package pdftex.def Info: adit_pics/dasar.png used on input line 473.
 (pdftex.def)             Requested size: 199.1693pt x 124.08736pt.
 
-<adit_pics/depan.png, id=1137, 419.5675pt x 314.17375pt>
+<adit_pics/depan.png, id=1147, 419.5675pt x 314.17375pt>
 File: adit_pics/depan.png Graphic file (type png)
 
 <use adit_pics/depan.png>
-Package pdftex.def Info: adit_pics/depan.png used on input line 450.
+Package pdftex.def Info: adit_pics/depan.png used on input line 478.
 (pdftex.def)             Requested size: 199.1693pt x 149.1382pt.
 
 
@@ -2722,30 +2722,30 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57
+[58
 
  <./adit_pics/berat.png> <./adit_pics/jalan.png> <./adit_pics/alam.png> <./adit
 _pics/atas.png> <./adit_pics/berarti.png> <./adit_pics/bidang.png> <./adit_pics
 /dasar.png> <./adit_pics/depan.png>]
-<adit_pics/kayu.png, id=1151, 506.89375pt x 318.18875pt>
+<adit_pics/kayu.png, id=1162, 506.89375pt x 318.18875pt>
 File: adit_pics/kayu.png Graphic file (type png)
 
 <use adit_pics/kayu.png>
-Package pdftex.def Info: adit_pics/kayu.png used on input line 459.
+Package pdftex.def Info: adit_pics/kayu.png used on input line 487.
 (pdftex.def)             Requested size: 199.1693pt x 125.02043pt.
 
-<adit_pics/perdana.png, id=1152, 490.83376pt x 319.1925pt>
+<adit_pics/perdana.png, id=1163, 490.83376pt x 319.1925pt>
 File: adit_pics/perdana.png Graphic file (type png)
 
 <use adit_pics/perdana.png>
-Package pdftex.def Info: adit_pics/perdana.png used on input line 464.
+Package pdftex.def Info: adit_pics/perdana.png used on input line 492.
 (pdftex.def)             Requested size: 199.1693pt x 129.52065pt.
 
-<adit_pics/sensor.png, id=1153, 491.8375pt x 320.19624pt>
+<adit_pics/sensor.png, id=1164, 491.8375pt x 320.19624pt>
 File: adit_pics/sensor.png Graphic file (type png)
 
 <use adit_pics/sensor.png>
-Package pdftex.def Info: adit_pics/sensor.png used on input line 470.
+Package pdftex.def Info: adit_pics/sensor.png used on input line 498.
 (pdftex.def)             Requested size: 199.1693pt x 129.66411pt.
 )
 
@@ -2754,7 +2754,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58
+[59
 
  <./adit_pics/kayu.png> <./adit_pics/perdana.png> <./adit_pics/sensor.png>]
 \openout2 = `bab6.aux'.
@@ -2772,7 +2772,7 @@ Underfull \hbox (badness 1596) in paragraph at lines 10--11
 tuk
  []
 
-[59
+[60
 
 
 
@@ -2789,7 +2789,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60] (./skripsi.bbl [61
+[61] (./skripsi.bbl [62
 
 
 ]
@@ -2811,10 +2811,10 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
+[63]
 \openout2 = `lampiran.aux'.
 
- (./lampiran.tex <pewa_1.pdf, id=1188, 614.295pt x 794.97pt>
+ (./lampiran.tex <pewa_1.pdf, id=1198, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf>
@@ -2825,7 +2825,7 @@ File: pewa_1.pdf Graphic file (type pdf)
 Package pdftex.def Info: pewa_1.pdf used on input line 7.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<pewa_1.pdf, id=1191, page=1, 614.295pt x 794.97pt>
+<pewa_1.pdf, id=1201, page=1, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
  <use pewa_1.pdf, page 1>
 Package pdftex.def Info: pewa_1.pdf, page1 used on input line 7.
@@ -2854,14 +2854,14 @@ File: pewa_1.pdf Graphic file (type pdf)
 <use pewa_1.pdf, page 1>
 Package pdftex.def Info: pewa_1.pdf, page1 used on input line 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [63
+ [64
 
  <./pewa_1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1225, page=2, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1235, page=2, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 2>
@@ -2882,12 +2882,12 @@ File: pewa_1.pdf Graphic file (type pdf)
 <use pewa_1.pdf, page 2>
 Package pdftex.def Info: pewa_1.pdf, page2 used on input line 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [64 <./pewa_1.pdf
+ [65 <./pewa_1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1230, page=3, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1240, page=3, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 3>
@@ -2908,12 +2908,12 @@ File: pewa_1.pdf Graphic file (type pdf)
 <use pewa_1.pdf, page 3>
 Package pdftex.def Info: pewa_1.pdf, page3 used on input line 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [65 <./pewa_1.pdf
+ [66 <./pewa_1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1235, page=4, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1246, page=4, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 4>
@@ -2934,7 +2934,7 @@ File: pewa_1.pdf Graphic file (type pdf)
 <use pewa_1.pdf, page 4>
 Package pdftex.def Info: pewa_1.pdf, page4 used on input line 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [66 <./pewa_1.pdf
+ [67 <./pewa_1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
@@ -3145,14 +3145,14 @@ lampiran.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
 Package rerunfilecheck Info: File `skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: 4D2320991F92D6D47FDACAB0B2E9409F;5085.
+(rerunfilecheck)             Checksum: 039DA7B6533C939C7D78F497F42FE6C6;5085.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 16565 strings out of 493014
- 228358 string characters out of 6133352
- 494224 words of memory out of 5000000
- 19045 multiletter control sequences out of 15000+600000
+ 16570 strings out of 493014
+ 228484 string characters out of 6133352
+ 495376 words of memory out of 5000000
+ 19047 multiletter control sequences out of 15000+600000
  52816 words of font info for 76 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
  45i,18n,51p,2192b,1207s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3167,10 +3167,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (79 pages, 723982 bytes).
+Output written on skripsi.pdf (80 pages, 725439 bytes).
 PDF statistics:
- 1372 PDF objects out of 1440 (max. 8388607)
- 1189 compressed objects within 12 object streams
- 438 named destinations out of 1000 (max. 500000)
+ 1383 PDF objects out of 1440 (max. 8388607)
+ 1199 compressed objects within 12 object streams
+ 441 named destinations out of 1000 (max. 500000)
  767 words of extra memory for PDF output out of 10000 (max. 10000000)
 
