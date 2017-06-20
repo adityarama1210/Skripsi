@@ -417,8 +417,62 @@ Grafik perbandingan dari fitur-fitur tersebut untuk setiap kata dapat dilihat pa
 		\includegraphics[width=1\linewidth]{adit_pics/jalan.png}
 		\caption{jalan}
 	\end{subfigure}%
+	\\
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/alam.png}
+		\caption{alam}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/atas.png}
+		\caption{atas}
+	\end{subfigure}%
+	\\
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/berarti.png}
+		\caption{berarti}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/bidang.png}
+		\caption{bidang}
+	\end{subfigure}%
+	\\
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/dasar.png}
+		\caption{dasar}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/depan.png}
+		\caption{depan}
+	\end{subfigure}%
+\end{figure}
+\clearpage
+\begin{figure}[H]
+	\ContinuedFloat
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/kayu.png}
+		\caption{kayu}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/perdana.png}
+		\caption{perdana}
+	\end{subfigure}%
+	\\
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{adit_pics/sensor.png}
+		\caption{sensor}
+	\end{subfigure}%
 	\caption{Grafik Performa Fitur WSD Bahasa Indonesia}
 	\label{fig:fitur-wsd-indo}
-\end{figure} 
+\end{figure}
+ 
 
 Berdasarkan 19 grafik di atas, pada 12 buah \textit{sample}, fitur F2 memiliki akurasi di bawah F1 walaupun sudah menggunakan \textit{word embedding}. Pada 12 buah \textit{sample} kata, F4 yang merupakan fitur gabungan F1 dan F3 memiliki performa yang lebih baik dari fitur F1 saja. Penggunaan berbagai skenario fitur tersebut menunjukan bahwa fitur F1 atau F4 memiliki performa minimal sama atau di atas baseline pada 16 dari 19 \textit{sample} (84\%), hal ini menunjukkan bahwa \textit{bag of words} ataupun kombinasinya dengan POS Tag dapat mengungguli baseline pada \textit{sampling} ini. Jumlah persentase pada \textit{sampling} dengan fitur F2 yang mengungguli baseline adalah 47\%. Performa F2 yang lebih rendah dari F4 pada rerata F-Score dapat disebabkan karena domain yang berbeda antara \textit{training data} pada saat membentuk model \textit{word embedding} (perbedaan pada gaya bahasa pada Wikipedia dan korpus identik). Selain permasalahan domain \textit{training data}, pengambilan seluruh kata di kalimat untuk dijadikan fitur vektor \textit{word embedding} juga belum dapat menghasilkan performa diatas baseline pada \textit{sample} tersebut. Namun demikian, persentase terbesar dari \textit{sampling} sepuluh kata di atas diperoleh pada fitur F4 yang memiliki performa lebih baik dari baseline pada 15 kasus dari 19 kata tersebut (78\%).

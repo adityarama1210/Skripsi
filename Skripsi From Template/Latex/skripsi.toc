@@ -66,8 +66,8 @@
 \contentsline {subsection}{\numberline {5.3.1}\textit {Sense Class Inventory Analysis}}{51}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}\textit {Sense Assignment to Lexical Word}}{52}{subsection.5.3.2}
 \contentsline {section}{\numberline {5.4}WSD Bahasa Indonesia}{54}{section.5.4}
-\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{58}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kesimpulan}{58}{section.6.1}
-\contentsline {section}{\numberline {6.2}Saran}{58}{section.6.2}
-\contentsline {chapter}{Daftar Referensi}{60}{chapter*.41}
-\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{62}{section*.42}
+\contentsline {chapter}{\numberline {6}\uppercase {Penutup}}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Kesimpulan}{59}{section.6.1}
+\contentsline {section}{\numberline {6.2}Saran}{59}{section.6.2}
+\contentsline {chapter}{Daftar Referensi}{61}{chapter*.42}
+\contentsline {chapter}{Lampiran 1 : Panduan Evaluasi \textit {Word Alignment}}{63}{section*.43}
