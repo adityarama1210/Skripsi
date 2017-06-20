@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  20 JUN 2017 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  20 JUN 2017 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,20 +1051,20 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <adit_pics/Arsitektur-IMS.png, id=572, 839.135pt x 282.05376pt>
-File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
-
-<use adit_pics/Arsitektur-IMS.png>
-Package pdftex.def Info: adit_pics/Arsitektur-IMS.png used on input line 49.
-(pdftex.def)             Requested size: 398.3386pt x 133.89084pt.
-
+[7]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
+[8] <adit_pics/Arsitektur-IMS.png, id=577, 839.135pt x 282.05376pt>
+File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
+
+<use adit_pics/Arsitektur-IMS.png>
+Package pdftex.def Info: adit_pics/Arsitektur-IMS.png used on input line 49.
+(pdftex.def)             Requested size: 398.3386pt x 133.89084pt.
+
 Underfull \hbox (badness 4913) in paragraph at lines 70--71
 []\T1/ptm/m/n/12 Pengujian seberapa baik performa IMS dalam melakukan WSD \T1/p
 tm/m/it/12 task
@@ -1088,14 +1088,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./adit_pics/Arsitektur-IMS.png> <./adit_pics/Performa-IMS.png>]
+[9 <./adit_pics/Arsitektur-IMS.png>]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[10 <./adit_pics/Performa-IMS.png>]
 Underfull \hbox (badness 1430) in paragraph at lines 106--107
 []\T1/ptm/m/n/12 Walaupun belum terdapat informasi eksplisit makna dari tezgüno
 , dapat
@@ -1125,18 +1125,18 @@ il dari \T1/ptm/m/it/12 cluster \T1/ptm/m/n/12 yang didapat masih harus
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 129--130
-[]\T1/ptm/m/n/12 Lakukan pemasangan kata-kata antara kedua korpus (Bahasa Inggr
-is -
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [12]
+Underfull \hbox (badness 1168) in paragraph at lines 129--130
+[]\T1/ptm/m/n/12 Lakukan pemasangan kata-kata antara kedua korpus (Bahasa Inggr
+is -
+ []
+
+
 Underfull \hbox (badness 1502) in paragraph at lines 131--132
 \T1/ptm/m/n/12 "halaman" dan "\T1/ptm/m/it/12 page\T1/ptm/m/n/12 " tadi, maka l
 abel/\T1/ptm/m/it/12 tag \T1/ptm/m/n/12 yang diberikan pada kata
@@ -1189,21 +1189,21 @@ File: adit_pics/cross_validation.png Graphic file (type png)
 Package pdftex.def Info: adit_pics/cross_validation.png used on input line 190.
 
 (pdftex.def)             Requested size: 398.3386pt x 190.59743pt.
-)
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <./adit_pics/cross_validation.png>]
+[16])
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
+[17 <./adit_pics/cross_validation.png>]
 \openout2 = `bab3.aux'.
 
  (./bab3.tex
@@ -3151,11 +3151,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
 Here is how much of TeX's memory you used:
  16565 strings out of 493014
  228358 string characters out of 6133352
- 494223 words of memory out of 5000000
+ 494224 words of memory out of 5000000
  19045 multiletter control sequences out of 15000+600000
  52816 words of font info for 76 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
- 45i,18n,51p,1994b,1207s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,18n,51p,2192b,1207s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -3167,7 +3167,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (79 pages, 724705 bytes).
+Output written on skripsi.pdf (79 pages, 722868 bytes).
 PDF statistics:
  1372 PDF objects out of 1440 (max. 8388607)
  1189 compressed objects within 12 object streams
