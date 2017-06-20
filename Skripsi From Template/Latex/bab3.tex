@@ -104,7 +104,7 @@ Fitur \textit{bag of words} menggunakan pendekatan kemunculan kata-kata pada kon
 \begin{lstlisting}[backgroundcolor = \color{white}]
 Ani digigit ular dengan bisa yang berbahaya
 \end{lstlisting}
-Pada contoh kalimat tersebut, \textit{bag of words} yang diambil adalah "digigit", "ular", dan "berbahaya". Kata "yang" tidak masuk sebagai fitur karena termasuk dalam stopwords. 
+Pada contoh kalimat tersebut, \textit{bag of words} yang diambil adalah "digigit", "ular", dan "berbahaya". Kata "yang" tidak masuk sebagai fitur karena termasuk dalam stopwords. Jika misalkan kata-kata keseluruhan dari \textit{context window} tersebut misalnya ["digigit", "ular", "makan", "berbahaya", "akrobat"], maka vektor fitur \textit{bag of words} dari kalimat tersebut adalah [1,1,0,1,0].
 
 Setiap fitur \textit{bag of words} dari setiap kalimat tersebut dikumpulkan untuk menjadi satu fitur besar yang mendeteksi kemunculan kata-kata tersebut pada setiap kalimat.
 
