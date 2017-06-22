@@ -286,20 +286,21 @@ Terdapat beberapa kata-kata yang dipilih secara manual untuk dihitung akurasi da
 \begin{longtable}{|p{1.8cm}|p{1.2cm}|p{5cm}|p{1.2cm}|p{1.5cm}|} 
 	\hline
 	\textbf{Kata} & \textbf{Jumlah \textit{sense key}} & \textbf{\textit{sense key}}  & \textbf{Jumlah \textit{sense key} yang benar} & \textbf{Akurasi} \\ \hline
-	halaman & 3 &  page\%1:10:00::, yard\%1:23:00::, courtyard\%1:06:00:: & 2 & 0.67 \\ \hline
+	halaman & 3 &  page\%1:10:00::, \textcolor{brown}{yard\%1:23:00::}, courtyard\%1:06:00:: & 2 & 0.67 \\ \hline
 	coklat & 3 & cocoa\%1:13:02, cacao\%1:20:00::, brown\%5:00:00:chromatic:00 & 3 & 1.0 \\ \hline
-	debu & 2 & dust\%1:27:00::, plume\%1:06:00:: & 1 & 0.5 \\ \hline
-	batasan & 7 & limit\%1:07:00::, restriction\%1:09:00::, restraint\%1:04:00::, limitation\%1:23:00::, definition\%1:10:00::, constraint\%1:26:00::, limit\%2:30:01:: & 5 & 0.71 \\ \hline
-	lingkungan & 7 & environment\%1:26:00::, environmental\%3:01:01::, neighborhood\%1:14:00::, environmentally\%4:02:00::, sphere\%1:15:00::, surroundings\%1:15:00::, outside\%5:00:00:external:00 & 5 & 0.71 \\ \hline
-	hakim & 3 & judge\%1:18:01::, justice\%1:04:00::, magistrate\%1:18:00:: & 2 & 0.67 \\ \hline
-	hati & 3 & heart\%1:09:00::, liver\%1:08:00::, mind\%1:09:00:: & 2 & 0.67 \\ \hline
-	memecah-kan & 4 & solve\%2:31:00::, resolve\%2:31:01::, break\%2:30:03::, split\%2:38:00:: & 3 & 0.75 \\ \hline
+	debu & 2 & dust\%1:27:00::, \textcolor{brown}{plume\%1:06:00::} & 1 & 0.5 \\ \hline
+	batasan & 7 & limit\%1:07:00::, restriction\%1:09:00::, restraint\%1:04:00::, limitation\%1:23:00::, \textcolor{brown}{definition\%1:10:00::}, constraint\%1:26:00::, \textcolor{brown}{limit\%2:30:01::} & 5 & 0.71 \\ \hline
+	lingkungan & 7 & environment\%1:26:00::, environmental\%3:01:01::, neighborhood\%1:14:00::, environmentally\%4:02:00::, \textcolor{brown}{sphere\%1:15:00::}, surroundings\%1:15:00::, \textcolor{brown}{outside\%5:00:00:external:00} & 5 & 0.71 \\ \hline
+	hakim & 3 & judge\%1:18:01::, \textcolor{brown}{justice\%1:04:00::}, magistrate\%1:18:00:: & 2 & 0.67 \\ \hline
+	hati & 3 & heart\%1:09:00::, liver\%1:08:00::, \textcolor{brown}{mind\%1:09:00::} & 2 & 0.67 \\ \hline
+	memecah-kan & 4 & solve\%2:31:00::, resolve\%2:31:01::, \textcolor{brown}{break\%2:30:03::}, split\%2:38:00:: & 3 & 0.75 \\ \hline
 	\hline
 	\textbf{Rerata} & - & - & - & \textbf{0.73} \\ \hline
 	\caption{Evaluasi \textit{sense transfering} akurasi kelas makna kata}
 	\label{table:akuras-kelas-makna-kata}
 \end{longtable}
  
+\textit{Sense key} yang tidak tepat pada tabel tersebut ditandai dengan warna cokelat dan kesesuaiannya dilihat berdasarkan makna \textit{sense key} tersebut pada Wordnet Princeton, lalu membandingkannya dengan kata Bahasa Indonesianya masing-masing.
 Berdasarkan tabel di atas, rerata akurasi yang didapatkan pada kata-kata tersebut adalah 0.73. Terdapat beberapa makna hasil \textit{transfer} yang tidak sesuai dengan kata pasangannya seperti misalnya "plume\%1:06:00::" dengan kata "debu" yang memiliki makna "\textit{a feather or cluster of feathers worn as an ornament}, atau \textit{sense key} "limit\%2:30:01::" dengan makna "\textit{place limits on (extent or access)}" pada kata "batasan". \textit{Sense key} "limit\%2:30:01::" tersebut dianggap tidak sesuai dengan kata "batasan" karena makna yang dikandung adalah "memberi batas" dan bukan "batasan" itu sendiri.
 
 \subsection{\textit{Sense Assignment to Lexical Word}}
