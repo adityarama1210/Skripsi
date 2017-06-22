@@ -174,9 +174,27 @@ Berdasarkan evaluasi pada tabel di atas, didapatkan bahwa pendekatan kamus pada 
 Pengukuran \textit{recall} terhadap keseluruhan proses \textit{word alignment} lebih sulit untuk dilakukan karena data yang banyak dan kecenderungan \textit{alignment} yang dihasilkan oleh \textit{anotator} bisa berbeda-beda. Proses dari \textit{word alignment} ini dapat diverifikasi lebih rinci jika sudah terdapat metode untuk menentukan pasangan \textit{word alignment} yang benar.
 
 %-----------------------------------------------------------------------------%
-\section{\textit{Sense Transfering}}
+\section{\textit{Sense Transferring}}
 
-Proses \textit{transfer} makna kata dari bahasa Inggris ke bahasa Indonesia yang dilakukan sangat bergantung dari hasil \textit{alignment} kata pada proses sebelumnya. Untuk sebagian besar kata yang memiliki pasangan kata yang benar, proses \textit{transfer} dapat menghasilkan makna yang benar juga. Hal tersebut didukung jika \textit{sense tagged word} pada korpus bahasa Inggris juga benar). Terdapat beberapa kata yang dipilih sebagai \textit{sampling} untuk mengevaluasi hasil \textit{sense transfering}. Kelompok ini dibagi menjadi:
+Proses \textit{transfer} makna kata dari bahasa Inggris ke bahasa Indonesia yang dilakukan sangat bergantung dari hasil \textit{alignment} kata pada proses sebelumnya. Untuk sebagian besar kata yang memiliki pasangan kata yang benar, proses \textit{transfer} dapat menghasilkan makna yang benar juga. Hal tersebut didukung jika \textit{sense tagged word} pada korpus bahasa Inggris juga benar).
+
+Pada proses \textit{sense transferring}, makna kata yang mirip disatukan untuk mengurangi kemungkinan terlalu banyaknya \textit{sense} yang dipindahkan. Jika misalkan terdapat \textit{sense key} "\textit{refuse\%X}" dan memilki kedekatan makna melebihi \textit{threshold} dengan \textit{sense key} "\textit{decline\%Y}" untuk satu kata (Bahasa Indonesia) yang sama, maka akan dipilih salah satu saja (dianggap sebagai satu \textit{cluster}). Perbandingan jumlah \textit{sense key} dari hasil transfer dapat dilihat pada tabel \ref{table:sense-transfer-clustering}.
+
+\begin{table}
+	\centering
+	\caption{Perbandingan hasil \textit{clustering} makna kata pada proses \textit{sense transferring}}
+	\label{table:sense-transfer-clustering}
+	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+		\hline
+		Jumlah \textit{sense} total & Jumlah \textit{sense} (unik) & Jumlah \textit{sense} yang disatukan
+		\\ \hline
+		538941 & 9799 & 443 \\ \hline
+	\end{tabular}
+\end{table}
+
+Berdasarkan hasil tersebut, dapat dilihat bahwa sekitar 4\% (443/9799) dari \textit{sense key} disatukan dengan \textit{sense key} lain karena memiliki makna yang mirip diatas batas \textit{threshold}. Contoh dari \textit{sense key} yang disatukan antara lain adalah \textit{sense key} refuse\%2:32:00:: dengan decline\%2:32:00::, dimana keduanya memiliki makna yang persis sama (tingkat kemiripan 100\% dengan perhitungan \textit{path similarity} NLTK Wordnet).
+
+Selain proses \textit{clustering} pada \textit{sense transferring}, evaluasi lain dilakukan dengan memilih beberapa kata yang sebagai \textit{sampling} untuk dievaluasi. Kelompok ini dibagi menjadi:
 
 \begin{enumerate}
 	\item Jumlah Kelas
