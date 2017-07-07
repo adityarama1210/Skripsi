@@ -15,7 +15,7 @@ Rancangan sistem pada penelitian ini dapat dilihat pada gambar \ref{fig:Rancanga
 	\label{fig:Rancangan-Sistem}
 \end{figure}
 
-Proses \textit{pipeline} terdiri dari pembuatan \textit{sense tagged corpus} bahasa Inggris,  \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang diimplementasikan. Semua data di dalam korpus identic digunakan dalam proses \textit{word alignment} dan \textit{English} WSD di atas.
+Proses \textit{pipeline} terdiri dari pembuatan \textit{sense tagged corpus} bahasa Inggris,  \textit{word alignment} korpus paralel, peningkatan kualitas dan evaluasi \textit{word alignment}, pemindahan \textit{sense} dari korpus bahasa Inggris, dan sistem WSD yang diimplementasikan. Semua data di dalam korpus Identic digunakan dalam proses \textit{word alignment} dan \textit{English} WSD di atas.
 %-----------------------------------------------------------------------------%
 
 \section{Pembangunan \textit{Sense Tagged Corpus} Bahasa Inggris}
@@ -31,17 +31,17 @@ Pembangunan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggun
 	\label{fig:producing-en-tag-corpus}
 \end{figure}
 
-\textit{File} yang diberikan sebagai masukan dari IMS adalah korpus Bahasa Inggris yang berisi kalimat-kalimat  dalam Bahasa Inggris. Korpus ini didapatkan setelah memisahkan konten dari korpus identic menjadi dua buah korpus Bahasa Indonesia dan Bahasa Inggris. Keluaran dari proses ini adalah korpus berbahasa Inggris dengan kata-kata yang sudah diberikan \textit{tag} berupa \textit{sense key} yang memungkinkan untuk kata tersebut. Hasil tersebut kemudian akan diproses lagi untuk memilih \textit{sense} terbaik dan menyederhanakan format untuk proses berikutnya yang akan dijelaskan lebih rinci pada bab implementasi.
+\textit{File} yang diberikan sebagai masukan dari IMS adalah korpus Bahasa Inggris yang berisi kalimat-kalimat  dalam Bahasa Inggris. Korpus ini didapatkan setelah memisahkan konten dari korpus Identic menjadi dua buah korpus Bahasa Indonesia dan Bahasa Inggris. Keluaran dari proses ini adalah korpus berbahasa Inggris dengan kata-kata yang sudah diberikan \textit{tag} berupa \textit{sense key} yang memungkinkan untuk kata tersebut. Hasil tersebut kemudian akan diproses lagi untuk memilih \textit{sense} terbaik dan menyederhanakan format untuk proses berikutnya yang akan dijelaskan lebih rinci pada bab implementasi.
 %-----------------------------------------------------------------------------%
 \section{\textit{Word Alignment} Bahasa Indonesia - Bahasa Inggris}
 %-----------------------------------------------------------------------------%
 
-Korpus utama yang digunakan sebagai sumber data penelitian ini adalah korpus identic \citep{larasati2012identic}. Korpus identik berisi pasangan kalimat-kalimat dalam bahasa Indonesia dan Inggris. Kalimat yang berpasangan di dalamnya sebagian besar mempunyai makna konten yang paralel walaupun terdapat juga yang \textit{comparable}. Korpus identik ini mempunyai total sebanyak 88.918 buah pasangan kalimat di dalamnya. Format korpus identic adalah sebagai berikut:
+Korpus utama yang digunakan sebagai sumber data penelitian ini adalah korpus Identic \citep{larasati2012identic}. Korpus identik berisi pasangan kalimat-kalimat dalam bahasa Indonesia dan Inggris. Kalimat yang berpasangan di dalamnya sebagian besar mempunyai makna konten yang paralel walaupun terdapat juga yang \textit{comparable}. Korpus identik ini mempunyai total sebanyak 88.918 buah pasangan kalimat di dalamnya. Format korpus Identic adalah sebagai berikut:
 \begin{lstlisting}
 <ID><tab><Kalimat Indonesia><tab><Kalimat Inggris>
 \end{lstlisting}
 \clearpage
-Contoh isi dari korpus identic yang digunakan berbentuk seperti berikut ini:
+Contoh isi dari korpus Identic yang digunakan berbentuk seperti berikut ini:
 \begin{lstlisting}[backgroundcolor = \color{white}]
 ...
 panl-bppt-eco-s1505	Ada 10 sektor yang dibicarakan.	There are 10 sectors that have been on the talk.
