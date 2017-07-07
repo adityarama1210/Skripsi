@@ -176,7 +176,7 @@ Pengukuran \textit{recall} terhadap keseluruhan proses \textit{word alignment} l
 %-----------------------------------------------------------------------------%
 \section{\textit{Sense Transferring}}
 
-Proses \textit{transfer} makna kata dari bahasa Inggris ke bahasa Indonesia yang dilakukan sangat bergantung dari hasil \textit{alignment} kata pada proses sebelumnya. Untuk sebagian besar kata yang memiliki pasangan kata yang benar, proses \textit{transfer} dapat menghasilkan makna yang benar juga. Hal tersebut didukung jika \textit{sense tagged word} pada korpus bahasa Inggris juga benar).
+Proses \textit{transfer} makna kata dari bahasa Inggris ke bahasa Indonesia yang dilakukan sangat bergantung dari hasil \textit{alignment} kata pada proses sebelumnya. Untuk sebagian besar kata yang memiliki pasangan kata yang benar, proses \textit{transfer} dapat menghasilkan makna yang benar juga. Hal tersebut didukung jika \textit{sense tagged word} pada korpus bahasa Inggris juga benar.
 
 Pada proses \textit{sense transferring}, makna kata yang mirip disatukan untuk mengurangi kemungkinan terlalu banyaknya \textit{sense} yang dipindahkan. Jika misalkan terdapat \textit{sense key} "\textit{refuse\%X}" dan memilki kedekatan makna melebihi \textit{threshold} dengan \textit{sense key} "\textit{decline\%Y}" untuk satu kata (Bahasa Indonesia) yang sama, maka akan dipilih salah satu saja (dianggap sebagai satu \textit{cluster}). Perbandingan jumlah \textit{sense key} dari hasil transfer dapat dilihat pada tabel \ref{table:sense-transfer-clustering}.
 
