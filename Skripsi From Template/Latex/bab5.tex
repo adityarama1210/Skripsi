@@ -123,7 +123,7 @@ Walaupun akurasi yang didapatkan sekitar 70\%, tidak jarang ditemukan pasangan k
 	\end{tabular} 
 \end{table}
 
-Walaupun \textit{enhancement} dengan pendekatan \textit{bidirectional} memiliki akurasi yang lebih tinggi dari kamus pada \textit{sampling} tersebut, hasil \textit{enhancement} dengan pendekatan tersebut masih menghasilkan kata-kata yang memiliki pasangan tidak sesuai seperti misalnya kata "pembuat" dengan "\textit{jewelry}", kata "pendidikan" dengan "\textit{tended}", kata "harapkan" dengan "\textit{anticipate}", dan lain-lain. Skenario pada \textit{enhancement} menggunakan kamus Indonesia-Inggris tidak menghasilkan pasangan yang salah seperti pada contoh yang diberikan di atas. Turunnya nilai F-Score pada pendekatan kamus dikarenakan pasangan kata-kata yang tidak sesuai dengan kamus tidak diberikan \textit{alignment}, sehingga \textit{recall} menurun jika dibandingkan dengan \textit{alignment} yang dilakukan oleh anotator. Walaupun hasil F-Score yang diberikan dengan pendekatan kamus pada \textit{sampling} tersebut lebih rendah dari \textit{bi-directional}, dilakukan evaluasi \textit{enhancement} dalam bentuk analisis kebenaran pasangan kata dan seberapa sesuai pasangan kata tersebut untuk meminimalisir \textit{error} yang dihasilkan pada \textit{sense transferring}. Evaluasi terhadap hasil \textit{enhancement} ini dilakukan dengan mengambil 10 buah \textit{sample} secara \textit{random} dari pasangan kata yang ada. Hasil \textit{sampling} tersebut dapat dilihat pada tabel \ref{table:random-sampling-enhancement}.
+Walaupun \textit{enhancement} dengan pendekatan \textit{bidirectional} memiliki akurasi yang lebih tinggi dari kamus pada \textit{sampling} tersebut, hasil \textit{enhancement} dengan pendekatan tersebut masih menghasilkan kata-kata yang memiliki pasangan tidak sesuai seperti misalnya kata "pembuat" dengan "\textit{jewelry}", kata "pendidikan" dengan "\textit{tended}", kata "harapkan" dengan "\textit{anticipate}", dan lain-lain. Skenario pada \textit{enhancement} menggunakan kamus Indonesia-Inggris tidak menghasilkan pasangan yang salah seperti pada contoh yang diberikan di atas. Turunnya nilai F-Score pada pendekatan kamus dikarenakan pasangan kata-kata yang tidak sesuai dengan kamus tidak diberikan \textit{alignment}, sehingga \textit{recall} menurun jika dibandingkan dengan \textit{alignment} yang dilakukan oleh anotator. Walaupun hasil F-Score yang diberikan dengan pendekatan kamus pada \textit{sampling} tersebut lebih rendah dari \textit{bi-directional}, dilakukan evaluasi \textit{enhancement} dalam bentuk analisis kebenaran pasangan kata dan seberapa sesuai pasangan kata tersebut untuk meminimalisasi \textit{error} yang dihasilkan pada \textit{sense transferring}. Evaluasi terhadap hasil \textit{enhancement} ini dilakukan dengan mengambil 10 buah \textit{sample} secara \textit{random} dari pasangan kata yang ada. Hasil \textit{sampling} tersebut dapat dilihat pada tabel \ref{table:random-sampling-enhancement}.
 
 	\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 		\hline
@@ -152,7 +152,7 @@ Pasangan kata pada tabel di atas kemudian dihitung berapa jumlah pasangan yang b
 	\label{table:enhancement-precision}
 	\begin{tabular}{|p{2.5cm}|p{3cm}|p{3cm}|p{3cm}|}
 		\hline
-		\textbf{Kata} & \textbf{Giza original} & \textbf{\textit{Bi-directional}} & \textbf{Kamu}
+		\textbf{Kata} & \textbf{Giza original} & \textbf{\textit{Bi-directional}} & \textbf{Kamus}
 		\\ \hline
 		memodernkan & 1.0 & 1.0 & 1.0 \\ \hline
 		kembar & 1.0 & 1.0 & 1.0 \\ \hline
