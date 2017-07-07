@@ -5,7 +5,7 @@
 Bab ini akan menjelaskan perihal implementasi dari rancangan yang sudah dibuat pada bab sebelumnya, mulai dari pembangunan \textit{sense tagged corpus} bahasa Inggris sampai dengan evaluasi.
 
 \section{Pembangunan \textit{Sense Tagged Corpus} Bahasa Inggris}
-Proses pertama yang dilakukan adalah memisahkan kalimat bahasa Inggris dan bahasa Indonesia dari korpus Identic menjadi dua buah \textit{file} paralel untuk dapat diproses pada tahap-tahap berikutnya. Korpus yang dihasilkan setelah proses ini adalah dua buah korpus (korpus bahasa Indonesia, dan korpus bahasa Inggris) dimana masing-masing baris merupakan kalimat yang saling berpasangan.
+Proses pertama yang dilakukan adalah memisahkan kalimat bahasa Inggris dan bahasa Indonesia dari korpus Identic menjadi dua buah \textit{file} paralel untuk dapat diproses pada tahap-tahap berikutnya. Korpus yang dihasilkan setelah proses ini adalah dua buah korpus (korpus bahasa Indonesia, dan korpus bahasa Inggris) di mana masing-masing baris merupakan kalimat yang saling berpasangan.
 
 \textit{Sense Tagged Corpus} dibangun dengan menggunakan bantuan IMS untuk memberikan tag pada korpus bahasa Inggris. \textit{Pre-processing} dilakukan terlebih dahulu terhadap korpus bahasa Inggris seperti menghilangkan tanda baca dan mengubah semua token menjadi huruf kecil. Proses \textit{tagging} dilakukan dengan menjalankan perintah:
 
@@ -34,7 +34,7 @@ Contoh dari kalimat yang sudah diberikan \textit{tag} sampai keluar dari \textit
 	}%
 }\\
 
-Pada contoh tersebut, kata years memiliki \textit{sense key} berupa "year\%1:28:01::", dimana berdasarkan Wordnet mempunyai arti sebagai '\textit{a period of time containing 365 (or 366) days}'. Tidak semua kata dalam korpus bahasa Inggris ditag oleh IMS, kata-kata sapaan seperti "I", "you", "a" , "the", dan beberapa kata lainnya tidak diberikan \textit{sense key}.  
+Pada contoh tersebut, kata years memiliki \textit{sense key} berupa "year\%1:28:01::", di mana berdasarkan Wordnet mempunyai arti sebagai '\textit{a period of time containing 365 (or 366) days}'. Tidak semua kata dalam korpus bahasa Inggris ditag oleh IMS, kata-kata sapaan seperti "I", "you", "a" , "the", dan beberapa kata lainnya tidak diberikan \textit{sense key}.  
 
 
 
@@ -58,7 +58,7 @@ Proses \textit{word alignment} menggunakan dua buah \textit{file} yaitu korpus b
 
 \textit{Command} tersebut dilakukan pada direktori \textit{tool} Giza++. Proses pertama akan menghasilkan tiga buuah \textit{file} yaitu dua buah \textit{file vocabulary} yang berisi nomor indeks dengan kata (bahasa asal, dan bahasa tujuan), dan satu buah \textit{file} snt yang berisi \textit{alignment} dari kalimat. Proses snt2cooc akan menghasilkan \textit{cooccurence file} yang merupakan pasangan-pasangan kalimat untuk dapat diproses Giza.
 
-Giza mengeluarkan beberapa \textit{file} hasil dari proses tersebut. \textit{Output} yang akan digunakan diantaranya adalah \textit{file} bernama A3.final yang merupakan pasangan kalimat dengan kata-kata yang sudah dipasangkan sesuai dengan prediksi terbaik hasil pemrosesan Giza.
+Giza mengeluarkan beberapa \textit{file} hasil dari proses tersebut. \textit{Output} yang akan digunakan di antaranya adalah \textit{file} bernama A3.final yang merupakan pasangan kalimat dengan kata-kata yang sudah dipasangkan sesuai dengan prediksi terbaik hasil pemrosesan Giza.
 
 \subsection{Post-Processing}
 Setelah mendapatkan \textit{file} A3 dari Giza, dilakukan \textit{post-processing} untuk menghasilkan \textit{file} yang dengan mudah dapat diproses untuk melakukan \textit{sense transfering}. Berikut ini merupakan salah satu contoh pasangan kalimat pada \textit{file} A3 keluaran Giza.
@@ -94,7 +94,7 @@ Contoh dari hasil \textit{post-processing} pada pasangan kalimat sebelumnya adal
 <pair>law||undang-undang</pair>##<pair>no||no</pair>##<pair>14||14</pair>##<pair>2008||tahun 2008</pair>##<pair>on||tentang</pair>##<pair>freedom||kebebasan memperoleh</pair>##<pair>information||informasi</pair>
 \end{lstlisting}
 
-Hasil ini kemudian disimpan sebagai sebuah \textit{file} sendiri yang akan digunakan kembali pada proses selanjutnya. Sementara itu, keperluan nomor dua difokuskan untuk membuat \textit{dictionary} yang akan ditingkatkan kualitasnya pada tahap berikutnya. Untuk menghasilkan \textit{file} yang dibutuhkan pada nomor kedua, dilakukan pengumpulan pasangan kata bahasa Indonesia dengan bahasa Inggris. Bila misalkan pada kalimat ke-n terdapat kata "undang-undang" yang dipasangkan dengan "law", dan pasangan kata "undang-undang" dengan "regulation" pada kalimat lain (kalimat ke-m, dimana m != n). Berdasarkan kedua kalimat tersebut, maka kata "undang-undang" akan berpasangan dengan dua kata yaitu "law", dan "regulation".
+Hasil ini kemudian disimpan sebagai sebuah \textit{file} sendiri yang akan digunakan kembali pada proses selanjutnya. Sementara itu, keperluan nomor dua difokuskan untuk membuat \textit{dictionary} yang akan ditingkatkan kualitasnya pada tahap berikutnya. Untuk menghasilkan \textit{file} yang dibutuhkan pada nomor kedua, dilakukan pengumpulan pasangan kata bahasa Indonesia dengan bahasa Inggris. Bila misalkan pada kalimat ke-n terdapat kata "undang-undang" yang dipasangkan dengan "law", dan pasangan kata "undang-undang" dengan "regulation" pada kalimat lain (kalimat ke-m, di mana m != n). Berdasarkan kedua kalimat tersebut, maka kata "undang-undang" akan berpasangan dengan dua kata yaitu "law", dan "regulation".
 
 \section{Peningkatan Kualitas \textit{Alignment}}
 
@@ -168,7 +168,7 @@ Proses yang terjadi pada ilustrasi di atas adalah:
 
 \begin{enumerate}
 	\item Jika misalkan kata "halaman" pada kamus memiliki pasangan kata "page" dan "courtyard".
-	\item Pada sebuah kalimat "... 300 halaman ..." dimana "\textit{pair}" pada kalimat tersebut diantaranya adalah
+	\item Pada sebuah kalimat "... 300 halaman ..." di mana "\textit{pair}" pada kalimat tersebut di antaranya adalah
 	\begin{lstlisting}[backgroundcolor = \color{white}]
 	..<pair>second||kedua</pair>##<pair>page||halaman</pair>..
 	\end{lstlisting}
