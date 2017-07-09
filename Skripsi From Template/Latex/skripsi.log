@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  7 JUL 2017 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  9 JUL 2017 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1056,7 +1056,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] <adit_pics/Arsitektur-IMS.png, id=584, 839.135pt x 282.05376pt>
+[8] <adit_pics/Arsitektur-IMS.png, id=587, 839.135pt x 282.05376pt>
 File: adit_pics/Arsitektur-IMS.png Graphic file (type png)
 
 <use adit_pics/Arsitektur-IMS.png>
@@ -1149,7 +1149,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13] <adit_pics/wordalignment.jpeg, id=669, 442.65375pt x 141.52875pt>
+[13] <adit_pics/wordalignment.jpeg, id=672, 442.65375pt x 141.52875pt>
 File: adit_pics/wordalignment.jpeg Graphic file (type jpg)
 
 <use adit_pics/wordalignment.jpeg>
@@ -1162,8 +1162,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./adit_pics/wordalignment.jpeg>]
-<adit_pics/contoh_word_alignment_2.png, id=677, 442.65375pt x 121.45375pt>
+[14]
+<adit_pics/contoh_word_alignment_2.png, id=680, 442.65375pt x 121.45375pt>
 File: adit_pics/contoh_word_alignment_2.png Graphic file (type png)
 
 <use adit_pics/contoh_word_alignment_2.png>
@@ -1177,7 +1177,8 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <./adit_pics/contoh_word_alignment_2.png>]
+[15 <./adit_pics/wordalignment.jpeg> <./adit_pics/contoh_word_alignment_2.png>]
+
 Underfull \hbox (badness 1590) in paragraph at lines 174--175
 \T1/ptm/m/n/12 Precision, Recall, dan F-score merupakan beberapa cara perhitung
 an untuk
@@ -1189,7 +1190,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16] <adit_pics/cross_validation.png, id=707, 442.65375pt x 211.79124pt>
+[16] <adit_pics/cross_validation.png, id=710, 442.65375pt x 211.79124pt>
 File: adit_pics/cross_validation.png Graphic file (type png)
 
 <use adit_pics/cross_validation.png>
@@ -1212,7 +1213,7 @@ Bab 3.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
-<adit_pics/WSD-full.png, id=714, 537.00626pt x 307.1475pt>
+<adit_pics/WSD-full.png, id=717, 537.00626pt x 307.1475pt>
 File: adit_pics/WSD-full.png Graphic file (type png)
 
 <use adit_pics/WSD-full.png>
@@ -1223,7 +1224,7 @@ Package pdftex.def Info: adit_pics/WSD-full.png used on input line 13.
 
 
  <./adit_pics/WSD-full.png>]
-<adit_pics/bab-3-en-tag-corpus.png, id=724, 793.96625pt x 241.90375pt>
+<adit_pics/bab-3-en-tag-corpus.png, id=727, 793.96625pt x 241.90375pt>
 File: adit_pics/bab-3-en-tag-corpus.png Graphic file (type png)
 
 <use adit_pics/bab-3-en-tag-corpus.png>
@@ -1243,7 +1244,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19 <./adit_pics/bab-3-en-tag-corpus.png>]
-<adit_pics/giza-process.png, id=736, 693.59125pt x 342.27875pt>
+<adit_pics/giza-process.png, id=739, 693.59125pt x 342.27875pt>
 File: adit_pics/giza-process.png Graphic file (type png)
 
 <use adit_pics/giza-process.png>
@@ -1259,7 +1260,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [20
 
  <./adit_pics/giza-process.png>]
-<adit_pics/bidirectional-enhancement.png, id=752, 743.77875pt x 166.6225pt>
+<adit_pics/bidirectional-enhancement.png, id=755, 743.77875pt x 166.6225pt>
 File: adit_pics/bidirectional-enhancement.png Graphic file (type png)
 
 <use adit_pics/bidirectional-enhancement.png>
@@ -1307,7 +1308,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <adit_pics/we-vector.png, id=771, 613.29124pt x 131.49126pt>
+[22] <adit_pics/we-vector.png, id=774, 613.29124pt x 131.49126pt>
 File: adit_pics/we-vector.png Graphic file (type png)
 
 <use adit_pics/we-vector.png>
@@ -1481,7 +1482,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [31
 
-] <adit_pics/sense-transfering.png, id=859, 703.62875pt x 282.05376pt>
+] <adit_pics/sense-transfering.png, id=862, 703.62875pt x 282.05376pt>
 File: adit_pics/sense-transfering.png Graphic file (type png)
 
 <use adit_pics/sense-transfering.png>
@@ -2603,7 +2604,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55] <adit_pics/memecahkan.png, id=1119, 312.41719pt x 215.30438pt>
+[55] <adit_pics/memecahkan.png, id=1122, 312.41719pt x 215.30438pt>
 File: adit_pics/memecahkan.png Graphic file (type png)
 
 <use adit_pics/memecahkan.png>
@@ -2612,49 +2613,49 @@ Package pdftex.def Info: adit_pics/memecahkan.png used on input line 412.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 413.
 
-<adit_pics/menolak.png, id=1120, 321.45094pt x 205.5178pt>
+<adit_pics/menolak.png, id=1123, 321.45094pt x 205.5178pt>
 File: adit_pics/menolak.png Graphic file (type png)
 
 <use adit_pics/menolak.png>
 Package pdftex.def Info: adit_pics/menolak.png used on input line 417.
 (pdftex.def)             Requested size: 199.1693pt x 127.34132pt.
 
-<adit_pics/obat.png, id=1121, 319.94531pt x 204.01219pt>
+<adit_pics/obat.png, id=1124, 319.94531pt x 204.01219pt>
 File: adit_pics/obat.png Graphic file (type png)
 
 <use adit_pics/obat.png>
 Package pdftex.def Info: adit_pics/obat.png used on input line 423.
 (pdftex.def)             Requested size: 199.1693pt x 126.99988pt.
 
-<adit_pics/lingkungan.png, id=1122, 328.97906pt x 210.7875pt>
+<adit_pics/lingkungan.png, id=1125, 328.97906pt x 210.7875pt>
 File: adit_pics/lingkungan.png Graphic file (type png)
 
 <use adit_pics/lingkungan.png>
 Package pdftex.def Info: adit_pics/lingkungan.png used on input line 428.
 (pdftex.def)             Requested size: 199.1693pt x 127.61528pt.
 
-<adit_pics/halaman.png, id=1123, 341.77687pt x 218.31563pt>
+<adit_pics/halaman.png, id=1126, 341.77687pt x 218.31563pt>
 File: adit_pics/halaman.png Graphic file (type png)
 
 <use adit_pics/halaman.png>
 Package pdftex.def Info: adit_pics/halaman.png used on input line 434.
 (pdftex.def)             Requested size: 199.1693pt x 127.22609pt.
 
-<adit_pics/kehadiran.png, id=1124, 353.82187pt x 216.81pt>
+<adit_pics/kehadiran.png, id=1127, 353.82187pt x 216.81pt>
 File: adit_pics/kehadiran.png Graphic file (type png)
 
 <use adit_pics/kehadiran.png>
 Package pdftex.def Info: adit_pics/kehadiran.png used on input line 439.
 (pdftex.def)             Requested size: 199.1693pt x 122.04463pt.
 
-<adit_pics/hati.png, id=1125, 344.03531pt x 220.57407pt>
+<adit_pics/hati.png, id=1128, 344.03531pt x 220.57407pt>
 File: adit_pics/hati.png Graphic file (type png)
 
 <use adit_pics/hati.png>
 Package pdftex.def Info: adit_pics/hati.png used on input line 445.
 (pdftex.def)             Requested size: 199.1693pt x 127.69408pt.
 
-<adit_pics/coklat.png, id=1126, 341.77687pt x 219.06844pt>
+<adit_pics/coklat.png, id=1129, 341.77687pt x 219.06844pt>
 File: adit_pics/coklat.png Graphic file (type png)
 
 <use adit_pics/coklat.png>
@@ -2677,56 +2678,56 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [57 <./adit_pics/memecahkan.png> <./adit_pics/menolak.png> <./adit_pics/obat.pn
 g> <./adit_pics/lingkungan.png> <./adit_pics/halaman.png> <./adit_pics/kehadira
 n.png> <./adit_pics/hati.png> <./adit_pics/coklat.png>]
-<adit_pics/berat.png, id=1145, 328.22626pt x 209.28188pt>
+<adit_pics/berat.png, id=1148, 328.22626pt x 209.28188pt>
 File: adit_pics/berat.png Graphic file (type png)
 
 <use adit_pics/berat.png>
 Package pdftex.def Info: adit_pics/berat.png used on input line 459.
 (pdftex.def)             Requested size: 199.1693pt x 126.99432pt.
 
-<adit_pics/jalan.png, id=1146, 462.72874pt x 290.08376pt>
+<adit_pics/jalan.png, id=1149, 462.72874pt x 290.08376pt>
 File: adit_pics/jalan.png Graphic file (type png)
 
 <use adit_pics/jalan.png>
 Package pdftex.def Info: adit_pics/jalan.png used on input line 464.
 (pdftex.def)             Requested size: 199.1693pt x 124.85751pt.
 
-<adit_pics/alam.png, id=1147, 506.89375pt x 323.2075pt>
+<adit_pics/alam.png, id=1150, 506.89375pt x 323.2075pt>
 File: adit_pics/alam.png Graphic file (type png)
 
 <use adit_pics/alam.png>
 Package pdftex.def Info: adit_pics/alam.png used on input line 470.
 (pdftex.def)             Requested size: 199.1693pt x 126.99237pt.
 
-<adit_pics/atas.png, id=1148, 511.9125pt x 319.1925pt>
+<adit_pics/atas.png, id=1151, 511.9125pt x 319.1925pt>
 File: adit_pics/atas.png Graphic file (type png)
 
 <use adit_pics/atas.png>
 Package pdftex.def Info: adit_pics/atas.png used on input line 475.
 (pdftex.def)             Requested size: 199.1693pt x 124.18747pt.
 
-<adit_pics/berarti.png, id=1149, 425.59pt x 315.1775pt>
+<adit_pics/berarti.png, id=1152, 425.59pt x 315.1775pt>
 File: adit_pics/berarti.png Graphic file (type png)
 
 <use adit_pics/berarti.png>
 Package pdftex.def Info: adit_pics/berarti.png used on input line 481.
 (pdftex.def)             Requested size: 199.1693pt x 147.49863pt.
 
-<adit_pics/bidang.png, id=1150, 496.85625pt x 313.17pt>
+<adit_pics/bidang.png, id=1153, 496.85625pt x 313.17pt>
 File: adit_pics/bidang.png Graphic file (type png)
 
 <use adit_pics/bidang.png>
 Package pdftex.def Info: adit_pics/bidang.png used on input line 486.
 (pdftex.def)             Requested size: 199.1693pt x 125.53815pt.
 
-<adit_pics/dasar.png, id=1151, 505.89pt x 315.1775pt>
+<adit_pics/dasar.png, id=1154, 505.89pt x 315.1775pt>
 File: adit_pics/dasar.png Graphic file (type png)
 
 <use adit_pics/dasar.png>
 Package pdftex.def Info: adit_pics/dasar.png used on input line 492.
 (pdftex.def)             Requested size: 199.1693pt x 124.08736pt.
 
-<adit_pics/depan.png, id=1152, 419.5675pt x 314.17375pt>
+<adit_pics/depan.png, id=1155, 419.5675pt x 314.17375pt>
 File: adit_pics/depan.png Graphic file (type png)
 
 <use adit_pics/depan.png>
@@ -2744,21 +2745,21 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  <./adit_pics/berat.png> <./adit_pics/jalan.png> <./adit_pics/alam.png> <./adit
 _pics/atas.png> <./adit_pics/berarti.png> <./adit_pics/bidang.png> <./adit_pics
 /dasar.png> <./adit_pics/depan.png>]
-<adit_pics/kayu.png, id=1166, 506.89375pt x 318.18875pt>
+<adit_pics/kayu.png, id=1169, 506.89375pt x 318.18875pt>
 File: adit_pics/kayu.png Graphic file (type png)
 
 <use adit_pics/kayu.png>
 Package pdftex.def Info: adit_pics/kayu.png used on input line 506.
 (pdftex.def)             Requested size: 199.1693pt x 125.02043pt.
 
-<adit_pics/perdana.png, id=1167, 490.83376pt x 319.1925pt>
+<adit_pics/perdana.png, id=1170, 490.83376pt x 319.1925pt>
 File: adit_pics/perdana.png Graphic file (type png)
 
 <use adit_pics/perdana.png>
 Package pdftex.def Info: adit_pics/perdana.png used on input line 511.
 (pdftex.def)             Requested size: 199.1693pt x 129.52065pt.
 
-<adit_pics/sensor.png, id=1168, 491.8375pt x 320.19624pt>
+<adit_pics/sensor.png, id=1171, 491.8375pt x 320.19624pt>
 File: adit_pics/sensor.png Graphic file (type png)
 
 <use adit_pics/sensor.png>
@@ -2810,13 +2811,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 
 ]
-Underfull \hbox (badness 3601) in paragraph at lines 89--94
+Underfull \hbox (badness 3601) in paragraph at lines 94--99
 []\T1/ptm/m/n/12 Sheeba, J., Vivekanandan, K., Sabitha, G., dan Padmavathi, P. 
 (2013).
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 89--94
+Underfull \hbox (badness 1577) in paragraph at lines 94--99
 \T1/ptm/m/n/12 Unsupervised hidden topic framework for extracting keywords (syn
 onym,
  []
@@ -2831,7 +2832,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [63]
 \openout2 = `lampiran.aux'.
 
- (./lampiran.tex <pewa_1.pdf, id=1202, 614.295pt x 794.97pt>
+ (./lampiran.tex <pewa_1.pdf, id=1205, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf>
@@ -2842,7 +2843,7 @@ File: pewa_1.pdf Graphic file (type pdf)
 Package pdftex.def Info: pewa_1.pdf used on input line 7.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<pewa_1.pdf, id=1205, page=1, 614.295pt x 794.97pt>
+<pewa_1.pdf, id=1208, page=1, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
  <use pewa_1.pdf, page 1>
 Package pdftex.def Info: pewa_1.pdf, page1 used on input line 7.
@@ -2878,7 +2879,7 @@ Package pdftex.def Info: pewa_1.pdf, page1 used on input line 7.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1239, page=2, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1242, page=2, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 2>
@@ -2904,7 +2905,7 @@ Package pdftex.def Info: pewa_1.pdf, page2 used on input line 7.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1244, page=3, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1247, page=3, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 3>
@@ -2930,7 +2931,7 @@ Package pdftex.def Info: pewa_1.pdf, page3 used on input line 7.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pewa_1.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <pewa_1.pdf, id=1250, page=4, 614.295pt x 794.97pt>
+>] <pewa_1.pdf, id=1253, page=4, 614.295pt x 794.97pt>
 File: pewa_1.pdf Graphic file (type pdf)
 
 <use pewa_1.pdf, page 4>
@@ -3166,13 +3167,13 @@ Package rerunfilecheck Info: File `skripsi.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 16572 strings out of 493014
- 228533 string characters out of 6133352
- 494557 words of memory out of 5000000
- 19048 multiletter control sequences out of 15000+600000
+ 16576 strings out of 493014
+ 228626 string characters out of 6133352
+ 494588 words of memory out of 5000000
+ 19051 multiletter control sequences out of 15000+600000
  52816 words of font info for 76 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
- 45i,18n,51p,2192b,1765s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,18n,51p,2192b,1207s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -3184,10 +3185,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (80 pages, 728636 bytes).
+Output written on skripsi.pdf (80 pages, 729477 bytes).
 PDF statistics:
- 1388 PDF objects out of 1440 (max. 8388607)
- 1203 compressed objects within 13 object streams
- 442 named destinations out of 1000 (max. 500000)
+ 1391 PDF objects out of 1440 (max. 8388607)
+ 1206 compressed objects within 13 object streams
+ 443 named destinations out of 1000 (max. 500000)
  767 words of extra memory for PDF output out of 10000 (max. 10000000)
 

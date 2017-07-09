@@ -55,6 +55,11 @@ Nasiruddin, M. (2013).
   disambiguation for under-resourced languages.
 \newblock {\em arXiv preprint arXiv:1310.1425}.
 
+\bibitem[Noor et~al., 2011]{noor2011creating}
+Noor, N. H. B.~M., Sapuan, S., Bond, F., et~al. (2011).
+\newblock Creating the open wordnet bahasa.
+\newblock In {\em PACLIC}, pages 255--264.
+
 \bibitem[Och dan Ney, 2003]{och03:asc}
 Och, F.~J. dan Ney, H. (2003).
 \newblock A systematic comparison of various statistical alignment models.

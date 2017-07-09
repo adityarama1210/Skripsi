@@ -26,45 +26,45 @@ Repeated entry---line 315 of file skripsi.bib
  : @inproceedings{rudnick2011towards
  :                                  ,
 I'm skipping whatever remains of this entry
-You've used 20 entries,
+You've used 21 entries,
             1935 wiz_defined-function locations,
-            605 strings with 7701 characters,
-and the built_in function-call counts, 9388 in all, are:
-= -- 970
-> -- 322
-< -- 27
-+ -- 120
-- -- 108
-* -- 700
-:= -- 1502
-add.period$ -- 67
-call.type$ -- 20
-change.case$ -- 154
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 415
-empty$ -- 687
-format.name$ -- 142
-if$ -- 1965
+            610 strings with 7844 characters,
+and the built_in function-call counts, 9963 in all, are:
+= -- 1029
+> -- 345
+< -- 28
++ -- 128
+- -- 116
+* -- 742
+:= -- 1589
+add.period$ -- 70
+call.type$ -- 21
+change.case$ -- 162
+chr.to.int$ -- 21
+cite$ -- 21
+duplicate$ -- 442
+empty$ -- 729
+format.name$ -- 151
+if$ -- 2090
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 103
-num.names$ -- 60
-pop$ -- 163
+missing$ -- 20
+newline$ -- 108
+num.names$ -- 63
+pop$ -- 175
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 162
 quote$ -- 0
-skip$ -- 332
+skip$ -- 354
 stack$ -- 0
-substring$ -- 715
-swap$ -- 117
-text.length$ -- 12
+substring$ -- 759
+swap$ -- 127
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
+type$ -- 126
 warning$ -- 0
-while$ -- 86
+while$ -- 91
 width$ -- 0
-write$ -- 266
+write$ -- 279
 (There were 2 error messages)
