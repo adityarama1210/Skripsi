@@ -2,7 +2,7 @@
 %-----------------------------------------------------------------------------%
 \chapter{\babEmpat} \label{implementasi}
 %-----------------------------------------------------------------------------%
-Bab ini akan menjelaskan perihal implementasi dari rancangan yang sudah dibuat pada bab sebelumnya, mulai dari pembangunan \textit{sense tagged corpus} bahasa Inggris sampai dengan evaluasi.
+Bab ini akan menjelaskan perihal implementasi dari rancangan yang sudah dibangun pada bab sebelumnya, mulai dari pembangunan \textit{sense tagged corpus} bahasa Inggris sampai dengan evaluasi.
 
 \section{Pembangunan \textit{Sense Tagged Corpus} Bahasa Inggris}
 Proses pertama yang dilakukan adalah memisahkan kalimat bahasa Inggris dan bahasa Indonesia dari korpus Identic menjadi dua buah \textit{file} paralel untuk dapat diproses pada tahap-tahap berikutnya. Korpus yang dihasilkan setelah proses ini adalah dua buah korpus (korpus bahasa Indonesia, dan korpus bahasa Inggris) di mana masing-masing baris merupakan kalimat yang saling berpasangan.
@@ -94,7 +94,7 @@ Contoh dari hasil \textit{post-processing} pada pasangan kalimat sebelumnya adal
 <pair>law||undang-undang</pair>##<pair>no||no</pair>##<pair>14||14</pair>##<pair>2008||tahun 2008</pair>##<pair>on||tentang</pair>##<pair>freedom||kebebasan memperoleh</pair>##<pair>information||informasi</pair>
 \end{lstlisting}
 
-Hasil ini kemudian disimpan sebagai sebuah \textit{file} sendiri yang akan digunakan kembali pada proses selanjutnya. Sementara itu, keperluan nomor dua difokuskan untuk membuat \textit{dictionary} yang akan ditingkatkan kualitasnya pada tahap berikutnya. Untuk menghasilkan \textit{file} yang dibutuhkan pada nomor kedua, dilakukan pengumpulan pasangan kata bahasa Indonesia dengan bahasa Inggris. Bila misalkan pada kalimat ke-n terdapat kata "undang-undang" yang dipasangkan dengan "law", dan pasangan kata "undang-undang" dengan "regulation" pada kalimat lain (kalimat ke-m, di mana m != n). Berdasarkan kedua kalimat tersebut, maka kata "undang-undang" akan berpasangan dengan dua kata yaitu "law", dan "regulation".
+Hasil ini kemudian disimpan sebagai sebuah \textit{file} sendiri yang akan digunakan kembali pada proses selanjutnya. Sementara itu, keperluan nomor dua difokuskan untuk menghasilkan \textit{dictionary} yang akan ditingkatkan kualitasnya pada tahap berikutnya. Untuk menghasilkan \textit{file} yang dibutuhkan pada nomor kedua, dilakukan pengumpulan pasangan kata bahasa Indonesia dengan bahasa Inggris. Bila misalkan pada kalimat ke-n terdapat kata "undang-undang" yang dipasangkan dengan "law", dan pasangan kata "undang-undang" dengan "regulation" pada kalimat lain (kalimat ke-m, di mana m != n). Berdasarkan kedua kalimat tersebut, maka kata "undang-undang" akan berpasangan dengan dua kata yaitu "law", dan "regulation".
 
 \section{Peningkatan Kualitas \textit{Alignment}}
 
@@ -185,7 +185,7 @@ Proses yang terjadi pada ilustrasi di atas adalah:
 Setelah didapatkan setiap kata beserta makna hasil \textit{transfernya}, semua kata tersebut disusun ke dalam bentuk JSON dengan bentuk \textit{array of} kalimat yang isinya adalah \textit{array of words}. Setiap \textit{instance} dari \textit{word} tersebut menyimpan kata, POS Tag, dan \textit{sense key} hasil \textit{sense transfering} jika ada.
 %-----------------------------------------------------------------------------%
 \section{WSD Bahasa Indonesia}
-Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}. Proses yang pertama kali dilakukan oleh sistem adalah membaca korpus dan memilih \textit{target word}, mendapatkan \textit{sense key} dari kata tersebut untuk dijadikan sebagai \textit{class} dari klasifikasi. Pada sistem WSD yang dibuat, kata-kata yang terdapat pada \textit{list of stopwords} dihilangkan dari kalimat-kalimat pada data.
+Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}. Proses yang pertama kali dilakukan oleh sistem adalah membaca korpus dan memilih \textit{target word}, mendapatkan \textit{sense key} dari kata tersebut untuk dijadikan sebagai \textit{class} dari klasifikasi. Pada sistem WSD yang dibangun, kata-kata yang terdapat pada \textit{list of stopwords} dihilangkan dari kalimat-kalimat pada data.
 
 \subsection{Pemilihan Fitur dan \textit{Classifier}}
 Terdapat tiga buah fitur pada penelitian ini yang terdiri dari:
@@ -196,7 +196,7 @@ Terdapat tiga buah fitur pada penelitian ini yang terdiri dari:
 	\item Vektor dari hasil \textit{word embedding}
 \end{enumerate}
 
-\textit{Classifier} yang digunakan pada penelitian ini adalah SVM dari Scikit \citep{scikit-learn} dengan parameter \textit{default} berupa kernel linear dan C=1. Penggunaan SVM pada penelitian ini mengikuti \textit{classifier} yang digunakan pada IMS \cite{zhong2010makes} untuk melihat performa yang dihasilkan pada sistem WSD Bahasa Indonesia yang dibuat.
+\textit{Classifier} yang digunakan pada penelitian ini adalah SVM dari Scikit \citep{scikit-learn} dengan parameter \textit{default} berupa kernel linear dan C=1. Penggunaan SVM pada penelitian ini mengikuti \textit{classifier} yang digunakan pada IMS \cite{zhong2010makes} untuk melihat performa yang dihasilkan pada sistem WSD Bahasa Indonesia yang dibangun.
 
 \subsection{Ekstraksi Fitur}
 Proses yang dilakukan dalam pengambilan kata konteks untuk fitur \textit{bag of words} dilakukan dengan tahap-tahap berikut.
@@ -298,7 +298,7 @@ Proses evaluasi meliputi \textit{pre-processing}, anotasi data, dan evaluasi. Ha
 Setelah diberikan pasangan kalimat untuk dianotasi, anotator melakukan anotasi sesuai dengan panduan yang diberikan. Hasil dari anotasi tersebut kemudian dikumpulkan kembali untuk dievaluasi.
 
 \subsection{Evaluasi \textit{Word Alignment}}
-Evaluasi perhitungan \textit{precision}, \textit{recall}, f-score, dan \textit{agreement} merupakan penyesuaian dari rumus pada \citep{mihalcea2003evaluation}. Perhitungan dilakukan secara otomatis dengan program yang dibuat dengan kode \ref{word-alignment-evaluation}.
+Evaluasi perhitungan \textit{precision}, \textit{recall}, f-score, dan \textit{agreement} merupakan penyesuaian dari rumus pada \citep{mihalcea2003evaluation}. Perhitungan dilakukan secara otomatis dengan kode program \ref{word-alignment-evaluation}.
 
 \clearpage
 
