@@ -55,6 +55,12 @@ Nasiruddin, M. (2013).
   disambiguation for under-resourced languages.
 \newblock {\em arXiv preprint arXiv:1310.1425}.
 
+\bibitem[Navigli et~al., 2007]{navigli2007semeval}
+Navigli, R., Litkowski, K.~C., dan Hargraves, O. (2007).
+\newblock Semeval-2007 task 07: Coarse-grained english all-words task.
+\newblock In {\em Proceedings of the 4th International Workshop on Semantic
+  Evaluations}, pages 30--35. Association for Computational Linguistics.
+
 \bibitem[Noor et~al., 2011]{noor2011creating}
 Noor, N. H. B.~M., Sapuan, S., Bond, F., et~al. (2011).
 \newblock Creating the open wordnet bahasa.
@@ -96,6 +102,11 @@ Sheeba, J., Vivekanandan, K., Sabitha, G., dan Padmavathi, P. (2013).
   homonym, hyponymy and polysemy) and topics in meeting transcripts.
 \newblock In {\em Advances in Computing and Information Technology}, pages
   299--307. Springer.
+
+\bibitem[Shen et~al., 2013]{shen2013coarse}
+Shen, H., Bunescu, R.~C., dan Mihalcea, R. (2013).
+\newblock Coarse to fine grained sense disambiguation in wikipedia.
+\newblock In {\em * SEM@ NAACL-HLT}, pages 22--31.
 
 \bibitem[Taghipour dan Ng, 2015]{taghipour2015one}
 Taghipour, K. dan Ng, H.~T. (2015).

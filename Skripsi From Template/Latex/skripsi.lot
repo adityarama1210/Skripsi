@@ -4,18 +4,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Jumlah \textit {instance} korpus bahasa Inggris\relax }}{41}{table.caption.30}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Perbandingan \textit {exact match alignment} anotator\relax }}{43}{table.caption.31}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Evaluasi Word Alignment\relax }}{43}{table.caption.32}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Evaluasi \textit {Word Alignment Bi-directional}\relax }}{44}{table.caption.33}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Evaluasi \textit {Word Alignment} dengan kamus\relax }}{44}{table.caption.34}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Pasangan kata hasil \textit {random sampling} Giza, \textit {bi-directional} dan kamus\relax }}{47}{table.5.6}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Precision dari hasil \textit {random sampling alignment enhancement}\relax }}{48}{table.caption.35}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Perbandingan hasil \textit {clustering} makna kata pada proses \textit {sense transferring}\relax }}{49}{table.caption.36}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Jumlah Kelas\relax }}{50}{table.caption.37}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Sebaran Kelas\relax }}{51}{table.caption.38}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Evaluasi \textit {sense transfering} akurasi kelas makna kata\relax }}{53}{table.5.11}
-\contentsline {table}{\numberline {5.12}{\ignorespaces Evaluasi \textit {sense transfering} berdasarkan jumlah kesesuaian dengan kalimat\relax }}{54}{table.caption.39}
-\contentsline {table}{\numberline {5.13}{\ignorespaces Evaluasi sistem WSD\relax }}{56}{table.caption.40}
-\contentsline {table}{\numberline {5.14}{\ignorespaces Performa rerata sistem WSD Bahasa Indonesia\relax }}{56}{table.caption.41}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Jumlah \textit {instance} korpus bahasa Inggris\relax }}{42}{table.caption.31}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Perbandingan \textit {exact match alignment} anotator\relax }}{44}{table.caption.32}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Evaluasi Word Alignment\relax }}{44}{table.caption.33}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Evaluasi \textit {Word Alignment Bi-directional}\relax }}{45}{table.caption.34}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Evaluasi \textit {Word Alignment} dengan kamus\relax }}{45}{table.caption.35}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Pasangan kata hasil \textit {random sampling} Giza, \textit {bi-directional} dan kamus\relax }}{48}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Precision dari hasil \textit {random sampling alignment enhancement}\relax }}{49}{table.caption.36}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Perbandingan hasil \textit {clustering} makna kata pada proses \textit {sense transferring}\relax }}{50}{table.caption.37}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Jumlah Kelas\relax }}{51}{table.caption.38}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Evaluasi \textit {Sense Transfering} Berdasarkan Sebaran Kelas\relax }}{52}{table.caption.39}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Evaluasi \textit {sense transfering} akurasi kelas makna kata\relax }}{54}{table.5.11}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Evaluasi \textit {sense transfering} berdasarkan jumlah kesesuaian dengan kalimat\relax }}{55}{table.caption.40}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Evaluasi sistem WSD\relax }}{57}{table.caption.41}
+\contentsline {table}{\numberline {5.14}{\ignorespaces Performa rerata sistem WSD Bahasa Indonesia\relax }}{57}{table.caption.42}
 \addvspace {10\p@ }
