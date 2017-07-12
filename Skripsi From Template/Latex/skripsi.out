@@ -33,7 +33,7 @@
 \BOOKMARK [1][-]{section.3.1}{3.1 Rancangan Sistem}{chapter.3}% 33
 \BOOKMARK [1][-]{section.3.2}{3.2 Pembangunan Sense Tagged Corpus Bahasa Inggris}{chapter.3}% 34
 \BOOKMARK [1][-]{section.3.3}{3.3 Word Alignment Bahasa Indonesia - Bahasa Inggris}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.4}{3.4 Sense Transfering}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.4}{3.4 Sense Transferring}{chapter.3}% 36
 \BOOKMARK [1][-]{section.3.5}{3.5 WSD Bahasa Indonesia}{chapter.3}% 37
 \BOOKMARK [1][-]{section.3.6}{3.6 Evaluasi}{chapter.3}% 38
 \BOOKMARK [2][-]{subsection.3.6.1}{3.6.1 Word Alignment}{section.3.6}% 39
@@ -48,7 +48,7 @@
 \BOOKMARK [1][-]{section.4.3}{4.3 Peningkatan Kualitas Alignment}{chapter.4}% 48
 \BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Pendekatan Kamus}{section.4.3}% 49
 \BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Pendekatan Bi-directional}{section.4.3}% 50
-\BOOKMARK [1][-]{section.4.4}{4.4 Sense Transfering}{chapter.4}% 51
+\BOOKMARK [1][-]{section.4.4}{4.4 Sense Transferring}{chapter.4}% 51
 \BOOKMARK [1][-]{section.4.5}{4.5 WSD Bahasa Indonesia}{chapter.4}% 52
 \BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Pemilihan Fitur dan Classifier}{section.4.5}% 53
 \BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Ekstraksi Fitur}{section.4.5}% 54

@@ -20,7 +20,7 @@ Membangun sistem WSD biasanya dilakukan dengan beberapa pendekatan \textit{machi
 
 Makna kata yang diberikan oleh sistem WSD pada kata-kata pada umumnya berasal dari definisi pada Wordnet. Namun demikian, membangun Wordnet secara manual untuk memenuhi kebutuhannya sebagai inventaris makna kata membutuhkan waktu dan dana yang relatif tidak sedikit. Terdapat beberapa Wordnet bahasa Indonesia yang dapat digunakan, di antaranya adalah Wordnet Bahasa (bahasa.cs.ui.ac.id) dan Wordnet Bahasa yang berasal dari proyek Nanyang Technological University (NTU).  Wordnet dari Bahasa Fasilkom UI masih memiliki sedikit \textit{sets of synonyms} (synsets) yang mana berarti banyak kata-kata yang tidak tersedia di dalamnya. Wordnet bahasa dari proyek NTU sendiri masih mengandung makna kata yang tidak sesuai. Oleh karena masalah tersebut, pada penelitian ini Wordnet yang digunakan adalah Wordnet bahasa Inggris buatan Princeton yang sudah sering digunakan untuk \textit{event} Semantic Evaluation atau Sense Evaluation. Penggunaan makna kata dari Wordnet bahasa Inggris tersebut nantinya akan dipindahkan ke kata dalam bahasa Indonesia yang bersesuaian dengan memanfaatkan sifat paralel dari korpus Identic hasil penelitian \citep{larasati2012identic}.
 
-Perbedaan penelitian ini dengan \textit{cross lingual WSD Bahasa Indonesia} \citep{septiantri2013wsd} adalah bahwa penelitian ini lebih berfokus pada menghasilkan \textit{sense tagged corpus} agar dapat digunakan sebagai \textit{training} data WSD Bahasa Indonesia. Pendekatan \textit{cross lingual sense transfering} dengan bahasa Inggris sebagai pasangan korpus diharapkan dapat membangun \textit{sense tagged corpus} yang masih kurang pada bahasa Indonesia. 
+Perbedaan penelitian ini dengan \textit{cross lingual WSD Bahasa Indonesia} \citep{septiantri2013wsd} adalah bahwa penelitian ini lebih berfokus pada menghasilkan \textit{sense tagged corpus} agar dapat digunakan sebagai \textit{training} data WSD Bahasa Indonesia. Pendekatan \textit{cross lingual sense transferring} dengan bahasa Inggris sebagai pasangan korpus diharapkan dapat membangun \textit{sense tagged corpus} yang masih kurang pada bahasa Indonesia. 
 %-----------------------------------------------------------------------------%
 \section{Perumusan Masalah}
 %-----------------------------------------------------------------------------%
@@ -36,7 +36,7 @@ Beberapa pertanyaan yang menjadi rumusan masalah dalam penelitian ini yaitu:
 Tujuan dari penelitian ini adalah menghasilkan \textit{sense tagged corpus} dalam bahasa Indonesia, dan menghitung seberapa baik performa sistem WSD bahasa Indonesia yang dibangun.
 %-----------------------------------------------------------------------------%
 \section{Ruang Lingkup Penelitian}
-Penelitian berfokus pada pemindahan \textit{sense} dari korpus paralel berbahasa Inggris ke Indonesia, dan melakukan \textit{WSD task} dari hasil \textit{sense transfering} tersebut.
+Penelitian berfokus pada pemindahan \textit{sense} dari korpus paralel berbahasa Inggris ke Indonesia, dan melakukan \textit{WSD task} dari hasil \textit{sense transferring} tersebut.
 %-----------------------------------------------------------------------------%
 \section{Metodologi Penelitian}
 %-----------------------------------------------------------------------------%
@@ -68,7 +68,7 @@ Sistematika penulisan yang ada dalam laporan penelitian ini sebagai berikut:
 	Bab ini akan menjelaskan mengenai konsep dan teori yang relevan dari hasil studi literatur yang telah dilakukan. Teori-teori yang dijelaskan meliputi \textit{Word sense disambiguation}, \textit{Word sense induction}, dan beberapa hal lain yang dibutuhkan pada penelitian.
 	
 	\item Bab 3 \babTiga \\
-	Bab ini akan membahas perihal rancangan dari proses penelitian yang meliputi \textit{sense tagging} korpus Inggris, \textit{word alignment} Indonesia-Inggris, \textit{sense transfering}, dan sistem WSD bahasa Indonesia.
+	Bab ini akan membahas perihal rancangan dari proses penelitian yang meliputi \textit{sense tagging} korpus Inggris, \textit{word alignment} Indonesia-Inggris, \textit{sense transferring}, dan sistem WSD bahasa Indonesia.
 	
 	\item Bab 4 \babEmpat \\
 	Pada bab ini akan menjelaskan mengenai implementasi dari rancangan sistem yang dibangun.

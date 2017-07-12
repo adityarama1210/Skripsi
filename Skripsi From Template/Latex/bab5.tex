@@ -91,7 +91,7 @@ Berdasarkan hasil beberapa analisis \textit{word alignment} tersebut, dapat dili
 	\item Pasangan kalimat yang tidak sepenuhnya paralel (\textit{comparable}), seperti misalnya "I'm glad that you're here" dengan "Aku senang kau ada". Variasi dari bentuk kalimat \textit{comparable} terkadang mempersulit model dari Giza++ untuk menentukan pasangan kata yang benar.
 \end{enumerate}
 
-Walaupun akurasi yang didapatkan sekitar 70\%, tidak jarang ditemukan pasangan kata-kata yang tidak sesuai dan dapat menjadi masalah pada saat \textit{sense transfering} sehingga dilakukan proses \textit{word alignment enhancement}. Perbandingan antara \textit{alignment} pada \textit{sampling} dengan \textit{bi-directional} dan kamus dapat dilihat pada tabel \ref{table:word-alignment-evaluation-bidirectional} dan \ref{table:word-alignment-evaluation-kamus}.
+Walaupun akurasi yang didapatkan sekitar 70\%, tidak jarang ditemukan pasangan kata-kata yang tidak sesuai dan dapat menjadi masalah pada saat \textit{sense transferring} sehingga dilakukan proses \textit{word alignment enhancement}. Perbandingan antara \textit{alignment} pada \textit{sampling} dengan \textit{bi-directional} dan kamus dapat dilihat pada tabel \ref{table:word-alignment-evaluation-bidirectional} dan \ref{table:word-alignment-evaluation-kamus}.
 
 \begin{table}
 	\centering
@@ -169,7 +169,7 @@ Pasangan kata pada tabel di atas kemudian dihitung berapa jumlah pasangan yang b
 	\end{tabular}
 \end{table}
 
-Berdasarkan evaluasi pada tabel di atas, didapatkan bahwa pendekatan kamus pada \textit{random sampling} tersebut memiliki tingkat precision yang lebih tinggi dari \textit{bi-directional} yaitu sebesar 90\%. Kamus hasil \textit{online dictionary} inilah yang akan digunakan untuk proses \textit{sense transfering}.
+Berdasarkan evaluasi pada tabel di atas, didapatkan bahwa pendekatan kamus pada \textit{random sampling} tersebut memiliki tingkat precision yang lebih tinggi dari \textit{bi-directional} yaitu sebesar 90\%. Kamus hasil \textit{online dictionary} inilah yang akan digunakan untuk proses \textit{sense transferring}.
 
 Pengukuran \textit{recall} terhadap keseluruhan proses \textit{word alignment} lebih sulit untuk dilakukan karena data yang banyak dan kecenderungan \textit{alignment} yang dihasilkan oleh \textit{anotator} bisa berbeda-beda. Proses dari \textit{word alignment} ini dapat diverifikasi lebih rinci jika sudah terdapat metode untuk menentukan pasangan \textit{word alignment} yang benar.
 
@@ -214,12 +214,12 @@ Selain proses \textit{clustering} pada \textit{sense transferring}, evaluasi lai
 	\end{enumerate}
 \end{enumerate}
 
-Pada laporan ini, hasil dari \textit{sense transfering} yang dianalisis adalah proses yang menggunakan pendekatan kamus \textit{online}. Pada jumlah kelas sebanyak 3-5 kelas kata (\textit{sense key}), \textit{target word} yang diambil adalah "memecahkan". Kata tersebut memiliki 4 buah kelas total dengan \textit{sense key} yang didapat yaitu 'solve\%2:31:00::','resolve\%2:31:01::', 'break\%2:30:03::', dan 'split\%2:38:00::'. Kata "menolak" mewakili kelas kata sebanyak 9 buah yang di antaranya mengandung kelas 'reject\%2:40:00::', 'decline\%2:32:00::', rebuff\%2:32:00::, dan enam buah kelas lainnya. Makna kata 'decline\%2:32:00::' sendiri sebenarnya merupakan "gabungan" dengan 'refuse\%2:32:00' yang memiliki kemiripan dengan nilai \textit{path similarity} melewati batas \textit{threshold}, sehingga makna kata dianggap sama dan diberikan \textit{tag} sebagai 'decline' (dipilih satu \textit{tag} saja). Tabel \ref{table:number-classes-sense-transfering-evaluation} menunjukan contoh beberapa kata tersebut dalam beberapa konteks kalimat yang bersesuaian.
+Pada laporan ini, hasil dari \textit{sense transferring} yang dianalisis adalah proses yang menggunakan pendekatan kamus \textit{online}. Pada jumlah kelas sebanyak 3-5 kelas kata (\textit{sense key}), \textit{target word} yang diambil adalah "memecahkan". Kata tersebut memiliki 4 buah kelas total dengan \textit{sense key} yang didapat yaitu 'solve\%2:31:00::','resolve\%2:31:01::', 'break\%2:30:03::', dan 'split\%2:38:00::'. Kata "menolak" mewakili kelas kata sebanyak 9 buah yang di antaranya mengandung kelas 'reject\%2:40:00::', 'decline\%2:32:00::', rebuff\%2:32:00::, dan enam buah kelas lainnya. Makna kata 'decline\%2:32:00::' sendiri sebenarnya merupakan "gabungan" dengan 'refuse\%2:32:00' yang memiliki kemiripan dengan nilai \textit{path similarity} melewati batas \textit{threshold}, sehingga makna kata dianggap sama dan diberikan \textit{tag} sebagai 'decline' (dipilih satu \textit{tag} saja). Tabel \ref{table:number-classes-sense-transferring-evaluation} menunjukan contoh beberapa kata tersebut dalam beberapa konteks kalimat yang bersesuaian.
 
 \begin{table}
 	\centering
-	\caption{Evaluasi \textit{Sense Transfering} Berdasarkan Jumlah Kelas}
-	\label{table:number-classes-sense-transfering-evaluation}
+	\caption{Evaluasi \textit{Sense Transferring} Berdasarkan Jumlah Kelas}
+	\label{table:number-classes-sense-transferring-evaluation}
 	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
 		\hline
 		\textbf{\textit{Sense Key}} & \textbf{Makna} & \textbf{Kalimat}
@@ -258,12 +258,12 @@ Pada laporan ini, hasil dari \textit{sense transfering} yang dianalisis adalah p
 Makna kata \textit{split} yang diberikan hanya berjumlah satu buah dari keseluruhan korpus, hal ini disebabkan karena kata bahasa Inggris yang digunakan pada kalimat bahasa Inggrisnya menggunakan kata \textit{split}. Berdasarkan \textit{sampling} yang dilakukan, jumlah kelas kata yang ada bergantung pada sebanyak apa sebuah kata di bahasa Indonesia dipasangkan dengan kata bahasa Inggris yang berbeda dan memiliki makna pada \textit{sense tagged english corpus}. Jumlah kelas ini dapat bergantung pada seberapa akurasi \textit{alignment} kata yang dilakukan pada proses sebelumnya.
 
 Pada sebaran jumlah \textit{instance} di dalam kelas-kelasnya, kata "kehadiran" memiliki jumlah kelas \textit{attendance} (19 buah), \textit{presence} (64 buah), dan \textit{existence
-} 1 buah. Perbandingan kedua kelas dengan \textit{instance} terbanyak tersebut adalah 19:64 yaitu 0.29. Kedua \textit{sense} tersebut memiliki makna yang kurang lebih menyatakan sebuah \textit{state} di mana seseorang datang/hadir. Sementara itu, kelas kata "rumahnya" memiliki jumlah \textit{instance} sebanyak 32 buah pada kelas "house", dan 19 buah pada kelas "home". Perbandingan kedua kelas pada kata "rumahnya" tersebut adalah 0.59, yang mana rasio tersebut yang lebih besar dari rasio kelas kata "kehadiran" (0.29). Tabel \ref{table:class-instance-sense-transfering-evaluation} menunjukan makna kata yang dipindahkan berdasarkan \textit{sampling} berdasarkan sebaran \textit{instance} dalam kelas.
+} 1 buah. Perbandingan kedua kelas dengan \textit{instance} terbanyak tersebut adalah 19:64 yaitu 0.29. Kedua \textit{sense} tersebut memiliki makna yang kurang lebih menyatakan sebuah \textit{state} di mana seseorang datang/hadir. Sementara itu, kelas kata "rumahnya" memiliki jumlah \textit{instance} sebanyak 32 buah pada kelas "house", dan 19 buah pada kelas "home". Perbandingan kedua kelas pada kata "rumahnya" tersebut adalah 0.59, yang mana rasio tersebut yang lebih besar dari rasio kelas kata "kehadiran" (0.29). Tabel \ref{table:class-instance-sense-transferring-evaluation} menunjukan makna kata yang dipindahkan berdasarkan \textit{sampling} berdasarkan sebaran \textit{instance} dalam kelas.
 
 \begin{table}
 	\centering
-	\caption{Evaluasi \textit{Sense Transfering} Berdasarkan Sebaran Kelas}
-	\label{table:class-instance-sense-transfering-evaluation}
+	\caption{Evaluasi \textit{Sense Transferring} Berdasarkan Sebaran Kelas}
+	\label{table:class-instance-sense-transferring-evaluation}
 	\begin{tabular}{|p{4cm}|p{2.85cm}|p{2.85cm}|p{1.2cm}|}
 		\hline
 		\textbf{Kata (\textit{sense key})} & \textbf{Makna} & \textbf{Kalimat} & \textbf{Jumlah}
@@ -299,7 +299,7 @@ Kelompok \textit{sampling} lain adalah makna yang akan dilihat pada kata dengan 
 
 \subsection{\textit{Sense Class Inventory Analysis}}
 
-Terdapat beberapa kata-kata yang dipilih secara manual untuk dihitung akurasi dari kesesuaian \textit{tag} makna yang didapat. Kriteria pemilihan kata-kata sebagai \textit{sample} ini yaitu memiliki pasangan kata  dalam Bahasa Inggris dan makna kata lebih dari satu. Evaluasi ini akan menghitung seberapa banyak kelas-kelas makna kata yang benar dari hasil \textit{transfering} pada kata-kata pilihan tersebut. Hasil akurasi dari jumlah makna kata yang tepat dapat dilihat pada tabel \ref{table:akuras-kelas-makna-kata}.
+Terdapat beberapa kata-kata yang dipilih secara manual untuk dihitung akurasi dari kesesuaian \textit{tag} makna yang didapat. Kriteria pemilihan kata-kata sebagai \textit{sample} ini yaitu memiliki pasangan kata  dalam Bahasa Inggris dan makna kata lebih dari satu. Evaluasi ini akan menghitung seberapa banyak kelas-kelas makna kata yang benar dari hasil \textit{transferring} pada kata-kata pilihan tersebut. Hasil akurasi dari jumlah makna kata yang tepat dapat dilihat pada tabel \ref{table:akuras-kelas-makna-kata}.
 
 \begin{longtable}{|p{1.8cm}|p{1.2cm}|p{5cm}|p{1.2cm}|p{1.5cm}|} 
 	\hline
@@ -314,7 +314,7 @@ Terdapat beberapa kata-kata yang dipilih secara manual untuk dihitung akurasi da
 	memecah-kan & 4 & solve\%2:31:00::, resolve\%2:31:01::, \textcolor{brown}{break\%2:30:03::}, split\%2:38:00:: & 3 & 0.75 \\ \hline
 	\hline
 	\textbf{Rerata} & - & - & - & \textbf{0.73} \\ \hline
-	\caption{Evaluasi \textit{sense transfering} akurasi kelas makna kata}
+	\caption{Evaluasi \textit{sense transferring} akurasi kelas makna kata}
 	\label{table:akuras-kelas-makna-kata}
 \end{longtable}
  
@@ -327,7 +327,7 @@ Pada hasil tabel \ref{table:akuras-kelas-makna-kata}, dipilih beberapa kata-kata
 
 \begin{table}
 	\centering
-	\caption{Evaluasi \textit{sense transfering} berdasarkan jumlah kesesuaian dengan kalimat}
+	\caption{Evaluasi \textit{sense transferring} berdasarkan jumlah kesesuaian dengan kalimat}
 	\label{table:evaluasi-sense-transfer-2}
 	\begin{tabular}{|p{4cm}|p{2.85cm}|p{2.85cm}|p{1.4cm}|}
 		\hline
@@ -354,7 +354,7 @@ Berdasarkan berbagai hasil evaluasi di atas, makna kata yang tidak tepat merupak
 %-----------------------------------------------------------------------------%
 \section{WSD Bahasa Indonesia}
 
-Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai sampling dari \textit{target word} yang akan dievaluasi berdasarkan nilai F-score dari hasil rata-rata \textit{cross validation}. Kata yang dipilih merupakan \textit{instance} yang memiliki pasangan kata lebih dari satu dalam bahasa Inggris dan mempunyai makna yang berbeda dari hasil \textit{sense transfering}. \textit{Target word} yang dipilih tersebut memiliki kriteria bahwa pasangan bahasa inggris kata tersebut lebih dari satu ataupun juga pasangan bahasa inggrisnya memiliki makna yang tidak dekat (ambigu). Terdapat juga kata-kata yang ada pada analisis WSD penelitian \citep{septiantri2013wsd} untuk dicoba pada sistem WSD penelitian ini. Fitur yang dilakukan percobaan pada penelitian ini adalah F1(\textit{bag of words}), F2 (\textit{word embedding}), F3 (\textit{pos-tag}), F4 (\textit{pos tagging} dan \textit{bag of words}). Hasil evaluasi dapat dilihat pada tabel akurasi  \ref{table:wsd-evaluation-crawling} berikut.
+Untuk melihat seberapa baik performa sistem WSD dengan menggunakan \textit{sense tagged corpus} hasil dari penelitian, terdapat kata-kata yang dipilih secara manual sebagai sampling dari \textit{target word} yang akan dievaluasi berdasarkan nilai F-score dari hasil rata-rata \textit{cross validation}. Kata yang dipilih merupakan \textit{instance} yang memiliki pasangan kata lebih dari satu dalam bahasa Inggris dan mempunyai makna yang berbeda dari hasil \textit{sense transferring}. \textit{Target word} yang dipilih tersebut memiliki kriteria bahwa pasangan bahasa inggris kata tersebut lebih dari satu ataupun juga pasangan bahasa inggrisnya memiliki makna yang tidak dekat (ambigu). Terdapat juga kata-kata yang ada pada analisis WSD penelitian \citep{septiantri2013wsd} untuk dicoba pada sistem WSD penelitian ini. Fitur yang dilakukan percobaan pada penelitian ini adalah F1(\textit{bag of words}), F2 (\textit{word embedding}), F3 (\textit{pos-tag}), F4 (\textit{pos tagging} dan \textit{bag of words}). Hasil evaluasi dapat dilihat pada tabel akurasi  \ref{table:wsd-evaluation-crawling} berikut.
 \begin{table}
 	\centering
 	\caption{Evaluasi sistem WSD}

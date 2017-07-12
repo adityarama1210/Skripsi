@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {3.1}Rancangan Sistem}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}Pembangunan \textit {Sense Tagged Corpus} Bahasa Inggris}{20}{section.3.2}
 \contentsline {section}{\numberline {3.3}\textit {Word Alignment} Bahasa Indonesia - Bahasa Inggris}{20}{section.3.3}
-\contentsline {section}{\numberline {3.4}\textit {Sense Transfering}}{22}{section.3.4}
+\contentsline {section}{\numberline {3.4}\textit {Sense Transferring}}{22}{section.3.4}
 \contentsline {section}{\numberline {3.5}WSD Bahasa Indonesia}{23}{section.3.5}
 \contentsline {section}{\numberline {3.6}Evaluasi}{25}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}\textit {Word Alignment}}{25}{subsection.3.6.1}
@@ -49,7 +49,7 @@
 \contentsline {section}{\numberline {4.3}Peningkatan Kualitas \textit {Alignment}}{30}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Pendekatan Kamus}{31}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Pendekatan \textit {Bi-directional}}{31}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}\textit {Sense Transfering}}{33}{section.4.4}
+\contentsline {section}{\numberline {4.4}\textit {Sense Transferring}}{33}{section.4.4}
 \contentsline {section}{\numberline {4.5}WSD Bahasa Indonesia}{34}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Pemilihan Fitur dan \textit {Classifier}}{35}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Ekstraksi Fitur}{35}{subsection.4.5.2}

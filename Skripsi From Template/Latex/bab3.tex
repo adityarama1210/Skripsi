@@ -21,7 +21,7 @@ Proses \textit{pipeline} terdiri dari pembuatan \textit{sense tagged corpus} bah
 \section{Pembangunan \textit{Sense Tagged Corpus} Bahasa Inggris}
 %-----------------------------------------------------------------------------%
 
-Pembangunan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS \citep{zhong2010makes} untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transfering}. Gambaran proses secara singkat dapat dilihat pada \ref{fig:producing-en-tag-corpus} berikut.
+Pembangunan \textit{sense tagged corpus} bahasa Inggris dilakukan dengan menggunakan \textit{tool} IMS \citep{zhong2010makes} untuk mendapatkan makna terbaik yang dapat ditag oleh \textit{tool} tersebut. Makna kata hasil dari proses ini akan dipindahkan ke kata yang bersesuaian pada kalimat yang sama pada bagian \textit{sense transferring}. Gambaran proses secara singkat dapat dilihat pada \ref{fig:producing-en-tag-corpus} berikut.
 
 
 \begin{figure}
@@ -67,7 +67,7 @@ Penjelasan dair proses \textit{alignment} tersebut meliputi tahap-tahap berikut:
 	\item Proses \textit{alignment} yang menghasilkan beberapa macam \textit{output file} 
 \end{enumerate}
 
-Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kalimat dengan kata-kata yang sudah diselaraskan dengan translasinya dalam bahasa tujuan. Hasil ini merupakan \textit{best viterbi alignment} menurut Giza++. Penjelasan lebih mendalam tentang \textit{output file} Giza++ tersebut akan dibahas pada bab implementasi. Hasil dari proses ini kemudian akan ditingkatkan kualitasnya sebelum melakukan proses \textit{sense transfering}.
+Terdapat satu buah \textit{output file} Giza++ yang berisi pasangan-pasangan kalimat dengan kata-kata yang sudah diselaraskan dengan translasinya dalam bahasa tujuan. Hasil ini merupakan \textit{best viterbi alignment} menurut Giza++. Penjelasan lebih mendalam tentang \textit{output file} Giza++ tersebut akan dibahas pada bab implementasi. Hasil dari proses ini kemudian akan ditingkatkan kualitasnya sebelum melakukan proses \textit{sense transferring}.
 
 Proses peningkatan kualitas hasil alignment diperlukan untuk meminimalisasi kesalahan pemasangan kata-kata pada proses sebelumnya. Permasalahan  yang terjadi adalah adanya pasangan-pasangan kata yang tidak benar seperti pada halnya kata "lapangan" misalnya yang  dipasangkan dengan kata dalam bahasa Inggris yaitu \textit{field}, \textit{ground}, \textit{involved}, \textit{job}, \textit{program}, dan beberapa kata lainnya. Peningkatan kualitas \textit{alignment} ini dilakukan dengan dua buah pendekatan, yaitu dengan bantuan \textit{online dictionary} bahasa Indonesia-Inggris dan \textit{bi-directional alignment}. 
 
@@ -87,9 +87,9 @@ Pemanfaatkan hasil \textit{alignment} korpus bahasa Inggris ke Indonesia akan me
 
 
 %-----------------------------------------------------------------------------%
-\section{\textit{Sense Transfering}} \label{sec:Sense Transfering}
+\section{\textit{Sense Transferring}} \label{sec:Sense Transferring}
 %-----------------------------------------------------------------------------%
-Pemindahan makna kata dilakukan dengan beberapa \textit{sub-process} yang terdiri dari pemasangan antar kalimat, pemeriksaan kata, dan \textit{sense transfering}.
+Pemindahan makna kata dilakukan dengan beberapa \textit{sub-process} yang terdiri dari pemasangan antar kalimat, pemeriksaan kata, dan \textit{sense transferring}.
 \begin{enumerate}
 	\item Pemasangan antar kalimat yang bersesuaian dengan kata-kata yang berpasangan. Pada contoh kata "halaman" yang berpasangan dengan "courtyard", maka pasangan kalimat "Aku bermain di halaman" akan dipasangkan dengan kalimat "I play at the courtyard". Pemeriksaan untuk kata yang saling berpasangan menggunakan hasil dari \textit{alignment} dan kamus hasil \textit{alignment enhancement}.
 	\item \textit{Sense} dari kata yang menjadi \textit{target} tersebut ("halaman") kemudian diperiksa dengan \textit{sense} kata yang sama yang sudah pernah dipindahkan dari pasangan kalimat lain. Jika \textit{sense} yang ingin dipindahkan "mirip" dan memiliki kedekatan makna di atas batas \textit{threshold}, maka \textit{sense} yang akan dipindahkan hanya salah satunya saja. Proses ini diperlukan untuk meminimalisasi adanya satu kata bahasa Indonesia yang mempunyai lebih dari satu \textit{sense} yang mirip dari definisi makna tersebut.
@@ -145,5 +145,5 @@ Anotator diberikan panduan untuk melakukan anotasi sesuai dengan \textit{task} y
 Hasil \textit{alignment} dari kedua anotator masing-masing dibandingkan dengan hasil \textit{alignment} yang dilakukan oleh Giza. Perhitungan Precision, Recall, dan F-score dihitung berdasarkan perbandingan seberapa banyak \textit{alignment} yang benar dengan banyaknya \textit{alignment} yang dilakukan. Proses lebih rinci dari perhitungan yang dilakukan akan dijelaskan pada Bab 4.
 
 \subsection{Sistem WSD}
-Hasil dari \textit{sense transfering} kemudian akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. 
+Hasil dari \textit{sense transferring} kemudian akan digunakan sebagai \textit{training} dan \textit{testing} data untuk menguji performa dari sistem yang dibangun. 
 Sistem ini akan melakukan klasifikasi terhadap kata yang diberikan dengan pengetahuan berupa \textit{sense} apa saja yang mungkin untuk kata tersebut, dan kalimat di mana kata tersebut muncul. Performa dari klasifikasi tersebut akan dilihat berdasarkan perhitungan F1-score dari hasil klasifikasi makna kata yang dilakukan dengan menggunakan K-Fold \textit{cross validation}. Hasil dari \textit{classifier} tersebut akan dibandingkan dengan baseline berupa \textit{classifier} dengan pendekatan \textit{most frequent class}.

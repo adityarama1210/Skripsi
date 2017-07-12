@@ -40,7 +40,7 @@ Pada contoh tersebut, kata years memiliki \textit{sense key} berupa "year\%1:28:
 
 \section{\textit{Word Alignment}}
 
-Proses awal yang diperlukan untuk \textit{alignment} adalah memberikan kedua korpus (Indonesia dan Inggris) ke dalam input Giza++. Setelah menghasilkan \textit{file} hasil \textit{alignment}, dilakukan post-processing untuk menghasilkan kamus yang nantinya dapat digunakan untuk melakukan validasi pasangan kata pada proses \textit{sense transfering}.
+Proses awal yang diperlukan untuk \textit{alignment} adalah memberikan kedua korpus (Indonesia dan Inggris) ke dalam input Giza++. Setelah menghasilkan \textit{file} hasil \textit{alignment}, dilakukan post-processing untuk menghasilkan kamus yang nantinya dapat digunakan untuk melakukan validasi pasangan kata pada proses \textit{sense transferring}.
 
 \subsection{Pemrosesan \textit{Word Alignment}}
 Proses \textit{word alignment} menggunakan dua buah \textit{file} yaitu korpus berbahasa Indonesia dan Inggris yang sudah dipisah dari \textit{pre-processing}. Perintah \ref{word-alignment} digunakan untuk melakukan \textit{word alignment} dengan Giza pada penelitian ini.
@@ -61,7 +61,7 @@ Proses \textit{word alignment} menggunakan dua buah \textit{file} yaitu korpus b
 Giza mengeluarkan beberapa \textit{file} hasil dari proses tersebut. \textit{Output} yang akan digunakan di antaranya adalah \textit{file} bernama A3.final yang merupakan pasangan kalimat dengan kata-kata yang sudah dipasangkan sesuai dengan prediksi terbaik hasil pemrosesan Giza.
 
 \subsection{Post-Processing}
-Setelah mendapatkan \textit{file} A3 dari Giza, dilakukan \textit{post-processing} untuk menghasilkan \textit{file} yang dengan mudah dapat diproses untuk melakukan \textit{sense transfering}. Berikut ini merupakan salah satu contoh pasangan kalimat pada \textit{file} A3 keluaran Giza.
+Setelah mendapatkan \textit{file} A3 dari Giza, dilakukan \textit{post-processing} untuk menghasilkan \textit{file} yang dengan mudah dapat diproses untuk melakukan \textit{sense transferring}. Berikut ini merupakan salah satu contoh pasangan kalimat pada \textit{file} A3 keluaran Giza.
 
 \begin{lstlisting}[backgroundcolor = \color{white}]
 # Sentence pair (47183) source length 9 target length 9 alignment score : 6.85298e-13
@@ -144,7 +144,7 @@ Pertama, setiap kata dalam bahasa Indonesia dikumpulkan terlebih dahulu dengan s
 \end{enumerate} 
 
 
-\section{\textit{Sense Transfering}}
+\section{\textit{Sense Transferring}}
 Hasil dari proses peningkatan kualitas \textit{alignment} adalah sebuah "kamus" bahasa yang akan digunakan sebagai referensi untuk memindahkan makna kata dari bahasa Inggris ke kata yang benar pada bahasa Indonesia. Proses ini dilakukan dengan tahap-tahap sebagai berikut:
 
 \begin{enumerate}
@@ -160,8 +160,8 @@ Ilustrasi dari proses tersebut pada kata "halaman" secara garis besar dapat dili
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{adit_pics/sense-transfering}
-	\caption{Ilustrasi \textit{sense transfering}}
-	\label{fig:ilustrasi-sense-transfering}
+	\caption{Ilustrasi \textit{sense transferring}}
+	\label{fig:ilustrasi-sense-transferring}
 \end{figure}
 
 Proses yang terjadi pada ilustrasi di atas adalah:
@@ -182,7 +182,7 @@ Proses yang terjadi pada ilustrasi di atas adalah:
 	\item Jika "kemiripan" makna kata yang akan dipindahkan melebihi threshold (0.5), makan akan digunakan \textit{sense key} yang lama karena kedua \textit{sense key} dianggap mempunyai makna yang sama. Penghitungan seberapa dekat "makna" dari kedua \textit{sense key} tersebut dilakukan dengan bantuan \textit{method} path\_similarity dari \textit{tool} NLTK dengan korpus wordnet.
 \end{enumerate}
 
-Setelah didapatkan setiap kata beserta makna hasil \textit{transfernya}, semua kata tersebut disusun ke dalam bentuk JSON dengan bentuk \textit{array of} kalimat yang isinya adalah \textit{array of words}. Setiap \textit{instance} dari \textit{word} tersebut menyimpan kata, POS Tag, dan \textit{sense key} hasil \textit{sense transfering} jika ada.
+Setelah didapatkan setiap kata beserta makna hasil \textit{transfernya}, semua kata tersebut disusun ke dalam bentuk JSON dengan bentuk \textit{array of} kalimat yang isinya adalah \textit{array of words}. Setiap \textit{instance} dari \textit{word} tersebut menyimpan kata, POS Tag, dan \textit{sense key} hasil \textit{sense transferring} jika ada.
 %-----------------------------------------------------------------------------%
 \section{WSD Bahasa Indonesia}
 Sistem WSD dibangun dengan menggunakan \textit{supervised learning}. Pada sistem ini terdapat tiga buah bagian utama yaitu pemilihan fitur serta \textit{classifier}, ekstraksi fitur, dan evaluasi hasil \textit{classifier}. Proses yang pertama kali dilakukan oleh sistem adalah membaca korpus dan memilih \textit{target word}, mendapatkan \textit{sense key} dari kata tersebut untuk dijadikan sebagai \textit{class} dari klasifikasi. Pada sistem WSD yang dibangun, kata-kata yang terdapat pada \textit{list of stopwords} dihilangkan dari kalimat-kalimat pada data.
