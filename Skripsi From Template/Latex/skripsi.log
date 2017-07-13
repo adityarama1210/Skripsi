@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  12 JUL 2017 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.9)  13 JUL 2017 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1104,6 +1104,12 @@ Package pdftex.def Info: adit_pics/Performa-IMS.png used on input line 87.
 Underfull \hbox (badness 1158) in paragraph at lines 92--93
 []\T1/ptm/m/n/12 IMS digunakan pada penelitian ini karena sistem WSD ini sudah 
 dapat
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 98--99
+\T1/ptm/m/n/12 dan SVM. Variasi dari seknario pada penelitian tersebut meliputi
+ \T1/ptm/m/it/12 stemming\T1/ptm/m/n/12 ,
  []
 
 
@@ -3212,7 +3218,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
 Here is how much of TeX's memory you used:
  16594 strings out of 493014
  229012 string characters out of 6133352
- 495840 words of memory out of 5000000
+ 494840 words of memory out of 5000000
  19063 multiletter control sequences out of 15000+600000
  52816 words of font info for 76 fonts, out of 8000000 for 9000
  1266 hyphenation exceptions out of 8191
@@ -3228,7 +3234,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on skripsi.pdf (82 pages, 767548 bytes).
+Output written on skripsi.pdf (82 pages, 767563 bytes).
 PDF statistics:
  1416 PDF objects out of 1440 (max. 8388607)
  1225 compressed objects within 13 object streams
